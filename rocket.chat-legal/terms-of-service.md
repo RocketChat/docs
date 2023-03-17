@@ -2,7 +2,7 @@
 
 _Effective date: May 4th, 2021_
 
-These Customer Terms of Service (the “Customer Terms”) describe your rights and responsibilities pertaining to Rocket.Chat Services (the "Services"), such as Rocket.Chat Cloud Hosting, Support Plans, Marketplace, or any other services we may provide to you, the customer. Some sections of these Customer Terms only apply to specific Services, as indicated by the headings of the respective paragraph. These Customer Terms **do not** apply to on-premises installation of Rocket.Chat. Please read the Customer Terms carefully and **note that these Customer Terms include auto-renewal provisions and may limit your rights and liabilities.**
+These Customer Terms of Service (the “Customer Terms”) describe your rights and responsibilities pertaining to Rocket.Chat Services (the "Services"), such as Rocket.Chat Cloud Hosting, Support Plans, Marketplace, or any other services we may provide to you, the customer. Some sections of these Customer Terms only apply to specific Services, as indicated by the headings of the respective paragraph. These Customer Terms **do not** apply to the on-premises installation of Rocket.Chat. Please read the Customer Terms carefully and **note that these Customer Terms include auto-renewal provisions and may limit your rights and liabilities.**
 
 “Rocket.Chat,” “we,” “us,” or “our” means Rocket.Chat Technologies Corp. “Customer”, “you” or “your” means the Customer indicated below, including its users, as applicable.
 
