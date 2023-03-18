@@ -45,3 +45,68 @@ Besides the recommended setup you can out of the box access Rocket.Chat server a
 ## Backend
 
 Under the hood, the image uses docker for managing the deployment. Please read our documentation on [docker](../rapid-deployment-methods/docker-and-docker-compose/) to learn more about managing it.
+
+## Enabling HTTPS
+
+To get https, first make sure you have the correct A record (optionally CNAME) set for your domain going to your droplet IP.
+
+Create a non root user account first, if you haven't already.
+
+```bash
+username= #put your username here
+```
+
+```bash
+# you can omit docker group, if you do, run the docker commands with sudo
+sudo useradd -mG sudo,docker $username
+sudo passwd $username # give it a strong password
+# copy over the authorized_keys file so that you can ssh into that account directly
+sudo cp -r /root/.ssh /home/$username
+sudo chown -R $(id $username -u):$(id -g $username) /home/$username/.ssh
+sudo su - $username
+```
+
+Once you can confirm the records update\[s] haver propagated, follow the steps below
+
+1. Copy the `rocketchat` project directory from root, and change ownership
+
+```bash
+cd ~
+sudo cp -r /root/rocketchat .
+sudo chown -R $UID:$GID rocketchat
+cd rocketchat
+```
+
+2. Create a `.env` file with the following contents
+
+```bash
+LETSENCRYPT_EMAIL= # your email, required for the tls certificates
+# set this to your domain name or subdomain, not trailing slashes or https://, just the domain
+# make sure it actually resolves to your droplet ip
+DOMAIN= 
+RELEASE= # pin the rocketchat version, at the time of writing, prefer 6.0.0
+ROOT_URL= # set this to https://${DOMAIN} replace ${DOMAIN} with the actual domain
+BIND_IP=127.0.0.1
+
+```
+
+3. Download the traefik template
+
+```bash
+curl -LO \
+    https://raw.githubusercontent.com/RocketChat/Docker.Official.Image/master/traefik.yml
+```
+
+4. Recreate the existing Rocket.Chat container
+
+```bash
+docker compose up -d rocketchat --force-recreate
+```
+
+5. Star traefik
+
+```bash
+docker compose -f traefik.yml up -d
+```
+
+Now wait for the certs to be generated and Rocket.Chat to be restarted. After about a minute you should be able to access your instance on `https://${DOMAIN}`.
