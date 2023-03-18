@@ -78,6 +78,29 @@ We welcome any additional ideas you may have.
 
 **Difficulty:** Easy/Medium
 
+### Scaled botpress Connector
+
+**Description**:  \
+[botpress ](https://botpress.com/)is a highly popular open-source chatbot construction kit and one of the pioneers in that field.   Rocket.Chat has long worked with botpress with a variety of connectors, including one currently in our Marketplace.\
+However, these connectors are relatively simple and applicable to very basic in-channel interactions - typically servicing a few users or channels only. \
+This project aims to create a new botpress connector app that will work and scale with new microservices architecture to deliver:
+
+* multiple (hundreds) of bots running concurrently and user-friendly way of managing them
+* support for every aspect of omnichannel operation
+* improved rendering of messages&#x20;
+* introduce new APIs that can fascilitate chatbot operation
+* be the de-facto full-featured example on how to interface Rocket.Chat to a Chatbot platform
+
+**Mentors:** Duda Nogueira,  Yash Rajpal
+
+**Desired Skills:** Typescript,  Rocket.Chat Apps,  botpress internals,  Rocket.Chat Apps.
+
+**Goal/Deliverable:** A working botpress connector suitable for deployment of production Chatbots at scale.
+
+**Project Duration:** 350 hours. (Large)&#x20;
+
+**Difficulty:** Medium
+
 ### Improved Rocket.Chat Translations  (i18n)&#x20;
 
 **Description:** Rocket.Chat is widely used all over the world in multiple languages. Having a welcoming and vibrant community of translators and reviewers is essential to make sure we can deliver the best localization possible.
