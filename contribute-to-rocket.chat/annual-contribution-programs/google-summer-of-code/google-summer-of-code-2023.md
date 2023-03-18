@@ -36,6 +36,22 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 This list is being updated regularly, some project ideas are still subject to further refinement, and some projects without assigned mentors may be removed.
 
+### Whiteboard Integration
+
+**Mentor(s):**  Shiqi Mei
+
+**Description:**
+
+White boards and visual drawing/concepts sharing has become a stable of team collaboration.  Rocket.Chat currently does not offer any whiteboarding feature.  [Markboard ](https://github.com/markboard-io/markboard)is an open source incumbent whiteboard created upon the same technology stack as Rocket.Chat and built by a team led by a Rocket.Chat GSoC alumni.  This project will create a Rocket.Chat App that integrates Markboard into Rocket.Chat and extends its team collaboration features through Rocket.Chat.
+
+**Desired Skills:** Advanced Typescript.  MeteorJS.   Rocket.Chat Apps development.
+
+**Goals/Deliverables:**  Rocket.Chat App integrating Markboard into Rocket.Chat.   The App should extend team collaboration capabilities of Markboard in conjunction with our Team Channels feature.
+
+**Project Duration:** 350 hours. (Large)
+
+**Difficulty:** Advanced
+
 ### Guided RC Code Walkthrough and Tutorial
 
 **Mentor(s):** Kevin Aleman
