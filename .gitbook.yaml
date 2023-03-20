@@ -117,3 +117,4 @@ redirects:
     quick-start/installing-and-updating/paas-deployments/cloudron-io: deploy/prepare-for-your-deployment/other-deployment-methods/nonofficial-methods/cloudron-io.md
     quick-start/installing-and-updating/paas-deployments/digitalocean: deploy/prepare-for-your-deployment/cloud-deployments/digitalocean.md
     quick-start/installing-and-updating/paas-deployments/d2c-io: deploy/prepare-for-your-deployment/other-deployment-methods/nonofficial-methods/README.md
+    legal/privacy: rocket.chat-privacy-and-security/privacy-policies/privacy/README.md
