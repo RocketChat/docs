@@ -36,7 +36,7 @@ When you create a new pull request, we expect some requirements to be met.
   * When fixing documentation, add _**Fix Documentation:**_ before the title. E.g. `Fix Documentation: Authentication Guide`
   * When updating documentation, add _**Update Documentation:**_ before the title. E.g. `Update Documentation: Authentication Guide`
 * If your Pull Request closes an issue you need to write `Closes #ISSUE_NUMBER` where the `ISSUE_NUMBER` is the number at the end of the link URL that will link your pull request to the issue, when merged will close that issue.
-* For each pull request made, we run tests to check if there are any broken links. You can find how to run these tests locally [here](https://docs.rocket.chat/developer-guides/testing/#testing).
+* For each pull request made, we run tests to check if there are any broken links with GitHub workflows.
 
 ### Creating Drafts
 

@@ -35,7 +35,11 @@ See the developer guide on Getting started with Apps engine.
 
 ## Installing an App
 
-After getting your packaged and ready-to-use app in a `.zip` format, follow these instructions to install it on your workspace:
+After getting your [packaged](https://developer.rocket.chat/apps-engine/app-submission-to-the-marketplace#package-the-app) and ready-to-use app in a `.zip` format, follow these instructions to install it on your workspace:
+
+{% hint style="info" %}
+For Rocket.Chat workspace versions less than 6.0, Go to **Administration** > **Settings** > **General** > **Apps** and **Enable development mode**, then proceed to **Administration** > **Apps** to **Upload App.**
+{% endhint %}
 
 * Navigate to **Administration  > Marketplace > Private apps >**&#x20;
 * Click **Upload Private App**. You can install it from a URL or a file

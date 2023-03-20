@@ -4,7 +4,9 @@ description: You can view the available and installed Rocket.Chat Apps and manag
 
 # Rocket.Chat Marketplace
 
-[Rocket.Chat](http://rocket.chat) Apps are extensions, or plugins, that can be added to your workspace to customize your collaboration experience. For example, you can install Reminders and insert the Add Reminder button on a message in your workspace. Rocket.Chat provides many apps that can be installed and managed through the marketplace. You can search for any app on the marketplace and install it on your Rocket.Chat server. You can also upload your custom app package yourself and then install it.
+Rocket.Chat apps are extensions that users can add to their workspaces to customize and enhance their functionality. Apps can be integrated with third-party services.
+
+The [Rocket.Chat Marketplace](https://www.rocket.chat/marketplace) provides a repository of apps that users can browse, install and manage directly from within their workspace. You can also develop your own apps using the [Rocket.Chat Apps engine](https://developer.rocket.chat/apps-engine).
 
 **These Apps can do the following :**
 
@@ -16,10 +18,10 @@ description: You can view the available and installed Rocket.Chat Apps and manag
 * Send messages to users; create and manage public channels, groups, discussions, and threads.
 
 {% hint style="info" %}
-You must register your workspace (even if it is a community edition) on [Rocket.Chat Cloud](https://cloud.rocket.chat) before you can install apps from the Rocket.Chat marketplace.
+You must register your workspace (even if it is a Community Edition) on [Rocket.Chat Cloud](https://cloud.rocket.chat) before you can install apps from the Rocket.Chat marketplace.
 {% endhint %}
 
-You can browse Rocket.Chat apps either on our [marketplace](https://rocket.chat/marketplace) or access them directly from **Administration > Apps > Marketplace.**
+You can browse Rocket.Chat apps either from the [marketplace](https://rocket.chat/marketplace) or access them directly from **Administration > Apps > Marketplace.**
 
 On the **Explore** tab of the **Apps** screen,
 
@@ -39,9 +41,9 @@ On the **Installed** tab of the **Apps** screen,
 
 ### Public Apps
 
-Public Apps are all the apps available on the Rocket.Chat [marketplace](https://www.rocket.chat/marketplace). If you are a third-party publisher/developer, you can also submit an app to the marketplace and Rocket.Chat can approve or reject it.&#x20;
+Public Apps are all the apps available on the Rocket.Chat [marketplace](https://www.rocket.chat/marketplace). If you are a third-party publisher/developer, you can also [submit an app to the marketplace](https://developer.rocket.chat/apps-engine/app-submission-to-the-marketplace).
 
-To submit an app to the marketplace, the publisher must have a Rocket.Chat [Cloud Account](https://cloud.rocket.chat/login) and register their publisher account. You can find more about it on our [developer documentation. ](https://developer.rocket.chat/apps-engine/app-submission-to-the-marketplace)
+To submit an app to the marketplace, the publisher must have a Rocket.Chat [Cloud Account](https://cloud.rocket.chat/login) and register their publisher account. You can find more about it in the [developer documentation. ](https://developer.rocket.chat/apps-engine/app-submission-to-the-marketplace)
 
 {% hint style="info" %}
 You can learn how to install and enable each of them in the [App Guide](rocket.chat-public-apps-guides/).
@@ -49,26 +51,43 @@ You can learn how to install and enable each of them in the [App Guide](rocket.c
 
 ### Private Apps
 
-A workspace can develop its apps and publish them on the workspace. These are called private apps. They can only work on the workspace that uploaded it.
+You can develop private apps to be used for your workspace or choose to publish the app to the Marketplace for others to install and use on their own workspaces.
 
-If you want to develope your private Rocket.Chat app you can follow the [developer guides here](https://developer.rocket.chat/apps-engine/rocket.chat-apps-engine). If you are looking for the information of user roles in marketplace, check [marketplace-roles.md](../../setup-and-configure/roles-in-rocket.chat/marketplace-roles.md "mention").
+Private apps only work for the workspaces it has been manually installed on. Follow [this guide](https://developer.rocket.chat/apps-engine/getting-started/creating-an-app) on how to develop Rocket.Chat apps.
 
-## App Limitations
+#### Installing a Private App
+
+To install a Private app, get your app [packaged](https://developer.rocket.chat/apps-engine/app-submission-to-the-marketplace#package-the-app) and ready-to-use app in a `.zip` format, follow these instructions to install it on your workspace:
+
+{% hint style="info" %}
+For Rocket.Chat workspace versions less than 6.0, Go to **Administration** > **Settings** > **General** > **Apps** and **Enable development mode**, then proceed to **Administration** > **Apps** to **Upload App.**
+{% endhint %}
+
+* Navigate to **Administration  > Marketplace > Private apps >**&#x20;
+* Click **Upload Private App**
+* Choose the installation method ( URL or a compiled `.zip)` and **Install**
+* **Agree** to the permissions needed to complete the installation.
+
+The app is installed on the workspace and ready to use.
+
+## App Limitation
 
 ### Community Edition
 
-For community edition (CE), workspaces can install numerous Public apps (apps from the marketplace) but enable only five. And they can enable three Private apps. Once it reaches the limit, you can upgrade to the enterprise edition (EE) for access to enable all apps in the workspace.  Refer to the table below for better understanding.
+Community Edition (CE), workspaces can install numerous Public apps (apps from the marketplace) but enable only five. And they can allow three Private apps. Once it reaches the limit, you can upgrade to the[ Enterprise Edition](./#enterprise-edition) (EE) for access to enable all apps in the workspace.  Refer to the table below for a better understanding.
 
 | Community Edition 6.0 | Public apps | Private apps |
 | --------------------- | ----------- | ------------ |
 | Install               | Unlimited   | Unlimited    |
 | Enable/Use            | 5           | 3            |
 
-If your workspace version is `5.4` or lower, you can use all the enabled public and private apps you already have. However, you can not purchase or enable more apps once the limit is reached.&#x20;
+{% hint style="info" %}
+For workspace version`5.4` or lower, you can use all the enabled public and private apps you already have. However, you can not purchase or enable more apps once the limit is reached.&#x20;
+{% endhint %}
 
 ### Enterprise Edition
 
-For enterprise edition (EE), workspaces can install all Public and Private apps. But, if an enterprise edition (EE) workspace license expires and the workspace has exceded the the **** limit, then marketplace disables all downloaded apps, and the app count returns to zero.
+Enterprise Edition (EE), workspaces can install all Public and Private apps. But, if the workspace license expires and the workspace has exceeded the **** limit, then the marketplace disables all downloaded apps, and the app count returns to zero.
 
 ## Enterprise Edition App Offerings
 

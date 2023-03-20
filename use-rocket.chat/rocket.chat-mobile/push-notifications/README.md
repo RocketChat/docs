@@ -7,11 +7,11 @@ There are two ways to set up push notifications with Rocket.Chat:
 
 ## Push Gateway
 
-Select this option if you and your users intend to use the official Rocket.Chat mobile applications. option. To enable push alerts to be received on our official mobile application by any server, we set up a push gateway holding our keys. By doing this, we safeguard the secret keys required to transmit notifications to you and your users via Apple(APN) and Google (FCM) systems.
+Select this option if you and your users intend to use the official Rocket.Chat mobile applications. We set up a push gateway holding our keys to enable push alerts to be received on our official mobile application by any server. Doing this safeguards the secret keys required to transmit notifications to you and your users via Apple(APN) and Google (FCM) systems.
 
 ## Self Configured
 
-When you choose to self-configure the push notifications, things become a bit more complicated. First, you need to get keys from both Apple and Google and compile/release your mobile applications to the app stores so your public keys will be distributed to your users. You will also need to add your keys to Rocket.Chat.
+When you self-configure the push notifications, things become more complicated. First, you need to get keys from both Apple and Google and compile/release your mobile applications to the app stores so your public keys will be distributed to your users. You will also need to add your keys to Rocket.Chat.
 
 Then, compile them for iOS and Android and submit them to the appropriate app stores for review. Finally, direct your users to download your custom version of the Rocket.Chat mobile applications.
 
@@ -19,13 +19,13 @@ Then, compile them for iOS and Android and submit them to the appropriate app st
 
 The Rocket.Chat native application for Android supports the FCM system. You can configure it with the following steps:
 
-* Create a Firebase project in the Firebase console if you don't already have one. Click Add project. If you already have an existing Google project associated with your mobile app, select it from the Project name drop-down menu. Otherwise, enter a project name to create a new project.
-* _**(Optional)**_ Edit your Project ID. Your project is given a unique ID automatically, and it's used in publicly visible Firebase features such as database URLs and your Firebase Hosting subdomain. You can change it now if you want to use a specific subdomain.
-* Follow the remaining setup steps and click Create a project (or Add Firebase if you're using an existing project) to begin provisioning resources for your project. This typically takes a few minutes. When the process completes, you'll be taken to the project overview.
-* Now that you have a project, you can add your Android app. Click Add Firebase to your Android app and follow the setup steps. If you're importing an existing Google project, this may happen automatically, and you can [download the config file](http://support.google.com/firebase/answer/7015592).
-* When prompted, enter your app's package name. It's important to enter the package name your app uses; this can only be set when you add an app to your Firebase project.
+* Create a Firebase project in the Firebase console if you don't already have one. Click Add project. If you already have a Google project associated with your mobile app, select it from the Project name drop-down menu. Otherwise, enter a project name to create a new project.
+* _**(Optional)**_ Edit your Project ID. Your project automatically receives a unique ID used in publicly visible Firebase features such as database URLs and your Firebase Hosting subdomain. You can change it now if you want to use a specific subdomain.
+* Complete the setup steps and click Create a project (or Add Firebase if you're using an existing project) to begin provisioning resources for your project. This typically takes a few minutes. When the process completes, the project overview is displayed.
+* Now that you have a project, you can add your Android app. Click **Add Firebase to your Android** app and follow the setup steps. If you're importing an existing Google project, this may happen automatically, and you can [download the config file](http://support.google.com/firebase/answer/7015592).
+* When prompted, enter your app's package name. It's essential to enter your app's package name; this can only be set when you add an app to your Firebase project.
 * During the process, you'll download a `google-services.json` file. You can [download this file](http://support.google.com/firebase/answer/7015592) again at any time.
-* After you add the initialization code, run your app to send verification to the Firebase console that you've successfully installed Firebase
+* After you add the initialization code, run your app to send verification to the Firebase console that you've successfully installed Firebase.
 
 ### Configuring for iOS
 

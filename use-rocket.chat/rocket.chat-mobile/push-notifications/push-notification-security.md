@@ -24,7 +24,7 @@ If the above privacy settings are disabled, the user receives a push notificatio
 
 ### **Fetch full message content from the server on the receipt**
 
-If this setting is enabled, the notification payload sent through the Apple Push Notification service or Firebase Cloud Messaging service contains no message content. Instead, it has only the message ID, which is used by the mobile app to fetch the message content from the [Rocket.Chat](http://rocket.chat) server to display the notification. A generic push notification message is shown if something happens and the app cannot reach the server in time. When the setting is disabled, the message content is sent via push notification payload so the mobile app can immediately display the notification.
+If this setting is enabled, the notification payload sent through the Apple Push Notification service or Firebase Cloud Messaging service contains no message content. Instead, it has only the message ID, which the mobile app uses to fetch the message content from the [Rocket.Chat](http://rocket.chat) server to display the notification. A generic push notification message is shown if something happens and the app cannot reach the server in time. When the setting is disabled, the message content is sent via push notification payload so the mobile app can immediately display the notification.
 
 To update privacy for push notifications,
 
