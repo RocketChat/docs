@@ -78,7 +78,31 @@ We welcome any additional ideas you may have.
 
 **Difficulty:** Easy/Medium
 
+### Flutter SDK for Rocket.Chat
+
+**Mentors:**  Sing Li,  Debdut Chakraborty
+
+**Description:**\
+In recent years, [Flutter ](https://flutter.dev/)has became the de-facto standard for high performance open source multi-platforms apps development. Thanks to its[ huge global developers community](https://flutter.dev/community) and the ever-growing ecosystem of [open source flutter components](https://pub.dev/packages).
+
+This project aims to create an easy to integrate flutter component to embed Rocket.Chat into any existing and new flutter applications (similar to our existing [EmbeddedChat](https://github.com/RocketChat/EmbeddedChat) project). In addition, a layer of Dart friendly API/stub needs to be created for application that needs in-depth modification of chat behavior or needing to use the chat engine as a messaging fabric.\
+\
+We invite and welcome original proposals at varying level.
+
+**Desired Skills:**
+
+Flutter, Flutter components construction, Dart, JavaScript. A thorough understanding of how Rocket.Chat core works. Knowledge of Flutter multi-platform development (Android, iOS, Linux, Windows and MacOS).
+
+**Goals/Deliverables:**\
+An SDK that enable easy embedding of RC instances into any flutter app plus Dart APIs to access RC collaboration engine internals.
+
+**Project Duration:** 350 hours (Large)\
+\
+**Difficulty:** Advanced
+
 ### Scaled botpress Connector
+
+**Mentors:** Duda Nogueira,  Yash Rajpal
 
 **Description**:  \
 [botpress ](https://botpress.com/)is a highly popular open-source chatbot construction kit and one of the pioneers in that field.   Rocket.Chat has long worked with botpress with a variety of connectors, including one currently in our Marketplace.\
@@ -91,8 +115,6 @@ This project aims to create a new botpress connector app that will work and scal
 * introduce new APIs that can fascilitate chatbot operation
 * be the de-facto full-featured example on how to interface Rocket.Chat to a Chatbot platform
 
-**Mentors:** Duda Nogueira,  Yash Rajpal
-
 **Desired Skills:** Typescript,  Rocket.Chat Apps,  botpress internals,  Rocket.Chat Apps.
 
 **Goal/Deliverable:** A working botpress connector suitable for deployment of production Chatbots at scale.
@@ -103,11 +125,11 @@ This project aims to create a new botpress connector app that will work and scal
 
 ### Improved Rocket.Chat Translations  (i18n)&#x20;
 
+**Mentors:** Douglas Fabris, Duda Nogueira
+
 **Description:** Rocket.Chat is widely used all over the world in multiple languages. Having a welcoming and vibrant community of translators and reviewers is essential to make sure we can deliver the best localization possible.
 
 This project aims to both convert today's i18n to work with community friendly open source translation platform such as weblate and  kick-off a translation community.&#x20;
-
-**Mentors:** Douglas Fabris, Duda Nogueira
 
 **Desired Skills:**  Advanced Typescript.  Familiarity with i18n platform and technologies, weblate preferred.&#x20;
 
@@ -378,7 +400,7 @@ Nowadays we already have a version of the [playground](https://rocketchat.github
 
 ### Integrate Notion via RC App <a href="#docs-internal-guid-1a00b1ee-7fff-e115-48e0-272ddd46db45" id="docs-internal-guid-1a00b1ee-7fff-e115-48e0-272ddd46db45"></a>
 
-**Mentors:** Bárbara Zanella and Samad Khan
+**Mentors:** Bárbara Zanella, Samad Khan
 
 **Description:** Create pages and receive notifications inside Rocket.Chat
 
@@ -458,28 +480,6 @@ Working WordPress plugin on the WP marketplace supporting Rocket.Chat integratio
 **Project Duration:** 350 hours (Large)\
 **Difficulty:** Medium\
 
-
-### Flutter SDK for Rocket.Chat
-
-**Mentors:** TBD
-
-**Description:**\
-In recent years, [Flutter ](https://flutter.dev/)has became the de-facto standard for high performance open source multi-platforms apps development. Thanks to its[ huge global developers community](https://flutter.dev/community) and the ever-growing ecosystem of [open source flutter components](https://pub.dev/packages).
-
-This project aims to create an easy to integrate flutter component to embed Rocket.Chat into any existing and new flutter applications (similar to our existing [EmbeddedChat](https://github.com/RocketChat/EmbeddedChat) project). In addition, a layer of Dart friendly API/stub needs to be created for application that needs in-depth modification of chat behavior or needing to use the chat engine as a messaging fabric.\
-\
-We invite and welcome original proposals at varying level.
-
-**Desired Skills:**
-
-Flutter, Flutter components construction, Dart, JavaScript. A thorough understanding of how Rocket.Chat core works. Knowledge of Flutter multi-platform development (Android, iOS, Linux, Windows and MacOS).
-
-**Goals/Deliverables:**\
-An SDK that enable easy embedding of RC instances into any flutter app plus Dart APIs to access RC collaboration engine internals.
-
-**Project Duration:** 350 hours (Large)\
-\
-**Difficulty:** Advanced
 
 ### Open source Metaverse integration (mozilla hubs / third room)
 
