@@ -306,7 +306,7 @@ Agile adoption is increasing year to year on the different industries. There is 
 
 ### Token Economy for Team Channels
 
-**Mentors:** José Paulo,  Aaron Ogle
+**Mentors:** José Paulo
 
 **Description:**\
 Rocket.Chat has Team Channels to handle sub-communities wanting autonomous control over their membership within a scaled server (possibly servicing tens of thousands of users).
@@ -456,20 +456,28 @@ With Elasticsearch integrated into the tech stack, the bot can leverage the powe
 \
 **Difficulty:** Medium/Advanced
 
-### Penetration Testing and Fixing Potential Vulnerabilities
+### Penetration Tests and Potential Vulnerabilities Fixes
 
 **Mentor(s):** Igor Rincon
 
 **Description:**\
-Security is critical to any website, and Rocket.chat recognizes the importance of safeguarding confidential information. Website security and penetration testing involve identifying potential vulnerabilities, evaluating risks, conducting tests, and implementing countermeasures to prevent unauthorized access. The focus of the project is going to be conducting security research on the Rocket.chat open-source project and identifying and repairing specific security vulnerabilities that will be found. Additionally, there is a need to expand and create continuous integration tools to prevent the introduction of new vulnerabilities. The overall goal is to deliver a platform that is secure and reliable for use by multiple users.&#x20;
+Security is critical to any open source project that works with user data over the web, and Rocket.chat recognizes the importance of safeguarding confidential information. Web application security and penetration testing involve identifying potential vulnerabilities, evaluating risks, conducting tests, and implementing countermeasures to prevent unauthorized access. \
+\
+The focus of the project is going to be conducting security research on the Rocket.chat open-source project and identifying and repairing specific security vulnerabilities that will be found. \
+\
+For this project, the automated and manual security tests, including static analysis, penetration testing, and vulnerability scanning will be maintained in the[ Rocket.Chat open source pentest repository](https://github.com/RocketChat/pentests).\
+\
+In addition, the proposal should include some continuous integration tools to prevent the introduction of new vulnerabilities. \
+\
+Together, these tests  and tools will allow us to deliver a collaboration platform that is secure and reliable for use by all our community users.&#x20;
 
 #### Expected Deliverables:
 
-* Github Recon, also known as Github footprinting, is a process where researchers use Github to collect information about an organization's internal infrastructure, security configurations, codebase, tools, and policies. This is achieved by closely examining public repositories, reviewing organization accounts, commits, and pull requests, and searching for any useful pieces of information that could help better understand the target. The process involves identifying key personnel within an organization and looking into their contributions and activities on Github. These can provide insight into the type of work they may be involved in, tools and technologies they use, and any potential security risks or misconfigurations they may have unintentionally leaked onto the public platform.
 * Automated and Manual security tests, including static analysis, penetration testing, and vulnerability scanning.
-* A detailed risk assessment report, including a prioritized list of vulnerabilities and recommended fixes.
-* Integration of continuous integration tools to prevent the introduction of new vulnerabilities.
-* Implement recommended fixes and retesting of the system to ensure that vulnerabilities are resolved.
+* Recommend (and possibly implement)  fixes and retesting of the system to ensure that vulnerabilities are resolved.
+* creation and/or integration of continuous integration tools to prevent the introduction of new vulnerabilities.
+* A detailed risk assessment report, including a prioritized list of vulnerabilities and recommended fixes  (these may need to be submitted in private initially until time for public disclosure)
+* Possible addition --  Tools to enable Github Recon, also known as Github footprinting.  It is a process where researchers use Github to collect information about an organization's internal infrastructure, security configurations, codebase, tools, and policies. This is achieved by closely examining public repositories, reviewing organization accounts, commits, and pull requests, and searching for any useful pieces of information that could help better understand the target. The process involves identifying key personnel within an organization and looking into their contributions and activities on Github. These can provide insight into the type of work they may be involved in, tools and technologies they use, and any potential security risks or misconfigurations they may have unintentionally leaked onto the public platform.
 
 **Desired Skills:** Penetration test, Javascript, Burp Suite
 
