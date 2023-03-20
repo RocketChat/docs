@@ -1,18 +1,18 @@
 root: ./
 
 redirects:
-    security: contributors/how-can-i-help/security/README.md
+    security: contribute-to-rocket.chat/how-can-i-help/security/README.md
     guides/developer/quick-start: rocket.chat-resources/development-docs.md
     guides/developer-guides/rest-api/: rocket.chat-resources/development-docs.md
     guides/developer/mobile-apps/whitelabeling-mobile-apps: rocket.chat-resources/development-docs.md
     guides/apps-development/getting-started: rocket.chat-resources/development-docs.md
     guides/bots/create-and-run-a-bot/hubot-bot: rocket.chat-resources/development-docs.md
-    guides/administration/administration/identity-management-ee-vs-ce: guides/administration/identity-management-ee-vs-ce.md
+    guides/administration/administration/identity-management-ee-vs-ce: setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md
     apps-development/getting-started: rocket.chat-resources/development-docs.md
     api/rest-api: rocket.chat-resources/development-docs.md
     guides/administration/settings/ldap: guides/administration/admin-panel/settings/ldap/README.md
     guides/administration/admin-panel/settings/ldap/user-search-settings: guides/administration/admin-panel/settings/ldap/README.md
-    installation/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
+    installation/manual-installation/centos: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     administrator-guides/integrations/zapier/using-zaps: guides/administration/admin-panel/integrations/zapier.md
     installation/docker-containers/docker-compose: quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/README.md
     developer-guides/rest-api: rocket.chat-resources/development-docs.md
@@ -22,7 +22,6 @@ redirects:
     developer-guides/mobile-apps/supporting-ssl: rocket.chat-resources/development-docs.md
     developer-guides: rocket.chat-resources/development-docs.md
     guides/administration/settings/omnichannel-admins-guide: guides/administration/admin-panel/settings/omnichannel-admins-guide/README.md
-    quick-start/installing-and-updating/paas-deployments/aws-marketplace: quick-start/installing-and-updating/paas-deployments/aws.md
     guides/administration/administration/settings/canned-responses-rocket.chat-admins-guides: guides/omnichannel/canned-responses/canned-responses-rocket.chat-admins-guides.md
     developer-guides/iframe-integration/authentication: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/chat/postmessage: rocket.chat-resources/development-docs.md
@@ -38,9 +37,8 @@ redirects:
     developer-guides/rest-api/livechat/sms-incoming: rocket.chat-resources/development-docs.md
     guides/administration/settings/account-settings: guides/administration/admin-panel/settings/account-settings/README.md
     guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: rocket.chat-resources/development-docs.md
-    installation/manual-installation/centos/: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
+    installation/manual-installation/centos/: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     installation/paas-deployments/heroku: quick-start/installing-and-updating/introduction/choosing-a-deployment-method.md
-    installing-and-updating/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     developer-guides/quick-start: rocket.chat-resources/development-docs.md
     api/rest-api/methods/chat/sendmessage: rocket.chat-resources/development-docs.md
     developer-guides/mobile-apps: rocket.chat-resources/development-docs.md
@@ -50,7 +48,7 @@ redirects:
     developer-guides/realtime-api/method-calls/login: rocket.chat-resources/development-docs.md
     developer-guides/realtime-api/method-calls/login/: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/livechat: rocket.chat-resources/development-docs.md
-    quick-start/installing-and-updating/manual-installation/centos: quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
+    quick-start/installing-and-updating/manual-installation/centos: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     user-guides/voice-and-video-calls: guides/rocket.chat-conference-call/README.md
     developer-guides/deeplink: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/users/info: rocket.chat-resources/development-docs.md
@@ -74,7 +72,6 @@ redirects:
     quick-start/accessing-your-workspace/starting-and-stopping: quick-start/accessing-your-workspace/starting-and-stopping-docker-compose.md
     guides/administration/administration/settings/email/setup: guides/administration/admin-panel/settings/email/setup.md
     guides/administration/settings/file-upload: guides/administration/admin-panel/settings/file-upload/README.md
-    quick-start/installing-and-updating/paas-deployments/oracle-cloud: quick-start/deploying-rocket.chat/README.md
     master/server-management/integration-and-webhooks/telegram: guides/administration/admin-panel/integrations/telegram.md
     installation/paas-deployments/ibm-bluemix/: quick-start/deploying-rocket.chat/README.md
     guides/administration/settings/video-conference-admin-guide/jitsi-admins-guide: guides/rocket.chat-conference-call/README.md
@@ -107,3 +104,16 @@ redirects:
     installing-and-updating/manual-installation/debian: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/debian.md
     installing-and-updating/automation-tools/kubernetes-using-helm: deploy/prepare-for-your-deployment/rapid-deployment-methods/helm.md
     installing-and-updating/: deploy/prepare-for-your-deployment/README.md
+    guides/administration/admin-panel/connectivity-services: use-rocket.chat/workspace-administration/connectivity-services.md
+    installing-and-updating/manual-installation/centos: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
+    quick-start/installing-and-updating/rapid-deployment-methods/rocketchatctl: deploy/prepare-for-your-deployment/rapid-deployment-methods/rocketchatctl.md
+    quick-start/installing-and-updating/paas-deployments/aws-marketplace: deploy/prepare-for-your-deployment/cloud-deployments/aws.md
+    quick-start/installing-and-updating/paas-deployments/indiehosters: deploy/prepare-for-your-deployment/other-deployment-methods/README.md
+    quick-start/installing-and-updating/paas-deployments/openshift: deploy/prepare-for-your-deployment/other-deployment-methods/nonofficial-methods/openshift.md
+    installing-and-updating/manual-installation: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md
+    quick-start/installing-and-updating/manual-installation/univention-corporate-server-ucs: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/README.md
+    quick-start/installing-and-updating/paas-deployments/ibm-cloud: deploy/prepare-for-your-deployment/cloud-deployments/ibm-cloud.md
+    quick-start/installing-and-updating/paas-deployments/oracle-cloud: deploy/prepare-for-your-deployment/cloud-deployments/README.md
+    quick-start/installing-and-updating/paas-deployments/cloudron-io: deploy/prepare-for-your-deployment/other-deployment-methods/nonofficial-methods/cloudron-io.md
+    quick-start/installing-and-updating/paas-deployments/digitalocean: deploy/prepare-for-your-deployment/cloud-deployments/digitalocean.md
+    quick-start/installing-and-updating/paas-deployments/d2c-io: deploy/prepare-for-your-deployment/other-deployment-methods/nonofficial-methods/README.md
