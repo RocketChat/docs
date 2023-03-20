@@ -316,6 +316,7 @@
   * [Canned Responses](use-rocket.chat/omnichannel/canned-responses/README.md)
     * [Canned Responses Omnichannel Manager's Guide](use-rocket.chat/omnichannel/canned-responses/canned-responses-omnichannel-managers-guide.md)
   * [Tags](use-rocket.chat/omnichannel/tags.md)
+  * [SLA Policies](use-rocket.chat/omnichannel/sla-policies.md)
   * [Priorities](use-rocket.chat/omnichannel/priorities.md)
 * [Message Auditing](use-rocket.chat/message-auditing/README.md)
   * [Review All Message Auditing Panel Search Results](use-rocket.chat/message-auditing/review-all-message-auditing-panelsearch-results.md)

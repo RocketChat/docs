@@ -1,41 +1,35 @@
 # Priorities
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (12).jpg>)
+<figure><img src="../../.gitbook/assets/EnterpriseEditionTag (2).jpg" alt=""><figcaption></figcaption></figure>
 
-Omnichannel Priorities enables you to change the order of Omnichannel queues based on `Estimated Due Time`.
+OmniChannel Priorities helps you streamline conversations coming through multiple queues to prioritize them and enhance productivity. It is helpful for [agents](agents.md) to determine the conversations they should prioritize when responding to customers. The omnichannel queue contains chats with and without priorities because they are not assigned by default.
 
-Conversations associated with priorities will be sorted in the order of estimated due time from a shorter to a longer time. This means chats with a shorter due time(high priority) will appear in the queue before others with either longer or no due time set(low priority).
+To configure **Priorities** in your workspace,
 
-{% hint style="info" %}
-`Estimated Due Time` is an estimated time defined for a customer to be served. If the estimated due time is, for instance, 10 minutes, the customer is supposed to wait in queue for up to 10 minutes until an agent takes the chat.
-{% endhint %}
+* Navigate to **Administration > Workspace > Settings > Omnichannel > Queue Management**.
+* Under the **sorting mechanism**, select **priorities.** Click **Save Changes**.
+* Navigate to **Administration > Omnichannel > Priorities**. It lists the default priorities: **Highest**, **High**, **Medium**, **Low,** and **Lowest**.
+* Select a priority to edit it and customize the name.
+* Click **Reset** to return the name of all the priorities back to default.
 
-To access **Priorities** settings,
+## Change the Priority of a chat
 
-* Go to **Administration > Omnichannel > Priorities**.
+To manually change the priority of a conversation,
 
-## List Omnichannel Priorities
-
-On the Priorities main menu, a list of all priorities is seen if any exists. Clicking on any opens a panel to edit it.
-
-Each Priority has its own(unique) `Estimated due time`(time in minutes), so once a priority is associated with an `Inquiry/room`, this value is used to set the [queue ](../omnichannel-agents-guides/omnichannel-queue.md)inquiry order. Priority is not mandatory for each conversation. Thus, the Omnichannel queues will have conversations with and without priorities.
-
-## Create Omnichannel Priorities
-
-To create an Omnichannel Priority:
-
-* Click on **+ New**
-* Update the required information and click **Save**
-  * **Name**: What name to call the Priority
-  * **Description**: The description of the Priority
-  * **Estimated due time**: Lets you set a time in minutes for the Priority
+* Hover over the chat and click the **kebab** menu. Select the **priority** option you want to assign to that chat.
+* After the priority is updated, the chat is moved to reflect its priority position in the [queue](../omnichannel-agents-guides/omnichannel-queue.md). For example, a chat with the priority '**highest**" is transferred to the top of the chat queue.
+* You can also change the priority of a chat from the **Edit room** tab of the chat by navigating to **Room Information > Edit**.
 
 {% hint style="info" %}
-Priorities can be added to a conversation by editing the Omnichannel room info.
+Organizations can benefit from automation using chatbots to determine the priority of each conversation based on the nature of its contents.
 {% endhint %}
 
-## Delete Omnichannel Priorities
+## Filter Omnichannel chats by Priorities
 
-To delete an existing **Priority**,&#x20;
+As an Omnichannel [manager](managers.md), you can filter the chats based on their priorities. You can join or forward a high-priority chat to follow up and ensure they are resolved on time.
 
-* Click on the **Delete icon** across the Priority from the main settings screen.
+To filter chats based on priorities,
+
+* Navigate to **Administration > Omnichannel > Current Chats**.
+* You can preview the priority of each chat from this table.
+
