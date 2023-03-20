@@ -1,6 +1,6 @@
 # Priorities
 
-<figure><img src="../../.gitbook/assets/EnterpriseEditionTag (2).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (21).jpg" alt=""><figcaption></figcaption></figure>
 
 OmniChannel Priorities helps you streamline conversations coming through multiple queues to prioritize them and enhance productivity. It is helpful for [agents](agents.md) to determine the conversations they should prioritize when responding to customers. The omnichannel queue contains chats with and without priorities because they are not assigned by default.
 

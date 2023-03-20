@@ -443,7 +443,7 @@ The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT
 
 ### Next Generation Desktop Apps on Tauri
 
-**Mentors:** Jean Brito, Gabriel Casals
+**Mentors:** Jean Brito, David Alen
 
 **Description:**\
 Today our Desktop app is done in ElectronJS. Tauri is a new framework that is catching eyes for desktop apps development. The idea is to create a new Desktop app using Tauri to test it viability and capabilities. You will be creating a desktop app for one server with all the main features like notifications, tray icon, downloads and settings panel. With this app we can see what Tauri can do for us and maybe one day become our main desktop app framwork.
