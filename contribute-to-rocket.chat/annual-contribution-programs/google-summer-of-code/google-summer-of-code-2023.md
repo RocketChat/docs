@@ -398,7 +398,7 @@ The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT
 **Mentors:** Jean Brito, David Alen
 
 **Description:**\
-Today our Desktop app is done in ElectronJS. Tauri is a new framework that is catching eyes for desktop apps development. The idea is to create a new Desktop app using Tauri to test it viability and capabilities. You will be creating a desktop app for one server with all the main features like notifications, tray icon, downloads and settings panel. With this app we can see what Tauri can do for us and maybe one day become our main desktop app framwork.
+Today our Desktop app is done in ElectronJS. Tauri is a new framework that is catching eyes for desktop apps development. The idea is to create a new Desktop app using Tauri to test it viability and capabilities. You will be creating a desktop app for one platform with all the main features like notifications, tray icon, downloads and settings panel. With this app we can see what Tauri can do for us and maybe one day become our main desktop app framwork. &#x20;
 
 **Desirable Skills:** Desktop applications development, Javascript/Typescript and a little of Rust experience is a plus.
 
@@ -660,7 +660,7 @@ This project aims to fill up part of this gap. It includes the mobile implementa
 **Mentors:** TBD
 
 **Description:**\
-Creating a high performance native desktop client for the Windows platform (Windows 10 and 11). This client should not embed a browser and should be accessing Rocket.Chat native APIs _on the wire_. It should leverage system programming languages such as rust and a platform framework (such as Tauri and others). Goal is a client with better performance characteristics, on Windows, than our current cross-platform desktop apps.
+Creating a high performance native desktop client for the Windows platform (Windows 10 and 11). This client should not embed a browser and should be accessing Rocket.Chat native APIs _on the wire_. It should leverage system programming languages such as rust and developed directly to the Windows System APIs.  Goal is a client with better and optimized performance characteristics, on Windows based system, than our current cross-platform desktop apps.
 
 **Desirable Skills:** Advanced rust. Advanced Windows systems development experience.
 
@@ -752,7 +752,7 @@ This project leverages two existing projects - the _RC4Community_ platform and _
 **Difficulty:** Easy/Medium\
 
 
-### Building the Rocket.Chat Appliancex
+### Building the Rocket.Chat Appliance
 
 **Mentors:**   TBD\
 \
