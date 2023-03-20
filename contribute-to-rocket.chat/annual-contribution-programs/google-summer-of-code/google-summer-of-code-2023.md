@@ -817,3 +817,24 @@ Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 **Project Duration**: 175 (Medium)\
 \
 **Difficulty:** Easy/Medium
+
+### Penetration Testing and Fixing Potential Vulnerabilities
+
+**Mentor(s):** Igor Rincon
+
+**Description:**\
+Security is critical to any website, and Rocket.chat recognizes the importance of safeguarding confidential information. Website security and penetration testing involve identifying potential vulnerabilities, evaluating risks, conducting tests, and implementing countermeasures to prevent unauthorized access. The focus of the project is going to be conducting security research on the Rocket.chat open-source project and identifying and repairing specific security vulnerabilities that will be found. Additionally, there is a need to expand and create continuous integration tools to prevent the introduction of new vulnerabilities. The overall goal is to deliver a platform that is secure and reliable for use by multiple users.&#x20;
+
+#### Expected Deliverables:
+
+* Github Recon, also known as Github footprinting, is a process where researchers use Github to collect information about an organization's internal infrastructure, security configurations, codebase, tools, and policies. This is achieved by closely examining public repositories, reviewing organization accounts, commits, and pull requests, and searching for any useful pieces of information that could help better understand the target. The process involves identifying key personnel within an organization and looking into their contributions and activities on Github. These can provide insight into the type of work they may be involved in, tools and technologies they use, and any potential security risks or misconfigurations they may have unintentionally leaked onto the public platform.
+* Automated and Manual security tests, including static analysis, penetration testing, and vulnerability scanning.
+* A detailed risk assessment report, including a prioritized list of vulnerabilities and recommended fixes.
+* Integration of continuous integration tools to prevent the introduction of new vulnerabilities.
+* Implement recommended fixes and retesting of the system to ensure that vulnerabilities are resolved.
+
+**Desired Skills:** Penetration test, Javascript, Burp Suite
+
+**Project Duration:** 175 hours. (Medium)
+
+**Difficulty:** Easy/Medium
