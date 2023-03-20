@@ -19,8 +19,8 @@ We have compiled summaries of important security aspects on the pages below:
 ### Learn more
 
 * [Compliance Resources, including certifications](compliance-resources.md) like ISO 27001 to help your organization to determine, if Rocket.Chat fits your needs.
-* [Security fixes and update](https://docs.rocket.chat/guides/security/security-updates) - an overview of vulnerabilities that have recently been closed and in which versions.
-* [End-to-End Encryption Specifications](https://docs.rocket.chat/guides/security/end-to-end-encryption-algorithms) - an overview of our algorithms and functionality.
+* [Security fixes and update](security-updates/) - an overview of vulnerabilities that have recently been closed and in which versions.
+* [End-to-End Encryption Specifications](end-to-end-encryption-algorithms.md) - an overview of our algorithms and functionality.
 
 ## Outside Resources
 
@@ -38,9 +38,9 @@ Below are related resources in other sections of Rocket.Chat's Documentation.
 
 ### Community
 
-* [Report Vulnerabilities](https://docs.rocket.chat/contributing/security/) - how to best let us know about the security vulnerabilities you have found.
-* [Code of Conduct](https://rocket.chat/code-of-conduct) - rules that apply to our servers.
-* [White Hat Hall of Fame](https://docs.rocket.chat/contributors/contributing/security#whitehat-hall-of-fame) - famous contributors that made Rocket.Chat even more secure.
+* [Report Vulnerabilities](../../contribute-to-rocket.chat/how-can-i-help/security/) - how to best let us know about the security vulnerabilities you have found.
+* [Code of Conduct](../../contribute-to-rocket.chat/contributor-code-of-conduct.md) - rules that apply to our servers.
+* [White Hat Hall of Fame](https://handbook.rocket.chat/departments-operations/security/whitehat-hall-of-fame) - Famous contributors that made Rocket.Chat more secure.
 
 ### Rocket.Chat Handbook
 
