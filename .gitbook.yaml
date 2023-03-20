@@ -103,3 +103,4 @@ redirects:
     guides/user-guides/user-panel/managing-your-account/personal-access-token: /use-rocket.chat/user-guides/user-panel/managing-your-account/README.md
     installing-and-updating/manual-installation/ubuntu: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/ubuntu.md
     deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
+    getting-support#mongodb-versions: resources/get-support/enterprise-support/README.md#mongodb-versions
