@@ -104,3 +104,6 @@ redirects:
     installing-and-updating/manual-installation/ubuntu: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/ubuntu.md
     deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
     getting-support#mongodb-versions: resources/get-support/enterprise-support/README.md#mongodb-versions
+    installing-and-updating/manual-installation/debian: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/debian.md
+    installing-and-updating/automation-tools/kubernetes-using-helm: deploy/prepare-for-your-deployment/rapid-deployment-methods/helm.md
+    installing-and-updating/: deploy/prepare-for-your-deployment/README.md
