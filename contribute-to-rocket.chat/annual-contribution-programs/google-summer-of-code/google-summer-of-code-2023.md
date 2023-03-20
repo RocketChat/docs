@@ -510,7 +510,7 @@ UnifiedPush working on the Android app. With or without FCM fallback.\
 
 The following are 2023 project ideas that are currently unowned by any mentor and/or with no contributors' demand.   \
 \
-If you are interested in any one of them,  let our community of \*650+ potential contributors and mentors\* know in our [24 x 7 community chat channel](https://open.rocket.chat/channel/gsoc2023)  AND you may just give it a life this season!&#x20;
+If you are interested in any one of them,  let our community of **650+ potential contributors and mentors** know in our [24 x 7 community chat channel](https://open.rocket.chat/channel/gsoc2023)  AND you may just give it a life this season!&#x20;
 
 ### Mobile App Share Extension Update
 
