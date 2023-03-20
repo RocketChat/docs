@@ -306,7 +306,7 @@ Agile adoption is increasing year to year on the different industries. There is 
 
 ### Token Economy for Team Channels
 
-**Mentors:** José Paulo
+**Mentors:** José Paulo,  Aaron Ogle
 
 **Description:**\
 Rocket.Chat has Team Channels to handle sub-communities wanting autonomous control over their membership within a scaled server (possibly servicing tens of thousands of users).
