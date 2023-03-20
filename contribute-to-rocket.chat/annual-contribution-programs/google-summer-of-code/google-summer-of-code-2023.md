@@ -256,24 +256,7 @@ PS: For more inspiration on how to solve this issue, please refer to some of the
 \
 **Difficulty:** Easy/Medium\\
 
-### Building the Rocket.Chat Appliance
 
-**Mentors:**   TBD\
-\
-**Description:**\
-Create a "plug-in and go" appliance that allows anyone to run and operate a small Rocket.Chat server for their interest group, family, or friends.\
-\
-The resulting image should run on arm SoC based SBCs with either 2GB or 4GB of RAM (as in most of today's Android TV boxes). Some technologies to consider include [Armbian ](https://www.armbian.com/)and[ Gokrazy](https://gokrazy.org/). But we are wide open to all applicable stacks.\
-\
-Back in 2015, Rocket.Chat planned a kickstarter/indiegogo project to do something very similar. Finally in 2023 the open source technology stacks, plus widely available arm hardware, are making it possible this to become a general open source project.\
-\
-**Desirable Skills:** Familiarity with Rocket.Chat deployment platforms and workflows. This project will take someone with highly specialized interests and skills in low level firmware mods, kernel patching, bootloader hacking and possibly knowledge of Golang.
-
-**Goal/Deliverable:** An image that can be loaded into inexpensive common 2GB/4GB Android TV-Box and repurpose it to become a "plug-in and go" Rocket.Chat appliance.\
-\
-**Project Duration**: 350 hours (Large)\
-\
-**Difficulty:** Advanced
 
 ### Introduce Captcha to Livechat Widget
 
@@ -456,6 +439,26 @@ Today our Desktop app is done in ElectronJS. Tauri is a new framework that is ca
 \
 **Difficulty:** Advanced
 
+### Penetration Testing and Fixing Potential Vulnerabilities
+
+**Mentor(s):** Igor Rincon
+
+**Description:**\
+Security is critical to any website, and Rocket.chat recognizes the importance of safeguarding confidential information. Website security and penetration testing involve identifying potential vulnerabilities, evaluating risks, conducting tests, and implementing countermeasures to prevent unauthorized access. The focus of the project is going to be conducting security research on the Rocket.chat open-source project and identifying and repairing specific security vulnerabilities that will be found. Additionally, there is a need to expand and create continuous integration tools to prevent the introduction of new vulnerabilities. The overall goal is to deliver a platform that is secure and reliable for use by multiple users.&#x20;
+
+#### Expected Deliverables:
+
+* Github Recon, also known as Github footprinting, is a process where researchers use Github to collect information about an organization's internal infrastructure, security configurations, codebase, tools, and policies. This is achieved by closely examining public repositories, reviewing organization accounts, commits, and pull requests, and searching for any useful pieces of information that could help better understand the target. The process involves identifying key personnel within an organization and looking into their contributions and activities on Github. These can provide insight into the type of work they may be involved in, tools and technologies they use, and any potential security risks or misconfigurations they may have unintentionally leaked onto the public platform.
+* Automated and Manual security tests, including static analysis, penetration testing, and vulnerability scanning.
+* A detailed risk assessment report, including a prioritized list of vulnerabilities and recommended fixes.
+* Integration of continuous integration tools to prevent the introduction of new vulnerabilities.
+* Implement recommended fixes and retesting of the system to ensure that vulnerabilities are resolved.
+
+**Desired Skills:** Penetration test, Javascript, Burp Suite
+
+**Project Duration:** 175 hours. (Medium)
+
+**Difficulty:** Easy/Medium\
 
 
 ### WordPress super plugin
@@ -755,7 +758,27 @@ This project leverages two existing projects - the _RC4Community_ platform and _
 \
 **Project Duration:** 350 hours. (Large)\
 \
-**Difficulty:** Easy/Medium
+**Difficulty:** Easy/Medium\
+
+
+### Building the Rocket.Chat Appliancex
+
+**Mentors:**   TBD\
+\
+**Description:**\
+Create a "plug-in and go" appliance that allows anyone to run and operate a small Rocket.Chat server for their interest group, family, or friends.\
+\
+The resulting image should run on arm SoC based SBCs with either 2GB or 4GB of RAM (as in most of today's Android TV boxes). Some technologies to consider include [Armbian ](https://www.armbian.com/)and[ Gokrazy](https://gokrazy.org/). But we are wide open to all applicable stacks.\
+\
+Back in 2015, Rocket.Chat planned a kickstarter/indiegogo project to do something very similar. Finally in 2023 the open source technology stacks, plus widely available arm hardware, are making it possible this to become a general open source project.\
+\
+**Desirable Skills:** Familiarity with Rocket.Chat deployment platforms and workflows. This project will take someone with highly specialized interests and skills in low level firmware mods, kernel patching, bootloader hacking and possibly knowledge of Golang.
+
+**Goal/Deliverable:** An image that can be loaded into inexpensive common 2GB/4GB Android TV-Box and repurpose it to become a "plug-in and go" Rocket.Chat appliance.\
+\
+**Project Duration**: 350 hours (Large)\
+\
+**Difficulty:** Advanced
 
 ### Big Blue Button x Rocket.Chat
 
@@ -816,23 +839,3 @@ Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 \
 **Difficulty:** Easy/Medium
 
-### Penetration Testing and Fixing Potential Vulnerabilities
-
-**Mentor(s):** Igor Rincon
-
-**Description:**\
-Security is critical to any website, and Rocket.chat recognizes the importance of safeguarding confidential information. Website security and penetration testing involve identifying potential vulnerabilities, evaluating risks, conducting tests, and implementing countermeasures to prevent unauthorized access. The focus of the project is going to be conducting security research on the Rocket.chat open-source project and identifying and repairing specific security vulnerabilities that will be found. Additionally, there is a need to expand and create continuous integration tools to prevent the introduction of new vulnerabilities. The overall goal is to deliver a platform that is secure and reliable for use by multiple users.&#x20;
-
-#### Expected Deliverables:
-
-* Github Recon, also known as Github footprinting, is a process where researchers use Github to collect information about an organization's internal infrastructure, security configurations, codebase, tools, and policies. This is achieved by closely examining public repositories, reviewing organization accounts, commits, and pull requests, and searching for any useful pieces of information that could help better understand the target. The process involves identifying key personnel within an organization and looking into their contributions and activities on Github. These can provide insight into the type of work they may be involved in, tools and technologies they use, and any potential security risks or misconfigurations they may have unintentionally leaked onto the public platform.
-* Automated and Manual security tests, including static analysis, penetration testing, and vulnerability scanning.
-* A detailed risk assessment report, including a prioritized list of vulnerabilities and recommended fixes.
-* Integration of continuous integration tools to prevent the introduction of new vulnerabilities.
-* Implement recommended fixes and retesting of the system to ensure that vulnerabilities are resolved.
-
-**Desired Skills:** Penetration test, Javascript, Burp Suite
-
-**Project Duration:** 175 hours. (Medium)
-
-**Difficulty:** Easy/Medium
