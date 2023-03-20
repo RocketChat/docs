@@ -195,26 +195,7 @@ Implement a new mobile media carousel component that can:
 \
 **Difficulty:** Medium/Advanced
 
-### Enhanced media handling for mobile message composer
 
-**Mentors:** TBD
-
-**Description:**\
-\
-This project consists of two major tasks:
-
-* Copy any media from other platform apps to the message composer (on mobile)
-* Add option to[ copy media to platform clipboard](https://docs.expo.dev/versions/v47.0.0/sdk/clipboard/#setimageasyncbase64image) (on mobile)\
-  \
-  The implementation should operate across all the mobile platforms that Rocket.Chat support. Including iOS and Android, form factors from phone to tablet.
-
-**Desired Skills:** Advanced Typescript, advanced React, advanced React Native.
-
-**Goal/Deliverable:** Composer ability to accept copy/paste media from other platform apps and the option to copy media to clipboard.
-
-**Project Duration:** 175 hours (Medium)
-
-**Difficulty**: Medium/Advanced
 
 ### GitHub Pull request reminders app
 
@@ -395,18 +376,6 @@ Nowadays we already have a version of the [playground](https://rocketchat.github
 \
 **Difficulty:** Easy/Medium
 
-### Mobile App Share Extension Update
-
-**Mentors:** TBD\
-\
-**Description:**\
-Rewrite our [current mobile apps share extension](https://github.com/RocketChat/rn-extensions-share) in Swift for iOS and Kotlin for Android, making sure that it supports the latest [ReactNative Fabric](https://github.com/react-native-community/discussions-and-proposals/issues/4) architecture.\
-\
-**Desirable Skill:** Advanced ReactNative. Good knowledge of native iOS and Android development. Passion for creating great mobile experiences.
-
-**Project Duration:** 175 hours (Medium)
-
-**Difficulty:** Advanced\
 
 
 ### Summarizing Live Chat Conversations using OpenAI's ChatGPT
@@ -437,7 +406,55 @@ Today our Desktop app is done in ElectronJS. Tauri is a new framework that is ca
 
 **Project Duration:** 350 hours (Large)\
 \
-**Difficulty:** Advanced
+**Difficulty:** Advanced\
+
+
+### Jitsi Meet x Rocket.Chat
+
+**Mentors:**  Sidharth Mohanty,  Sing Li\
+\
+**Description:**\
+Jitsi meet has become one of the most popular and frequently used open source video conference platform in the world. The chat that is included as part of the Jitsi system is rudimentary and chat history is lost as soon as the conference is over. This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Jitsi Meet - giving it a rich messaging experience with full history after conference.\
+\
+Ideally we would like an integration at the [Jitsi Meet React SDK](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-react-sdk/) level. Perhaps extending the _\<JitsiMeeting/>_ tag with a _useRCForChat_ attribute. The integration should maintain prosody as the single source of truth for channel membership. A variety of server authentication scenarios must be catered for (including SSO and Oauth).
+
+**Desired Skills:** React Native, in-depth knowledge of EmbeddedChat project, familiarity with Jitsi Meet, understanding of prodigy.\
+\
+**Goal/Deliverable:** Jitsi Meet with Rocket.Chat embedded in place of existing chat.\
+\
+**Project Duration:** 350 hours. (Large)\
+\
+**Difficulty:** Medium/Advanced\\
+
+### QuickAnswer Bot
+
+**Mentors:** Debdut Chakraborty
+
+**Description:**\
+The goal is to develop a bot that can help reduce repetitive questions asked in Rocket.Chat channels by providing relevant answers from its knowledge base (Similar to [this Slack app](https://slack.com/apps/ASAFS8C2D-truffle?tab=more\_info))
+
+Features:
+
+1. Knowledge base: The bot will have a knowledge base of all previously answered questions and their answers.
+2. Real-time scanning: The bot will scan the Rocket.Chat channels in real-time for new questions and check if it has a relevant answer in its knowledge base.
+3. Private response: If the bot finds a relevant answer, it will send the answer privately to the person who asked the question, without interrupting the public conversation.
+4. Analytics (optional): The bot will keep track of the number of repetitive questions answered and provide analytics to the administrator.
+
+Technologies to be used:
+
+* [Rocket.Chat](http://rocket.chat) apps-engine
+* Natural Language Processing (NLP)
+* Elasticsearch (a suggestion, but I’m open to any other good alternatives)
+
+With Elasticsearch integrated into the tech stack, the bot can leverage the powerful search and analysis capabilities of Elasticsearch to efficiently search through the knowledge base and provide accurate answers to the user's questions. [Here’s](https://rebeccabilbro.github.io/intro-doc-similarity-with-elasticsearch/) a good blog to get started.
+
+**Desirable Skills:** Advanced knowledge of Natural Language Processing (NLP); [Rocket.Chat](http://rocket.chat) apps-engine; Experience using chosen indexing framework like ElasticSearch
+
+**Goal/Deliverable:** A Rocket.Chat app that suggests relevant answers to new messages in a channel, based on past messages. Plus an additional service is used for indexing messages.
+
+**Project Duration:** 350 hours. (Large)\
+\
+**Difficulty:** Medium/Advanced
 
 ### Penetration Testing and Fixing Potential Vulnerabilities
 
@@ -460,6 +477,19 @@ Security is critical to any website, and Rocket.chat recognizes the importance o
 
 **Difficulty:** Easy/Medium\
 
+
+### Mobile App Share Extension Update
+
+**Mentors:** TBD\
+\
+**Description:**\
+Rewrite our [current mobile apps share extension](https://github.com/RocketChat/rn-extensions-share) in Swift for iOS and Kotlin for Android, making sure that it supports the latest [ReactNative Fabric](https://github.com/react-native-community/discussions-and-proposals/issues/4) architecture.\
+\
+**Desirable Skill:** Advanced ReactNative. Good knowledge of native iOS and Android development. Passion for creating great mobile experiences.
+
+**Project Duration:** 175 hours (Medium)
+
+**Difficulty:** Advanced
 
 ### WordPress super plugin
 
@@ -559,52 +589,7 @@ OTR working on both iOS and Android apps.\
 **Project Duration:** 175 hours (Medium)\
 **Difficulty:** Medium\\
 
-### Jitsi Meet x Rocket.Chat
 
-**Mentors:**  Sidharth Mohanty,  Sing Li\
-\
-**Description:**\
-Jitsi meet has become one of the most popular and frequently used open source video conference platform in the world. The chat that is included as part of the Jitsi system is rudimentary and chat history is lost as soon as the conference is over. This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Jitsi Meet - giving it a rich messaging experience with full history after conference.\
-\
-Ideally we would like an integration at the [Jitsi Meet React SDK](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-react-sdk/) level. Perhaps extending the _\<JitsiMeeting/>_ tag with a _useRCForChat_ attribute. The integration should maintain prosody as the single source of truth for channel membership. A variety of server authentication scenarios must be catered for (including SSO and Oauth).
-
-**Desired Skills:** React Native, in-depth knowledge of EmbeddedChat project, familiarity with Jitsi Meet, understanding of prodigy.\
-\
-**Goal/Deliverable:** Jitsi Meet with Rocket.Chat embedded in place of existing chat.\
-\
-**Project Duration:** 350 hours. (Large)\
-\
-**Difficulty:** Medium/Advanced\\
-
-### QuickAnswer Bot
-
-**Mentors:** Debdut Chakraborty
-
-**Description:**\
-The goal is to develop a bot that can help reduce repetitive questions asked in Rocket.Chat channels by providing relevant answers from its knowledge base (Similar to [this Slack app](https://slack.com/apps/ASAFS8C2D-truffle?tab=more\_info))
-
-Features:
-
-1. Knowledge base: The bot will have a knowledge base of all previously answered questions and their answers.
-2. Real-time scanning: The bot will scan the Rocket.Chat channels in real-time for new questions and check if it has a relevant answer in its knowledge base.
-3. Private response: If the bot finds a relevant answer, it will send the answer privately to the person who asked the question, without interrupting the public conversation.
-4. Analytics (optional): The bot will keep track of the number of repetitive questions answered and provide analytics to the administrator.
-
-Technologies to be used:
-
-* [Rocket.Chat](http://rocket.chat) apps-engine
-* Natural Language Processing (NLP)
-* Elasticsearch (a suggestion, but I’m open to any other good alternatives)
-
-With Elasticsearch integrated into the tech stack, the bot can leverage the powerful search and analysis capabilities of Elasticsearch to efficiently search through the knowledge base and provide accurate answers to the user's questions. [Here’s](https://rebeccabilbro.github.io/intro-doc-similarity-with-elasticsearch/) a good blog to get started.
-
-**Desirable Skills:** Advanced knowledge of Natural Language Processing (NLP); [Rocket.Chat](http://rocket.chat) apps-engine; Experience using chosen indexing framework like ElasticSearch
-
-**Goal/Deliverable:** A Rocket.Chat app that suggests relevant answers to new messages in a channel, based on past messages. Plus an additional service is used for indexing messages.
-
-**Project Duration:** 350 hours. (Large)\
-\
-**Difficulty:** Medium/Advanced
 
 ### Full-stack Components Framework for Community Builders
 
@@ -796,6 +781,27 @@ Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 **Project Duration:** 350 hours. (Large)\
 \
 **Difficulty:** Advanced
+
+### Enhanced media handling for mobile message composer
+
+**Mentors:** TBD
+
+**Description:**\
+\
+This project consists of two major tasks:
+
+* Copy any media from other platform apps to the message composer (on mobile)
+* Add option to[ copy media to platform clipboard](https://docs.expo.dev/versions/v47.0.0/sdk/clipboard/#setimageasyncbase64image) (on mobile)\
+  \
+  The implementation should operate across all the mobile platforms that Rocket.Chat support. Including iOS and Android, form factors from phone to tablet.
+
+**Desired Skills:** Advanced Typescript, advanced React, advanced React Native.
+
+**Goal/Deliverable:** Composer ability to accept copy/paste media from other platform apps and the option to copy media to clipboard.
+
+**Project Duration:** 175 hours (Medium)
+
+**Difficulty**: Medium/Advanced
 
 ### Integrate Miro via RC App <a href="#docs-internal-guid-aa4629ae-7fff-b43a-c2f6-c3bf23748a55" id="docs-internal-guid-aa4629ae-7fff-b43a-c2f6-c3bf23748a55"></a>
 
