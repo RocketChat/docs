@@ -446,19 +446,17 @@ The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT
 **Mentors:** Jean Brito, Gabriel Casals
 
 **Description:**\
-Current [Rocket.Chat desktop app](https://github.com/RocketChat/Rocket.Chat.Electron) for MacOS, Windows and Linux is created using [Electron](https://www.electronjs.org/), the 10-years old grand daddy of cross platform frameworks.\
-\
-In this project, you will build our next generation desktop app using the next generation [Tauri framework](https://tauri.app/). The project should leverage the strength of the framewwork on each supported platform to add value above and beyond those offered by Electron framework today.\
-\
-Note that this is not an impossibly scoped rewrite of the desktop app on each platform in rust. The app must continue to run inside an embedded browser as in Electron, and the platform specific rust glue components adapted appropriately.
+Today our Desktop app is done in ElectronJS. Tauri is a new framework that is catching eyes for desktop apps development. The idea is to create a new Desktop app using Tauri to test it viability and capabilities. You will be creating a desktop app for one server with all the main features like notifications, tray icon, downloads and settings panel. With this app we can see what Tauri can do for us and maybe one day become our main desktop app framwork.
 
-**Desirable Skill :** Strong programming skills in Rust. Knowledge of Javascript and Typescript. Knowledge in cross-platform development. Familiarity with existing Rocket.Chat Desktop app. Familiarity with Tauri.
+**Desirable Skills:** Desktop applications development, Javascript/Typescript and a little of Rust experience is a plus.
 
-**Goal/Deliverable:** Next Generation Rocket.Chat desktop app.
+**Goals/Deliverable:** A desktop application for [Rocket.chat](https://rocket.chat) using Tauri framework.
 
 **Project Duration:** 350 hours (Large)\
 \
-**Difficulty:** Medium
+**Difficulty:** Advanced
+
+
 
 ### WordPress super plugin
 
