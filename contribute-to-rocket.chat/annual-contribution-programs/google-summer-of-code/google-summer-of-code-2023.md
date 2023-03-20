@@ -34,7 +34,7 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 ## Project Ideas
 
-This list is being updated regularly, some project ideas are still subject to further refinement, and some projects without assigned mentors may be removed.
+This current project ideas list is below, with full mentor assignments.   Due to the large number of mentors, ideas and contributors this list may still be subjected to minor changes.&#x20;
 
 ### Whiteboard Integration
 
@@ -477,6 +477,12 @@ Security is critical to any website, and Rocket.chat recognizes the importance o
 
 **Difficulty:** Easy/Medium\
 
+
+## Ideas Seeking a Little More Love in 2023
+
+The following are 2023 project ideas that are currently unowned by any mentor and/or with no contributors' demand.   \
+\
+If you are interested in any one of them,  let our community of \*650+ potential contributors and mentors\* know in our [24 x 7 community chat channel](https://open.rocket.chat/channel/gsoc2023)  AND you may just give it a life this season!&#x20;
 
 ### Mobile App Share Extension Update
 
