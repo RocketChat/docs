@@ -2,43 +2,29 @@ root: ./
 
 redirects:
     security: contribute-to-rocket.chat/how-can-i-help/security/README.md
-    guides/developer/quick-start: rocket.chat-resources/development-docs.md
+    guides/developer/quick-start: resources/development-docs.md
     guides/developer-guides/rest-api/: rocket.chat-resources/development-docs.md
     guides/developer/mobile-apps/whitelabeling-mobile-apps: rocket.chat-resources/development-docs.md
     guides/apps-development/getting-started: rocket.chat-resources/development-docs.md
     guides/bots/create-and-run-a-bot/hubot-bot: rocket.chat-resources/development-docs.md
-    guides/administration/administration/identity-management-ee-vs-ce: setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md
     apps-development/getting-started: rocket.chat-resources/development-docs.md
     api/rest-api: rocket.chat-resources/development-docs.md
-    guides/administration/settings/ldap: guides/administration/admin-panel/settings/ldap/README.md
-    guides/administration/admin-panel/settings/ldap/user-search-settings: guides/administration/admin-panel/settings/ldap/README.md
-    installation/manual-installation/centos: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
-    administrator-guides/integrations/zapier/using-zaps: guides/administration/admin-panel/integrations/zapier.md
-    installation/docker-containers/docker-compose: quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/README.md
     developer-guides/rest-api: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/authentication/login: rocket.chat-resources/development-docs.md
     developer-guides/realtime-api: rocket.chat-resources/development-docs.md
-    guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide: guides/rocket.chat-conference-call/omnichannel-video-audio-call-admins-guide.md
     developer-guides/mobile-apps/supporting-ssl: rocket.chat-resources/development-docs.md
     developer-guides: rocket.chat-resources/development-docs.md
-    guides/administration/settings/omnichannel-admins-guide: guides/administration/admin-panel/settings/omnichannel-admins-guide/README.md
-    guides/administration/administration/settings/canned-responses-rocket.chat-admins-guides: guides/omnichannel/canned-responses/canned-responses-rocket.chat-admins-guides.md
     developer-guides/iframe-integration/authentication: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/chat/postmessage: rocket.chat-resources/development-docs.md
     api/rest-api/personal-access-tokens: rocket.chat-resources/development-docs.md
     developer-guides/livechat-api: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/im: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/authentication: rocket.chat-resources/development-docs.md
-    guides/omnichannel-guides/omnichannel-manger-guides: guides/omnichannel/managers.md
-    quick-start/installing-and-updating/docker-containers/docker-compose: quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/README.md
     developer-guides/developing-apps/getting-started: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/channels/cleanhistory: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/channels/info: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/livechat/sms-incoming: rocket.chat-resources/development-docs.md
-    guides/administration/settings/account-settings: guides/administration/admin-panel/settings/account-settings/README.md
     guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: rocket.chat-resources/development-docs.md
-    installation/manual-installation/centos/: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
-    installation/paas-deployments/heroku: quick-start/installing-and-updating/introduction/choosing-a-deployment-method.md
     developer-guides/quick-start: rocket.chat-resources/development-docs.md
     api/rest-api/methods/chat/sendmessage: rocket.chat-resources/development-docs.md
     developer-guides/mobile-apps: rocket.chat-resources/development-docs.md
@@ -48,18 +34,13 @@ redirects:
     developer-guides/realtime-api/method-calls/login: rocket.chat-resources/development-docs.md
     developer-guides/realtime-api/method-calls/login/: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/livechat: rocket.chat-resources/development-docs.md
-    quick-start/installing-and-updating/manual-installation/centos: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
-    user-guides/voice-and-video-calls: guides/rocket.chat-conference-call/README.md
     developer-guides/deeplink: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/users/info: rocket.chat-resources/development-docs.md
     api/realtime-api/subscriptions/stream-notify-room: rocket.chat-resources/development-docs.md
     api/rest-api/methods/chat/getthreadslist: rocket.chat-resources/development-docs.md
-    guides/administration/administration/settings/email/direct-reply: guides/administration/admin-panel/settings/email/direct-reply.md
-    administrator-guides/setting-up-video-conferencing: guides/rocket.chat-conference-call/conference-call-admin-guide/README.md
     api/realtime-api: rocket.chat-resources/development-docs.md
     api/realtime-api/method-calls: rocket.chat-resources/development-docs.md
     api/realtime-api/method-calls/logout: rocket.chat-resources/development-docs.md
-    guides/administration/administration/settings/ldap: guides/administration/admin-panel/settings/ldap/README.md
     developer-guides/ui-and-theming: rocket.chat-resources/development-docs.md
     developer-guides/branches-and-releases: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/im/list: rocket.chat-resources/development-docs.md
@@ -68,38 +49,59 @@ redirects:
     developer-guides/rest-api/rate-limiter/: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/rooms/upload: rocket.chat-resources/development-docs.md
     developer-guides/rest-api/subscriptions/get: rocket.chat-resources/development-docs.md
-    quick-start/accessing-your-workspace/creating-the-first-administrator: quick-start/accessing-your-workspace/admin-account-creation.md
-    quick-start/accessing-your-workspace/starting-and-stopping: quick-start/accessing-your-workspace/starting-and-stopping-docker-compose.md
-    guides/administration/administration/settings/email/setup: guides/administration/admin-panel/settings/email/setup.md
-    guides/administration/settings/file-upload: guides/administration/admin-panel/settings/file-upload/README.md
-    master/server-management/integration-and-webhooks/telegram: guides/administration/admin-panel/integrations/telegram.md
-    installation/paas-deployments/ibm-bluemix/: quick-start/deploying-rocket.chat/README.md
-    guides/administration/settings/video-conference-admin-guide/jitsi-admins-guide: guides/rocket.chat-conference-call/README.md
-    guides/administration/admin-panel/settings/ldap/ldap-authentication-settings: guides/administration/admin-panel/settings/ldap/ldap-connection-setting.md
-    guides/administration/admin-panel/settings/ldap/ldap-basic-settings: guides/administration/admin-panel/settings/ldap/README.md
-    guides/administration/admin-panel/settings/ldap/settings: guides/administration/admin-panel/settings/ldap/README.md
-    guides/administration/admin-panel/settings/ldap/ldap-sync-settings: guides/administration/admin-panel/settings/ldap/ldap-data-sync-settings.md
-    getting-support: resources/get-support/README.md
-    getting-support/asking-for-help: getting-support/community-resources.md
-    guides/administrator-guides/setting-up-video-conferencing: guides/rocket.chat-conference-call/README.md
     developer-guides/rest-api/users/create: rocket.chat-resources/development-docs.md
     api/rest-api/methods/authentication/login: rocket.chat-resources/development-docs.md
     apps-development/uikit: rocket.chat-resources/development-docs.md
+    api/rest-api/methods/: rocket.chat-resources/development-docs.md 
+    apps-development/getting-started/rocket.chat-app-engine-cli: rocket.chat-resources/development-docs.md
+    
+    guides/administration/settings/account-settings: use-rocket.chat/workspace-administration/settings/account-settings/README.md
+    guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide: use-rocket.chat/rocket.chat-conference-call/README.md
+    guides/administration/administration/identity-management-ee-vs-ce: setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md
+    guides/administration/settings/ldap: use-rocket.chat/workspace-administration/settings/ldap/README.md
+    guides/administration/admin-panel/settings/ldap/user-search-settings: use-rocket.chat/workspace-administration/settings/ldap/ldap-user-search.md
+    administrator-guides/integrations/zapier/using-zaps: guides/administration/admin-panel/integrations/zapier.md
+    installation/manual-installation/centos: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
+    installation/docker-containers/docker-compose: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
+    guides/administration/settings/omnichannel-admins-guide: use-rocket.chat/omnichannel/README.md
+    guides/administration/administration/settings/canned-responses-rocket.chat-admins-guides: use-rocket.chat/omnichannel/canned-responses/README.md
+    guides/omnichannel-guides/omnichannel-manger-guides: use-rocket.chat/omnichannel/README.md
+    quick-start/installing-and-updating/docker-containers/docker-compose: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
+    quick-start/installing-and-updating/manual-installation/centos: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
+    user-guides/voice-and-video-calls: use-rocket.chat/rocket.chat-conference-call/README.md
+    guides/administration/administration/settings/email/direct-reply: use-rocket.chat/workspace-administration/settings/email/direct-reply.md
+    administrator-guides/setting-up-video-conferencing: use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/README.md
+    quick-start/accessing-your-workspace/creating-the-first-administrator: setup-and-configure/accessing-your-workspace/creating-the-first-administrator.md
+    quick-start/accessing-your-workspace/starting-and-stopping: deploy/prepare-for-your-deployment/starting-and-stopping.md
+    guides/administration/administration/settings/ldap: use-rocket.chat/workspace-administration/settings/ldap/README.md
+    guides/administration/administration/settings/email/setup: use-rocket.chat/workspace-administration/settings/email/setup.md
+    guides/administration/settings/file-upload: use-rocket.chat/workspace-administration/settings/file-upload/README.md
+    master/server-management/integration-and-webhooks/telegram: use-rocket.chat/workspace-administration/integrations/telegram.md
+    installation/paas-deployments/ibm-bluemix/: deploy/prepare-for-your-deployment/cloud-deployments/ibm-cloud.md
+    guides/administration/settings/video-conference-admin-guide/jitsi-admins-guide: use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/jitsi-app.md
+    guides/administration/admin-panel/settings/ldap/ldap-authentication-settings: use-rocket.chat/workspace-administration/settings/ldap/ldap-connection-setting.md
+    guides/administration/admin-panel/settings/ldap/ldap-basic-settings: use-rocket.chat/workspace-administration/settings/ldap/README.md
+    guides/administration/admin-panel/settings/ldap/settings: use-rocket.chat/workspace-administration/settings/ldap/README.md
+    guides/administration/admin-panel/settings/ldap/ldap-sync-settings: use-rocket.chat/workspace-administration/settings/ldap/ldap-data-sync-settings.md
+    getting-support: resources/get-support/README.md
+    getting-support/asking-for-help: resources/get-support/community-resources.md
+    guides/administrator-guides/setting-up-video-conferencing: use-rocket.chat/rocket.chat-conference-call/omnichannel-video-audio-call-configuration.md
     guides/user-guides/user-panel/managing-your-account/profile: use-rocket.chat/user-guides/user-panel/README.md
     guides/administration: use-rocket.chat/workspace-administration/README.md
     guides/user-guides/direct-messages-between-multiple-users: use-rocket.chat/user-guides/rooms/direct-messages/README.md
-    api/rest-api/methods/: rocket.chat-resources/development-docs.md 
-    apps-development/getting-started/rocket.chat-app-engine-cli: rocket.chat-resources/development-docs.md
     guides/administration/admin-panel/users/invite-users-to-your-rocket.chat-workspace?_hsmi=238490370&_hsenc=p2ANqtz-_1Sa8se6RnH7aUMWdqyZHL0mT4grGKT7QdFZQAMyv5eLladNKe_29HV7J0gLaHgB7S18qfyHOO5S0-qZNOIr_0S9ytmg: use-rocket.chat/workspace-administration/users/README.md
+    guides/administration/admin-panel/users/invite-users-to-your-rocket.chat-workspace: use-rocket.chat/workspace-administration/users/README.md
     guides/omnichannel/livechat-widget-installation/troubleshoot-livechat-widget-installation: use-rocket.chat/omnichannel/livechat-widget-installation.md
     guides/rocket.chat-call-center/voip-introduction/voip-prerequisites: use-rocket.chat/rocket.chat-voice-channel/getting-started-with-voice-channel.md
     guides/user-guides/channels/channel-actions/channel-message-list: use-rocket.chat/user-guides/rooms/channels/create-a-new-channel.md
-    guides/user-guides/rooms/direct-messages/direct-messages-action/export-messages-in-direct-message: use-rocket.chat/user-guides/rooms/direct-messages/direct-messages-action.md
-    guides/user-guides/rooms/direct-messages/direct-messages-between-multiple-users: use-rocket.chat/user-guides/rooms/direct-messages/README.md
-    guides/user-guides/teams/teams-channels/delete-a-teams-channel: use-rocket.chat/user-guides/rooms/README.md
-    guides/user-guides/user-panel/managing-your-account/personal-access-token: /use-rocket.chat/user-guides/user-panel/managing-your-account/README.md
+    guides/user-guides/rooms/direct-messages/direct-messages-action/export-messages-in-direct-message: use-rocket.chat/user-guides/rooms/direct-messages/direct-message-actions.md
+    guides/user-guides/rooms/direct-messages/direct-messages-between-multiple-users: use-rocket.chat/user-guides/rooms/direct-messages/create-a-new-direct-message.md
+    guides/user-guides/teams/teams-channels/delete-a-teams-channel: use-rocket.chat/user-guides/rooms/teams/manage-team-channels.md
+    guides/user-guides/user-panel/managing-your-account/personal-access-token: use-rocket.chat/user-guides/user-panel/my-account/README.md
     installing-and-updating/manual-installation/ubuntu: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/ubuntu.md
     deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
+    installation/manual-installation/centos/: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
+    installation/paas-deployments/heroku: deploy/prepare-for-your-deployment/cloud-deployments/README.md
     getting-support#mongodb-versions: resources/get-support/enterprise-support/README.md#mongodb-versions
     installing-and-updating/manual-installation/debian: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/debian.md
     installing-and-updating/automation-tools/kubernetes-using-helm: deploy/prepare-for-your-deployment/rapid-deployment-methods/helm.md
@@ -118,3 +120,4 @@ redirects:
     quick-start/installing-and-updating/paas-deployments/digitalocean: deploy/prepare-for-your-deployment/cloud-deployments/digitalocean.md
     quick-start/installing-and-updating/paas-deployments/d2c-io: deploy/prepare-for-your-deployment/other-deployment-methods/nonofficial-methods/README.md
     legal/privacy: rocket.chat-privacy-and-security/privacy-policies/privacy/README.md
+    use-rocket.chat/rocket.chat-workspace-administration/integrations: use-rocket.chat/workspace-administration/integrations/README.md
