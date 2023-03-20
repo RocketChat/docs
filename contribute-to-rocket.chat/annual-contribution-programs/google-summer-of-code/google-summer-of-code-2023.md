@@ -38,7 +38,7 @@ This list is being updated regularly, some project ideas are still subject to fu
 
 ### Whiteboard Integration
 
-**Mentor(s):**  Shiqi Mei
+**Mentor(s):**  Shiqi Mei,  Douglas Gubert
 
 **Description:**
 
@@ -258,7 +258,7 @@ PS: For more inspiration on how to solve this issue, please refer to some of the
 
 ### Building the Rocket.Chat Appliance
 
-**Mentors:** Aaron Ogle, Sing Li\
+**Mentors:**   TBD\
 \
 **Description:**\
 Create a "plug-in and go" appliance that allows anyone to run and operate a small Rocket.Chat server for their interest group, family, or friends.\
