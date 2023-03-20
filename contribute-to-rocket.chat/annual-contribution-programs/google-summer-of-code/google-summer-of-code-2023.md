@@ -483,7 +483,27 @@ Together, these tests  and tools will allow us to deliver a collaboration platfo
 
 **Project Duration:** 175 hours. (Medium)
 
-**Difficulty:** Easy/Medium\
+**Difficulty:** Easy/Medium
+
+
+
+### Unified Push for Android Apps
+
+**Mentors:** Diego Mello
+
+**Description:**\
+In the Android ecosystem, [UnifiedPush](https://unifiedpush.org/) has proven to be a practical provider agnostic way of supporting multiple push notification infrastructures. This project[ adds support for UnifiedPush to Rocket.Chat mobile app](https://github.com/RocketChat/Rocket.Chat.ReactNative/issues/3241) for Android platform.\
+\
+**Desired Skills:**\
+Advanced ReactNative. Knowledge of Android platform development.\
+\
+**Goals/Deliverables:**\
+UnifiedPush working on the Android app. With or without FCM fallback.\
+\
+**Project Duration:** 175 hours (Medium)\
+\
+**Difficulty:** Medium\
+\
 
 
 ## Ideas Seeking a Little More Love in 2023
@@ -564,24 +584,6 @@ Rocket.Chat deployment experience. Working experience with Snapcraft. Intense in
 \
 **Goals/Deliverables:**\
 Working arm64 snap for 5.x and 6.x releases of Rocket.Chat that leverages `core22` and cross-build capabilities of Snapcraft 7.\
-\
-**Project Duration:** 175 hours (Medium)\
-\
-**Difficulty:** Medium\
-
-
-### Unified Push for Android Apps
-
-**Mentors:** Diego Mello
-
-**Description:**\
-In the Android ecosystem, [UnifiedPush](https://unifiedpush.org/) has proven to be a practical provider agnostic way of supporting multiple push notification infrastructures. This project[ adds support for UnifiedPush to Rocket.Chat mobile app](https://github.com/RocketChat/Rocket.Chat.ReactNative/issues/3241) for Android platform.\
-\
-**Desired Skills:**\
-Advanced ReactNative. Knowledge of Android platform development.\
-\
-**Goals/Deliverables:**\
-UnifiedPush working on the Android app. With or without FCM fallback.\
 \
 **Project Duration:** 175 hours (Medium)\
 \
