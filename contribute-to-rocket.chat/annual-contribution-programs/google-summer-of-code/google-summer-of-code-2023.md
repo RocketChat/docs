@@ -560,7 +560,7 @@ OTR working on both iOS and Android apps.\
 
 ### Jitsi Meet x Rocket.Chat
 
-**Mentors:** TBD\
+**Mentors:**  Sidharth Mohanty,  Sing Li\
 \
 **Description:**\
 Jitsi meet has become one of the most popular and frequently used open source video conference platform in the world. The chat that is included as part of the Jitsi system is rudimentary and chat history is lost as soon as the conference is over. This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Jitsi Meet - giving it a rich messaging experience with full history after conference.\
