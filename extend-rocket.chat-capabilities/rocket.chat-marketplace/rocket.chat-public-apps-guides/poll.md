@@ -2,7 +2,7 @@
 
 To install the **Poll** App,&#x20;
 
-* Go to **Administration > Marketplace.**
+* Go to **Administration > Apps > Marketplace.**
 * Search for the **Poll** app and click on it.
 * Click on the **Install** button.
 

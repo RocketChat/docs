@@ -6,7 +6,7 @@ The Rocket.Chat GitHub App enhances the collaboration between developers by seam
 
 To install the GitHub App,
 
-* Navigate to **Administration > Workspace > Apps.**
+* Navigate to **Administration > Apps > Marketplace.**
 * Search for the **GitHub** app.
 * Click **Install**
 * **Agree** to the permissions to confirm the installation.
