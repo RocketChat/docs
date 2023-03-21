@@ -4,7 +4,7 @@
 
 ## How to apply
 
-Application for Google Summer of Code 2023 is now open.  See [official Google Summer of Code site](https://summerofcode.withgoogle.com/).\
+Application for Google Summer of Code 2023 is now open. See [official Google Summer of Code site](https://summerofcode.withgoogle.com/).\
 \
 Rocket.Chat is proud to be a participating mentoring open source organization for [Google Summer of Code 2023](https://summerofcode.withgoogle.com/). This marks the exciting 7th year of participation in this 19 years-old program to usher in a new generation of open source contributors and enthusiasts.
 
@@ -34,18 +34,19 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 ### **Latest update**
 
-#### Update March 21st, 2023   Shout out to our 2023 community of SIX HUNDRED !
+#### Update March 21st, 2023 Shout out to our 2023 community of SIX HUNDRED !
 
-Proposal submission is now open!   We are extremely grateful for the enthusiastic participation and support of our contributors. The learning curve for Rocket.Chat's huge production code base is known to be extremely steep and many of them are getting a head-start even before the announcement of the GSoC 2023 program.  Joining us as early as January this year!  \
+Proposal submission is now open! We are extremely grateful for the enthusiastic participation and support of our contributors. The learning curve for Rocket.Chat's huge production code base is known to be extremely steep and many of them are getting a head-start even before the announcement of the GSoC 2023 program. Joining us as early as January this year!\
 \
-Currently, the Rocket.Chat GSoC 2023 community stands at an unprecedented **670 globally diverse members** collaborating 24 x 7 at [our GSoC 2023 Team Channels](https://open.rocket.chat/channel/gsoc2023/team-channels). \
+Currently, the Rocket.Chat GSoC 2023 community stands at an unprecedented **670 globally diverse members** collaborating 24 x 7 at [our GSoC 2023 Team Channels](https://open.rocket.chat/channel/gsoc2023/team-channels).\
 \
-To accommodate this huge community of interested new contributors we have an unprecedented **43 new innovative project ideas** for them to choose from.   The list of ideas is consolidated down to **25 active ideas** on March 21st based on contributors' interest and mentors' availability.   We currently have **27 mentors** working with the new contributors,  **6 of our mentors are actually prior year Rocket.Chat GSoC alumni** !   We are extremely proud of our mentors community this year.     \
+To accommodate this huge community of interested new contributors we have an unprecedented **43 new innovative project ideas** for them to choose from. The list of ideas is consolidated down to **25 active ideas** on March 21st based on contributors' interest and mentors' availability. We currently have **27 mentors** working with the new contributors, **6 of our mentors are actually prior year Rocket.Chat GSoC alumni** ! We are extremely proud of our mentors community this year.\
 \
-We have conducted multiple **live** _Ask Me Anything_ (resolving general GSoC logistic questions) sessions as well as  [Code Walkthrough sessions](https://open.rocket.chat/channel/events-and-meet-ups?msg=SfJ7acofz5xj6CqYu) for back-end, front-end, apps (and much more).   Sessions were all well received with 10 to 25 new contributor attendees each.   \
+We have conducted multiple **live** _Ask Me Anything_ (resolving general GSoC logistic questions) sessions as well as [Code Walkthrough sessions](https://open.rocket.chat/channel/events-and-meet-ups?msg=SfJ7acofz5xj6CqYu) for back-end, front-end, apps (and much more). Sessions were all well received with 10 to 25 new contributor attendees each.\
 \
-Check out our [GSoC 2023 Contributors Leaderboard](https://gsoc.rocket.chat/), to see their amazing contributions: **55 Merged PRs, 44 Open PRs, and 141 Issues** as of March 21st, 2022.\
-****
+Check out our [GSoC 2023 Contributors Leaderboard](https://gsoc.rocket.chat/), to see their amazing contributions: **55 Merged PRs, 44 Open PRs, and 141 Issues** as of March 21st, 2022.\\
+
+***
 
 ## Project Ideas
 
@@ -449,7 +450,29 @@ Today our Desktop app is done in ElectronJS. Tauri is a new framework that is ca
 
 **Project Duration:** 350 hours (Large)\
 \
-**Difficulty:** Advanced\\
+**Difficulty:** Advanced
+
+### Improving Mobile Apps UX
+
+**Mentors:**  Reinaldo Neto&#x20;
+
+**Description:**\
+Improving the user experience on our current mobile apps with:
+
+* improved video UX (thumbnails, full screen etc)
+* Set background color (instead of _rn-root-view_) - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/system-ui/)
+* Migrate store reveiw - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/storereview/)
+* Migrate screen orientation - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/screen-orientation/)
+* Migrate navigation color bar - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/navigation-bar/)
+* Migrate document picker - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/document-picker/)
+
+**Desirable Skills:** Advanced Typescript. Advanced ReactNative.
+
+**Goal/Deliverable:** Improved Rocket.Chat Ux impacting millions of users.
+
+**Project Duration:** 175 hours. (Medium)\
+\
+**Difficulty:** Medium
 
 ### Jitsi Meet x Rocket.Chat
 
@@ -496,12 +519,11 @@ With Elasticsearch integrated into the tech stack, the bot can leverage the powe
 
 **Project Duration:** 350 hours. (Large)\
 \
-**Difficulty:** Medium/Advanced\
-
+**Difficulty:** Medium/Advanced\\
 
 ### Android Auto
 
-**Mentors:**   Diego Mello,  Daniel Silva
+**Mentors:** Diego Mello, Daniel Silva
 
 **Description:**\
 Create a sensible implementation of Rocket.Chat for [Android Auto](https://www.android.com/intl/en\_ca/auto/).\
@@ -512,8 +534,7 @@ Create a sensible implementation of Rocket.Chat for [Android Auto](https://www.a
 
 **Project Duration:** 175 hours (Medium)\
 \
-**Difficulty:** Advanced\
-
+**Difficulty:** Advanced\\
 
 ### Penetration Tests and Potential Vulnerabilities Fixes
 
@@ -662,8 +683,6 @@ This project involves the introduction of the missing architectural, build workf
 \
 **Difficulty:** Advanced
 
-
-
 ### Enhanced Mobile App Support for Rocket.Chat Apps
 
 **Mentors:** TBD
@@ -720,27 +739,7 @@ Examples of use cases include a customer support agent responding to frequently 
 \
 **Difficulty:** Easy/Medium
 
-### Improving Mobile Apps UX
 
-**Mentors:** TBD
-
-**Description:**\
-Improving the user experience on our current mobile apps with:
-
-* improved video UX (thumbnails, full screen etc)
-* Set background color (instead of _rn-root-view_) - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/system-ui/)
-* Migrate store reveiw - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/storereview/)
-* Migrate screen orientation - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/screen-orientation/)
-* Migrate navigation color bar - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/navigation-bar/)
-* Migrate document picker - [ref](https://docs.expo.dev/versions/v47.0.0/sdk/document-picker/)
-
-**Desirable Skills:** Advanced Typescript. Advanced ReactNative.
-
-**Goal/Deliverable:** Improved Rocket.Chat Ux impacting millions of users.
-
-**Project Duration:** 175 hours. (Medium)\
-\
-**Difficulty:** Medium
 
 ### User Actions Audit Center
 
