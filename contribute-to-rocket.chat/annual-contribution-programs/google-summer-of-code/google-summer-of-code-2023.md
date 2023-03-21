@@ -40,11 +40,11 @@ Proposal submission is now open!   We are extremely grateful for the enthusiasti
 \
 Currently, the Rocket.Chat GSoC 2023 community stands at an unprecedented **670 globally diverse members** collaborating 24 x 7 at [our GSoC 2023 Team Channels](https://open.rocket.chat/channel/gsoc2023/team-channels). \
 \
-To accommodate this huge community of interested new contributors we have an unprecedented **43 new innovative project ideas** for them to choose from.   The list of ideas is consolidated down to **25 active ideals** on March 21st based on contributors' interest and mentors availability.   We currently have **26 mentors** working with the new contributors,  **6 of our mentors are actually prior year Rocket.Chat GSoC alumni** !   We are extremely proud of our mentors community this year.     \
+To accommodate this huge community of interested new contributors we have an unprecedented **43 new innovative project ideas** for them to choose from.   The list of ideas is consolidated down to **25 active ideas** on March 21st based on contributors' interest and mentors' availability.   We currently have **26 mentors** working with the new contributors,  **6 of our mentors are actually prior year Rocket.Chat GSoC alumni** !   We are extremely proud of our mentors community this year.     \
 \
-We have conducted multiple **live** Ask Me Anything (resolving general GSoC logistic questions) sessions as well as  [Code Walkthrough sessions](https://open.rocket.chat/channel/events-and-meet-ups?msg=SfJ7acofz5xj6CqYu) for our back-end and front-end sessions.   Sessions were all well received with 10 to 20 new contributor attendees.   \
+We have conducted multiple **live** _Ask Me Anything_ (resolving general GSoC logistic questions) sessions as well as  [Code Walkthrough sessions](https://open.rocket.chat/channel/events-and-meet-ups?msg=SfJ7acofz5xj6CqYu) for back-end, front-end, apps (and much more).   Sessions were all well received with 10 to 20 new contributor attendees each.   \
 \
-Check out our [GSoC 2023 Contributors Leaderboard](https://gsoc.rocket.chat/), to see their amazing contributions: 55 Merged PRs, 44 Open PRs, and 141 Issues as of March 21st, 2022.\
+Check out our [GSoC 2023 Contributors Leaderboard](https://gsoc.rocket.chat/), to see their amazing contributions: **55 Merged PRs, 44 Open PRs, and 141 Issues** as of March 21st, 2022.\
 ****
 
 ## Project Ideas
