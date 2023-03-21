@@ -100,6 +100,21 @@ An SDK that enable easy embedding of RC instances into any flutter app plus Dart
 \
 **Difficulty:** Advanced
 
+
+
+### Mobile App Share Extension Update
+
+**Mentors:** Daniel Silva\
+\
+**Description:**\
+Rewrite our [current mobile apps share extension](https://github.com/RocketChat/rn-extensions-share) in Swift for iOS and Kotlin for Android, making sure that it supports the latest [ReactNative Fabric](https://github.com/react-native-community/discussions-and-proposals/issues/4) architecture.\
+\
+**Desirable Skill:** Advanced ReactNative. Good knowledge of native iOS and Android development. Passion for creating great mobile experiences.
+
+**Project Duration:** 175 hours (Medium)
+
+**Difficulty:** Advanced
+
 ### Scaled botpress Connector
 
 **Mentors:** Duda Nogueira,  Yash Rajpal
@@ -235,8 +250,29 @@ PS: For more inspiration on how to solve this issue, please refer to some of the
 
 **Project Duration:** 175 hours. (Medium)\
 \
-**Difficulty:** Easy/Medium\\
+**Difficulty:** Easy/Medium\
 
+
+### Enhanced media handling for mobile message composer
+
+**Mentors:**  Daniel Silva
+
+**Description:**\
+\
+This project consists of two major tasks:
+
+* Copy any media from other platform apps to the message composer (on mobile)
+* Add option to[ copy media to platform clipboard](https://docs.expo.dev/versions/v47.0.0/sdk/clipboard/#setimageasyncbase64image) (on mobile)\
+  \
+  The implementation should operate across all the mobile platforms that Rocket.Chat support. Including iOS and Android, form factors from phone to tablet.
+
+**Desired Skills:** Advanced Typescript, advanced React, advanced React Native.
+
+**Goal/Deliverable:** Composer ability to accept copy/paste media from other platform apps and the option to copy media to clipboard.
+
+**Project Duration:** 175 hours (Medium)
+
+**Difficulty**: Medium/Advanced\
 
 
 ### Introduce Captcha to Livechat Widget
@@ -512,18 +548,7 @@ The following are 2023 project ideas that are currently unowned by any mentor an
 \
 If you are interested in any one of them,  let our community of **650+ potential contributors and mentors** know in our [24 x 7 community chat channel](https://open.rocket.chat/channel/gsoc2023)  AND you may just give it a life this season!&#x20;
 
-### Mobile App Share Extension Update
 
-**Mentors:** TBD\
-\
-**Description:**\
-Rewrite our [current mobile apps share extension](https://github.com/RocketChat/rn-extensions-share) in Swift for iOS and Kotlin for Android, making sure that it supports the latest [ReactNative Fabric](https://github.com/react-native-community/discussions-and-proposals/issues/4) architecture.\
-\
-**Desirable Skill:** Advanced ReactNative. Good knowledge of native iOS and Android development. Passion for creating great mobile experiences.
-
-**Project Duration:** 175 hours (Medium)
-
-**Difficulty:** Advanced
 
 ### WordPress super plugin
 
@@ -798,26 +823,7 @@ Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 \
 **Difficulty:** Advanced
 
-### Enhanced media handling for mobile message composer
-
-**Mentors:** TBD
-
-**Description:**\
-\
-This project consists of two major tasks:
-
-* Copy any media from other platform apps to the message composer (on mobile)
-* Add option to[ copy media to platform clipboard](https://docs.expo.dev/versions/v47.0.0/sdk/clipboard/#setimageasyncbase64image) (on mobile)\
-  \
-  The implementation should operate across all the mobile platforms that Rocket.Chat support. Including iOS and Android, form factors from phone to tablet.
-
-**Desired Skills:** Advanced Typescript, advanced React, advanced React Native.
-
-**Goal/Deliverable:** Composer ability to accept copy/paste media from other platform apps and the option to copy media to clipboard.
-
-**Project Duration:** 175 hours (Medium)
-
-**Difficulty**: Medium/Advanced
+###
 
 ### Integrate Miro via RC App <a href="#docs-internal-guid-aa4629ae-7fff-b43a-c2f6-c3bf23748a55" id="docs-internal-guid-aa4629ae-7fff-b43a-c2f6-c3bf23748a55"></a>
 

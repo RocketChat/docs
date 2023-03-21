@@ -452,7 +452,7 @@
     * [Jitsi app](https://docs.rocket.chat/use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/jitsi-app)
     * [BigBlueButton (BBB) app](https://docs.rocket.chat/use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/bigbluebutton-bbb-app)
     * [Google Meet app](https://docs.rocket.chat/use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/google-meet-app)
-    * [Trello](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/trello/README.md)
+    * [Trello](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/trello.md)
       * [Using the Trello App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/trello/using-the-trello-app.md)
     * [Zoom](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/zoom.md)
     * [Data Loss Prevention (DLP) App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/data-loss-prevention-dlp-app.md)
