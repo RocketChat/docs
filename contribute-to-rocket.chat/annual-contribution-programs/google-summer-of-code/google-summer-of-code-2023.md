@@ -496,7 +496,24 @@ With Elasticsearch integrated into the tech stack, the bot can leverage the powe
 
 **Project Duration:** 350 hours. (Large)\
 \
-**Difficulty:** Medium/Advanced
+**Difficulty:** Medium/Advanced\
+
+
+### Android Auto
+
+**Mentors:**   Diego Mello,  Daniel Silva
+
+**Description:**\
+Create a sensible implementation of Rocket.Chat for [Android Auto](https://www.android.com/intl/en\_ca/auto/).\
+\
+**Desirable Skills:** Advanced Typescript. Android and Android Auto development experience.
+
+**Goal/Deliverable:** Rocket.Chat for Android Auto
+
+**Project Duration:** 175 hours (Medium)\
+\
+**Difficulty:** Advanced\
+
 
 ### Penetration Tests and Potential Vulnerabilities Fixes
 
@@ -645,20 +662,7 @@ This project involves the introduction of the missing architectural, build workf
 \
 **Difficulty:** Advanced
 
-### Android Auto
 
-**Mentors:** TBD
-
-**Description:**\
-Create a sensible implementation of Rocket.Chat for [Android Auto](https://www.android.com/intl/en\_ca/auto/).\
-\
-**Desirable Skills:** Advanced Typescript. Android and Android Auto development experience.
-
-**Goal/Deliverable:** Rocket.Chat for Android Auto
-
-**Project Duration:** 175 hours (Medium)\
-\
-**Difficulty:** Advanced\\
 
 ### Enhanced Mobile App Support for Rocket.Chat Apps
 
