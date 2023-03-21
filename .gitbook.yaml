@@ -125,3 +125,4 @@ redirects:
     guides/app-guides/omnichannel-apps/facebook-app: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/facebook-app/README.md
     guides/administration/admin-panel/settings/federation/matrix-bridge: use-rocket.chat/workspace-administration/settings/federation/matrix-bridge/matrix-admin-guide/matrixbridge-configuration.md
     guides/administrator-guides/google-cloud/auto-translate: setup-and-configure/advanced-workspace-management/google-cloud.md
+    guides/administration/admin-panel/integrations: use-rocket.chat/workspace-administration/integrations/README.md
