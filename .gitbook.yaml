@@ -126,3 +126,6 @@ redirects:
     guides/administration/admin-panel/settings/federation/matrix-bridge: use-rocket.chat/workspace-administration/settings/federation/matrix-bridge/matrix-admin-guide/matrixbridge-configuration.md
     guides/administrator-guides/google-cloud/auto-translate: setup-and-configure/advanced-workspace-management/google-cloud.md
     guides/administration/admin-panel/integrations: use-rocket.chat/workspace-administration/integrations/README.md
+    legal/terms: rocket.chat-legal/terms-of-service.md
+    legal/master-services-agreement-for-self-managed-workspaces: rocket.chat-legal/master-services-agreement-for-self-managed-workspaces.md
+    
