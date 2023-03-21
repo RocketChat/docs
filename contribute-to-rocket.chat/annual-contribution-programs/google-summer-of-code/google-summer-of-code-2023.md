@@ -4,6 +4,8 @@
 
 ## How to apply
 
+Application for Google Summer of Code 2023 is now open.  See [official Google Summer of Code site](https://summerofcode.withgoogle.com/).\
+\
 Rocket.Chat is proud to be a participating mentoring open source organization for [Google Summer of Code 2023](https://summerofcode.withgoogle.com/). This marks the exciting 7th year of participation in this 19 years-old program to usher in a new generation of open source contributors and enthusiasts.
 
 Almost anyone in the world [over 18 years of age ](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html)who loves coding and wants to explore the incredible world of open source can join us as a GSoC 2023 contributor.
@@ -30,23 +32,36 @@ As well as on GitHub:\
 
 Those who prefers forums can post messages on our GSoC forum channel (although as the leading open source team chat project we prefer you use Rocket.Chat channels above to reach us instantly).
 
-[https://forums.rocket.chat/c/gsoc/gsoc2023/76](https://forums.rocket.chat/c/gsoc/gsoc2023/76)
+### **Latest update**
+
+#### Update March 21st, 2023   Shout out to our 2023 community of SIX HUNDRED !
+
+Proposal submission is now open!   We are extremely grateful for the enthusiastic participation and support of our contributors. The learning curve for Rocket.Chat's huge production code base is known to be extremely steep and many of them are getting a head-start even before the announcement of the GSoC 2023 program.  Joining us as early as January this year!  \
+\
+Currently, the Rocket.Chat GSoC 2023 community stands at an unprecedented **670 globally diverse members** collaborating 24 x 7 at [our GSoC 2023 Team Channels](https://open.rocket.chat/channel/gsoc2023/team-channels). \
+\
+To accommodate this huge community of interested new contributors we have an unprecedented **43 new innovative project ideas** for them to choose from.   The list of ideas is consolidated down to **25 active ideals** on March 21st based on contributors' interest and mentors availability.   We currently have **26 mentors** working with the new contributors,  **6 of our mentors are actually prior year Rocket.Chat GSoC alumni** !   We are extremely proud of our mentors community this year.     \
+\
+We have conducted multiple **live** Ask Me Anything (resolving general GSoC logistic questions) sessions as well as  [Code Walkthrough sessions](https://open.rocket.chat/channel/events-and-meet-ups?msg=SfJ7acofz5xj6CqYu) for our back-end and front-end sessions.   Sessions were all well received with 10 to 20 new contributor attendees.   \
+\
+Check out our [GSoC 2023 Contributors Leaderboard](https://gsoc.rocket.chat/), to see their amazing contributions: 55 Merged PRs, 44 Open PRs, and 141 Issues as of March 21st, 2022.\
+****
 
 ## Project Ideas
 
-This current project ideas list is below, with full mentor assignments.   Due to the large number of mentors, ideas and contributors this list may still be subjected to minor changes.&#x20;
+This current project ideas list is below, with full mentor assignments. Due to the large number of mentors, ideas and contributors this list may still be subjected to minor changes.
 
 ### Whiteboard Integration
 
-**Mentor(s):**  Shiqi Mei,  Douglas Gubert
+**Mentor(s):** Shiqi Mei, Douglas Gubert
 
 **Description:**
 
-White boards and visual drawing/concepts sharing has become a stable of team collaboration.  Rocket.Chat currently does not offer any whiteboarding feature.  [Markboard ](https://github.com/markboard-io/markboard)is an open source incumbent whiteboard created upon the same technology stack as Rocket.Chat and built by a team led by a Rocket.Chat GSoC alumni.  This project will create a Rocket.Chat App that integrates Markboard into Rocket.Chat and extends its team collaboration features through Rocket.Chat.
+White boards and visual drawing/concepts sharing has become a stable of team collaboration. Rocket.Chat currently does not offer any whiteboarding feature. [Markboard ](https://github.com/markboard-io/markboard)is an open source incumbent whiteboard created upon the same technology stack as Rocket.Chat and built by a team led by a Rocket.Chat GSoC alumni. This project will create a Rocket.Chat App that integrates Markboard into Rocket.Chat and extends its team collaboration features through Rocket.Chat.
 
-**Desired Skills:** Advanced Typescript.  MeteorJS.   Rocket.Chat Apps development.
+**Desired Skills:** Advanced Typescript. MeteorJS. Rocket.Chat Apps development.
 
-**Goals/Deliverables:**  Rocket.Chat App integrating Markboard into Rocket.Chat.   The App should extend team collaboration capabilities of Markboard in conjunction with our Team Channels feature.
+**Goals/Deliverables:** Rocket.Chat App integrating Markboard into Rocket.Chat. The App should extend team collaboration capabilities of Markboard in conjunction with our Team Channels feature.
 
 **Project Duration:** 350 hours. (Large)
 
@@ -80,7 +95,7 @@ We welcome any additional ideas you may have.
 
 ### Flutter SDK for Rocket.Chat
 
-**Mentors:**  Sing Li,  Debdut Chakraborty
+**Mentors:** Sing Li, Debdut Chakraborty
 
 **Description:**\
 In recent years, [Flutter ](https://flutter.dev/)has became the de-facto standard for high performance open source multi-platforms apps development. Thanks to its[ huge global developers community](https://flutter.dev/community) and the ever-growing ecosystem of [open source flutter components](https://pub.dev/packages).
@@ -100,8 +115,6 @@ An SDK that enable easy embedding of RC instances into any flutter app plus Dart
 \
 **Difficulty:** Advanced
 
-
-
 ### Mobile App Share Extension Update
 
 **Mentors:** Daniel Silva\
@@ -117,38 +130,38 @@ Rewrite our [current mobile apps share extension](https://github.com/RocketChat/
 
 ### Scaled botpress Connector
 
-**Mentors:** Duda Nogueira,  Yash Rajpal
+**Mentors:** Duda Nogueira, Yash Rajpal
 
-**Description**:  \
-[botpress ](https://botpress.com/)is a highly popular open-source chatbot construction kit and one of the pioneers in that field.   Rocket.Chat has long worked with botpress with a variety of connectors, including one currently in our Marketplace.\
-However, these connectors are relatively simple and applicable to very basic in-channel interactions - typically servicing a few users or channels only. \
+**Description**:\
+[botpress ](https://botpress.com/)is a highly popular open-source chatbot construction kit and one of the pioneers in that field. Rocket.Chat has long worked with botpress with a variety of connectors, including one currently in our Marketplace.\
+However, these connectors are relatively simple and applicable to very basic in-channel interactions - typically servicing a few users or channels only.\
 This project aims to create a new botpress connector app that will work and scale with new microservices architecture to deliver:
 
 * multiple (hundreds) of bots running concurrently and user-friendly way of managing them
 * support for every aspect of omnichannel operation
-* improved rendering of messages&#x20;
+* improved rendering of messages
 * introduce new APIs that can fascilitate chatbot operation
 * be the de-facto full-featured example on how to interface Rocket.Chat to a Chatbot platform
 
-**Desired Skills:** Typescript,  Rocket.Chat Apps,  botpress internals,  Rocket.Chat Apps.
+**Desired Skills:** Typescript, Rocket.Chat Apps, botpress internals, Rocket.Chat Apps.
 
 **Goal/Deliverable:** A working botpress connector suitable for deployment of production Chatbots at scale.
 
-**Project Duration:** 350 hours. (Large)&#x20;
+**Project Duration:** 350 hours. (Large)
 
 **Difficulty:** Medium
 
-### Improved Rocket.Chat Translations  (i18n)&#x20;
+### Improved Rocket.Chat Translations (i18n)
 
 **Mentors:** Douglas Fabris, Duda Nogueira
 
 **Description:** Rocket.Chat is widely used all over the world in multiple languages. Having a welcoming and vibrant community of translators and reviewers is essential to make sure we can deliver the best localization possible.
 
-This project aims to both convert today's i18n to work with community friendly open source translation platform such as weblate and  kick-off a translation community.&#x20;
+This project aims to both convert today's i18n to work with community friendly open source translation platform such as weblate and kick-off a translation community.
 
-**Desired Skills:**  Advanced Typescript.  Familiarity with i18n platform and technologies, weblate preferred.&#x20;
+**Desired Skills:** Advanced Typescript. Familiarity with i18n platform and technologies, weblate preferred.
 
-Goal/Deliverable:&#x20;
+Goal/Deliverable:
 
 * Rocket.Chat's i18n working with weblate hosting our community of translators.
 * Documentation on how to contribute with Rocket.Chat with translations
@@ -210,8 +223,6 @@ Implement a new mobile media carousel component that can:
 \
 **Difficulty:** Medium/Advanced
 
-
-
 ### GitHub Pull request reminders app
 
 **Mentors:** Murtaza Patrawala, Samad Khan
@@ -250,12 +261,11 @@ PS: For more inspiration on how to solve this issue, please refer to some of the
 
 **Project Duration:** 175 hours. (Medium)\
 \
-**Difficulty:** Easy/Medium\
-
+**Difficulty:** Easy/Medium\\
 
 ### Enhanced media handling for mobile message composer
 
-**Mentors:**  Daniel Silva
+**Mentors:** Daniel Silva
 
 **Description:**\
 \
@@ -272,8 +282,7 @@ This project consists of two major tasks:
 
 **Project Duration:** 175 hours (Medium)
 
-**Difficulty**: Medium/Advanced\
-
+**Difficulty**: Medium/Advanced\\
 
 ### Introduce Captcha to Livechat Widget
 
@@ -412,8 +421,6 @@ Nowadays we already have a version of the [playground](https://rocketchat.github
 \
 **Difficulty:** Easy/Medium
 
-
-
 ### Summarizing Live Chat Conversations using OpenAI's ChatGPT
 
 **Mentors:** Lester Coyoy, Murtaza Patrawala
@@ -434,7 +441,7 @@ The goal of this project is to develop a solution that utilizes OpenAI's ChatGPT
 **Mentors:** Jean Brito, David Alen
 
 **Description:**\
-Today our Desktop app is done in ElectronJS. Tauri is a new framework that is catching eyes for desktop apps development. The idea is to create a new Desktop app using Tauri to test it viability and capabilities. You will be creating a desktop app for one platform with all the main features like notifications, tray icon, downloads and settings panel. With this app we can see what Tauri can do for us and maybe one day become our main desktop app framwork. &#x20;
+Today our Desktop app is done in ElectronJS. Tauri is a new framework that is catching eyes for desktop apps development. The idea is to create a new Desktop app using Tauri to test it viability and capabilities. You will be creating a desktop app for one platform with all the main features like notifications, tray icon, downloads and settings panel. With this app we can see what Tauri can do for us and maybe one day become our main desktop app framwork.
 
 **Desirable Skills:** Desktop applications development, Javascript/Typescript and a little of Rust experience is a plus.
 
@@ -442,12 +449,11 @@ Today our Desktop app is done in ElectronJS. Tauri is a new framework that is ca
 
 **Project Duration:** 350 hours (Large)\
 \
-**Difficulty:** Advanced\
-
+**Difficulty:** Advanced\\
 
 ### Jitsi Meet x Rocket.Chat
 
-**Mentors:**  Sidharth Mohanty,  Sing Li\
+**Mentors:** Sidharth Mohanty, Sing Li\
 \
 **Description:**\
 Jitsi meet has become one of the most popular and frequently used open source video conference platform in the world. The chat that is included as part of the Jitsi system is rudimentary and chat history is lost as soon as the conference is over. This project leverages our existing _**EmbeddedChat**_ project to integrate an embedded version of Rocket.Chat into Jitsi Meet - giving it a rich messaging experience with full history after conference.\
@@ -497,31 +503,29 @@ With Elasticsearch integrated into the tech stack, the bot can leverage the powe
 **Mentor(s):** Igor Rincon
 
 **Description:**\
-Security is critical to any open source project that works with user data over the web, and Rocket.chat recognizes the importance of safeguarding confidential information. Web application security and penetration testing involve identifying potential vulnerabilities, evaluating risks, conducting tests, and implementing countermeasures to prevent unauthorized access. \
+Security is critical to any open source project that works with user data over the web, and Rocket.chat recognizes the importance of safeguarding confidential information. Web application security and penetration testing involve identifying potential vulnerabilities, evaluating risks, conducting tests, and implementing countermeasures to prevent unauthorized access.\
 \
-The focus of the project is going to be conducting security research on the Rocket.chat open-source project and identifying and repairing specific security vulnerabilities that will be found. \
+The focus of the project is going to be conducting security research on the Rocket.chat open-source project and identifying and repairing specific security vulnerabilities that will be found.\
 \
 For this project, the automated and manual security tests, including static analysis, penetration testing, and vulnerability scanning will be maintained in the[ Rocket.Chat open source pentest repository](https://github.com/RocketChat/pentests).\
 \
-In addition, the proposal should include some continuous integration tools to prevent the introduction of new vulnerabilities. \
+In addition, the proposal should include some continuous integration tools to prevent the introduction of new vulnerabilities.\
 \
-Together, these tests  and tools will allow us to deliver a collaboration platform that is secure and reliable for use by all our community users.&#x20;
+Together, these tests and tools will allow us to deliver a collaboration platform that is secure and reliable for use by all our community users.
 
 #### Expected Deliverables:
 
 * Automated and Manual security tests, including static analysis, penetration testing, and vulnerability scanning.
-* Recommend (and possibly implement)  fixes and retesting of the system to ensure that vulnerabilities are resolved.
+* Recommend (and possibly implement) fixes and retesting of the system to ensure that vulnerabilities are resolved.
 * creation and/or integration of continuous integration tools to prevent the introduction of new vulnerabilities.
-* A detailed risk assessment report, including a prioritized list of vulnerabilities and recommended fixes  (these may need to be submitted in private initially until time for public disclosure)
-* Possible addition --  Tools to enable Github Recon, also known as Github footprinting.  It is a process where researchers use Github to collect information about an organization's internal infrastructure, security configurations, codebase, tools, and policies. This is achieved by closely examining public repositories, reviewing organization accounts, commits, and pull requests, and searching for any useful pieces of information that could help better understand the target. The process involves identifying key personnel within an organization and looking into their contributions and activities on Github. These can provide insight into the type of work they may be involved in, tools and technologies they use, and any potential security risks or misconfigurations they may have unintentionally leaked onto the public platform.
+* A detailed risk assessment report, including a prioritized list of vulnerabilities and recommended fixes (these may need to be submitted in private initially until time for public disclosure)
+* Possible addition -- Tools to enable Github Recon, also known as Github footprinting. It is a process where researchers use Github to collect information about an organization's internal infrastructure, security configurations, codebase, tools, and policies. This is achieved by closely examining public repositories, reviewing organization accounts, commits, and pull requests, and searching for any useful pieces of information that could help better understand the target. The process involves identifying key personnel within an organization and looking into their contributions and activities on Github. These can provide insight into the type of work they may be involved in, tools and technologies they use, and any potential security risks or misconfigurations they may have unintentionally leaked onto the public platform.
 
 **Desired Skills:** Penetration test, Javascript, Burp Suite
 
 **Project Duration:** 175 hours. (Medium)
 
 **Difficulty:** Easy/Medium
-
-
 
 ### Unified Push for Android Apps
 
@@ -539,16 +543,13 @@ UnifiedPush working on the Android app. With or without FCM fallback.\
 **Project Duration:** 175 hours (Medium)\
 \
 **Difficulty:** Medium\
-\
-
+\\
 
 ## Ideas Seeking a Little More Love in 2023
 
-The following are 2023 project ideas that are currently unowned by any mentor and/or with no contributors' demand.   \
+The following are 2023 project ideas that are currently unowned by any mentor and/or with no contributors' demand.\
 \
-If you are interested in any one of them,  let our community of **650+ potential contributors and mentors** know in our [24 x 7 community chat channel](https://open.rocket.chat/channel/gsoc2023)  AND you may just give it a life this season!&#x20;
-
-
+If you are interested in any one of them, let our community of **650+ potential contributors and mentors** know in our [24 x 7 community chat channel](https://open.rocket.chat/channel/gsoc2023) AND you may just give it a life this season!
 
 ### WordPress super plugin
 
@@ -568,8 +569,7 @@ In-depth knowledge of WordPress architectures and plugin construction. Knowledge
 Working WordPress plugin on the WP marketplace supporting Rocket.Chat integration.\
 \
 **Project Duration:** 350 hours (Large)\
-**Difficulty:** Medium\
-
+**Difficulty:** Medium\\
 
 ### Open source Metaverse integration (mozilla hubs / third room)
 
@@ -578,8 +578,7 @@ Working WordPress plugin on the WP marketplace supporting Rocket.Chat integratio
 **Description:**\
 One very popular interpretation of the "Metaverse" is group interactions within a real-time rendered 3D Virtual Reality world. [Mozilla Hubs](https://hubs.mozilla.com/) has been the leading open source project in this space for the **last decade**. Due to the limitation (and cost) of today's technology, however, hub has always had limited scalability. Rooms can contain 20 to 30 attendees. Another similar technology proof of concept has emerged recently in [Third Room](https://github.com/matrix-org/thirdroom). While Rocket.Chat as a collaboration platform has re-architectured to handle millions of users - and through federation, the world; we have also implemented Team Channels to deal with very large communities wanting autonomous control over their membership. This project is to create a rational integration between Mozilla Hubs (and/or Third Room) and Rocket.Chat team channel - enabling a pragmatic version of "the metaverse" to be built organically.\
 \
-We welcome original proposals at different levels of integration. It can be a direct extension of core, an external bridge, a link preview-extension, or even a Rocket.Chat App.\
-
+We welcome original proposals at different levels of integration. It can be a direct extension of core, an external bridge, a link preview-extension, or even a Rocket.Chat App.\\
 
 **Desired Skills:**
 
@@ -591,8 +590,6 @@ Working integration of Mozilla Hubs rooms within Rocket.Chat Team Channels in a 
 **Project Duration:** 350 hours (Large)\
 \
 **Difficulty:** Advanced
-
-
 
 ### Craft a sustainable snap for arm64
 
@@ -612,8 +609,7 @@ Working arm64 snap for 5.x and 6.x releases of Rocket.Chat that leverages `core2
 \
 **Project Duration:** 175 hours (Medium)\
 \
-**Difficulty:** Medium\
-
+**Difficulty:** Medium\\
 
 ### Off the Record Messaging for Mobile (OTR)
 
@@ -629,8 +625,6 @@ OTR working on both iOS and Android apps.\
 \
 **Project Duration:** 175 hours (Medium)\
 **Difficulty:** Medium\\
-
-
 
 ### Full-stack Components Framework for Community Builders
 
@@ -664,8 +658,7 @@ Create a sensible implementation of Rocket.Chat for [Android Auto](https://www.a
 
 **Project Duration:** 175 hours (Medium)\
 \
-**Difficulty:** Advanced\
-
+**Difficulty:** Advanced\\
 
 ### Enhanced Mobile App Support for Rocket.Chat Apps
 
@@ -687,15 +680,14 @@ This project aims to fill up part of this gap. It includes the mobile implementa
 
 **Project Duration:** 175 hours (Medium)\
 \
-**Difficulty:** Advanced\
-
+**Difficulty:** Advanced\\
 
 ### High Performance Windows Native Client
 
 **Mentors:** TBD
 
 **Description:**\
-Creating a high performance native desktop client for the Windows platform (Windows 10 and 11). This client should not embed a browser and should be accessing Rocket.Chat native APIs _on the wire_. It should leverage system programming languages such as rust and developed directly to the Windows System APIs.  Goal is a client with better and optimized performance characteristics, on Windows based system, than our current cross-platform desktop apps.
+Creating a high performance native desktop client for the Windows platform (Windows 10 and 11). This client should not embed a browser and should be accessing Rocket.Chat native APIs _on the wire_. It should leverage system programming languages such as rust and developed directly to the Windows System APIs. Goal is a client with better and optimized performance characteristics, on Windows based system, than our current cross-platform desktop apps.
 
 **Desirable Skills:** Advanced rust. Advanced Windows systems development experience.
 
@@ -703,8 +695,7 @@ Creating a high performance native desktop client for the Windows platform (Wind
 \
 **Project Duration:** 350 hours (Large)\
 \
-**Difficulty:** Advanced.\
-
+**Difficulty:** Advanced.\\
 
 ### Template messages Rocket.Chat app
 
@@ -775,8 +766,7 @@ Every year, Rocket.Chat's GSoC new community of 100s gather around a desperate s
 * alumni summit
 * demo day
 
-This project leverages two existing projects - the _RC4Community_ platform and _RC4Conferences_ components to build a one-stop hub to engage our community, incorporating all the servers into a unified hub with an easy to use Ux via single logon.\
-
+This project leverages two existing projects - the _RC4Community_ platform and _RC4Conferences_ components to build a one-stop hub to engage our community, incorporating all the servers into a unified hub with an easy to use Ux via single logon.\\
 
 **Desirable Skills:** Advanced Typescript, advanced React. Deep knowledge of RC4Community and RC4Conferences projects.\
 \
@@ -784,12 +774,11 @@ This project leverages two existing projects - the _RC4Community_ platform and _
 \
 **Project Duration:** 350 hours. (Large)\
 \
-**Difficulty:** Easy/Medium\
-
+**Difficulty:** Easy/Medium\\
 
 ### Building the Rocket.Chat Appliance
 
-**Mentors:**   TBD\
+**Mentors:** TBD\
 \
 **Description:**\
 Create a "plug-in and go" appliance that allows anyone to run and operate a small Rocket.Chat server for their interest group, family, or friends.\
@@ -866,4 +855,3 @@ Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 **Project Duration**: 175 (Medium)\
 \
 **Difficulty:** Easy/Medium
-

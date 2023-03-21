@@ -1,6 +1,6 @@
 # Poll Plus
 
-To install the **Poll Plus** App,&#x20;
+To install the **Poll Plus** App,
 
 * Go to **Administration > Apps > Marketplace.**
 * Search for the **Poll Plus** app and click on it.
@@ -10,20 +10,20 @@ To install the **Poll Plus** App,&#x20;
 
 To create a Poll with Poll Plus,
 
-* Enter the slash command _**/poll**_** ** in the message box of the channel you want to create the poll.
-* Then, click **Enter** to execute**.** A pop-up form is triggered for you to create the poll. The form details include the following:
+* Enter the slash command _**/poll**_\*\* \*\* in the message box of the channel you want to create the poll.
+* Then, click **Enter** to execute\*\*.\*\* A pop-up form is triggered for you to create the poll. The form details include the following:
   * **Insert your question:** The poll question.
   * **Insert your options**: The reply options for the poll.
   * **Add a choice**: Add more reply options for the poll.
   * **Choice type**: Select if the poll will be multiple choice ,single choice, or [template based](poll-plus-features.md#template-based-poll).
-  * **Vote visibility**: Select if the poll will have Open Vote, Conidential Vote or Mixed Visibility Vote.&#x20;
+  * **Vote visibility**: Select if the poll will have Open Vote, Conidential Vote or Mixed Visibility Vote.
   * **User-defined options:** Allow/disallow the user from adding their options to the poll.
-  * **Word Cloud:** Enable/disable the wordcloud feature on poll finish.&#x20;
+  * **Word Cloud:** Enable/disable the wordcloud feature on poll finish.
 * After creating the poll, it is available in the room for the users to vote.
 
-To finish the poll,&#x20;
+To finish the poll,
 
-* Select the ![](<../../../../.gitbook/assets/three-dot-icon (1).png>)**three-dot icon at the** top of the poll.
+* Select the ![](../../../../.gitbook/assets/three-dot-icon.png)**three-dot icon at the** top of the poll.
 * Then, click **Finish poll**.
 
 ## Configuration Settings
@@ -31,7 +31,7 @@ To finish the poll,&#x20;
 The Poll Plus App offers some customization settings on the App settings screen.
 
 * Go to **Administration > Apps > Poll Plus**.
-* Select the **Settings** tab**.**
+* Select the **Settings** tab\*\*.\*\*
 * Update the settings. Then click **Save Changes.**
 
 ### Use Name Attribute
@@ -75,9 +75,6 @@ This poll allows users to rate a particular subject between the numbers 1-5.
 
 This poll allows users to rate a particular subject between the numbers 1-10.
 
-
-
 ![](../../../../.gitbook/assets/poll\_template\_based.gif)
 
-## &#x20;
-
+##
