@@ -649,6 +649,19 @@ The following are 2023 project ideas that are currently unowned by any mentor an
 \
 If you are interested in any one of them, let our community of **650+ potential contributors and mentors** know in our [24 x 7 community chat channel](https://open.rocket.chat/channel/gsoc2023) AND you may just give it a life this season!
 
+#### Update March 22, 2023
+
+We have already seen **FOUR extraordinary examples** of contributors giving a new life to these "need more luv" projects:&#x20;
+
+Contributor Yash Sancheti introduced the **pen test and fixes project** and found mentor Igor Rincon for the project!
+
+Contributor Yatendra Kumar convinced Debdut Chakraborty and Sing Li to revive the **Flutter SDK project**!
+
+Anik Dhabal Babu requested and mentor Mustafa Hasan Khan agreed to mentor the **Miro App** and the **Toggl App** ideas for 2023 !
+
+Congratulations to the above contributors !   And please know that these **FOUR NEW MENTORED PROJECTS** are now open for everyone's contribution and proposals as well !!\
+
+
 ### WordPress super plugin
 
 **Mentors:** TBD\
@@ -861,22 +874,6 @@ Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 **Project Duration:** 350 hours. (Large)\
 \
 **Difficulty:** Advanced
-
-###
-
-### Integrate Toggl via RC App <a href="#docs-internal-guid-0cfe617d-7fff-0cd2-09ef-3c8dc80bf2e3" id="docs-internal-guid-0cfe617d-7fff-0cd2-09ef-3c8dc80bf2e3"></a>
-
-**Mentors:** TBD
-
-**Description:** Track your time on daily basics tasks
-
-**Desirable Skills:** JavaScript/TypeScript, ReactJS
-
-**Goal/Deliverable:** Start counting time inside Rocket-Chat, without having to enter the Toggl website or download the application on your computer
-
-**Project Duration:** 175 (Medium)\
-\
-**Difficulty:** Easy/Medium
 
 ### Integrate Asana via RC App <a href="#docs-internal-guid-44c30cad-7fff-38fe-1143-8fe33a4d0b81" id="docs-internal-guid-44c30cad-7fff-38fe-1143-8fe33a4d0b81"></a>
 
