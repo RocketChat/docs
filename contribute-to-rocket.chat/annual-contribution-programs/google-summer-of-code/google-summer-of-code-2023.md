@@ -371,7 +371,23 @@ The implementation can also work optionally with blockchains and tokens from oth
 
 **Project Duration:** 350 hours. (Large)\
 \
-**Difficulty:** Medium/Advanced\\
+**Difficulty:** Medium/Advanced
+
+### Off the Record Messaging for Mobile (OTR)
+
+**Mentors:** Reinaldo Neto,  Daniel Silva,  Diego Mello\
+\
+**Description:**\
+[Off the Record Messaging](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/messaging/off-the-record-otr-messaging-guide) is a very popular and well loved feature of Rocket.Chat desktop and web client. It enable two parties to securely exchange encrypted message while both side are online, and not have the encrypted conversation be persisted in the chat history. However our mobile app currently does not support this. This project will add OTR support to our mobile apps.
+
+**Desired Skills:** Advanced ReactNative. Knowledge of native Android and iOS app development.\
+\
+**Goals/Deliverable:**\
+OTR working on both iOS and Android apps.\
+\
+**Project Duration:** 175 hours (Medium)\
+**Difficulty:** Medium\
+
 
 ### AI Moderation APP <a href="#docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057" id="docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057"></a>
 
@@ -649,20 +665,7 @@ Working arm64 snap for 5.x and 6.x releases of Rocket.Chat that leverages `core2
 \
 **Difficulty:** Medium\\
 
-### Off the Record Messaging for Mobile (OTR)
 
-**Mentors:** TBD\
-\
-**Description:**\
-[Off the Record Messaging](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/messaging/off-the-record-otr-messaging-guide) is a very popular and well loved feature of Rocket.Chat desktop and web client. It enable two parties to securely exchange encrypted message while both side are online, and not have the encrypted conversation be persisted in the chat history. However our mobile app currently does not support this. This project will add OTR support to our mobile apps.
-
-**Desired Skills:** Advanced ReactNative. Knowledge of native Android and iOS app development.\
-\
-**Goals/Deliverable:**\
-OTR working on both iOS and Android apps.\
-\
-**Project Duration:** 175 hours (Medium)\
-**Difficulty:** Medium\\
 
 ### Full-stack Components Framework for Community Builders
 
