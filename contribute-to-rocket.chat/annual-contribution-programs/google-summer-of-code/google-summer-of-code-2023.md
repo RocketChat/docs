@@ -179,7 +179,7 @@ Goal/Deliverable:
 
 integrate Miro features into Rocket.Chat for daily use by team collaboration users.   It should include as a minimum for collaboration teams to:
 
-&#x20;\* use PlatUML to create boards\
+&#x20;\* use PlantUML to create boards\
 &#x20;\* assign boards to channels and team channels\
 &#x20;\* create sticky notes and pin to channel\
 &#x20;\* receive notifications directly if someone is mentioned on Miro\
@@ -557,7 +557,29 @@ With Elasticsearch integrated into the tech stack, the bot can leverage the powe
 
 **Project Duration:** 350 hours. (Large)\
 \
-**Difficulty:** Medium/Advanced\\
+**Difficulty:** Medium/Advanced\
+
+
+### Toggl App
+
+**Mentors:**    Mustafa Hasan Khan
+
+**Description:** \
+Integrate the essential features of Toggl for team collaborating with Rocket.Chat.   The app should include as a minimum the ability to:\
+\
+\* create time entries with one single slash command\
+\* create projects and get approval from superiors to start work on it\
+\* managers or admins should be able to track time worked by team and/or project\
+\* other innovative features of your choice
+
+**Desirable Skills:** JavaScript/TypeScript, ReactJS
+
+**Goal/Deliverable:**  Rocket.Chat App integrating Toggl for teams and team member collaboration.
+
+**Project Duration:** 175 (Medium)\
+\
+**Difficulty:** Easy/Medium\
+
 
 ### Android Auto
 
