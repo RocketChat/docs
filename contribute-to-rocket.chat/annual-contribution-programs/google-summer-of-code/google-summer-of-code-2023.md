@@ -171,6 +171,28 @@ Goal/Deliverable:
 
 **Difficulty:** Medium
 
+### Miro App
+
+**Mentors:** Mustafa Hasan Khan, Bárbara Zanella
+
+**Description:**&#x20;
+
+integrate Miro features into Rocket.Chat for daily use by team collaboration users.   It should include as a minimum for collaboration teams to:
+
+&#x20;\* use PlatUML to create boards\
+&#x20;\* assign boards to channels and team channels\
+&#x20;\* create sticky notes and pin to channel\
+&#x20;\* receive notifications directly if someone is mentioned on Miro\
+&#x20;\* other innovative features of your choice
+
+**Desirable Skills:** JavaScript/TypeScript, ReactJS, MIro APIs
+
+**Goal/Deliverable:**  Working Miro Rocket.Chat App supporting team collaboration users.&#x20;
+
+**Project Duration:** 175 (Medium)
+
+**Difficulty:** Easy/Medium
+
 ### Moderation Console Mute User Action and Emoji Votes
 
 **Mentors:** Devanshu Sharma
@@ -819,20 +841,6 @@ Big Blue Button with Rocket.Chat embedded in place of existing chat.\
 **Difficulty:** Advanced
 
 ###
-
-### Integrate Miro via RC App <a href="#docs-internal-guid-aa4629ae-7fff-b43a-c2f6-c3bf23748a55" id="docs-internal-guid-aa4629ae-7fff-b43a-c2f6-c3bf23748a55"></a>
-
-**Mentors:** TBD
-
-**Description:** Create and share boards with coworkers inside Rocket.Chat
-
-**Desirable Skills:** JavaScript/TypeScript, ReactJS
-
-**Goal/Deliverable:** The goal of this project is to create collaborative boards that work within Rocket.Chat
-
-**Project Duration:** 175 (Medium)\
-\
-**Difficulty:** Easy/Medium
 
 ### Integrate Toggl via RC App <a href="#docs-internal-guid-0cfe617d-7fff-0cd2-09ef-3c8dc80bf2e3" id="docs-internal-guid-0cfe617d-7fff-0cd2-09ef-3c8dc80bf2e3"></a>
 
