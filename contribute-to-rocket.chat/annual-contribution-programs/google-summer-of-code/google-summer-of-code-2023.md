@@ -640,8 +640,7 @@ UnifiedPush working on the Android app. With or without FCM fallback.\
 \
 **Project Duration:** 175 hours (Medium)\
 \
-**Difficulty:** Medium\
-\\
+**Difficulty:** Medium
 
 ## Ideas Seeking a Little More Love in 2023
 
@@ -659,7 +658,7 @@ Contributor Yatendra Kumar convinced Debdut Chakraborty and Sing Li to revive th
 
 Anik Dhabal Babu requested and mentor Mustafa Hasan Khan agreed to mentor the **Miro App** and the **Toggl App** ideas for 2023 !
 
-Congratulations to the above contributors !   And please know that these **FOUR NEW MENTORED PROJECTS** are now open for everyone's contribution and proposals as well !!\
+Congratulations to the above contributors !   And please know that these **FOUR NEW MENTORED PROJECTS** are **NOW OPEN** for everyone's contribution and proposals as well !!\
 
 
 ### WordPress super plugin
