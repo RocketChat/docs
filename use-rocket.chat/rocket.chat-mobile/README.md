@@ -45,7 +45,7 @@ The navigation menu at the top displays your profile avatar, name, and workspace
 
 The toolbar (action bar) has three action icons.
 
-* <img src="../../.gitbook/assets/create icon (1).png" alt="" data-size="line"> **Create New**: It is used to create new [rooms](../user-guides/rooms/).
+* <img src="../../.gitbook/assets/create icon.png" alt="" data-size="line"> **Create New**: It is used to create new [rooms](../user-guides/rooms/).
 * <img src="../../.gitbook/assets/search icon.png" alt="" data-size="line"> **Search**: It searches your whole workspace for rooms and users.
 * <img src="../../.gitbook/assets/hashtag icon.png" alt="" data-size="line"> **Directory**: It is used to browse between all the channels, teams, and users in the workspace.&#x20;
 

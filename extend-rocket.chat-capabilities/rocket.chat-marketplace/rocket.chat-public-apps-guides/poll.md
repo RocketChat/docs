@@ -22,5 +22,5 @@ To create a Poll,
 
 To finish the poll,
 
-* Select the ![](../../../.gitbook/assets/three-dot-icon.png)**three-dot icon at the** top of the poll.
+* Select the ![](<../../../.gitbook/assets/three-dot-icon (1).png>)**three-dot icon at the** top of the poll.
 * Then, click **Finish poll**.

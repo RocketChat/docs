@@ -10,11 +10,11 @@ Below are some examples of how to use the new Rocket.Chat brand from online appl
 
 ![](<../../.gitbook/assets/image (1243).png>)
 
-![](<../../.gitbook/assets/image (1107).png>)
+![](<../../.gitbook/assets/image (854).png>)
 
 ![](<../../.gitbook/assets/image (1118).png>)
 
-![](<../../.gitbook/assets/image (660).png>)
+![](<../../.gitbook/assets/image (760).png>)
 
 ![](<../../.gitbook/assets/image (316).png>)
 

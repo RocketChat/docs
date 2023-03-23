@@ -18,6 +18,73 @@ Interested professional technical writers can directly send us an email to [gsod
 
 See [official GSoD 2022 rules](https://developers.google.com/season-of-docs/docs/tech-writer-guide) for more information.
 
-### Project Ideas
+### About Rocket.Chat
 
-_TBD_
+## Rocket.Chat Developer Documentation Overhaul
+
+### The Problem
+
+Under Rocket.Chat org we have multiple open source projects, e.g. our Electron based multi-platform desktop client, our cross platform React Native mobile client, Omnichannel, TypeScript/JavaScript SDK, Golang SDK, extensible snap package, a group of DevOps focused projects that ease our deployment pipeline across multiple platforms, and more.
+
+Currently the documentation on getting them started with a development environment is fragmented. Developers need to spend time on basic setup rather than coding, and it is frustrating for new users. We have noticed a series of setbacks from contributors getting started with setting up their development environments for different projects and following the initial steps required to be able to start contributing quickly and effectively. We have a number of open questions across our community server and public GitHub repositories.
+
+It is also worth noting we are also missing documentations for projects that a lot of contributors are getting invested in nowadays (DevOps related).&#x20;
+
+There have been failed attempts at re-organizing the structure for better intuitive navigation and easy to consume content for beginner and experienced members of the community. Noting our developer documentation contains \[or should contain] contents for more than one contributable open source project.
+
+**Existing documentation page:** [https://developer.rocket.chat](https://developer.rocket.chat)
+
+### Scope
+
+A bird's eye view of the project scope would look something like
+
+* Building a new structure that may or may not be extensible
+  * Considering current structure and pain points
+  * Understanding our large number of public projects
+* Repository structure
+* Components guide
+* Quick onboarding guide for all platforms
+* Troubleshooting
+* Contribution guideline
+* Project specific architecture speaded structure, like core microservices
+
+Writers are free to suggest alternative approaches and/or ideas as long as they are aligned with the goal of intuitive and friendly contribution path for developers.
+
+**Out of scope**
+
+Project features unrelated to developers/contributors are outside of the scope of this project.
+
+### How would we measure success?
+
+* Reduction in github issues related to contributor onboarding and environment setup issues
+* Reduction in number of open questions found in our public community server (a large portion being driven in via Google Summer of Code)
+* Increase in pull request numbers to core and non-core projects
+* Increased coverage of well known contributor pain points
+* Increase in Google Summer of Code participants (interested participant numbers are publicly visible via our open room [https://open.rocket.chat/channel/gsoc2023](https://open.rocket.chat/channel/gsoc2023) for example and/or our dedicated GSoC page where Org Admins regularly keep an updated number)
+
+### What skills would a technical writer need to work on this project?
+
+**Must have:** TypeScript/JavaScript knowledge is a must as that's our primary language used across most projects, Git and GitHub experience. Also experience in working with Markdown, JS build systems and tools like yarn, npm. Basic understanding of modern web and CS concepts.
+
+**Nice to have:** Experience with automation, and DevOps concepts and tools like docker, kubernetes. Ability to read code other than JS/TS are nice to have but not must.
+
+### Timeline
+
+The project will take approximately six months. Here's a timeline approximation of the deliverables.
+
+| Date             | Action                           |
+| ---------------- | -------------------------------- |
+| May              | Writer orientation               |
+| June             | Project ramp-up                  |
+| July             | Re-organizing and re-structuring |
+| August - October | Wriritng documentation           |
+| November         | Feedbacks and adjustments        |
+
+### Budget
+
+| Type                                | Amount  | Running total | Notes                 |
+| ----------------------------------- | ------- | ------------- | --------------------- |
+| Documentation writing, update, test | 6000USD | 6000USD       |                       |
+| Volunteer stipend                   | 500USD  | 7500USD       | Volunteers (x3)       |
+| T-shirt swags                       | 200USD  | 8300USD       | Writer + 3 volunteers |
+| **TOTAL**                           | xxx     | 8300USD       |                       |
