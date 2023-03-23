@@ -5,38 +5,46 @@ description: Atlassian Confluence Server Integration
 # Confluence Server
 
 {% hint style="success" %}
-This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [air-gapped-app-installation.md](../../../../setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md "mention") guide and then follow the configuration instructions below.
+This app can also work in a fully air-gapped environment. Follow the [air-gapped-app-installation.md](../../../../setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md "mention") guide and continue with the configuration instructions below.
 {% endhint %}
 
-## Installation
+## Install Confluence Server App
 
-You can install our Confluence Server Integration Rocket.Chat App from your Rocket.Chat Administration area.
+To install the Confluence Server App,
 
-* Go to **Administration** > **Marketplace**
-* Search for the **Confluence Server Integration** and click on the item
-* Click on the **Install** button
-* Click on **Activate**
+* Navigate to **Administration > Apps > Marketplace.**
+* Search for the **Confluence Server** **Integration** app.
+* Click **Install.**
+* **Agree** to the permissions to confirm the installation.
 
-Now that you have the app installed in your server, it is time to configure the integration with your Confluence instance.
+## Configure Confluence Server App
 
-## Configuration
+{% hint style="info" %}
+Confirm that you have the  [Rocket.Chat for Confluence](https://marketplace.atlassian.com/apps/1220180/rocket-chat-for-confluence) add-on installed on your Confluence server.
+{% endhint %}
 
-First, make sure you have the [Rocket.Chat for Confluence](https://marketplace.atlassian.com/apps/1220180/rocket-chat-for-confluence) add-on installed on your Confluence server.
+To configure the Confluence Server App,
 
-Go to any channel or private-group and execute the slashcommand `/confluence-server install CONFLUENCE_BASE_URL USER PASSWORD`, where:
+* Navigate to any [room ](../../../../use-rocket.chat/workspace-administration/rooms.md)and run the slash command  `/confluence-server install CONFLUENCE_BASE_URL USER PASSWORD`, where:
+  * **CONFLUENCE\_BASE\_URL:** The base URL of your Confluence server. Navigate to **Confluence administration** > **General Configuration.**
+  * **USER:** The username of a user with administrative privileges in your Confluence server.
+  * **PASSWORD:** The password of **** the user mentioned above.
+* Now your Rocket.Chat workspace is connected to the Confluence server instance.
+* Add the **@rocket.cat user** to the room and assign permission to write messages.
 
-* **CONFLUENCE\_BASE\_URL** is the base URL of your Confluence server. You can see this information in **Confluence administration** > **General Configuration**;
-* **USER** is the username of a user in your Confluence;
-* **PASSWORD** is the password of the user mentioned above;
+{% hint style="info" %}
+We strongly advise against using your Confluence user account during installation. Create a fresh user with administrative privileges. After installation, you can revoke those privileges from the user.
+{% endhint %}
 
-After that your Rocket.Chat will be connected to your Confluence instance.
+## Using Confluence App
 
-Add the @rocket.cat user to the specific room and give him rights to write messages.
+After configuring the Confluence App, connect your Confluence Space to a room and receive notification messages when a page is created or updated in the Space.
 
-> **Note**: We advise against using your own Confluence user in the installation process. That is because the Rocket.Chat App has to persist the credentials to be able to search for spaces later on. We recommend creating a new user for the installation.
+To connect your Confluence Space to a [room](../../../../use-rocket.chat/workspace-administration/rooms.md),&#x20;
 
-In order to enable notifications, you have to connect a channel or private group to one or more Confluence Spaces; whenever a page is created or updated in this Space a notification will be sent to the channel or private group they’ve been connected to.
+* Run the slash command `/confluence-server connect`. A list of available Spaces you can connect to is displayed.&#x20;
+* Choose one or more spaces and click **Connect.**
 
-To connect a channel or private group to a Confluence Space execute the slashcommand `/confluence-server connect`. You will receive an ephemeral message with the available spaces. Choose one or more from the list and click on the Connect button.
-
-You can connect as many Spaces as you want to a channel or private group; similarly, a Space can be connected to as many channels or private groups as you want.
+{% hint style="info" %}
+You can connect many Spaces to a room and a Space to multiple rooms.
+{% endhint %}
