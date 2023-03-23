@@ -640,7 +640,28 @@ UnifiedPush working on the Android app. With or without FCM fallback.\
 \
 **Project Duration:** 175 hours (Medium)\
 \
-**Difficulty:** Medium
+**Difficulty:** Medium\
+
+
+### Template messages Rocket.Chat app
+
+**Mentors:**   Murtaza Patrawala
+
+**Description:**\
+This project aims to develop a [Rocket.Chat](http://rocket.chat) app that allows users to create, store, and send common messages with ease (Similar to [this Slack app](https://slack.com/apps/AJGJWCYPQ-templates?tab=more\_info)). The app will have a simple interface that enables users to create templates with customized names. These templates can be triggered using a slash command (e.g., /template \<template-name>) and inserted into the chat window with just one click. Users can also edit and delete their templates as needed.
+
+The app will be built using [the Apps-Engine framework](https://developer.rocket.chat/apps-engine/rocket.chat-apps-engine) as a Rocket.Chat app. This app will improve productivity and streamline communication in Rocket.Chat, provides a convenient way for users to send common messages and save time in their daily work routine.
+
+Examples of use cases include a customer support agent responding to frequently asked questions, a project manager sending a weekly status update message to the team, or a sales representative following up with potential clients.
+
+**Desirable Skills:** Rocket.Chat app-engine Framework. Rocket.Chat UiKit. Advanced Typescript
+
+**Goal/Deliverable:** A working Rocket.Chat app to send and manage template messages.
+
+**Project Duration:** 175 hours. (Medium)\
+\
+**Difficulty:** Easy/Medium\
+
 
 ## Ideas Seeking a Little More Love in 2023
 
@@ -777,28 +798,7 @@ Creating a high performance native desktop client for the Windows platform (Wind
 \
 **Project Duration:** 350 hours (Large)\
 \
-**Difficulty:** Advanced.\\
-
-### Template messages Rocket.Chat app
-
-**Mentors:** TBD
-
-**Description:**\
-This project aims to develop a [Rocket.Chat](http://rocket.chat) app that allows users to create, store, and send common messages with ease (Similar to [this Slack app](https://slack.com/apps/AJGJWCYPQ-templates?tab=more\_info)). The app will have a simple interface that enables users to create templates with customized names. These templates can be triggered using a slash command (e.g., /template \<template-name>) and inserted into the chat window with just one click. Users can also edit and delete their templates as needed.
-
-The app will be built using [the Apps-Engine framework](https://developer.rocket.chat/apps-engine/rocket.chat-apps-engine) as a Rocket.Chat app. This app will improve productivity and streamline communication in Rocket.Chat, provides a convenient way for users to send common messages and save time in their daily work routine.
-
-Examples of use cases include a customer support agent responding to frequently asked questions, a project manager sending a weekly status update message to the team, or a sales representative following up with potential clients.
-
-**Desirable Skills:** Rocket.Chat app-engine Framework. Rocket.Chat UiKit. Advanced Typescript
-
-**Goal/Deliverable:** A working Rocket.Chat app to send and manage template messages.
-
-**Project Duration:** 175 hours. (Medium)\
-\
-**Difficulty:** Easy/Medium
-
-
+**Difficulty:** Advanced.
 
 ### User Actions Audit Center
 
