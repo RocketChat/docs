@@ -173,7 +173,7 @@ Goal/Deliverable:
 
 ### Miro App
 
-**Mentors:** Mustafa Hasan Khan, Bárbara Zanella
+**Mentors:** Mustafa Hasan Khan, Rafael Tapia
 
 **Description:**&#x20;
 
@@ -562,7 +562,7 @@ With Elasticsearch integrated into the tech stack, the bot can leverage the powe
 
 ### Toggl App
 
-**Mentors:**    Mustafa Hasan Khan
+**Mentors:**    Mustafa Hasan Khan, , Bárbara Zanella
 
 **Description:** \
 Integrate the essential features of Toggl for team collaborating with Rocket.Chat.   The app should include as a minimum the ability to:\
