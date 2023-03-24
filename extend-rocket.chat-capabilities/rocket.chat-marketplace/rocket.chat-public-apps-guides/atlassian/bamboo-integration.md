@@ -2,36 +2,39 @@
 description: Atlassian Bamboo Integration
 ---
 
-# Bamboo
+# Bamboo Integration
 
 {% hint style="success" %}
-This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [air-gapped-app-installation.md](../../../../setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md "mention") guide and then follow the configuration instructions below.
+This app can also work in a fully air-gapped environment. Follow the [air-gapped-app-installation.md](../../../../setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md "mention") guide and continue with the configuration instructions below.
 {% endhint %}
 
-## Installation
+## Install Bamboo Integration App
 
-You can install our Bamboo Integration Rocket.Chat App from your Rocket.Chat Administration area.
+To install the Bamboo Integration App,
 
-* Go to **Administration** > **Marketplace**
-* Search for the **Bamboo Integration** and click on the item
-* Click on the **Install** button
-* Click on **Activate**
+* Navigate to **Administration > Apps > Marketplace.**
+* Search for the **Bamboo Integration** app.
+* Click **Install.**
+* **Agree** to the permissions to confirm the installation.
 
-Now that you have the app installed in your server, it is time to configure the integration with your Bamboo instance.
+## Configure Bamboo Integration App
 
-## Configuration
+{% hint style="info" %}
+Confirm that you have the  [Rocket.Chat Notifications for Bamboo](https://marketplace.atlassian.com/apps/1220022/rocket-chat-notifications-for-bamboo?tab=overview\&hosting=server) add-on installed on your Bamboo server.
+{% endhint %}
 
-Go to any channel or private group and execute the slashcommand `/bamboo install`. You will receive an ephemeral message with instructions on how to configure your Bamboo, as follows:
+To configure the Bamboo Integration app,
 
-1. On your Bamboo, install the [Rocket.Chat Notifications for Bamboo](https://marketplace.atlassian.com/apps/1220022/rocket-chat-notifications-for-bamboo) add-on
-2. Add a notification on a Build Plan or Deployment Environment
-3. Select the "Rocket.Chat" recipient type
-4. On the "Rocket.Chat URL" field, insert the URL given to you by the step #4 in the ephemeral message (e.g., `https://example.com:3000/api/apps/private/6a7b5a37-b9bb-4d49-ae38-c6ebcb3fe479/ejDjQ9Kyh2wBgrSwt/webhook`)
-5. On the "Rocket.Chat channel" field, type the name of the channel or private group you want to be notified of the events
+* Navigate to a [channel](../../../../use-rocket.chat/user-guides/rooms/channels/) or private [room ](../../../../use-rocket.chat/workspace-administration/rooms.md)and run the slash command `/bamboo install`.&#x20;
+* You will receive an ephemeral message with instructions on how to configure your Bamboo, as follows:
+  * On your Bamboo, install the [Rocket.Chat Notifications for Bamboo](https://marketplace.atlassian.com/apps/1220022/rocket-chat-notifications-for-bamboo) add-on.
+  * Add notification on a Build Plan or Deployment Environment.
+  * Select the "Rocket.Chat" recipient type.
+  * On the "Rocket.Chat URL" field, insert the URL given in the ephemeral message (e.g., `https://example.com:3000/api/apps/private/6a7b5a37-b9bb-4d49-ae38-c6ebcb3fe479/ejDjQ9Kyh2wBgrSwt/webhook`)
+  * On the "Rocket.Chat channel" field, type the name of the channel or private room you want to be notified of the events.
+  * Now, your Rocket.Chat workspace starts receiving the configured notifications.
 
-After that, your Rocket.Chat will start receiving the configured notifications.
-
-> **Note**: Not all Build/Deployment events are supported by the Bamboo Integration at the time of this writing. Unsupported events will not result in any notification sent in Rocket.Chat. The list of supported events is as follows:
+The Bamboo Integration doesn't support every Build/Deployment event. Rocket.Chat won't send any notifications in response to unsupported events. The supported events include the following:
 
 * Plans:
   * All Builds Completed

@@ -2,7 +2,7 @@
 
 Leverage the white-labeling capabilities of Rocket.Chat to give your workspace the look and feel that suits your organization's brand.
 
-To achieve this, you are required to be the workspace administrator having the [admin](../roles-in-rocket.chat/) role.
+To achieve this, you are required to be the workspace administrator having the [admin](../roles-in-rocket.chat.md) role.
 
 The UI changes can be managed in the [layout.md](../../use-rocket.chat/workspace-administration/settings/layout.md "mention") **** settings of your workspace.
 

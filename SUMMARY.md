@@ -116,8 +116,7 @@
   * [Offline License](setup-and-configure/rocket.chat-air-gapped-deployment/offline-license.md)
   * [Air-gapped workspace Configuration](setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-workspace-configuration.md)
   * [Air-gapped App Installation](setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md)
-* [Roles in Rocket.Chat](setup-and-configure/roles-in-rocket.chat/README.md)
-  * [Marketplace Roles](setup-and-configure/roles-in-rocket.chat/marketplace-roles.md)
+* [Roles in Rocket.Chat](setup-and-configure/roles-in-rocket.chat.md)
 
 ## Use Rocket.Chat
 
@@ -442,9 +441,9 @@
           * [Create Permanent WhatsApp Cloud API Token](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/whatsapp-cloud-app/facebook-developer-account-with-whatsapp/create-permanent-whatsapp-cloud-api-token.md)
         * [WhatsApp Cloud App Configuration](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/whatsapp-cloud-app/whatsapp-cloud-app-configuration.md)
         * [Using WhatsApp Cloud App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/whatsapp-cloud-app/using-whatsapp-cloud-app.md)
-    * [Atlassian](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/README.md)
+    * [Atlassian Apps](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/README.md)
       * [Jira Server v2.0](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/jira-server-v2.0.md)
-      * [Bamboo](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bamboo-integration.md)
+      * [Bamboo Integration](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bamboo-integration.md)
       * [Bitbucket Server](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bitbucket-server-integration.md)
       * [Confluence Server](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/confluence-server-integration.md)
       * [Jira Server](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/jira-server-integration.md)
