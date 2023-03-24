@@ -171,7 +171,3 @@ yourdomain.com {
         import cors https://sub.domain.livechat
 }
 ```
-
-## Multi Instance Nginx reverse proxy
-
-Here is a link to a [Nginx multi instance reverse proxy example](broken-reference)
