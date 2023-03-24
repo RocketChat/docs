@@ -4,7 +4,7 @@
 
 [Season of Docs](https://g.co/seasonofdocs) is Google's annual program that fosters collaboration between open source projects and technical writers.
 
-Season of Docs is a unique program that pairs technical writers with open source mentors to introduce the technical writer to an open source community and provide guidance while the writer works on a real-world open source project. The technical writer, in turn, provides documentation expertise to the open source organization.
+Google Season of Docs provides support for open source projects to improve their documentation and gives professional technical writers an opportunity to gain experience in open source. Together we raise awareness of open source, of docs, and of technical writing.
 
 Projects can cover a wide range of fields including Cloud computing, operating systems, graphics, medicine, programming languages, robotics, science, security and many more. Season of Docs is not a recruiting program or an internship but it does provide invaluable experience and looks great on a resume!
 
@@ -20,7 +20,7 @@ See [official GSoD 2022 rules](https://developers.google.com/season-of-docs/docs
 
 ### About Rocket.Chat
 
-## Rocket.Chat Developer Documentation Overhaul
+## Rocket.Chat Developer Documentation Re-write
 
 ### The Problem
 
@@ -60,13 +60,12 @@ Project features unrelated to developers/contributors are outside of the scope o
 * Reduction in number of open questions found in our public community server (a large portion being driven in via Google Summer of Code)
 * Increase in pull request numbers to core and non-core projects
 * Increased coverage of well known contributor pain points
-* Increase in Google Summer of Code participants (interested participant numbers are publicly visible via our open room [https://open.rocket.chat/channel/gsoc2023](https://open.rocket.chat/channel/gsoc2023) for example and/or our dedicated GSoC page where Org Admins regularly keep an updated number)
 
 ### What skills would a technical writer need to work on this project?
 
-**Must have:** TypeScript/JavaScript knowledge is a must as that's our primary language used across most projects, Git and GitHub experience. Also experience in working with Markdown, JS build systems and tools like yarn, npm. Basic understanding of modern web and CS concepts.
+**Must have:** Git and GitHub experience. Also experience in working with Markdown, JS build systems and tools like yarn, npm. Basic understanding of modern web and CS concepts.
 
-**Nice to have:** Experience with automation, and DevOps concepts and tools like docker, kubernetes. Ability to read code other than JS/TS are nice to have but not must.
+**Nice to have:** Experience with automation, and DevOps concepts and tools like docker, kubernetes. Ability to read code are nice to have but not must.
 
 ### Timeline
 
@@ -82,9 +81,10 @@ The project will take approximately six months. Here's a timeline approximation 
 
 ### Budget
 
+Budget consists of writer payment and swags' costs for the writer and up to 3 volunteers who would help us with testing and providing feedback over the timeline on the produced content.
+
 | Type                                | Amount  | Running total | Notes                 |
 | ----------------------------------- | ------- | ------------- | --------------------- |
-| Documentation writing, update, test | 6000USD | 6000USD       |                       |
-| Volunteer stipend                   | 500USD  | 7500USD       | Volunteers (x3)       |
-| T-shirt swags                       | 200USD  | 8300USD       | Writer + 3 volunteers |
-| **TOTAL**                           | xxx     | 8300USD       |                       |
+| Documentation writing, update, test | 8000USD | 8000USD       |                       |
+| T-shirt swags                       | 200USD  | 8800USD       | Writer + 3 volunteers |
+| **TOTAL**                           | xxx     | 8800USD       |                       |
