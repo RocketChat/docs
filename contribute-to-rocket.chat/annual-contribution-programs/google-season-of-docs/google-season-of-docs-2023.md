@@ -2,9 +2,7 @@
 
 [![Google Season of Docs 2019](https://github.com/Sing-Li/bbug/raw/master/images/gsodlogo.png)](https://developers.google.com/season-of-docs/)
 
-[Season of Docs](https://g.co/seasonofdocs) is Google's annual program that fosters collaboration between open source projects and technical writers.
-
-Google Season of Docs provides support for open source projects to improve their documentation and gives professional technical writers an opportunity to gain experience in open source. Together we raise awareness of open source, of docs, and of technical writing.
+[Google Season of Docs](https://g.co/seasonofdocs) provides support for open source projects to improve their documentation and gives professional technical writers an opportunity to gain experience in open source. Together we raise awareness of open source, of docs, and of technical writing.
 
 Projects can cover a wide range of fields including Cloud computing, operating systems, graphics, medicine, programming languages, robotics, science, security and many more. Season of Docs is not a recruiting program or an internship but it does provide invaluable experience and looks great on a resume!
 
@@ -75,7 +73,7 @@ Project features unrelated to developers/contributors are outside of the scope o
 
 ### What skills would a technical writer need to work on this project?
 
-**Must have:** Git and GitHub experience. Also experience in working with Markdown, JS build systems and tools like yarn, npm. Basic understanding of modern web and CS concepts.
+**Must have:** Demonstrated experience working with large and complex structured docs for developers. Experience with text markup tools, revisions control tools, and documentation processing workflows/pipelines. Basic technical understanding of modern web and CS concepts.
 
 **Nice to have:** Experience with automation, and DevOps concepts and tools like docker, kubernetes. Ability to read code are nice to have but not must.
 
