@@ -97,4 +97,4 @@ Budget consists of writer payment and swags' costs for the writer and up to 3 vo
 | ----------------------------------- | ------- | ------------- | --------------------- |
 | Documentation writing, update, test | 8000USD | 8000USD       |                       |
 | T-shirt swags                       | 250USD  | 9000USD       | Writer + 3 volunteers |
-| **TOTAL**                           | xxx     | 9000USD       |                       |
+| **TOTAL**                           |         | 9000USD       |                       |
