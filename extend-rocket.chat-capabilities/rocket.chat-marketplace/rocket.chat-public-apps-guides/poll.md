@@ -1,5 +1,7 @@
 # Poll
 
+Polls are a great way to drive engagement from your team members and receive quick feedback. The Poll app allows you to create polls inside a [room](../../../use-rocket.chat/user-guides/rooms/).
+
 To install the **Poll** App,
 
 * Go to **Administration > Apps > Marketplace.**
@@ -10,8 +12,8 @@ To install the **Poll** App,
 
 To create a Poll,
 
-* Enter the slash command _**/poll**_\*\* \*\* in the message box of the channel you want to create the poll.
-* Then, click **Enter** to execute\*\*.\*\* A pop-up form is triggered for you to create the poll. The form details include the following:
+* Run the slash command `/poll` in the room you want to create the poll.
+* Then, click **Enter** to execute. A pop-up form is triggered for you to create the poll. The form details include the following:
   * **Insert your question**: The poll question.
   * **Insert your options**: The reply options for the poll.
   * **Add a choice**: Add more reply options for the poll.
@@ -22,5 +24,5 @@ To create a Poll,
 
 To finish the poll,
 
-* Select the ![](<../../../.gitbook/assets/three-dot-icon (1).png>)**three-dot icon at the** top of the poll.
+* Select the **Kebab** menu top of the poll.
 * Then, click **Finish poll**.
