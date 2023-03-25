@@ -1,21 +1,7 @@
 # How can I help?
 
-## How can I help?
+Contributing to our Rocket.Chat doesn’t necessarily require coding skills. You can help in multiple ways such as creating or updating documentation, testing our web, desktop, and mobile apps, and reporting bugs. We welcome any assistance you can provide.
 
-You can help in multiple ways - even if you don't write code, you can still contribute. We are always looking for assistance with creating or updating documentation, testing our web, desktop, and mobile apps and reporting bugs.
+You can contribute to making Rocket.Chat in any of the following ways.
 
-**Developers** who wish to make contributions, please go [here](developing.md) to start.
-
-If you have found a **security** issue, [report it](security/).
-
-Rocket.Chat is currently **translated** into more than twenty languages, but we've got a long way to go. If you'd like to assist us with this, please email our [translation team](mailto:translations@rocket.chat) to be invited to our [Lingohub](https://translate.lingohub.com) project.
-
-Be sure to check out our [contributor's guidelines](https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat).
-
-To help improve our **documentation**, please see [contribution guides](documentation/).
-
-**Bloggers and news writers**, feel free to [spread the word](promoting.md)!
-
-## Contributor Covenant Code of Conduct
-
-This project adheres to the [Contributor Covenant](http://contributor-covenant.org) code of conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to team@rocket.chat
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-type="select"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>Developing</h3></td><td>Help make Rocket.Chat better by contributing code.</td><td></td><td></td><td><a href="https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/ways-to-contribute/developing">https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/ways-to-contribute/developing</a></td></tr><tr><td><h3>Documentation</h3></td><td>Contribute to Rocket.Chat documentation.</td><td></td><td></td><td><a href="https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/ways-to-contribute/documenting">https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/ways-to-contribute/documenting</a></td></tr><tr><td><h3>Testing</h3></td><td>Test and provide feedback on various Rocket.Chat apps.</td><td></td><td></td><td><a href="https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/ways-to-contribute/help-test-rocket.chat">https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/ways-to-contribute/help-test-rocket.chat</a></td></tr><tr><td><h3>Security</h3></td><td>Help improve or report  security issues to keep Rocket.Chat secure.</td><td></td><td></td><td><a href="https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/ways-to-contribute/security-issues">https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/ways-to-contribute/security-issues</a></td></tr><tr><td><h3>Translating</h3></td><td>Improve and bring Rocket.Chat translation to multiple languages.</td><td></td><td></td><td><a href="https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/ways-to-contribute/translating">https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/ways-to-contribute/translating</a></td></tr><tr><td><h3>Donate</h3></td><td>Donate and support the largest most secure open source and compliant collaboration platform. </td><td></td><td></td><td><a href="donate.md">donate.md</a></td></tr><tr><td><h3>Promoting</h3></td><td>Help promote Rocket.Chat by spreading the word.</td><td></td><td></td><td><a href="promoting.md">promoting.md</a></td></tr><tr><td><h3>Reporting bugs</h3></td><td>Report bugs and any broken functionalities.</td><td></td><td></td><td><a href="https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/ways-to-contribute/report-bugs">https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/ways-to-contribute/report-bugs</a></td></tr></tbody></table>

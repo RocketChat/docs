@@ -38,8 +38,8 @@ Below are related resources in other sections of Rocket.Chat's Documentation.
 
 ### Community
 
-* [Report Vulnerabilities](../../contribute-to-rocket.chat/how-can-i-help/security/) - how to best let us know about the security vulnerabilities you have found.
-* [Code of Conduct](../../contribute-to-rocket.chat/contributor-code-of-conduct.md) - rules that apply to our servers.
+* [Report Vulnerabilities](broken-reference) - how to best let us know about the security vulnerabilities you have found.
+* [Code of Conduct](broken-reference) - rules that apply to our servers.
 * [White Hat Hall of Fame](https://handbook.rocket.chat/departments-operations/security/whitehat-hall-of-fame) - Famous contributors that made Rocket.Chat more secure.
 
 ### Rocket.Chat Handbook

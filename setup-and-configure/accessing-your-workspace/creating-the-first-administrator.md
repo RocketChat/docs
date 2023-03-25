@@ -4,11 +4,11 @@ description: Creating your first admin user and user group.
 
 # Admin Account Creation
 
-After deploying the server, the first user to register becomes the administrator, with the power to set other users as administrators.&#x20;
+After deploying the server, the first user to register becomes the administrator, with the privilege to set other users as administrators.&#x20;
 
-Following the [**Setup Wizard**](../../use-rocket.chat/workspace-administration/settings/setup-wizard.md) allows you to create the first admin user of your workspace. Alternatively, you can configure an admin user during deployment by specifying it in the configuration files.
+The [**Setup Wizard**](../../use-rocket.chat/workspace-administration/settings/setup-wizard.md) shows you how to create the first admin user of your workspace. Alternatively, you can configure an admin user during deployment by specifying it in the configuration files.
 
-In case your server has no administrators, you can create the first admin account by defining the environment variables `INITIAL_USER, ADMIN_PASS,` and `ADMIN_EMAIL` once. Open your terminal and specify these variables line by line.
+If your server has no administrators, you can create the first admin account by defining the environment variables `INITIAL_USER, ADMIN_PASS,` and `ADMIN_EMAIL` once. Open your terminal and specify these variables line by line.
 
 ```bash
 export ROOT_URL=http://your-host-name.com-as-accessed-from-internet:3000/
@@ -20,9 +20,9 @@ export ADMIN_EMAIL=admin@example.com
 node main.js
 ```
 
-If you are hosting your own MongoDB instance, such as MongoDB Atlas, change the MONGO\_URL variable to your MongoDB connection string.
+If you are hosting your MongoDB instance, such as MongoDB Atlas, change the MONGO\_URL variable to your MongoDB connection string.
 
-Installing Rocket.Chat server with the `docker compose file`, you can also specify the `INITIAL_USER`, `ADMIN_USERNAME,` and `ADMIN_PASSWORD` directly.
+When installing Rocket.Chat server with the `docker compose file`, you can also specify the `INITIAL_USER`, `ADMIN_USERNAME,` and `ADMIN_PASSWORD` directly.
 
 ```
     environment:

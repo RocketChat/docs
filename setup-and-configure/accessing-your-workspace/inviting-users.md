@@ -1,9 +1,11 @@
 # Inviting Users
 
-After creating and setting up your new workspace, it is time to add users to your Rocket.Chat workspace.
+After creating the admin user during setup, you can [add or invite other users](../../use-rocket.chat/workspace-administration/users/) to join your workspace.
 
-You can start by creating your first user following this [guide](../../use-rocket.chat/workspace-administration/users/) on adding new users or inviting your colleagues to join your workspace.
+{% content-ref url="../../use-rocket.chat/workspace-administration/users/" %}
+[users](../../use-rocket.chat/workspace-administration/users/)
+{% endcontent-ref %}
 
 {% hint style="info" %}
-Note that for self-managed workspaces, you need to have[ SMTP enabled and configured](../../use-rocket.chat/workspace-administration/settings/email/setup.md) in order to be able to send emails through the workspace.
+For self-managed workplaces, [SMTP must be enabled and configured](../../use-rocket.chat/workspace-administration/settings/email/setup.md) before emails can be sent through the workspace.
 {% endhint %}

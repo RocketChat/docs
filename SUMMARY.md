@@ -497,18 +497,9 @@
 
 ## Contribute to Rocket.Chat
 
-* [Contributor Code of Conduct](contribute-to-rocket.chat/contributor-code-of-conduct.md)
+* [Contributor Code of Conduct](https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/code\_of\_conduct)
 * [How can I help?](contribute-to-rocket.chat/how-can-i-help/README.md)
-  * [Bug Reporting](contribute-to-rocket.chat/how-can-i-help/reporting-issues.md)
-  * [Developing](contribute-to-rocket.chat/how-can-i-help/developing.md)
-  * [Documenting](contribute-to-rocket.chat/how-can-i-help/documentation/README.md)
-    * [New Feature Template](contribute-to-rocket.chat/how-can-i-help/documentation/new-feature-draft.md)
-    * [Feature Change Template](contribute-to-rocket.chat/how-can-i-help/documentation/feature-change-draft.md)
-    * [Markdown Style Guide](contribute-to-rocket.chat/how-can-i-help/documentation/markdown-styleguide.md)
   * [Promoting](contribute-to-rocket.chat/how-can-i-help/promoting.md)
-  * [Security](contribute-to-rocket.chat/how-can-i-help/security/README.md)
-    * [Responsible Disclosure Policy](contribute-to-rocket.chat/how-can-i-help/security/responsible-disclosure-policy.md)
-  * [Translating](contribute-to-rocket.chat/how-can-i-help/translating.md)
   * [Donate](contribute-to-rocket.chat/how-can-i-help/donate.md)
 * [Annual Contribution Programs](contribute-to-rocket.chat/annual-contribution-programs/README.md)
   * [Google Summer of Code](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/README.md)
