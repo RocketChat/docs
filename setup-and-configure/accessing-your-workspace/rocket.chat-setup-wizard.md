@@ -88,5 +88,5 @@ Suppose you choose to register your workspace, Rocket.Chat collects the followin
 Your workspace is now ready for use.
 
 {% hint style="success" %}
-From here, you can get a 30 days trial on the features that come with the [Enterprise Edition](../enterprise-edition-trial/).
+From here, you can get a 30 days trial on the features that come with the [Enterprise Edition](../enterprise-edition-trial.md).
 {% endhint %}
