@@ -1,6 +1,6 @@
 # SLA Policies
 
-<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (20).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (17).jpg" alt=""><figcaption></figcaption></figure>
 
 Omnichannel SLA Policies allow you to change the order of Omnichannel queues based on **Estimated Wait Time**. It means chats with a shorter wait time will appear in the queue before others with longer or no due time set. SLA Policies are not mandatory for each chat. Thus, the Omnichannel queue has conversations with and without SLA policies.
 

@@ -302,3 +302,32 @@ class Script {
   }
 }
 ````
+
+## Integration Pattern&#x20;
+
+<details>
+
+<summary>Pattern for Incoming Webhooks</summary>
+
+For incoming webhooks, you notify Rocket.Chat from another platform through webhooks, and the pattern is as follows:
+
+1. Create an incoming webhook on Rocket.Chat.
+2. Understand the structure of data of the sending platform. Most platforms return data in the form of JSON. Know the structure of data that is sent to your webhook.
+3. Construct a Rocket.Chat message: Using the data returned by the third-party platform, construct a Rocket.Chat message using the returned data's attributes. The payload of the message is in this structure.
+
+</details>
+
+<details>
+
+<summary>Pattern for Outgoing Webhooks</summary>
+
+For outgoing webhooks, you notify a third-party platform about events occurring on your Rocket.Chat workspace and the pattern is as follows:
+
+1. Generate a webhook on a third-party platform, such as Slack.
+2. Create an outgoing webhook and replace the URLs field with the generated webhook URL.
+3. Understand the structure of the data that the third-party platform expects, so as to construct this data from Rocket.Chat's message.
+4. Construct the data expected by the third-party platform.
+
+The data manipulation is done in the webhook's Script class.
+
+</details>
