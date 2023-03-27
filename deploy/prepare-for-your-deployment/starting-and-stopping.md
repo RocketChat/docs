@@ -1,6 +1,6 @@
 # Starting & Stopping Docker Compose
 
-Following our Rapid deployment methods, you can start/stop your Rocket.Chat instance by running
+Following the rapid deployment methods, you can start/stop your Rocket.Chat instance by running the commands outlined here.&#x20;
 
 ### Docker & Docker Compose
 
