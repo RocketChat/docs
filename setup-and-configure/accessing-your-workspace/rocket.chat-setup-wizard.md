@@ -71,7 +71,7 @@ When registering your workspace, Rocket.Chat collects the following information 
 
 </details>
 
-Your workspace is ready for use, and you can apply for an [Enterprise Edition trial](../enterprise-edition-trial.md).
+Your workspace is ready for use, and you can apply for an [Enterprise Edition trial](../enterprise-edition-trial/).
 
 ### Register Workspace
 

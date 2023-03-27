@@ -18,7 +18,7 @@ To create a new Omnichannel department:
 * Fill in the required [information](departments.md#omnichannel-department-information) and click **Save.**
 
 {% hint style="info" %}
-From workspaces on version `6.0`, the community edition allows you to create only one department. To create multiple departments, please upgrade to the [enterprise edition ](../../setup-and-configure/enterprise-edition-trial.md)of Rocket.Chat. For workspaces with various departments on previous versions, you can continue with those departments; however, you can't create a new one.
+From workspaces on version `6.0`, the community edition allows you to create only one department. To create multiple departments, please upgrade to the [enterprise edition ](../../setup-and-configure/enterprise-edition-trial/)of Rocket.Chat. For workspaces with various departments on previous versions, you can continue with those departments; however, you can't create a new one.
 {% endhint %}
 
 ### Omnichannel Department Information

@@ -107,7 +107,7 @@
   * [CDN](setup-and-configure/advanced-workspace-management/cdn.md)
   * [Troubleshooting](setup-and-configure/advanced-workspace-management/troubleshooting.md)
   * [Client Compatibility Matrix](setup-and-configure/advanced-workspace-management/client-compatibility-matrix.md)
-* [Enterprise Edition Trial](setup-and-configure/enterprise-edition-trial.md)
+* [Enterprise Edition Trial](setup-and-configure/enterprise-edition-trial/README.md)
 * [Rocket.Chat Air-gapped Deployment](setup-and-configure/rocket.chat-air-gapped-deployment/README.md)
   * [Offline Workspace Registration](setup-and-configure/rocket.chat-air-gapped-deployment/offline-workspace-registration.md)
   * [Offline License](setup-and-configure/rocket.chat-air-gapped-deployment/offline-license.md)
