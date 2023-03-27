@@ -52,13 +52,11 @@ You can use the console methods to log information to help debug your script. Mo
 
 ```javascript
 /* exported Script */
-/* globals console, _, s */
+/* globals console */
 
 /** Global Helpers
  *
  * console - A normal console instance
- * _       - An underscore instance
- * s       - An underscore string instance
  */
 
 class Script {
@@ -180,13 +178,11 @@ The example script sends commands such as issues, comments, and pull requests to
 
 ````javascript
 /* exported Script */
-/* globals console, _, s, HTTP */
+/* globals console, HTTP */
 
 /** Global Helpers
  *
  * console - A standard console instance
- * _       - An underscore instance
- * s       - An underscore string instance
  * HTTP    - The Meteor HTTP object to do sync http calls
  */
 
