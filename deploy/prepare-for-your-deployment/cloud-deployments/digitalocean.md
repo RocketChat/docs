@@ -8,23 +8,21 @@ description: Deploying Rocket.Chat on DigitalOcean
 [**👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
 {% endhint %}
 
-You can now install Rocket.Chat on DigitalOcean using a 1-Click install from the DigitalOcean Marketplace.
+You can now install Rocket.Chat on DigitalOcean using a [1-Click install](https://marketplace.digitalocean.com/apps/rocket-chat?action=deploy\&refcode=1940fe28bd31) from the DigitalOcean Marketplace.
 
-[![do-btn-blue](https://user-images.githubusercontent.com/51996/58146107-50512580-7c1a-11e9-8ec9-e032ba387c2a.png)](https://marketplace.digitalocean.com/apps/rocket-chat?action=deploy\&refcode=1940fe28bd31)
+After you create your 1-Click install using the Rocket.Chat app in DigitalOcean Marketplace, create a registered domain name to access Rocket.Chat.&#x20;
 
-After you create your 1-Click install using the Rocket.Chat app in DigitalOcean Marketplace, you'll likely want a registered domain name to access Rocket.Chat.
+We recommend setting up an A record from your domain to your server's IP address. For example, _chat.mycompany.com._ Rocket.Chat will not work with HTTPS out of the box because certificates are unique for each installation, but with this setup, HTTPS will be available using Let's Encrypt certificates.
 
-We recommend setting up an A record from your domain to your servers IP address. Ex: chat.mycompany.com
+After the Rocket.Chat One-Click and your domain is set up,
 
-Rocket.Chat will not work with HTTPS out of the box because certificates are unique for each installation, but with this setup HTTPS will be available using Let's Encrypt certificates.
-
-After the Rocket.Chat One-Click is finished and your domain is setup. You will need to login to your droplet to finish setup.
+* Log in to your droplet to complete the setup.
 
 ```
 ssh root@your_droplet_ip
 ```
 
-Once you are connected you should see something like:
+* Once you are connected, you should see something like this:
 
 ```
 ##################################################################################################################################################################
@@ -40,17 +38,19 @@ Need some help? Join our community forums https://forums.rocket.chat and https:/
 ##################################################################################################################################################################
 ```
 
-Besides the recommended setup you can out of the box access Rocket.Chat server at: [http://Droplet-IP:3000](http://droplet-ip:3000)
+{% hint style="info" %}
+Asides from the recommended setup, you can get out-of-the-box access to Rocket.Chat server at  [`http://Droplet-IP:3000`](http://droplet-ip:3000).
+{% endhint %}
 
 ## Backend
 
-Under the hood, the image uses docker for managing the deployment. Please read our documentation on [docker](../rapid-deployment-methods/docker-and-docker-compose/) to learn more about managing it.
+Under the hood, the image uses docker for managing the deployment. To learn more about managing Docker, please read our [docker documentation](../rapid-deployment-methods/docker-and-docker-compose/).&#x20;
 
 ## Enabling HTTPS
 
-To get https, first make sure you have the correct A record (optionally CNAME) set for your domain going to your droplet IP.
+To get HTTPS, ensure the correct A record (optionally CNAME) is set for your domain going to your droplet IP.
 
-Create a non root user account first, if you haven't already.
+* Create a non-root user account if you haven't already.
 
 ```bash
 username= #put your username here
@@ -66,9 +66,9 @@ sudo chown -R $(id $username -u):$(id -g $username) /home/$username/.ssh
 sudo su - $username
 ```
 
-Once you can confirm the records update\[s] haver propagated, follow the steps below
+Once you can confirm the records update\[s] have propagated, follow these steps:
 
-1. Copy the `rocketchat` project directory from root, and change ownership
+* Copy the `rocketchat` project directory from the root, and change ownership.
 
 ```bash
 cd ~
@@ -77,7 +77,7 @@ sudo chown -R $UID:$GID rocketchat
 cd rocketchat
 ```
 
-2. Create a `.env` file with the following contents
+* Create a `.env` file with the following information:
 
 ```bash
 LETSENCRYPT_EMAIL= # your email, required for the tls certificates
@@ -90,23 +90,23 @@ BIND_IP=127.0.0.1
 
 ```
 
-3. Download the traefik template
+* Download the traefik template by running the following command:
 
 ```bash
 curl -LO \
     https://raw.githubusercontent.com/RocketChat/Docker.Official.Image/master/traefik.yml
 ```
 
-4. Recreate the existing Rocket.Chat container
+* Recreate the existing Rocket.Chat container
 
 ```bash
 docker compose up -d rocketchat --force-recreate
 ```
 
-5. Star traefik
+* Star traefik
 
 ```bash
 docker compose -f traefik.yml up -d
 ```
 
-Now wait for the certs to be generated and Rocket.Chat to be restarted. After about a minute you should be able to access your instance on `https://${DOMAIN}`.
+Now, wait for the certs to be generated and Rocket.Chat to be restarted. After a while, you can access your instance on `https://${DOMAIN}`.
