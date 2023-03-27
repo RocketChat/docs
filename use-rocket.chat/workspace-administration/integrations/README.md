@@ -4,53 +4,51 @@ description: Integrate tools and services to ease everyday workflows.
 
 # Integrations
 
-Rocket.Chat supports Webhooks to integrate tools and services you like into the platform. Webhooks are simple event notifications via HTTP POST. This way, any application implementing a Webhook is able to POST a message to a Rocket.Chat instance and much more.
+Rocket.Chat supports webhooks to integrate tools and services you like into the platform. Webhooks are simple event notifications via HTTP POST. This way, any webhook application can post a message to a Rocket.Chat instance and much more.
 
-With Scripts, you can point any Webhook to Rocket.Chat and process the request to print customized messages, define the username and avatar of the user of the message and change the channel where the message will be posted, or you can cancel the request to prevent undesired messages.
+With scripts, you can point any webhook to Rocket.Chat and process the requests to print customized messages, define the username and avatar of the user of the messages and change the channel for sending messages, or you can cancel the request to prevent undesired messages.
 
-**Available integrations:**
+## **Available integrations**
 
 * **Incoming Webhook**: Let an external service send a request to Rocket.Chat to be processed.
 * **Outgoing Webhook**: Let Rocket.Chat trigger and optionally send a request to an external service and process the response.
 
-By default, Webhooks is designed to post a message only. The _message_ is part of a JSON structure, which has the same format described in the API documentation for [posting a chat message.](https://developer.rocket.chat/reference/api/rest-api/endpoints/core-endpoints/chat-endpoints/postmessage)
+By default, a webhook is designed to post messages only. The _message_ is part of a JSON structure, which has the same format as that of a [Rocket.Chat message](http://localhost:5000/s/-MWf1K8RJU-TjNEtPxvb/reference/api/rest-api/endpoints/core-endpoints/chat-endpoints/postmessage#message-object-example).
 
 {% hint style="info" %}
 If you would like more power and control over various features of Rocket.Chat, aside from sending and receiving messages, take a look at [Rocket.Chat Apps.](https://rocket.chat/marketplace#apps)
 {% endhint %}
 
-## Incoming webhook script
+### Incoming webhook script
 
-Webhooks can be handled by _ES2015 / ECMAScript 6_ scripts to process the request, print customized messages, or cancel the request to prevent undesired messages.
+ES2015 / ECMAScript 6 scripts can handle Webhooks to process the request, print customized messages, or cancel the request to prevent undesired messages.
 
-### Create a new incoming webhook
+#### **Create a new incoming webhook**
 
 To create a new incoming webhook:
 
-* Navigate to **Administration** > **Workspace** > **Integrations**
-* Click +**New** on the top right corner
-* Select **Incoming**&#x20;
-* **Name:** You should name it to manage your integrations easily.
-* **Post to Channel**: Select the channel(or user) where you prefer to receive the alerts. It is possible to override messages.
-* **Post as**: Choose the username that this integration will post as. The user must already exist.
-* Set **Script Enabled** to `true.`
-* Paste your script inside the **Script** field.
+* Navigate to **Administration** > **Workspace** > **Integrations.**
+* Click +**New** at the top right corner.
+* Switch to the **Incoming** tab**.**
+* Turn on the **Enabled** toggle.
+* **Name:** Enter a name for your webhook. The name is optional; however, providing a name to manage your integrations easily is advisable.
+* **Post to Channel**: Select the channel (or user) where you prefer to receive the alerts. It is possible to override messages.
+* **Post as**: Choose the username that this integration posts as. The user must already exist.
+* **Alias**: Optionally enter a nickname that appears before the username in messages.
+* **Avatar URL**: Enter a link to an image as the avatar URL if you have one. The avatar URL overrides the default avatar.
+* **Emoji**: Enter an emoji optionally to use the emoji as the avatar. Check the emoji cheat sheet [here](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
+* Turn on the **Script Enabled** toggle.
+* Paste your script inside the **Script** field.&#x20;
 * Save the integration.
-* Use the generated **Webhook URL** to POST messages to Rocket.Chat.
+* Use the generated **Webhook URL** to post messages to Rocket.Chat.
 
 ### Script details
 
-The script should be in **ES2015 / ECMAScript 6**.
+The Rocket.Chat integration script should be written in ES2015 / ECMAScript 6. The script requires a global class named **Script**, which is instantiated only once during the first execution and kept in memory. This class contains a method called _**process\_incoming\_request**_, which is called by your server each time it receives a new request. The _process\_incoming\_request_ method takes an object as a parameter with the request property and returns an object with a content property containing a valid Rocket.Chat message, or an object with an error property, which is returned as the response to the request in JSON format with a Code 400 status.
 
-The script expects a global class called `Script`. This class is instantiated once, only on the first execution, and kept in memory.
+A valid Rocket.Chat message must contain a text field that serves as the body of the message. If you redirect the message to a channel other than the one indicated by the webhook token, yyou can specify a channel field that accepts `room id` or, if prefixed with `"#"` or "`@`", channel name or user, respectively.
 
-The class has a method called, `process_incoming_request` . Your server calls this method every time it receives a new request. It is called with an Object as a parameter with the `request`property.
-
-The `process_incoming_request`method returns an object with a `content`property that contains a valid Rocket.Chat message or an object with an `error` property that returns as the response to the request in JSON format and Code 400 status.
-
-A valid Rocket.Chat message can contain a `text` field that is the body of the message. When you redirect the message to a channel other than the one indicated by the Webhook token, you can specify a `channel` field that accepts room id or, if prefixed with "#" or "@", channel name or user.
-
-You can use the `console` methods to log information to help debug your script. Find more information about the console [here](https://developer.mozilla.org/en-US/docs/Web/API/Console/log). To view the logs, go to `Administration > View Logs`.
+You can use the console methods to log information to help debug your script. More information about the console can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/Console/log). To view the logs, navigate to **Administration** > **Workspace** > **View Logs**.
 
 ```javascript
 /* exported Script */
@@ -117,39 +115,68 @@ class Script {
 }
 ```
 
-## Outgoing webhook script
+To test if your integration works, use [curl ](https://curl.se/)to make a POST request to the generated webhook URL.
 
-Use scripts to process all messages from a channel and change how Rocket.Chat makes or cancels the request. You can cancel the request and return a message or just do nothing. Also, you can make another request inside the script by using the HTTP global helper.
+```clike
+curl -X POST \
+  -H 'Content-Type: application/json' \
+  --data '{
+      "emoji": ":smirk:",
+      "text": "Example message",
+      "attachments": [
+          {
+              "title": "Rocket.Chat",
+              "title_link": "https://rocket.chat",
+              "text": "Rocket.Chat, the best open source chat",
+              "image_url": "link-to-an-image",
+              "color": "#764FA5"
+          }
+      ]
+  }' \
+  https://your-webhook-url
+```
 
-The response to the request also executes the script, calling another method so you can process the response, just like in incoming webhooks.
+### Outgoing webhook script
 
-### Create a new outgoing webhook
+You can utilize scripts to process all messages from a channel and modify how Rocket.Chat creates or cancels the request. You have the option to either cancel the request and return a message or take no action. Additionally, you can create another request within the script using the HTTP global helper. When a response is received from the request, it executes the script, calling another method that allows you to process the response, similar to incoming webhooks. To create a new outgoing webhook, follow these steps.
+
+#### Create a new outgoing webhook
 
 To create a new outgoing webhook:
 
-* Navigate to **Administration** > **Workspace** > **Integrations**
-* Click +**New** on the top right corner
-* Select **Outgoing**&#x20;
-* **Event TriggerMessage Sent**: Select which type of event will trigger this outgoing webhook integration
-* Select the channel where you prefer to use the commands and receive the responses.
-* Enter the URL you want to call in **URLs**. You can modify this URL inside the script.
-* Set **Script Enabled** to `true.`
+* Navigate to **Administration** > **Workspace** > **Integrations.**
+* Click +**New** in the top right corner.
+* Switch to the **Outgoing** tab**.**
+* **Event Trigger**: Select the type of event that triggers this outgoing webhook integration.
+* Turn on the **Enabled** toggle.
+* **Name**: Enter a name for your webhook.
+* **Channel**: Enter the channel to listen to.
+* **Trigger Words**: If your event trigger is **Message Sent**, enter the words that should trigger this webhook separated by commas.
+* Enter the URL called for each request in the **URLs** field. You can modify this URL inside the script.
+* **Post as**: Enter the username that this integration posts as. This field is optional.
+* **Alias**: Enter a nickname that appears before the username in messages.
+* **Avatar URL**: Optionally enter an image URL as the avatar for each message the webhook posts.
+* **Emoji**: Optionally enter an emoji to use as an avatar.
+* **Token**: Enter a token that is used to verify authorized webhook calls. The token is optional but essential to avoid cross-site request forgery (CSRF) or replay attacks.
+* Turn on **Script Enabled.**
 * Paste your script inside the **Script** field.
 * Save your integration.
 
 ### Script details
 
-The script should be in **ES2015 / ECMAScript 6**.
+The script should be in ES2015 / ECMAScript 6. The script expects a global class called **Script**. This class is instantiated once, only on the first execution, and kept in memory. The class has a method called **prepare\_outgoing\_request**, called in the configured channel for the event triggers:
 
-The script expects a global class called **Script**. This class is instantiated once, only on the first execution, and kept in memory.
+* **Message Sent**: Called in the configured channel when the message starts with any **Trigger Words.**
+* **File Uploaded**: Called when any file is uploaded in the configured channel.
+* **Room Archived**: Called when a room is archived.
+* **Room Created**: Called when a room is created.
+* **User Joined Room**: Called when a user joins the channel.
 
-The class has a method called `prepare_outgoing_request`, this method is called for every message in the configured channel, or it can be filtered by **Trigger Words**. It is called with an Object as parameter a that contains the `request` property.
+The **prepare\_outgoing\_request** method returns an object with at least _url_ and _method_ properties. You can also change the request object and replace it. It is possible to return nothing and cancel the request or return a message.
 
-The `prepare_outgoing_request`method returns an object with, at least, `url`and `method` properties. You can also change the request object and return it. It is possible even to return nothing and cancel the request or return a message.
+The Script class has another method named process\_outgoing\_response. The method **process\_outgoing\_response** is called for every request response, with an object as a parameter containing the _request_ property, that is, the object you returned in the previous method and a response property. The process\_outgoing\_response method can return nothing to proceed with the default processing, return false to stop it, or an object with the content property that contains a valid Rocket.Chat message.
 
-This class has a method named `process_outgoing_response`. It is called for every response of the request, with an Object as a parameter that contains the `request` property, i.e. the object you returned in the previous method and a `response` property.
-
-The `process_outgoing_response` method can return nothing to proceed with the default processing, return `false` to stop it, or an object with the `content` property that contains a valid Rocket.Chat message.
+The example script sends commands such as issues, comments, and pull requests to GitHub.
 
 ````javascript
 /* exported Script */
@@ -157,7 +184,7 @@ The `process_outgoing_response` method can return nothing to proceed with the de
 
 /** Global Helpers
  *
- * console - A normal console instance
+ * console - A standard console instance
  * _       - An underscore instance
  * s       - An underscore string instance
  * HTTP    - The Meteor HTTP object to do sync http calls
