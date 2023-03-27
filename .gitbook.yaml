@@ -128,4 +128,14 @@ redirects:
     guides/administration/admin-panel/integrations: use-rocket.chat/workspace-administration/integrations/README.md
     legal/terms: rocket.chat-legal/terms-of-service.md
     legal/master-services-agreement-for-self-managed-workspaces: rocket.chat-legal/master-services-agreement-for-self-managed-workspaces.md
+    contribute-to-rocket.chat/how-can-i-help/reporting-issues: contribute-to-rocket.chat/how-can-i-help/README.md
+    contribute-to-rocket.chat/how-can-i-help/developing: contribute-to-rocket.chat/how-can-i-help/README.md
+    contribute-to-rocket.chat/how-can-i-help/documentation: contribute-to-rocket.chat/how-can-i-help/README.md
+    contribute-to-rocket.chat/how-can-i-help/documentation/markdown-styleguide: contribute-to-rocket.chat/how-can-i-help/README.md
+    contribute-to-rocket.chat/how-can-i-help/security: contribute-to-rocket.chat/how-can-i-help/README.md
+    contribute-to-rocket.chat/how-can-i-help/security/responsible-disclosure-policy: contribute-to-rocket.chat/how-can-i-help/README.md
+    contribute-to-rocket.chat/how-can-i-help/translating: contribute-to-rocket.chat/how-can-i-help/README.md
+    
+    
+    
     
