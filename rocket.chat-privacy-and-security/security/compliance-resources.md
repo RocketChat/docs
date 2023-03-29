@@ -23,7 +23,7 @@ ISO 27001 certificate 2020
 {% endfile %}
 
 * **Name**: ISO 27001 Information Security Management Systems
-* **Statement of applicability** ([link](https://drive.google.com/file/d/14tYG-sVDkw6hGZvxnRjSCEcCfJXdYetb/view?usp=sharing))
+* **Statement of applicability** ([link](https://drive.google.com/file/d/1SVkm0JGGwa5MAZQHe1WwiUgswabdqMNW/view?usp=sharing))
 *
   * _contains a list of controls and whether they are applicable or not_
 * **Certifying body**: QMS Certification Services
@@ -41,7 +41,7 @@ Scope: **Hosted Offering**
 Rocket.Chat has published a pre-filled questionnaire in the STAR-registry of the CSA [here](https://cloudsecurityalliance.org/star/registry/rocket-chat). The CSA is a leading organization in the standardization and improvement of security in cloud computing. The Consensus Assessments Initiative Questionnaire (CAIQ) is a self-assessment that is updated on an annual basis.
 
 * Name: Consensus Assessments Initiative Questionnaire
-* Last Update: October 2019
+* Last Update: October 2019 (outdated - new update in Q2/2023)
 * Use cases: due diligence, security review
 
 ## Country-specific resources

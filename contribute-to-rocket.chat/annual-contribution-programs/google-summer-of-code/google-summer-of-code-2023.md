@@ -34,6 +34,16 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 ### **Latest update**
 
+**Update March 28th, 2023  Thanks to our SEVEN HUNDRED and FIFTY strong community!**
+
+Momentum of community growth continued throughout the week.  ****  Now, the Rocket.Chat GSoC 2023 community stands at an unprecedented **750+ globally diverse members** collaborating 24 x 7 at [our GSoC 2023 Team Channels](https://open.rocket.chat/channel/gsoc2023/team-channels).\
+\
+Almost everyone is fully engaged with their mentors in discussion of the **THIRTY MENTORED PROJECT IDEAS** this week.   Mentors are busy helping contributors and reviewing early drafts of proposals.   Some contributor have already submitted proposal through their portal - as of this week we have received **30 early proposal submissions**.\
+\
+A large group of mentors assembled to run a **Proposal Workshop** over the weekend to help contributors in writing their proposals and to show them how mentors typically select the winning proposal.  The event was extremely well received with over **47 attendees**.  Many of them shared  their work-in-progress proposals for in-session live review.   Thanks go to all the contributors for supporting this event and to the tireless mentors showing up Sunday early morning to help our keen contributors. \
+\
+As of this week, we have **314 code contributors** on our [contributors leaderboard](https://gsoc.rocket.chat).  Responsible for **68 Merged PRs, 70 Open PRs, and raising 173 Issues!**
+
 #### Update March 21st, 2023 Shout out to our 2023 community of SIX HUNDRED !
 
 Proposal submission is now open! We are extremely grateful for the enthusiastic participation and support of our contributors. The learning curve for Rocket.Chat's huge production code base is known to be extremely steep and many of them are getting a head-start even before the announcement of the GSoC 2023 program. Joining us as early as January this year!\
