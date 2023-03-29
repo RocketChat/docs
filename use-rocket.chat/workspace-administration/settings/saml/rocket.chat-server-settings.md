@@ -103,7 +103,8 @@
 * **User Data Field Map**: Configure how user account fields (like email) are populated from a record in SAML (once found). As an example, `{"name":"cn", "email":"mail"}`  chooses a person's human-readable name from the cn attribute, and their email from the mail attribute. Available fields in Rocket.Chat: `name`, `email` and `username`. Everything else is discarded.
 
 ```json
-"email": "mail",
+{
+  "email": "mail",
   "username": {
     "fieldName": "mail",
     "regex": "(.*)@.+$",
