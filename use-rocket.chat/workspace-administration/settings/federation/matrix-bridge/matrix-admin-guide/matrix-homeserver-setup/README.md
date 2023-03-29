@@ -1,12 +1,10 @@
 # Matrix Homeserver Setup
 
-## Introduction
-
 In the Matrix protocol and federated architecture, Homeservers are key components that host user accounts and other data related to communication. It also facilitates communication between users on different servers by relaying messages through a network of Matrix servers until it reaches the destination.
 
-Rocket.Chat listens to events happening in the Homeserver and also sends events that gets relayed to other networks.
+Rocket.Chat listens to events happening in the Homeserver and sends events relayed to other networks.
 
-You can choose to install a Homeserver following and of the two methods listed below:
+You can choose to install a Homeserver using any of the following methods:
 
 * ****[**Automated Installation**](./#automated-installation): Install Synapse and Rocket.Chat using a simple setup script.
 * ****[**Manual Installation**](./#manual-installation): Manually install and configure your Homeserver with Rocket.Chat.
@@ -15,7 +13,7 @@ You can choose to install a Homeserver following and of the two methods listed b
 We recommend using automatic installation since this comes with some configurations done.
 {% endhint %}
 
-### System Requirements
+## System Requirements
 
 * 8GB of RAM
 * 2CPU
@@ -26,12 +24,12 @@ We recommend using automatic installation since this comes with some configurati
 You are required to have a domain available to host your Matrix Homeserver.
 {% endhint %}
 
-### Important warning about the installation
+## Important warning about the installation
 
-There is an important setting you must be aware of before proceeding with the installation.&#x20;
+You must be aware of this vital setting before proceeding with the installation.&#x20;
 
 * Enabling ephemeral events like _user typing indicator_ can affect the performance of your Matrix Homeserver and Rocket.Chat server for federated communicaation. \
-  This can be enabled by adding the following property in your Application Service configuration file
+  This can be enabled by adding the following property in your Application Service configuration file:
 
 ```yaml
 de.sorunome.msc2409.push_ephemeral: true
@@ -50,16 +48,16 @@ allow_public_rooms_over_federation: true
 
 The Automated install makes it simple for you to install a Matrix Homeserver pre-configured with Rocket.Chat.
 
-#### Prerequisites&#x20;
+### Prerequisites&#x20;
 
 You are required to have the following on your system before installing.
 
 * [Docker](https://www.docker.com/)
 * [Docker compose](https://docs.docker.com/compose/) (> 2.3.3)
 
-#### Installation Steps
+### Installation Steps
 
-* Open your terminal in any directory of your choice
+* Open your terminal in any directory of your choice.
 * Download and execute the [script](https://go.rocket.chat/i/federation-setup) by running the following command. This creates a `docker-compose` and a `.env` file that can be edited as needed
 
 ```bash
@@ -67,13 +65,13 @@ bash <(curl -L -s https://go.rocket.chat/i/federation-setup)
 ```
 
 * Follow the instructions provided by the script to configure the workspace:
-  * **Server's hostname**: Add your domain when asked.
+  * **Server's hostname**: Add your domain name.
   * Create `A` domain records pointing to your server's IP address as requested.
     * `synapse.<your-domain>`
     * `matrix.<your-domain>`
     * `traefik.<your-domain>`
-  * Enter your email address, this is used to issue an SSL certificate for your domain.
-* Start the container by running:
+  * Enter your email address. This is used to issue an SSL certificate for your domain.
+* Start the container by running the following command:
 
 ```bash
 docker compose up -d
@@ -84,20 +82,20 @@ Installing with the Automated setup automatically sets the values at **Administr
 {% endhint %}
 
 {% hint style="info" %}
-Rocket.Chat Matrix setup CLI coming soon.
+Rocket.Chat Matrix setup CLI is coming soon!
 {% endhint %}
 
-#### Testing the Setup
+### Testing the Setup
 
 To test and make sure your Matrix setup is successful,
 
-* In the same directory where the setup was initiated, download and execute the [test script](https://go.rocket.chat/i/federation-test).
+* Download and execute the test script in the same directory where the setup was initiated.
 
 ```bash
 bash <(curl -L -s https://go.rocket.chat/i/federation-test)
 ```
 
-You get a notice about the setup status.
+* You get a notice about the setup status.
 
 ## Manual installation
 
@@ -112,15 +110,11 @@ Follow this guide to set up a Matrix Homeserver with Synapse manually.
 
 <figure><img src="../../../../../../../.gitbook/assets/image (613).png" alt=""><figcaption><p>App Service Registration File content</p></figcaption></figure>
 
-* Complete Matrix Bridge Configuration following this guide
+* Complete the configuration steps outlined in [matrixbridge-configuration.md](../matrixbridge-configuration.md "mention").
 
-{% content-ref url="../matrixbridge-configuration.md" %}
-[matrixbridge-configuration.md](../matrixbridge-configuration.md)
-{% endcontent-ref %}
+### Testing your setup
 
-#### Testing your setup
+To test your manual installation,
 
-To test your manual installation:
-
-* Make sure Synapse is up and running.
-* Ensure the federation setup is running, go to [Matrix Federation Tester](https://federationtester.matrix.org/), and paste your Matrix Homeserver name (only the server name, not the full link).
+* Ensure Synapse is up and running.
+* Confirm the federation setup is running, go to [Matrix Federation Tester](https://federationtester.matrix.org/), and paste your Matrix Homeserver name (only the server name, not the full link).

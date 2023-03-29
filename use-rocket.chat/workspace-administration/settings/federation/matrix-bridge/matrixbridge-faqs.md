@@ -20,7 +20,7 @@ Rocket.Chat aims to enable seamless communication and collaboration across platf
 
 <details>
 
-<summary>What is a homeserver?</summary>
+<summary>What is a Homeserver?</summary>
 
 It's an implementation of the Matrix spec, there are some existing homeservers. The most famous are [Synapse ](https://github.com/matrix-org/synapse)and [Dendrite](https://github.com/matrix-org/dendrite).
 
@@ -77,7 +77,7 @@ No, all the copies being created to support the Matrix Bridge feature will NOT b
 
 <details>
 
-<summary>Can I change the Role of an federated user in my local workspace?</summary>
+<summary>Can I change the role of an federated user in my local workspace?</summary>
 
 No, all the external users created in your local workspace will be created as a User (user role) and without an email and password, which means they cannot log in directly to your workspace. The only way for them to communicate with your local workspace is through the open channel you have with them.
 

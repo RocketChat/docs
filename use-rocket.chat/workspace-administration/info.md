@@ -103,7 +103,7 @@ Next, continue by adding the given DNS records on your server and follow the giv
 {% hint style="info" %}
 More on the federation setup can be seen in [this section](settings/federation/).
 
-We also have a guide on [talking-to-users-from-another-server.md](../rocket.chat-federation/talking-to-users-from-another-server.md "mention").
+We also have a guide on [Broken link](broken-reference "mention").
 {% endhint %}
 
 
