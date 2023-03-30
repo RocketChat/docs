@@ -136,4 +136,5 @@ redirects:
     contribute-to-rocket.chat/how-can-i-help/security/responsible-disclosure-policy: contribute-to-rocket.chat/how-can-i-help/README.md
     contribute-to-rocket.chat/how-can-i-help/translating: contribute-to-rocket.chat/how-can-i-help/README.md
     setup-and-configure/rocket.chat-air-gapped-deployment/manual-app-installation: setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md
-    
+    installation/mobile-and-desktop-apps#mobile-apps: deploy/installing-client-apps/rocket.chat-desktop-and-mobile-apps.md
+    installation/mobile-and-desktop-apps: deploy/installing-client-apps/rocket.chat-desktop-and-mobile-apps.md
