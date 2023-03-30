@@ -61,7 +61,17 @@ Create a new issue in a GitHub repository.
 
 * Enter the **Full Repository Name** you wish to create the issue in, and click **Next**
 * Fill in the issue details and **Create Issue.**
-* The issue gets created, and a link to it provided.
+* The issue gets created, and a link to it is provided.
+
+### `/github issues`
+
+This lets you manage the issues on a GitHub repository.
+
+* Enter the **Full Repository Name** you wish to see the issue in, and click **Next**
+* A list of issues on the repository is seen. From here you can
+  * View the issue directly on **GitHub**
+  * **Assign** to issue to someone
+  * **Add** the issue
 
 ### `/github subscribe`
 
@@ -88,7 +98,7 @@ To retrieve information about a repository,
 
 ### `/github <username>/<repository name> repo`
 
-* Returns  a detailed overview of a repository.
+* Returns a detailed overview of a repository.
 
 ### `/github <username>/<repository name> issues`
 
@@ -113,7 +123,7 @@ To return a list of open pull requests on a repository.&#x20;
 To review a specific pull request using its PR number,
 
 * Click  **View Changes** to see the changes made by that pull request
-* **View File** lets you see the file(s) that have been affected by the pull request..
+* **View File** lets you see the file(s) that have been affected by the pull request.
 * Click on **Comments** to view the comments under the PR where you **Add Comment.**
 * Click on **Merge** to specify the merge request detail and **Merge** the PR.
 

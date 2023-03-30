@@ -2,7 +2,7 @@
 description: Enterprise only feature
 ---
 
-# 👑 Pexip app
+# Pexip app
 
 ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (18).jpg>)
 
@@ -14,7 +14,7 @@ This app can also work in a fully air-gapped environment. If you are an Enterpri
 
 The integration between Rocket.Chat and Pexip, a video conferencing communication platform, enables secure and compliant communication that is ideal for organizations operating within strict regulatory requirements for internal and external communications, such as government, financial services, healthcare, and others.
 
-## Architecture&#x20;
+## Architecture
 
 This integration is made possible by connecting Rocket.Chat with Pexip infinity through its external policy API. The Rocket.Chat Pexip App acts as a relay between the two platforms. Rocket.Chat users initiate a video call to a Pexip conferencing node and trigger an external policy request to Pexip. The policy server creates a single-use Virtual Meeting Room (VMR) and responds with the meeting parameters. This VMR is made available in the Rocket.Chat room for its duration.
 
@@ -42,27 +42,27 @@ To Download the **Pexip** app,
 * Search for the **Pexip** app.
 * Click **Install**
 
-### App Configuration&#x20;
+### App Configuration
 
 To set up the **Pexip** app on your Rocket.Chat workspace,
 
 * Confirm that the app is enabled.
 * [Configure the Pexip server ](https://docs.pexip.com/admin/integrate\_policy.htm)with a remote policy to make service configuration requests before connecting with Rocket.Chat. Copy the policy server URL (**GET policy/v1/service/configuration**) from the details tab of the app and update the Pexip settings.
 * Enter the URL of your running Pexip conferencing node in the **Base URL** under **Settings** on Rocket.Chat Pexip app.
-* &#x20;Hit **Save Changes.**
+* Hit **Save Changes.**
 
-### Configure conference call using the Pexip app&#x20;
+### Configure conference call using the Pexip app
 
 To configure the Pexip video conference on your workspace,
 
 * Go to **Administration > Settings > Conference Call**
 * Select Pexip as your **Default Provider**
-* Select the options that meet your needs and click **Save changes.**&#x20;
+* Select the options that meet your needs and click **Save changes.**
 
 The Pexip app is successfully configured on your server. Follow the [conference call user's guide](../conference-call-users-guide.md) to start using it.
 
 ### Using the Pexip app
 
-After successfully installing and configuring the Pexip app, you can initiate a secure Pexip call inside any Rocket.Chat room by using the slash command `/pexip` or the call icon in the room header.&#x20;
+After successfully installing and configuring the Pexip app, you can initiate a secure Pexip call inside any Rocket.Chat room by using the slash command `/pexip` or the call icon in the room header.
 
 When you use the `/pexip` command, a new Pexip Virtual Meeting Room(VMR) is created, and a link is made available in the room for users to use and **Join call**. When you click the **call icon** in any Rocket.Chat room hit **Start call**. It rings and notifies users in that room to **Accept** or **Reject** the call. On joining the call, they are prompted to provide their details and grant permission for Camera and Microphone usage. The list of users joining the VMR can also be seen within the Rocket.Chat room.
