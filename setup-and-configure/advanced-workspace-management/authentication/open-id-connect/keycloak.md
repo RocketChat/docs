@@ -2,86 +2,72 @@
 
 ## Configuring Keycloak OpenID Connect
 
-Create a client in Keycloak.
+To create a client in Keycloak,
 
-1. Provide a client ID: `rocket-chat-client`
-2. Select the client protocol as openid-connect
-3. Select the client access type as confidential
-4. Standard flow implemented: ON
-5. Valid Redirect URL: `http:{Rocket.Chat_server_address}/*`
+* Provide a **Client ID**: `rocket-chat-client`
+* Select the **Client Protocol** as `openid-connect.`
+* Select the **Client access type** as **confidential.**
+* Standard flow implemented: **ON**
+* Valid Redirect URL: `http:{Rocket.Chat_server_address}/*`
 
-The following image shows the minimal configurations needed to setup Keycloak as an Identity Provider to Rocket.Chat.
+{% hint style="info" %}
+Ensure the Redirect URI is the IP and PORT of your rocket.chat instance.
+{% endhint %}
 
-![](../../../../.gitbook/assets/client\_configurations.png)
-
-(In the example above we are using http://locahost:3000/\* as the Redirect URI change it to the IP and PORT of your rocketchat instance.)
-
-After saving the changes a new credentials tab will be created for the client. This credentials tab will provide the client secrets which will be used when configuring the Rocket.Chat.
+After saving the changes, a new credentials tab will be created for the client. This credentials tab will provide the client secrets to be used when configuring the Rocket.Chat.
 
 ## Configuring Rocket.Chat
 
 ### Create a Custom Oauth provider
 
-* Login to Rocket.Chat with an administrator account and navigate to OAuth page.
-* Click the Add custom OAuth button and provide the following configurations
+* Login to Rocket.Chat with an administrator account and navigate to the OAuth page.
+* Click the Add custom OAuth button and provide the following configurations.
+  * URL: `http://{keycloak_ip_address}:{port}`
+  * Token Path: `/realms/{realm_name}/protocol/openid-connect/token`
+  * Token sent via: Header
+  * Identity Token Sent Via: Same As "Token Sent Via"
+  * Identity Path: `/realms/{realm_name}/protocol/openid-connect/userinfo`
+  * Authorize Path: `/realms/{realm_name}/protocol/openid-connect/auth`
+  * Scope: `openid`
+  * Param Name for access token: `access_token`
+  * Id: This is the id of the Rocket.Chat client created in the keycloak `rocket-chat-client`
+  * Secret: Secret key provided in the credentials tab when creating the Rocket.Chat client
+  * Button Text: `Login with Keycloak`
 
-The URL paths provided in the below configurations can be also obtained by navigating to the Realm setting and clicking the endpoints link in the `General Tab`. While configuring the below settings replace the `realm_name` with the appropriate realm name. The default realm provided by Keycloak is `master`.
+{% hint style="info" %}
+You can also access the URL paths provided in the configurations by navigating to the **Realm setting > General** and clicking the endpoints link. While configuring the settings, replace the `realm_name` with the appropriate realm name. The default realm provided by Keycloak is `master`.
+{% endhint %}
 
-1. URL: `http://{keycloak_ip_address}:{port}`
-2. Token Path: `/realms/{realm_name}/protocol/openid-connect/token`
-3. Token sent via: Header
-4. Identity Token Sent Via: Same As "Token Sent Via"
-5. Identity Path `/realms/{realm_name}/protocol/openid-connect/userinfo`
-6. Authorize Path `/realms/{realm_name}/protocol/openid-connect/auth`
-7. Scope: `openid`
-8. Param Name for access token: `access_token`
-9. Id: This is the id of the Rocket.Chat client created in the keycloak `rocket-chat-client`
-10. Secret: Secret key provided in the credentials tab when creating the Rocket.Chat client
-11. Button Text: `Login with Keycloak`
-
-Leave the rest of the configurations as default. Click the blue button Save Changes at the top.
-
-Next, make sure you enable the new Keycloak provider. And click the Refresh OAuth Services button.
-
-If you are in a test environment with no SMTP server set make sure to disable Two-factor Authentication in Administration > Settings > General.
-
-If you don't have an SMTP server set make sure to disable Two-Factor Authentication in Administration > Settings > General.
-
-Now logout from Rocket.Chat to view the keycloak based login option visible in the login page.
-
-![](../../../../.gitbook/assets/keycloak\_federation.png)
+* Leave the rest of the configurations as default. Click S**ave Changes.**
+* Enable the new Keycloak provider. Click **Refresh OAuth Services**.
+* If you are in a test environment with no SMTP server set, disable Two-factor Authentication in **Administration > Settings > General**.
+* A **Login with KeyCloak** button appears on your workspace's login page. Users can now log in with keycloak.
 
 ## Mapping non-federated keycloak user roles to Rocket.Chat roles
 
-This section documents how client-specific roles of keycloak managed user can be mapped to Rocket.Chat roles. This does not work for federated users (e.g. LDAP managed users).
+Client-specific roles of a keycloak managed user can be mapped to Rocket.Chat roles. This does not work for federated users (e.g., LDAP-managed users). For this example, to map the `admin` and `livechat-manager` [role](../../../../use-rocket.chat/workspace-administration/permissions.md#roles), add the required roles to the client.
 
-For this example, we map the `admin` and `livechat-manager` role, as documented in [Permissions](https://docs.rocket.chat/administrator-guides/permissions/).
+&#x20;To create a role in KeyCloak,&#x20;
 
-First we add the required roles to the client.
+* Navigate to Roles and click **Add Role.**
+* Fill in the name and description of the role, and then click **Save**.
+* Add a mapper entry that maps our client roles to OpenId, passing the value to Rocket.Chat.
 
-**Add role to the client**
+### **View all client roles**
 
-To create a role, click **Add Role**, enter in the name and description of the role, and then click **Save**.
+To view all the client roles you have created,&#x20;
 
-![Add Role](<../../../../.gitbook/assets/Add role (1).jpg>)
+* Navigate to **Roles** and click **View all roles**
 
-then we have to add a mapper entry, that maps our client roles to OpenId, passing the value to Rocket.Chat.
-
-**View all client roles**
-
-To view all the client roles you have created, click **Roles** > **View all roles**
-
-![View client roles](<../../../../.gitbook/assets/Keyclock\_Client Roles\_31052022.jpg>)
-
-**Composite Roles**
+#### **Composite Roles**
 
 A _composite role_ is a role that can be associated with other roles.
 
-To define composite roles, click **Role** and then navigate to **Composite** **Roles.**
+To define composite roles,&#x20;
 
-![Composite Roles](<../../../../.gitbook/assets/keycloak\_CompositeRoles\_31052022 (1).jpg>)
+* Navigate to **Roles > Composite Roles**.
 
-Now in order to grant the Rocket.Chat role to a user, we have to modify the users Role Mappings.
+To grant the Rocket.Chat role to a user, we have to modify the users Role Mappings.
 
 **Create Protocol Mapper**
 
@@ -89,6 +75,8 @@ Now in order to grant the Rocket.Chat role to a user, we have to modify the user
 
 **Mappers**
 
-![Mappers](<../../../../.gitbook/assets/30052022\_User Mapper.jpg>)
+![Mappers](../../../../.gitbook/assets/mappersrc.jpg)
 
-The roles are only synced on first login, and not being refreshed on each login. Please see the [bug report](https://github.com/RocketChat/Rocket.Chat/issues/15225) for current state.
+{% hint style="info" %}
+The roles are only synced on the first login and not refreshed on each login. See the [bug report](https://github.com/RocketChat/Rocket.Chat/issues/15225) to get more updates.
+{% endhint %}

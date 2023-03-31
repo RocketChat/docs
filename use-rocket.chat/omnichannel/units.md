@@ -1,12 +1,12 @@
 # Units
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (29).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (48).jpg>)
 
 Using Omnichannel units, you can group a set of departments for management purposes. As an [Omnichannel manager](managers.md), you can make a unit of multiple [departments](departments.md) and assign a monitor to oversee them.
 
-To access **Units** settings,&#x20;
+To access **Units** settings,
 
-* Go to **Administration  > Omnichannel > Units**.
+* Go to **Administration > Omnichannel > Units**.
 
 ## List Omnichannel Units
 
@@ -14,7 +14,7 @@ On the Units page, you see a list of all the existing units and a button to init
 
 ## Create Omnichannel Unit
 
-To create a new unit,&#x20;
+To create a new unit,
 
 * Click on **+New**
 * Update the required information and click **Save**.

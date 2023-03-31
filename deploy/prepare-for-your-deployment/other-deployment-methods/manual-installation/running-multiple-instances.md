@@ -1,6 +1,6 @@
 # Running Multiple Instances
 
-![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (18).jpg>)
+![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (50).jpg>)
 
 While it's possible to scale up by adding more servers (recommended for HA purposes), you can better utilize your existing hardware by running multiple instances of the Rocket.Chat application (Node.js/Meteor app) on your current host(s). You should only do this if you already use a multi-core computer. A reasonable rule of thumb may be to run `N-1` Rocket.Chat instances, where `N=num_cores`. Running multiple instances of Rocket.Chat on a single host requires a reverse proxy before your application. This tutorial assumes you've already followed the instructions for [running behind an Nginx SSL Reverse Proxy](https://docs.rocket.chat/deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy#running-behind-a-nginx-ssl-reverse-proxy).
 
@@ -42,7 +42,7 @@ ExecStart=/usr/local/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
 WantedBy=multi-user.target
 ```
 
-* Ensure the User and Group exist, and both have `read/write/execute permissions` for `rocketchat`. Now you can start, stop, restart, and see the status of your `rocketchat` service. If you want multiple services, create another file in `/usr/lib/systemd/system` and call it `rocketchat@.service` updating  the content with the these data:
+* Ensure the User and Group exist, and both have `read/write/execute permissions` for `rocketchat`. Now you can start, stop, restart, and see the status of your `rocketchat` service. If you want multiple services, create another file in `/usr/lib/systemd/system` and call it `rocketchat@.service` updating the content with the these data:
 
 ```
 [Unit]
@@ -68,15 +68,15 @@ ExecStart=/usr/local/bin/node /path.to.rocketchat/rocket.chat/bundle/main.js
     WantedBy=multi-user.target
 ```
 
-* Start the other Rocket.Chat services.&#x20;
+* Start the other Rocket.Chat services.
 
-`systemctl start rocketchat@3001`&#x20;
+`systemctl start rocketchat@3001`
 
 {% hint style="info" %}
 You can use any desired port instead of `3001`.
 {% endhint %}
 
-* To run Rocket.Chat during boot; use the command below to enable the services:&#x20;
+* To run Rocket.Chat during boot; use the command below to enable the services:
 
 `systemctl enable rocketchat or systemctl enable rocketchat@3001`
 
@@ -84,7 +84,7 @@ You can use any desired port instead of `3001`.
 
 If you run Rocket.Chat instances on multiple physical nodes or containers, ensure they can communicate with each other. Rocket.Chat uses a peer-to-peer connection to inform each other of events. For example, when you type a message and tag a friend or coworker connected to another instance. Two different events are fired; the user (you) is typing and notifying the user (friend).
 
-Each Rocket.Chat instance registers in your database the IP address it detected for itself. Other instances use this list to discover and establish connections with each other. If you find instances  unable to communicate, set the `INSTANCE_IP` environment variable to the IP the other instances can use to talk to it.
+Each Rocket.Chat instance registers in your database the IP address it detected for itself. Other instances use this list to discover and establish connections with each other. If you find instances unable to communicate, set the `INSTANCE_IP` environment variable to the IP the other instances can use to talk to it.
 
 ## Update your Nginx proxy config
 
@@ -140,7 +140,7 @@ server {
 
 * Restart Nginx.
 
-&#x20;`service nginx restart`
+`service nginx restart`
 
 ## Update your Apache proxy config
 
@@ -202,7 +202,7 @@ Edit `/etc/apache2/sites-enabled/rocketchat.conf` and confirm that your hostname
 
 * Restart Apache.
 
-&#x20;`systemctl restart apache2.service`
+`systemctl restart apache2.service`
 
 * Visit `https://your_hostname.com` and confirm the updates.
 
@@ -212,7 +212,7 @@ To prove you're using both services as you'd expect, you can stop one Rocket.Cha
 
 ## Check your database
 
-The database is another vital part of this setup. First, you must ensure you are running a replicaset. It is essential due to the following reasons:&#x20;
+The database is another vital part of this setup. First, you must ensure you are running a replicaset. It is essential due to the following reasons:
 
 * **Database reliability:** Confirm that your data is replicated and you have another node if something happens to your primary.
 * **Oplog Tailing**: The oplog is turned on when you set up a replicaset. Mongo uses this to publish events so the other nodes in the replicaset can ensure its data is updated. Rocket.Chat uses this to watch for database events. If someone sends a message on Instance 1 and you are connected to Instance 2. Instance 2 watches for message insert events, showing you a new message has arrived.

@@ -1,6 +1,6 @@
 # Monitors
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (29).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (48).jpg>)
 
 Monitors in Omnichannel are users that have the ability to monitor Omnichannel activities and have access to [Current Chats](current-chats.md), [Analytics](analytics.md), [Real-time Monitoring](real-time-monitoring.md), [Agents](agents.md), [Departments](departments.md), [Business Hours](business-hours.md) and [Canned Responses](canned-responses/).
 
@@ -8,9 +8,9 @@ Monitors in Omnichannel are users that have the ability to monitor Omnichannel a
 A monitor is only able to view analytics or activities of a department if they are assigned to a [unit](units.md).
 {% endhint %}
 
-To access Omnichannel Monitors,&#x20;
+To access Omnichannel Monitors,
 
-* Go to **Administration  > Omnichannel > Monitors**.
+* Go to **Administration > Omnichannel > Monitors**.
 
 ## List Omnichannel Monitors
 
@@ -18,12 +18,12 @@ On the Monitors page, a list of all the users with `livechat-monitor` role is di
 
 ## Add New Omnichannel Monitor
 
-To add a new monitor(s),&#x20;
+To add a new monitor(s),
 
 * Enter the person's username in the username field and hit the **Add** button. This will automatically assign that user the `livechat-monitor` role.
 
 ## Delete Omnichannel Monitor
 
-To delete an Omnichannel Monitor,&#x20;
+To delete an Omnichannel Monitor,
 
 * Click the **Delete icon** on the right across the user. This will remove the `livechat-monitor` role from that user.

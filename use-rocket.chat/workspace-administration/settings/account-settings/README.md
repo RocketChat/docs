@@ -64,7 +64,7 @@ Default user preferences for notifications are universal for all the users in yo
 * **Convert ASCII to Emoji**: When this is true, ASCII characters are converted to emojis.
 * **Auto Load Images**: Turning this off prevents images from auto-loading when a room/chat is opened.
 * **Save Mobile Bandwidth**: When enabled acts like a data saver.
-* **Collapse Embedded Media by Default**: Setting this to true are cause embedded media cards to collapse.
+* **Collapse Embedded Media by Default**: Setting this to true causes embedded media cards to collapse.
 * **Hide Usernames**: When enabled, it'll hide usernames in conversation rooms.
 * **Hide Roles**: When set to true, user roles like _admin_, and _moderator_ are not be shown in chat rooms.
 * **Hide Right Sidebar with Click**: Enabling this gives the ability for the right sidebar to be hidden.
@@ -74,7 +74,7 @@ Default user preferences for notifications are universal for all the users in yo
 * **Display Avatars in Sidebar**: Disabling this disables avatars from showing in the sidebar.
 * **Unread on top**: Turning this on displays all unread messages at the top.
 * **Sort by:** This lets you sort the list by the user activity or in alphabetical order.
-* **Show thread messages in the main thread:**
+* **Also send thread message to channel behavio**r**:** Select the behavior of messages sent in a thread.
 * **Group favorites**: Setting this to false disables favoriting groups.
 * **Enter key Behavior**: Lets you configure the action of the Enter key. The available options are: Normal mode (send with Enter), Alternative mode (send with Enter+Ctrl/Alt/Shift/CMD)
 * **MessageBox View Mode**: Lets you select how message boxes appear. The available options are Normal, Cozy, and Compact.
@@ -83,7 +83,7 @@ Default user preferences for notifications are universal for all the users in yo
 * **New Message Notification**: Lets you select the notification for new messages. The default options are None and Default.
 * **Mute-Focused Conversations**: When set to true, no notifications are sent for focused/open conversations.
 * **Notifications sound volume**: Lets you set the notification volume.
-* **Enable New Message Template**: Enable this setting to allow users to create new message template.
+* **Enable New Message Template**: Enable this setting to allow users to create a new message template.
 
 ## Avatar
 

@@ -1,6 +1,6 @@
 # Canned Responses Omnichannel Manager's Guide
 
-![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (38).jpg>)
+![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (43).jpg>)
 
 {% hint style="info" %}
 Canned responses allow you to save message snippets that you can call with shortcuts (preceded with `!`) to communicate a quick note to your visitors in Omnichannel and for messaging in regular conversations inside your Rocket.Chat's workspace.
@@ -12,7 +12,7 @@ If you are using canned responses for the first time, please check the [Rocket.C
 
 To create Canned Responses, follow these steps
 
-* Go to **Administration  > Omnichannel > Canned Responses**. A list of Canned Responses can be seen if they exist
+* Go to **Administration > Omnichannel > Canned Responses**. A list of Canned Responses can be seen if they exist
 * Click on **+ New**
 * Update the required information and Hit **Save.** A new Canned Response is ready to be used by typing `!` in the message box.
   * **Shortcut**: The shortcut of your new canned response.

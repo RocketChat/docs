@@ -1,6 +1,6 @@
 # Tags
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (24).jpg>)
+![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (53).jpg>)
 
 As a Live Chat Manager, you can set Tags to be assigned to the Live Chat conversations by the agents. Tags can be used to sort Live Chat conversations easily. **Omnichannel Tags** are used for marking and classifying Omnichannel conversations.
 
@@ -8,7 +8,7 @@ As a Live Chat Manager, you can set Tags to be assigned to the Live Chat convers
 A practical use case is using tags to mark the progress made on a Live Chat query. You can have tags like `new`, `blocked`, `in progress,` `completed` etc.
 {% endhint %}
 
-To access **Tags** settings,&#x20;
+To access **Tags** settings,
 
 * Go to **Administration > Omnichannel > Tags**.
 
@@ -30,6 +30,6 @@ When created, [Omnichannel Agents](agents.md) can use the Tag on conversations.
 
 ## Delete Omnichannel Tags
 
-To delete an existing **Tag**,&#x20;
+To delete an existing **Tag**,
 
 * Click on the **Delete icon** across the **Tag** from the main settings screen.
