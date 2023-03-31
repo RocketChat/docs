@@ -4,7 +4,7 @@ description: Deploy on a kubernetes cluster using our official helm chart.
 
 # Kubernetes with Helm
 
-Using the [Helm](https://helm.sh/) package manager, the [helm chart](https://github.com/RocketChat/helm-charts/tree/master/rocketchat) bootstraps a Rocket.Chat deployment on a  [Kubernetes](https://kubernetes.io/) cluster. It provisions a fully featured Rocket.Chat installation. Additionally, this chart supports the scaling of Rocket.Chat for increased server capacity and high availability (requires enterprise license).
+Using the [Helm](https://helm.sh/) package manager, the [helm chart](https://github.com/RocketChat/helm-charts/tree/master/rocketchat) bootstraps a Rocket.Chat deployment on a [Kubernetes](https://kubernetes.io/) cluster. It provisions a fully featured Rocket.Chat installation. Additionally, this chart supports the scaling of Rocket.Chat for increased server capacity and high availability (requires enterprise license).
 
 ## Prerequisites Details
 
@@ -18,11 +18,11 @@ Confirm that you have helm3 binary insalled, then add the chart repository with 
 helm repo add rocketchat https://rocketchat.github.io/helm-charts
 ```
 
-To install the chart ,you  can either define your configuration options in a values file or pass the configuration parameters via command line arguments.
+To install the chart ,you can either define your configuration options in a values file or pass the configuration parameters via command line arguments.
 
 ### Define the configuations value in a file
 
-We recommend defining the configuration parameters inside a `Values.yaml`  file with at least the non-root user's password and the root password before passing it to helm. You must set at least the database and root password in the values file.
+We recommend defining the configuration parameters inside a `Values.yaml` file with at least the non-root user's password and the root password before passing it to helm. You must set at least the database and root password in the values file.
 
 ```
 mongodb:
@@ -135,12 +135,12 @@ The following table lists the configurable parameters of the Rocket.Chat chart a
 | `podLabels`                            | Additional pod labels for the Rocket.Chat pods                                                                                                                                                                                                                                                                                                                                                                                                                 | `{}`                                          |
 | `podAnnotations`                       | Additional pod annotations for the Rocket.Chat pods                                                                                                                                                                                                                                                                                                                                                                                                            | `{}`                                          |
 
-Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. Alternatively, you can update the YAML file that specifies the values for the parameters to be provided while installing the chart.&#x20;
+Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. Alternatively, you can update the YAML file that specifies the values for the parameters to be provided while installing the chart.
 
 ## Database Setup
 
 Rocket.Chat uses a MongoDB instance to presist its data. By default, the [MongoDB](https://github.com/bitnami/charts/tree/master/bitnami/mongodb) chart is deployed, and a single MongoDB instance is created as the primary in a replicaset.\
-Please refer to [this chart](https://artifacthub.io/packages/helm/bitnami/mongodb) for additional MongoDB configuration options. If you are using chart defaults, set  the `mongodb.auth.rootPassword` and `mongodb.auth.passwords`.
+Please refer to [this chart](https://artifacthub.io/packages/helm/bitnami/mongodb) for additional MongoDB configuration options. If you are using chart defaults, set the `mongodb.auth.rootPassword` and `mongodb.auth.passwords`.
 
 ### **Using an External Database**
 
@@ -170,7 +170,7 @@ extraVolumeMounts:
     readOnly: true
 ```
 
-### Increasing Server Capacity and HA Setup  ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7).jpg>)
+### Increasing Server Capacity and HA Setup ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7) (1).jpg>)
 
 To increase the server's capacity, you can increase the number of Rocket.Chat server instances across available computing resources in your cluster. For example,
 
@@ -180,7 +180,7 @@ kubectl scale --replicas=3 deployment/rocketchat
 
 By default, the chart creates one MongoDB instance as a Primary in a replicaset. You can also scale up the capacity and availability of the MongoDB cluster independently.
 
-> See  [MongoDB chart](https://github.com/bitnami/charts/tree/master/bitnami/mongodb) for configuration information. To learn more on running Rocket.Chat in scaled configurations, visit the [Install MongoDB Replicaset](docker-and-docker-compose/docker-containers/high-availability-install.md#install-mongodb-replicaset) guide.
+> See [MongoDB chart](https://github.com/bitnami/charts/tree/master/bitnami/mongodb) for configuration information. To learn more on running Rocket.Chat in scaled configurations, visit the [Install MongoDB Replicaset](docker-and-docker-compose/docker-containers/high-availability-install.md#install-mongodb-replicaset) guide.
 
 ### Manage MongoDB secrets
 
@@ -215,11 +215,11 @@ Due to changes on the upstream MongoDB chart, some deprecated variables have bee
 
 The used image tag gets updated **in most cases** on each chart update. The same is true for the MongoDB chart we use as our dependency. Before version 5.4.3, we used the chart version 10.x.x. Starting from 5.4.3, the dependency chart version has been updated to the latest available version, 13.x.x. This chart defaults to MongoDB 6.0.x at the moment.
 
-> As a warning, this chart will not handle MongoDB upgrades and will depend on the user to ensure the supprted version is runnning.&#x20;
+> As a warning, this chart will not handle MongoDB upgrades and will depend on the user to ensure the supprted version is runnning.
 
 The upgrade will fail if any of the following requirements are not met :
 
-* Must not skip a MongoDB release. For example,  4.2.x to 5.0.x will fail.
+* Must not skip a MongoDB release. For example, 4.2.x to 5.0.x will fail.
 * Current `featureCompatibilityVersion` must be compatible with the version the user is trying to upgrade to. For example—if the current database version and feature compatibility is 4.4 and 4.2, respectively, but the user is trying to upgrade to 5.0, it'll fail.
 
 The chart will not check if the mongodb version is supported by the Rocket.Chat version considering deployments that might occur in an airgapped environment. You can check the[ release notes](https://github.com/RocketChat/Rocket.Chat/releases) to confirm that.

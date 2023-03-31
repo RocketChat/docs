@@ -24,7 +24,7 @@ Colors can be set using existing **Expressions** or **Color** by specifying them
 
 <img src="../../../.gitbook/assets/image (345).png" alt="" data-size="original">
 
-#### Old Colors
+**Old Colors**
 
 A list of pre-defined color variables for old versions of Rocket.Chat (<6.0) can be found [**here**.](https://github.com/RocketChat/Rocket.Chat/blob/b092bef8139f9db692872073ce9788c19b364780/app/theme/client/imports/general/variables.css)
 
@@ -71,8 +71,6 @@ if(window.location.pathname == '/home'){
 }
 ```
 
-
-
 ## Home page content
 
 The section allows you to change the content of your workspace homepage.
@@ -81,7 +79,7 @@ The section allows you to change the content of your workspace homepage.
 * **Show home page button on sidebar header**: When enabled, the Home button will be shown on your server's navbar.
 * **Block content:** The content of the first screen that your users will see when logging in.
 * **Show custom content to homepage**: Enable to show custom content on the homepage.
-* **Show custom content only**: ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7).jpg>)Turn this on to onhide all other white blocks in the homepage.
+* **Show custom content only**: ![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7) (1).jpg>)Turn this on to onhide all other white blocks in the homepage.
 * **Terms of Service:** Here, you can set the terms of service of your workspace. You can also redirect to YOUR-SERVER-URL/terms-of-service. This is shown by default on the links below your login page.
 * **Login Terms:** Specifies the terms on which users are to accept before login in.
 * **Privacy Policy:** Here you can set the privacy policy of your server. Can also be accessed via `YOUR-SERVER-URL/privacy-policy`. This is shown by default on the links below your login page.
@@ -93,7 +91,7 @@ The section allows you to change the content of your workspace homepage.
 Customize your login page.
 
 {% hint style="info" %}
-![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7).jpg>)This is an Enterprise feature.
+![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7) (1).jpg>)This is an Enterprise feature.
 {% endhint %}
 
 * **Hide Logo**: Enable this to hide the Rocket.Chat.

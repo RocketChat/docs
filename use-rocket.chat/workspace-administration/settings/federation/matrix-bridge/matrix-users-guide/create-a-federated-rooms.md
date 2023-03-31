@@ -2,7 +2,7 @@
 
 ## Creating a channel/group
 
-<figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 You can create federated [channels](../../../../../user-guides/rooms/channels/) having both Rocket.Chat and other federated users.
 
@@ -13,9 +13,9 @@ To create a federated channel,
 * Add members (optional) and click **Create.**
 
 {% hint style="info" %}
-**Important**:&#x20;
+**Important**:
 
-* Federated Channels can not be _Encrypted, Read-Only, or Broadcasted_ for now_._
+* Federated Channels can not be _Encrypted, Read-Only, or Broadcasted_ for now\_.\_
 * You cannot create [Threads](../../../../../user-guides/rooms/threads/) or [Discussions](../../../../../user-guides/rooms/discussions/) within federated Channels.
 {% endhint %}
 
@@ -23,22 +23,22 @@ Whenever your user is invited to participate in a federated room created in an e
 
 ## Creating a Direct Message 1:1
 
-<figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 You can create a [Direct Message](../../../../../user-guides/rooms/direct-messages/) with other federated users.
 
 Create a federated DM with these steps:
 
-* Create a[ 1:1 Direct Message](../../../../../user-guides/rooms/direct-messages/create-a-new-direct-message.md)&#x20;
+* Create a[ 1:1 Direct Message](../../../../../user-guides/rooms/direct-messages/create-a-new-direct-message.md)
 * Set the federated user you wish to message following the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax).
 
 ## Creating a Multi-user Direct Message
 
-Using [Multi Direct Message](broken-reference), you can send Direct Messages to multiple users(federated or not) at once.
+Using [Multi Direct Message](broken-reference/), you can send Direct Messages to multiple users(federated or not) at once.
 
 To create a federated Multi Direct Message:
 
-* Create a [Multi-user Direct Message](broken-reference)&#x20;
+* Create a [Multi-user Direct Message](broken-reference/)
 * Select the users to whom you want to send messages following the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax).
 
 ## Slash commands
@@ -57,7 +57,7 @@ Where:
 
 ## Creating a Multi-user Direct Message using slash command
 
-<figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 To create Multi-user Direct Messages using slash commands, you need to open the message box in any channel and type the following command using the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax):
 
@@ -75,7 +75,7 @@ To create a 1:1 Direct Message using slash commands, open the message box in any
 
 ## Editing a federated room
 
-Only the **name** and **topic** of a federated room can be edited after it is created.&#x20;
+Only the **name** and **topic** of a federated room can be edited after it is created.
 
 ## Deleting a federated room
 

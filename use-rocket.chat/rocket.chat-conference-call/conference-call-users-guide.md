@@ -8,21 +8,21 @@ In Rocket.Chat, you can initiate video and audio conferences using your desired 
 
 ## Initiating a call - Direct Message
 
-<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 To start a call in Direct Message,
 
 * Click on the <img src="../../.gitbook/assets/phone-icon.png" alt="" data-size="line"> **phone** icon from the room's header. You may have pre-flight options like turning on/off the camera or microphone. However, these options depend on the conference call provider you have selected.
-* Click the **call** button. The pop-up changes to the “calling state”. Now, you can perform other actions while you wait for the receiver to answer. The ringer stays active for 30 seconds. After that **Call again** button appears in the room.  &#x20;
+* Click the **call** button. The pop-up changes to the “calling state”. Now, you can perform other actions while you wait for the receiver to answer. The ringer stays active for 30 seconds. After that **Call again** button appears in the room.
 
 ## Incoming direct call
 
-<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 Three things happen once you receive a call:
 
-* A pop-up appears wherever you are in the Rocket.Chat application.&#x20;
-* The incoming call ringer starts to ring.&#x20;
+* A pop-up appears wherever you are in the Rocket.Chat application.
+* The incoming call ringer starts to ring.
 * An incoming call item will be highlighted in the left sidebar.
 
 These options are available when you have an incoming call:
@@ -51,4 +51,4 @@ After a conference call is ended, the room keeps a record of the following:
 * The user who initiated it
 * The start time
 * The name of the conference
-* The attendees&#x20;
+* The attendees

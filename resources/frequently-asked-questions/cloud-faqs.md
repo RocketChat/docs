@@ -28,8 +28,6 @@ You can cancel your Rocket.Chat workplace directly within the Cloud Console.
 
 ## Data Export
 
-
-
 <details>
 
 <summary>How can I get a data export?</summary>
@@ -40,7 +38,7 @@ Send an email to cloud.support@rocket.chat with the address of your workspace. N
 
 ## Cloud Accounts
 
-****
+***
 
 <details>
 
@@ -48,11 +46,7 @@ Send an email to cloud.support@rocket.chat with the address of your workspace. N
 
 To view the push usage for your workspace, you need to login to the Cloud Console ([cloud.rocket.chat](https://cloud.rocket.chat)): navigate to Workspaces and click on the workspace you'd like to see usage for.
 
-
-
 <img src="../../.gitbook/assets/image (343).png" alt="" data-size="original">
-
-
 
 </details>
 
@@ -116,11 +110,7 @@ If, for example, you started your trial on December 1st, it expired on December 
 
 If your trial has expired, and you didn’t manage to add your payment method to continue your subscription, navigate to Payment methods in your Cloud Console ([cloud.rocket.chat](https://cloud.rocket.chat)) -> click **Add payment method** (top right corner) to add your card (credit/debit card is the only payment method we accept at the moment).
 
-<img src="../../.gitbook/assets/add_payment_method (1) (1) (1).png" alt="" data-size="original">
-
-
-
-<img src="../../.gitbook/assets/add_credit_card (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/add_payment_method (1) (1) (1).png" alt="" data-size="original"> <img src="../../.gitbook/assets/add_credit_card (1).png" alt="" data-size="original">
 
 </details>
 
@@ -184,4 +174,3 @@ To request a custom domain, set up a CNAME DNS record for the domain name you wa
 Please note that the ability to set a custom domain is available only in the Enterprise Edition offereing.
 
 </details>
-

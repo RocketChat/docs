@@ -12,7 +12,7 @@ Click open your Instagram Direct app to see the settings available to you as an 
 
 Following are the settings available:
 
-![](<../../../../../../.gitbook/assets/2022-01-20\_20-13-08 (1).png>)
+![](../../../../../../.gitbook/assets/2022-01-20\_20-13-08.png)
 
 1\. **Agents Display Name:** You can choose to display the agent's name or username.
 

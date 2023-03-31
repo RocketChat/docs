@@ -10,7 +10,7 @@ Enabling and using Rocket.Chat Omnichannel gives seamless, effortless, and high-
 
 To access this section:
 
-&#x20;Navigate to **Administration** > **Workspace** > **Settings** > **Omnichannel**
+Navigate to **Administration** > **Workspace** > **Settings** > **Omnichannel**
 
 {% hint style="info" %}
 Remember to hit **Save Changes** in order to apply any changes made here.
@@ -27,7 +27,7 @@ Remember to hit **Save Changes** in order to apply any changes made here.
 ## Canned Responses <a href="#a4x6dcwkpxm" id="a4x6dcwkpxm"></a>
 
 {% hint style="info" %}
-Canned Responses is an [Enterprise](../../../../setup-and-configure/enterprise-edition-trial/) feature. ![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7).jpg>)
+Canned Responses is an [Enterprise](../../../../setup-and-configure/enterprise-edition-trial/) feature. ![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7) (1).jpg>)
 {% endhint %}
 
 Under this section, you can enable or disable the use of Canned Responses.\
@@ -88,7 +88,7 @@ See how to [install the Live Chat widget](../../../omnichannel/livechat-widget-i
 Set your business hours to automatically manage when your Live Chat agents are online.
 
 {% hint style="info" %}
-Configuring multiple business hours is an [Enterprise](../../../../setup-and-configure/enterprise-edition-trial/) feature. ![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7).jpg>)
+Configuring multiple business hours is an [Enterprise](../../../../setup-and-configure/enterprise-edition-trial/) feature. ![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7) (1).jpg>)
 {% endhint %}
 
 * **Business hours enabled**: Toggle on to enable business hours.
@@ -120,7 +120,7 @@ You are required to request an `OmniChannel API Key` and an `OmniChannel API Sec
 
 * **Facebook integration enabled**: Set true to enable Facebook integration.
 * **OmniChannel API Key**: The OmniChannel API Key provided by support.
-* &#x20;**OmniChannel API Secret**: The OmniChannel API Secret provided by support.
+* **OmniChannel API Secret**: The OmniChannel API Secret provided by support.
 
 {% content-ref url="../../../omnichannel/facebook-messenger-managers-guide.md" %}
 [facebook-messenger-managers-guide.md](../../../omnichannel/facebook-messenger-managers-guide.md)
@@ -136,7 +136,7 @@ Configure GDPR data processing and consent.
 
 ## Queue Management <a href="#uuvo8ic5yio" id="uuvo8ic5yio"></a>
 
-<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 Configure Omnichannel Queue and how simultaneous chats get managed.
 
@@ -162,7 +162,7 @@ Routing allows you to define the behavior of your Live Chat queues.
 * **Accept with No Online Agents**: When enabled, Omnichannel conversations will be accepted even when there are no Agents online.
 * **Assign new conversations to bot agent**: Enable this, and the routing system will attempt to find a bot agent before addressing new conversations to a human agent.
 * **Max number of items displayed in the queue**: Set the maximum number of items displayed in the incoming Omnichannel queue.
-* **Show Queue List to All Agents**: Enable this to show the Omnichannel Queue list to all  [Omnichannel Agents](../../../omnichannel/agents.md).
+* **Show Queue List to All Agents**: Enable this to show the Omnichannel Queue list to all [Omnichannel Agents](../../../omnichannel/agents.md).
 * **External Queue Service URL**: Set your External Queue Service URL if your _Omnichannel Routing Method_ is [External Service](queue-types-routing-algorithm.md#external-service).
 * **Secret Token**: Enter the secret token.
 * **Last-Chatted Agent Preferred**: Enable to allow the allocation of chats to the agent who previously interacted with the same visitor if the agent is available when the chat starts.
