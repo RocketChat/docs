@@ -40,7 +40,7 @@ This option takes the same style input as CDN Prefix. The value provided will be
 
 If the situation occurs where CDN stops working, or the provided values are incorrect, then there are a few work arounds to allow a fix to be implemented inside the Administration settings, which may be inaccessible.
 
-### Database Fix
+#### Database Fix
 
 As the front end of Rocket.Chat may be inaccessible, the backend Mongo database can be updated to remove the CDN. The following Mongo commands should reset the value to the default state.
 
@@ -54,4 +54,4 @@ db.rocketchat_settings.update({_id:"CDN_JSCSS_PREFIX"},{$set:{"value":""}})
 
 ### Use a Browser Extension
 
-A browser extension can be used to rewrite URLs from the CDN address to the same location as where Rocket.Chat is running. Please take care when selecting an appropriate extension for your browser.
+A browser extension can be used to rewrite URLs from the CDN address to the exact location where Rocket.Chat is running. Take extra caution when selecting an appropriate extension for your browser.

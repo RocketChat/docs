@@ -1,67 +1,44 @@
-# WhatsApp Cloud App Configuration
+# Configure Whatsapp Cloud App
 
-With the WhatsApp Cloud App installed on your public Rocket.Chat workspace and the Facebook Developer App Created for WhatsApp, you can now:
-
-* [Connect WhatsApp number](whatsapp-cloud-app-configuration.md#connect-whatsapp-number)
-* [Edit WhatsApp numbers](whatsapp-cloud-app-configuration.md#whatsapp-cloud-app-shortcuts-1)
-* [Disconnect WhatsApp number](whatsapp-cloud-app-configuration.md#undefined)
+With the WhatsApp Cloud App installed on your public Rocket.Chat workspace and the Facebook Developer App Created for WhatsApp, you can now connect, edit and disconnect Whatsapp numbers.
 
 ## WhatsApp Cloud App Shortcuts
 
-The WhatsApp Cloud app has a list of shortcuts to ease usage. Use the slash command `/whatsapp help` to see the list of shortcuts and their functions
+The WhatsApp Cloud app has a list of shortcuts to ease usage. Run the slash command `/whatsapp help` to see the list of shortcuts and their functions:
 
-* **/whatsapp connect:** to connect a new WhatsApp number
-* **/whatsapp numbers:** to view and edit all connected WhatsApp number
+* **/whatsapp connect:** Connect a new WhatsApp number
+* **/whatsapp numbers:** View and edit all connected WhatsApp number
 * **/whatsapp support:** Get support information
-* **/whatsapp help:** to see this shortcut menu
+* **/whatsapp help:** See the help menu
 
 ## Connect WhatsApp Number
 
 {% hint style="success" %}
-You can add as many WhatsApp number connected to a Facebook app as you wish.
+There is no limit to the number of WhatsApp numbers that can be linked to a Facebook app.
 {% endhint %}
 
-* Click on **Connect WhatsApp Number** on the first message sent by the `whatsapp-cloud.bot` or use the slash command `/whatsapp connect`
+* Click on **Connect WhatsApp Number** from the first message sent by the `whatsapp-cloud.bot` or run the slash command `/whatsapp connect`
+* Fill in the details of the new Whatsapp Number:
+  * **PhoneNo Id**: The WhatsApp phone number ID you want to connect.
+  * **WhatsApp Business Id**: The WhatsApp Business Account ID of the WhatsApp number to connect.
+  * **Access Token**: The App's access token. It can be either temporary or permanent.
+  * **Facebook App Secret**: The Facebook App's secrete. This secret is used to verify if the messages are sent from authorized WhatsApp servers.
+  * **Welcome Message**: First message your customer will receive upon messaging you.
+  * **Conversation Finished Message**: The message sent to your customer when an agent closes the conversation.
+  * **Default message for offline service**: Message sent to your customer when no agents are available online.
 
-<figure><img src="../../../../../.gitbook/assets/image (1022).png" alt=""><figcaption><p>Connect WhatsApp Number</p></figcaption></figure>
+### Setup Facebook App webhook URL
 
-* A modal opens up with details to be filled
-
-<figure><img src="../../../../../.gitbook/assets/image (1142).png" alt=""><figcaption><p>Connect new WhatsApp number</p></figcaption></figure>
-
-* Head over to your [Facebook Developer Account](https://developers.facebook.com/) and get the details from the app we created above then **Conect**
-  * **PhoneNo Id**: The WhatsApp phone number ID you want to connect
-  * **WhatsApp Business Id**: The WhatsApp Business Account ID of the WhatsApp number to connect
-  * **Access Token**: The App's access token, it can be either temporary or permanent
-  * **Facebook App Secret**: The Facebook App's secrete. This secret is used to verify if the messages are sent from authorized WhatsApp servers
-  * **Welcome Message**: First message your customer will receive upon messaging you
-  * **Conversation Finished Message**: Message sent to your customer when an agent closes the conversation
-  * **Default message for offline service**: Message sent to your customer when no agents are available online
-
-<figure><img src="../../../../../.gitbook/assets/image (1060).png" alt=""><figcaption><p>Facebook app credentials</p></figcaption></figure>
-
-### Setup Facebook app webhook url
-
-* After saving, you receive a message to configure the callback url in you app.
+* After saving, you receive a message to configure the callback URL in your app.
 
 {% hint style="info" %}
 This is a one-time process.
 {% endhint %}
 
-<figure><img src="../../../../../.gitbook/assets/image (443).png" alt=""><figcaption><p>Configure Facebook App webhook</p></figcaption></figure>
-
-* Go to your the App created on your [Facebook Developer Console](https://developers.facebook.com/apps)
-* Navigate to **WhatsApp** > **Configuration** and paste the callback URL and Verify Token provided by Rocket.Chat then **Verify and save**
-
-<figure><img src="../../../../../.gitbook/assets/image (792).png" alt=""><figcaption><p>Set Facebook app callback URL</p></figcaption></figure>
-
-* Still on the configuration page, click on **Manage** across the Webhook fields
-
-<figure><img src="../../../../../.gitbook/assets/image (729).png" alt=""><figcaption><p>Manage Facebook app webhook fields</p></figcaption></figure>
-
-* **Subscribe** to `messages` and **Done**
-
-<figure><img src="../../../../../.gitbook/assets/image (1185).png" alt=""><figcaption><p>Subscribe to Messages webhook Facebook app</p></figcaption></figure>
+* Go to the App created on your [Facebook Developer Console](https://developers.facebook.com/apps).
+* Navigate to **WhatsApp** > **Configuration** and paste the callback URL and Verify Token provided by Rocket.Chat. Click **Verify and save.**
+* From the configuration screen, click on **Manage** across the Webhook field.
+* **Subscribe** to `messages` (v14.0 or higher). Now, click **Done.**
 
 {% hint style="success" %}
 After subscribing to the messages, the Rocket.Chat WhatsApp Cloud app is ready to use.
@@ -71,21 +48,15 @@ After subscribing to the messages, the Rocket.Chat WhatsApp Cloud app is ready t
 
 To edit an already set WhatsApp number,
 
-* Type the slash command `/whatsapp numbers`
-* A list of connected numbers are shown. Click on **Edit** across the number you wish to edit
-
-<figure><img src="../../../../../.gitbook/assets/image (612).png" alt=""><figcaption><p>Edit WhatsApp Cloud number</p></figcaption></figure>
-
-* Make the necessary changes and **Update**
+* Run the slash command `/whatsapp numbers`
+* A list of connected numbers is displayed. Click on **Edit** across the number you wish to edit.
+* Make the necessary changes and **Update.**
 
 ## Disconnect WhatsApp Number
 
 To disconnect a WhatsApp number,
 
-* Type the slash command `/whatsapp numbers`
-* A list of connected numbers are shown. Click on **Disconnect** across the number you wish to disconnect
-* Confirm the prompt to **Disconnect**
-
-<figure><img src="../../../../../.gitbook/assets/image (564).png" alt=""><figcaption><p>Disconnect WhatsApp number</p></figcaption></figure>
-
-* You get a message notifying about the disconnection
+* Run the slash command `/whatsapp numbers`
+* A list of connected numbers is displayed. Click on **Disconnect** across the number you wish to disconnect
+* Confirm the prompt to **Disconnect.**
+* You get a message notifying you about the disconnection

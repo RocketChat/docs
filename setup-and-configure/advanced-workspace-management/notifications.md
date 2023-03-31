@@ -14,12 +14,12 @@ Based on your preference, you can set the type of messages you want to receive f
 
 To configure notifications within a room or channel,
 
-* Click the **three dots** icon at the menu bar of the room.
+* Click the **kebab menu** at the menu bar of the room.
 * Select <img src="../../.gitbook/assets/image (1228).png" alt="" data-size="line">**Notification Preferences**.
 
-You can toggle on/off for any of these actions:  receiving alerts,  mute `@here` and `@all` mentions,  mark a room as unread when there are unread messages.
+You can toggle on/off for any of these actions:  receiving alerts,  mute `@here` and `@all` mentions, and mark a room as unread when there are unread messages.
 
-Room notifications are only sent when the desktop/web client goes without use for more than five minutes. Changing your status to "Away" does not speed up this countdown. Depending on the privacy settings set by the administrator, you will see the sender, room name or the first line of the message as a notification on your mobile device.
+Room notifications are only sent when the desktop/web client goes without use for more than five minutes. Changing your status to "Away" does not speed up this countdown. Depending on the privacy settings set by the administrator, the sender, room name, or the first line of the message is displayed as a notification on your mobile device.
 
 ## Desktop
 
@@ -27,11 +27,11 @@ Upon starting Rocket.Chat, you are asked to allow desktop notifications. Notific
 
 ## Mobile
 
-Depending on your notification preference , you receive notifications on your mobile device for all messages or only if somebody mentions you.&#x20;
+Depending on your notification preference, you receive notifications on your mobile device for all messages or only if somebody mentions you.&#x20;
 
 ## Emails
 
-Notifications of direct messages or `@username` mentions are sent to your email address, but only if your web client is connected.
+Direct messages or mentions notifications are only sent to your email address if your web client is connected.
 
 ## Mentions
 

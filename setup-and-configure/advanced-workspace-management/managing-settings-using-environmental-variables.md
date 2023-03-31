@@ -1,6 +1,6 @@
 # Managing Settings Using Environmental Variables
 
-You can set any settings value via an environment variable when starting your server. You will only have to know the setting id and what type of setting it is (boolean, string, integer, etc...).
+When starting your server, you can set any settings value via an environment variable. You will only have to know the setting id and what type of setting it is (boolean, string, integer, etc.).
 
 ### Basic Settings
 
@@ -158,21 +158,21 @@ You can set any settings value via an environment variable when starting your se
 
 ## Set Setting
 
-To set a setting for the first time you need only to add the env var `SETTING_ID=VALUE` when starting the server.
+To set a setting for the first time, you need only to add the env var `SETTING_ID=VALUE` when starting the server.
 
 Example:
 
 ```
-FileUpload_Storage_Type=GoogleCloudStorage
+FileUpload_Storage_Type=hiGoogleCloudStorage
 ```
 
-**Note: This only works if the setting isn't already set. So this is most useful for setting on initial start. If the setting already has a value you will need to use the syntax below**
+{% hint style="info" %}
+This only works if the setting isn't already set hence it's most useful for setting on the initial start. If the setting already has a value you will need to use overwrite setting.
+{% endhint %}
 
 ## Overwrite Setting
 
-You can overwrite any setting by setting an environment variable prefixed with: `OVERWRITE_SETTING_`
-
-Example:
+You can overwrite any setting by setting an environment variable prefixed with `OVERWRITE_SETTING_`.
 
 ```
 OVERWRITE_SETTING_FileUpload_Storage_Type=GoogleCloudStorage
@@ -180,34 +180,34 @@ OVERWRITE_SETTING_FileUpload_Storage_Type=GoogleCloudStorage
 
 ## Block Settings
 
-You can block a setting from being changed by specifying the `SETTINGS_BLOCKED` environment variable. This is a comma separated list. Any setting you want to block you need to add to this list.
-
-Example:
+You can block a setting from being changed by specifying the `SETTINGS_BLOCKED` environment variable. It is a comma-separated list. You need to add any setting you want to block to this list.
 
 ```
 SETTINGS_BLOCKED=FileUpload_Storage_Type,FileUpload_GoogleStorage_AccessId,FileUpload_GoogleStorage_Secret
 ```
 
-**Even you as an admin will not be able to change this via the UI. If you want to change the setting you will need to remove it from the list and reboot the server**
+As an administrator, you can't change this from the UI. You have to remove it from the list and reboot the server to change this setting.
 
 ## Hide Settings
 
-Example:
-
-You can hide settings from the client by using the `SETTINGS_HIDDEN` environment variable
+You can hide settings from the client by using the `SETTINGS_HIDDEN` environment variable.
 
 ```
 SETTINGS_HIDDEN=FileUpload_GoogleStorage_AccessId,FileUpload_GoogleStorage_Secret
 ```
 
-**Be careful with this setting some settings like `FileUpload_Storage_Type` are needed by the client so cannot be hidden**
+{% hint style="info" %}
+Take extra caution here because the client needs settings like `FileUpload_Storage_Type`, so it can not be hidden.
+{% endhint %}
 
 ## **Wizard Required** Settings
 
-Example:
-
-You can force settings to be required on wizard pages by using the `SETTINGS_REQUIRED_ON_WIZARD` environment variable
+You can force settings to be required on wizard pages by using the `SETTINGS_REQUIRED_ON_WIZARD` environment variable.
 
 ```
 SETTINGS_REQUIRED_ON_WIZARD=Organization_Type,Organization_Name
 ```
+
+{% hint style="info" %}
+To learn more about configuring Rocket.Chat via environment variables, see [environment-variables.md](../../deploy/rocket.chat-environment-configuration/environment-variables.md "mention").
+{% endhint %}

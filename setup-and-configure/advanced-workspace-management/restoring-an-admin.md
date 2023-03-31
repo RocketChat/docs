@@ -55,7 +55,7 @@ show dbs
 sudo rocketchat-server.mongo
 ```
 
-* Select the Rocket.Chat Database:
+* Select the Rocket.Chat Database.
 
 ```sql
 use parties

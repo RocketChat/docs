@@ -10,7 +10,7 @@ Every communication you receive on a channel can be translated using the Google 
 
 ## Getting the key
 
-To get the Google Translate API Key,&#x20;
+To get the Google Translate API Key,
 
 * Go to [Google Cloud Console](http://cloud.google.com/console/).
 * Create a Project and select it.
@@ -24,12 +24,12 @@ To get the Google Translate API Key,&#x20;
 
 It's time to configure auto-translate in your workspace now that you have your API key.t.
 
-* Go to **Administration > Workspace > Settings > Message >Auto-Translate**
-* **Enable Auto-Translate**.&#x20;
+* Go to **Administration > Workspace > Settings > Message > Auto-Translate**
+* Enable **Auto-Translate**.
 * Select **Google** as the **Service Provider**.
 
 {% hint style="info" %}
-Only users with the `auto-translate` [permission](../../use-rocket.chat/workspace-administration/permissions.md) will be able to use this feature. See
+Only users with `auto-translate` [permission](../../use-rocket.chat/workspace-administration/permissions.md) can use this feature.
 {% endhint %}
 
 ## Enabling Auto-Translate on a Channel
@@ -40,12 +40,12 @@ Any messages sent in a language that **Google Translate** supports will be trans
 
 To activate Auto-Translate in a room,
 
-* Click the ![](../../.gitbook/assets/three-dot-icon.png) **three-dot icon** in the room header.
-* Select **Auto-Translate**. &#x20;
-* Enable **Automatic Translation** and select your desired language**.**
-* Now, an **auto-translate icon** ![](../../.gitbook/assets/auto-translate.png) is displayed beside the room name to indicate that the feature is active.
+* Click the **kebab menu** in the room header.
+* Select **Auto-Translate**.
+* Enable **Automatic Translation** and select your desired language.
+* An **auto-translate icon** ![](../../.gitbook/assets/auto-translate.png) is displayed beside the room name to indicate that the feature is active.
 
-To translate a messaage,&#x20;
+To translate a message,
 
-* Hover over the message and click the ![](../../.gitbook/assets/three-dot-icon.png) **three-dot icon.**
+* Hover over the message and click the **kebab menu.**
 * Select **Translate**.
