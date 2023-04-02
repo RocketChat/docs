@@ -34,15 +34,15 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 ### **Latest update**
 
-**Update March 28th, 2023  Thanks to our SEVEN HUNDRED and FIFTY strong community!**
+**Update March 28th, 2023 Thanks to our SEVEN HUNDRED and FIFTY strong community!**
 
-Momentum of community growth continued throughout the week.  ****  Now, the Rocket.Chat GSoC 2023 community stands at an unprecedented **750+ globally diverse members** collaborating 24 x 7 at [our GSoC 2023 Team Channels](https://open.rocket.chat/channel/gsoc2023/team-channels).\
+Momentum of community growth continued throughout the week. \*\*\*\* Now, the Rocket.Chat GSoC 2023 community stands at an unprecedented **750+ globally diverse members** collaborating 24 x 7 at [our GSoC 2023 Team Channels](https://open.rocket.chat/channel/gsoc2023/team-channels).\
 \
-Almost everyone is fully engaged with their mentors in discussion of the **THIRTY MENTORED PROJECT IDEAS** this week.   Mentors are busy helping contributors and reviewing early drafts of proposals.   Some contributors have already submitted proposal through their GSoC portal - as of this week we have received **30 early proposal submissions**.\
+Almost everyone is fully engaged with their mentors in discussion of the **THIRTY MENTORED PROJECT IDEAS** this week. Mentors are busy helping contributors and reviewing early drafts of proposals. Some contributors have already submitted proposal through their GSoC portal - as of this week we have received **30 early proposal submissions**.\
 \
-A large group of mentors assembled to run a **Proposal Workshop** over the weekend to help contributors in writing their proposals and to show them how mentors typically select the winning proposal.  The event was extremely well received with over **47 attendees**.  Many of them shared  their work-in-progress proposals for in-session live review.   Thanks go to all the contributors for supporting this event and to the tireless mentors showing up Sunday early morning to help our keen contributors. \
+A large group of mentors assembled to run a **Proposal Workshop** over the weekend to help contributors in writing their proposals and to show them how mentors typically select the winning proposal. The event was extremely well received with over **47 attendees**. Many of them shared their work-in-progress proposals for in-session live review. Thanks go to all the contributors for supporting this event and to the tireless mentors showing up Sunday early morning to help our keen contributors.\
 \
-As of this week, we have **314 code contributors** on our [contributors leaderboard](https://gsoc.rocket.chat).  Responsible for **68 Merged PRs, 70 Open PRs, and raising 173 Issues!**
+As of this week, we have **314 code contributors** on our [contributors leaderboard](https://gsoc.rocket.chat). Responsible for **68 Merged PRs, 70 Open PRs, and raising 173 Issues!**
 
 #### Update March 21st, 2023 Shout out to our 2023 community of SIX HUNDRED !
 
@@ -185,19 +185,19 @@ Goal/Deliverable:
 
 **Mentors:** Mustafa Hasan Khan, Rafael Tapia
 
-**Description:**&#x20;
+**Description:**
 
-integrate Miro features into Rocket.Chat for daily use by team collaboration users.   It should include as a minimum for collaboration teams to:
+integrate Miro features into Rocket.Chat for daily use by team collaboration users. It should include as a minimum for collaboration teams to:
 
-&#x20;\* use PlantUML to create boards\
-&#x20;\* assign boards to channels and team channels\
-&#x20;\* create sticky notes and pin to channel\
-&#x20;\* receive notifications directly if someone is mentioned on Miro\
-&#x20;\* other innovative features of your choice
+\* use PlantUML to create boards\
+\* assign boards to channels and team channels\
+\* create sticky notes and pin to channel\
+\* receive notifications directly if someone is mentioned on Miro\
+\* other innovative features of your choice
 
 **Desirable Skills:** JavaScript/TypeScript, ReactJS, MIro APIs
 
-**Goal/Deliverable:**  Working Miro Rocket.Chat App supporting team collaboration users.&#x20;
+**Goal/Deliverable:** Working Miro Rocket.Chat App supporting team collaboration users.
 
 **Project Duration:** 175 (Medium)
 
@@ -407,7 +407,7 @@ The implementation can also work optionally with blockchains and tokens from oth
 
 ### Off the Record Messaging for Mobile (OTR)
 
-**Mentors:** Reinaldo Neto,  Daniel Silva,  Diego Mello\
+**Mentors:** Reinaldo Neto, Daniel Silva, Diego Mello\
 \
 **Description:**\
 [Off the Record Messaging](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/messaging/off-the-record-otr-messaging-guide) is a very popular and well loved feature of Rocket.Chat desktop and web client. It enable two parties to securely exchange encrypted message while both side are online, and not have the encrypted conversation be persisted in the chat history. However our mobile app currently does not support this. This project will add OTR support to our mobile apps.
@@ -418,8 +418,7 @@ The implementation can also work optionally with blockchains and tokens from oth
 OTR working on both iOS and Android apps.\
 \
 **Project Duration:** 175 hours (Medium)\
-**Difficulty:** Medium\
-
+**Difficulty:** Medium\\
 
 ### AI Moderation APP <a href="#docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057" id="docs-internal-guid-6a938870-7fff-9486-6ec9-cd0950cf4057"></a>
 
@@ -502,7 +501,7 @@ Today our Desktop app is done in ElectronJS. Tauri is a new framework that is ca
 
 ### Improving Mobile Apps UX
 
-**Mentors:**  Reinaldo Neto&#x20;
+**Mentors:** Reinaldo Neto
 
 **Description:**\
 Improving the user experience on our current mobile apps with:
@@ -567,15 +566,14 @@ With Elasticsearch integrated into the tech stack, the bot can leverage the powe
 
 **Project Duration:** 350 hours. (Large)\
 \
-**Difficulty:** Medium/Advanced\
-
+**Difficulty:** Medium/Advanced\\
 
 ### Toggl App
 
-**Mentors:**    Mustafa Hasan Khan, , Bárbara Zanella
+**Mentors:** Mustafa Hasan Khan, , Bárbara Zanella
 
-**Description:** \
-Integrate the essential features of Toggl for team collaborating with Rocket.Chat.   The app should include as a minimum the ability to:\
+**Description:**\
+Integrate the essential features of Toggl for team collaborating with Rocket.Chat. The app should include as a minimum the ability to:\
 \
 \* create time entries with one single slash command\
 \* create projects and get approval from superiors to start work on it\
@@ -584,12 +582,11 @@ Integrate the essential features of Toggl for team collaborating with Rocket.Cha
 
 **Desirable Skills:** JavaScript/TypeScript, ReactJS
 
-**Goal/Deliverable:**  Rocket.Chat App integrating Toggl for teams and team member collaboration.
+**Goal/Deliverable:** Rocket.Chat App integrating Toggl for teams and team member collaboration.
 
 **Project Duration:** 175 (Medium)\
 \
-**Difficulty:** Easy/Medium\
-
+**Difficulty:** Easy/Medium\\
 
 ### Android Auto
 
@@ -650,12 +647,11 @@ UnifiedPush working on the Android app. With or without FCM fallback.\
 \
 **Project Duration:** 175 hours (Medium)\
 \
-**Difficulty:** Medium\
-
+**Difficulty:** Medium\\
 
 ### Template messages Rocket.Chat app
 
-**Mentors:**   Murtaza Patrawala
+**Mentors:** Murtaza Patrawala
 
 **Description:**\
 This project aims to develop a [Rocket.Chat](http://rocket.chat) app that allows users to create, store, and send common messages with ease (Similar to [this Slack app](https://slack.com/apps/AJGJWCYPQ-templates?tab=more\_info)). The app will have a simple interface that enables users to create templates with customized names. These templates can be triggered using a slash command (e.g., /template \<template-name>) and inserted into the chat window with just one click. Users can also edit and delete their templates as needed.
@@ -670,7 +666,29 @@ Examples of use cases include a customer support agent responding to frequently 
 
 **Project Duration:** 175 hours. (Medium)\
 \
-**Difficulty:** Easy/Medium\
+**Difficulty:** Easy/Medium
+
+### Google Summer of Code Community Hub
+
+**Mentors:**  Hugo Costa, Sing Li\
+**Description:**\
+Every year, Rocket.Chat's GSoC new community of 100s gather around a desperate set of servers:
+
+* in open.rocket.chat channels
+* discussions in forums.rocket.chat topics
+* listed on gsoc.rocket.chat leaderboard
+* communicating over Github repositories
+* gathered for meetings on Jitsi
+* alumni summit
+* demo day
+
+This project leverages two existing projects - the _RC4Community_ platform and _RC4Conferences_ components to build a one-stop hub to engage our community, incorporating all the servers into a unified hub with an easy to use Ux via single logon.\\
+
+**Desirable Skills:** Advanced Typescript, advanced React. Deep knowledge of RC4Community and RC4Conferences projects.\
+\
+**Goal/Deliverable:** A working Google Summer of Code Community Hub that we will use to engage all community members starting in 2023.\
+\
+**Project Duration:** 350 hours. (Large)\
 
 
 ## Ideas Seeking a Little More Love in 2023
@@ -681,7 +699,7 @@ If you are interested in any one of them, let our community of **650+ potential 
 
 #### Update March 22, 2023
 
-We have already seen **FOUR extraordinary examples** of contributors giving a new life to these "need more luv" projects:&#x20;
+We have already seen **FOUR extraordinary examples** of contributors giving a new life to these "need more luv" projects:
 
 Contributor Yash Sancheti introduced the **pen test and fixes project** and found mentor Igor Rincon for the project!
 
@@ -689,8 +707,7 @@ Contributor Yatendra Kumar convinced Debdut Chakraborty and Sing Li to revive th
 
 Anik Dhabal Babu requested and mentor Mustafa Hasan Khan agreed to mentor the **Miro App** and the **Toggl App** ideas for 2023 !
 
-Congratulations to the above contributors !   And please know that these **FOUR NEW MENTORED PROJECTS** are **NOW OPEN** for everyone's contribution and proposals as well !!\
-
+Congratulations to the above contributors ! And please know that these **FOUR NEW MENTORED PROJECTS** are **NOW OPEN** for everyone's contribution and proposals as well !!\\
 
 ### WordPress super plugin
 
@@ -751,8 +768,6 @@ Working arm64 snap for 5.x and 6.x releases of Rocket.Chat that leverages `core2
 **Project Duration:** 175 hours (Medium)\
 \
 **Difficulty:** Medium\\
-
-
 
 ### Full-stack Components Framework for Community Builders
 
@@ -823,30 +838,6 @@ Creating a high performance native desktop client for the Windows platform (Wind
 **Project Duration:** 175 hours. (Medium)\
 \
 **Difficulty:** Easy/Medium
-
-### Google Summer of Code Community Hub
-
-**Mentors:** TBD\
-**Description:**\
-Every year, Rocket.Chat's GSoC new community of 100s gather around a desperate set of servers:
-
-* in open.rocket.chat channels
-* discussions in forums.rocket.chat topics
-* listed on gsoc.rocket.chat leaderboard
-* communicating over Github repositories
-* gathered for meetings on Jitsi
-* alumni summit
-* demo day
-
-This project leverages two existing projects - the _RC4Community_ platform and _RC4Conferences_ components to build a one-stop hub to engage our community, incorporating all the servers into a unified hub with an easy to use Ux via single logon.\\
-
-**Desirable Skills:** Advanced Typescript, advanced React. Deep knowledge of RC4Community and RC4Conferences projects.\
-\
-**Goal/Deliverable:** A working Google Summer of Code Community Hub that we will use to engage all community members starting in 2023.\
-\
-**Project Duration:** 350 hours. (Large)\
-\
-**Difficulty:** Easy/Medium\\
 
 ### Building the Rocket.Chat Appliance
 
