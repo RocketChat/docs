@@ -8,15 +8,17 @@ Rocket.Chat can be hosted on our Cloud, installed from various marketplaces, or 
 
 ## Official Recommendation
 
+We have a minimum set of requirements to obtain official support from our team. These requirements are necessary to access essential system information, provide an SLA, answer questions, or solve problems. SLAs and our paid Support Policy can cover only installations matching these minimum requirements. Some requirements may vary depending on the installation size, as described in the following sections.
+
+[Docker](https://www.docker.com) is widely used for packaging applications in containers and distributing them as images, providing abstraction and isolation layers from the OS (operational system). It allows the application to be shipped with a specific version of the OS compatibility layer and its dependencies already installed and configured.
+
 {% hint style="success" %}
 We offer a variety of Deployment methods, and we recommend you set up using our [Docker & Docker Compose](rapid-deployment-methods/docker-and-docker-compose/) guide for several reasons mentioned below.
 {% endhint %}
 
-We have a minimum set of requirements to obtain official support from our team. These requirements are necessary to access essential system information, provide an SLA, answer questions, or solve problems. SLAs and our paid Support Policy can cover only installations matching these minimum requirements. Some requirements may vary depending on the installation size, as described in the following sections.
+## Environment
 
-### Environment
-
-#### Docker Container
+### Docker Container
 
 We strongly recommend using our official Docker images to eliminate environmental issues of missing, outdated, or mismatching dependencies, specific operating system issues, or problems during manual installations.
 
@@ -24,25 +26,15 @@ We strongly recommend using our official Docker images to eliminate environmenta
 Rocket.Chat's cloud uses our official Docker images, which makes this installation method the most tested.
 {% endhint %}
 
-[Docker](https://www.docker.com) is widely used for packaging applications in containers and distributing them as images, providing abstraction and isolation layers from the OS (operational system). It allows the application to be shipped with a specific version of the OS compatibility layer and its dependencies already installed and configured.
-
 {% content-ref url="rapid-deployment-methods/docker-and-docker-compose/docker-containers/" %}
 [docker-containers](rapid-deployment-methods/docker-and-docker-compose/docker-containers/)
 {% endcontent-ref %}
 
 #### Why Docker?
 
-**Scalability**
-
-Scaling your Rocket.Chat deployment using Docker with Docker Compose is quite easy as editing the compose file.
-
-#### Ease of Deployment
-
-An instance of Rocket.Chat can be up and running efficiently using our images or the compose `yml` file.
-
-#### **Ease of Maintenance and Support**
-
-Maintaining a docker instance is pretty straightforward. Rocket.Chat offers both official and community support for all Docker-related issues.
+* **Scalability**: Scaling your Rocket.Chat deployment using Docker with Docker Compose is quite easy as editing the compose file.
+* **Ease of Deployment**: An instance of Rocket.Chat can be up and running efficiently using our images or the compose `yml` file.
+* **Ease of Maintenance and Support**: Maintaining a docker instance is pretty straightforward. Rocket.Chat offers both official and community support for all Docker-related issues.
 
 ### Multiple processes
 
@@ -52,21 +44,10 @@ Virtual machines and containers differ in several ways. Still, the primary diffe
 
 ### Performance benefits of containers
 
-#### **Faster startup time**
-
-A containerized application usually starts in a couple of seconds. Virtual machines could take a couple of minutes.
-
-#### **Better resource distribution**
-
-Containers use only as many system resources as needed at a given time. Before a virtual machine can start, some resources must be permanently assigned. For this reason, virtual machines tie up resources on the host, even if they are not using them. Host resources can be distributed effectively with the help of containers.
-
-#### **Direct hardware access**
-
-When an application runs inside a virtual machine, it usually cannot directly access the hardware resources of the host machine, such as graphics cards. This can slow down the processing speed of the application. However, when an application is containerized, it can access and use the hardware resources of the host machine, including graphics cards, which can speed up processing.
-
-#### **Less redundancy**
-
-With virtual machines, you have to install an entire guest operating system, duplicating many components already running on your host server. However, with containers, you do not need to install a complete operating system for each container.
+* **Faster startup time**: A containerized application usually starts in a couple of seconds. Virtual machines could take a couple of minutes.
+* **Better resource distribution**: Containers use only as many system resources as needed at a given time. Before a virtual machine can start, some resources must be permanently assigned. For this reason, virtual machines tie up resources on the host, even if they are not using them. Host resources can be distributed effectively with the help of containers.
+* **Direct hardware access**: When an application runs inside a virtual machine, it usually cannot directly access the hardware resources of the host machine, such as graphics cards. This can slow down the processing speed of the application. However, when an application is containerized, it can access and use the hardware resources of the host machine, including graphics cards, which can speed up processing.
+* **Less redundancy**: With virtual machines, you have to install an entire guest operating system, duplicating many components already running on your host server. However, with containers, you do not need to install a complete operating system for each container.
 
 {% embed url="https://www.backblaze.com/blog/vm-vs-containers/" %}
 
