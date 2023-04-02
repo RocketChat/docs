@@ -1,51 +1,35 @@
 # Salesforce CRM Agent's Guide
 
-If you have Salesforce CRM integration in place and a user sends you a message,
+If you have Salesforce CRM integration in place and a user sends you a message, it appears in your Rocket.Chat workspace just like any other Omnichannel conversation.
 
-![](<../../../../../.gitbook/assets/image (167).png>)
-
-It appears in your Rocket.Chat workspace just like any other Omnichannel conversation, as shown below:
-
-![](<../../../../../.gitbook/assets/image (1285).png>)
-
-But you can see your Salesforce CRM Integration in action as soon as you Click **Take It!** to serve this conversation.
+When you start serving the conversation as an agent, the Salesforce CRM Integration takes effect and displays options for various tasks in the chat.&#x20;
 
 ## Create Contact
 
-If it is a new visitor, you can create their contact inside your Salesforce CRM from within Rocket.Chat.
+If it is a new customer, you can create their contact inside your Salesforce CRM from within Rocket.Chat.
 
-![](<../../../../../.gitbook/assets/image (329).png>)
+To create a contact,
 
-![](<../../../../../.gitbook/assets/image (1085).png>)
-
-![](<../../../../../.gitbook/assets/image (59).png>)
+* Click the **Create Contact** button in the chat.
+* Fill in the required contact details.
+* Click **Confirm**. The customer is now a Salesforce contact.
 
 ## Contact Info
 
-If it is an existing contact, you can view their contact info, as shown below:
-
-![](<../../../../../.gitbook/assets/image (1265).png>)
+If it is an existing contact, you can view their contact info by clicking the **Contact Info** button in the chat.
 
 ## View Cases
 
-You can view their cases from within Rocket.Chat.
-
-![](<../../../../../.gitbook/assets/image (558).png>)
+You can view their cases by clicking the **View Cases** button in the chat if it is an existing contact.
 
 ## Create Cases
 
-You can create a new case for them from within Rocket.Chat.
+You can also create a new case for a customer from your Rocket.Chat workspace.
 
-![](<../../../../../.gitbook/assets/image (90).png>)
-
-![](<../../../../../.gitbook/assets/image (694).png>)
-
-You can also view the Tasks, Events, and Calls for this visitor.
-
-![](<../../../../../.gitbook/assets/image (203).png>)
+* Click on the **Create Case** button in the chat.
+* Fill in the required information.
+* Click **Confirm**. A new Salesforce case is created for the customer.
 
 {% hint style="info" %}
-Use `/salesforce help` command to see all the slash commands we have made available to you in this integration.
+You can also view the customers' Tasks, Events, and Calls.
 {% endhint %}
-
-![](<../../../../../.gitbook/assets/image (1247).png>)

@@ -1,15 +1,12 @@
 # Instagram Direct Agent's Guide
 
-If you have Instagram Direct integration in place and a user sends you a message on your Instagram business page using their Instagram account, as shown below:
+If you set up Instagram Direct app integration and a user sends you a message on your Instagram business page,
 
-![](<../../../../../.gitbook/assets/2021-12-31\_20-27-38 (1) (1) (1) (3).png>)
+* It appears in your Rocket.Chat workspace, just like any other Omnichannel conversation available for an [agent ](../../../../../use-rocket.chat/omnichannel/agents.md)to take it.
+* You can respond to the customer from your workspace, and they receive the response on Instagram.&#x20;
+* You can also send and receive files during the conversation.
+* The integration also supports context from Instagram stories and posts within the incoming messages.
 
-it appears in your Rocket.Chat workspace, just like any other Omnichannel conversation.
-
-![](../../../../../.gitbook/assets/2021-12-31\_20-30-41.png)
-
-Click **Take It!** to serve this conversation.
-
-You can send to and receive files from your Instagram end-user.
-
-The integration also supports context from Instagram stories and posts within the incoming messages.
+{% hint style="info" %}
+You must be an [agent](../../../../../use-rocket.chat/omnichannel/agents.md) before you can receive omnichannel messages from Instagram.
+{% endhint %}
