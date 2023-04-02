@@ -21,8 +21,8 @@ Omnichannel apps give consumers a choice to engage with you on their favorite ch
 [telegram-app](telegram-app/)
 {% endcontent-ref %}
 
-{% content-ref url="rasa-app/" %}
-[rasa-app](rasa-app/)
+{% content-ref url="rasa-app.md" %}
+[rasa-app.md](rasa-app.md)
 {% endcontent-ref %}
 
 {% content-ref url="salesforce-crm-integration/" %}
