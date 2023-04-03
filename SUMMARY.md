@@ -35,7 +35,6 @@
         * [Rocket.Chat on Ubuntu](deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/ubuntu.md)
         * [Rocket.Chat on Kali Linux](deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/kali-linux.md)
       * [Updating](deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/updating.md)
-      * [Running Multiple Instances](deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/running-multiple-instances.md)
     * [Nonofficial Methods](deploy/prepare-for-your-deployment/other-deployment-methods/nonofficial-methods/README.md)
       * [OpenSUSE Leap 42.2](deploy/prepare-for-your-deployment/other-deployment-methods/nonofficial-methods/opensuse.md)
       * [FreeBSD](deploy/prepare-for-your-deployment/other-deployment-methods/nonofficial-methods/freebsd/README.md)
