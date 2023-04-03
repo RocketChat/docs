@@ -71,7 +71,7 @@ Ensure that each of the following requirements is met before starting the authen
 * A[ Facebook Page](https://www.facebook.com/pages/creation/) connected to your Instagram account.&#x20;
 
 {% hint style="info" %}
-&#x20;See the Meta guide on [connecting your Facebook Page to your Instagram account](https://help.instagram.com/778047726374727).
+&#x20;See the Meta guide on [connecting your Facebook Page to your Instagram account](https://help.instagram.com/570895513091465/?helpref=related\_articles).
 {% endhint %}
 
 * Enable [Message Control Connected Tools Settings](https://developers.facebook.com/docs/messenger-platform/instagram/get-started#connected-tools-toggle) from your Instagram account on mobile.
