@@ -2,7 +2,7 @@
 
 A simple relay communication between Rocket.Chat and Telegram is possible by configuring a basic bot. The guide below shows a community example of how this can be achieved with webhooks.
 
-This will give you the possibility of relaying messages between Telegram and Rocket.Chat in a specified room of your choice.
+This gives you the possibility of relaying messages between Telegram and Rocket.Chat in a specified room of your choice.
 
 {% hint style="success" %}
 Rocket.Chat [Enterprise workspaces](../settings/enterprise.md) have the [Telegram App](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/telegram-app/) packaged with many more functionalities and other [Omnichannel](../../omnichannel/) features to use.
@@ -18,16 +18,13 @@ Note: This integration is not designed to work for Omnichannel Conversations. Pl
 Make sure Your Rocket.Chat workspace URL is publicly available.
 {% endhint %}
 
-1. Log in to your [Telegram](https://web.telegram.org/) account on your mobile or using a browser
-2. Add and open a conversation with the user `BotFather`
-3. Click **start**
-4. Send `/newbot` to start creating a new bot
-5. Follow the instructions to continue
-   * Set the bot's username
-   * Telegram successfully creates the bot and shows how to access it
-6. Copy the token provided, it will be needed for the configuration
-
-![Creating new telegram bot](<../../../.gitbook/assets/Creating telegram bot.png>)
+1. Log in to your [Telegram](https://web.telegram.org/) account on your mobile or using a browser.
+2. Add and open a conversation with the user [`BotFather`](https://t.me/botfather)`.`
+3. Click **start.**
+4. Send `/newbot` to start creating a new bot.
+5. Follow the instructions to continue.
+   * Set the bot's username. Telegram successfully creates the bot and shows how to access it.
+6. Copy the token provided, it is needed for the configuration.
 
 ## Configuration
 
@@ -35,22 +32,22 @@ Make sure Your Rocket.Chat workspace URL is publicly available.
 Before configuring the Telegram integration, make sure you:
 
 * [Create a channel](../../user-guides/rooms/channels/create-a-new-channel.md) on Rocket.Chat for incoming and outgoing conversations.
-* [Create a user](../users/#add-new-users) with `bot` [role ](https://github.com/RocketChat/docs/blob/master/setup-and-administer-rocket.chat/roles-in-rocket.chat)to be used for the relay.
+* [Create a user](../users/#add-new-users) with `bot the` [role ](https://github.com/RocketChat/docs/blob/master/setup-and-administer-rocket.chat/roles-in-rocket.chat)to be used for the relay.
 {% endhint %}
 
 ### Creating an Incoming Telegram webhook in Rocket.Chat
 
 The incoming webhook is responsible for relaying messages from Telegram into Rocket.Chat into a specific [Channel](../../user-guides/rooms/channels/).
 
-To create an incoming webhook
+To create an incoming webhook:
 
 * Go to **Administration** > **Workspace** > **Integrations** in Rocket.Chat
-* Create a new Incoming Webhook following this guide [#create-a-new-incoming-webhook](./#create-a-new-incoming-webhook "mention")
+* Create a new Incoming Webhook following the guide [#create-a-new-incoming-webhook](./#create-a-new-incoming-webhook "mention")
   * Enable the integration
-  * Set the webhook integration name
-  * Set the **Post to Channel** as the channel created above
-  * Set **Post as**, as the user created above
-  * Enable the script and paste the following code
+  * Set the webhook integration name.
+  * Set the **Post to Channel** as the channel created above.
+  * Set **Post as**, as the user created above.
+  * Enable the script and paste the following code.
 
 ```javascript
 class Script {
@@ -117,20 +114,20 @@ class Script {
 }
 ```
 
-* **Save**
+* Save the integration.
 
 This creates a new incoming integration with a **webhook URL** and **token** provided.
 
 #### Setting Telegram webhook
 
-* Copy the incoming webhook URL provided by Rocket.Chat after saving
-* Change the following URL with `yourTelegramBotToken` and Incoming `webhookURL` and open on your browser
+* Copy the incoming webhook URL provided by Rocket.Chat after saving.
+* Change the following URL with `yourTelegramBotToken` and Incoming `webhookURL` and open it on your browser.
 
 ```html
 https://api.telegram.org/bot<my-telegram-authorization-token>/setwebhook?url=<Incoming_Webhook_Link_from_Rocket.Chat>
 ```
 
-* You see a response in this format to indicate success
+* A response indicating success is sent which looks like this:
 
 ```json
 {
@@ -144,18 +141,16 @@ https://api.telegram.org/bot<my-telegram-authorization-token>/setwebhook?url=<In
 
 Test your incoming Webhook by sending a telegram message to the Telegram bot.
 
-The message sent gets posted in the `channel` by the `user`you specified in the incoming webhook configuration page.
-
-![Telegram bot webhook Rocket.Chat](<../../../.gitbook/assets/Telegram bot webhook with Rocket.Chat.png>)
+The message sent gets posted in `channel` by the `user`you specified in the incoming webhook configuration page.
 
 ### Creating a Telegram Group with Bot access
 
-A Telegram group can be configured to send and receive messages to and from Rocket.Chat
+A Telegram group can be configured to send and receive messages to and from Rocket.Chat.
 
-Create a Telegram group and grant bot access
+Create a Telegram group and grant bot access.
 
-* Create a new Telegram group
-* Get the group chat id. This can be gotten by
+* Create a new Telegram group.
+* Get the group chat id. This can be gotten by:
   * Adding the user `RawDataBot`to the group
   * On joining, a response like below is seen with the chat id
 
@@ -168,22 +163,20 @@ Kisses, your bot
 ```
 
 * Change the bot group privacy settings so it can listen to all messages by:
-  * Sending the message `/setprivacy` to botFather
-  * Choosing the bot you want to edit
-  * Setting the status to `Disable`
-
-![Change telegram bot group privacy settings](<../../../.gitbook/assets/Change telegram bot group privacy settings.png>)
+  * Sending the message `/setprivacy` to [BotFather](https://t.me/botfather).
+  * Choosing the bot you want to edit.
+  * Setting the status to `Disable.`
 
 ### Creating an Outgoing Telegram webhook in Rocket.Chat
 
 The outgoing integration is used to relay messages back from Rocket.Chat to Telegram.
 
-* Go to **Administration** > **Workspace** > **Integrations** in Rocket.Chat
-* Create an outgoing webhook following this guide [#create-a-new-outgoing-webhook](./#create-a-new-outgoing-webhook "mention")
-  * Select the Message sent as the **Event Trigger**
-  * Enable the integration
-  * Set any Trigger Words in which messages must have before they get relayed if needed
-  * Specify the channel to listen in
+* Go to **Administration** > **Workspace** > **Integrations** in Rocket.Chat.
+* Create an outgoing webhook following this guide [#create-a-new-outgoing-webhook](./#create-a-new-outgoing-webhook "mention").
+  * Select the Message sent as the **Event Trigger.**
+  * Enable the integration.
+  * Set any Trigger Words which messages must have before they get relayed if needed.
+  * Specify the channel to listen to.
   * Set the URL following this format:
 
 ```html
@@ -208,10 +201,8 @@ class Script {
 }
 ```
 
-* **Save**
+* Save the integration.
 * Add your bot to the telegram group and enjoy cross-platform communication between Rocket.Chat and Telegram.
-
-<figure><img src="../../../.gitbook/assets/image (811).png" alt=""><figcaption><p>Rocket.Chat X Telegram</p></figcaption></figure>
 
 {% hint style="success" %}
 * Multiple Outgoing Triggers can be configured to cover all use cases.
