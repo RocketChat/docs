@@ -20,7 +20,7 @@ To configure the **Rasa** app,
 
 * On the **Rasa App Info** screen, navigate to **Settings.**
 * Update the required fields:
-  * **Bot Username:** Set the[ name of the bot you have already configured](dialogflow-app/dialogflow-app-configuration/bot-user-configuration.md). This is the user who will assist with the conversations through Rasa integration.
+  * **Bot Username:** Set the[ name of the bot you have already configured](broken-reference). This is the user who will assist with the conversations through Rasa integration.
   * **Rasa Server URL:** The server available in your Rasa instance.
   * **Service Unavailable Message:** A message sent to your customer if service is unavailable.
   * **Close Chat Message:** A message sent to your customer when a conversation is closed.
