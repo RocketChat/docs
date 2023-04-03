@@ -1,13 +1,16 @@
 # WhatsApp Sandbox Agent's Guide
 
-### To send messages
+{% hint style="info" %}
+You cannot share media files within the Sandbox environment.
+{% endhint %}
 
-If you have WhatsApp Sandbox integration in place and a user sends you a message using their 360dialog Sandbox account, it appears in your Rocket.Chat workspace just like any other Omnichannel conversation, as shown below:
+## Send Messages
 
-Click **Take It!** to serve this conversation.
+If you have set up your WhatsApp Sandbox integration and a user sends you a message using the 360dialog Sandbox account,&#x20;
 
-![](<../../../../../.gitbook/assets/Screen Shot 2022-08-02 at 13.44.33 (1).png>)
+* It appears in your Rocket.Chat workspace, just like any other Omnichannel conversation available for an [agent ](../../../../../use-rocket.chat/omnichannel/agents.md)to take it.
+* You can respond to the customer from your workspace, and they receive the response on Whatsapp.&#x20;
 
-## Send Template messages via slash command
-
-Please follow this link to [configure and send template messages via slash command and UI.](https://developer.rocket.chat/reference/api/rest-api/endpoints/apps-endpoints/whatsapp-endpoints/whatsapp-omnichannel-integration-api#2.-via-slash-command-and-ui)
+{% hint style="info" %}
+To configure and send template messages via slash command and UI, see the [WhatsApp Omnichannel Integration API](https://developer.rocket.chat/reference/api/rest-api/endpoints/apps-endpoints/whatsapp-endpoints/whatsapp-omnichannel-integration-api#2.-via-slash-command-and-ui).
+{% endhint %}
