@@ -26,24 +26,38 @@ To access Rocket.Chat in a browser,
 
 ## Setup Wizard
 
-To launch your workspace, it is required to do a simple 4-step setup.
+To launch your workspace, you are required to complete the setup wizard. Fill in the information in the various steps to continue.
 
-* **Admin Information**: Fill in this information as it is needed to create the first user who automatically becomes an administrator of your Rocket.Chat workspace. The necessary information includes your name,  username, organizational email, and password. Next, click on **Continue** to proceed to the organization's information setup.
+*   **Admin Information**: Fill in this information as it is needed to create the first user who automatically becomes an administrator of your Rocket.Chat workspace.&#x20;
+
+    * **Full name**: Set the first and last name.
+    * **Username**: Specify the admin username.
+    * **Email**: Enter your email.
+    * **Password**: Create a password for the admin user.
+
+    Click **Next** to continue.
 *   **Organization Information**: This involves information about your organization. The required information about your organization includes the following:
 
-    * The organization's name.
-    * Its type.
-    * The size of the organization.
-    * The country in which your organization operates.
-    * The industry your organization is linked to.
-    * Your organization's website(if there is any).
+    * **Organization name**: Your organization name.
+    * **Organization type**: The type of organization.
+    * **Organization industry**: The industry your organization operates under.
+    * **Organization size**: The size of the organization
+    * **Country**: The country in which your organization is.
 
-    Next, click **Continue** to proceed to the third step, which concerns server information.
-* **Server Info**: The server Info form requires the site name and your preferred language. You can also select whether the server is private or public and, finally, choose to opt into two-factor authentication via email. Next, click **Continue**.
-* **Register Your Server**: You are asked to [register your workspace](rocket.chat-setup-wizard.md#register-workspace) to the Rocket.Chat Cloud or proceed with a [standalone server](rocket.chat-setup-wizard.md#continue-as-standalone). Registering your workspace is highly recommended, as you can enjoy numerous benefits, including the following:
-  * Access to [**marketplace apps**](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/).
-  * ****[**Omnichannel**](../../use-rocket.chat/omnichannel/)****
-  * Mobile [**push notifications**](../../use-rocket.chat/rocket.chat-mobile/push-notifications/)**.**
+    Click **Continue** to proceed to the third step.
+* **Register Your Server**: You are asked to [register your workspace](rocket.chat-setup-wizard.md#register-workspace) to the Rocket.Chat Cloud or link the workspace to an existing Rocket.Chat Cloud account.
+  * Check the box if you want to receive security updates.
+  * Agree to the [**Terms**](../../rocket.chat-legal/terms-of-service.md) and [**Privacy Policy**](../../rocket.chat-privacy-and-security/privacy-policies/) and **Register**.
+
+{% hint style="info" %}
+With a registered workspace, you have access to benefits like:
+
+* Access to [**Marketplace apps**](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/).
+* ****[**Omnichannel**](../../use-rocket.chat/omnichannel/)****
+* Mobile [**push notifications**](../../use-rocket.chat/rocket.chat-mobile/push-notifications/)**.**
+{% endhint %}
+
+Open your email inbox and click **verify registration** to ensure the security codes match.
 
 <details>
 
@@ -71,16 +85,8 @@ When registering your workspace, Rocket.Chat collects the following information 
 
 </details>
 
-Your workspace is ready for use, and you can apply for an [Enterprise Edition trial](../enterprise-edition-trial/).
+{% hint style="success" %}
+Your workspace is ready for use, and you can apply for an [Enterprise Edition trial](../enterprise-edition-trial/) to test out all the features that come with an enterprise workspace.
+{% endhint %}
 
-### Register Workspace
-
-* Click on **Register to access** to continue. Check the box if you want to receive security updates.
-* Agree to the [**Terms**](../../rocket.chat-legal/terms-of-service.md) and [**Privacy Policy**](../../rocket.chat-privacy-and-security/privacy-policies/) of Rocket.Chat. Click **continue**.
-* Open up your email inbox and click **verify registration.** Confirm that the security codes match.
-* Confirm the registration and go back to your server.
-
-### Continue as Standalone
-
-* Click **Continue as standalone.**
-* Click **Confirm.**
+With your Rocket.Chat workspace setup completed, you can [invite users](inviting-users.md) to collaborate with. Learn more about how to use Rocket.Chat following the [user-guides](../../use-rocket.chat/user-guides/ "mention").

@@ -109,7 +109,7 @@ After creating the Zap, whenever a message is posted in the specified channel, a
 
 ## Zapier External Trigger to Rocket.Chat Action
 
-This example makes use of the `New Message Posted to Channel` in Slack trigger and the `Send private group message` Rocket.Chat action.
+This example makes use of the `New Message Posted to Channel` in Slack trigger and the `Send private channel message` Rocket.Chat action.
 
 This forwards any message sent in a Slack channel to a private channel in Rocket.Chat.
 
@@ -129,7 +129,7 @@ Follow these steps to create the zap.
 After Configuring the Zapier Trigger, the next step is configuring the Action.
 
 * Search and select the `Rocket.Chat` app as the Action app
-* In the event field, select the `Send private group message` event and **Continue**
+* In the event field, select the `Send private channel message` event and **Continue**
 * Select a linked Rocket.Chat workspace **Sign in** to a Rocket.Chat workspace to use
 *   Configure the desired field in the action section to format the message structure using the example data available
 
@@ -144,7 +144,7 @@ After Configuring the Zapier Trigger, the next step is configuring the Action.
 * Click **Continue** then **Test action**. You receive a test message in then private group formatted as configured
 * **Publish** and **Turn On** the Zap
 
-After creating the Zap, whenever a message is posted in the specified Slack Channel, it gets forwarded to a Rocket.Chat private Group.
+After creating the Zap, whenever a message is posted in the specified Slack Channel, it gets forwarded to a Rocket.Chat private Channel.
 
 ![](<../../../../.gitbook/assets/Zapier SlackXRocketChat.png>)
 

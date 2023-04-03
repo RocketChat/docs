@@ -22,33 +22,33 @@ Below is a list of available Triggers and Actions.
 
 ### Rocket.Chat Zapier Triggers
 
-| Trigger                                | Description                                                     |
-| -------------------------------------- | --------------------------------------------------------------- |
-| `New channel`                          | Triggers when a new Channel is created.                         |
-| `New group`                            | Triggers when a new Group is created.                           |
-| `New message posted anywhere`          | Triggers when a new message is posted to any public Channel.    |
-| `New message posted on public channel` | Triggers when a message is posted to a specific public Channel. |
-| `New message posted on private group`  | Triggers when a message is posted to a specific private Group.  |
-| `Message pinned anywhere`              | Triggers when a message is pinned in any public room.           |
-| `Starred message anywhere`             | Triggers when a message is starred in any public room.          |
-| `New user`                             | Triggers when a new user is created.                            |
-| `Mentioned on public channel`          | Triggers when a user is mentioned on a public channel.          |
+| Trigger                                 | Description                                                      |
+| --------------------------------------- | ---------------------------------------------------------------- |
+| `New channel`                           | Triggers when a new Channel is created.                          |
+| `New message posted anywhere`           | Triggers when a new message is posted to any public Channel.     |
+| `New message posted on public channel`  | Triggers when a message is posted to a specific public Channel.  |
+| `New message posted on private channel` | Triggers when a message is posted to a specific private Channel. |
+| `Message pinned anywhere`               | Triggers when a message is pinned in any public room.            |
+| `New private channel`                   | Triggers when a new private Channel is created.                  |
+| `Starred message anywhere`              | Triggers when a message is starred in any public room.           |
+| `New user`                              | Triggers when a new user is created.                             |
+| `Mentioned on public channel`           | Triggers when a user is mentioned on a public channel.           |
 
 ### Rocket.Chat Zapier Actions
 
-| Action                       | Description                                                                                                             |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| `Create channel`             | Creates a new Channel.                                                                                                  |
-| `Invite user to channel`     | Invites an existing user to an existing public channel. You must be a member of the channel in order to invite someone. |
-| `Create private group`       | Creates a new private group.                                                                                            |
-| `Send channel message`       | Post a new message in a channel.                                                                                        |
-| `Send direct message`        | Sends a direct message to a user.                                                                                       |
-| `Send private group message` | Sends a message to a new private group.                                                                                 |
-| `Add reminder`               | Adds a new reminder.                                                                                                    |
-| `Set status`                 | Sets user status.                                                                                                       |
-| `Find channel`               | Searches for a channel. It creates a new channel if none is found.                                                      |
-| `Find private group`         | Searches the workspace for a private group. Creates a private group if none is found.                                   |
-| `Find user by username`      | Finds a user by their username.                                                                                         |
+| Action                         | Description                                                                                                             |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| `Create channel`               | Creates a new Channel.                                                                                                  |
+| `Invite user to channel`       | Invites an existing user to an existing public channel. You must be a member of the channel in order to invite someone. |
+| `Create private channel`       | Creates a new private channel.                                                                                          |
+| `Send channel message`         | Post a new message in a channel.                                                                                        |
+| `Send direct message`          | Sends a direct message to a user.                                                                                       |
+| `Send private channel message` | Sends a message to a specific private channel.                                                                          |
+| `Add reminder`                 | Adds a new reminder.                                                                                                    |
+| `Set status`                   | Sets user status.                                                                                                       |
+| `Find channel`                 | Searches for a channel. It creates a new channel if none is found.                                                      |
+| `Find private channel`         | Searches the workspace for a private channel. Creates a private channel if none is found.                               |
+| `Find user by username`        | Finds a user by their username.                                                                                         |
 
 See how to use the Zapier app and some common examples below.
 
