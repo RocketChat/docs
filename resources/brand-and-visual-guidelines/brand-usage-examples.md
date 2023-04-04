@@ -2,7 +2,7 @@
 
 ### Examples
 
-Below are some examples of how to use the new Rocket.Chat brand from online applications to offline. Be sure to maintain consistency in the application of all elements of the brand.
+Below are some examples of how to use the new Rocket.Chat brand from online applications to offline. Be sure to maintain consistency in applying all elements of the brand.
 
 ### Brand in use
 

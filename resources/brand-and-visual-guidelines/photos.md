@@ -10,13 +10,13 @@ We increasingly want to appropriate a unique, contemporary language that conveys
 
 ### Treatment
 
-Our photos are high temperature and saturated, resulting in a simple, proprietary effect.
+Our photos are high-temperature and saturated, resulting in a simple, proprietary effect.
 
 ![](../../.gitbook/assets/01\_photo.jpg)
 
 ### Image Bank
 
-First of all, when choosing a bank image photo, it is necessary to understand the content and context that it will bring to your art. Then you will do the right search and filter for the best image. The more specific your search term is, the easier it will be to find the right image.
+First, when choosing a bank image photo, it is necessary to understand the content and context it will bring to your art. Then you will do the right search and filter for the best image. The more specific your search term is, the easier it will be to find the right image.
 
 ![](../../.gitbook/assets/02\_photo.jpg)
 
