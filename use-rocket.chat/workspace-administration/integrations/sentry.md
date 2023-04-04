@@ -1,39 +1,33 @@
 # Sentry
 
-Add Sentry notifications via a new WebHook in Rocket.Chat This script works for the sentry.com and self-hosted version.
+Add Sentry notifications via a new WebHook in Rocket.Chat This script works for the sentry.com and self-hosted versions.
 
-1. In Rocket.Chat go to **Administration > Workspace > Integrations** and create "New Integration".
-2. Choose Incoming WebHook.
-3. Follow all instructions like Enable, give it a name, link to channel etc. Bonus: add [https://unavatar.io/twitter/getsentry](https://unavatar.io/twitter/getsentry) as Avatar URL.
-4. Set "Enable Script" to true and enter the javascript in the "Script" box.
-5. Press Save changes and copy the _Webhook URL_ (added just below the script box).
-6. Go to your Sentry project, ie. [https://app.getsentry.com/](https://app.getsentry.com/)< organization >/< project >/settings/plugins/ and enable the "WebHooks" integration. It's in the project "settings" under All Integrations. A WebHooks integration is added there when enabled.
-7. Add a new webhook by pasting the Rocket.Chat url you've copied in step 5 in the "Callback URLs" textarea (1 URL per line) and press the Save Changes button.
-8. Test the webhook with the "Test Configuration" button in Sentry, a Test Results box should appear below, with more info (success or failure).
+1. Follow all instructions for creating an i[ncoming webhook](./#incoming-webhook-script).
+2. Login to your project on Sentry and go to **Settings** > **Developer Settings** > **Create New Integration > Internal Integration > Next.**
+3. Give your integration a name, copy the webhook URL generated, and paste it into the **Webhook URL** field.
+4. Turn on **Alert Action Rule**. This is important so that your incoming webhook URL is notified when there is an event on Sentry.
+5. Enter appropriate values for the Permissions section and select the types of events to notify your incoming webhook.
+6. Click **Save Changes**.
+7. Clone Sentry's [example project](https://github.com/getsentry/integration-platform-example) and follow the instructions in the repository to run the backend and frontend to test and trigger different event types.
 
-Paste this in javascript in the "Script" textarea on Rocket.Chat WebHook settings
+The script below gets different attributes of a Sentry event and sends it as a message to your configured channel when creating the webhook.
 
 ```javascript
 class Script {
 
-  process_incoming_request({ request }) {
+  process_incoming_request({request}) {
     // console is a global helper to improve debug
     // console.log(request.content);
 
     return {
       content: {
-        text: "Error in project *" + request.content.project_name + "* (" + request.content.project + ").\n*Message:* "+ request.content.message+"\n*Culprit:* " + request.content.culprit +".\n*Check url:* " + request.content.url,
-       }
+        text: "Error in project *" + request.content.project + "\n*Message:* " +
+          request.content.message + "\n*Culprit:* " + request.content.culprit
+      }
     };
-
-     return {
-       error: {
-         success: false,
-         message: 'Error example'
-       }
-     };
   }
 }
+
 ```
 
-Use the console.log(request.content) line to debug the json content, posted by Sentry.
+Use the `console.log(request.content)` line to debug the JSON content posted by Sentry.
