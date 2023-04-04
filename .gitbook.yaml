@@ -138,3 +138,4 @@ redirects:
     setup-and-configure/rocket.chat-air-gapped-deployment/manual-app-installation: setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md
     installation/mobile-and-desktop-apps#mobile-apps: deploy/installing-client-apps/rocket.chat-desktop-and-mobile-apps.md
     installation/mobile-and-desktop-apps: deploy/installing-client-apps/rocket.chat-desktop-and-mobile-apps.md
+    quick-start/basic-white-labeling: setup-and-configure/accessing-your-workspace/basic-white-labeling.md
