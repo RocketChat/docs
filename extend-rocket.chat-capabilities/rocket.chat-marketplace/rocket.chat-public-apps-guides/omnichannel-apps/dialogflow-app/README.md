@@ -33,7 +33,7 @@ To configure a bot user,
 * Click **Edit.**
 * Ensure the _**Bot**_** ** and _**Live Chat Agent**_ role is assigned to this user.
 
-&#x20;![](<../../../../../.gitbook/assets/rocket-agent-bot (1).png>)
+&#x20;![](../../../../../.gitbook/assets/rocket-agent-bot.png)
 
 
 

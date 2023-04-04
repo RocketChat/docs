@@ -1,7 +1,9 @@
-# Jenkins notifications via Rocket.Chat API
+# Jenkins notifications via Rocket.Chat Marketplace
 
-_This plugin notify on build start, failure, success and much more per project basis._
+To be able to receive Jenkins notifications:
 
-1. Download [_Rocket.Chat Notifier_ Plugin](https://plugins.jenkins.io/rocketchatnotifier) via Jenkins Update Center.
-2. Go to _Manage Jenkins_ -> _Configure system_ and find settings for this plugin. Setup your Rocket.Chat URL, User/Password and default channel (recommended).
-3. In project select _Post-build Actions_ and configure plugin for your needs.
+1. Go to **Administration > Apps > Marketplace,** search for  **Jenkins Integration**&#x20;
+2. Install the app.
+3. Click the  **Settings** tab and enter a name in the **Jenkins Integration Username Alias** and a user avatar in the **Jenkins Integration avatar** field
+4. Save Changes.              &#x20;
+5. A webhook is generated after saving.
