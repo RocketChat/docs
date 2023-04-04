@@ -36,11 +36,13 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 **Update April 3rd, 2023     Amazing 800-strong Rocket.Chat GSoC 2023 community !**\
 ****\
-****Community growth momentum continued with us reaching **800 global members** this week.  Thank you everyone for your kind support for open source and Rocket.Chat in specific!\
+****Community growth momentum continued with us reaching **800 global members** this week.  Thank you everyone for your kind support for open source and Rocket.Chat !\
 \
 This week we held our annual  [Rocket.Chat Google Summer of Code Alumni Summit 2023](https://community.rocket.chat/conferences/c/GSoC-Alumni-Summit-2023)    In this event, we invited GSoC alumni from our past six years to come back and share their open source impacted life experiences and also some GSoC tips with this year's contributors.  We had great response - **7 alumni** held sessions throughout the day and **110 attended** the live sessions**.**    The event is recorded and is[ now avaialble for all](https://www.youtube.com/playlist?list=PLee3gqXJQrFXj3VqMruL\_uC-7pb21cG3g).&#x20;
 
-As submission deadline approaches, we now have **33 mentored project ideas**    with **30 mentors** and **8 of our mentors this year are GSoC alumni from prior years**!\
+As submission deadline approaches, we now have **33 mentored project ideas** with **30 mentors** and **8 of our mentors this year are GSoC alumni from prior years**!     \
+\
+With a whole day before submission closes, we have already received **103 proposals** - far exceeding prior year's final count. \
 \
 As of this week, we have **330 code contributors** on our [contributors leaderboard](https://gsoc.rocket.chat). Responsible for **69 Merged PRs, 80 Open PRs, and 187 Issues!**\
 
