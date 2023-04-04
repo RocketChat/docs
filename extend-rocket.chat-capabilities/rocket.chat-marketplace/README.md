@@ -6,7 +6,7 @@ description: You can view the available and installed Rocket.Chat Apps and manag
 
 Rocket.Chat apps are extensions that users can add to their workspaces to customize and enhance their functionality. Apps can be integrated with third-party services.
 
-The [Rocket.Chat Marketplace](https://www.rocket.chat/marketplace) provides a repository of apps that users can browse, install and manage directly from within their workspace. You can also develop your own apps using the [Rocket.Chat Apps engine](https://developer.rocket.chat/apps-engine).
+The [Rocket.Chat Marketplace](https://www.rocket.chat/marketplace) provides a repository of apps users can browse, install and manage directly from within their workspace. You can also develop your own apps using the [Rocket.Chat Apps engine](https://developer.rocket.chat/apps-engine).
 
 **These Apps can do the following :**
 
@@ -18,14 +18,14 @@ The [Rocket.Chat Marketplace](https://www.rocket.chat/marketplace) provides a re
 * Send messages to users; create and manage public channels, groups, discussions, and threads.
 
 {% hint style="info" %}
-You must register your workspace (even if it is a Community Edition) on [Rocket.Chat Cloud](https://cloud.rocket.chat) before you can install apps from the Rocket.Chat marketplace.
+You must register your workspace (even if it is a Community Edition) on [Rocket.Chat Cloud](https://cloud.rocket.chat) before you can install apps from Rocket.Chat marketplace.
 {% endhint %}
 
-You can browse Rocket.Chat apps either from the [marketplace](https://rocket.chat/marketplace) or access them directly from **Administration > Apps > Marketplace.**
+You can browse Rocket.Chat apps from the [marketplace](https://rocket.chat/marketplace) or access them directly from **Administration > Apps > Marketplace.**
 
 On the **Explore** tab of the **Apps** screen,
 
-* You can see all the apps available on Rocket.Chat and seach for the one you need.
+* You can see all the apps available on Rocket.Chat and search for the one you need.
 * You can also filter based on **Categories, Status, and Price.** Choose between multiple categories within the filter to help you find the best app for your workspace users.
 * <img src="../../.gitbook/assets/image (917).png" alt="" data-size="line"> tag next to an app on the marketplace means you need to upgrade your workspace to a higher version to use the app.
 
@@ -51,7 +51,7 @@ You can learn how to install and enable each of them in the [App Guide](rocket.c
 
 ### Private Apps
 
-You can develop private apps to be used for your workspace or choose to publish the app to the Marketplace for others to install and use on their own workspaces.
+You can develop private apps for your workspace or publish the app to the Marketplace for others to install and use on their own workspaces.
 
 Private apps only work for the workspaces it has been manually installed on. Follow [this guide](https://developer.rocket.chat/apps-engine/getting-started/creating-an-app) on how to develop Rocket.Chat apps.
 
@@ -87,11 +87,11 @@ For workspace version`5.4` or lower, you can use all the enabled public and priv
 
 ### Enterprise Edition
 
-Enterprise Edition (EE), workspaces can install all Public and Private apps. But, if the workspace license expires and the workspace has exceeded the **** limit, then the marketplace disables all downloaded apps, and the app count returns to zero.
+Enterprise Edition (EE), workspaces can install all Public and Private apps. But, if the workspace license expires and the workspace has exceeded the **** limit, the marketplace disables all downloaded apps, and the app count returns to zero.
 
 ## Enterprise Edition App Offerings
 
-Some apps are part of the **Enterprise Edition** offerings. You don't have to purchase them if you already subscribe to the Enterprise Edition of Rocket.Chat. They include the following:
+Some apps are part of the **Enterprise Edition** offerings. You don't have to purchase them if you are subscribed to the Enterprise Edition of Rocket.Chat. They include the following:
 
 |                                                                                              |                                                                                      |                                                                                                     |                                                                                                                 |
 | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
