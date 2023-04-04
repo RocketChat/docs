@@ -6,7 +6,7 @@
 
 Application for Google Summer of Code 2023 is now open. See [official Google Summer of Code site](https://summerofcode.withgoogle.com/).\
 \
-Rocket.Chat is proud to be a participating mentoring open source organization for [Google Summer of Code 2023](https://summerofcode.withgoogle.com/). This marks the exciting 7th year of participation in this 19 years-old program to usher in a new generation of open source contributors and enthusiasts.
+Rocket.Chat is proud to be a participating mentoring open source organization for [Google Summer of Code 2023](https://summerofcode.withgoogle.com/). This marks the exciting 7th year of participation in this 18 years-old program to usher in a new generation of open source contributors and enthusiasts.
 
 Almost anyone in the world [over 18 years of age ](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html)who loves coding and wants to explore the incredible world of open source can join us as a GSoC 2023 contributor.
 
@@ -16,7 +16,7 @@ For details and rules of Google Summer of Code 2023, please see the [GSoC 2023 O
 
 For general information, please visit our 24 x 7 community channel for Google Summer of Code 2023 : [https://open.rocket.chat/channel/gsoc2023](https://open.rocket.chat/channel/gsoc2023)
 
-Join our [Google Summer of Code 2023 Team ](https://open.rocket.chat/channel/gsoc2023)today and interact with over **600 like-minded** contributors/mentors and meet the team in the[ 20 team channels](https://open.rocket.chat/channel/gsoc2023/team-channels).
+Join our [Google Summer of Code 2023 Team ](https://open.rocket.chat/channel/gsoc2023)today and interact with over **800 like-minded** contributors/mentors and meet the team in the[ 20 team channels](https://open.rocket.chat/channel/gsoc2023/team-channels).
 
 If you have ideas and proposals that are not on our idea list, or if a mentor is not available, you can also email to:
 
@@ -38,7 +38,7 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 ****\
 ****Community growth momentum continued with us reaching **800 global members** this week.  Thank you everyone for your kind support for open source and Rocket.Chat in specific!\
 \
-This week we held our annual  [Rocket.Chat Google Summer of Code Alumni Summit 2023](https://community.rocket.chat/conferences/c/GSoC-Alumni-Summit-2023)    In this event, we invite GSoC alumni from our past six years to come back and share their open source impacted life experiences and also some GSoC tips with this year's contributors.  We had great response - **7 past alumni** held sessions throughout the day and **110 attended** the live sessions**.**    The event is recorded and is[ now avaialble for all](https://www.youtube.com/playlist?list=PLee3gqXJQrFXj3VqMruL\_uC-7pb21cG3g).&#x20;
+This week we held our annual  [Rocket.Chat Google Summer of Code Alumni Summit 2023](https://community.rocket.chat/conferences/c/GSoC-Alumni-Summit-2023)    In this event, we invited GSoC alumni from our past six years to come back and share their open source impacted life experiences and also some GSoC tips with this year's contributors.  We had great response - **7 alumni** held sessions throughout the day and **110 attended** the live sessions**.**    The event is recorded and is[ now avaialble for all](https://www.youtube.com/playlist?list=PLee3gqXJQrFXj3VqMruL\_uC-7pb21cG3g).&#x20;
 
 As submission deadline approaches, we now have **33 mentored project ideas**    with **30 mentors** and **8 of our mentors this year are GSoC alumni from prior years**!\
 \
