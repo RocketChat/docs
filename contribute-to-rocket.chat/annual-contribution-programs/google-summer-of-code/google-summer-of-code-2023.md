@@ -4,7 +4,7 @@
 
 ## How to apply
 
-Application for Google Summer of Code 2023 is now open. See [official Google Summer of Code site](https://summerofcode.withgoogle.com/).\
+Application for Google Summer of Code 2023 is now closed.  Please see [official Google Summer of Code site](https://summerofcode.withgoogle.com/)  and the [official 2023 timeline](https://developers.google.com/open-source/gsoc/timeline).    Accepted contributor projects will be announced on the official site on May 4th.\
 \
 Rocket.Chat is proud to be a participating mentoring open source organization for [Google Summer of Code 2023](https://summerofcode.withgoogle.com/). This marks the exciting 7th year of participation in this 18 years-old program to usher in a new generation of open source contributors and enthusiasts.
 
@@ -34,9 +34,16 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 ### **Latest update**
 
+**Update April 5th, 2023     Record-breaking 197 proposals received from our community !**\
+\
+Thank you (to the 811-members-strong Rocket.Chat GSoC 2023 community) for the unprecedented support for open source and for the [Rocket.Chat](https://rocket.chat/) organization in particular !   We have received a total **197  proposals** this year - far exceeding the total of 83 proposals from 2022. \
+\
+Mentors will be busy reviewing the proposals over the next weeks.  We will continue to engage and interact with the community and sub-communities (around the different projects) with fun and learning events this month.   Stay tuned. \
+
+
 **Update April 3rd, 2023     Amazing 800-strong Rocket.Chat GSoC 2023 community !**\
-****\
-****Community growth momentum continued with us reaching **800 global members** this week.  Thank you everyone for your kind support for open source and Rocket.Chat !\
+\
+Community growth momentum continued with us reaching **800 global members** this week.  Thank you everyone for your kind support for open source and Rocket.Chat !\
 \
 This week we held our annual  [Rocket.Chat Google Summer of Code Alumni Summit 2023](https://community.rocket.chat/conferences/c/GSoC-Alumni-Summit-2023)    In this event, we invited GSoC alumni from our past six years to come back and share their open source impacted life experiences and also some GSoC tips with this year's contributors.  We had great response - **7 alumni** held sessions throughout the day and **110 attended** the live sessions**.**    The event is recorded and is[ now avaialble for all](https://www.youtube.com/playlist?list=PLee3gqXJQrFXj3VqMruL\_uC-7pb21cG3g).&#x20;
 
