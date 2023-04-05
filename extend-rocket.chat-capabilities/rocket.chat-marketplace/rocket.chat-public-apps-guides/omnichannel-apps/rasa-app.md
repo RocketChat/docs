@@ -14,6 +14,10 @@ To install the Rasa App,
 * Search for the **Rasa** app.
 * Click **Install** and accept the needed permissions.
 
+{% hint style="info" %}
+To set up your Rasa server, visit the [Rasa installation guide](https://rasa.com/docs/rasa/2.x/installation/).
+{% endhint %}
+
 ## Configure Rasa App
 
 To configure the **Rasa** app,
@@ -25,7 +29,7 @@ To configure the **Rasa** app,
   * **Service Unavailable Message:** A message sent to your customer if service is unavailable.
   * **Close Chat Message:** A message sent to your customer when a conversation is closed.
   * **Handover Message:** A message sent to a customer upon handover.
-  * **Default Handover Department Name:** The target department name where you want to transfer the customer upon handover. ****&#x20;
+  * **Default Handover Department Name:** The target department name where you want to transfer the customer upon handover.&#x20;
   * **Enable Callbacks:** Enable callbacks to allow the app to use only callback messages. It is useful when you are using reminder messages in your RASA bot.
   * **Hide Quick Replies:** If enabled**,** all quick replies will hide when customers click on any of them.
 * Click **Save Changes**.

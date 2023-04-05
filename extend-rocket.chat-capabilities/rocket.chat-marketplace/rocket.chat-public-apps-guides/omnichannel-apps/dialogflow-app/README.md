@@ -17,7 +17,7 @@ Using Rocket.Chat and the Dialogflow Chatbot platform integration, you can set u
 To install the Dialogflow App,
 
 * Go to **Administration > Apps > Marketplace.**
-* Search for the **** Dialogflow **** app.
+* Search for the Dialogflow app.
 * Click **Install** and accept the needed permissions.
 
 {% hint style="info" %}
@@ -31,11 +31,15 @@ To configure a bot user,
 * Navigate to **Administration** > **Workspace** > **Users**.
 * Search and select your bot agent named **Rocket Agent**.
 * Click **Edit.**
-* Ensure the _**Bot**_** ** and _**Live Chat Agent**_ role is assigned to this user.
+* Ensure the _**Bot**_ and _**Live Chat Agent**_ role is assigned to this user.
+
+{% hint style="info" %}
+If you don't find this bot user in your workspace, you can create it and assign the roles.
+{% endhint %}
 
 &#x20;![](../../../../../.gitbook/assets/rocket-agent-bot.png)
 
-
+* Configure the app to assign a livechat-visitor to this bot automatically. Navigate to **Administration > Workspace >Settings > Omnichannel > Routing.** Enable **Assign new conversations to bot agent**.
 
 ## Configure Dialogflow App
 
