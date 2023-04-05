@@ -40,24 +40,32 @@ To Download the **Pexip** app,
 
 * Go to **Administration > Apps > Marketplace.**
 * Search for the **Pexip** app.
-* Click **Install**
+* Click **Install** and accept the needed permissions.
 
 ### App Configuration
 
 To set up the **Pexip** app on your Rocket.Chat workspace,
 
 * Confirm that the app is enabled.
-* [Configure the Pexip server ](https://docs.pexip.com/admin/integrate\_policy.htm)with a remote policy to make service configuration requests before connecting with Rocket.Chat. Copy the policy server URL (**GET policy/v1/service/configuration**) from the details tab of the app and update the Pexip settings.
-* Enter the URL of your running Pexip conferencing node in the **Base URL** under **Settings** on Rocket.Chat Pexip app.
-* Hit **Save Changes.**
+* [Configure the Pexip server ](https://docs.pexip.com/admin/integrate\_policy.htm)with a remote policy to make service configuration requests before connecting with Rocket.Chat.&#x20;
+* On the **Pexip App Info** screen, navigate to **Details.**&#x20;
+* Copy the policy server URL (**GET policy/v1/service/configuration**) and update the Pexip settings.
+* Copy the  **POST events URL** and add it to the Events Sink on your Pexip server.
+
+{% hint style="info" %}
+The events sink informs the workspace when a call on Pexip Infinity has ended. This way, the call message block on your workspace is updated with the appropriate call status.
+{% endhint %}
+
+* On the **Pexip App Info** screen, navigate to **Settings.**  Update the **Base URL** with the URL of your running Pexip server.
+* Click **Save Changes.**
 
 ### Configure conference call using the Pexip app
 
 To configure the Pexip video conference on your workspace,
 
-* Go to **Administration > Settings > Conference Call**
+* Go to **Administration > Settings > Conference Call.**
 * Select Pexip as your **Default Provider**
-* Select the options that meet your needs and click **Save changes.**
+* Select the options that meet your needs and click **Save Changes.**
 
 The Pexip app is successfully configured on your server. Follow the [conference call user's guide](../conference-call-users-guide.md) to start using it.
 

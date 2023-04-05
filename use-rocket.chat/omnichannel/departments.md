@@ -6,7 +6,7 @@ An Omnichannel Department is a collection of rooms that can be configured based 
 A typical use case is when you have Live Chat conversations initiated from different places or pages of your website and need them handled by various departments or groups of knowledge experts. You can [assign an agent to a department](agents.md#assign-omnichannel-agent-to-a-department).
 {% endhint %}
 
-To access this menu,&#x20;
+To access this menu,
 
 * Go to **Administration > Omnichannel > Departments**. Here, you can **View**, **Create New**, **Edit,** or **Delete** a department.
 
@@ -44,12 +44,16 @@ Depending on how many departments you've created, you might have the following b
 
 When an Omnichannel department is no longer needed, but you don't want to delete it just yet, you can archive it. You can also unarchive it later if you discover a need for it.
 
+{% hint style="info" %}
+For community edition workspaces below version `6.0` with multiple departments, archiving departments can be instrumental if you want to avoid getting an enterprise license. Instead of deleting a department when you no longer need it, you can archive it. When you need that department later, you can unarchive it. This gives community edition workspaces below version `6.0` the ability to retain the same number of departments they had before the upgrade.
+{% endhint %}
+
 To archive an **Omnichannel** department,
 
 * Click the **kebab** menu across the department you want to archive.
 * Then, select **Archive**. Navigate to the **Archived** tab, and you'll see the archived departments.
 
-To  unarchive an **Omnichannel** department,
+To unarchive an **Omnichannel** department,
 
 * From the list of archived departments, Click the **kebab** menu across the department you want to unarchive.
 * Then, select **Unarchive**. The department is added back to the list of active departments.
@@ -63,6 +67,10 @@ To edit an **Omnichannel** department,
 
 ## Delete Omnichannel Department
 
-To delete an **Omnichannel** department,&#x20;
+To delete an **Omnichannel** department,
 
 * Click the **kebab** menu across the department. Then, select **Delete**.
+
+{% hint style="info" %}
+As a workspace administrator, navigate to **Administration > Settings > Omnichannel** and **Enable department removal** to allow deleting departments.
+{% endhint %}

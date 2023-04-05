@@ -64,8 +64,8 @@ For Rocket.Chat workspace versions less than 6.0, Go to **Administration** > **S
 {% endhint %}
 
 * Navigate to **Administration  > Marketplace > Private apps >**&#x20;
-* Click **Upload Private App**
-* Choose the installation method ( URL or a compiled `.zip)` and **Install**
+* Click **Upload Private App.**
+* Choose the installation method ( URL or a compiled `.zip)` and **Install.**
 * **Agree** to the permissions needed to complete the installation.
 
 The app is installed on the workspace and ready to use.

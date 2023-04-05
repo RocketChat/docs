@@ -472,7 +472,6 @@
 * [Contributor Code of Conduct](https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/code\_of\_conduct)
 * [How can I help?](contribute-to-rocket.chat/how-can-i-help/README.md)
   * [Promoting](contribute-to-rocket.chat/how-can-i-help/promoting.md)
-  * [Donate](contribute-to-rocket.chat/how-can-i-help/donate.md)
 * [Annual Contribution Programs](contribute-to-rocket.chat/annual-contribution-programs/README.md)
   * [Google Summer of Code](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/README.md)
     * [Google Summer of Code 2023](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2023.md)
