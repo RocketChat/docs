@@ -63,7 +63,7 @@ Single Sign-On (SSO) is an authentication scheme allowing users to log in with a
 
 <summary>I've contributed to building LDAP/SAML/Custom Oauth and now I can't use my code. What should I do?</summary>
 
-We are rewriting the LDAP feature to TypeScript and making improvements on top of it. Naturally, over time parts of the code will be changed. We recognize all portions of our platform had contributions from our community. For those who contributed to LDAP/SAML/Custom Oauth, we will ensure it will not negatively impact their operation. Please get in touch with @duda.nogueira on the open server.
+We are rewriting the LDAP feature to TypeScript and making improvements on top of it. Naturally, over time parts of the code will be changed. We recognize all portions of our platform had contributions from our community. For those who contributed to LDAP/SAML/Custom Oauth, we will ensure it will not negatively impact their operation.
 
 </details>
 
