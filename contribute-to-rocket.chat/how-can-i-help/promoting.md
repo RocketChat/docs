@@ -4,11 +4,9 @@ description: Help promote Rocket.Chat
 
 # Promoting
 
-Help promote Rocket.Chat
+If you are not a developer (or even if you are), you can still contribute to the project a lot by helping us promote it. As we are a free, open-source project, the community is our most important asset, so here are some ways that you can help the project continue to grow.
 
-If you are not a developer (or even if you are), you can still contribute to the project, a lot, by helping us promote it. As we are a free open source project, the community is our most important asset, so here are some ways that you can help the project continue to grow.
-
-Please use this as a to-do list, as they are important
+Please use this as a to-do list, as they are important:
 
 ## Follow us
 
@@ -21,7 +19,7 @@ Please follow us on as many social networks as you can:
 * [Angel](https://angel.co/rocket-chat)
 * [LinkedIn](https://www.linkedin.com/company/rocket-chat)
 
-## Vote, recommend, favorite and star us
+## Vote, recommend, favorite, and star us
 
 And vote for us on all these various polls and contests:
 
