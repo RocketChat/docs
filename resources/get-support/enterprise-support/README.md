@@ -35,7 +35,8 @@ In case of security-relevant bugs, we might decide to backport patches to older 
 
 | Rocket.Chat Release | Latest Version                                                          |  Released At |  End of Life |
 | ------------------- | ----------------------------------------------------------------------- | -----------: | -----------: |
-| 6.0                 | <mark style="color:red;">6.0.1</mark>                                   |     Mar 2023 |     Jun 2023 |
+| 6.1                 | <mark style="color:red;">6.1.1</mark>                                   |     Apr 2023 |     Jul 2023 |
+| 6.0                 | <mark style="color:red;">6.0.2</mark>                                   |     Apr 2023 |     Jul 2023 |
 | **5.4 (LTS)**       | <mark style="color:red;">**5.4.5**</mark>                               | **Mar 2023** | **Jun 2023** |
 | 5.3                 | <mark style="color:red;">5.3.5</mark>                                   |     Nov 2022 |     Feb 2023 |
 | 5.2                 | <mark style="color:red;">5.2.1</mark>                                   |     Oct 2022 |     Jan 2023 |
@@ -109,6 +110,7 @@ October 1st our services will no longer continue to guarantee support for Rocket
 | 3.x                 |         Jan 2022 |         Jun 2022 |
 | 4.x                 |              TBD |              TBD |
 | 5.x                 |              TBD |              TBD |
+| 6.x                 |              TBD |              TBD |
 
 ## MongoDB versions
 
