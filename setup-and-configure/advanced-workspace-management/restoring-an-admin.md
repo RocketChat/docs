@@ -89,7 +89,7 @@ _Replace `administrator` with the appropriate username of the administrator on y
 
 To generate a valid password and its hashed value with `bcrypt-cli,`
 
-* Install **** `bcrypt-cli` **** with:
+* Install `bcrypt-cli` with:
 
 ```
 // npm install -g @carsondarling/bcrypt-cli

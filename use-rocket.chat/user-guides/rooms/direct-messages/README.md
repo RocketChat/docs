@@ -4,7 +4,7 @@ description: One on one or one to many conversation
 
 # Direct Messages
 
-In Rocket.Chat, you can have one-on-one conversations or one-to-many conversations with users in your workspace. They are called **Direct Messages(DMs).** Your most recent DMs are default listed under the **Direct Messages** section in your Rocket.Chat sidebar.  They are identified by **** ![](<../../../../.gitbook/assets/direct-message icon.png>).
+In Rocket.Chat, you can have one-on-one conversations or one-to-many conversations with users in your workspace. They are called **Direct Messages(DMs).** Your most recent DMs are default listed under the **Direct Messages** section in your Rocket.Chat sidebar.  They are identified by ![](<../../../../.gitbook/assets/direct-message icon.png>).
 
 ## Types Of Direct Messages
 

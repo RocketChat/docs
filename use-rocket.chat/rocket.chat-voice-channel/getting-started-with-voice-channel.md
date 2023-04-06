@@ -18,11 +18,11 @@ Please note that:
 
 **To set up a voice channel, you have two paths:**
 
-1. [**Configure without previously having a PBX server**](voice-channel-admin-guide/configure-without-previously-having-a-pbx-server/)****
-2. ****[**Configure with an active PBX server**](voice-channel-admin-guide/configure-with-an-active-pbx-server/)****
+1. [**Configure without previously having a PBX server**](voice-channel-admin-guide/configure-without-previously-having-a-pbx-server/)
+2. [**Configure with an active PBX server**](voice-channel-admin-guide/configure-with-an-active-pbx-server/)
 
 **Further Information:**
 
-* ****[**Technical Specification**](voice-channel-technical-specification.md)****
-* ****[**Admin Guides**](voice-channel-admin-guide/)****
-* ****[**Agent Guides**](voice-channel-agent-guides/)****
+* [**Technical Specification**](voice-channel-technical-specification.md)
+* [**Admin Guides**](voice-channel-admin-guide/)
+* [**Agent Guides**](voice-channel-agent-guides/)

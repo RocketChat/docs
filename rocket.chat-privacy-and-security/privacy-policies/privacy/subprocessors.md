@@ -1,5 +1,5 @@
 ---
-description: 'Last update: January 5th, 2023'
+description: 'Last update: April 5th, 2023'
 ---
 
 # Subprocessors
@@ -42,12 +42,13 @@ Rocket.Chat undertakes to use a commercially reasonable selection process by whi
 
 ## Innovation Service Specific Sub-processors
 
-| Entity Name | Purpose            | Data Processing Location |
-| ----------- | ------------------ | ------------------------ |
-| Clearbit    | Account Enrichment | United States            |
-| Yesware     | email marketing    |                          |
-| PRVolt      | email marketing    |                          |
-| Mailchimp   | email marketing    |                          |
+| Entity Name                         | Purpose                           | Data Processing Location |
+| ----------------------------------- | --------------------------------- | ------------------------ |
+| Clearbit                            | Account Enrichment                | United States            |
+| [Yesware](https://www.yesware.com/) | email marketing                   | United States            |
+| Appollo.io                          | Marketing and Sales Intelligence. | United States            |
+| PRVolt                              | email marketing                   |                          |
+| Mailchimp                           | email marketing                   |                          |
 
 ## Rocket.Chat Affiliates
 
@@ -62,9 +63,11 @@ The following entities are members of the Rocket.Chat Group. Accordingly, they f
 
 ## Partners Joint Processors or Sub-processors&#x20;
 
-| Entity Name                                          | Purpose                                                                                                                                                                                                                                                                                                                                       | Data Processing Location |
-| ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
-| [Fabulor.eu](https://fabulor.eu/en/support/contact/) | Fabulor is a Rocket.Chat Official Partner. When we receive a lead from the EMEA and APAC region that classify under some contractual conditions, we may share the Lead/Customer's information with Fabulor to reach out to them. Fabulor may access the following Lead's/Customer data for this purpose: Email; Contact Name; Country; Phone. | Belgium; Netherlands     |
+| Entity Name                                          | Purpose                                                                                                                                                                                                                                                                                                                                                                                                          | Data Processing Location |
+| ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| [Fabulor.eu](https://fabulor.eu/en/support/contact/) | Fabulor is a Rocket.Chat Official Partner. When we receive a lead from the EMEA and APAC region that classify under some contractual conditions, we may share this lead information to Fabulor for Sales, Marketing and Professional services purposes. Fabulor may access the following Lead's/Customer data for this purpose: Email; Contact Name; Country; Phone.                                             | Belgium; Netherlands     |
+| [CCNet](https://www.ccnet.de/en/)                    | <p>CCNet is a Rocket.Chat Official Partner. We may share the Lead/Customer's information with CCNet to reach out to them. </p><p>When we receive a lead from Germany, Austria and Switzerland we may share this lead information for Sales, Marketing and Professional services purposes. CCNet may access the following </p><p>Lead's/Customer data for this purpose: Email; Contact Name; Country; Phone. </p> | Gießen, Germany          |
+| [Sanwa](https://www.sct.co.jp/english/)              | <p>Sanwa Comtec is a Rocket.Chat Official Partner. We may share the Lead/Customer's information with Sanwa to reach out to them. </p><p>When we receive a Community Lead from Japan we may share this lead information to Sanwa for Sales, Marketing and Professional services purposes. Sanwa may access the following </p><p>Lead's/Customer data for this purpose: Email; Country; workspace ID. </p>         | Japan                    |
 
 ## **Objecting to a subprocessor**
 
@@ -77,5 +80,7 @@ Due to the nature of our business, we are consistently updating the list and con
 For more information on Rocket.Chat's privacy practices, please visit our [Privacy Policy.](https://docs.rocket.chat/privacy-and-security/privacy-policies/privacy) If you have questions regarding this page, please get in touch with us at privacy@rocket.chat.&#x20;
 
 ### Previous Versions of this Subprocessors List
+
+{% file src="../../../.gitbook/assets/Rocket.Chat-Subprocessors-list-01-05-2023.pdf" %}
 
 {% file src="../../../.gitbook/assets/Subprocessors-list-10-23-20.pdf" %}

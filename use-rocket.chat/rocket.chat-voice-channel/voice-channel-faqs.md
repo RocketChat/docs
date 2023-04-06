@@ -10,7 +10,7 @@ For using VoIP on your Rocket.Chat instance you need:
 * A PBX server (We used **Asterisk** Version 16.19.0 (With PJSIP stack))
 * SIP trunk provider.
 
-****
+
 
 </details>
 

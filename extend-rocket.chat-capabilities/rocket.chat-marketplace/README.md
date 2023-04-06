@@ -87,7 +87,7 @@ For workspace version`5.4` or lower, you can use all the enabled public and priv
 
 ### Enterprise Edition
 
-Enterprise Edition (EE), workspaces can install all Public and Private apps. But, if the workspace license expires and the workspace has exceeded the **** limit, the marketplace disables all downloaded apps, and the app count returns to zero.
+Enterprise Edition (EE), workspaces can install all Public and Private apps. But, if the workspace license expires and the workspace has exceeded the limit, the marketplace disables all downloaded apps, and the app count returns to zero.
 
 ## Enterprise Edition App Offerings
 
