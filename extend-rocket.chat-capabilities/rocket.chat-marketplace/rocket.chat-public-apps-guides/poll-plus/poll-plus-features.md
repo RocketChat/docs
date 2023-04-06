@@ -81,3 +81,4 @@ In case the user enters a wrong or non-existent Live Poll ID a notification mess
 
 Speaking of teachers using Rocket.Chat for exams, the Live Poll Late Retrieval features proves an excellent tool for teachers to create quizzes even weeks before and then schedule the quiz on D-day with ease. All this while having control over the time limit to answer each question.
 
+****

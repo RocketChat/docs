@@ -214,7 +214,7 @@ Although we do our best, given the nature of communications and information proc
 
 We do not support Do Not Track ("DNT"). Do Not Track is a preference you can set in your web browser to inform websites that you do not want to be tracked.
 
-You can enable or disable Do Not Track by visiting the Preferences or Settings page of your web browser.&#x20;
+You can enable or disable Do Not Track by visiting the Preferences or Settings page of your web browser. ****&#x20;
 
 ## **Your Rights**
 

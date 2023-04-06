@@ -10,7 +10,7 @@ To change the functionality of the Google Calendar app for your account,&#x20;
 * Now you can perform any of the following actions:
   * **Notifications**: _**Activate**_ or _**Remove**_ the ability to receive meeting notifications. If you activate notifications, you receive an event message reminder 10 minutes before the event's scheduled time.
   * **Daily summary**: This lets you set when to get a daily event overview. You receive a message summarizing all your events for the day.
-  * **OAuth Authentication**: _**Authorize**_ or _**Revoke**_ your connected Google account.
+  * **OAuth Authentication**: _**Authorize**_** ** or _**Revoke**_ your connected Google account.
 
 ## Google Calendar App List Events
 

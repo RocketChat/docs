@@ -5,7 +5,7 @@ With [.](./ "mention") enabled and configured on your Rocket.Chat workspace, you
 {% hint style="info" %}
 ![](<../../../../../.gitbook/assets/Deprecated (1).png>) Rocket.Chat basic federation is deprecated as from Rocket.Chat `6.0.`
 
-We recommend federating with [matrix-bridge](../matrix-bridge/ "mention")
+We recommend federating with [matrix-bridge](../matrix-bridge/ "mention")``
 {% endhint %}
 
 ## Using Rocket.Chat Federation

@@ -23,7 +23,7 @@ To configure the Jira App,
 
 * Navigate to any [room](../../../../use-rocket.chat/user-guides/rooms/) and run the slash command `/jira-server install JIRA_URL USER PASSWORD` where :
   * **JIRA\_URL:** The base URL of your Jira server, e.g., `https://jira.example.com` or `https://example.com/jira`
-  * **USER**:  The username of a user in your Jira server with administrative rights.
+  * **USER**: **** The username of a user in your Jira server with administrative rights.
   * **PASSWORD:** The password of the user mentioned above.
 * Now your Rocket.Chat workspace is connected to your Jira server instance.
 

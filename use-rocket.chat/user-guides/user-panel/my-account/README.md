@@ -108,7 +108,7 @@ To access profile settings,&#x20;
 
 You can enable Two Factor Authentication (2FA) for your account to enhance your account security. There are two options for 2FA in Rocket.Chat :&#x20;
 
-* **Two-factor authentication via TOTP :** It requires a key code from an authenticator app.
+* **Two-factor authentication via TOTP :** It **** requires a key code from an authenticator app.
 * **Two-factor authentication via Email :** It requies a key code that was sent to your email address**.**&#x20;
 
 To access security settings,&#x20;

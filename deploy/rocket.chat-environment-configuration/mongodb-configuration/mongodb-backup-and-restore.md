@@ -43,7 +43,7 @@ You should see something like the image below when the command is running
 
 ## MongoDB Restore with mongorestore
 
-After backing up your instance, you may need to restore the data at some time. That can be done using [`mongorestore`](https://www.mongodb.com/docs/database-tools/mongorestore/)
+After backing up your instance, you may need to restore the data at some time. That can be done using [`mongorestore`](https://www.mongodb.com/docs/database-tools/mongorestore/)``
 
 {% hint style="info" %}
 * `Make sure you drop first any existing rocketchat schema in your database with same name as the one you are restoring.`

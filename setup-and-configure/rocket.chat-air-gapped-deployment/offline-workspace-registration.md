@@ -10,7 +10,7 @@ If you use a workspace accessible through the internet, you can follow [this gui
 
 To register a workspace without internet access,
 
-* Navigate to **Administration** > **Workspace** > **Settings** > **Setup Wizard** > **Cloud Info** and enable **Cloud Service Privacy Terms Agreement.**  Enabling it means you agree with the [Terms](https://rocket.chat/terms) & [Privacy Policy](https://rocket.chat/privacy).
+* Navigate to **Administration** > **Workspace** > **Settings** > **Setup Wizard** > **Cloud Info** and enable **Cloud Service Privacy Terms Agreement.**  Enabling it **** means you agree with the [Terms](https://rocket.chat/terms) & [Privacy Policy](https://rocket.chat/privacy).
 * Navigate to **Administration** > **Workspace** > **Connectivity Services** and click **Register Offline**.
 * Copy the code snippet that is displayed on the pop-up box.
 * Create an account or login into your [Rocket.Chat cloud portal](https://cloud.rocket.chat).

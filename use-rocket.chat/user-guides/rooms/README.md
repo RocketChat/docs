@@ -8,15 +8,15 @@ If you are an administrator, see the [**Room Workspace Administration**](../../w
 
 ## Types of Rooms in Rocket.Chat
 
-[**Channels**](channels/)**:** Organize conversations across different topics.
+****[**Channels**](channels/)**:** Organize conversations across different topics.
 
-[**Teams**](teams/)**:** Promotes collaboration between different teams.
+****[**Teams**](teams/)**:** Promotes collaboration between different teams.
 
-[**Discussions**](../../workspace-administration/settings/discussion.md):  Allows a separate focused conversation around larger topics in a team or channel.
+****[**Discussions**](../../workspace-administration/settings/discussion.md):  Allows a separate focused conversation around larger topics in a team or channel.
 
-[**Direct Messages**](direct-messages/): Allows one-off conversations that do not require a channel or team.
+****[**Direct Messages**](direct-messages/): Allows one-off conversations that do not require a channel or team.
 
-[**Thread**](../../workspace-administration/settings/threads.md): Organized conversations around a particular message.
+****[**Thread**](../../workspace-administration/settings/threads.md): Organized conversations around a particular message.
 
 ## Mentions
 
