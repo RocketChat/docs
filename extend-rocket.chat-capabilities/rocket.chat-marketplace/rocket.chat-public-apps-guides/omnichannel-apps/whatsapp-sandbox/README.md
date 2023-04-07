@@ -47,8 +47,8 @@ To configure the Whatsapp Sandbox App,
 * On the **Whatsapp Sandbox App Info** screen, navigate to **Settings.**
 * Update the required fields:
   * **WhatsApp Sandbox API KEY:** The API KEY provided by 360Dialog for the Sandbox environment.
-  * **Default department:** (Optional) The name or department ID that will handle WhatsApp conversations.
-  * **Welcome Message:** (Optional) The message sent to customers when they send their first message
+  * **Default department:** (Optional) Thedepartment that will handle WhatsApp conversations.
+  * **Welcome Message:** (Optional) The message sent to customers when they send their first message.
   * **Conversation Finished Message:** (Optional) The message  sent to your customer when an agent closes the conversation.
   * **Service Unavailable Message:** The message sent to your customer when no agents are available online.
   * **Notification of undeliverable message:** (Optional) Set this option to alert the agent that the message wasn't delivered to the WhatsApp platform.

@@ -14,7 +14,7 @@ To download the BigBlueButton app,
 * Search for the **BigBlueButton** app.
 * Click **Install**
 
-## Set up the BBB app ****&#x20;
+## Set up the BBB app&#x20;
 
 To set up the **BBB** app on your workspace,
 

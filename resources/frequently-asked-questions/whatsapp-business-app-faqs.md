@@ -252,7 +252,7 @@ To register a new number,
 Your WhatsApp number is now connected to Rocket.Chat.
 
 {% hint style="info" %}
-&#x20;To learn more, see  [connect-whatsapp-number-to-your-workspace.md](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/whatsapp/whatsapp-configuration/whatsapp-omnichannel-setup/connect-whatsapp-number-to-your-workspace.md "mention").
+&#x20;To learn more, see  [Broken link](broken-reference "mention").
 {% endhint %}
 
 <details>

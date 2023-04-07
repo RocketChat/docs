@@ -6,4 +6,4 @@ As concurrent users on your workspace grow, you may experience system latency. M
 
 You can use microservices to scale your environment while maintaining user performance.
 
-****[**Microservices**](microservices-setup.md)**:**  Deploy Rocket.Chat using microservices or several smaller components, each focusing on a single feature of Rocket.Chat.
+[**Microservices**](microservices-setup.md)**:**  Deploy Rocket.Chat using microservices or several smaller components, each focusing on a single feature of Rocket.Chat.

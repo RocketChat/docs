@@ -28,7 +28,7 @@ To configure the Confluence Server App,
 * Navigate to any [room ](../../../../use-rocket.chat/workspace-administration/rooms.md)and run the slash command  `/confluence-server install CONFLUENCE_BASE_URL USER PASSWORD`, where:
   * **CONFLUENCE\_BASE\_URL:** The base URL of your Confluence server. Navigate to **Confluence administration** > **General Configuration.**
   * **USER:** The username of a user with administrative privileges in your Confluence server.
-  * **PASSWORD:** The password of **** the user mentioned above.
+  * **PASSWORD:** The password of the user mentioned above.
 * Now your Rocket.Chat workspace is connected to the Confluence server instance.
 * Add the **@rocket.cat user** to the room and assign permission to write messages.
 

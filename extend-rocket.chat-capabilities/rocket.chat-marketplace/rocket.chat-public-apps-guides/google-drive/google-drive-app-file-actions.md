@@ -77,4 +77,4 @@ You can only delete files you created.
 To delete a file,&#x20;
 
 * From the list of files, click the **Kebab menu** across the file you want to delete.
-* Select **Delete file,** then **** click **Delete forever.**
+* Select **Delete file,** then click **Delete forever.**

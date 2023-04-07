@@ -78,7 +78,7 @@ _Tickets created by email are automatically assigned as "Medium" priority and wi
 
 ### **Service Level Agreement (SLA)**
 
-The SLAs are defined by **** taking into account the priority, the paid plan/product, and the customer account status.&#x20;
+The SLAs are defined by taking into account the priority, the paid plan/product, and the customer account status.&#x20;
 
 The SLA times listed are the time frames in which customers can expect to receive the first response and are not to be considered as an expected time-to-resolution. Rocket.Chat Support team will make its best effort to address your case as quickly as possible.
 
