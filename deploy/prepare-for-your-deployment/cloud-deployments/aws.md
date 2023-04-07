@@ -4,10 +4,6 @@ description: Deploying Rocket.Chat on Amazon Web Services
 
 # AWS
 
-{% hint style="info" %}
-[**👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
-{% endhint %}
-
 This guide covers the following:
 
 * Hosting Rocket.Chat on an Amazon EC2 instance
@@ -25,7 +21,7 @@ It is not recommended to use this method for large production. Instead, check ho
 To create a new EC2 instance:
 
 * Log into your [AWS Console](https://console.aws.amazon.com), and open the **EC2 Service.**
-* From the sidebar, click **Instances.** Then**,** click **Launch Instances** to set up a new EC2 instance.
+* From the sidebar, click **Instances.** Then\*\*,\*\* click **Launch Instances** to set up a new EC2 instance.
 * Set the instance name and select at least _Ubuntu Server 18.04 LTS_" with "_64-bit (x86)_ architecture as the OS image.
 * Select an instance type of your choice according to our recommendation above.
 * Choose an existing key pair or create a new one for SSH connections.
@@ -33,13 +29,13 @@ To create a new EC2 instance:
 * Adjust the storage size and configuration as required.
 * Make sure to add a tag called **Name** and assign a value.
 * Allow **SSH, HTTP,** and **HTTPS** in the security group configuration, and proceed with **Review and Launch**.
-* After confirming your instance configuration,  **Launch Instance**.
+* After confirming your instance configuration, **Launch Instance**.
 
 ## Allocate an Elastic IP
 
 To allocate an elastic IP,
 
-* From the  [EC2 Service](https://signin.aws.amazon.com/signin?redirect\_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fec2%2Fv2%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue\&client\_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fec2\&forceMobileApp=0\&code\_challenge=9eFrxS4u\_-ut1PIoNw1-Cx5EmHMwRGaqLYRat\_RnBGE\&code\_challenge\_method=SHA-256) dashboard, click **Elastic IPs.**
+* From the [EC2 Service](https://signin.aws.amazon.com/signin?redirect\_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fec2%2Fv2%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue\&client\_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fec2\&forceMobileApp=0\&code\_challenge=9eFrxS4u\_-ut1PIoNw1-Cx5EmHMwRGaqLYRat\_RnBGE\&code\_challenge\_method=SHA-256) dashboard, click **Elastic IPs.**
 * Click **Allocate Elastic IP address.**
 * Select **Amazon's pool of IPv4 addresses,** and click **Allocate.**
 * Click and open the newly created IP address and select **Associate Elastic IP address.**
@@ -50,7 +46,7 @@ To allocate an elastic IP,
 
 * Open the **Route 53** service dashboard and navigate to **Hosted Zones**.
 * Click **Create Hosted Zone.**
-* Enter your domain name and select _**Public Hosted Zone**_ as the type. Click the **Create hosted zone** button**.**
+* Enter your domain name and select _**Public Hosted Zone**_ as the type. Click the **Create hosted zone** button\*\*.\*\*
 * Select your newly created zone and click **Create Record Set.**
 * Enter "_www_" as a subdomain (if desired), select Type _CNAME_, enter the Public DNS name you copied from the [elastic IP](aws.md#allocate-an-elastic-ip) to the value field, and click "**Create.**"
 
@@ -80,8 +76,6 @@ sudo apt install certbot
 ```bash
 sudo certbot certonly --standalone --email <emailaddress@email.com> -d <domain.com> -d <subdomain.domain.com>
 ```
-
-
 
 **Note:** Second (or more) domain is optional.
 
@@ -173,7 +167,7 @@ Confirm it is running properly by opening a web browser and going to your domain
 
 ## Install Rocket.Chat
 
-To install Rocket.Chat,&#x20;
+To install Rocket.Chat,
 
 * Installing [Docker](https://docs.docker.com/install) and [Docker-compose](https://docs.docker.com/compose/install/) (v2 is required).
 * Fetch the Rocket.Chat [compose file](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml).

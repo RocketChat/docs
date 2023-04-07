@@ -4,10 +4,6 @@ description: Deploying Rocket.Chat on DigitalOcean
 
 # DigitalOcean
 
-{% hint style="info" %}
-[**👉 Trouble installing or deploying Rocket.Chat?** Join our Weekly Technical Helpline to get real-time help from our team!](https://app.livestorm.co/rocket-chat/rocketchats-weekly-technical-helpline?type=detailed)
-{% endhint %}
-
 You can now install Rocket.Chat on DigitalOcean using a [1-Click install](https://marketplace.digitalocean.com/apps/rocket-chat?action=deploy\&refcode=1940fe28bd31) from the DigitalOcean Marketplace.
 
 After you create your 1-Click install using the Rocket.Chat app in DigitalOcean Marketplace, create a registered domain name to access Rocket.Chat.&#x20;
