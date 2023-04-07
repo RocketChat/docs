@@ -3,10 +3,9 @@
 [Rocket.Chat](https://rocket.chat)’s mission is to empower organizations to own their conversations by developing the world’s most flexible and secure open-source communications platform.\
 
 
-[Rocket.Chat](https://rocket.chat) is a customizable open-source communications platform for organizations with high standards of data protection. It enables real-time conversations between colleagues, with other companies, or with your customers, across devices on the web, desktop, or mobile.\
+[Rocket.Chat](https://rocket.chat) is a customizable open-source communications platform for organizations with high data protection standards. It enables real-time conversations between colleagues, other companies, or your customers across web, desktop, or mobile devices.&#x20;
 
-
-[Rocket.Chat](https://rocket.chat) integrates with multiple conversation channels like website Live Chat, email, Facebook page, Twitter, WhatsApp, Instagram, etc. It shows discussion from various channels, thereby constructing a single view of the customer and helping diminish the time needed to switch between the tools. Mobile app for Rocket.Chat (available for Android and iOS) enables you to browse conversations, reply to messages and collaborate with the team. Using our self-managed offerings, you can deploy Rocket.Chat on your own server, or you can use SaaS Rocket.Chat. We offer support and professional services for our enterprise plan.
+[Rocket.Chat](https://rocket.chat) integrates with multiple conversation channels like website Live Chat, email, Facebook page, Twitter, WhatsApp, Instagram, etc. It shows discussion from various channels, constructing a single view of the customer and reducing the time required to switch between the tools. Mobile app for Rocket.Chat (available for Android and iOS) enables you to browse conversations, reply to messages and collaborate with the team. Using our self-managed offerings, you can deploy Rocket.Chat on your server, or use SaaS Rocket.Chat. We offer support and professional services for our [enterprise plan](setup-and-configure/enterprise-edition-trial/).
 
 ## Product Offerings
 
@@ -19,7 +18,7 @@ Rocket.Chat has four key product offerings:&#x20;
 
 ## Security Offerings
 
-With Rocket.Chat, you can safeguard your internal and external communications with the highest standards in data privacy, security, and ownership. Admins can configure their workspace according to their own policies. Our software has been deployed in the most rigorous environments, supporting compliance with GDPR, HIPAA, FINRA, FedRAMP, and more.
+With Rocket.Chat, you can safeguard your internal and external communications with the highest data privacy, security, and ownership standards. Admins can configure their workspace according to their policies. Our software has been deployed in the most rigorous environments, supporting compliance with GDPR, HIPAA, FINRA, FedRAMP, and more.
 
 ### Rocket.Chat on-premise
 
@@ -27,7 +26,7 @@ Rocket.Chat gives you full ownership of your data. Leverage secure, self-managed
 
 ### Rocket.Chat SaaS
 
-Rocket.Chat’s robust and scalable cloud is built on Docker and Kubernetes and combines it with our services and innovative platform. Hosted in secure and audited data centers in multiple regions for our customers to choose from – ensuring the best performance and meeting strict data localization requirements.
+Rocket.Chat’s robust and scalable cloud is built on Docker and Kubernetes combined with our services and innovative platform. It is hosted in secure and audited data centers in multiple regions for our customers to choose from – ensuring the best performance and meeting strict data localization requirements.
 
 ### Information governance
 
