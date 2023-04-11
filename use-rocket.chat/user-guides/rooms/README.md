@@ -18,6 +18,10 @@ If you are an administrator, see the [**Room Workspace Administration**](../../w
 
 [**Thread**](../../workspace-administration/settings/threads.md): Organized conversations around a particular message.
 
+{% hint style="info" %}
+Learn about Rocket.Chat [Room Roles.](room-roles.md)&#x20;
+{% endhint %}
+
 ## Mentions
 
 When someone mentions you with `@username`, `@all` or `@here`, a symbol or a number will appear alongside the channel name. If someone mentions `@all` or `@here` a number will show up showing the number of times the mention is specific to you.

@@ -60,3 +60,7 @@ The room information screen gives detailed information about the current channel
 {% hint style="warning" %}
 If a [Retention Policy](../../../workspace-administration/settings/retention-policies.md) is active on this channel, a red warning box appears stating when messages or files are deleted.
 {% endhint %}
+
+{% hint style="info" %}
+Learn about Rocket.Chat [Room Roles.](../room-roles.md)&#x20;
+{% endhint %}

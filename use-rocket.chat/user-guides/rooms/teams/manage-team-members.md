@@ -49,3 +49,7 @@ By default, only the team owner can remove a team member. Although, other users 
 
 * In the Team members screen, search and select the user to view their **User Info**.&#x20;
 * Click the **three dots** icon, then select **Remove from team.**
+
+{% hint style="info" %}
+Learn about Rocket.Chat [Room Roles.](../room-roles.md)&#x20;
+{% endhint %}

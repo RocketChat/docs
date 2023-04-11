@@ -21,7 +21,11 @@ Users and channels are displayed in the search results. However, private channel
 
 To help organize and prioritize your communications, you can **favorite** (or **star**) channels, private groups, and DMs. All channels marked as favorites are listed at the top of the sidebar so that it is easy to access.
 
-To mark a **channel** as favorite,
+To mark a **channel** as a favorite,
 
 * At the top of the channel page, click the **star** icon next to the channel name to mark a channel as **Favorite**.
 * To remove the channel from **Favorites,** click the **star** icon again.
+
+{% hint style="info" %}
+Learn about Rocket.Chat [Room Roles.](../room-roles.md)&#x20;
+{% endhint %}
