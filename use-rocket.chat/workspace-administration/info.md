@@ -30,18 +30,20 @@ This shows the information patenting to the license of your server.
 
 ### Apply Offline License
 
-To apply your offline license from the **License** card of the **Info** dashboard:
+To apply your offline license:
 
-* Click **Apply Offline License** at the bottom right of the card
-* A modal is presented, prompting you to paste the license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home).
-* Paste the license code and hit **Apply license**
+* Navigate to **Administration** > **Workspace** > **Info**
+* On the License card, click **Apply Offline License.**
+* Paste the license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home) or provided from the License purchase confirmation email in the modal presented.
+* Hit **Apply license**
 
 ### Change Offline License
 
 To change your offline license from the **License** card of the **Info** dashboard:
 
-* Click on the **Change Offline License** at the bottom right of the card
-* A modal is presented, prompting you to paste the new license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home)
+* Navigate to **Administration** > **Workspace** > **Info**
+* Click on the **Change Offline License** at the bottom of the License card
+* A modal is presented, prompting you to paste the license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home) or provided from the License purchase confirmation email.
 * Clear the old license code and paste the new license code, then hit **Apply license**
 
 ## Usage Info
@@ -89,7 +91,7 @@ When enabled, it shows a green checkmark :white\_check\_mark: across the feature
 
 To see more on federation settings:
 
-* Click on **Settings** at the bottom right of the federation card
+* Click on **Settings** at the bottom right of the Federation card
 * A modal appears. Enter the **Domain** and **Discovery Method** and hit **Next**
 * **Domain**: Add the domain name that your server should be linked to.
 * **Discovery Method**: A dropdown to select which discoverability mode to use e.g. `DNS` or `HUB`
@@ -103,10 +105,8 @@ Next, continue by adding the given DNS records on your server and follow the giv
 {% hint style="info" %}
 More on the federation setup can be seen in [this section](settings/federation/).
 
-We also have a guide on [Broken link](broken-reference "mention").
+We also have a guide on [federation](settings/federation/ "mention")
 {% endhint %}
-
-
 
 ## Download Info
 

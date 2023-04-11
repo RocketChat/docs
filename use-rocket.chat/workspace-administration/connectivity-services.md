@@ -33,7 +33,7 @@ To connect your server to our Cloud, your Rocket.Chat server must be on a suppor
 ## Registration steps
 
 {% hint style="success" %}
-If you are an enterprise customer (self-hosted Enterprise or Pro-licensed), we create a cloud account for you. Please login to your workspace, insert the cloud registration code you received in the welcome email, and then hit **Login to** [**Rocket.Chat**](http://rocket.chat) **Cloud**
+If you are an enterprise customer (self-hosted Enterprise or Pro-licensed), we create a cloud account for you. Please login to your workspace, insert the cloud registration code you received in the welcome email and then hit **Login to** [**Rocket.Chat**](http://rocket.chat) **Cloud**
 {% endhint %}
 
 **If you don't have a cloud account yet:**
@@ -41,13 +41,13 @@ If you are an enterprise customer (self-hosted Enterprise or Pro-licensed), we c
 * Go to [cloud.rocket.chat](https://cloud.rocket.chat) and&#x20;
 * Hit **Create account**
 * Fill up the registration form and hit **Next**
-* A verification email will be sent to your provided email address. Please click the verification link. It redirects you to cloud.rocket.chat.&#x20;
-* After the validation, you will be logged into your Cloud console.&#x20;
+* A verification email is sent to your provided email address.
+* Click to open the verification link. It redirects you to cloud.rocket.chat where you get logged in to your Cloud console.&#x20;
 * In order to register your self-hosted workspace: please select the **Register self-managed** under **Workspaces.**&#x20;
 
 <figure><img src="../../.gitbook/assets/image (448).png" alt=""><figcaption><p>Rocket.Chat cloud register self manage</p></figcaption></figure>
 
-* A pop-up will be displayed in order to select the workspace type:
+* Select the workspace type from the modal displayed.
 
 <figure><img src="../../.gitbook/assets/image (384).png" alt=""><figcaption><p>Cloud services</p></figcaption></figure>
 
@@ -64,11 +64,11 @@ In the following section, we are going to cover the option for **Internet Access
 
 ## Apply Online License
 
-A registration token will be generated when selecting the "Internet Access" option. Copy the token, as this will be used to register your Rocket.Chat server.
+A registration token is generated and presented when **Internet Access** option is selected. Copy the token, as this will be used to register your Rocket.Chat server.
 
 ![](../../.gitbook/assets/c\_8.png)
 
-* On your Rocket.Chat workspace, navigate to **Administration** > **Workspace** > **Connectivity Services**
+* On your Rocket.Chat workspace, navigate to **Administration** > **Workspace** > **Registration** > **Manage**
 * Enter the **Email** linked to your Rocket.Chat Cloud account
 * &#x20;Paste the registration token generated in the **Token** field
 * Hit **Connect**

@@ -43,7 +43,7 @@ Following an Omnichannel conversation, forwarding the transcript to the contact 
 * Enter the **Subject**
 * Hit **Request**.
 
-#### To export the transcript as PDF, ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (9).jpg>)
+#### To export the transcript as PDF, ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7).jpg>)
 
 * Click <img src="../../.gitbook/assets/end-conversation.png" alt="" data-size="line"> icon to close the conversation first
 * Enter comments if any
@@ -73,7 +73,7 @@ To enable **Export Conversation Transcript** automatically for every chat,
   * **Send chat transcript via email:** Always send the transcript to contacts at the end of the conversations.
 * Click **Save Changes**.
 
-## Place conversation On-Hold ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (9).jpg>)
+## Place conversation On-Hold ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (7).jpg>)
 
 During supporting conversation as an agent, you can find yourself in a situation where Omnichannel contacts terminate the conversation abruptly. Still, the conversation will persist in your queue until it is **Closed**. This can potentially impact your service capacity as you may be unable to engage in new conversations due to the maximum number of simultaneous conversations allowed per agent. To address this concern, you can pause the conversation temporarily by using the Place Chat On-Hold feature.
 
@@ -123,7 +123,7 @@ To make a call,
 * Click **Edit** to add some further information. E.g., the topic discussed or priority
 * Hit **Save.**
 
-## Canned Responses ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (21).jpg>)
+## Canned Responses ![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (17) (1).jpg>)
 
 Canned responses allow you to call pre-saved message snippets with shortcuts (preceded with `!`) to communicate a quick note to your omnichannel contact in omnichannel as well as regular conversations inside your Rocket.Chat's workspace.
 

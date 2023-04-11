@@ -84,7 +84,7 @@
 
 ## Setup and Configure
 
-* [License Application](setup-and-configure/license-application.md)
+* [Enterprise License Application](setup-and-configure/license-application.md)
 * [Accessing Your Workspace](setup-and-configure/accessing-your-workspace/README.md)
   * [Rocket.Chat Setup Wizard](setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard.md)
   * [Admin Account Creation](setup-and-configure/accessing-your-workspace/creating-the-first-administrator.md)
