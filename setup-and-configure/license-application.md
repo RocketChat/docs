@@ -40,7 +40,7 @@ Your License should now be applied to your workspace and be ready to use.  You c
 
 <details>
 
-<summary>Self Managed  UnRegistered Workspace</summary>
+<summary>Self Managed  Unregistered Workspace</summary>
 
 You have an existing workspace but have not registered and have been given a registration code to register and apply.
 
@@ -63,7 +63,7 @@ Your workspace should now be Registered and your License should now be applied t
 
 <details>
 
-<summary>Self Managed Air-gapped</summary>
+<summary>Self Managed Air-gapped Workspace</summary>
 
 You have an existing workspace but it is air-gapped and have been given a license code to apply.
 
@@ -94,7 +94,7 @@ Your workspace should now be Registered and your License should now be applied t
 
 <details>
 
-<summary>SaaS</summary>
+<summary>SaaS Workspace</summary>
 
 If you purchased a license for a SaaS Workspace you will have a workspace provisioned for you. &#x20;
 
@@ -108,7 +108,7 @@ Your workspace should now be ready to use.
 
 <details>
 
-<summary>Self Managed</summary>
+<summary>Self Managed Workspace</summary>
 
 If you purchased a license for Self Managed but do not yet have a workspace.
 
@@ -131,7 +131,7 @@ Your workspace should now be Registered and your License should now be applied t
 
 <details>
 
-<summary>Air Gapped</summary>
+<summary>Self Managed Air-Gapped Workspace</summary>
 
 You have an existing workspace but it is air-gapped and have been given a license code to apply.
 
