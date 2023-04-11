@@ -34,6 +34,10 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 ### **Latest update**
 
+**Update April 10th, 2023     Holiday weekend Code Walkthrough.**\
+While mentors continued to review the proposals we have received, we held a code walkthrough (How to add a REST API endpoint in Rocket.Chat server)  session to help our community contributors over the Easter holiday weekend.   Thanks goes to the 19 attendees of this live Saturday afternoon (night) session. \
+
+
 **Update April 5th, 2023     Record-breaking 197 proposals received from our community !**\
 \
 Thank you (to the 811-members-strong Rocket.Chat GSoC 2023 community) for the unprecedented support for open source and for the [Rocket.Chat](https://rocket.chat/) organization in particular !   We have received a total **197  proposals** this year - far exceeding the total of 83 proposals from 2022. \
