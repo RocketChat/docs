@@ -144,6 +144,7 @@
       * [Direct Message Actions](use-rocket.chat/user-guides/rooms/direct-messages/direct-message-actions.md)
     * [Threads](use-rocket.chat/user-guides/rooms/threads/README.md)
       * [Create a New Thread](use-rocket.chat/user-guides/rooms/threads/create-a-new-thread.md)
+    * [Room Roles](use-rocket.chat/user-guides/rooms/room-roles.md)
   * [Messages](use-rocket.chat/user-guides/messages/README.md)
     * [Message Actions](use-rocket.chat/user-guides/messages/message-actions.md)
     * [Off-the-record (OTR) Messaging User Guide](use-rocket.chat/user-guides/messages/off-the-record-otr-messaging-user-guide.md)
