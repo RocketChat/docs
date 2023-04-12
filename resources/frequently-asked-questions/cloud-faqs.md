@@ -32,7 +32,7 @@ You can cancel your Rocket.Chat workplace directly within the Cloud Console.
 
 <summary>How can I get a data export?</summary>
 
-Send an email to [cloud.support@rocket.chat](mailto:cloud.support@rocket.chat) with the address of your workspace. This request will take some time to fulfill.
+Send an email to **support@rocket.chat** with the address of your workspace. Note: The request will take some time to fulfill.
 
 </details>
 
