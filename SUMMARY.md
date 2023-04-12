@@ -183,7 +183,6 @@
     * [Google Calendar](use-rocket.chat/workspace-administration/integrations/google-calendar.md)
     * [GitHub](use-rocket.chat/workspace-administration/integrations/github.md)
     * [Graylog](use-rocket.chat/workspace-administration/integrations/graylog.md)
-    * [Guggy](use-rocket.chat/workspace-administration/integrations/guggy.md)
     * [Jenkins notifications via Rocket.Chat Marketplace](use-rocket.chat/workspace-administration/integrations/jenkins.md)
     * [JFrog Xray](use-rocket.chat/workspace-administration/integrations/jfrog-xray.md)
     * [MicroBadger](use-rocket.chat/workspace-administration/integrations/microbadger.md)
