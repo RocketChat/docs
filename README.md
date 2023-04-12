@@ -122,6 +122,6 @@ Rocket.Chat offers governance and risk-management capabilities that meet the nee
 
 ### Community
 
-{% content-ref url="contribute-to-rocket.chat/how-can-i-help/" %}
-[how-can-i-help](contribute-to-rocket.chat/how-can-i-help/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
