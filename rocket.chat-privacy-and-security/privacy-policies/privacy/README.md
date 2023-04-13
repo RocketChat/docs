@@ -1,6 +1,6 @@
 # Rocket.Chat Privacy Policy
 
-_Effective date: October 23rd, 2020_
+_Effective date: January 5th, 2023._
 
 Rocket.Chat Technologies Corp. ("us", "we", or "our") operates the [https://rocket.chat](https://rocket.chat) website, the [https://open.rocket.chat](https://open.rocket.chat) community server, the Marketplace, incl. associated Rocket.Chat Apps, Rocket.Chat´s Cloud Offering and the Rocket.Chat mobile applications (the "Service").
 
