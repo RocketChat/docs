@@ -167,7 +167,7 @@
     * [Add users through Identity management and authentication services](use-rocket.chat/workspace-administration/users/add-users-through-identity-management-and-authentication-services.md)
   * [Rooms](use-rocket.chat/workspace-administration/rooms.md)
   * [Invites](use-rocket.chat/workspace-administration/invites.md)
-  * [Connectivity Services](use-rocket.chat/workspace-administration/connectivity-services.md)
+  * [Registration](use-rocket.chat/workspace-administration/connectivity-services.md)
   * [View Logs](use-rocket.chat/workspace-administration/view-logs.md)
   * [Federation Dashboard](use-rocket.chat/workspace-administration/federation-dashboard.md)
   * [Email Inboxes](use-rocket.chat/workspace-administration/email-inboxes.md)
