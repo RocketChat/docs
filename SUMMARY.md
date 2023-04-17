@@ -495,10 +495,9 @@
 
 ## Rocket.Chat privacy and security
 
-* [Privacy Policies](rocket.chat-privacy-and-security/privacy-policies/README.md)
-  * [Rocket.Chat Privacy Policy](rocket.chat-privacy-and-security/privacy-policies/privacy/README.md)
-    * [Subprocessors](rocket.chat-privacy-and-security/privacy-policies/privacy/subprocessors.md)
-  * [Privacy Policy Facebook Messenger](rocket.chat-privacy-and-security/privacy-policies/privacy-policy-facebook-messenger.md)
+* [Rocket.Chat Privacy Policy](rocket.chat-privacy-and-security/rocket.chat-privacy-policy/README.md)
+  * [Subprocessors](rocket.chat-privacy-and-security/rocket.chat-privacy-policy/subprocessors.md)
+* [Privacy Policy Facebook Messenger](rocket.chat-privacy-and-security/privacy-policy-facebook-messenger.md)
 * [Security Policy](rocket.chat-privacy-and-security/security-policy.md)
 * [Security and Compliance Guides](rocket.chat-privacy-and-security/security/README.md)
   * [Compliance Resources and Certifications](rocket.chat-privacy-and-security/security/compliance-resources.md)
