@@ -7,5 +7,5 @@ After creating the admin user during setup, you can [add or invite other users](
 {% endcontent-ref %}
 
 {% hint style="info" %}
-For self-managed workplaces, [SMTP must be enabled and configured](../../use-rocket.chat/workspace-administration/settings/email/setup.md) before emails can be sent through the workspace.
+For self-managed workplaces, [SMTP must be enabled and configured](../../use-rocket.chat/workspace-administration/settings/email/email-configuration.md) before emails can be sent through the workspace.
 {% endhint %}

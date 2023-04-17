@@ -152,7 +152,7 @@ The various settings that fall under this have simple descriptions for understan
 * **Require Name For Signup**: If this is set to true, the name of the user is required to create an account.
 * **Require Password Confirmation**: If this is set to true, the user has to input their password twice when registering.
 * **Only allow verified users to login:** Enable this option only to allow the verified users only to log in.
-* **Verify Email for External Accounts**: If this is set to true, users has to confirm their email via a confirmation email sent to their email. (For this setting to work, the SMTP settings must be already set up. See [Email Configuration](../email/setup.md))
+* **Verify Email for External Accounts**: If this is set to true, users has to confirm their email via a confirmation email sent to their email. (For this setting to work, the SMTP settings must be already set up. See [Email Configuration](../email/email-configuration.md))
 * **Manually Approve New Users**: If this is set to true, new users have to wait for a user with the `view-user-administration` permission to approve their account before using Rocket.Chat.
 * **Allowed Domains List**: This blocks emails with different domains than the ones on the list.
 * **Blocked Domains List**: This blocks emails with domains that are on the list.

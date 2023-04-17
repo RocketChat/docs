@@ -18,7 +18,7 @@ To access this menu:
 * Hit **Send**, and they’ll receive it in their email.
 
 {% hint style="info" %}
-Note that for self-managed workspaces, you need to have [SMTP enabled](https://docs.rocket.chat/guides/administration/settings/email/setup#set-up-your-credentials) in order to be able to send emails through the workspace. If you wish not to do so, you can still [invite users by creating their credentials](https://docs.rocket.chat/guides/administration/admin-panel/users/add-new-users).
+Note that for self-managed workspaces, you need to have [SMTP enabled](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/email/setup) to be able to send emails through the workspace. If you wish not to do so, you can still [invite users by creating their credentials](https://docs.rocket.chat/guides/administration/admin-panel/users/add-new-users).
 {% endhint %}
 
 ## Add new users
@@ -31,7 +31,7 @@ To add(create) new users:
 * Hit **Save**
 
 {% hint style="info" %}
-The settings **Set random password and send by email** and **Send welcome email** will require [SMTP enabled](https://docs.rocket.chat/guides/administration/settings/email/setup#set-up-your-credentials) in order to successfully send emails.
+The settings **Set random password and send by email** and **Send welcome email** will require [SMTP enabled](https://docs.rocket.chat/guides/administration/settings/email/setup#set-up-your-credentials) to send emails successfully.
 {% endhint %}
 
 You can also [add-users-through-identity-management-and-authentication-services.md](add-users-through-identity-management-and-authentication-services.md "mention")

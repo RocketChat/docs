@@ -18,8 +18,8 @@ The email users receive when a user login is detected from a new device.
 
 ### Direct Reply
 
-{% content-ref url="direct-reply.md" %}
-[direct-reply.md](direct-reply.md)
+{% content-ref url="direct-email-reply.md" %}
+[direct-email-reply.md](direct-email-reply.md)
 {% endcontent-ref %}
 
 ### Email Address Changed <a href="#9jedofp0o2d" id="9jedofp0o2d"></a>
@@ -42,7 +42,7 @@ Defines the header and footer style to use for all your emails.
 
 * **Header**: Header to use for all emails sent.
 * **Footer**: The email footer to use for all emails.
-* **Footer When Direct Reply is Enabled**: Let you define the footer for when [direct reply](direct-reply.md) is enabled.
+* **Footer When Direct Reply is Enabled**: Let you define the footer for when [direct reply](direct-email-reply.md) is enabled.
 
 ### Invitation
 
@@ -85,8 +85,8 @@ Format of the email to send to a user when registered by an admin.
 
 ### SMPT
 
-{% content-ref url="setup.md" %}
-[setup.md](setup.md)
+{% content-ref url="email-configuration.md" %}
+[email-configuration.md](email-configuration.md)
 {% endcontent-ref %}
 
 ### Style

@@ -10,7 +10,7 @@ To access this menu, go to **Administration** > **Workspace** > **Settings** > *
 
 Here you find various Email settings and tools:
 
-* [Email Configuration](setup.md)
-* [Edit Email Content](editing-emails-content.md)
+* [Email Configuration](email-configuration.md)
+* [Edit Email Content](edit-your-email-content.md)
 * [Mailer](../../mailer.md)
-* [Direct Email Reply](direct-reply.md)
+* [Direct Email Reply](direct-email-reply.md)
