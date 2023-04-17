@@ -109,6 +109,10 @@ redirects:
     guides/administration/admin-panel/connectivity-services: use-rocket.chat/workspace-administration/connectivity-services.md
     installing-and-updating/manual-installation/centos: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     quick-start/installing-and-updating/rapid-deployment-methods/rocketchatctl: deploy/prepare-for-your-deployment/rapid-deployment-methods/rocketchatctl.md
+    quick-start/installing-and-updating/rapid-deployment-methods/snaps: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md
+    quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
+    guides/enterprise-edition-trial/extending-trial: setup-and-configure/enterprise-edition-trial.md
+    guides/enterprise-edition-trial: setup-and-configure/enterprise-edition-trial.md
     quick-start/installing-and-updating/paas-deployments/aws-marketplace: deploy/prepare-for-your-deployment/cloud-deployments/aws.md
     quick-start/installing-and-updating/paas-deployments/indiehosters: deploy/prepare-for-your-deployment/other-deployment-methods/README.md
     quick-start/installing-and-updating/paas-deployments/openshift: deploy/prepare-for-your-deployment/other-deployment-methods/nonofficial-methods/openshift.md
