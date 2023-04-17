@@ -6,8 +6,8 @@ description: Integration between Rocket.Chat and HubSpot CRM
 
 You can add HubSpot CRM to your Rocket.Chat account to manage the contacts and receive HubSpot ticket notifications in Rocket.Chat. Once Rocket.Chat integrated into HubSpot, the HubSpot bot is added as a user to your workspace.
 
-{% hint style="info" %}
-**You must enable the** [**Omnichannel**](../../../../../use-rocket.chat/omnichannel/) **feature with** [**agents**](../../../../../use-rocket.chat/omnichannel/agents.md) **and** [**managers**](../../../../../use-rocket.chat/omnichannel/managers.md) **assigned to receive and send Omnichannel messages.**
+{% hint style="warning" %}
+**You must have the** [**Omnichannel feature**](https://docs.rocket.chat/use-rocket.chat/omnichannel#enable-omnichannel) **enabled and have** [**agents**](https://docs.rocket.chat/use-rocket.chat/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/use-rocket.chat/omnichannel/managers) **assigned to receive and send Omnichannel messages.**
 {% endhint %}
 
 ## Install HubSpot CRM App

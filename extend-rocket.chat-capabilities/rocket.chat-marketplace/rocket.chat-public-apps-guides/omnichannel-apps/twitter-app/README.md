@@ -5,11 +5,11 @@ description: Omnichannel Integration between Rocket.Chat and Twitter.
 # Twitter App
 
 {% hint style="warning" %}
-**You must have the** [**Omnichannel feature**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#enable-omnichannel) **enabled as well as have** [**agents**](https://docs.rocket.chat/guides/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/guides/omnichannel/managers) **assigned in order to receive and send Omnichannel messages.**
+**You must have the** [**Omnichannel feature**](https://docs.rocket.chat/use-rocket.chat/omnichannel#enable-omnichannel) **enabled and have** [**agents**](https://docs.rocket.chat/use-rocket.chat/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/use-rocket.chat/omnichannel/managers) **assigned to receive and send Omnichannel messages.**
 {% endhint %}
 
 {% hint style="info" %}
-The Twitter app can be used on subscription basis.
+The Twitter app can be used on a subscription basis.
 {% endhint %}
 
 ![](<../../../../../.gitbook/assets/image (459) (1) (1) (1) (1).png>)

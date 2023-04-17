@@ -25,7 +25,7 @@ To install the Instagram Direct App,
 * Click **Install** and accept the needed permissions. You receive a message from `instagram.bot` in the `#omnichannel-instagram-setup` channel with setup instructions.
 
 {% hint style="warning" %}
-**You must enable the** [**Omnichannel**](../../../../../use-rocket.chat/omnichannel/) **feature with** [**agents**](../../../../../use-rocket.chat/omnichannel/agents.md) **and** [**managers**](../../../../../use-rocket.chat/omnichannel/managers.md) **assigned to receive and send Omnichannel messages.**
+**You must have the** [**Omnichannel feature**](https://docs.rocket.chat/use-rocket.chat/omnichannel#enable-omnichannel) **enabled and have** [**agents**](https://docs.rocket.chat/use-rocket.chat/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/use-rocket.chat/omnichannel/managers) **assigned to receive and send Omnichannel messages.**
 {% endhint %}
 
 ## Configure Instagram Direct App

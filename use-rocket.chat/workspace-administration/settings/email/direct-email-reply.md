@@ -1,4 +1,4 @@
-# Direct Email reply
+# Direct email reply
 
 Enable this feature to allow users to reply to chat messages by directly replying to email notifications they receive. We currently use [subaddressing](https://en.wikipedia.org/wiki/Email\_address#Subaddressing) for this feature.
 

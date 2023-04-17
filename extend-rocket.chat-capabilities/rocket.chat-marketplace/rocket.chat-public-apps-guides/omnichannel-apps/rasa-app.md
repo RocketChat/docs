@@ -3,7 +3,7 @@
 Rasa is a framework for developing AI-powered, industrial-grade chatbots. It is an open-source alternative to the [Dialogflow](dialogflow-app/) app. With the Rasa Chatbot app, you can set up and train your chatbot to respond to any query it's been trained for and configure it to act as an Omnichannel agent.&#x20;
 
 {% hint style="warning" %}
-**You must enable the** [**Omnichannel**](../../../../use-rocket.chat/omnichannel/) **feature with** [**agents**](../../../../use-rocket.chat/omnichannel/agents.md) **and** [**managers**](../../../../use-rocket.chat/omnichannel/managers.md) **assigned to receive and send Omnichannel messages.**
+**You must have the** [**Omnichannel feature**](https://docs.rocket.chat/use-rocket.chat/omnichannel#enable-omnichannel) **enabled and have** [**agents**](https://docs.rocket.chat/use-rocket.chat/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/use-rocket.chat/omnichannel/managers) **assigned to receive and send Omnichannel messages.**
 {% endhint %}
 
 ## Install Rasa App

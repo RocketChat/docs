@@ -1,4 +1,4 @@
-# Email Configuration
+# Email configuration
 
 The Rocket.Chat Emails, [Notifications](../../../../setup-and-configure/advanced-workspace-management/notifications.md), [Email verification](../../../../setup-and-configure/advanced-workspace-management/notifications.md#emails), and [Mailer ](../../mailer.md)features depend on this Email configuration.
 
