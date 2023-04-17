@@ -4,23 +4,23 @@ As a workspace administrator, you can view and manage all the workspaces linked 
 
 ## Manage Workspaces
 
-When you log in, you will see the list of workspaces linked to your cloud account.&#x20;
+When you log in, you will see the list of workspaces linked to your cloud account.
 
 To register a self-managed workspace, click **Register self-managed** to enable your self-hosted workspace.
 
 {% hint style="info" %}
-&#x20;If you want multiple cloud workspaces under the same cloud account, please contact us at [support@rocket.chat](mailto:support@rocket.chat).
+If you want multiple cloud workspaces under the same cloud account, please contact us at [support@rocket.chat](mailto:support@rocket.chat).
 {% endhint %}
 
 To view workspace Information,
 
-* Click the workspace to see the following workspace information:&#x20;
+* Click the workspace to see the following workspace information:
   * Workspace plan
   * Push notification limit
   * Total usage
   * Push notification usage.
 
-After your first sign-up, you are given a Rocket.Chat Enterprise Edition for 30 days. No payment is required. On the 30th day, you will be charged according to your chosen plan. The minimum volume or resources on Cloud provided per workspace is for 25 members, so you will be billed accordingly even if you have less than 25 users. Workspace members will continue to receive mobile push notifications for the remainder of the trial.&#x20;
+After your first sign-up, you are given a Rocket.Chat Enterprise Edition for 30 days. No payment is required. On the 30th day, you will be charged according to your chosen plan. The minimum volume or resources on Cloud provided per workspace is for 25 members, so you will be billed accordingly even if you have less than 25 users. Workspace members will continue to receive mobile push notifications for the remainder of the trial.
 
 ## Upgrade/Downgrade your plan
 
@@ -59,7 +59,7 @@ You can cancel your workspace to end your subscription and hibernate your server
 To cancel a workspace,
 
 * From the sidebar menu, click **Workspaces.**
-* Click the **** ![](../../../.gitbook/assets/three-dot-icon.png)**three-dot** icon beside the workspace.
+* Click the \*\*\*\* ![](<../../../.gitbook/assets/three-dot-icon (1).png>)**three-dot** icon beside the workspace.
 * Select **Cancel**.
 
 {% hint style="info" %}
@@ -79,5 +79,5 @@ You can upgrade your workspace to the latest workspace version.
 To update your workspace,
 
 * From the sidebar menu, click **Workspaces.**
-* Click the **** ![](../../../.gitbook/assets/three-dot-icon.png)**three-dot** icon beside the workspace.
+* Click the \*\*\*\* ![](<../../../.gitbook/assets/three-dot-icon (1).png>)**three-dot** icon beside the workspace.
 * Select **Update**.

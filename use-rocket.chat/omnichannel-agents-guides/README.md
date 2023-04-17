@@ -4,7 +4,7 @@ description: Guide to be followed by omnichannel agents to assist customers.
 
 # Omnichannel Agent's Guides
 
-As an Omnichannel agent, you can log in to your workspace using your username or email, and password. You can handle omnichannel or Livechat conversations.&#x20;
+As an Omnichannel agent, you can log in to your workspace using your username or email, and password. You can handle omnichannel or Livechat conversations.
 
 {% hint style="info" %}
 To be an Omnichannel agent, you must have the **`Omnichannel Agent`** role. Contact your administrator if you need the role.
@@ -20,5 +20,5 @@ As an omnichannel agent, your home screen has Omnichannel navigation tab that ha
 
 To make yourself available to take up conversations:
 
-* Click ![](../../.gitbook/assets/chats-off.png) icon to set your status to **Available**
-* Click  <img src="../../.gitbook/assets/chats-on.png" alt="" data-size="line"> to set your status to **Unavailable**.
+* Click ![](<../../.gitbook/assets/chats-off (1).png>) icon to set your status to **Available**
+* Click <img src="../../.gitbook/assets/chats-on.png" alt="" data-size="line"> to set your status to **Unavailable**.

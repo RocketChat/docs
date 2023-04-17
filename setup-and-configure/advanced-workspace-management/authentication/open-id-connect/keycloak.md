@@ -75,7 +75,7 @@ To grant the Rocket.Chat role to a user, we have to modify the users Role Mappin
 
 **Mappers**
 
-![Mappers](../../../../.gitbook/assets/mappersrc.jpg)
+![Mappers](<../../../../.gitbook/assets/30052022\_User Mapper.jpg>)
 
 {% hint style="info" %}
 The roles are only synced on the first login and not refreshed on each login. See the [bug report](https://github.com/RocketChat/Rocket.Chat/issues/15225) to get more updates.

@@ -9,7 +9,7 @@ Requirements:
 
 * Asterisk 16.19.0 or higher (We used FreePBX 16.0.10.40 with Asterisk 18.6.0)
 * Valid SSL certificate (valid domain)
-* You need Rocket.Chat version 5.0.0 or higher.&#x20;
+* You need Rocket.Chat version 5.0.0 or higher.
 {% endhint %}
 
 ## 1. Prepare FreePBX
@@ -25,8 +25,7 @@ Enter your server web interface [http://your.domain.name](http://your.domain.nam
 
 ## 2. Configure the FreePBX firewall
 
-Now you need to prepare the FreePBX firewall to accept AMI (Asterisk Manager Interface) and WSS (WebSocket Secure).\
-
+Now you need to prepare the FreePBX firewall to accept AMI (Asterisk Manager Interface) and WSS (WebSocket Secure).\\
 
 ### 2.1 Configure custom services AMI and WSS
 
@@ -37,11 +36,11 @@ Navigate to **Connectivity > Firewall > Services > Enable Firewall**. Under the 
 
 We want **WebRTC** in the Internet zone because the Webphone will connect from the client’s IP address, which could be anywhere.
 
-Navigate to the **Custom Services** tab and hit the **Create new service**, name the service AMI, select TCP, and write the port range 5038:5039. Click **Save**.&#x20;
+Navigate to the **Custom Services** tab and hit the **Create new service**, name the service AMI, select TCP, and write the port range 5038:5039. Click **Save**.
 
 ![Create new service](<../../../../.gitbook/assets/image (905).png>)
 
-Mark the **Other** option and **Save**.&#x20;
+Mark the **Other** option and **Save**.
 
 {% hint style="info" %}
 AMI goes in the “Other” zone because only some specific endpoints should be connecting to AMI.
@@ -71,11 +70,11 @@ Rocket.Chat will be in the **Other** zone.
 We used Letsencrypt for this demo.
 {% endhint %}
 
-This will only work if you have your FreePBX already activated.&#x20;
+This will only work if you have your FreePBX already activated.
 
 Navigate to **Admin > Port Management**. Change the Admin (web portal) to another port and set Letsencrypt to port 80. Click **Update** **Now**.
 
-![Port management](<../../../../.gitbook/assets/image (602).png>)
+![Port management](<../../../../.gitbook/assets/image (598).png>)
 
 Please note that until here, you have been accessing the server by HTTP (not HTTPS) on port 80. Until you finish the SSL configuration, you are going to be using the newly selected port, 8080, in this demo.
 
@@ -101,8 +100,6 @@ Additionally, you can go back to the **Admin > System Admin > Port Management** 
 
 ![](<../../../../.gitbook/assets/image (953).png>)
 
-
-
 Test it. Congratulations! you have an HTTPS-valid SSL FreePBX server up and running.
 
 ## 4. Configure Asterisk to use PJSIP as the main (or only) SIP channel
@@ -110,13 +107,12 @@ Test it. Congratulations! you have an HTTPS-valid SSL FreePBX server up and runn
 \
 We are using chan\_pjsip as the only SIP driver. Go to **Settings > Advanced** **Settings**, search for **SIP Channel Driver**, and choose **chan\_pjsip**. Hit **Submit**.
 
-![PJSIP ](<../../../../.gitbook/assets/image (790).png>)
+![PJSIP](<../../../../.gitbook/assets/image (790).png>)
 
 ## 5. Configure Asterisk HTTP/WebSocket features
 
 \
-Using the article [Configuring Asterisk for WebRTC Clients 1](https://wiki.asterisk.org/wiki/display/AST/Configuring+Asterisk+for+WebRTC+Clients) in Asterisk’s Wiki, we are going only for the principal parameters if you need more details, the article is a great guide.\
-
+Using the article [Configuring Asterisk for WebRTC Clients 1](https://wiki.asterisk.org/wiki/display/AST/Configuring+Asterisk+for+WebRTC+Clients) in Asterisk’s Wiki, we are going only for the principal parameters if you need more details, the article is a great guide.\\
 
 ### 5.1 Enable Asterisk’s WebSocket and mini-HTTP
 
@@ -133,9 +129,9 @@ Using the command `http show status` verify that both HTTP and HTTPS are up and 
 
 ![HTTP and HTTPS status](<../../../../.gitbook/assets/image (806).png>)
 
-**If HTTP does but HTTPS doesn’t check that Asterisk can read the certificate and private key files:** Add capture of file reading error.&#x20;
+**If HTTP does but HTTPS doesn’t check that Asterisk can read the certificate and private key files:** Add capture of file reading error.
 
-### 5.2 Enable the WS and WSS SIP transports&#x20;
+### 5.2 Enable the WS and WSS SIP transports
 
 Navigate to the **Settings > Asterisk SIP Settings**. In the **General SIP Settings** tab configure your audio codecs, enable video, and select video codecs (vp8 and vp9 needed for WebRTC), NAT, etc. Then in the **SIP Settings** (chan\_pjsip) tab, choose your valid SSL certificate for **TLS/SSL/SRTP** and enable all the desired transports, especially WS and WSS:
 
@@ -143,7 +139,7 @@ Navigate to the **Settings > Asterisk SIP Settings**. In the **General SIP Setti
 
 Click submit and apply changes (an Asterisk restart is recommended)
 
-### &#x20;5.3 Test Asterisk HTTP mini-server
+### 5.3 Test Asterisk HTTP mini-server
 
 \
 Navigate to [https://mysub.domainname.domain:8089/httpstatus](https://mysub.domainname.domain:8089/httpstatus) and verify that it loads, SSL Port is present, and the SSL certificate is valid:

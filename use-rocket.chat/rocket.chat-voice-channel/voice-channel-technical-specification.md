@@ -4,7 +4,7 @@ VoIP is the technology behind Rocket.Chat voice-as-channel feature.
 
 ### **What is VoIP?**
 
-**Voice over Internet Protocol** refers to the standards that facilitate voice-based phone calls using an internet connection instead of a local telephone company. \
+**Voice over Internet Protocol** refers to the standards that facilitate voice-based phone calls using an internet connection instead of a local telephone company.\
 Through VoIP technologies, Rocket.Chat is able to incorporate telephony-based communication protocols into its applications, promoting the transition between analog and digital technologies.
 
 ### How does VoIP work?
@@ -39,7 +39,7 @@ Web clients are built using browser-based WebRTC technology. This technology doe
 * To achieve this, there is an association made between the Rocket.Chat agent and the SIP identity.
 * ACD (Automatic Call Distribution) queues, wait-treatment, etc, are managed by the customer’s/Partner’s PBX. Reaching out to external networks (PSTN/Mobile Network/Another SIP Server, is handled at the customer’s/Partner’s PBX.
 
-![VoIP Architecture](<../../.gitbook/assets/image (1260).png>)
+![VoIP Architecture](<../../.gitbook/assets/image (95).png>)
 
 **ACD Queues:**
 
@@ -51,4 +51,4 @@ Agents are partitioned into different queues on the PBX. These queues represent 
 
 Admins and managers use Rocket.Chat's UI to configure and monitor the customer-managed PBX. To receive real-time PBX events, Rocket.Chat’s backend has to connect to the PBX manager interface. The customer is responsible for creating the configuration on PBX so that the management APIs/interface is accessible from Rocket.Chat’s backend.
 
-![Connector Architecture](<../../.gitbook/assets/image (1145).png>)
+![Connector Architecture](<../../.gitbook/assets/image (499).png>)

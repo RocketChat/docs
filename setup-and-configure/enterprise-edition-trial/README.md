@@ -50,7 +50,7 @@ After connecting to the Cloud account,&#x20;
   * Navigate to **Workspaces and** click on the **Apply Trial** button for the workspace you created.
   * Refresh the page and confirm that your workspace's current plan and status are **Enterprise Yearly** and **Active**.
 
-## Extending Trail
+## Extending Trial
 
 You can request an extension directly from your cloud portal if you need your Enterprise Edition trial to be extended for any reason.
 
