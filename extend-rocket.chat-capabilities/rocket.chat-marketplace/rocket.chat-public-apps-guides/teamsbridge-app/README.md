@@ -1,21 +1,21 @@
-# TeamsBridge App
+# Microsoft Teams Bridge
 
-TeamsBridge App is a tool that connects collaborators across Rocket.Chat and Microsoft Teams. It acts as a bridge between **Teams** and **Rocket.Chat** to enable cross-platform messaging among users in an organization. This way, users can send and receive messages from their workspace or Teams account.&#x20;
+Microsoft Teams Bridge is an app that connects collaborators across Rocket.Chat and Microsoft Teams. It acts as a bridge between **Teams** and **Rocket.Chat** to enable cross-platform messaging among users in an organization. This way, users can send and receive messages from their workspace or Teams account.&#x20;
 
 {% hint style="info" %}
 It supports other message formats, such as emojis, files, and links. Furthermore, operations like editing or deleting a message are also supported.
 {% endhint %}
 
-## Setup the TeamsBridge App
+## Setup Microsoft Teams Bridge
 
-As an admin, ensure you have access to the  Rocket.Chat admin account and Teams admin account for your organization before installing.
+As an administrator, ensure you have access to the Rocket.Chat admin account and Teams admin account for your organization before installing.
 
-To install the **TeamsBridge** app,
+To install **Microsoft Teams Bridge**,
 
 * Go to **Administration > Apps > Marketplace.**
-* Search for the **TeamsBridge** app.
+* Search for the **Microsoft Teams Bridge** app.
 * Click **Install.** Confirm that the app is enabled.
-* On the **TeamsBridge App Info** screen, navigate to **Details > API and** copy the  `GET auth endpoint URL`.
+* On the **Microsoft Teams Bridge** **App Info** screen, navigate to **Details > API and** copy the  `GET auth endpoint URL`.
 
 {% hint style="info" %}
 If it's a localhost URL, exposing the localhost port to the internet requires a tunnel service like Ngrok.
@@ -29,7 +29,7 @@ To set up an Azure Active Directory App for your organization,
 * Find and click **Azure Active Directory**.
 * Click **Add**. Then, select **App registration**.
 * Give the app a name. Select **Accounts in this organizational directory only** as the **Supported account type**.
-* Select **Web** as the **Redirect URI  platform.** Paste the  `GET auth endpoint URL` you copied from the TeamsBridge App as the value.
+* Select **Web** as the **Redirect URI  platform.** Paste the  `GET auth endpoint URL` you copied from the **Microsoft Teams Bridge App Info** as the value.
 * Click **Register**. Copy the **Application (client) ID** and **Directory (tenant) ID** shown on the overview page.&#x20;
 * Click **Add a certificate or secret > New Client Secret.** Fill in the description and expiration timeline. Then, click **Add**.
 * After the client secret is created, copy the **Client Secret Value**.
@@ -68,11 +68,13 @@ To set up an Azure Active Directory App for your organization,
 | User.Read.All                            | Application | Read all users' full profiles                                                              | Yes                    |
 | User.ReadWrite.All                       | Application | Read and write all users' full profiles                                                    | Yes                    |
 
-### Configure the TeamsBridge App
+### Configure Microsoft Teams Bridge
 
-* Navigate to **TeamsBridge App Info > Settings**.&#x20;
+* Navigate to **Microsoft Teams Bridge** **App Info > Settings**.&#x20;
 * Update the **Directory (tenant) ID, Application (client) ID**, and **Client Secret** with the values you copied earlier. Then, click **Save Changes**.
 
 {% hint style="info" %}
 Ensure you use the correct credentials and set the appropriate API permissions on the Azure Active Directory.
 {% endhint %}
+
+> This app was developed by Yuqing Bian during [Google Summer of Code 2022](https://summerofcode.withgoogle.com/archive/2022/projects/Vro3kgDy).
