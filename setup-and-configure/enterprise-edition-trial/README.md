@@ -27,7 +27,7 @@ The Rocket.Chat Enterprise edition has many benefits, which include the followin
 
 ## Get Enterprise Edition if you have a workspace
 
-If you already have a Rocket.Chat workspace running, you must confirm that it is actively linked to a Cloud account. To verify, see [connectivity-services.md](../../use-rocket.chat/workspace-administration/connectivity-services.md "mention").&#x20;
+If you already have a Rocket.Chat workspace running, you must confirm that it is actively linked to a Cloud account. To verify, see [registration.md](../../use-rocket.chat/workspace-administration/registration.md "mention").&#x20;
 
 After connecting to the Cloud account,&#x20;
 

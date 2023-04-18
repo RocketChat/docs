@@ -30,8 +30,8 @@ To connect your workspace to our Rocket.Chat Cloud, you must be running a suppor
 
 The registration steps are different depending on the version of Rocket.Chat your workspace is running on.
 
-1. [Workspaces as from Rocket.Chat 6.x](connectivity-services.md#workspaces-as-from-rocket.chat-6.x)
-2. [Workspaces below Rocket.Chat 6.x](connectivity-services.md#workspaces-below-rocket.chat-6.x)
+1. [Workspaces as from Rocket.Chat 6.x](registration.md#workspaces-as-from-rocket.chat-6.x)
+2. [Workspaces below Rocket.Chat 6.x](registration.md#workspaces-below-rocket.chat-6.x)
 
 ### Workspaces as from Rocket.Chat 6.x
 

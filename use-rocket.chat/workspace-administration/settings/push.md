@@ -64,8 +64,8 @@ When you purchase a  package for push notifications as a self-managed customer, 
 
 Link and sync your account in the Connectivity Services menu.
 
-{% content-ref url="../connectivity-services.md" %}
-[connectivity-services.md](../connectivity-services.md)
+{% content-ref url="../registration.md" %}
+[registration.md](../registration.md)
 {% endcontent-ref %}
 
 ## Check the count of notifications used per month
