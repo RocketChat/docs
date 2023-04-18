@@ -33,7 +33,7 @@ To set up an Azure Active Directory App for your organization,
 * Click **Register**. Copy the **Application (client) ID** and **Directory (tenant) ID** shown on the overview page.&#x20;
 * Click **Add a certificate or secret > New Client Secret.** Fill in the description and expiration timeline. Then, click **Add**.
 * After the client secret is created, copy the **Client Secret Value**.
-* Navigate to **API permissions**. Select **Add a permission**, add the set of required permissions, and click **grant admin consent for org**. The table below outlines the required permissions you'll need to set.
+* Navigate to **API permissions**. Select **Add a permission**, add the set of required permissions, and click **Grant admin consent for org**. The table below outlines the required permissions you'll need to set.
 
 | Name                                     | Type        | Description                                                                                | Requires Admin Consent |
 | ---------------------------------------- | ----------- | ------------------------------------------------------------------------------------------ | ---------------------- |
@@ -77,4 +77,4 @@ To set up an Azure Active Directory App for your organization,
 Ensure you use the correct credentials and set the appropriate API permissions on the Azure Active Directory.
 {% endhint %}
 
-> This app was developed by Yuqing Bian during [Google Summer of Code 2022](https://summerofcode.withgoogle.com/archive/2022/projects/Vro3kgDy).
+> This app was developed by Yuqing Bian during Google Summer of Code 2022.

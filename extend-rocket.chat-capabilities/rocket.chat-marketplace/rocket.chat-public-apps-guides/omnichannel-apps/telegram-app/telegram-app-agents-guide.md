@@ -1,27 +1,17 @@
-# Telegram App Agent's Guide
+# Telegram Agent's Guide
 
-If you have Telegram app integration in place and a user sends you a message on your Telegram business page using their Telegram account, as shown below:
+If you set up Telegram app integration and a user sends you a message on the connected Telegram bot,
 
-![](<../../../../../.gitbook/assets/IMG\_3509 (1).PNG>)
+* It appears in your Rocket.Chat workspace, just like any other Omnichannel conversation available for an [agent ](../../../../../use-rocket.chat/omnichannel/agents.md)to take it.
+* You can respond to the customer from your workspace, who receives the response on Telegram.&#x20;
+* You can also send and receive files during the conversation.
 
-it appears in your Rocket.Chat workspace just like any other Omnichannel conversation.
+## Quick Replies
 
-![](<../../../../../.gitbook/assets/image (596).png>)
+You can also use quick reply buttons to send or receive quick replies on telegram. This is useful and required for companies with a chatbot user serving Omnichannel conversations. You need to have a bot ([Dialogflow](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/dialogflow-app)/[RASA](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/rasa-app)) configured before implementing bot quick replies.
 
-Click **Take It!** to serve this conversation.
+* Navigate to **Administration > Workspace > Settings > Omnichannel > Routing.**
+* Enable [**Assign new conversations to bot agent**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#routing). The routing system attempts to find a bot agent, if any exists, before addressing new conversations to a human agent.
 
-### Send/Receive Files
+![Quick repiles](<../../../../../.gitbook/assets/telegram quick replies .png>)
 
-You can send to and receive files and voice notes from your Telegram end-user, as shown below:
-
-![](<../../../../../.gitbook/assets/image (627).png>)
-
-### Quick Replies
-
-You can also use quick reply buttons to send quick replies on telegram.
-
-![](<../../../../../.gitbook/assets/telegram quick replies .png>)
-
-{% hint style="info" %}
-Please note that, for this configuration, you need to have a bot ([Dialogflow](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/dialogflow-app)/[RASA](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/rasa-app)) configured.
-{% endhint %}
