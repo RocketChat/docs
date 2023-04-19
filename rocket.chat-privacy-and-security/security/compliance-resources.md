@@ -1,8 +1,8 @@
 # Compliance Resources and Certifications
 
-On this page, we provide you with resources around compliance of Rocket.Chat with industry standards, regulations and best practices. Also our certifications are listed here. Contact our specialists for further information under [security@rocket.chat](mailto:security@rocket.chat).
+On this page, we provide you with resources around compliance of Rocket.Chat with industry standards, regulations and best practices. Also our certifications are listed here. Contact our specialists for further information under mayara.santos@[rocket.chat](mailto:security@rocket.chat).
 
-Each resource is tagged with a section to indicate the scope. Some resources only apply to our hosted services, others to our self-managed product or else.
+Each resource is tagged with a section to indicate the scope.&#x20;
 
 ## Compliance certifications
 
@@ -29,19 +29,3 @@ ISO 27001 certificate 2020
 * **Certifying body**: QMS Certification Services
 * **Validity**: July 2020 - July 2023
 * **Use cases** for Rocket.Chat users: due diligence, security review, regulatory compliance, internal audit, supply chain audit
-
-## Industry-specific resources
-
-### Cloud Security Alliance (CSA)
-
-{% hint style="info" %}
-Scope: **Hosted Offering**
-{% endhint %}
-
-Rocket.Chat has published a pre-filled questionnaire in the STAR-registry of the CSA [here](https://cloudsecurityalliance.org/star/registry/rocket-chat). The CSA is a leading organization in the standardization and improvement of security in cloud computing. The Consensus Assessments Initiative Questionnaire (CAIQ) is a self-assessment that is updated on an annual basis.
-
-* Name: Consensus Assessments Initiative Questionnaire
-* Last Update: October 2019 (outdated - new update in Q2/2023)
-* Use cases: due diligence, security review
-
-## Country-specific resources

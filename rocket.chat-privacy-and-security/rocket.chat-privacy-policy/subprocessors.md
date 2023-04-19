@@ -77,10 +77,10 @@ You may object to a subprocessor by submitting your objection by email to [priva
 
 Due to the nature of our business, we are consistently updating the list and controls of our subprocessors.
 
-For more information on Rocket.Chat's privacy practices, please visit our [Privacy Policy.](https://docs.rocket.chat/privacy-and-security/privacy-policies/privacy) If you have questions regarding this page, please get in touch with us at privacy@rocket.chat.&#x20;
+For more information on Rocket.Chat's privacy practices, please visit our[ Privacy Policy](./). If you have questions regarding this page, please get in touch with us at privacy@rocket.chat.&#x20;
 
 ### Previous Versions of this Subprocessors List
 
-{% file src="../../../.gitbook/assets/Rocket.Chat-Subprocessors-list-01-05-2023.pdf" %}
+{% file src="../../.gitbook/assets/Rocket.Chat-Subprocessors-list-01-05-2023.pdf" %}
 
-{% file src="../../../.gitbook/assets/Subprocessors-list-10-23-20.pdf" %}
+{% file src="../../.gitbook/assets/Subprocessors-list-10-23-20.pdf" %}
