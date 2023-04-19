@@ -38,7 +38,7 @@ This is an exciting opportunity to work on a cutting edge project with a dynamic
 \
 Current documentation is under the[ JS SDK repository README](https://github.com/RocketChat/Rocket.Chat.js.SDK)
 
-**Related Material**: [Existing developers guides](https://docs.rocket.chat/guides/developer), [JS SDK repository](https://github.com/RocketChat/Rocket.Chat.js.SDK)
+**Related Material**: [Existing developers guides](https://developer.rocket.chat/), [JS SDK repository](https://github.com/RocketChat/Rocket.Chat.js.SDK)
 
 ### Measuring Success
 

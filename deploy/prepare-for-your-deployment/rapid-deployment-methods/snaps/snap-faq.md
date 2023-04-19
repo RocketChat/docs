@@ -84,7 +84,7 @@ systemctl status snap.rocketchat-server.rocketchat-server
 
 ### How can I view the logs?
 
-You can either use the `snap logs` command, or the systemd alternative, `journalctl`. Always refer to [this table](https://docs.rocket.chat/installing-and-updating/snaps#how-do-i-list-the-services-shipped-with-rocket-chat-snap) to know which service name to use where.
+You can either use the `snap logs` command, or the systemd alternative, `journalctl`. Always refer to [this table](snap-faq.md#how-do-i-list-the-services-shipped-with-rocket.chat-snap) to know which service name to use where.
 
 Using `snap logs`:
 

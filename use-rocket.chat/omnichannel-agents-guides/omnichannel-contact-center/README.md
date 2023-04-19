@@ -1,6 +1,6 @@
 # Omnichannel Contact Center
 
-,The Omnichannel Contact Center is a directory of contacts, chats, and calls.
+The Omnichannel Contact Center is a directory of contacts, chats, and calls.
 
 To access the Contact Center, click the <img src="../../../.gitbook/assets/contact-center.png" alt="" data-size="line"> icon on the Omnichannel navigation tab, and a screen displaying all the records is seen.
 
