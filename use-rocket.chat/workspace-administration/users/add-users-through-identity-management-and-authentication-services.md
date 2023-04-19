@@ -6,24 +6,40 @@ Rocket. Chat provides you with various options for adding users to your workspac
 
 LDAP configuration on Rocket.Chat can be used to establish connections, used for authentication, storing information about users and sync your data.
 
-**LDAP** (Lightweight Directory Access Protocol) enables anyone to locate data about your server or company. [https://docs.rocket.chat/guides/administration/admin-panel/settings/ldap/ldap-sync-settings#sync-import](https://docs.rocket.chat/guides/administration/admin-panel/settings/ldap/ldap-sync-settings#sync-import)
+**LDAP** (Lightweight Directory Access Protocol) enables anyone to locate data about your server or company.
 
 To configure LDAP authentication, go to **Administration** > **Workspace** > **Setting** > **LDAP.**
 
+{% content-ref url="../settings/ldap/" %}
+[ldap](../settings/ldap/)
+{% endcontent-ref %}
+
 ### SAML
 
-**SAML** (Security Assertion Markup Language) is used for exchanging authentication and authorization data. [https://docs.rocket.chat/guides/administration/admin-panel/settings/saml/rocket.chat-server-settings#connection](https://docs.rocket.chat/guides/administration/admin-panel/settings/saml/rocket.chat-server-settings#connection)
+**SAML** (Security Assertion Markup Language) is used for exchanging authentication and authorization data.
 
 To access SAML setting, go to **Administration** > **Workspace** > **Settings** > **SAML.**
 
+{% content-ref url="../settings/saml/" %}
+[saml](../settings/saml/)
+{% endcontent-ref %}
+
 ### OAuth
 
-You can configure authentication methods beyond just username and password. [https://docs.rocket.chat/guides/administration/admin-panel/settings/oauth](https://docs.rocket.chat/guides/administration/admin-panel/settings/oauth)
+You can configure authentication methods beyond just username and password.&#x20;
 
-To access OAuth setting, go to **Administration > Workspace > Settings> OAuth.**
+To access OAuth setting, go to **Administration > Workspace > Settings > OAuth.**
+
+{% content-ref url="../settings/oauth/" %}
+[oauth](../settings/oauth/)
+{% endcontent-ref %}
 
 ### CAS
 
-**CAS** (Central Authentication Service) allows members to use one set of credentials to sign in to multiple sites over multiple protocols. [https://docs.rocket.chat/guides/administration/admin-panel/settings/cas](https://docs.rocket.chat/guides/administration/admin-panel/settings/cas)
+**CAS** (Central Authentication Service) allows members to use one set of credentials to sign in to multiple sites over multiple protocols.
 
 To access this setting, go to **Administration** > **Workspace** > **Settings** > **CAS**.
+
+{% content-ref url="../settings/cas.md" %}
+[cas.md](../settings/cas.md)
+{% endcontent-ref %}

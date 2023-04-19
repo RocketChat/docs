@@ -8,10 +8,9 @@ If you set up Telegram app integration and a user sends you a message on the con
 
 ## Quick Replies
 
-You can also use quick reply buttons to send or receive quick replies on telegram. This is useful and required for companies with a chatbot user serving Omnichannel conversations. You need to have a bot ([Dialogflow](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/dialogflow-app)/[RASA](https://docs.rocket.chat/guides/app-guides/omnichannel-apps/rasa-app)) configured before implementing bot quick replies.
+You can also use quick reply buttons to send or receive quick replies on telegram. This is useful and required for companies with a chatbot user serving Omnichannel conversations. You need to have a bot ([Dialogflow](../dialogflow-app/)/[RASA](../rasa-app.md)) configured before implementing bot quick replies.
 
 * Navigate to **Administration > Workspace > Settings > Omnichannel > Routing.**
 * Enable [**Assign new conversations to bot agent**](https://docs.rocket.chat/guides/administration/settings/omnichannel-admins-guide#routing). The routing system attempts to find a bot agent, if any exists, before addressing new conversations to a human agent.
 
 ![Quick repiles](<../../../../../.gitbook/assets/telegram quick replies .png>)
-

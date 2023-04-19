@@ -21,11 +21,11 @@ Install your FreePBX server, as usual (that’s out of the scope of this tutoria
 yum update -y
 ```
 
-Enter your server web interface [http://your.domain.name](http://your.domain.name/) and set the password and update settings, and do the activation process. Do not skip the activation process, as you’ll need some features later that are only available if you activate your server instance. Complete the firewall basic configuration.
+Enter your server web interface `http://your.domain.name` and set the password and update settings, and do the activation process. Do not skip the activation process, as you’ll need some features later that are only available if you activate your server instance. Complete the firewall basic configuration.
 
 ## 2. Configure the FreePBX firewall
 
-Now you need to prepare the FreePBX firewall to accept AMI (Asterisk Manager Interface) and WSS (WebSocket Secure).\\
+Now you need to prepare the FreePBX firewall to accept AMI (Asterisk Manager Interface) and WSS (WebSocket Secure).
 
 ### 2.1 Configure custom services AMI and WSS
 
@@ -133,7 +133,7 @@ Using the command `http show status` verify that both HTTP and HTTPS are up and 
 
 ### 5.2 Enable the WS and WSS SIP transports
 
-Navigate to the **Settings > Asterisk SIP Settings**. In the **General SIP Settings** tab configure your audio codecs, enable video, and select video codecs (vp8 and vp9 needed for WebRTC), NAT, etc. Then in the **SIP Settings** (chan\_pjsip) tab, choose your valid SSL certificate for **TLS/SSL/SRTP** and enable all the desired transports, especially WS and WSS:
+Navigate to **Settings > Asterisk SIP Settings**. In the **General SIP Settings** tab configure your audio codecs, enable video, and select video codecs (vp8 and vp9 needed for WebRTC), NAT, etc. Then in the **SIP Settings** (chan\_pjsip) tab, choose your valid SSL certificate for **TLS/SSL/SRTP** and enable all the desired transports, especially WS and WSS:
 
 ![SIP transports](<../../../../.gitbook/assets/image (1281).png>)
 
@@ -142,8 +142,8 @@ Click submit and apply changes (an Asterisk restart is recommended)
 ### 5.3 Test Asterisk HTTP mini-server
 
 \
-Navigate to [https://mysub.domainname.domain:8089/httpstatus](https://mysub.domainname.domain:8089/httpstatus) and verify that it loads, SSL Port is present, and the SSL certificate is valid:
+Navigate to `https://mysub.domainname.domain:8089/httpstatus` and verify that it loads, SSL Port is present, and the SSL certificate is valid:
 
 ![Asterisk status](<../../../../.gitbook/assets/image (1157).png>)
 
-Congratulations! you have a valid SSL Asterisk WebRTC-ready server up and running.
+Congratulations! You have a valid SSL Asterisk WebRTC-ready server up and running.

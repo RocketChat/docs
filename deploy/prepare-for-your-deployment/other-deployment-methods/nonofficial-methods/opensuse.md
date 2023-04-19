@@ -254,13 +254,17 @@ ufs: temp directory created at "/tmp/ufs"
 
 These are docs and snippets I used to figure all of this out.
 
-[https://en.opensuse.org/MongoDB](https://en.opensuse.org/MongoDB)
+{% embed url="https://en.opensuse.org/MongoDB" %}
 
-[https://docs.rocket.chat/installation/manual-installation/ubuntu/](https://docs.rocket.chat/installation/manual-installation/ubuntu/)
+{% content-ref url="../manual-installation/debian-based-distros/ubuntu.md" %}
+[ubuntu.md](../manual-installation/debian-based-distros/ubuntu.md)
+{% endcontent-ref %}
 
-[https://docs.rocket.chat/installation/paas-deployments/aws/](https://docs.rocket.chat/installation/paas-deployments/aws/)
+{% content-ref url="../../cloud-deployments/aws.md" %}
+[aws.md](../../cloud-deployments/aws.md)
+{% endcontent-ref %}
 
-[https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-deploy-rocket-chat-on-ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-deploy-rocket-chat-on-ubuntu-14-04)
+{% embed url="https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-deploy-rocket-chat-on-ubuntu-14-04" %}
 
 ## Config Files
 

@@ -97,7 +97,7 @@ The command above will create a barebone service file; this service file is what
 
 ### Passing environment variables
 
-* Next, pass some environment variables to the running process. More information can be found at [Rocket.Chat environmental variables](https://docs.rocket.chat/deploy-rocket.chat/rocket.chat-environment-configuration/environment-variables).
+* Next, pass some environment variables to the running process. More information can be found at [Rocket.Chat environmental variables](../../../../rocket.chat-environment-configuration/environment-variables.md).
 * To update the Rocket.Chat file, run the following command :
 
 ```

@@ -10,7 +10,7 @@ The Nextcloud Rocket.Chat App integration offers a very powerful Open Source col
 
 To use the Nextcloud Rocket.App, you are expected to have the following workspaces running:
 
-* Rocket.Chat following our [deployment guide](https://github.com/RocketChat/docs/blob/master/quick-start/deploying-rocket.chat)
+* Rocket.Chat following our [deployment guide](broken-reference)
 * [Nextcloud](https://nextcloud.com)
 
 {% hint style="warning" %}
