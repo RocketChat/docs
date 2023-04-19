@@ -70,7 +70,7 @@ Our community of mentors is hard-at-work right now going through every one of th
 
 #### About Rocket.Chat GSoC 2019
 
-For ideas, check out our [list of ideas](https://docs.rocket.chat/contributing/google-summer-of-code-2019/#project-ideas) for some inspiration.
+For ideas, check out our [list of ideas](google-summer-of-code-2019.md#project-ideas) for some inspiration.
 
 Come meet our global community of 200+ mentors and students for GSoC 2019 and get some real-time help on next steps, please visit our 24 x 7 community server channel:
 
@@ -127,7 +127,7 @@ The leaderboard project **itself** is open source, created and maintained by our
 ### Improve Rocket.Chat Auto-Translate feature
 
 * **Mentors**: @marcelo.schmidt
-* **Project repository**: [https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-autotranslate](https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-autotranslate)
+* **Project repository**: https://github.com/RocketChat/Rocket.Chat/tree/develop/packages/rocketchat-autotranslate
 * **Description**: One of the most popular features in Rocket.Chat is auto-translate, where users can set their language preference to have all messages translated. This feature works by translating every incoming message into the user language of choice. We would like the student to make it possible for the package also to translate every message the user sends into another language. As a plus, if the student can implement a channel language setting, it would be superb.
 * **Desirable Skills:** Familiarity with Rocket.Chat development and meteor packages.
 

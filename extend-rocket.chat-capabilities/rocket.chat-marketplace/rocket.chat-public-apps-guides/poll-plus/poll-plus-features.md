@@ -65,7 +65,7 @@ Some excellent use-cases for the Live Poll are stand-up and retro meetings. An a
 
 Here is how the Live Poll looks in action. The time at which the Poll will end is shown in the below figure.
 
-If you're outside of the UTC timezone, you can configure the Poll Plus App to use your timezone. Refer the [configuration doc](https://github.com/RocketChat/docs/tree/5b094b49dc67c76d97a30a786a914ee16d5772b0/guides/app-guides/poll-plus/poll-plus-app-configuration/settings.md) for more information.
+If you're outside of the UTC timezone, you can configure the Poll Plus App to use your timezone. Refer the [configuration doc](./#configuration-settings) for more information.
 
 #### Late Retrieval
 

@@ -309,7 +309,7 @@ By using Rocket.Chat channels to manage the review process, teams can improve th
 
 PS: For more inspiration on how to solve this issue, please refer to some of these solutions on other platforms.
 
-* [Pull Remind](https://www.producthunt.com/products/pull-remind)
+* [Pull Remind](https://www.producthunt.com/products/pull-reminders)
 * [Axolo](https://axolo.co/blog/p/utlimate-slack-pull-request-reminder-bot)
 
 **Desirable Skills:** Advanced Typescript; Knowledge about Github API's; Rocket.Chat app-engine Framework; Familiarity with existing [Github App](https://github.com/RocketChat/Apps.Github22)
@@ -434,7 +434,7 @@ The implementation can also work optionally with blockchains and tokens from oth
 **Mentors:** Reinaldo Neto, Daniel Silva, Diego Mello\
 \
 **Description:**\
-[Off the Record Messaging](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/messaging/off-the-record-otr-messaging-guide) is a very popular and well loved feature of Rocket.Chat desktop and web client. It enable two parties to securely exchange encrypted message while both side are online, and not have the encrypted conversation be persisted in the chat history. However our mobile app currently does not support this. This project will add OTR support to our mobile apps.
+[Off the Record Messaging](../../../use-rocket.chat/user-guides/messages/off-the-record-otr-messaging-user-guide.md) is a very popular and well loved feature of Rocket.Chat desktop and web client. It enable two parties to securely exchange encrypted message while both side are online, and not have the encrypted conversation be persisted in the chat history. However our mobile app currently does not support this. This project will add OTR support to our mobile apps.
 
 **Desired Skills:** Advanced ReactNative. Knowledge of native Android and iOS app development.\
 \

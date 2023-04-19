@@ -22,11 +22,11 @@ To enable CDN in your workspace,
 
 This string will generate different outcomes depending on the value provided.
 
-| Value                                            | Example Url for Asset                                                              |
-| ------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| cdn                                              | /cdn/example-asset.js                                                              |
-| [http://cdn.domain.com](http://cdn.domain.com)   | [http://cdn.domain.com/example-asset.js](http://cdn.domain.com/example-asset.js)   |
-| [https://cdn.domain.com](https://cdn.domain.com) | [https://cdn.domain.com/example-asset.js](https://cdn.domain.com/example-asset.js) |
+| Value                  | Example Url for Asset                   |
+| ---------------------- | --------------------------------------- |
+| cdn                    | /cdn/example-asset.js                   |
+| http://cdn.domain.com  | http://cdn.domain.com/example-asset.js  |
+| https://cdn.domain.com | https://cdn.domain.com/example-asset.js |
 
 ### Use CDN Prefix for all assets
 

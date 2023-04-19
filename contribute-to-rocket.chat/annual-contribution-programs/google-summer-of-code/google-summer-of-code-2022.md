@@ -40,7 +40,7 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 **Final weeks status (Update on September 10th)**
 
-All of our active GSoC contributors, their mentors, Rocket.Chat team members, and our community all enjoyed the LIVE virtual event -  Rocket.Chat Google Summer of Code Demo Day - on September 8th, 2022.   We had 12 super innovative projects proudly presented by their creators, welcomed by Rocket.Chat's founders/project leaders/mentors, and supported by our enthusiastic community.   Anyone missing the live event can now view the[ proceedings of the entire day here](https://youtube.com/playlist?list=PLee3gqXJQrFUD5d8Y1qDhUwqxRLge9KxV).  Each presentation has been edited separately to help the creators to promote their open source projects (a few of which already welcomed new contributors of their own! ).   Detailed description of each of the 14 sessions are available  [here  ](https://conf.rceng.shop/conferences/c/1#sessions).\
+All of our active GSoC contributors, their mentors, Rocket.Chat team members, and our community all enjoyed the LIVE virtual event -  Rocket.Chat Google Summer of Code Demo Day - on September 8th, 2022.   We had 12 super innovative projects proudly presented by their creators, welcomed by Rocket.Chat's founders/project leaders/mentors, and supported by our enthusiastic community.   Anyone missing the live event can now view the[ proceedings of the entire day here](https://youtube.com/playlist?list=PLee3gqXJQrFUD5d8Y1qDhUwqxRLge9KxV).  Each presentation has been edited separately to help the creators to promote their open source projects (a few of which already welcomed new contributors of their own! ).\
 \
 These are the final weeks of GSoC 2022 for all of us,  contributors are busy wrapping up their administrative obligations and all mentors and contributors are getting ready for the final evaluations next week.&#x20;
 
@@ -57,22 +57,22 @@ Coding has started for all our GSoC 2022 projects. Mentors are busy guiding cont
 
 We are also planning a virtual conference at the end of the GSoC term - named GSoC 2022 Demo Day. Mentors and contributor from each project will collaborate in presenting the final result. Please stay tuned for more information in late July.
 
-| Project                                                            | Repository                                                                                                                                              |
-| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Standalone Desktop Messaging cross-platforms Applet                | [https://github.com/RocketChat/SlimDesktopApp](https://github.com/RocketChat/SlimDesktopApp)                                                            |
-| Weekly Video Meeting and Archive App - BigBlueButton + Rocket.Chat | [https://github.com/RocketChat/Apps.BigBlueButton](https://github.com/RocketChat/Apps.BigBlueButton)                                                    |
-| New Emoji Picker for Mobile Client                                 | [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)                                          |
-| Rocket.Chat for Virtual Conferences - Eventyay integration         | [https://github.com/RocketChat/RC4Conferences](https://github.com/RocketChat/RC4Conferences)                                                            |
-| Rocket.Chat Golang SDK                                             | [https://github.com/RocketChat/Rocket.Chat.Go.SDK](https://github.com/RocketChat/Rocket.Chat.Go.SDK)                                                    |
-| Figma App ( Rocket.Chat Integration )                              | [https://github.com/RocketChat/Apps.Figma](https://github.com/RocketChat/Apps.Figma)                                                                    |
-| ClickUp App for Rocket.Chat                                        | [https://github.com/RocketChat/Apps.ClickUp](https://github.com/RocketChat/Apps.ClickUp)                                                                |
-| Message Forwarding                                                 | (branch) [https://github.com/RocketChat/Rocket.Chat/tree/new/message-forwarding](https://github.com/RocketChat/Rocket.Chat/tree/new/message-forwarding) |
-| GitHub App                                                         | [https://github.com/RocketChat/Apps.Github22](https://github.com/RocketChat/Apps.Github22)                                                              |
-| Botpress Connector Enhancements                                    | [https://github.com/RocketChat/rocketchat-botpress-lab-bot](https://github.com/RocketChat/rocketchat-botpress-lab-bot)                                  |
-| Rocket.Chat ReactJS fullstack Component                            | [https://github.com/RocketChat/EmbeddedChat](https://github.com/RocketChat/EmbeddedChat)                                                                |
-| Rocket.Chat TUI                                                    | [https://github.com/RocketChat/rocketchat-tui](https://github.com/RocketChat/rocketchat-tui)                                                            |
-| Playground for UIKit ReactJS components                            |                                                                                                                                                         |
-| Rocket.Chat - Teams Bridge: interop with Microsoft Teams           | [https://github.com/RocketChat/Apps.teams.bridge](https://github.com/RocketChat/Apps.teams.bridge)                                                      |
+| Project                                                            | Repository                                                                                                             |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| Standalone Desktop Messaging cross-platforms Applet                | [https://github.com/RocketChat/SlimDesktopApp](https://github.com/RocketChat/SlimDesktopApp)                           |
+| Weekly Video Meeting and Archive App - BigBlueButton + Rocket.Chat | [https://github.com/RocketChat/Apps.BigBlueButton](https://github.com/RocketChat/Apps.BigBlueButton)                   |
+| New Emoji Picker for Mobile Client                                 | [https://github.com/RocketChat/Rocket.Chat.ReactNative](https://github.com/RocketChat/Rocket.Chat.ReactNative)         |
+| Rocket.Chat for Virtual Conferences - Eventyay integration         | [https://github.com/RocketChat/RC4Conferences](https://github.com/RocketChat/RC4Conferences)                           |
+| Rocket.Chat Golang SDK                                             | [https://github.com/RocketChat/Rocket.Chat.Go.SDK](https://github.com/RocketChat/Rocket.Chat.Go.SDK)                   |
+| Figma App ( Rocket.Chat Integration )                              | [https://github.com/RocketChat/Apps.Figma](https://github.com/RocketChat/Apps.Figma)                                   |
+| ClickUp App for Rocket.Chat                                        | [https://github.com/RocketChat/Apps.ClickUp](https://github.com/RocketChat/Apps.ClickUp)                               |
+| Message Forwarding                                                 | (branch) https://github.com/RocketChat/Rocket.Chat/tree/new/message-forwarding                                         |
+| GitHub App                                                         | [https://github.com/RocketChat/Apps.Github22](https://github.com/RocketChat/Apps.Github22)                             |
+| Botpress Connector Enhancements                                    | [https://github.com/RocketChat/rocketchat-botpress-lab-bot](https://github.com/RocketChat/rocketchat-botpress-lab-bot) |
+| Rocket.Chat ReactJS fullstack Component                            | [https://github.com/RocketChat/EmbeddedChat](https://github.com/RocketChat/EmbeddedChat)                               |
+| Rocket.Chat TUI                                                    | [https://github.com/RocketChat/rocketchat-tui](https://github.com/RocketChat/rocketchat-tui)                           |
+| Playground for UIKit ReactJS components                            |                                                                                                                        |
+| Rocket.Chat - Teams Bridge: interop with Microsoft Teams           | [https://github.com/RocketChat/Apps.teams.bridge](https://github.com/RocketChat/Apps.teams.bridge)                     |
 
 **Mentors welcome contributors from 14 accepted projects (Update May 20th)**
 
@@ -111,7 +111,7 @@ Momentum for proposal submission is building up. As our GSoC 2022 community of *
 
 #### **Successful Virtual Alumni Summit (Update April 6th)**
 
-We held our 2nd annual Rocket.Chat Google Summer of Code Alumni Summit on April 6th. It was exciting to bring back Google Summer of Code participants from our previous five years to speak and help this year's contributors in crafting their winning proposals. We have alumni from all walks of life speaking, see [official poster for this event](https://community.rocket.chat/virtualconf/mainstage). There were 11 fascinating sessions and we welcomed a total of 156 unique individuals throughout the day at the summit. We expect hundreds more new contributors to benefit from the recorded sessions.\
+We held our 2nd annual Rocket.Chat Google Summer of Code Alumni Summit on April 6th. It was exciting to bring back Google Summer of Code participants from our previous five years to speak and help this year's contributors in crafting their winning proposals. We have alumni from all walks of life speaking. There were 11 fascinating sessions and we welcomed a total of 156 unique individuals throughout the day at the summit. We expect hundreds more new contributors to benefit from the recorded sessions.\
 \
 All of the sessions are recorded and are available directly from our [YouTube Playlist.](https://www.youtube.com/playlist?list=PLee3gqXJQrFW3dMG1P8qGzQ7E7Ea1SB80) The tips and best practices shared by our alumni apply to the entire Google Summer of Code contributors, and are not Rocket.Chat specific. We hope these recordings will benefit all those who intend to submit proposals this season.
 

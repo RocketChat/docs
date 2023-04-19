@@ -66,7 +66,7 @@ We are having a phenomenal Google Summer of Code season this year, participation
 \
 In our [24 x 7 GSoC 2021 channel ](https://open.rocket.chat/channel/gsoc2021)- we have over **473 mentors, alumni and students** collaborating actively on GSoC projects. On our[ GSoC leaderboard](https://gsoc.rocket.chat), we are tracking **219 students** actively contributing code to the Rocket.Chat open source ecosystem. As of today, we have welcomed **17 new code committers** to our projects. With a total of **138 merged PRs**, **182 open PRs,** and **246 issues** raised by GSoC 2021 students so far.\
 \
-To rally student spirit and assist them in creating their proposal, we organized an [Alumni Re-union Summit](https://community.rocket.chat/events/gsoc2021.html) where we invited former Rocket.Chat GSoC Alumni from all previous years to share tips with this year's GSoC students. More than **20 students** attended throughout the day to enjoy the talks from **10 alumni and mentors**. Highlight talks included one from a Facebook engineer and a Brazilian open source movement champion.\
+To rally student spirit and assist them in creating their proposal, we organized an **Alumni Re-union Summit** where we invited former Rocket.Chat GSoC Alumni from all previous years to share tips with this year's GSoC students. More than **20 students** attended throughout the day to enjoy the talks from **10 alumni and mentors**. Highlight talks included one from a Facebook engineer and a Brazilian open source movement champion.\
 \
 As of student application deadline on April 13th, Rocket.Chat has received a total of **98 proposals** from interested students. Mentors are now busy reviewing the proposals and continuing to keep the students engaged on contributing to the Rocket.Chat open source ecosystem.
 
@@ -155,7 +155,7 @@ Interested students are also encouraged to interact with our core team and contr
     Checkout these links for the context:
 
     * [Apps-Engine E2E Testing GitHub Workflow](https://github.com/RocketChat/Rocket.Chat.Apps-engine/pull/366)
-    * [Apps-Engine E2E Testing Folder on Rocket.Chat side](https://github.com/RocketChat/Rocket.Chat/tree/develop/tests/end-to-end/apps)
+    * [Apps-Engine E2E Testing Folder on Rocket.Chat side](https://github.com/RocketChat/Rocket.Chat/tree/develop/apps/meteor/tests/end-to-end/apps)
 * **Desirable Skills:** Familiarity with JavaScript. Experience with TypeScript and end-to-end testing is better.
 
 ### Poll App Mega Extensions
@@ -171,7 +171,7 @@ Interested students are also encouraged to interact with our core team and contr
     * Ability to add emoticons on the response options
     * Ability to create `/poll live` or `/live-poll` feature - it has 2 parts (prepare a set of questions beforehand and retrieve it just before the live poll starts. During the live-poll, a countdown timer for each question is shown, and upon completion, the responses are shown visually) a.k.a. multi-question version of the single poll feature
     * (Stretch Goal) Ability to download the `live-poll` response, once the poll is over
-    * Enhance[ UIKit](https://docs.rocket.chat/apps-development/uikit) if needed to meet the above goals
+    * Enhance UIKit if needed to meet the above goals
 * **Desirable Skills:** The sky is _not even the limit_ for this project. We will need a hot-shot all round challenge-loving student already familiar with JavaScript, TypeScript, React,[ current poll-app codebase](https://github.com/sampaiodiego/rocket.chat.app-poll) and [Rocket.Chat + Fuselage codebase](https://github.com/RocketChat/Rocket.Chat.Fuselage).
 
 ### **Language Power Tools**
