@@ -12,7 +12,7 @@
 ### Certification
 
 * **Custom Certificate**: This is the public certificate for IdP providers used to verify SAML requests. The format for this is PEM without `-----BEGIN CERTIFICATE-----` and `--`
-*   **Public Cert Contents**: The public part of the self-signed certificate you created for encrypting your SAML transactions. [Example of self-signed certificate on the SimpleSAMLphp website here](https://simplesamlphp.org/docs/latest/simplesamlphp-sp.html#enabling-a-certificate-for-your-service-provider).
+*   **Public Cert Contents**: The public part of the self-signed certificate you created for encrypting your SAML transactions. [Example of self-signed certificate on the SimpleSAMLphp website here](https://simplesamlphp.org/docs/stable/simplesamlphp-sp.html#enabling-a-certificate-for-your-service-provider).
 
     Format for this is PEM WITH `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`
 * **Signature Validation Type**: Select the type of signature validation. _`This setting will be ignored if no Custom Certificate is provided`**.**_
@@ -100,7 +100,7 @@
 
 ### Mapping
 
-* **User Data Field Map**: Configure how user account fields (like email) are populated from a record in SAML (once found). As an example, `{"name":"cn", "email":"mail"}`  chooses a person's human-readable name from the cn attribute, and their email from the mail attribute. Available fields in Rocket.Chat: `name`, `email` and `username`. Everything else is discarded.
+* **User Data Field Map**: Configure how user account fields (like email) are populated from a record in SAML (once found). As an example, `{"name":"cn", "email":"mail"}` chooses a person's human-readable name from the cn attribute, and their email from the mail attribute. Available fields in Rocket.Chat: `name`, `email` and `username`. Everything else is discarded.
 
 ```json
 {

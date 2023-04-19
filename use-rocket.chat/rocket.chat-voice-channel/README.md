@@ -14,7 +14,7 @@ In the following articles, we help you onboard and start using **Rocket.Chat's v
 
 <summary><strong>Inbound Calls</strong></summary>
 
-\*\*\*\*[**Inbound Calls**](https://docs.rocket.chat/guides/rocket.chat-voice-channel/voice-channel-agent-guides/how-to-take-a-call-in-rocket.chat-voice-channel) are great for having local visibility in various markets around the world. These calls allow you to receive calls on your business platform initiated by your customers using their mobile or landline phones.
+[**Inbound Calls**](voice-channel-agent-guides/how-to-take-a-call-in-rocket.chat-voice-channel.md) are great for having local visibility in various markets around the world. These calls allow you to receive calls on your business platform initiated by your customers using their mobile or landline phones.
 
 </details>
 
@@ -28,19 +28,19 @@ With [**outbound calls**](voice-channel-agent-guides/how-to-initiate-an-outbound
 
 ### Key capabilities of the Voice Channel
 
-|                                                                                                               Feature                                                                                                               | Community Edition | Enterprise Edition |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------: | :----------------: |
-|                                                                                                          **Inbound calls**                                                                                                          |       **✓**       |        **✓**       |
-|                                                                                                           **Call history**                                                                                                          |       **✓**       |        **✓**       |
-| **In-App SIP** [**extension management**](https://docs.rocket.chat/guides/rocket.chat-voice-channel/getting-started-with-voice-channel/configure-with-an-active-pbx-server/associate-agents-with-extensions-in-rocket.chat)\*\*\*\* |       **✓**       |        **✓**       |
-|                                                                                                            **Call mute**                                                                                                            |       **✓**       |        **✓**       |
-|                                                                                                          **Outbound calls**                                                                                                         |       **x**       |        **✓**       |
-|                                                                                                          **Calls on hold**                                                                                                          |       **x**       |        **✓**       |
-|                                                                                                           **Call Dialer**                                                                                                           |       **x**       |        **✓**       |
-|                                                                                                            **Call notes**                                                                                                           |       **x**       |        **✓**       |
-|                                                                                                         **Device selection**                                                                                                        |       **x**       |        **✓**       |
-|                                                                                                            Call transfer                                                                                                            |       **x**       |     Coming soon    |
-|                                                                                                            VoIP on mobile                                                                                                           |       **x**       |     Coming soon    |
-|                                                                                                              Voicemail                                                                                                              |       **x**       |     Coming soon    |
+|                                                  Feature                                                  | Community Edition | Enterprise Edition |
+| :-------------------------------------------------------------------------------------------------------: | :---------------: | :----------------: |
+|                                             **Inbound calls**                                             |       **✓**       |        **✓**       |
+|                                              **Call history**                                             |       **✓**       |        **✓**       |
+| **In-App SIP**[ **extension management**](voice-channel-admin-guide/configure-with-an-active-pbx-server/) |       **✓**       |        **✓**       |
+|                                               **Call mute**                                               |       **✓**       |        **✓**       |
+|                                             **Outbound calls**                                            |       **x**       |        **✓**       |
+|                                             **Calls on hold**                                             |       **x**       |        **✓**       |
+|                                              **Call Dialer**                                              |       **x**       |        **✓**       |
+|                                               **Call notes**                                              |       **x**       |        **✓**       |
+|                                            **Device selection**                                           |       **x**       |        **✓**       |
+|                                               Call transfer                                               |       **x**       |     Coming soon    |
+|                                               VoIP on mobile                                              |       **x**       |     Coming soon    |
+|                                                 Voicemail                                                 |       **x**       |     Coming soon    |
 
 To configure **Voice Channel** on your Rocket.Chat workspace, follow the [**administration guide**](voice-channel-admin-guide/). If you have it configured already, follow the [**agent's guide**](voice-channel-agent-guides/) to start using it.

@@ -11,7 +11,7 @@ To access this menu:
 Navigate to **Administration** > **Workspace** > **Invites**.
 
 {% hint style="info" %}
-Please follow the link to find out how these[ invite links](https://docs.rocket.chat/guides/user-guides/teams/teams-members#invite-link) are created.
+Please follow the link to find out how these[ invite links](../user-guides/rooms/teams/manage-team-members.md#send-an-invite-link) are created.
 {% endhint %}
 
 ## Delete a record

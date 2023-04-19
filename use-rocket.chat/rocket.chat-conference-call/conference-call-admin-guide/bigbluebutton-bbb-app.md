@@ -19,7 +19,7 @@ To download the BigBlueButton app,
 To set up the **BBB** app on your workspace,
 
 * Confirm that the app is enabled.
-* Run `sudo bbb-conf --secret` on the BBB server. It gives you a **URL** and a **Secret**.  See [ BBB's documentation](https://docs.bigbluebutton.org/admin/bbb-conf.html).
+* Run `sudo bbb-conf --secret` on the BBB server. It gives you a **URL** and a **Secret**.  See [ BBB's documentation](https://docs.bigbluebutton.org/administration/bbb-conf).
 * Use this URL and Secret in the Settings tab of the app to connect to BBB
 * Click **Save Changes**
 

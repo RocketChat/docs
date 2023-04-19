@@ -25,8 +25,8 @@ Your Rocket.Chat workspace is the _CAS client_. You must provide a compatible _C
 Once you know your CAS server's URL, proceed with the settings below
 
 * **Enabled**: Enable CAS on your workspace
-* **SSO Base URL**: The base URL of your external SSO service e.g [`https://sso.example.undef/sso/`](https://sso.example.undef/sso/)\`\`
-* **SSO Login URL**: The login URL of your external SSO service e.g [`https://<<CAS_server_url>>/cas/login`](https://sso.example.undef/sso/login)\`\`
+* **SSO Base URL**: The base URL of your external SSO service e.g `https://sso.example.undef/sso/`
+* **SSO Login URL**: The login URL of your external SSO service e.g `https://<<CAS_server_url>>/cas/login`
 * **CAS Version**: Only use a supported CAS version supported by your CAS SSO service e.g `(1.0|2.0)`
 
 The `/cas` and `/cas/login` URLs are defaults but not mandatory. Check with your CAS server provider if the defaults do not work.
@@ -57,5 +57,5 @@ After successful configuration, your registration and login screens have the CAS
 
 {% hint style="info" %}
 * CAS by ja-sig requires `ssl/tls` all connections.
-* Any Drupal 7 or 8 sites can serve as a compatible CAS Server. See [drupal.org/project/cas](https://www.drupal.org/project/cas).
+* Any Drupal 7 or 8 sites can serve as a compatible CAS Server. See [https://www.drupal.org/project/cas](https://www.drupal.org/project/cas).
 {% endhint %}

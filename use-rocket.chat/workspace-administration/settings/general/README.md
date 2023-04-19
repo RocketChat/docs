@@ -45,7 +45,7 @@ _Force SSL_ should never be used with reverse proxy. If you have a reverse proxy
 * **Bugsnag API Key**: If you are integrating Bugsnag with Rocket.Chat, you should put your Bugsnag API Key here.
 * **Store Last Message**: Store the last message sent in each room. This enables the viewing of the last message on the left sidebar (should be on by default)
 * **Robots.txt File Contents**: This sets the content of the Robots.txt file, used to help index your workspace on different search engines and crawlers
-* **Default Referrer Policy**: This controls the 'referrer' header that's sent when requesting embedded media from other workspaces. For more information, refer to [MDN. ](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy'%3Ethis)Remember, a full page refresh is required for this to take effect
+* **Default Referrer Policy**: This controls the 'referrer' header that's sent when requesting embedded media from other workspaces. For more information, refer to [MDN. ](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy)Remember, a full page refresh is required for this to take effect
 * **Enable second-layer encryption for data transport**: Lets you enable second-layer encryption.
 
 {% hint style="info" %}
@@ -96,7 +96,7 @@ Setting this to false makes your workspace only accept requests from the same do
 ## Iframe Integration
 
 {% hint style="info" %}
-To be able to use the microphone, camera, and geolocation in an iframe, be sure to allow [the iframe features policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Feature\_Policy/Using\_Feature\_Policy). Example
+To be able to use the microphone, camera, and geolocation in an iframe, be sure to allow [the iframe features policy](https://developer.mozilla.org/en-US/docs/Web/API/FeaturePolicy). Example
 
 ```html
 <iframe src="https://open.rocket.chat/" allow="geolocation; microphone; camera"></iframe>

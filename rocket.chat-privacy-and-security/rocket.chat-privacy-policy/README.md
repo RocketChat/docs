@@ -79,7 +79,7 @@ This Usage Data may include information such as your computer's Internet Protoco
 
 When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, the IP address of your mobile device, your mobile operating system, the app version, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
 
-As a byproduct of the usage data within a Rocket.Chat instance, Administrators may choose to share aggregated and therefore anonymous, non-personal data with us to help us learn more about how our product is being used. This setting is described [here](https://docs.rocket.chat/guides/administrator-guides/general#reporting). The information shared is the same information as is shown on the "info"-page of the administration panel of an instance. E.g. this statistics sharing would transmit the total # of channels, but it would not transmit the actual channel names, and so on, preserving the privacy of your workspace. This is completely optional to use and can be activated and deactivated at any time.
+As a byproduct of the usage data within a Rocket.Chat instance, Administrators may choose to share aggregated and therefore anonymous, non-personal data with us to help us learn more about how our product is being used. This setting is described [here](../../use-rocket.chat/workspace-administration/settings/general/). The information shared is the same information as is shown on the "info"-page of the administration panel of an instance. E.g. these statistics sharing would transmit the total # of channels, but it would not transmit the actual channel names, and so on, preserving the privacy of your workspace. This is completely optional to use and can be activated and deactivated at any time.
 
 #### Location Data
 
@@ -206,7 +206,7 @@ Ensuring the security of the data you entrust to us is one of our most important
 
 Your data can only be accessed by persons for whom it is necessary in relation to their work.
 
-We may outsource our processing of personal data to external service providers. In such events we enter into appropriate agreements with the providers in order to ensure that your personal data is processed in accordance with this Privacy Policy and any applicable laws. We also have received internationally recognised [security certifications](https://docs.rocket.chat/guides/security/compliance-resources#iso-27001-certification).
+We may outsource our processing of personal data to external service providers. In such events we enter into appropriate agreements with the providers in order to ensure that your personal data is processed in accordance with this Privacy Policy and any applicable laws. We also have received internationally recognised [security certifications](../security/compliance-resources.md).
 
 Although we do our best, given the nature of communications and information processing technology, we cannot guarantee that Information during transmission through the Internet or while stored on our systems or otherwise in our care will be absolutely safe from intrusion by others.
 
@@ -232,19 +232,19 @@ In accordance with applicable regulations and where applicable, you have the fol
 
 If you wish to exercise the rights listed above, please send your request to our Data Protection Office, the contact information of which is provided at the end of this Privacy Policy.
 
-Please include a scan/copy of your proof of identity for identification purpose when required.
+Please include a scan/copy of your proof of identity for identification purposes when required.
 
-In accordance with applicable regulation, in addition to your rights above, you are also entitled to lodge a complaint with the competent supervisory authority.
+In accordance with applicable regulations, in addition to your rights above, you are also entitled to lodge a complaint with the competent supervisory authority.
 
 ## Service Providers and Subprocessors
 
-We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.
+We may employ third-party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services, or to assist us in analyzing how our Service is used.
 
 These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
 
 ### Subprocessors
 
-We employ the subprocessors to process personal data. The current list of subprocessors can be found [here](https://docs.rocket.chat/legal/privacy/subprocessors).
+We employ subprocessors to process personal data. The current list of subprocessors can be found [here](./#subprocessors).
 
 ### Analytics
 

@@ -1,6 +1,6 @@
 # Getting Started with Voice Channel
 
-To use any Rocket.Chat products, you need to sign up for an [**Enterprise Edition free trial**](https://docs.rocket.chat/guides/enterprise-edition-trial) or have [Rocket.Chat community version deployed](https://docs.rocket.chat/quick-start/deploying-rocket.chat). If you already have an account and our other solutions, please proceed.
+To use any Rocket.Chat products, you need to sign up for an [**Enterprise Edition free trial**](https://docs.rocket.chat/guides/enterprise-edition-trial) or have [Rocket.Chat community version deployed](broken-reference). If you already have an account and our other solutions, please proceed.
 
 {% hint style="info" %}
 Requirements:

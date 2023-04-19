@@ -20,11 +20,11 @@ To install the Trello Rocket.Chat App,
 To configure the Trello App,
 
 * Go to the `trello.bot` chat. Run the slash command `/trello setup` in the chatbox. It displays a set of instructions to follow for setting up Trello.
-* Log in to your [Trello](https://trello.com/app-key/) account. Go to [Power-Up Admin Portal](https://trello.com/power-ups/admin/).
+* Log in to your [Trello](https://trello.com/) account. Go to [Power-Up Admin Portal](https://trello.com/power-ups/admin/).
 * Create a new or select an existing Power-Up. Then, navigate to **API key**.
 * Copy the server's URL displayed by the `trello.bot` and add it to the **Allowed Origins** field of your API key.
-* Now,  copy the `API Key` and `OAuth Secret` from the Trello page. You need it to configure Trello in Rocket.Chat.
-* On the **Trello  App Info** screen, navigate to **Settings.**
+* Now, copy the `API Key` and `OAuth Secret` from the Trello page. You need it to configure Trello in Rocket.Chat.
+* On the **Trello App Info** screen, navigate to **Settings.**
 * Paste the **Trello API key** and **Trello API secret** from the Trello App.
 * Next, you authorize your Trello account to connect and interact with the app.
 

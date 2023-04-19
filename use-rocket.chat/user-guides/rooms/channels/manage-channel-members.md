@@ -51,7 +51,7 @@ This link will ask the invitee to sign up if they are outside your Rocket.Chat w
 #### Delete Invite Link
 
 \
-To delete an invite link, see [Delete an Invite Record via Admin Panel](https://docs.rocket.chat/guides/administration/admin-panel/invites#delete-a-record). This feature comes in handy when you have an invite link with an **Expiration date: Never**. To avoid abuse, you can revoke it by deleting the invite record.
+To delete an invite link, see [Delete an Invite Record via Admin Panel](../../../workspace-administration/invites.md). This feature comes in handy when you have an invite link with an **Expiration date: Never**. To avoid abuse, you can revoke it by deleting the invite record.
 
 {% hint style="warning" %}
 You must have the **Create Invite Link** [permission](../../../workspace-administration/permissions.md) granted for your role to use the [permission](../../../workspace-administration/permissions.md). It is turned **ON** for the Admin, Owner, and Moderator roles. However, you can always ask the workspace administrator to update it to suit your needs.

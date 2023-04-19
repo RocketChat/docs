@@ -8,7 +8,7 @@ This guide will walk you through the installation and configuration of a Docker-
 
 ## What we'll cover in this guide
 
-1. [Securing the server: Firewall basics (optional)](https://docs.rocket.chat/quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers#1.-securing-the-server-firewall-basics-optional-recommended)
+1. [Securing the server: Firewall basics (optional)](./#1.-securing-the-server-firewall-basics-optional-recommended)
 2. [Securing the server: Fail2Ban IDS (optional)](./#2.-securing-the-server-fail2ban-optional-recommended)
 3. [Installing Docker and Docker-Compose](./#3.-installing-docker-and-docker-compose)
 4. [Editing the hosts file](./#4.-editing-the-hosts-file)

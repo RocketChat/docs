@@ -49,4 +49,4 @@ When not over-provisioned by the provider, this virtual configuration can accomm
 * 4 cores 1 GB memory
 * 32 GB SD card ($15)
 
-This minimal configuration can accommodate a small office or group of up to 50 users and up to 25 concurrently active and moderate levels of mixed uploads, sharing, and bot activities. It is based on a managed MongoDB service ([mlab.com](https://mlab.com)). Running mongo locally to a Pi is not recommended at this time.
+This minimal configuration can accommodate a small office or group of up to 50 users and up to 25 concurrently active and moderate levels of mixed uploads, sharing, and bot activities. It is based on a managed MongoDB service ([mlab.com](https://www.mongodb.com/cloud/atlas/migrate/mlab)). Running mongo locally to a Pi is not recommended at this time.

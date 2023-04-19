@@ -16,7 +16,7 @@ You can change the default port (port 3000) to something else by changing the `p
 sudo snap set rocketchat-server port=8080
 ```
 
-Make sure you restart the `rocketchat-service` service afterward for the change to take effect. Read [here](https://docs.rocket.chat/installing-and-updating/snaps#i-need-to-restart-rocket-chat-how-do-i-do-this) for more information on that. **Your only need to restart the Rocket.Chat application itself, not the database or Caddy**.
+Make sure you restart the `rocketchat-service` service afterward for the change to take effect. Read [here](snap-faq.md#i-need-to-restart-rocket.chat-how-do-i-do-this) for more information on that. **Your only need to restart the Rocket.Chat application itself, not the database or Caddy**.
 
 For enabling TLS/SSL, check out our guide for enabling caddy [here](auto-ssl-with-snaps.md).
 

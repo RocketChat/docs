@@ -20,7 +20,7 @@ Prerequisites for using OTR are:
 
 * OTR has been enabled by your server administrator (if not, you will not be able to see OTR in the DM context menu)
 * a direct message (DM) room with only one other participant
-* you and your DM-partner have entered their [end-to-end encryption key](https://docs.rocket.chat/guides/user-guides/end-to-end-encryption)
+* you and your DM-partner have entered their [end-to-end encryption key](../security-bundle/end-to-end-encryption-user-guide.md)
 * you and your DM-partner are both online
 
 ## Starting an OTR Conversation

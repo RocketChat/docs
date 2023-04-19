@@ -149,7 +149,7 @@ To create an encryption password,
 This option will remove your current E2E key and log you out. When you log in again, Rocket.Chat will generate a new key and restore your access to any encrypted room that has one or more members online. Due to the nature of the E2E encryption, Rocket.Chat can't restore access to any encrypted room with no members online.
 
 {% hint style="info" %}
-[Please find a detailed guide on E2E Encryption here.](https://docs.rocket.chat/guides/user-guides/security-bundle/end-to-end-encryption)
+[Please find a detailed guide on E2E Encryption here.](../../security-bundle/end-to-end-encryption-user-guide.md)
 {% endhint %}
 
 ## Personal Access Tokens

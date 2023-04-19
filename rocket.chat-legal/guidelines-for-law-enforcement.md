@@ -40,11 +40,11 @@ For total transparency, Rocket.Chat Technologies Corp. owns and operates only on
 
 **​**[**https://open.rocket.chat**](https://open.rocket.chat)**​**
 
-That server is subject to our [Code of Conduct](https://rocket.chat/code-of-conduct).
+That server is subject to our [Code of Conduct](code-of-conduct-for-our-services.md).
 
 Any other Rocket.Chat server you access is not operated by Rocket.Chat Technologies Corp. and is subjected to the usage warning above.
 
-That said, Rocket.Chat Technologies Corp. provides a cloud service for hosting Rocket.Chat servers. The user data, messages and files on those servers are subject to our [Terms of Use](https://rocket.chat/terms).
+That said, Rocket.Chat Technologies Corp. provides a cloud service for hosting Rocket.Chat servers. The user data, messages, and files on those servers are subject to our [Terms of Use](https://rocket.chat/terms).
 
 To know if a server belongs to Rocket.Chat cloud, please contact us, use the aforementioned server lookup or use domain information systems.
 
@@ -64,7 +64,7 @@ We do not keep a log of IPs.
 
 **Rocket.Chat Cloud**
 
-When someone signs up for a Rocket.Chat Cloud server, we ask for a name, e-mail, workspace name and domain they'd like to use. The e-mail is then verified before the server is deployed. Every message and file sent is stored within Rocket.Chat cloud servers and databases hosted with a third party hosting provider. Rocket.Chat does not actively scan the content activity in Cloud servers.&#x20;
+When someone signs up for a Rocket.Chat Cloud server, we ask for a name, e-mail, workspace name and domain they'd like to use. The e-mail is then verified before the server is deployed. Every message and file sent is stored within Rocket.Chat cloud servers and databases are hosted with a third-party hosting provider. Rocket.Chat does not actively scan the content activity in Cloud servers.&#x20;
 
 ## Private Servers
 

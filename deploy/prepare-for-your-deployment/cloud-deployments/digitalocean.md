@@ -35,7 +35,7 @@ Need some help? Join our community forums https://forums.rocket.chat and https:/
 ```
 
 {% hint style="info" %}
-Asides from the recommended setup, you can get out-of-the-box access to Rocket.Chat server at  [`http://Droplet-IP:3000`](http://droplet-ip:3000).
+Asides from the recommended setup, you can get out-of-the-box access to Rocket.Chat server at  `http://Droplet-IP:3000`.
 {% endhint %}
 
 ## Backend

@@ -126,4 +126,4 @@ After that step, other peers should be able to find you in the Rocket.Chat Feder
 
 ## Using Rocket.Chat Federation
 
-Click [here](broken-reference) to learn how to use Rocket.Chat Federation.
+Click [here](../../../../rocket.chat-federation.md) to learn how to use Rocket.Chat Federation.

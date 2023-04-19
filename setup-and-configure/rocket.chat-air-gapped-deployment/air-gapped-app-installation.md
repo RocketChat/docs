@@ -4,7 +4,7 @@ description: Get and install an app in an air-gapped workspace.
 
 # Air-gapped App Installation
 
-Rocket.Chat allows you to extend and bring new functionalities to your air-gapped workspace by building and using Rocket.Chat apps using the [apps engine](https://developer.rocket.chat/apps-engine/rocket.chat-apps-engine). These apps can help in improving collaboration, boosting productivity, and having you do more with your workspace.
+Rocket.Chat allows you to extend and bring new functionalities to your air-gapped workspace by building and using Rocket.Chat apps using the [apps engine](https://developer.rocket.chat/apps-engine/rocket.chat-apps-and-apps-engine). These apps can help in improving collaboration, boosting productivity, and having you do more with your workspace.
 
 {% hint style="info" %}
 The following apps work without internet access and can be requested via your registered support contact from the support team.

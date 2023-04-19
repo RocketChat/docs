@@ -22,7 +22,7 @@ Meet the mentors and fellow writers for GSoD 2019 and get some real-time help on
 
 For offline discussions, we have a discussion forum:
 
-[https://forums.rocket.chat/c/gsod/gsod2019](https://forums.rocket.chat/c/gsod/gsod2019)
+https://forums.rocket.chat/c/gsod/gsod2019
 
 If you have questions and prefer email, please write us at: gsod+2019@rocket.chat
 
@@ -47,9 +47,9 @@ Application for technical writers has opened. Please use this [form](https://for
 
 * **Mentors**: @martin.schoeler, @marcos.defendi
 * **Description**: Given the huge amount of features and customizability of Rocket.Chat we currently lack documentation for a great part of our admin section. This project aims at the completion of the administration documentation, and it can be broken down in two parts, the configuration, and the admin tools part:
-* **Configuration**: We need to complete our settings, fortunately, we already have the skeleton for that documentation on [This Pull Request](https://github.com/RocketChat/docs/pull/1095) but will also like a professional opinion on this structure, or help to improve it. We can _cherry-pick_ each file, so no need to work on all articles at once.
+* **Configuration**: We need to complete our settings, fortunately, we already have the skeleton for that documentation on [This Pull Request](https://github.com/RocketChat/docs-old/pull/1095) but will also like a professional opinion on this structure, or help to improve it. We can _cherry-pick_ each file, so no need to work on all articles at once.
 * **Admin Tools**: In the administration section we have a set of tools to help admins manage their server, things like user management, permission control, mailer, etc...
-* **Related Material**: [Our existing Admin documentation](https://docs.rocket.chat/administrator-guides/)
+* **Related Material**: [Our existing Admin documentation](../../../use-rocket.chat/workspace-administration/)
 
 ### Security documentation
 
@@ -72,7 +72,7 @@ Application for technical writers has opened. Please use this [form](https://for
 
 * **Mentors**: @diego.mello @renato.becker
 * **Description**: React Native is one of the hottest frameworks nowadays. It allows developers to write fully native mobile applications using only Javascript and inherits all the ease of development features from the ReactJS community. At Rocket.Chat we have our own client implemented using RN and it's available on App Store and Google Play as Rocket.Chat Experimental. This project aims to build user documentation for all the features we have implemented so far. This documentation does not exist today. You will be working with our lead React Native developer during this project.
-* **Related Material**: [Rocket.Chat Experimental](https://github.com/RocketChat/Rocket.Chat.ReactNative), [Rocket.Chat Experimental on App Store](https://itunes.apple.com/br/app/rocket-chat-experimental/id1272915472?mt=8), [Rocket.Chat Experimental on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
+* **Related Material**: [Rocket.Chat Experimental](https://github.com/RocketChat/Rocket.Chat.ReactNative), [Rocket.Chat Experimental on App Store](https://docs.rocket.chat/deploy/installing-client-apps/rocket.chat-desktop-and-mobile-apps#rocket.chat-experimental), [Rocket.Chat Experimental on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
 
 ### Apps-Engine guides
 

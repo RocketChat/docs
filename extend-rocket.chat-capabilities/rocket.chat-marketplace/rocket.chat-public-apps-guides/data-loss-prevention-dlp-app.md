@@ -25,7 +25,7 @@ To configure DLP,
 * On the **DLP App Info** screen, navigate to **Settings.**
 * Configure the following settings as needed:
   * **Rules for Blacklisting message**: Takes in an array of regular expressions defining the rules. Add each Regular Expression on a new line.
-  * **Moderator Channel**: Specify the channel to which all blacklisted messages will be forwarded. From there, the [Channel Moderators](../../../setup-and-configure/roles-in-rocket.chat#rocket.chat-user-roles) can either `Approve` or `Reject` the message. e.g. `general`
+  * **Moderator Channel**: Specify the channel to which all blacklisted messages will be forwarded. From there, the [Channel Moderators](../../../setup-and-configure/roles-in-rocket.chat.md#rocket.chat-user-roles) can either `Approve` or `Reject` the message. e.g. `general`
   * **Content control type**: Choose to ignore channels or select targeted channels to monitor.
   * **Channels**: List channels separated by commas to apply the **Channel Filter** rule.
   * **Censor only Sensitive Information**: If enabled, only the sensitive information is replaced by multiple hashtags (######)

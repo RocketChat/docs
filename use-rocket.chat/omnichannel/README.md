@@ -12,7 +12,7 @@ You can also use advanced [Omnichannel Apps](../../extend-rocket.chat-capabiliti
 
 Using Omnichannel helps **acquire** and **retain** customers in a multi-channel environment to save valuable potential sales while building relationships, providing an exceptional experience and the ability to interact through various communication channel
 
-Rocket.Chat Omnichannel has three primary users; [Admins](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel), [Managers](https://docs.rocket.chat/guides/omnichannel-guides/omnichannel-manger-guides), and [Agents](https://docs.rocket.chat/guides/omnichannel/agents).
+Rocket.Chat Omnichannel has three primary users; [Admins](./), [Managers](managers.md), and [Agents](agents.md).
 
 ## Enable Omnichannel&#x20;
 

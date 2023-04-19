@@ -34,11 +34,11 @@ Create a federated DM with these steps:
 
 ## Creating a Multi-user Direct Message
 
-Using [Multi Direct Message](broken-reference/), you can send Direct Messages to multiple users(federated or not) at once.
+Using [Multi Direct Message](../../../../../user-guides/rooms/direct-messages/#types-of-direct-messages), you can send Direct Messages to multiple users(federated or not) at once.
 
 To create a federated Multi Direct Message:
 
-* Create a [Multi-user Direct Message](broken-reference/)
+* Create a [Multi-user Direct Message](../../../../../user-guides/rooms/direct-messages/#types-of-direct-messages)
 * Select the users to whom you want to send messages following the [syntax to invite external users](invite-external-users-to-your-rocket.chat-server.md#invite-external-users-syntax).
 
 ## Slash commands

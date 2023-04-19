@@ -6,8 +6,8 @@ Rocket.Chat listens to events happening in the Homeserver and sends events relay
 
 You can choose to install a Homeserver using any of the following methods:
 
-* ****[**Automated Installation**](./#automated-installation): Install Synapse and Rocket.Chat using a simple setup script.
-* ****[**Manual Installation**](./#manual-installation): Manually install and configure your Homeserver with Rocket.Chat.
+* [**Automated Installation**](./#automated-installation): Install Synapse and Rocket.Chat using a simple setup script.
+* [**Manual Installation**](./#manual-installation): Manually install and configure your Homeserver with Rocket.Chat.
 
 {% hint style="success" %}
 We recommend using automatic installation since this comes with some configurations done.
@@ -18,7 +18,7 @@ We recommend using automatic installation since this comes with some configurati
 * 8GB of RAM
 * 2CPU
 * 20GB of Storage
-* [Ubuntu 20.04](https://docs.rocket.chat/quick-start/installing-and-updating/other-deployment-methods/manual-installation/debian-based-distros/ubuntu)
+* Ubuntu 20.04
 
 {% hint style="info" %}
 You are required to have a domain available to host your Matrix Homeserver.
@@ -26,9 +26,9 @@ You are required to have a domain available to host your Matrix Homeserver.
 
 ## Important warning about the installation
 
-You must be aware of this vital setting before proceeding with the installation.&#x20;
+You must be aware of this vital setting before proceeding with the installation.
 
-* Enabling ephemeral events like _user typing indicator_ can affect the performance of your Matrix Homeserver and Rocket.Chat server for federated communicaation. \
+* Enabling ephemeral events like _user typing indicator_ can affect the performance of your Matrix Homeserver and Rocket.Chat server for federated communicaation.\
   This can be enabled by adding the following property in your Application Service configuration file:
 
 ```yaml
@@ -48,7 +48,7 @@ allow_public_rooms_over_federation: true
 
 The Automated install makes it simple for you to install a Matrix Homeserver pre-configured with Rocket.Chat.
 
-### Prerequisites&#x20;
+### Prerequisites
 
 You are required to have the following on your system before installing.
 
@@ -104,9 +104,9 @@ Follow this guide to set up a Matrix Homeserver with Synapse manually.
 * Install [Synapse](https://matrix.org/docs/projects/server/synapse).
 * Obtain [Lets Encrypt](https://letsencrypt.org/) Certificate.
 * Setup [Element ](https://github.com/vector-im/element-web)(Optional).
-* Configure [Nginx](https://docs.rocket.chat/quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/docker-containers#5.-installing-nginx-and-ssl-certificate) using the certificates, reverse proxying the requests to Synapse.
+* Configure [Nginx](../../../../../../../deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/#5.-installing-nginx-and-ssl-certificate) using the certificates, reverse proxying the requests to Synapse.
 * Point all the generated DNS records to your server's IP address (all to the same IP).
-* [Configure ](https://matrix-org.github.io/synapse/latest/application\_services.html)the support for [Application Service](https://matrix.org/docs/guides/application-services) on the Matrix Homeserver: This can be done by creating a `registration.yaml` file under the `app/matrix-federation-config` directory with the content provided in **Workspace** > **Settings** > **Federation** > **Matrix Bridge** > **Registration File**.&#x20;
+* [Configure ](https://matrix-org.github.io/synapse/latest/application\_services.html)the support for [Application Service](https://matrix.org/docs/guides/application-services) on the Matrix Homeserver: This can be done by creating a `registration.yaml` file under the `app/matrix-federation-config` directory with the content provided in **Workspace** > **Settings** > **Federation** > **Matrix Bridge** > **Registration File**.
 
 <figure><img src="../../../../../../../.gitbook/assets/image (613).png" alt=""><figcaption><p>App Service Registration File content</p></figcaption></figure>
 

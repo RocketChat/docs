@@ -13,8 +13,14 @@ To Import your data:
 * Click **Import New File**
 * Select **Import Type**
 
-{% embed url="https://docs.rocket.chat/guides/administration/admin-panel/import/Import%20from%20slack" %}
+{% content-ref url="import-from-slack/" %}
+[import-from-slack](import-from-slack/)
+{% endcontent-ref %}
 
-{% embed url="https://docs.rocket.chat/guides/administration/admin-panel/import/Import%20from%20HipChat" %}
+{% content-ref url="import-from-hipchat.md" %}
+[import-from-hipchat.md](import-from-hipchat.md)
+{% endcontent-ref %}
 
-{% embed url="https://docs.rocket.chat/guides/administration/admin-panel/import/import%20csv" %}
+{% content-ref url="import-csv.md" %}
+[import-csv.md](import-csv.md)
+{% endcontent-ref %}

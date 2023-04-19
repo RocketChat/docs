@@ -13,7 +13,7 @@ Connecting your workplace to the cloud gives you access to interact with service
 
 To register your server,&#x20;
 
-* Connect it to your cloud account. If you already have one- enter the cloud email address. Otherwise, create a [new account](https://docs.rocket.chat/rocket.chat-saas/cloud-account/create-new-cloud-account).
+* Connect it to your cloud account. If you already have one- enter the cloud email address. Otherwise, create a [new account](create-new-cloud-account.md).
 * You will receive an email to the registered email with a confirmation link. You must verify the security code that matches the one in the email.
 * Click **Verify Registration**. Confirm the registration and go back to your server.
 * Your workspace is ready. Click **Go to your workspace** to access it.
