@@ -100,7 +100,7 @@ You are automatically subscribed to the Instagram page following successful auth
 To update the page configurations,
 
 * Click the **Edit Page Config** button under the account and update the following settings:
-  * **Department**: You can route all the conversations from this page to a specific [**department**](https://docs.rocket.chat/guides/omnichannel/departments). Only the agents of this department can serve conversations coming from this page.
+  * **Department**: You can route all the conversations from this page to a specific [**department**](../../../../../use-rocket.chat/omnichannel/departments.md). Only the agents of this department can serve conversations coming from this page.
   * **Welcome Message:** First message your customer will receive when they message you.
   * **Conversation Finished Message:** A message sent to your customer when a conversation is closed.
   * **Default message for offline service:** Message sent to your visitor when no agents are available online.
