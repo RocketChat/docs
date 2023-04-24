@@ -42,18 +42,18 @@ Your License is applied to your workspace and is ready to use.  You can confirm 
 
 <summary>Self Managed  Unregistered Workspace</summary>
 
-You have an existing workspace but have not registered and have been given a registration code to register and apply.
+You have an existing workspace but have not registered and have been given a registration token to register and apply.
 
 You can do this by:
 
-* Copying the Registration Code provided to you.
+* Copying the Registration token provided to you.
 * For Rocket.Chat `6.0` or newer
   * Navigate to **Administration** > **Workspace** > **Registration**
   * Click **Register** and then click **Use Token**&#x20;
   * Paste the token provided
 * For Rocket.Chat below `6.0`&#x20;
   * Navigate to **Administration** > **Connectivity Services**
-  * In the Token field provided paste the Code
+  * In the Token field provided paste the token
   * Click **Register**
 * Click on **Sync** to sync the workspace to Rocket.Chat cloud.
 
@@ -65,12 +65,12 @@ Your workspace is now Registered and your License applied to your workspace.  Yo
 
 <summary>Self Managed Air-gapped Workspace</summary>
 
-You have an existing workspace but it is air-gapped and have been given a license code to apply.
+You have an existing workspace that is air-gapped and has been given a license token to apply.
 
 You can do this by:
 
 * Navigate to **Administration** > **Workspace** > **Info** > **Apply Offline License**
-* Paste the License code you were provided
+* Paste the License token you were provided
 * Click **Apply License**
 
 Your License should now be applied. You can confirm this by going to **Administration > Info** and checking the License section.
@@ -80,7 +80,7 @@ If your workspace will need to send push notifications you will need to allow ac
 * cloud.rocket.chat
 * pushgateway.rocket.chat
 
-Then take the Registration code provided:
+Then take the Registration token provided:
 
 * Navigate to **Administration** > **Workspace** > **Registration.**
 * Click **Register** and then click **Use Token.**
@@ -114,14 +114,14 @@ If you purchased a license for Self Managed but do not yet have a workspace.
 
 * [Deploy a new workspace](../deploy/prepare-for-your-deployment/)
 * Visit your workspace URL and complete the [setup](../use-rocket.chat/workspace-administration/settings/setup-wizard.md).
-* Copying the Registration Code provided to you.
+* Copying the Registration token provided to you.
 * For Rocket.Chat `6.0` or newer
   * Navigate to **Administration** > **Workspace** > **Registration**
   * Click **Register** and then click **Use Token**&#x20;
   * Paste the token provided
 * For Rocket.Chat below `6.0`&#x20;
   * Navigate to **Administration** > **Connectivity Services**
-  * In the Token Field Provided paste the Code
+  * In the Token Field Provided paste the token
   * Click Register
 * Click on **Sync** to sync the workspace to Rocket.Chat cloud.
 
@@ -133,13 +133,13 @@ Your workspace is now registered and your License applied to it. You can confirm
 
 <summary>Self Managed Air-Gapped Workspace</summary>
 
-You have an existing workspace but it is air-gapped and you have been given a license code to apply.
+You have an existing workspace but it is air-gapped and you have been given a license token to apply.
 
 You can do this by:
 
 * [Deploy a new air-gapped workspace](rocket.chat-air-gapped-deployment/)&#x20;
 * Navigate to **Administration** > **Workspace** > **Info** > **Apply Offline License**
-* Paste the License code you were provided.
+* Paste the License token you were provided.
 * Click **Apply License.**
 
 Your Lice is applied. You can confirm this by going to **Administration > Info** and checking the License section.
@@ -149,7 +149,7 @@ If your workspace needs to send push notifications you will need to allow access
 * cloud.rocket.chat
 * pushgateway.rocket.chat
 
-Then take the Registration code provided:
+Then take the Registration token provided:
 
 * Navigate to **Administration** > **Workspace** > **Registration**
 * Click **Register** and then click **Use Token**&#x20;
