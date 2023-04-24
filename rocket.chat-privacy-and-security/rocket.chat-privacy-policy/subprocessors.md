@@ -52,7 +52,7 @@ Rocket.Chat undertakes to use a commercially reasonable selection process by whi
 
 ## Rocket.Chat Affiliates
 
-Rocket.Chat affiliates involved in processing of personal data will depend on the location of our users and their customers and the nature of the services we provide to you. By agreeing to the [DPA](https://docs.rocket.chat/privacy-and-security/data-processing-agreement), you agree all of these Sub-Processors may have access to Customer Data.&#x20;
+Rocket.Chat affiliates involved in processing of personal data will depend on the location of our users and their customers and the nature of the services we provide to you. By agreeing to the [DPA](https://docs.rocket.chat/rocket.chat-privacy-and-security/data-processing-agreement), you agree all of these Sub-Processors may have access to Customer Data.&#x20;
 
 The following entities are members of the Rocket.Chat Group. Accordingly, they function as sub-processors to provide the Services.
 
