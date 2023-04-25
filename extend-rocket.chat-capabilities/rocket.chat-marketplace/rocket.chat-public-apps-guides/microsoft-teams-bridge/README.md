@@ -8,6 +8,10 @@ It supports other message formats, such as emojis, files, and links. Furthermore
 
 ## Setup Microsoft Teams Bridge
 
+{% hint style="success" %}
+The **Microsoft Teams Bridge app** is only available for workspaces on version `6.1` and above.
+{% endhint %}
+
 As an administrator, ensure you have access to the Rocket.Chat admin account and Teams admin account for your organization before installing.
 
 To install **Microsoft Teams Bridge**,
@@ -75,6 +79,24 @@ To set up an Azure Active Directory App for your organization,
 
 {% hint style="info" %}
 Ensure you use the correct credentials and set the appropriate API permissions on the Azure Active Directory.
+{% endhint %}
+
+## API Limitation
+
+With the Microsoft Teams Bridge, you can exchange up to 500 messages per month across [Rocket.Chat](https://rocket.chat/) and MS Teams at no additional cost. If you surpass this limit, you can no longer exchange messages between [Rocket.Chat](https://rocket.chat/) and Teams.&#x20;
+
+If you intend to exchange more than 500 messages, here are some important details to note:
+
+* Check if the API is metered. Microsoft Teams has free and metered APIs that are billed based on usage. Know the metering unit to estimate API costs. There's a limit of 500 messages per month. Exceeding this limit means Teams messages won't show in Rocket.Chat, but it can still be sent.
+
+{% hint style="info" %}
+Read the [documentation ](https://learn.microsoft.com/en-us/graph/teams-licenses)to learn more about the pricing models and licensing requirements.
+{% endhint %}
+
+* To monitor message count, set up an Azure budget to track messages against the threshold. Configure alerts to ensure you stay within the 500 messages monthly spending limit. For example, your organizational spending limit is 500 messages per month; email notifications are sent if the budget threshold is exceeded.
+
+{% hint style="info" %}
+See the official guide to understand how to [create and manage](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets) Azure budgets.
 {% endhint %}
 
 > This app was developed by Yuqing Bian during Google Summer of Code 2022.
