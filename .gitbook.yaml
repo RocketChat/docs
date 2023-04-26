@@ -144,3 +144,4 @@ redirects:
     installation/mobile-and-desktop-apps: deploy/installing-client-apps/rocket.chat-desktop-and-mobile-apps.md
     quick-start/basic-white-labeling: setup-and-configure/accessing-your-workspace/basic-white-labeling.md
     guides/brand-and-visual-guidelines: resources/brand-and-visual-guidelines/README.md
+    guides/security/compliance-resources: rocket.chat-privacy-and-security/security/compliance-resources.md
