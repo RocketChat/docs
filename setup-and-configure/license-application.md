@@ -2,9 +2,9 @@
 
 Having a Rocket.Chat License unlocks additional functionality included with your purchased [plan](https://www.rocket.chat/pricing). &#x20;
 
-All directions on this page assume you have a valid license in hand and now wish to apply it. If you do not yet have one please get in [contact with sales](https://www.rocket.chat/sales-contact).
+All directions on this page assume you have a valid license in hand and now wish to apply it. If you do not yet have one, please get in [contact with sales](https://www.rocket.chat/sales-contact).
 
-## I have a workspace
+## I have a…
 
 <details>
 
@@ -90,7 +90,7 @@ Your workspace should now be Registered and your License should now be applied t
 
 </details>
 
-## I do not have a workspace
+## I do not have a…
 
 <details>
 
@@ -159,11 +159,11 @@ Your workspace gets registered and your License is applied to it.  You can confi
 
 </details>
 
-## 360 Dialog Whatsapp Integration
+## 360 Dialog WhatsApp Integration
 
 The Integration between Rocket.Chat and WhatsApp Business (360 Dialog) is available for your workspace.
 
-After completing the sync process you need to complete the WhatsApp Installation and configuration on your workspace.
+After completing the sync process, you need to complete the WhatsApp Installation and configuration on your workspace.
 
 See more info here:
 
