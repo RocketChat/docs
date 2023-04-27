@@ -78,22 +78,22 @@ We are also planning a virtual conference at the end of the GSoC term - named GS
 
 2022 is a phenomenal year for GSoC at Rocket.Chat. With high calibre contributors arriving as early as January and very early enthusiastic community mentors support. So far, 137 new contributors have created 94 Merged PRs, 110 Open PRs, and identified 154 Issues for our projects. We received 83 GSoC 2022 proposals; most of them are of good to excellent quality. Google has graciously granted us a total of [FOURTEEN projects for 2022 GSoC](https://summerofcode.withgoogle.com/programs/2022/organizations/rocketchat). Thank you Google! Mentors have started to welcome these 14 active contributing community members to work with us during the 2022 season:\\
 
-| Contributors       | Project                                                            | Mentors                                       |
-| ------------------ | ------------------------------------------------------------------ | --------------------------------------------- |
-| Ahmed Ibrahim      | Standalone Desktop Messaging cross-platforms Applet                | Jean Brito, Gabriel Casals                    |
-| Aswini             | Weekly Video Meeting and Archive App - BigBlueButton + Rocket.Chat | Debdut Chakraborty, Felipe Cecagno            |
-| Danish Ahmed Mirza | New Emoji Picker for Mobile Client                                 | Diego Mello, Daniel Silva                     |
-| Dnouv              | Rocket.Chat for Virtual Conferences - Eventyay integration         | Sing Li, Marcos Defendi                       |
-| Evan Slack         | Rocket.Chat Golang SDK                                             | cauefcr, Aaron Ogle                           |
-| Irfan Asif         | Figma App ( Rocket.Chat Integration )                              | Douglas Gubert, Ivan Netto, Alvaro Mello      |
-| Mustafa Hasan Khan | ClickUp App for Rocket.Chat                                        | Douglas Gubert, Allan Ribeiro                 |
-| Nishant Patel      | Message Forwarding                                                 | Douglas Fabris, Milton Rucks                  |
-| Samad Khan         | GitHub App                                                         | Rohan Lekhwani, Sing Li                       |
-| sangyul.cha        | Botpress Connector Enhancements                                    | Duda Nogueira, Frank Dase                     |
-| Sidharth Mohanty   | Rocket.Chat ReactJS fullstack Component                            | Rohan Lekhwani                                |
-| srrathi            | Rocket.Chat TUI                                                    | Aaron Ogle, Debdut Chakraborty                |
-| Vivek Srivastava   | Playground for UIKit ReactJS components                            | Martin Schoeler, Guilherme Gazzo              |
-| Yuqing             | Rocket.Chat - Teams Bridge: interop with Microsoft Teams           | Gabriel Engel, Yash Rajpal, Fábio Albuquerque |
+| Contributors       | Project                                                            | Mentors                            |
+| ------------------ | ------------------------------------------------------------------ | ---------------------------------- |
+| Ahmed Ibrahim      | Standalone Desktop Messaging cross-platforms Applet                | Jean Brito, Gabriel Casals         |
+| Aswini             | Weekly Video Meeting and Archive App - BigBlueButton + Rocket.Chat | Debdut Chakraborty, Felipe Cecagno |
+| Danish Ahmed Mirza | New Emoji Picker for Mobile Client                                 | Diego Mello, Daniel Silva          |
+| Dnouv              | Rocket.Chat for Virtual Conferences - Eventyay integration         | Sing Li, Marcos Defendi            |
+| Evan Slack         | Rocket.Chat Golang SDK                                             | cauefcr, Aaron Ogle                |
+| Irfan Asif         | Figma App ( Rocket.Chat Integration )                              | Douglas Gubert, Ivan Netto         |
+| Mustafa Hasan Khan | ClickUp App for Rocket.Chat                                        | Douglas Gubert, Allan Ribeiro      |
+| Nishant Patel      | Message Forwarding                                                 | Douglas Fabris, Milton Rucks       |
+| Samad Khan         | GitHub App                                                         | Rohan Lekhwani, Sing Li            |
+| sangyul.cha        | Botpress Connector Enhancements                                    | Frank Dase                         |
+| Sidharth Mohanty   | Rocket.Chat ReactJS fullstack Component                            | Rohan Lekhwani                     |
+| srrathi            | Rocket.Chat TUI                                                    | Aaron Ogle, Debdut Chakraborty     |
+| Vivek Srivastava   | Playground for UIKit ReactJS components                            | Martin Schoeler, Guilherme Gazzo   |
+| Yuqing             | Rocket.Chat - Teams Bridge: interop with Microsoft Teams           | Gabriel Engel, Yash Rajpal         |
 
 **Total of 83 proposals received (Update April 20th)**
 
@@ -170,7 +170,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### Chatbot Engine Connector: Botpress
 
-**Mentor(s):** Frank Dase, Duda Nogueira
+**Mentor(s):** Frank Dase
 
 **Description:** Botpress is a popular open source framework for creation and execution of chatbots. This project extends a existing community-contributed Botpress connector to facilitate deployment of Botpress chatbots and Omnichannel bots. Focus here will include - better rich UI/UX / interaction support for bots and ability to run multiple instances of multiple bots.\
 **Desired Skills:** Javascript and Typescript development. Keen interest in Bots and Chatbots.
@@ -301,7 +301,7 @@ There is already an [n8n node ](https://n8n.io/integrations/n8n-nodes-base.rocke
 
 ### Pomodoro Time Management App
 
-Mentor(s): Debdut Chakraborty, Duda Nogueira
+Mentor(s): Debdut Chakraborty
 
 Description: With remote work now becoming the norm, lack of essential time management skills can throw off work/life balance and resulting in burn-out or dangerous mental wellness problems. [Pomodoro](https://science.nichd.nih.gov/confluence/display/newsletter/2020/05/07/The+Pomodoro+Technique%3A+An+Effective+Time+Management+Tool) is a proven and easy to adopt time management technique practiced by millions world wide. This project involves the creation of an always available Pomodoro timer Rocket.Chat App.
 
@@ -315,7 +315,7 @@ Project Duration: 175 hours (Medium)
 
 ### Figma Integration (Rocket.Chat App)
 
-**Mentor(s):** Douglas Gubert, Alvaro Mello, Ivan Netto
+**Mentor(s):** Douglas Gubert, Ivan Netto
 
 **Description:** This project brings Figma's life right into Rocket.Chat.
 
@@ -388,7 +388,7 @@ Desirable skills: Experience with React Native and react-native-reanimated v2. P
 
 ### Team Bridge: interop with Microsoft Teams
 
-**Mentor(s):** Yash Rajpal, Fábio Albuquerque, Gabriel Engel
+**Mentor(s):** Yash Rajpal, Gabriel Engel
 
 **Description:** Microsoft team is unquestionably the most popular and frequently used closed source team chat system in the world. Many administrators and users of open source Rocket.Chat team chat will have needs to bridge between their open source users and legacy users still on team. This project will create a Rocket.Chat App or an npm module that will act as a bridge between Rocket.Chat and Microsoft Team. Users on one system should be able to chat with the other through shared channels. Support for rich interactions including DM, emoji's, embedded graphics, shared youtube links and so on should also be supported. The exact scope for this project will be determined between the contributor and the mentors.
 
