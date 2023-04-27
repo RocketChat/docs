@@ -146,7 +146,6 @@ redirects:
     guides/brand-and-visual-guidelines: resources/brand-and-visual-guidelines/README.md
     guides/security/compliance-resources: rocket.chat-privacy-and-security/security/compliance-resources.md
     about-rocket.chat/rocket.chat-overview: README.md
-    contribute-to-rocket.chat/how-can-i-help/documentation/markdown-styleguide: contribute-to-rocket.chat.md
     guides/enterprise-edition-trial/has-workspace: setup-and-configure/license-application.md
     about-rocket.chat/readme: README.md
     quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
@@ -160,4 +159,16 @@ redirects:
     deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/snaps: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md
     deploy-rocket.chat/prepare-for-your-rocket.chat-deployment: deploy/prepare-for-your-deployment/README.md
     use-rocket.chat/user-guides/rooms/messaging: use-rocket.chat/user-guides/messages/README.md
+    use-rocket.chat/omnichannel/webhooks-managers-guide: use-rocket.chat/omnichannel/webhooks.md
+    deploy/scaling-rocket.chat/running-multiple-instances: deploy/scaling-rocket.chat/README.md
+    deploy-rocket.chat/installing-client-apps/rocket.chat-desktop-and-mobile-apps: deploy/installing-client-apps/README.md
+    guides/user-guides/connecting-to-a-server: use-rocket.chat/user-guides/access-your-workspace.md
+    quick-start/deploying-rocket.chat/rapid-deployment-methods/snaps/auto-ssl-with-snaps: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/auto-ssl-with-snaps.md
+    quick-start/deploying-rocket.chat/rapid-deployment-methods: deploy/prepare-for-your-deployment/rapid-deployment-methods/README.md
+    resources/getting-support: resources/get-support/README.md
+    use-rocket.chat/user-guides/connecting-to-a-server: use-rocket.chat/user-guides/access-your-workspace.md
+    quick-start/installing-client-apps/rocket.chat-desktop-and-mobile-apps: deploy/installing-client-apps/rocket.chat-desktop-and-mobile-apps.md
+    deploy-rocket.chat/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy: deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md
+    deploy-rocket.chat/installing-client-apps: deploy/installing-client-apps/README.md
+    quick-start/environment-configuration/configuring-ssl-reverse-proxy: deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md
     
