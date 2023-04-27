@@ -145,3 +145,19 @@ redirects:
     quick-start/basic-white-labeling: setup-and-configure/accessing-your-workspace/basic-white-labeling.md
     guides/brand-and-visual-guidelines: resources/brand-and-visual-guidelines/README.md
     guides/security/compliance-resources: rocket.chat-privacy-and-security/security/compliance-resources.md
+    about-rocket.chat/rocket.chat-overview: README.md
+    contribute-to-rocket.chat/how-can-i-help/documentation/markdown-styleguide: contribute-to-rocket.chat.md
+    guides/enterprise-edition-trial/has-workspace: setup-and-configure/license-application.md
+    about-rocket.chat/readme: README.md
+    quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
+    deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/other-deployment-methods/manual-installation/debian-based-distros/ubuntu: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/ubuntu.md
+    quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/debian-based-distros/ubuntu: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/ubuntu.md
+    quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/docker-containers: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/README.md
+    deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/README.md
+    quick-start/deploying-rocket.chat/rapid-deployment-methods/snaps: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md
+    quick-start/deploying-rocket.chat: deploy/prepare-for-your-deployment/README.md
+    use-rocket.chat/rocket.chat-workspace-administration/settings/ldap: use-rocket.chat/workspace-administration/settings/ldap/README.md
+    deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/rapid-deployment-methods/snaps: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md
+    deploy-rocket.chat/prepare-for-your-rocket.chat-deployment: deploy/prepare-for-your-deployment/README.md
+    use-rocket.chat/user-guides/rooms/messaging: use-rocket.chat/user-guides/messages/README.md
+    
