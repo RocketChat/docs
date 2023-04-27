@@ -38,7 +38,7 @@ Okta Identity Cloud Service can be integrated as an Identity Provider for Rocket
 
 ### Adding a new Application in Okta
 
-![](<../../../../.gitbook/assets/AddApp (1).png>)
+![](../../../../.gitbook/assets/AddApp.png)
 
 * Create a new app on your Okta Application Dashboard.
 * Select **Web** as the **Platform**.

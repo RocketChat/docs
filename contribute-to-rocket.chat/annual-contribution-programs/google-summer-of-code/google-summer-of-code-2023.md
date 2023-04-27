@@ -16,7 +16,7 @@ For details and rules of Google Summer of Code 2023, please see the [GSoC 2023 O
 
 For general information, please visit our 24 x 7 community channel for Google Summer of Code 2023 : [https://open.rocket.chat/channel/gsoc2023](https://open.rocket.chat/channel/gsoc2023)
 
-Join our [Google Summer of Code 2023 Team ](https://open.rocket.chat/channel/gsoc2023)today and interact with over **800 like-minded** contributors/mentors and meet the team in the[ 20 team channels](https://open.rocket.chat/channel/gsoc2023/team-channels).
+Join our [Google Summer of Code 2023 Team ](https://open.rocket.chat/channel/gsoc2023)today and interact with over **830 like-minded** contributors/mentors and meet the team in the[ 48 team channels](https://open.rocket.chat/channel/gsoc2023/team-channels).
 
 If you have ideas and proposals that are not on our idea list, or if a mentor is not available, you can also email to:
 
@@ -34,8 +34,12 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 ### **Latest update**
 
+**Update April 27th, 2023     App Development Code Walkthrough and Finalizing Proposal Reviews**\
+Mentors have finalized their reviews and we held another popular code walkthrough (rocket.chat app development)  this past Saturday.   Thanks goes to the **17 community attendees** of this live weekend session.   As of April 27th, our **331 community contributors** have contributed a record-breaking **58 Merged PRs, 81 Open PRs, and 201 Issues** to our ecosystem.  Everyone is looking forward to the May 4th project announcements. \
+
+
 **Update April 10th, 2023     Holiday weekend Code Walkthrough.**\
-While mentors continued to review the proposals we have received, we held a code walkthrough (How to add a REST API endpoint in Rocket.Chat server)  session to help our community contributors over the Easter holiday weekend.   Thanks goes to the 19 attendees of this live Saturday afternoon (night) session. \
+While mentors continued to review the proposals we have received, we held a code walkthrough (How to add a REST API endpoint in Rocket.Chat server)  session to help our community contributors over the Easter holiday weekend.   Thanks goes to the **19 attendees** of this live Saturday afternoon (night) session. \
 
 
 **Update April 5th, 2023     Record-breaking 197 proposals received from our community !**\
@@ -165,7 +169,7 @@ Rewrite our [current mobile apps share extension](https://github.com/RocketChat/
 
 ### Scaled botpress Connector
 
-**Mentors:** Duda Nogueira, Yash Rajpal
+**Mentors:** Yash Rajpal
 
 **Description**:\
 [botpress ](https://botpress.com/)is a highly popular open-source chatbot construction kit and one of the pioneers in that field. Rocket.Chat has long worked with botpress with a variety of connectors, including one currently in our Marketplace.\
@@ -188,7 +192,7 @@ This project aims to create a new botpress connector app that will work and scal
 
 ### Improved Rocket.Chat Translations (i18n)
 
-**Mentors:** Douglas Fabris, Duda Nogueira
+**Mentors:** Douglas Fabris
 
 **Description:** Rocket.Chat is widely used all over the world in multiple languages. Having a welcoming and vibrant community of translators and reviewers is essential to make sure we can deliver the best localization possible.
 

@@ -53,6 +53,7 @@
   * [Starting & Stopping Docker Compose](deploy/prepare-for-your-deployment/starting-and-stopping.md)
 * [Scaling Rocket.Chat](deploy/scaling-rocket.chat/README.md)
   * [Microservices](deploy/scaling-rocket.chat/microservices-setup.md)
+  * [Running Multiple Instances](deploy/scaling-rocket.chat/running-multiple-instances.md)
   * [Automation Tools](deploy/scaling-rocket.chat/automation-tools/README.md)
     * [Ansible](deploy/scaling-rocket.chat/automation-tools/ansible.md)
     * [OpenShift](deploy/scaling-rocket.chat/automation-tools/openshift.md)
