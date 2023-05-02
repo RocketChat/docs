@@ -171,4 +171,8 @@ redirects:
     deploy-rocket.chat/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy: deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md
     deploy-rocket.chat/installing-client-apps: deploy/installing-client-apps/README.md
     quick-start/environment-configuration/configuring-ssl-reverse-proxy: deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md
+    contributors/how-can-i-help/security: contribute-to-rocket.chat/github-sponsorship.md
+    contributors/how-can-i-help/documentation: contribute-to-rocket.chat/github-sponsorship.md
+    guides/rocket.chat-voice-channel/voice-channel-admin-guide/configure-without-previously-having-a-pbx-server: use-rocket.chat/rocket.chat-voice-channel/voice-channel-admin-guide/configure-without-previously-having-a-pbx-server/README.md
+    getting-support/community-resources: resources/get-support/community-resources.md
     
