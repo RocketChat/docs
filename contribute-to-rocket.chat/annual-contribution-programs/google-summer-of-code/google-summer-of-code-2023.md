@@ -4,7 +4,7 @@
 
 ## How to apply
 
-Application for Google Summer of Code 2023 is now closed.  Please see [official Google Summer of Code site](https://summerofcode.withgoogle.com/)  and the [official 2023 timeline](https://developers.google.com/open-source/gsoc/timeline).    Accepted contributor projects will be announced on the official site on May 4th.\
+Application for Google Summer of Code 2023 is now closed.  Please see [official Google Summer of Code site](https://summerofcode.withgoogle.com/)  and the [official 2023 timeline](https://developers.google.com/open-source/gsoc/timeline).    Accepted contributor projects will be announced on the official site on **May 4th**.\
 \
 Rocket.Chat is proud to be a participating mentoring open source organization for [Google Summer of Code 2023](https://summerofcode.withgoogle.com/). This marks the exciting 7th year of participation in this 18 years-old program to usher in a new generation of open source contributors and enthusiasts.
 
@@ -35,7 +35,7 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 ### **Latest update**
 
 **Update April 27th, 2023     App Development Code Walkthrough and Finalizing Proposal Reviews**\
-Mentors have finalized their reviews and we held another popular code walkthrough (rocket.chat app development)  this past Saturday.   Thanks goes to the **17 community attendees** of this live weekend session.   As of April 27th, our **331 community contributors** have contributed a record-breaking **58 Merged PRs, 81 Open PRs, and 201 Issues** to our ecosystem.  Everyone is looking forward to the May 4th project announcements. \
+Mentors have finalized their reviews and we held another popular code walkthrough (rocket.chat app development)  this past Saturday.   Thanks goes to the **17 community attendees** of this live weekend session.   As of April 27th, our **331 community contributors** have contributed a record-breaking **83 Merged PRs, 84 Open PRs, and 201 Issues**. to our ecosystem.  Everyone is looking forward to the **May 4th** project announcements. \
 
 
 **Update April 10th, 2023     Holiday weekend Code Walkthrough.**\
