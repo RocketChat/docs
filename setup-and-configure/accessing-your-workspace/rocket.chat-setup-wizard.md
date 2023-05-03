@@ -47,7 +47,7 @@ To launch your workspace, you are required to complete the setup wizard. Fill in
     Click **Continue** to proceed to the third step.
 * **Register Your Server**: You are asked to [register your workspace](rocket.chat-setup-wizard.md#register-workspace) to the Rocket.Chat Cloud or link the workspace to an existing Rocket.Chat Cloud account.
   * Check the box if you want to receive security updates.
-  * Agree to the [**Terms**](../../rocket.chat-legal/terms-of-service.md) and [**Privacy Policy**](broken-reference) and **Register**.
+  * Agree to the [**Terms**](../../rocket.chat-legal/terms-of-service/) and [**Privacy Policy**](broken-reference) and **Register**.
 
 {% hint style="info" %}
 With a registered workspace, you have access to benefits like:

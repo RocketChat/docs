@@ -481,7 +481,8 @@
 
 ## Rocket.Chat Legal
 
-* [Terms of Service](rocket.chat-legal/terms-of-service.md)
+* [Terms of Service](rocket.chat-legal/terms-of-service/README.md)
+  * [Cloud Deployment Terms "Cloud Terms"](rocket.chat-legal/terms-of-service/cloud-deployment-terms-cloud-terms.md)
 * [Master Services Agreement for Self Managed Workspaces](rocket.chat-legal/master-services-agreement-for-self-managed-workspaces.md)
 * [Master Service Agreement for Professional Services](rocket.chat-legal/master-service-agreement-for-professional-services.md)
 * [Code of Conduct for our services](rocket.chat-legal/code-of-conduct-for-our-services.md)
