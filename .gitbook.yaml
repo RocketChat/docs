@@ -175,4 +175,5 @@ redirects:
     contributors/how-can-i-help/documentation: contribute-to-rocket.chat/github-sponsorship.md
     guides/rocket.chat-voice-channel/voice-channel-admin-guide/configure-without-previously-having-a-pbx-server: use-rocket.chat/rocket.chat-voice-channel/voice-channel-admin-guide/configure-without-previously-having-a-pbx-server/README.md
     getting-support/community-resources: resources/get-support/community-resources.md
+    guides/bots/create-and-run-a-bot/rasa-bot: rocket.chat-resources/development-docs.md
     
