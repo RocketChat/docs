@@ -83,7 +83,7 @@ You represent and warrant that:&#x20;
 
 (i) You have obtained all necessary rights, releases, and permissions to submit all Your Data to the Cloud Services and to grant the rights granted to us in these Terms and&#x20;
 
-(ii) Your Data and its submission and use as you authorize in these Cloud Terms will not violate (1) any Laws, (2) any third party intellectual property, privacy, publicity, or other rights, or (3) any of your or third-party policies or terms governing Your Data.&#x20;
+(ii) Your Data and its submission and use as you authorize in these Cloud Terms will not violate (1) any Laws, (2) any third-party intellectual property, privacy, publicity, or other rights, or (3) any of your or third-party policies or terms governing Your Data.&#x20;
 
 Besides our express obligations under Section 3 (Data Privacy and Security), we assume no responsibility or liability for Your Data. You are solely responsible for Your Data and the consequences of submitting and using it with the Cloud Services.
 
@@ -194,11 +194,3 @@ These Cloud Terms are supplementary to and governed by the main Terms of Service
 **“Upgrades”** refers to the substantial changes to software that typically involve a significant overhaul of the software's functionality or architecture. Upgrades may require additional payment or subscription fees and introduce new features or capabilities. It may require additional fees or a different subscription plan.
 
 **“Virtual Private Cloud” or “VPC”** means a virtual network infrastructure that enables users to create and manage a private network in the cloud, with complete control over security and access to resources.
-
-\
-\
-\
-\
-\
-\
-\

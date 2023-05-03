@@ -20,9 +20,9 @@ To install the Facebook App,
 
 ## Configure Facebook App
 
-To configure the GitHub App,
+To configure the Facebook App,
 
-* On the **GitHub App Info** screen, navigate to **Settings.**
+* On the **Facebook App Info** screen, navigate to **Settings.**
 * Update the **Settings**:
   * **Agents Display Name:** You can display the agent's name or username.
   * **File Upload Enabled:** You can enable/disable file sharing and set a limit for maximum upload size.
