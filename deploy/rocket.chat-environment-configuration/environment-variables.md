@@ -4,9 +4,15 @@ description: Configuring Rocket.Chat via environment variables
 
 # Environment Variables
 
-Rocket.Chat can be configured on deployment with a set of environment variables. Setting those environment variables (the how to's) depends on the deployment method of choice.
+Rocket.Chat can be configured on deployment with a set of environment variables. Setting these environment variables depends on the deployment method of choice.
 
-Some of these environment variables are mandatory, those are kept separate to the optional ones.
+Environmental variables can be specified to take affect how the workspace is deployed or affects the workspace settings and configuration.
+
+## Deployment Environment Variables
+
+Deployment environment variables are critical in deploying a workspace. Using the most common deployment method [docker-and-docker-compose](../prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/ "mention") these variables can be set in the `compose.yml` file.&#x20;
+
+Some of these environment variables are mandatory and others can be treated optionally.
 
 ### Mandatory Environment Variables
 
@@ -27,24 +33,10 @@ Some of these environment variables are mandatory, those are kept separate to th
 | ADMIN\_PASS     | Admin user's password (in plaintext).                         | <p>Self explanatory.<br><br><em>Mandatory if any of the other ADMIN_* variables are passed for a successful account creation.</em></p>                                                                                                                                                                     |
 | ADMIN\_EMAIL    | Admin user's email address.                                   | <p>Self explanatory.<br><br><em>Mandatory if any of the other ADMIN_* variables are passed for a successful account creation.</em></p>                                                                                                                                                                     |
 
-### Other Environment Variables
+## Workspace Setting Environment Variables
 
-#### Overriding Settings
+Learn more about the environment variables and their value types that can be used to modify the workspace settings in this guide.
 
-You can override your Rocket.Chat settings directly from environment variables.
-
-Settings capable of this can be seen when hovered upon in the **Administration** > **Workspace** > **Settings** section.
-
-![Example Settings code](<../../.gitbook/assets/image (11).png>)
-
-This is done by using the environment variable `OVERWRITE_SETTING_<Setting Code>`
-
-To override the value of setup wizard for example:
-
-```
-OVERWRITE_SETTING_Show_Setup_Wizard=completed
-```
-
-#### Hide and Block Settings
-
-You can choose to hide or block Rocket.Chat settings using environment variables. This is done by specifying `SETTINGS_HIDDEN` and `SETTINGS_BLOCKED` values.
+{% content-ref url="../../setup-and-configure/advanced-workspace-management/managing-settings-using-environmental-variables.md" %}
+[managing-settings-using-environmental-variables.md](../../setup-and-configure/advanced-workspace-management/managing-settings-using-environmental-variables.md)
+{% endcontent-ref %}

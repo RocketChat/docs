@@ -74,7 +74,7 @@ Only the workspace administrator in your [Cloud Console](https://cloud.rocket.ch
   \
   It will stop your subscription and hibernate your server (your server will still exist if you want to return to Rocket.Chat later).
 
-<img src="../../.gitbook/assets/cancel_cloud_subscription (1) (1) (1) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/cancel_cloud_subscription (1) (1) (1).png" alt="" data-size="original">
 
 If you need a database dump or want to permanently delete your workspace and all the associated data, submit a [ticket ](https://desk.rocket.chat/portal/en/newticket?departmentId=413244000000006907\&layoutId=413244000000074011)on our Helpdesk or email [support@rocket.chat](mailto:support@rocket.chat) with the respective request.
 

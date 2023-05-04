@@ -167,16 +167,20 @@ FileUpload_Storage_Type=hiGoogleCloudStorage
 ```
 
 {% hint style="info" %}
-This only works if the setting isn't already set hence it's most useful for setting on the initial start. If the setting already has a value you will need to use overwrite setting.
+This only works if the setting isn't already set hence it's most useful for setting on the initial start. If the setting already has a value you will need to use [overwrite setting](managing-settings-using-environmental-variables.md#overwrite-setting).
 {% endhint %}
 
 ## Overwrite Setting
 
-You can overwrite any setting by setting an environment variable prefixed with `OVERWRITE_SETTING_`.
+You can overwrite any setting by setting an environment variable prefixed with `OOVERWRITE_SETTING_<Setting Id>`.
 
 ```
 OVERWRITE_SETTING_FileUpload_Storage_Type=GoogleCloudStorage
 ```
+
+Settings capable of this can be seen when hovered upon in the **Administration** > **Workspace** > **Settings** section.
+
+![Example Settings code](<../../.gitbook/assets/image (11).png>)
 
 ## Block Settings
 
@@ -209,5 +213,5 @@ SETTINGS_REQUIRED_ON_WIZARD=Organization_Type,Organization_Name
 ```
 
 {% hint style="info" %}
-To learn more about configuring Rocket.Chat via environment variables, see [environment-variables.md](../../deploy/rocket.chat-environment-configuration/environment-variables.md "mention").
+To learn more about deploying Rocket.Chat with environment variables, see [environment-variables.md](../../deploy/rocket.chat-environment-configuration/environment-variables.md "mention").
 {% endhint %}
