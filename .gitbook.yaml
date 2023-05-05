@@ -177,4 +177,5 @@ redirects:
     guides/bots/create-and-run-a-bot/rasa-bot: rocket.chat-resources/development-docs.md
     contribute-to-rocket.chat/how-can-i-help/documentation/markdown-styleguide: resources/development-docs.md
     contributors/how-can-i-help/documentation/markdown-styleguide: resources/development-docs.md
+    contributing/reporting-issues: resources/development-docs.md
     
