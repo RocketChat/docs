@@ -135,7 +135,6 @@ redirects:
     contribute-to-rocket.chat/how-can-i-help/reporting-issues: contribute-to-rocket.chat/how-can-i-help/README.md
     contribute-to-rocket.chat/how-can-i-help/developing: contribute-to-rocket.chat/how-can-i-help/README.md
     contribute-to-rocket.chat/how-can-i-help/documentation: contribute-to-rocket.chat/how-can-i-help/README.md
-    contribute-to-rocket.chat/how-can-i-help/documentation/markdown-styleguide: contribute-to-rocket.chat/how-can-i-help/README.md
     contribute-to-rocket.chat/how-can-i-help/security: contribute-to-rocket.chat/how-can-i-help/README.md
     contribute-to-rocket.chat/how-can-i-help/security/responsible-disclosure-policy: contribute-to-rocket.chat/how-can-i-help/README.md
     contribute-to-rocket.chat/how-can-i-help/translating: contribute-to-rocket.chat/how-can-i-help/README.md
@@ -171,10 +170,11 @@ redirects:
     deploy-rocket.chat/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy: deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md
     deploy-rocket.chat/installing-client-apps: deploy/installing-client-apps/README.md
     quick-start/environment-configuration/configuring-ssl-reverse-proxy: deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md
-    contributors/how-can-i-help/security: contribute-to-rocket.chat/github-sponsorship.md
-    contributors/how-can-i-help/documentation: contribute-to-rocket.chat/github-sponsorship.md
+    contributors/how-can-i-help/security: resources/development-docs.md
+    contributors/how-can-i-help/documentation: resources/development-docs.md
     guides/rocket.chat-voice-channel/voice-channel-admin-guide/configure-without-previously-having-a-pbx-server: use-rocket.chat/rocket.chat-voice-channel/voice-channel-admin-guide/configure-without-previously-having-a-pbx-server/README.md
     getting-support/community-resources: resources/get-support/community-resources.md
     guides/bots/create-and-run-a-bot/rasa-bot: rocket.chat-resources/development-docs.md
-    contribute-to-rocket.chat/how-can-i-help/documentation/markdown-styleguide: contribute-to-rocket.chat/github-sponsorship.md
+    contribute-to-rocket.chat/how-can-i-help/documentation/markdown-styleguide: resources/development-docs.md
+    contributors/how-can-i-help/documentation/markdown-styleguide: resources/development-docs.md
     
