@@ -30,9 +30,15 @@ From community edition workspaces on version `6.0` and above, you can only creat
 5. **Email**: Forward your Omnichannel conversations to the email address you choose during offline hours.
 6. **Show on offline page**: A radio button if you want your department to show offline during off-business hours. If you enable it, it will appear in the widget.
 7. **Send this department's Live Chat offline messages to a channel:** Mention the name of the channel you want to direct the offline messages to.
-8. **Request tag(s) before closing the conversation:** Request your agent to set tags for the conversation for later searching purposes.
-9. **Conversation closing tags:** As an administrator, you can add some conversation tags for this department.
-10. **Agents:** Assign the agents to this department.
+8. **Max. number of simultaneous chats**: The maximum number of simultaneous chats that the agents can attend.
+9. **How long to wait to consider visitor abandonment?**: Time in seconds to wait to Consider visitor abandonment.
+10. **Custom message when the room is automatically closed by visitor inactivity**: Enter your custom message.
+11. **Waiting queue message**: Enter the waiting queue message.
+12. **List of departments allowed for forwarding (Optional)**: Allow to set a restricted list of departments that can receive chats from this department.
+13. **Fallback department for forwarding**: Select a fallback department for forwarding.
+14. **Request tag(s) before closing the conversation:** Request your agent to set tags for the conversation for later searching purposes.
+15. **Conversation closing tags:** As an administrator, you can add some conversation tags for this department.
+16. **Agents:** Assign the agents to this department.
 
 Depending on how many departments you've created, you might have the following behavior:
 
