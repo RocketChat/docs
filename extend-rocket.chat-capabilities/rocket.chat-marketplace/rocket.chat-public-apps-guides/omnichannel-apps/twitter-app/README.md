@@ -6,7 +6,7 @@ description: Omnichannel Integration between Rocket.Chat and Twitter.
 
 It is a paid subscription that costs you $25 monthly.
 
-![](<../../../../../.gitbook/assets/image (459) (1) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (459) (1) (1) (1) (1) (1).png>)
 
 {% hint style="warning" %}
 **You must have the** [**Omnichannel feature**](https://docs.rocket.chat/use-rocket.chat/omnichannel#enable-omnichannel) **enabled and have** [**agents**](https://docs.rocket.chat/use-rocket.chat/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/use-rocket.chat/omnichannel/managers) **assigned to receive and send Omnichannel messages.**
@@ -25,7 +25,7 @@ To install the Twitter App,
 To configure the Twitter App,
 
 * On the **Twitter App Info** screen, navigate to **Settings.**
-* Update the **Settings**:&#x20;
+* Update the **Settings**:
   * **Default Department**. Only the agents of this [department](https://docs.rocket.chat/guides/omnichannel/departments) can serve Twitter conversations.
   * **Service Unavailable Message:** A message sent to visitors when no agents are available online.
   * **Welcome Message:** A message sent to visitors when they send their first message in a conversation.
@@ -41,7 +41,7 @@ Before sending any messages, you must authorize the **Omni-Gateway** to send and
 
 To start the authentication with Twitter,
 
-* From the  `twitter.bot` message, click on the **Start Authentication** button.
+* From the `twitter.bot` message, click on the **Start Authentication** button.
 * The authentication process is started. Hit **Click here to authorize**.
 * You are redirected to a page where you can use your business mail to authorize Twitter.
 * Confirm the mail and click **Authorize app.**
@@ -49,7 +49,7 @@ To start the authentication with Twitter,
 
 ## Twitter App Shortcuts
 
-The Twitter app has a list of shortcuts to ease usage.&#x20;
+The Twitter app has a list of shortcuts to ease usage.
 
 * **/twitter authorize:** Starts the Twitter authorization process
 * **/twitter unauthorize:** Revoke Twitter authorization

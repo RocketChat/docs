@@ -15,7 +15,8 @@ Remember always to hit **Save Changes** to apply any changes made.
 ## General Settings
 
 * **File Uploads Enabled**: Use this setting to enable or restrict file uploads on your workspace
-* **Maximum File Upload Size (in bytes)**: Use this setting to define the maximum allowed file size for uploads. `Set it to -1 to remove the file size limitation.`
+* **Maximum File Upload Size (in bytes)**: Use this setting to define the maximum allowed file size for uploads. `Set it to -1 to remove the file size limitation.`\
+  Make sure the maximum file upload size matches that of your proxy if any is used.
 *   **Accepted Media Types**: Use this setting to define the files the users can upload.
 
     > Comma-separated list of media types. Leave it blank for accepting all media types.
@@ -155,7 +156,7 @@ Enter this into Rocket.Chat to allow the authentication with Google and store it
 
 ## WebDAV
 
-The settings used for WebDAV as storage server.
+The settings used for WebDAV as a storage server.
 
 * **Upload Folder Path**: WebDAV folder path to which files are uploaded to.
 * **WebDAV Server Access URL**: The URL of the WebDAV server ([WebDAV URLs of Common Cloud Storage Services](https://community.cryptomator.org/t/webdav-urls-of-common-cloud-storage-services/75)).

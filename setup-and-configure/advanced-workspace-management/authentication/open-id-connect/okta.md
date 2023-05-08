@@ -38,7 +38,7 @@ Okta Identity Cloud Service can be integrated as an Identity Provider for Rocket
 
 ### Adding a new Application in Okta
 
-![](<../../../../.gitbook/assets/AddApp (1).png>)
+![](../../../../.gitbook/assets/AddApp.png)
 
 * Create a new app on your Okta Application Dashboard.
 * Select **Web** as the **Platform**.
@@ -49,7 +49,7 @@ Okta Identity Cloud Service can be integrated as an Identity Provider for Rocket
 In this example, the custom OAuth is called _okta_. This will result in a **redirect URI** of _`https://my-rocketchat-server.org/_oauth/okta`_.
 {% endhint %}
 
-* Click **Save.** You are redirected to the  **General Settings** for the new app.
+* Click **Save.** You are redirected to the **General Settings** for the new app.
 * Copy the **Client ID** to the Rocket.Chat **id** field on your workspace OAuth settings page.
 * Copy the **Client secret** to the Rocket.Chat **secret** field on your workspace OAuth settings page.
 

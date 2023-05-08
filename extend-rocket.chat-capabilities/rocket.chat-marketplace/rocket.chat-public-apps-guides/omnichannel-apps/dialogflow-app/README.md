@@ -12,7 +12,7 @@ Using Rocket.Chat and the Dialogflow Chatbot platform integration, you can set u
 **You must have the** [**Omnichannel feature**](https://docs.rocket.chat/use-rocket.chat/omnichannel#enable-omnichannel) **enabled and have** [**agents**](https://docs.rocket.chat/use-rocket.chat/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/use-rocket.chat/omnichannel/managers) **assigned to receive and send Omnichannel messages.**
 {% endhint %}
 
-## Install Dialogflow  App
+## Install Dialogflow App
 
 To install the Dialogflow App,
 
@@ -37,7 +37,7 @@ To configure a bot user,
 If you don't find this bot user in your workspace, you can create it and assign the roles.
 {% endhint %}
 
-&#x20;![](<../../../../../.gitbook/assets/rocket-agent-bot (1).png>)
+![](../../../../../.gitbook/assets/rocket-agent-bot.png)
 
 * Configure the app to assign a livechat-visitor to this bot automatically. Navigate to **Administration > Workspace >Settings > Omnichannel > Routing.** Enable **Assign new conversations to bot agent**.
 
@@ -55,15 +55,15 @@ If you don't find this bot user in your workspace, you can create it and assign 
   * **Target Department for Handover:** Select the department to transfer customers when there is a bot-to-live agent handover.
   * **Handover Message:** A message sent to the customer upon handover.
   * **Service Unavailable Message:** A message sent by the bot to the customer if service is unavailable.
-  * **Close Chat Message:** A message sent automatically to the customer when a chat is closed.&#x20;
-  * &#x20;**Hide Quick Replies:** If enabled, all quick replies will hide when customers click on any of them.
+  * **Close Chat Message:** A message sent automatically to the customer when a chat is closed.
+  * **Hide Quick Replies:** If enabled, all quick replies will hide when customers click on any of them.
 * Click **Save Changes**.
 
 ## Uninstall Dialogflow App
 
-To delete the  app from your workspace,
+To delete the app from your workspace,
 
 * Go to **Administration > Apps > Installed.**
-* Click th**e kebab menu** against the Dialogflow app**.**
+* Click th**e kebab menu** against the Dialogflow app\*\*.\*\*
 * Select **Uninstall**.
 * Click **Yes** to confirm the uninstallation.

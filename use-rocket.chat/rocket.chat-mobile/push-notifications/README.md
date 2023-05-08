@@ -1,56 +1,46 @@
 # Push Notifications
 
+## Setup Push Notifications
+
 There are two ways to set up push notifications with Rocket.Chat:
 
 * Push Gateway
 * Self Configured
 
-## Push Gateway
+### Push Gateway
 
 Select this option if you and your users intend to use the official Rocket.Chat mobile applications. We set up a push gateway holding our keys to enable push alerts to be received on our official mobile application by any server. Doing this safeguards the secret keys required to transmit notifications to you and your users via Apple(APN) and Google (FCM) systems.
 
-## Self Configured
+### Self Configured
 
-When you self-configure the push notifications, things become more complicated. First, you need to get keys from both Apple and Google and compile/release your mobile applications to the app stores so your public keys will be distributed to your users. You will also need to add your keys to Rocket.Chat.
-
-Then, compile them for iOS and Android and submit them to the appropriate app stores for review. Finally, direct your users to download your custom version of the Rocket.Chat mobile applications.
-
-### Configuring for Android
-
-The Rocket.Chat native application for Android supports the FCM system. You can configure it with the following steps:
-
-* Create a Firebase project in the Firebase console if you don't already have one. Click Add project. If you already have a Google project associated with your mobile app, select it from the Project name drop-down menu. Otherwise, enter a project name to create a new project.
-* _**(Optional)**_ Edit your Project ID. Your project automatically receives a unique ID used in publicly visible Firebase features such as database URLs and your Firebase Hosting subdomain. You can change it now if you want to use a specific subdomain.
-* Complete the setup steps and click Create a project (or Add Firebase if you're using an existing project) to begin provisioning resources for your project. This typically takes a few minutes. When the process completes, the project overview is displayed.
-* Now that you have a project, you can add your Android app. Click **Add Firebase to your Android** app and follow the setup steps. If you're importing an existing Google project, this may happen automatically, and you can [download the config file](http://support.google.com/firebase/answer/7015592).
-* When prompted, enter your app's package name. It's essential to enter your app's package name; this can only be set when you add an app to your Firebase project.
-* During the process, you'll download a `google-services.json` file. You can [download this file](http://support.google.com/firebase/answer/7015592) again at any time.
-* After you add the initialization code, run your app to send verification to the Firebase console that you've successfully installed Firebase.
-
-### Configuring for iOS
-
-For iOS, you need a paid apple developer account. Then, follow the steps outlined in the [iOS setup guide](https://github.com/raix/push/blob/v3.x/docs/IOS.md).
+You'll have to white-label your app if you don't want to use our push gateway.
 
 {% hint style="info" %}
-You can find more information on push notifications configuration [here](https://developer.rocket.chat/mobile-app/mobile-app-white-labelling/configuring-push-notifications).
+To learn more about white-labeling, see [basic-white-labeling.md](../../../setup-and-configure/accessing-your-workspace/basic-white-labeling.md "mention").
 {% endhint %}
 
-### Configuring Rocket.Chat
+## Push Notifications Workflow
 
-* Go to **Administration.** Then click **Push.**
-* Set the **Enable Gateway** to **False**, and plug the information from Apple and Google.
-* Restart the server.
+The push notification workflow for Rocket.Chat is designed to be fast, reliable, and flexible, allowing users to stay informed and engaged with their chat messages and channels even when they're not actively using the app.\
+\
+The [flowchart](https://whimsical.com/notification-workflow-PRwN4MWNsxSwqHjHXaPUuC) below describes the workflow of Rocket.Chat notifications from when a message is sent to when its notification is delivered.
 
-Now you should be able to send a text message. Ensure you have logged in to the server once and then closed the app. You should see a test notification after you press the send button.
+{% embed url="https://whimsical.com/notification-workflow-PRwN4MWNsxSwqHjHXaPUuC" %}
+Rocket.Chat Push Notification Workflow
+{% endembed %}
 
-{% hint style="info" %}
-Here are some important points to consider when configuring mobile push notifications
+Here are some potential causes to watch out for if you notice that notifications are not being delivered. The notification will not be sent if:&#x20;
 
-* If you don't want notifications, you can disable the gateway and not provide keys.
-* You cannot compile your applications and use the Rocket.Chat push gateway.
-* For iOS, you need to [convert](https://github.com/raix/push/blob/master/docs/IOS.md) both the `.cer` and `.p12` files into `.pem` files.
-* Once everything is configured on the admin settings, the server must be restarted.
-{% endhint %}
+* The room notifications are disabled.
+* The user ignores the sender.
+* `@here`, `@all` notifications are disabled, and the message is `@here`, `@all`.
+* The user is not active, or their status is set to **Busy**.
+* The user notification is not connected to **Desktop** or **Mobile**.
+* The user settings to always display mobile notifications is not **ON**.
+* The user room preference is set to **Nothing**, or use a default preference set to **Nothing**.
+* The room members count is bigger than the limit for disabling notifications.
+
+
 
 ## FAQ
 

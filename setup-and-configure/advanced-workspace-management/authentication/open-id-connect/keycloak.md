@@ -47,7 +47,7 @@ You can also access the URL paths provided in the configurations by navigating t
 
 Client-specific roles of a keycloak managed user can be mapped to Rocket.Chat roles. This does not work for federated users (e.g., LDAP-managed users). For this example, to map the `admin` and `livechat-manager` [role](../../../../use-rocket.chat/workspace-administration/permissions.md#roles), add the required roles to the client.
 
-&#x20;To create a role in KeyCloak,&#x20;
+To create a role in KeyCloak,
 
 * Navigate to Roles and click **Add Role.**
 * Fill in the name and description of the role, and then click **Save**.
@@ -55,7 +55,7 @@ Client-specific roles of a keycloak managed user can be mapped to Rocket.Chat ro
 
 ### **View all client roles**
 
-To view all the client roles you have created,&#x20;
+To view all the client roles you have created,
 
 * Navigate to **Roles** and click **View all roles**
 
@@ -63,7 +63,7 @@ To view all the client roles you have created,&#x20;
 
 A _composite role_ is a role that can be associated with other roles.
 
-To define composite roles,&#x20;
+To define composite roles,
 
 * Navigate to **Roles > Composite Roles**.
 
@@ -75,7 +75,7 @@ To grant the Rocket.Chat role to a user, we have to modify the users Role Mappin
 
 **Mappers**
 
-![Mappers](<../../../../.gitbook/assets/30052022\_User Mapper.jpg>)
+![Mappers](../../../../.gitbook/assets/mappersrc.jpg)
 
 {% hint style="info" %}
 The roles are only synced on the first login and not refreshed on each login. See the [bug report](https://github.com/RocketChat/Rocket.Chat/issues/15225) to get more updates.

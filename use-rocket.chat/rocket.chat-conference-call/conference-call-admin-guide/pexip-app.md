@@ -4,7 +4,7 @@ description: Enterprise only feature
 
 # Pexip app
 
-![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (15).jpg>)
+![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (13).jpg>)
 
 {% hint style="success" %}
 This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [Air-gapped App installation guide](../../../setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md) and continue with the configuration instructions below.
@@ -47,16 +47,16 @@ To Download the **Pexip** app,
 To set up the **Pexip** app on your Rocket.Chat workspace,
 
 * Confirm that the app is enabled.
-* [Configure the Pexip server ](https://docs.pexip.com/admin/integrate\_policy.htm)with a remote policy to make service configuration requests before connecting with Rocket.Chat.&#x20;
-* On the **Pexip App Info** screen, navigate to **Details.**&#x20;
+* [Configure the Pexip server ](https://docs.pexip.com/admin/integrate\_policy.htm)with a remote policy to make service configuration requests before connecting with Rocket.Chat.
+* On the **Pexip App Info** screen, navigate to **Details.**
 * Copy the policy server URL (**GET policy/v1/service/configuration**) and update the Pexip settings.
-* Copy the  **POST events URL** and add it to the Events Sink on your Pexip server.
+* Copy the **POST events URL** and add it to the Events Sink on your Pexip server.
 
 {% hint style="info" %}
 The events sink informs the workspace when a call on Pexip Infinity has ended. This way, the call message block on your workspace is updated with the appropriate call status.
 {% endhint %}
 
-* On the **Pexip App Info** screen, navigate to **Settings.**  Update the **Base URL** with the URL of your running Pexip server.
+* On the **Pexip App Info** screen, navigate to **Settings.** Update the **Base URL** with the URL of your running Pexip server.
 * Click **Save Changes.**
 
 ### Configure conference call using the Pexip app
