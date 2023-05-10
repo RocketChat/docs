@@ -1,66 +1,79 @@
 root: ./
 
 redirects:
-    security: contribute-to-rocket.chat/how-can-i-help/security/README.md
+    security: resources/development-docs.md
     guides/developer/quick-start: resources/development-docs.md
-    guides/developer-guides/rest-api/: rocket.chat-resources/development-docs.md
-    guides/developer/mobile-apps/whitelabeling-mobile-apps: rocket.chat-resources/development-docs.md
-    guides/apps-development/getting-started: rocket.chat-resources/development-docs.md
-    guides/bots/create-and-run-a-bot/hubot-bot: rocket.chat-resources/development-docs.md
-    apps-development/getting-started: rocket.chat-resources/development-docs.md
-    api/rest-api: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/authentication/login: rocket.chat-resources/development-docs.md
-    developer-guides/realtime-api: rocket.chat-resources/development-docs.md
-    developer-guides/mobile-apps/supporting-ssl: rocket.chat-resources/development-docs.md
-    developer-guides: rocket.chat-resources/development-docs.md
-    developer-guides/iframe-integration/authentication: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/chat/postmessage: rocket.chat-resources/development-docs.md
-    api/rest-api/personal-access-tokens: rocket.chat-resources/development-docs.md
-    developer-guides/livechat-api: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/im: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/authentication: rocket.chat-resources/development-docs.md
-    developer-guides/developing-apps/getting-started: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/channels/cleanhistory: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/channels/info: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/livechat/sms-incoming: rocket.chat-resources/development-docs.md
-    guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: rocket.chat-resources/development-docs.md
-    developer-guides/quick-start: rocket.chat-resources/development-docs.md
-    api/rest-api/methods/chat/sendmessage: rocket.chat-resources/development-docs.md
-    developer-guides/mobile-apps: rocket.chat-resources/development-docs.md
-    developer-guides/realtime-api/subscriptions: rocket.chat-resources/development-docs.md
-    api/rest-api/methods/subscriptions/read: rocket.chat-resources/development-docs.md
-    api/rest-api/methods/users/create: rocket.chat-resources/development-docs.md
-    developer-guides/realtime-api/method-calls/login: rocket.chat-resources/development-docs.md
-    developer-guides/realtime-api/method-calls/login/: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/livechat: rocket.chat-resources/development-docs.md
-    developer-guides/deeplink: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/users/info: rocket.chat-resources/development-docs.md
-    api/realtime-api/subscriptions/stream-notify-room: rocket.chat-resources/development-docs.md
-    api/rest-api/methods/chat/getthreadslist: rocket.chat-resources/development-docs.md
-    api/realtime-api: rocket.chat-resources/development-docs.md
-    api/realtime-api/method-calls: rocket.chat-resources/development-docs.md
-    api/realtime-api/method-calls/logout: rocket.chat-resources/development-docs.md
-    developer-guides/ui-and-theming: rocket.chat-resources/development-docs.md
-    developer-guides/branches-and-releases: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/im/list: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/integration: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/miscellaneous/spotlight: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/rate-limiter/: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/rooms/upload: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/subscriptions/get: rocket.chat-resources/development-docs.md
-    developer-guides/rest-api/users/create: rocket.chat-resources/development-docs.md
-    api/rest-api/methods/authentication/login: rocket.chat-resources/development-docs.md
-    apps-development/uikit: rocket.chat-resources/development-docs.md
-    api/rest-api/methods/: rocket.chat-resources/development-docs.md 
-    apps-development/getting-started/rocket.chat-app-engine-cli: rocket.chat-resources/development-docs.md
+    guides/developer-guides/rest-api/: resources/development-docs.md
+    guides/developer/mobile-apps/whitelabeling-mobile-apps: resources/development-docs.md
+    guides/apps-development/getting-started: resources/development-docs.md
+    guides/bots/create-and-run-a-bot/hubot-bot: resources/development-docs.md
+    apps-development/getting-started: resources/development-docs.md
+    api/rest-api: resources/development-docs.md
+    developer-guides/rest-api: resources/development-docs.md
+    developer-guides/rest-api/authentication/login: resources/development-docs.md
+    developer-guides/realtime-api: resources/development-docs.md
+    developer-guides/mobile-apps/supporting-ssl: resources/development-docs.md
+    developer-guides: resources/development-docs.md
+    developer-guides/iframe-integration/authentication: resources/development-docs.md
+    developer-guides/rest-api/chat/postmessage: resources/development-docs.md
+    api/rest-api/personal-access-tokens: resources/development-docs.md
+    developer-guides/livechat-api: resources/development-docs.md
+    developer-guides/rest-api/im: resources/development-docs.md
+    developer-guides/rest-api/authentication: resources/development-docs.md
+    developer-guides/developing-apps/getting-started: resources/development-docs.md
+    developer-guides/rest-api/channels/cleanhistory: resources/development-docs.md
+    developer-guides/rest-api/channels/info: resources/development-docs.md
+    developer-guides/rest-api/livechat/sms-incoming: resources/development-docs.md
+    guides/developer/iframe-integration/authentication/testing-the-iframe-authentication: resources/development-docs.md
+    developer-guides/quick-start: resources/development-docs.md
+    api/rest-api/methods/chat/sendmessage: resources/development-docs.md
+    developer-guides/mobile-apps: resources/development-docs.md
+    developer-guides/realtime-api/subscriptions: resources/development-docs.md
+    api/rest-api/methods/subscriptions/read: resources/development-docs.md
+    api/rest-api/methods/users/create: resources/development-docs.md
+    developer-guides/realtime-api/method-calls/login: resources/development-docs.md
+    developer-guides/realtime-api/method-calls/login/: resources/development-docs.md
+    developer-guides/rest-api/livechat: resources/development-docs.md
+    developer-guides/deeplink: resources/development-docs.md
+    developer-guides/rest-api/users/info: resources/development-docs.md
+    api/realtime-api/subscriptions/stream-notify-room: resources/development-docs.md
+    api/rest-api/methods/chat/getthreadslist: resources/development-docs.md
+    api/realtime-api: resources/development-docs.md
+    api/realtime-api/method-calls: resources/development-docs.md
+    api/realtime-api/method-calls/logout: resources/development-docs.md
+    developer-guides/ui-and-theming: resources/development-docs.md
+    developer-guides/branches-and-releases: resources/development-docs.md
+    developer-guides/rest-api/im/list: resources/development-docs.md
+    developer-guides/rest-api/integration: resources/development-docs.md
+    developer-guides/rest-api/miscellaneous/spotlight: resources/development-docs.md
+    developer-guides/rest-api/rate-limiter/: resources/development-docs.md
+    developer-guides/rest-api/rooms/upload: resources/development-docs.md
+    developer-guides/rest-api/subscriptions/get: resources/development-docs.md
+    developer-guides/rest-api/users/create: resources/development-docs.md
+    api/rest-api/methods/authentication/login: resources/development-docs.md
+    apps-development/uikit: resources/development-docs.md
+    api/rest-api/methods/: resources/development-docs.md 
+    apps-development/getting-started/rocket.chat-app-engine-cli: resources/development-docs.md
+    guides/bots/create-and-run-a-bot/rasa-bot: resources/development-docs.md
+
+    contribute-to-rocket.chat/how-can-i-help/documentation/markdown-styleguide: resources/development-docs.md
+    contributors/how-can-i-help/documentation/markdown-styleguide: resources/development-docs.md
+    contributing/reporting-issues: resources/development-docs.md
+    contributors/how-can-i-help/security: resources/development-docs.md
+    contributors/how-can-i-help/documentation: resources/development-docs.md
+    contribute-to-rocket.chat/how-can-i-help/reporting-issues: resources/development-docs.md
+    contribute-to-rocket.chat/how-can-i-help/developing: resources/development-docs.md
+    contribute-to-rocket.chat/how-can-i-help/documentation: resources/development-docs.md
+    contribute-to-rocket.chat/how-can-i-help/security: resources/development-docs.md
+    contribute-to-rocket.chat/how-can-i-help/security/responsible-disclosure-policy: resources/development-docs.md
+    contribute-to-rocket.chat/how-can-i-help/translating: resources/development-docs.md
     
     guides/administration/settings/account-settings: use-rocket.chat/workspace-administration/settings/account-settings/README.md
     guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide: use-rocket.chat/rocket.chat-conference-call/README.md
     guides/administration/administration/identity-management-ee-vs-ce: setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md
     guides/administration/settings/ldap: use-rocket.chat/workspace-administration/settings/ldap/README.md
     guides/administration/admin-panel/settings/ldap/user-search-settings: use-rocket.chat/workspace-administration/settings/ldap/ldap-user-search.md
-    administrator-guides/integrations/zapier/using-zaps: guides/administration/admin-panel/integrations/zapier.md
+    administrator-guides/integrations/zapier/using-zaps: use-rocket.chat/workspace-administration/integrations/zapier.md
     installation/manual-installation/centos: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/rocket.chat-in-centos.md
     installation/docker-containers/docker-compose: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
     guides/administration/settings/omnichannel-admins-guide: use-rocket.chat/omnichannel/README.md
@@ -132,12 +145,6 @@ redirects:
     guides/administration/admin-panel/integrations: use-rocket.chat/workspace-administration/integrations/README.md
     legal/terms: rocket.chat-legal/terms-of-service.md
     legal/master-services-agreement-for-self-managed-workspaces: rocket.chat-legal/master-services-agreement-for-self-managed-workspaces.md
-    contribute-to-rocket.chat/how-can-i-help/reporting-issues: contribute-to-rocket.chat/how-can-i-help/README.md
-    contribute-to-rocket.chat/how-can-i-help/developing: contribute-to-rocket.chat/how-can-i-help/README.md
-    contribute-to-rocket.chat/how-can-i-help/documentation: contribute-to-rocket.chat/how-can-i-help/README.md
-    contribute-to-rocket.chat/how-can-i-help/security: contribute-to-rocket.chat/how-can-i-help/README.md
-    contribute-to-rocket.chat/how-can-i-help/security/responsible-disclosure-policy: contribute-to-rocket.chat/how-can-i-help/README.md
-    contribute-to-rocket.chat/how-can-i-help/translating: contribute-to-rocket.chat/how-can-i-help/README.md
     setup-and-configure/rocket.chat-air-gapped-deployment/manual-app-installation: setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md
     installation/mobile-and-desktop-apps#mobile-apps: deploy/installing-client-apps/rocket.chat-desktop-and-mobile-apps.md
     installation/mobile-and-desktop-apps: deploy/installing-client-apps/rocket.chat-desktop-and-mobile-apps.md
@@ -170,12 +177,6 @@ redirects:
     deploy-rocket.chat/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy: deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md
     deploy-rocket.chat/installing-client-apps: deploy/installing-client-apps/README.md
     quick-start/environment-configuration/configuring-ssl-reverse-proxy: deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md
-    contributors/how-can-i-help/security: resources/development-docs.md
-    contributors/how-can-i-help/documentation: resources/development-docs.md
     guides/rocket.chat-voice-channel/voice-channel-admin-guide/configure-without-previously-having-a-pbx-server: use-rocket.chat/rocket.chat-voice-channel/voice-channel-admin-guide/configure-without-previously-having-a-pbx-server/README.md
     getting-support/community-resources: resources/get-support/community-resources.md
-    guides/bots/create-and-run-a-bot/rasa-bot: rocket.chat-resources/development-docs.md
-    contribute-to-rocket.chat/how-can-i-help/documentation/markdown-styleguide: resources/development-docs.md
-    contributors/how-can-i-help/documentation/markdown-styleguide: resources/development-docs.md
-    contributing/reporting-issues: resources/development-docs.md
     
