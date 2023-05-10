@@ -1,5 +1,9 @@
 # Updating Rocket.Chat
 
+{% hint style="success" %}
+**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+{% endhint %}
+
 Rocket.Chat ships updates frequently to introduce new capabilities, fix bugs, and in some cases address potential security issues. Each of these updates improves Rocket.Chat to provide valuable and secure capabilities to our users.
 
 Workspace admins should monitor new releases and our release notes [here ](https://github.com/RocketChat/Rocket.Chat/releases)to determine whether updates should be applied to their workspace. We recommend that workspaces are kept current with Rocket.Chat releases.

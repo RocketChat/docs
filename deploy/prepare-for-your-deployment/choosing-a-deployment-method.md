@@ -1,5 +1,9 @@
 # Choosing a Deployment Method
 
+{% hint style="success" %}
+**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+{% endhint %}
+
 ## Choosing a Deployment Method
 
 Rocket.Chat offers various deployment methods, and choosing can get slightly conflicting. Although we recommend using [Docker and Docker Compose](rapid-deployment-methods/docker-and-docker-compose/), you may want to know when best to consider other deployment methods.

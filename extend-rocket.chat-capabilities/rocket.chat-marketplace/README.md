@@ -4,6 +4,10 @@ description: You can view the available and installed Rocket.Chat Apps and manag
 
 # Rocket.Chat Marketplace
 
+{% hint style="success" %}
+Rocket.Chat 6.0 is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+{% endhint %}
+
 Rocket.Chat apps are extensions that users can add to their workspaces to customize and enhance their functionality. Apps can be integrated with third-party services.
 
 The [Rocket.Chat Marketplace](https://www.rocket.chat/marketplace) provides a repository of apps users can browse, install and manage directly from within their workspace. You can also develop your own apps using the [Rocket.Chat Apps engine](https://developer.rocket.chat/apps-engine).

@@ -1,5 +1,9 @@
 # Rocket.Chat Conference Call
 
+{% hint style="success" %}
+**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+{% endhint %}
+
 When it comes to conference calling Rocket.Chat supports multiple feature-rich options. Rocket.Chat's conference call allows you to use the following video conferencing platforms, available as apps on our [marketplace](https://rocket.chat/marketplace).
 
 * [Pexip](conference-call-admin-guide/pexip-app.md)

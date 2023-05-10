@@ -4,13 +4,17 @@ description: Requirements for official support from the Rocket.Chat team
 
 # Enterprise Support
 
+{% hint style="success" %}
+**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+{% endhint %}
+
 ## Supported Environment
 
-In order to obtain official support from our team, we have a minimum set of requirements. These requirements are necessary for us to access the essential system information, provide an SLA, answer questions, or provide a solution for the problem.
+We have a minimum set of requirements to obtain official support from our team. These requirements are necessary for us to access the essential system information, provide an SLA, answer questions, or provide a solution for the problem.
 
 Only installations matching these minimum requirements can be covered by our SLAs and our paid Support Policy. Some requirements may vary depending on the installation size as described in the following sections.
 
-We require the installation to run the Docker image provided by the Rocket.Chat team, this makes it possible to isolate external factors. It ensures that the support request refers to our application and not to the following factors.
+We require the installation to run the Docker image provided by the Rocket.Chat team, this makes it possible to isolate external factors. It ensures that the support request refers to our application, not the following factors.
 
 1. Problems during the compilation process
 2. Problems during the installation process

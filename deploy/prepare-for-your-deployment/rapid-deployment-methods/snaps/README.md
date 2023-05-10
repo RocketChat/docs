@@ -1,5 +1,9 @@
 # Snaps
 
+{% hint style="success" %}
+**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+{% endhint %}
+
 ## Installation
 
 Snap is pre-installed in most modern distributions. If it is not, please read snap's [official documentation](https://snapcraft.io/docs/installing-snapd) on how to install snap.

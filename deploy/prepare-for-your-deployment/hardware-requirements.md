@@ -4,6 +4,10 @@ description: Minimum Requirements for Server Deployment
 
 # Hardware Requirements
 
+{% hint style="success" %}
+**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+{% endhint %}
+
 To get a Rocket.Chat instance running, paying attention to the properties of the machine/hardware you have is essential.
 
 These requirements vary significantly with the following:

@@ -6,6 +6,10 @@ description: >-
 
 # Omnichannel
 
+{% hint style="success" %}
+**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+{% endhint %}
+
 Rocket.Chat **Omnichannel** allows you to integrate various customer communication channels into your workspace. You can incorporate the [Omnichannel Live Chat pop-up](livechat-widget-installation.md) widget into your website, serving as an entry point for communication or direct support to your customers or visitors.&#x20;
 
 You can also use advanced [Omnichannel Apps](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/), which provide a seamless communication experience between Rocket.Chat and external users from other communication platforms like [WhatsApp](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/whatsapp/), [SMS](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/sms.md), [Facebook](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/facebook-app/), [Instagram Direct](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/instagram-direct/), [Twitter](broken-reference), [Telegram](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/telegram-app/), etc.&#x20;

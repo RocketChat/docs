@@ -1,5 +1,9 @@
 # Rocket.Chat on Ubuntu
 
+{% hint style="success" %}
+**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+{% endhint %}
+
 ## Recommended Server Install
 
 We recommend installing Rocket.Chat using our[ Docker and Docker Compose](../../../rapid-deployment-methods/docker-and-docker-compose/) or [Snaps](../../../rapid-deployment-methods/snaps/) guide, as they are the easiest way to get your server up and running on all supported Linux distributions (Ubuntu, etc.). To enable TLS on your site like this `https://yoursite.com` when using the snap, see [this guide](../../../rapid-deployment-methods/snaps/auto-ssl-with-snaps.md).
