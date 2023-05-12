@@ -20,7 +20,11 @@ All users assigned to the guest role don't count on the cap of seats, but they c
 
 Guest users have fewer capabilities than regular users.
 
-As a guest user of Rocket.Chat, you can start the conversation, view direct messages, view joined rooms, and view the private room.
+A  Rocket.Chat guest users can:
+
+* Join channels they are invited to.
+* Participate in [Channel](../../user-guides/rooms/channels/), [1:1 DM](../../user-guides/rooms/direct-messages/#types-of-direct-messages), and [1:M DM](../../user-guides/rooms/direct-messages/#types-of-direct-messages) conversations they are a part of.
+* [Create Discussions](../../user-guides/rooms/discussions/create-a-new-discussion.md).
 
 {% hint style="info" %}
 It's possible to set a maximum number of guest users for every license.
@@ -49,7 +53,7 @@ You must be an administrator to add a guest to Rocket.Chat workspace.
 {% endhint %}
 
 * Go to **Administration > Workspace > Users > New**
-* On the **Add User** page\*\*,\*\* enter the guest users' information:
+* On the **Add User** page, enter the guest users' information:
   * **Name:** Enter the name of the guest user.
   * **Username:** Enter the guest users's username.
   * **Email:** Enter the guest users' email address.
