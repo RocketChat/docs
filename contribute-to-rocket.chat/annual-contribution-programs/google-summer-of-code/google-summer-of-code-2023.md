@@ -34,6 +34,33 @@ Those who prefers forums can post messages on our GSoC forum channel (although a
 
 ### **Latest update**
 
+**Update May 11th, 2023  Mentors welcome contributors from 10 accepted projects**&#x20;
+
+2023 is a great year for GSoC at Rocket.Chat. With high calibre contributors arriving as early as January and a record number of returning GSoC alumni as mentors. So far, **332 new contributors have created 85 Merged PRs, 86 Open PRs, and identified 203 Issues** for our projects. We received **197 GSoC 2023 proposals**; most of them are of good to excellent quality.  Google has graciously granted us a total of[ **TEN projects for 2023 GSoC**](https://summerofcode.withgoogle.com/programs/2023/organizations/rocketchat)**.**  Thank you Google !\
+&#x20;\
+We are delighted to announce that **EIGHT of the mentors** participating in these ten selected projects **are former GSoC contributors**, now valuable and well respected Rocket.Chat community members.\
+\
+Mentors have started to welcome the following 10 new contributing community members to work with us during the 2023 season:
+
+| Contributor      | Project                                 | Mentors                                        |
+| ---------------- | --------------------------------------- | ---------------------------------------------- |
+| Disha Bhardwaj   | Introduce Captcha to Livechat Widget    | Murtaza Patrawala, Renato Becker, Kevin Aleman |
+| abhinavkrin      | Embedded Chat 2023                      | Sidharth Mohanty                               |
+| Henit Chobisa    | Next Generation Desktop Apps on Tauri   | Jean Brito, David Alen                         |
+| M. Palanikannan  | Google Summer of Code Community Hub     | Dhruv Jain, Dnouv, Hugo Costa                  |
+| AdityaSingh-02   | Guided RC Code Walkthrough and Tutorial | Kevin Aleman, Sing Li                          |
+| Mohd Sameer      | Miro App for Rocket.Chat                | Mustafa Hasan Khan, Rafael Tapia               |
+| Nabhag Motivaras | Integrate Notion via RC App             | Samad Yar Khan, Bárbara Zanella                |
+| Shubham Bhardwaj | Scaled Botpress Connector               | Duda Nogueira, Yash Rajpal                     |
+| Vinayak\_Sharma  | Whiteboard Integration                  | Shiqi Mei, Douglas Gubert                      |
+| Vivek Srivastava | UiKit Playground 2.0                    | Douglas Fabris, Guilherme Gazzo                |
+
+An exceptional thing happened during the 2023 GSoC season,  several active contributors have approached us, and even though their project has not been selected this season, decided to contribute their time in this summer to open source ---  and help us make the project a reality.  \
+\
+We are grateful to these sort of effort and welcome these contributors with full open arms.  These cases fully illustrate the value and effectiveness of the GSoC program to open source in general.\
+\
+After the official announcement of the GSoC results, we conducted a tutorial session on **How to create effective PRs, working with Git and Github**.  It was absolutely the **best attended live tutorial session** in the entire 2023 season, with **23 contributors/attendees** taking advantage of the session. &#x20;
+
 **Update April 27th, 2023     App Development Code Walkthrough and Finalizing Proposal Reviews**\
 Mentors have finalized their reviews and we held another popular code walkthrough (rocket.chat app development)  this past Saturday.   Thanks goes to the **17 community attendees** of this live weekend session.   As of April 27th, our **331 community contributors** have contributed a record-breaking **83 Merged PRs, 84 Open PRs, and 201 Issues**. to our ecosystem.  Everyone is looking forward to the **May 4th** project announcements. \
 

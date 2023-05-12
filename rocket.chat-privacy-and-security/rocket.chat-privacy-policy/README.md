@@ -10,24 +10,24 @@ We use your data to provide and improve the Service. By using the Service, you a
 
 ## Summary
 
-*   **Administrators are responsible for user privacy, we help administrators**
+*   **Administrators are responsible for user privacy, and we help administrators.**
 
-    There are basically two ways of using Rocket.Chat: self-managed (also known as on-premises deployment) on your own or someone else´s infrastructure or via our hosted offering. In both cases, the administrator of that instance - or the organization behind the administrator - is the person responsible to ensure privacy of Rocket.Chat users. We aim to help by providing features in our products and services to make that job easier. We also provide this policy to explain what we do as a "helping hand"/data processor for administrators in case we process personal data of users.
-*   **You remain in control of your personal data**
+    There are basically two ways of using Rocket.Chat: self-managed (also known as on-premises deployment) on your own or someone else's infrastructure or via our hosted offering. In both cases, the administrator of that instance - or the organization behind the administrator - is the person responsible to ensure the privacy of Rocket.Chat users. We aim to help by providing features in our products and services to make that job easier. We also provide this policy to explain what we do as a "helping hand"/data processor for administrators in case we process the personal data of users.
+*   **You remain in control of your personal data.**
 
-    We cannot access your personal data in a self-managed instance of Rocket.Chat. Our code is open source, there are no back doors whatsoever. You are however free to connect a self-managed instance to other services, e.g. our marketplace or push notification gateway, where this privacy policy applies. When you do not register your instance, these settings are turned off by default. You can also connect it to third party services, such as external authentication services, in which case their privacy policy applies. It is your choice and you are not forced to do so. In our hosted offering, we only process your data for the purposes of providing you the service in the name of the administrator. Administrators are still in full control over the configuration of their instance.
-*   **We don´t sell your data**
+    We cannot access your personal data in a self-managed instance of Rocket.Chat. Our code is open source; there are no back doors whatsoever. You are, however, free to connect a self-managed instance to other services, e.g., our marketplace or push notification gateway, where this privacy policy applies. When you do not register your instance, these settings are turned off by default. You can also connect it to third-party services, such as external authentication services, in which case their privacy policy applies. It is your choice, and you are not forced to do so. In our hosted offering, we only process your data for the purpose of providing you the service in the name of the administrator. Administrators are still in full control over the configuration of their instances.
+*   **We don't sell your data.**
 
-    We do not sell your personal data. Our business model is to provide you with a free edition and we charge you for extra services or features, according to the plan you choose. What you process within Rocket.Chat is yours and stays yours.
-*   **Our community server is for testing purposes**
+    We do not sell your personal data. Our business model is to provide you with a free edition, and we charge you for extra services or features, according to the plan you choose. What you process within Rocket.Chat is yours and stays yours.
+*   **Our community server is for testing purposes.**
 
-    Our community server [https://open.rocket.chat](https://open.rocket.chat) is a testing ground for our users and we use it to test and analyze new features. We track user activity in there with the trackers described below - including google analytics - to learn how our service is used and to improve our product.
+    Our community server [https://open.rocket.chat](https://open.rocket.chat) is a testing ground for our users, and we use it to test and analyze new features. We track user activity there with the trackers described below - including google analytics - to learn how our service is used and to improve our product.
 
 ## Definitions
 
 *   **Service**
 
-    Service means the [https://rocket.chat](https://rocket.chat) website, the [https://open.rocket.chat](https://open.rocket.chat) community server, the Rocket.Chat Marketplace, incl. associated Rocket.Chat Apps, the [https://cloud.rocket.chat](https://cloud.rocket.chat) service offering, push notification gateways and the Rocket.Chat mobile applications operated by Rocket.Chat Technologies Corp.
+    Service means the [https://rocket.chat](https://rocket.chat) website, the [https://open.rocket.chat](https://open.rocket.chat) community server, and the Rocket.Chat Marketplace, incl. associated Rocket.Chat Apps, the [https://cloud.rocket.chat](https://cloud.rocket.chat) service offering, push notification gateways, and the Rocket.Chat mobile applications operated by Rocket.Chat Technologies Corp.
 *   **Personal Data**
 
     Personal Data means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).
@@ -51,9 +51,9 @@ We use your data to provide and improve the Service. By using the Service, you a
 
     Data Subject is any living individual who is using our Service and is the subject of Personal Data.
 
-## **What personal data do we collect and to which purposes do we use your personal data?**
+## **What personal data do we collect, and for which purposes do we use your personal data?**
 
-In connection with our operations and during the lifecycle of business relationship with our customers, we collect various types of personal data, meaning any information that identifies or allows to identify you, including:
+In connection with our operations and during the lifecycle of business relationships with our customers, we collect various types of personal data, meaning any information that identifies or allows us to identify you, including:
 
 ### Types of Data Collected
 
@@ -64,42 +64,43 @@ While using our Service, we may ask you to provide us with certain personally id
 * Email address
 * First name and last name
 * Cookies and Usage Data
+* Phone number and other contact details
 
 We may use your Personal Data to contact you with newsletters, marketing or promotional materials, and other information that may be of interest to you, if you have provided consent to this processing or if we can base this processing on a legitimate interest that is not overridden by your fundamental rights. You may in the future withdraw that consent or object to receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send or by contacting us.
 
 #### Account Data
 
-Some Services may allow or require that you register for a personalized account. Account data may include in addition your account name, authentication information, registration date, contact information, payment information, and any other information associated with your account.
+Some Services may allow or require that you register for a personalized account. Account data may include, in addition, your account name, authentication information, registration date, contact information, payment information, and any other information associated with your account.
 
 #### Usage Data
 
 We may also collect information that your browser sends whenever you visit our Service or when you access the Service, incl. by or through a mobile device ("Usage Data").
 
-This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+This Usage Data may include information such as your computer's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
 
 When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, the IP address of your mobile device, your mobile operating system, the app version, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
 
-As a byproduct of the usage data within a Rocket.Chat instance, Administrators may choose to share aggregated and therefore anonymous, non-personal data with us to help us learn more about how our product is being used. This setting is described [here](../../use-rocket.chat/workspace-administration/settings/general/). The information shared is the same information as is shown on the "info"-page of the administration panel of an instance. E.g. these statistics sharing would transmit the total # of channels, but it would not transmit the actual channel names, and so on, preserving the privacy of your workspace. This is completely optional to use and can be activated and deactivated at any time.
+As a byproduct of the usage data within a Rocket.Chat instance, Administrators may choose to share aggregated and, therefore, anonymous, non-personal data with us to help us learn more about how our product is being used. This setting is described [here](../../use-rocket.chat/workspace-administration/settings/general/). The information shared is the same information as is shown on the "info"-page of the administration panel of an instance. E.g., these statistics sharing would transmit the total # of channels, but it would not transmit the actual channel names, and so on, preserving the privacy of your workspace. This is completely optional to use and can be activated and deactivated at any time.
 
 #### Location Data
 
-We may use and store information about your location if you give us permission to do so (“Location Data”). We use this data to provide features of our Service (only to allow you to share your location to another user via Rocket.Chat, if it was enabled by the administrator).
+We may use and store information about your location if you give us permission to do so (“Location Data”). We use this data to provide features of our Service (only to allow you to share your location with another user via Rocket.Chat, if it was enabled by the administrator).
 
 You can enable or disable location services when you use our Service at any time, through your device settings.
 
 #### App Data
 
-When you use the Marketplace, you may choose to install Apps provided by Rocket.Chat. These Apps process data from your instance of Rocket.Chat and therefore nonpersonal data, such as software version, amount of users, and similar. Depending on the purpose and your actual usage of the App (e.g. enabling certain features), Personal Data may however be processed. E.g. you enable an integration, which processes your users' information. The description of the App will make the types of personal data sufficiently clear as well as any potential deviations from this policy.
+When you use the Marketplace, you may choose to install Apps provided by Rocket.Chat. These Apps process data from your instance of Rocket.Chat and, therefore, nonpersonal data, such as software version, amount of users, and similar. Depending on the purpose and your actual usage of the App (e.g., enabling certain features), Personal Data may however be processed. E.g., you enable an integration, which processes your users' information. The description of the App will make the types of personal data sufficiently clear, as well as any potential deviations from this policy.
 
 For Third-Party Apps on the Marketplace, the Vendor will provide you with a specific privacy policy that governs his Third-Party App.
 
 #### Content you provide
 
-When you use our Services you may provide content into that service (e.g. upload file, send a message).
+In addition to the data mentioned in this Privacy Policy, please note that any content uploaded by Users to the open.rocket.chat community server will also be stored. This includes images, files, documents, and other user-generated data. Rest assured that we securely store all uploaded content in our cloud-hosted infrastructure. For further details on how we secure your data, please refer to the "[How do we secure your data](./#how-do-we-secure-your-data)" section. Additionally, information about our Cloud Infrastructure and Subprocessors can be found in our [Subprocessors](./#subprocessors) section.
 
-#### Tracking & Cookies Data
+#### &#x20;Tracking & Cookies Data
 
-We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. We DO NOT track activity in your self-managed instances. We regularly monitor aggregated activity data on our infrastructure, but it is not tracking of individual users in the sense of this paragraph, which only occurs when we have a legitimate interest to do so (e.g. for security and compliance purposes). We do perform regular tracking on our community server.
+We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. We DO NOT track activity in your self-managed instances. We regularly monitor aggregated activity data on our infrastructure, but it is not tracking individual users in the sense of this paragraph, which only occurs when we have a legitimate interest in doing so (e.g., for security and compliance purposes). We do perform regular tracking on our community server.
 
 Cookies are files with a small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.
 
@@ -127,7 +128,7 @@ See the following table for a general distinction between the data that is proce
 |     **User content**     |               no              |  no - content is not processed, unless it falls under the aforementioned (e.g. the content of a push notification sent via our gateway) |   yes - as part of using the hosted workspace on our infrastructure. End-to-end encrypted content is only stored in encrypted form.  |
 | **Tracking and Cookies** |               no              | yes - tracking occurs on our end to monitor the consumption of the services you use (Usage Data). We do not track inside the workspace. |                                yes - tracking occurs to monitor the consumption of the services used.                                |
 
-## How do we use information?
+## How do we use the information?
 
 We collect and use your personal data to the extent necessary to carry out our operations and provide our services as well as to comply with any regulatory obligations in our activities.&#x20;
 
@@ -184,11 +185,13 @@ If you are located outside United States and choose to provide information to us
 
 ### Business Transaction
 
-If Rocket.Chat Technologies Corp. is involved in a merger, acquisition or asset sale, your Personal Data may be transferred. We will provide notice before your Personal Data is transferred and becomes subject to a different Privacy Policy.
+If Rocket.Chat Technologies Corp. is involved in a merger, acquisition, or asset sale; your Personal Data may be transferred. We will provide notice before your Personal Data is transferred and becomes subject to a different Privacy Policy.
 
 ### Disclosure for Law Enforcement
 
-Under certain circumstances, Rocket.Chat Technologies Corp. may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
+In certain circumstances, we may be required to disclose user-uploaded content and other Personal Data in response to a valid request from law enforcement authorities. We will only comply with such requests if they are made in accordance with applicable laws, regulations, and our internal guidelines for disclosure.
+
+For more information regarding Law Enforcement Disclosure, please refer to our [Guidelines for Law Enforcement](https://docs.rocket.chat/rocket.chat-legal/guidelines-for-law-enforcement).
 
 ### Legal Requirements
 
@@ -206,9 +209,11 @@ Ensuring the security of the data you entrust to us is one of our most important
 
 Your data can only be accessed by persons for whom it is necessary in relation to their work.
 
-We may outsource our processing of personal data to external service providers. In such events we enter into appropriate agreements with the providers in order to ensure that your personal data is processed in accordance with this Privacy Policy and any applicable laws. We also have received internationally recognised [security certifications](../security/compliance-resources.md).
+We may outsource our processing of personal data to external service providers. In such events, we enter into appropriate agreements with the providers in order to ensure that your personal data is processed in accordance with this Privacy Policy and any applicable laws. We also have received internationally recognized [security certifications](../security/compliance-resources.md).
 
 Although we do our best, given the nature of communications and information processing technology, we cannot guarantee that Information during transmission through the Internet or while stored on our systems or otherwise in our care will be absolutely safe from intrusion by others.
+
+For more information regarding our security practices, please refer to our comprehensive [Security Policy](https://docs.rocket.chat/rocket.chat-privacy-and-security/security-policy) and [Security and Compliance Guides](https://docs.rocket.chat/rocket.chat-privacy-and-security/security).
 
 ## "Do Not Track" Signals Under California Online Privacy Protection Act (CalOPPA)
 

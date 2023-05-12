@@ -8,7 +8,7 @@ description: >-
 
 A **Team** can have multiple [channels](../channels/). In Rocket.Chat, **Team** is a digital workspace that allows you to manage multiple users simultaneously, making it easier for you to collaborate with teammates. For example, you have a team in your workspace for all core members that contains a list of channels you want them to belong to. If you add a new core member to that team, they have access to all the channels in that team. There will be no need to add them to those channels individually.
 
-**Teams** are available to both community and enterprise clients. They are identified by: ![](<../../../../.gitbook/assets/team (2).png>)
+**Teams** are available to both community and enterprise clients. They are identified by: ![](<../../../../.gitbook/assets/team (1).png>)
 
 \
 **Teams** can be made private so that only invited members are allowed to join or public so that all Rocket.Chat users can see them. Each **Team** may consist of channels, which may also be either [public ](../channels/#public-channels)or [private](../channels/#private-channels).
