@@ -6,14 +6,12 @@ description: >-
 
 # Guest users
 
-<figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (11).jpg" alt=""><figcaption></figcaption></figure>
-
 {% hint style="info" %}
-Guest is a role that is available only on the Enterprise edition, and it's not possible to change the permissions for this role.
+As from Rocket.Chat `6.0`, Guest role [permissions](../permissions.md) on [Enterprise Edition](../settings/enterprise.md) and [Rocket.Chat SaaS](../../../#rocket.chat-saas) workspaces cannot be modified.
 {% endhint %}
 
 {% hint style="success" %}
-All users assigned to the guest role don't count on the cap of seats, but they count in the guest cap.
+Users with the Guest role don't count on the cap of seats, but they count on the guest cap.
 {% endhint %}
 
 ### What can a guest user do?
@@ -36,11 +34,13 @@ It's possible to set a maximum number of channels a guest can join for every lic
 
 ### **Guest Access Permissions**
 
-{% hint style="info" %}
-Guest accounts are only available on Enterprise, and the permissions are pre-defined for this role.
-{% endhint %}
+Go to **Administration > Workspace > Permissions** and locate the guest role. You see the available permissions the guest role has.
 
-Go to **Administration > Workspace > Permissions.** You will notice that the permissions that a guest role has are: start the conversation, view direct messages, view joined the room, and view private room.
+Check to enable any other permission to elevate the guest privileges.
+
+{% hint style="info" %}
+For Enterprise workspaces from `6.0`, the guest role has limited permissions like: `Start Discussion`,`View Direct Messages` and cannot be modified.
+{% endhint %}
 
 #### Permissions Available **for the Guest Role**
 
@@ -65,14 +65,14 @@ You must be an administrator to add a guest to Rocket.Chat workspace.
   * **Set random password and send by email:** Enable or disable this option to set a random password and send by email.
   * **Roles:** Select the **guest** role from the dropdown menu.
   * **Join default channels:** Set whether you want the guest user to join default channels.
-  * **Send welcome email:** Set whether you want to send a welcome email \*\*\*\* to the guest user.
+  * **Send welcome email:** Set whether you want to send a welcome email to the guest user.
 * Click **Save**.
 
 {% hint style="info" %}
-**Roles** - This will define what permissions a user has.
+[**Roles** ](../../../setup-and-configure/roles-in-rocket.chat.md)- This defines what permissions a user has.
 {% endhint %}
 
-Once the guest user is added, you can edit, activate and deactivate the guest role.
+Once the guest user is added, you can edit, activate or deactivate the guest user as needed.
 
 ### Activate Guest Users
 
