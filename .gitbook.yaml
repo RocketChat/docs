@@ -55,6 +55,7 @@ redirects:
     api/rest-api/methods/: resources/development-docs.md 
     apps-development/getting-started/rocket.chat-app-engine-cli: resources/development-docs.md
     guides/bots/create-and-run-a-bot/rasa-bot: resources/development-docs.md
+    guides/developer/iframe-integration/authentication: resources/development-docs.md
 
     contribute-to-rocket.chat/how-can-i-help/documentation/markdown-styleguide: resources/development-docs.md
     contributors/how-can-i-help/documentation/markdown-styleguide: resources/development-docs.md
@@ -67,6 +68,7 @@ redirects:
     contribute-to-rocket.chat/how-can-i-help/security: resources/development-docs.md
     contribute-to-rocket.chat/how-can-i-help/security/responsible-disclosure-policy: resources/development-docs.md
     contribute-to-rocket.chat/how-can-i-help/translating: resources/development-docs.md
+    contributors/how-can-i-help: resources/development-docs.md
     
     guides/administration/settings/account-settings: use-rocket.chat/workspace-administration/settings/account-settings/README.md
     guides/administration/settings/video-conference-admin-guide/omnichannel-video-audio-call-admins-guide: use-rocket.chat/rocket.chat-conference-call/README.md
@@ -179,4 +181,11 @@ redirects:
     quick-start/environment-configuration/configuring-ssl-reverse-proxy: deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md
     guides/rocket.chat-voice-channel/voice-channel-admin-guide/configure-without-previously-having-a-pbx-server: use-rocket.chat/rocket.chat-voice-channel/voice-channel-admin-guide/configure-without-previously-having-a-pbx-server/README.md
     getting-support/community-resources: resources/get-support/community-resources.md
+    installing-and-updating/minimum-requirements-for-using-rocket.chat: deploy/prepare-for-your-deployment/hardware-requirements.md
+    installing-and-updating/snaps/auto-ssl-with-snaps: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/auto-ssl-with-snaps.md
+    guides/user-guides/talking-to-users-from-another-server: use-rocket.chat/workspace-administration/settings/federation/README.md
+    guides/administration/identity-management-ee-vs-ce: setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md
+    guides/administrator-guides/settings/federation: use-rocket.chat/workspace-administration/settings/federation/README.md
+    guides/security/security-updates: rocket.chat-privacy-and-security/security/security-updates/README.md
+    
     
