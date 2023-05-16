@@ -4,7 +4,11 @@
 
 ## How to apply
 
-Application for Google Summer of Code 2023 is now closed.  Please see [official Google Summer of Code site](https://summerofcode.withgoogle.com/)  and the [official 2023 timeline](https://developers.google.com/open-source/gsoc/timeline).    Accepted contributor projects will be announced on the official site on **May 4th**.\
+Application for Google Summer of Code 2023 is now closed. See [official Google Summer of Code site](https://summerofcode.withgoogle.com/).
+
+See official [accepted projects and contributors](https://summerofcode.withgoogle.com/programs/2023/organizations/rocketchat) for the list of projects this year.
+
+For timeline, see [Official Google Summer of Code 2023](https://developers.google.com/open-source/gsoc/timeline) Timeline for more details.\
 \
 Rocket.Chat is proud to be a participating mentoring open source organization for [Google Summer of Code 2023](https://summerofcode.withgoogle.com/). This marks the exciting 7th year of participation in this 18 years-old program to usher in a new generation of open source contributors and enthusiasts.
 
