@@ -37,7 +37,7 @@ To configure a bot user,
 If you don't find this bot user in your workspace, you can create it and assign the roles.
 {% endhint %}
 
-![](<../../../../../.gitbook/assets/rocket-agent-bot (1).png>)
+![](../../../../../.gitbook/assets/rocket-agent-bot.png)
 
 * Configure the app to assign a livechat-visitor to this bot automatically. Navigate to **Administration > Workspace >Settings > Omnichannel > Routing.** Enable **Assign new conversations to bot agent**.
 

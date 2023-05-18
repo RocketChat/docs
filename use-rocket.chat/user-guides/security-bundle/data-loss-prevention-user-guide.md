@@ -1,6 +1,6 @@
 # Data Loss Prevention User Guide
 
-<figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (10).jpg" alt=""><figcaption></figcaption></figure>
 
 In its simplest terms, data loss prevention (DLP) is a security mechanism that helps ensure that sensitive data is not unduly shared, misused, lost, or accessed by unauthorized users.
 
