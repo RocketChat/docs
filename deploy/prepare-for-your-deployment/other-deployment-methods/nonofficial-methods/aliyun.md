@@ -152,7 +152,7 @@ docker pull registry.rocket.chat/rocketchat/rocket.chat
 Run:
 
 ```
-docker-compose up -d mongo
+docker compose up -d mongo
 ```
 
 Mongo supports 24 x 7 operations and live backup. You should not need to restart it too frequently. See [mongodb documentations](https://docs.mongodb.org/manual/) for proper operation and management of a mongo server.
@@ -164,7 +164,7 @@ Wait a couple of minute for mongo to start properly.
 Run:
 
 ```
-docker-compose up -d mongo-init-replica
+docker compose up -d mongo-init-replica
 ```
 
 This container's job is just to run the command to initialize the replica set. It will run the command and remove itself (it will not stay running)
@@ -174,7 +174,7 @@ This container's job is just to run the command to initialize the replica set. I
 Now start the Rocket.Chat server:
 
 ```
-docker-compose up -d rocketchat
+docker compose up -d rocketchat
 ```
 
 Rocket.Chat should be ready in a minute or two.

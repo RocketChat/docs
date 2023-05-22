@@ -38,13 +38,13 @@ Starting with the major release 4.X.Y of Rocket.Chat, MongoDB has to be setup wi
 
     ```bash
      cd /opt/rocketchat
-     docker-compose exec mongo mongodump --archive=/dump/mmap --gzip
+     docker compose exec mongo mongodump --archive=/dump/mmap --gzip
      cp /data/dump/mmap ~/mongo-mmap-dump.gzip
     ```
 2.  Stop your existing Rocket.Chat system including all its services (especially MongoDB).
 
     ```bash
-     docker-compose stop
+     docker compose stop
     ```
 3.  [Download the repository](https://github.com/RocketChat/docker-mmap-to-wiredtiger-migration/archive/main.zip) or clone it using `git` and extract it to `/opt/rocketchat-migration`:
 
@@ -121,13 +121,13 @@ Starting with the major release 4.X.Y of Rocket.Chat, MongoDB has to be setup wi
 9.  Build the "migrator" image and start up the containers again:
 
     ```bash
-     docker-compose up --build -d
+     docker compose up --build -d
     ```
 10. Wait for the migration to be completed - optionally check logs of "migrator" and "mongo" containers:
 
     ```bash
-    docker-compose logs -f migrator # once that one has completed the migration ...
-    docker-compose logs -f mongo # ... check if the mongo one already took over
+    docker compose logs -f migrator # once that one has completed the migration ...
+    docker compose logs -f mongo # ... check if the mongo one already took over
     ```
 
 ### Help and Support

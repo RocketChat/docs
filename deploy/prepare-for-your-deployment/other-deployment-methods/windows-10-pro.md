@@ -24,8 +24,8 @@ _This is a community-supported installation method. To learn more, see this_ [_f
 * Run the following command in the same directory as the above file and wait for the server to start.
 
 ```
-docker-compose up
-docker-compose logs -f rocketchat
+docker compose up
+docker compose logs -f rocketchat
 ```
 
 * Access your Rocket.Chat server via `http://localhost:3000.`

@@ -134,16 +134,16 @@ sudo chmod +x /usr/local/bin/docker-compose
 **Notes:** We're using version 1.24.0 for this guide. If you wish to try a newer version, you will need to edit the cURL command to reflect the alternate version number. If you get a "Permission denied" error, your `/usr/local/bin` directory probably isn't writable and you'll need to install Compose as the superuser. Run `sudo -i`, then the two commands above, then `exit`. (credit: docker compose docs)
 {% endhint %}
 
-**Confirm docker-compose is properly installed**
+**Confirm docker compose is properly installed**
 
 ```
-sudo docker-compose --version
+sudo docker compose --version
 ```
 
 **Notes:** For minimal distributions, or systems where `/usr/local/bin` is not part of the `$PATH` env you might need to symlink the binary into `/usr/bin` as well:
 
 ```
-sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+sudo ln -s /usr/local/bin/docker compose /usr/bin/docker-compose
 ```
 
 ## 4. Editing the hosts file
@@ -287,7 +287,7 @@ sudo nginx -t
 
 #### Create docker-compose.yml file:
 
-To create a docker-compose file, please follow the instructions [here](../).
+To create a docker compose file, please follow the instructions [here](../).
 
 **Create the directories:**
 
@@ -308,7 +308,7 @@ Save and Exit.
 Start the services by:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ## 7. Automatic Startup & Crash Recovery
@@ -335,7 +335,7 @@ chdir /var/www/rocket.chat
 
 script
     # Showtime
-    exec /usr/local/bin/docker-compose up mongo
+    exec /usr/local/bin/docker compose up mongo
 end script
 ```
 
@@ -363,7 +363,7 @@ chdir /var/www/rocket.chat
 
 script
     # Bring up rocketchat app and hubot
-    exec /usr/local/bin/docker-compose up rocketchat hubot
+    exec /usr/local/bin/docker compose up rocketchat hubot
 end script
 ```
 
@@ -486,10 +486,10 @@ Look for any errors in the output of those last two commands, which show the log
 ```
 cd /var/www/rocket.chat
 
-/usr/local/bin/docker-compose up
+/usr/local/bin/docker compose up
 ```
 
-If docker-compose doesn't throw an error and instead launches the job, then the problem is possibly in the upstart script.
+If docker compose doesn't throw an error and instead launches the job, then the problem is possibly in the upstart script.
 
 **PROBLEM:** _When I upload a file the server crashes!_
 

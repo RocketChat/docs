@@ -45,9 +45,9 @@ docker pull registry.rocket.chat/rocketchat/rocket.chat:latest
 * Stop and restart the existing container
 
 ```
-docker-compose stop rocketchat
-docker-compose rm rocketchat
-docker-compose up -d rocketchat
+docker compose stop rocketchat
+docker compose rm rocketchat
+docker compose up -d rocketchat
 ```
 
 ### Updating to a specific version
@@ -87,9 +87,9 @@ services:
 * Stop and restart the existing rocketchat container by running
 
 ```
-docker-compose stop rocketchat
-docker-compose rm rocketchat
-docker-compose up -d rocketchat
+docker compose stop rocketchat
+docker compose rm rocketchat
+docker compose up -d rocketchat
 ```
 
 See [available-images.md](../prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/available-images.md "mention") for more on rocketchat docker images.

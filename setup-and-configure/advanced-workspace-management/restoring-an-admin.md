@@ -10,11 +10,11 @@ You can access the database in various ways, depending on how you installed Rock
 
 To open the **mongo shell** within the **mongo container**,
 
-* Change into the docker-compose directory (where your `docker-compose.yml` is located) and run mongo bash.
+* Change into the docker compose directory (where your `docker-compose.yml` is located) and run mongo bash.
 
 ```bash
 cd /opt/docker/Rocket.Chat
-docker-compose run mongo bash
+docker compose run mongo bash
 ```
 
 Alternatively, you can run the following command without navigating to the`docker-compose.yml` directory.

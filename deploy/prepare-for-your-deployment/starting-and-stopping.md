@@ -7,17 +7,17 @@ Following the rapid deployment methods, you can start/stop your Rocket.Chat inst
 #### Start
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 #### Stop
 
 ```
-docker-compose down
+docker compose down
 ```
 
 #### Status/Logs
 
 ```
-docker-compose logs -f rocketchat
+docker compose logs -f rocketchat
 ```

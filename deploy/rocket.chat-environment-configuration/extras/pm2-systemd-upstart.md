@@ -52,7 +52,7 @@ The following examples are upstart jobs which control automatic start-up and, if
 
 In order to use the examples, simply copy each example and save into a file, paying attention to the fact that the filenames should be preserved unless you edit the examples to reflect any filename changes you make. Be sure to edit the environment variables, and possibly paths, according to your particular installation. Once you've saved the files to the proper directory (/etc/init) usage is as simple as rebooting.
 
-Which upstart management jobs that you use depend on what type of Rocket.Chat deployment you are using (Docker-compose, non-docker, etc). A race-condition exists with docker-compose which requires that mongo and the Rocket.Chat application be started independently, thus a slightly modified upstart job is required compared to non-docker instances.
+Which upstart management jobs that you use depend on what type of Rocket.Chat deployment you are using (Docker-compose, non-docker, etc). A race-condition exists with docker compose which requires that mongo and the Rocket.Chat application be started independently, thus a slightly modified upstart job is required compared to non-docker instances.
 
 ### Non-Docker-Compose
 
@@ -130,7 +130,7 @@ chdir /var/www/rocket.chat
 
 script
     # start mongoDB
-    exec /usr/local/bin/docker-compose up db
+    exec /usr/local/bin/docker compose up db
 end script
 ```
 
@@ -152,6 +152,6 @@ chdir /var/www/rocket.chat
 
 script
     # Bring up rocketchat app and hubot
-    exec /usr/local/bin/docker-compose up rocketchat hubot
+    exec /usr/local/bin/docker compose up rocketchat hubot
 end script
 ```
