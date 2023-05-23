@@ -257,6 +257,23 @@ redirects:
     guides/user-guides/messaging: use-rocket.chat/user-guides/messages/README.md
     guides/user-guides/security-bundle/two-factor-authentication-user-guide: use-rocket.chat/user-guides/security-bundle/two-factor-authentication-user-guide.md
     guides/user-guides/user-panel/managing-your-account: use-rocket.chat/user-guides/user-panel/my-account/README.md
+    installation/manual-installation/mongo-versions: deploy/rocket.chat-environment-configuration/mongodb-configuration/mongo-versions.md
+    installation/manual-installation/multiple-instances-to-improve-: deploy/scaling-rocket.chat/running-multiple-instances.md
+    installation/manual-installation/ubuntu/index.html: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/ubuntu.md
+    installation/manual-installation/ubuntu/snaps/autossl: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/auto-ssl-with-snaps.md
+    installation/manual-installation/updating: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/updating.md
+    installing-and-updating/manual-installation/rocketchatctl: deploy/prepare-for-your-deployment/rapid-deployment-methods/rocketchatctl.md
+    installing-and-updating/snaps: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md
+    quick-start/installing-and-updating: eploy/prepare-for-your-deployment/README.md
+    quick-start/installing-and-updating/hardware-requirements: deploy/prepare-for-your-deployment/hardware-requirements.md
+    quick-start/installing-and-updating/other-deployment-methods/manual-installation: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/README.md
+    quick-start/installing-and-updating/other-deployment-methods/manual-installation/updating: eploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/updating.md
+    quick-start/installing-and-updating/snaps: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md
+    setup-and-configure/rocket.chat-air-gapped-deployment/b2ZmbGluZS: setup-and-configure/rocket.chat-air-gapped-deployment/README.md
+    use-rocket.chat/user-guides/rooms/channels/channel-actions/members-list-of-a-channel/add-user-to-a-channel: use-rocket.chat/user-guides/rooms/channels/README.md
+    use-rocket.chat/user-guides/rooms/direct-messages/direct-messages-between-multiple-users: use-rocket.chat/user-guides/rooms/direct-messages/README.md
+    user-guides/end-to-end-encryption: use-rocket.chat/user-guides/security-bundle/end-to-end-encryption-user-guide.md
+    
     contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code: contribute-to-rocket.chat/annual-contribution-programs.md
     contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2023: contribute-to-rocket.chat/annual-contribution-programs.md
     contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2022: contribute-to-rocket.chat/annual-contribution-programs.md
