@@ -461,20 +461,7 @@
 * [Contributor Code of Conduct](https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/code\_of\_conduct)
 * [How Can I Help?](https://developer.rocket.chat/contribute-to-rocket.chat/ways-to-contribute)
 * [Github Sponsorship](contribute-to-rocket.chat/github-sponsorship.md)
-* [Annual Contribution Programs](contribute-to-rocket.chat/annual-contribution-programs/README.md)
-  * [Google Summer of Code](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/README.md)
-    * [Google Summer of Code 2023](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2023.md)
-    * [Google Summer of Code 2022](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2022.md)
-    * [Google Summer of Code 2021](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2021.md)
-    * [Google Summer of Code 2020](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2020.md)
-    * [Google Summer of Code 2019](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2019.md)
-    * [Google Summer of Code 2018](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2018.md)
-    * [Google Summer of Code 2017](contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2017.md)
-  * [Google Season of Docs](contribute-to-rocket.chat/annual-contribution-programs/google-season-of-docs/README.md)
-    * [Google Season of Docs 2023](contribute-to-rocket.chat/annual-contribution-programs/google-season-of-docs/google-season-of-docs-2023.md)
-    * [Google Season of Docs 2022](contribute-to-rocket.chat/annual-contribution-programs/google-season-of-docs/google-season-of-docs-2022.md)
-    * [Google Season of Docs 2021](contribute-to-rocket.chat/annual-contribution-programs/google-season-of-docs/google-season-of-docs-2021.md)
-    * [Google Season of Docs 2019](contribute-to-rocket.chat/annual-contribution-programs/google-season-of-docs/google-season-of-docs-2019.md)
+* [Annual Contribution Programs](contribute-to-rocket.chat/annual-contribution-programs.md)
 
 ## Rocket.Chat Legal
 
