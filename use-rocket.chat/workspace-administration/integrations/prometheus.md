@@ -4,15 +4,15 @@ Prometheus is an open-source application used for [event monitoring](https://en.
 
 [Rocket.Chat.Metrics](https://github.com/RocketChat/Rocket.Chat.Metrics) repository contains a basic monitoring setup of [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat), based on Grafana and Prometheus. It currently shows and visualizes the following application metrics/information:
 
-* _General totals_ (users online/away, DDP users, diffs based on time range)
-* _Metrics_ (requests and total size per instance)
-* _NodeJS_ (active handles, requests, event loop lag, heap used, per instance heap, garbage collector)
-* _DDP rate limiter_ (by method, by type, by userId, by connectionId)
-* _Rocket.Chat Data_ (messages sent, total sent, user presence, users & sessions, Oplog, push queue, Meteor facts, total users, total rooms, notification per minute per notification type)
-* _Meteor_ (methods total time, methods time, method calls per minute)
-* _Subscriptions_ (subscription total time, subscription time, subscription calls per minute)
-* _Callbacks & Hooks_ (callbacks total time, callbacks time, callback calls per minute, hooks total time, hooks time, hook calls per minute)
-* _REST API_ (REST total time, REST time, REST calls per minute)
+* **General totals**: users online/away, DDP users, diffs based on time range
+* **Metrics**: requests and total size per instance
+* **NodeJS**: active handles, requests, event loop lag, heap used, per instance heap, garbage collector
+* **DDP rate limiter**: by method, by type, by userId, by connectionId
+* **Rocket.Chat Data:** messages sent, total sent, user presence, users & sessions, Oplog, push queue, Meteor facts, total users, total rooms, notification per minute per notification type
+* **Meteor**: methods total time, methods time, method calls per minute
+* **Subscriptions**: subscription total time, subscription time, subscription calls per minute
+* **Callbacks & Hooks:** callbacks total time, callbacks time, callback calls per minute, hooks total time, hooks time, hook calls per minute
+* **REST API:** REST total time, REST time, REST calls per minute
 
 {% embed url="https://github.com/RocketChat/Rocket.Chat.Metrics" %}
 Rocket.Chat.Metrics
