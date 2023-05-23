@@ -56,7 +56,20 @@ redirects:
     apps-development/getting-started/rocket.chat-app-engine-cli: resources/development-docs.md
     guides/bots/create-and-run-a-bot/rasa-bot: resources/development-docs.md
     guides/developer/iframe-integration/authentication: resources/development-docs.md
+    developer-guides/rest-api/channels: resources/development-docs.md
+    developer-guides/iframe-integration: resources/development-docs.md
+    api: resources/development-docs.md
+    developer-guides/realtime-api/method-calls: resources/development-docs.md
+    developer-guides/realtime-api/method-calls/joining-channels: resources/development-docs.md
+    developer-guides/realtime-api/method-calls/send-message: resources/development-docs.md
+    developer-guides/rest-api/chat/getmessage: resources/development-docs.md
+    developer-guides/rest-api/rooms/cleanhistory: resources/development-docs.md
+    developer-guides/rocketchat-ui/css-variables: resources/development-docs.md
+    developer-guides/schema-definition: resources/development-docs.md
+    guides/developer-guides/developing-apps: resources/development-docs.md
 
+
+    contribute-to-rocket.chat/how-can-i-help: resources/development-docs.md
     contribute-to-rocket.chat/how-can-i-help/documentation/markdown-styleguide: resources/development-docs.md
     contributors/how-can-i-help/documentation/markdown-styleguide: resources/development-docs.md
     contributing/reporting-issues: resources/development-docs.md
@@ -187,5 +200,62 @@ redirects:
     guides/administration/identity-management-ee-vs-ce: setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md
     guides/administrator-guides/settings/federation: use-rocket.chat/workspace-administration/settings/federation/README.md
     guides/security/security-updates: rocket.chat-privacy-and-security/security/security-updates/README.md
-    
+    installation/docker-containers: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/README.md
+    guides/omnichannel/webhooks-managers-guide: use-rocket.chat/omnichannel/webhooks.md
+    guides/administrator-guides/connectivity-services: use-rocket.chat/workspace-administration/registration.md
+    installation/manual-installation/configuring-ssl-reverse-proxy: deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md
+    installation/manual-installation/ubuntu/snaps: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md
+    guides/user-guides: use-rocket.chat/user-guides/README.md
+    installation/snaps: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md
+    user-guides: use-rocket.chat/user-guides/README.md
+    administrator-guides/integrations: use-rocket.chat/workspace-administration/integrations/README.md
+    administrator-guides/integrations/gitlab: /administrator-guides/integrations/gitlab.md
+    installation/manual-installation/ubuntu: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/ubuntu.md
+    quick-start/installing-and-updating/manual-installation/updating: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/updating.md
+    guides/administration/administration/integrations: use-rocket.chat/workspace-administration/integrations/README.md
+    administrator-guides/notifications/push-notifications: use-rocket.chat/workspace-administration/settings/push.md
+    guides/user-guides/security-bundle/end-to-end-encryption: use-rocket.chat/user-guides/security-bundle/end-to-end-encryption-user-guide.md
+    legal/privacy/subprocessors: rocket.chat-privacy-and-security/rocket.chat-privacy-policy/subprocessors.md
+    guides/administrator-guides/integrations/telegram: use-rocket.chat/workspace-administration/integrations/telegram.md
+    guides/security/security-updates/cve-2022-32211: rocket.chat-privacy-and-security/security/security-updates/cve-2022-32211.md
+    user-guides/messaging: use-rocket.chat/user-guides/messages/README.md
+    administrator-guides/integrations/jira: use-rocket.chat/workspace-administration/integrations/jira.md
+    extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/instagram-direct: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/instagram-direct/README.md
+    guides/administration/admin-panel/integrations/nextcloud-and-webdav: use-rocket.chat/workspace-administration/integrations/nextcloud-and-webdav.md
+    guides/administration/administration/integrations/github: use-rocket.chat/workspace-administration/integrations/github.md
+    guides/administrator-guides: use-rocket.chat/workspace-administration/README.md
+    guides/app-guides/omnichannel-apps/whatsapp: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/whatsapp/README.md
+    installation/manual-installation/mongo-replicas: deploy/rocket.chat-environment-configuration/mongodb-configuration/mongo-replicas.md
+    quick-start/installing-and-updating/rapid-deployment-methods/snaps/snap-faq: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/snap-faq.md
+    use-rocket.chat/rocket.chat-workspace-administration/integrations/zapier: use-rocket.chat/workspace-administration/integrations/zapier.md
+    administrator-guides/livechat/livechat-queues: use-rocket.chat/workspace-administration/settings/omnichannel-admins-guide/README.md
+    guides/administration/admin-panel/advanced-admin-settings/client-compatibility-matrix: setup-and-configure/advanced-workspace-management/client-compatibility-matrix.md
+    guides/administration/admin-panel/settings: use-rocket.chat/workspace-administration/settings/README.md
+    guides/administration/Advanced-Admin-Settings/authentication/single-sign-on-iframe: setup-and-configure/advanced-workspace-management/authentication/single-sign-on-iframe.md
+    guides/administrator-guides/authentication/keycloak: use-rocket.chat/workspace-administration/settings/saml/keycloak.md
+    guides/app-guides: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/README.md
+    guides/omnichannel: use-rocket.chat/omnichannel.README.md
+    installation: deploy/prepare-for-your-deployment/README.md
+    installation/hardware-requirements: deploy/prepare-for-your-deployment/hardware-requirements.md
+    installation/minimum-requirements: deploy/prepare-for-your-deployment/hardware-requirements.md
+    installation/paas-deployments/aws/eks: deploy/prepare-for-your-deployment/cloud-deployments/aws.md
+    installing-and-updating/paas-deployments/digitalocean: deploy/prepare-for-your-deployment/cloud-deployments/digitalocean.md
+    legal/code-of-conduct: rocket.chat-legal/code-of-conduct-for-our-services.md
+    quick-start/installing-and-updating/other-deployment-methods/manual-installation/debian-based-distros/ubuntu: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/ubuntu.md
+    user-guides/connecting-to-a-server: setup-and-configure/accessing-your-workspace/README.md
+    administrator-guides/notifications: setup-and-configure/advanced-workspace-management/notifications.md
+    contributing: contribute-to-rocket.chat/README.md
+    extend-rocket.chat-capabilities/rocket.chat-marketplace/apps-user-guides/omnichannel-apps/dialogflow-app/dialogflow-app-configuration: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/dialogflow-app/README.md
+    guides/administration/admin-panel/permissions: use-rocket.chat/workspace-administration/permissions.md
+    guides/administration/admin-panel/settings/oauth/google-oauth-setup: use-rocket.chat/workspace-administration/settings/oauth/google-oauth-setup.md
+    guides/administration/misc.-admin-guides/settings-via-env-vars: deploy/rocket.chat-environment-configuration/environment-variables.md
+    guides/administration/settings/layout: use-rocket.chat/workspace-administration/settings/layout.md
+    guides/administrator-guides/settings/ldap/examples: use-rocket.chat/workspace-administration/settings/ldap/ldap-examples.md
+    guides/omnichannel/canned-responses/canned-responses-rocket.chat-admins-guides: use-rocket.chat/omnichannel/canned-responses/canned-responses-omnichannel-managers-guide.md
+    guides/rocket.chat-administrator-guides/settings/oauth: use-rocket.chat/workspace-administration/settings/oauth/README.md
+    guides/security/end-to-end-encryption-algorithms: rocket.chat-privacy-and-security/security/end-to-end-encryption-algorithms.md
+    guides/user-guides/messaging: use-rocket.chat/user-guides/messages/README.md
+    guides/user-guides/security-bundle/two-factor-authentication-user-guide: use-rocket.chat/user-guides/security-bundle/two-factor-authentication-user-guide.md
+    guides/user-guides/user-panel/managing-your-account: use-rocket.chat/user-guides/user-panel/my-account/README.md
+
     
