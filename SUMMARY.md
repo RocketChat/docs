@@ -194,6 +194,7 @@
     * [Nixstats notification](use-rocket.chat/workspace-administration/integrations/nixstats.md)
     * [PagerDuty](use-rocket.chat/workspace-administration/integrations/pagerduty.md)
     * [Prometheus](use-rocket.chat/workspace-administration/integrations/prometheus.md)
+    * [Grafana](use-rocket.chat/workspace-administration/integrations/grafana.md)
     * [Review Board](use-rocket.chat/workspace-administration/integrations/reviewboard.md)
     * [RunDeck Job Notifications](use-rocket.chat/workspace-administration/integrations/rundeck.md)
     * [Sentry](use-rocket.chat/workspace-administration/integrations/sentry.md)
