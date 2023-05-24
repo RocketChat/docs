@@ -22,33 +22,11 @@ Below is a list of available Triggers and Actions.
 
 ### Rocket.Chat Zapier Triggers
 
-| Trigger                                 | Description                                                      |
-| --------------------------------------- | ---------------------------------------------------------------- |
-| `New channel`                           | Triggers when a new Channel is created.                          |
-| `New message posted anywhere`           | Triggers when a new message is posted to any public Channel.     |
-| `New message posted on public channel`  | Triggers when a message is posted to a specific public Channel.  |
-| `New message posted on private channel` | Triggers when a message is posted to a specific private Channel. |
-| `Message pinned anywhere`               | Triggers when a message is pinned in any public room.            |
-| `New private channel`                   | Triggers when a new private Channel is created.                  |
-| `Starred message anywhere`              | Triggers when a message is starred in any public room.           |
-| `New user`                              | Triggers when a new user is created.                             |
-| `Mentioned on public channel`           | Triggers when a user is mentioned on a public channel.           |
+<table><thead><tr><th width="289">Trigger</th><th>Description</th></tr></thead><tbody><tr><td><code>New channel</code></td><td>Triggers when a new Channel is created.</td></tr><tr><td><code>New message posted anywhere</code></td><td>Triggers when a new message is posted to any public Channel.</td></tr><tr><td><code>New message posted on public channel</code></td><td>Triggers when a message is posted to a specific public Channel.</td></tr><tr><td><code>New message posted on private channel</code></td><td>Triggers when a message is posted to a specific private Channel.</td></tr><tr><td><code>Message pinned anywhere</code></td><td>Triggers when a message is pinned in any public room.</td></tr><tr><td><code>New private channel</code></td><td>Triggers when a new private Channel is created.</td></tr><tr><td><code>Starred message anywhere</code></td><td>Triggers when a message is starred in any public room.</td></tr><tr><td><code>New user</code></td><td>Triggers when a new user is created.</td></tr><tr><td><code>Mentioned on public channel</code></td><td>Triggers when a user is mentioned on a public channel.</td></tr></tbody></table>
 
 ### Rocket.Chat Zapier Actions
 
-| Action                         | Description                                                                                                             |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
-| `Create channel`               | Creates a new Channel.                                                                                                  |
-| `Invite user to channel`       | Invites an existing user to an existing public channel. You must be a member of the channel in order to invite someone. |
-| `Create private channel`       | Creates a new private channel.                                                                                          |
-| `Send channel message`         | Post a new message in a channel.                                                                                        |
-| `Send direct message`          | Sends a direct message to a user.                                                                                       |
-| `Send private channel message` | Sends a message to a specific private channel.                                                                          |
-| `Add reminder`                 | Adds a new reminder.                                                                                                    |
-| `Set status`                   | Sets user status.                                                                                                       |
-| `Find channel`                 | Searches for a channel. It creates a new channel if none is found.                                                      |
-| `Find private channel`         | Searches the workspace for a private channel. Creates a private channel if none is found.                               |
-| `Find user by username`        | Finds a user by their username.                                                                                         |
+<table><thead><tr><th width="331">Action</th><th>Description</th></tr></thead><tbody><tr><td><code>Create channel</code></td><td>Creates a new Channel.</td></tr><tr><td><code>Invite user to channel</code></td><td>Invites an existing user to an existing public channel. You must be a member of the channel in order to invite someone.</td></tr><tr><td><code>Create private channel</code></td><td>Creates a new private channel.</td></tr><tr><td><code>Send channel message</code></td><td>Post a new message in a channel.</td></tr><tr><td><code>Send direct message</code></td><td>Sends a direct message to a user.</td></tr><tr><td><code>Send private channel message</code></td><td>Sends a message to a specific private channel.</td></tr><tr><td><code>Add reminder</code></td><td>Adds a new reminder.</td></tr><tr><td><code>Set status</code></td><td>Sets user status.</td></tr><tr><td><code>Find channel</code></td><td>Searches for a channel. It creates a new channel if none is found.</td></tr><tr><td><code>Find private channel</code></td><td>Searches the workspace for a private channel. Creates a private channel if none is found.</td></tr><tr><td><code>Find user by username</code></td><td>Finds a user by their username.</td></tr></tbody></table>
 
 See how to use the Zapier app and some common examples below.
 

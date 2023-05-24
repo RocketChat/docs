@@ -80,10 +80,7 @@ The app is installed on the workspace and ready to use.
 
 Community Edition (CE), workspaces can install numerous Public apps (apps from the marketplace) but enable only five. And they can allow three Private apps. Once it reaches the limit, you can upgrade to the[ Enterprise Edition](./#enterprise-edition) (EE) for access to enable all apps in the workspace.  Refer to the table below for a better understanding.
 
-| Community Edition 6.0 | Public apps | Private apps |
-| --------------------- | ----------- | ------------ |
-| Install               | Unlimited   | Unlimited    |
-| Enable/Use            | 5           | 3            |
+<table><thead><tr><th width="266.3333333333333">Community Edition 6.0</th><th width="199">Public apps</th><th>Private apps</th></tr></thead><tbody><tr><td>Install</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Enable/Use</td><td>5</td><td>3</td></tr></tbody></table>
 
 {% hint style="info" %}
 For workspace version`5.4` or lower, you can use all the enabled public and private apps you already have. However, you can not purchase or enable more apps once the limit is reached.&#x20;

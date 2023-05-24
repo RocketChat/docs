@@ -33,14 +33,7 @@ There are a few characteristics to be considered before deploying Rocket.Chat. L
 
 This scorecard shows each deployment method's rating(on 05) against each consideration.
 
-| Text                    | Docker                                                      | Snaps     | One Click Deployment                                          |
-| ----------------------- | ----------------------------------------------------------- | --------- | ------------------------------------------------------------- |
-| **Scalability**         | **`3.75`**                                                  | **`1.0`** | **`2.0`**                                                     |
-| **Ease of Deployment**  | **`3.75`**                                                  | **`4.5`** | **`5.0`**                                                     |
-| **Ease of Maintenance** | **`4.0`**                                                   | **`5.0`** | **`1.0`**                                                     |
-| **Official Support**    | **`5.0`**                                                   | **`5.0`** | Digital Ocean: **`5.0.`** Linode: **`0.0`**                   |
-| **Community Support**   | **`5.0`**                                                   | **`2.0`** | **`4.0`**                                                     |
-| **Comments**            | [Docker Comments](choosing-a-deployment-method.md#comments) |           | All one click deployment methods have the same score ranking. |
+<table><thead><tr><th width="200">Text</th><th>Docker</th><th>Snaps</th><th>One Click Deployment</th></tr></thead><tbody><tr><td><strong>Scalability</strong></td><td><strong><code>3.75</code></strong></td><td><strong><code>1.0</code></strong></td><td><strong><code>2.0</code></strong></td></tr><tr><td><strong>Ease of Deployment</strong></td><td><strong><code>3.75</code></strong></td><td><strong><code>4.5</code></strong></td><td><strong><code>5.0</code></strong></td></tr><tr><td><strong>Ease of Maintenance</strong></td><td><strong><code>4.0</code></strong></td><td><strong><code>5.0</code></strong></td><td><strong><code>1.0</code></strong></td></tr><tr><td><strong>Official Support</strong></td><td><strong><code>5.0</code></strong></td><td><strong><code>5.0</code></strong></td><td>Digital Ocean: <strong><code>5.0.</code></strong> Linode: <strong><code>0.0</code></strong></td></tr><tr><td><strong>Community Support</strong></td><td><strong><code>5.0</code></strong></td><td><strong><code>2.0</code></strong></td><td><strong><code>4.0</code></strong></td></tr><tr><td><strong>Comments</strong></td><td><a href="choosing-a-deployment-method.md#comments">Docker Comments</a></td><td></td><td>All one click deployment methods have the same score ranking.</td></tr></tbody></table>
 
 #### Docker Comments <a href="#comments" id="comments"></a>
 

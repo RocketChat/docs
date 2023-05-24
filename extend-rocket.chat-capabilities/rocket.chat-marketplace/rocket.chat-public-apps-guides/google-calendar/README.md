@@ -1,14 +1,16 @@
 # Google Calendar
 
 {% hint style="danger" %}
-**The Google Calendar app is currently in Beta and some features may not function as expected.**&#x20;
+**Note:** Some of the supported functionalities will only be available to workspaces running version 6.2.0 and higher.
 {% endhint %}
 
 The Rocket.Chat Google Calendar App connects your Google Calendar with Rocket.Chat to stay organized and get a daily rundown of your events. It gives users the ability to do the following :
 
-* Manage meeting invites.
-* See a list of events you have scheduled for the day.
-* Receive daily reminders on the events of the day.
+* Manage meeting invites and respond to invites directly from Rocket.Chat.
+* Get a daily digest of the events you have scheduled for the day.
+* Receive reminders 10 minutes before every meeting.
+* Change your user status automatically while in a meeting.
+* Receive an email with your daily summary at a preferred time in your timezone.
 
 ## Setup Google Calendar App
 
