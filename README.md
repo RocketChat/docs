@@ -15,10 +15,10 @@
 
 Rocket.Chat has four key product offerings:&#x20;
 
-* **Team collaboration** - A single point for secure internal and cross-company collaboration.
-* **Omnichannel customer service** - Engage in seamless interactions with customers regardless of how they connect with you.
-* **Chat engine** - Create customized messaging experiences within your mobile or web app.
-* **Marketplace** - Choose a wide range of apps and native integrations that help your business communicate more effectively.
+* [**Team collaboration**](use-rocket.chat/workspace-administration/) - A single point for secure internal and cross-company collaboration.
+* [**Omnichannel customer service**](use-rocket.chat/omnichannel/) - Engage in seamless interactions with customers regardless of how they connect with you.
+* [**Chat engine**](https://developer.rocket.chat/chat-engine/overview-of-chat-engine) - Create customized messaging experiences within your mobile or web app.
+* [**Marketplace** ](extend-rocket.chat-capabilities/rocket.chat-marketplace/)- Choose a wide range of apps and native integrations that help your business communicate more effectively.
 
 ## Security Offerings
 
