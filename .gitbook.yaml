@@ -274,6 +274,8 @@ redirects:
     use-rocket.chat/user-guides/rooms/direct-messages/direct-messages-between-multiple-users: use-rocket.chat/user-guides/rooms/direct-messages/README.md
     user-guides/end-to-end-encryption: use-rocket.chat/user-guides/security-bundle/end-to-end-encryption-user-guide.md
     
+    
+    # Annual Contribution Programs
     contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code: contribute-to-rocket.chat/annual-contribution-programs.md
     contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2023: contribute-to-rocket.chat/annual-contribution-programs.md
     contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2022: contribute-to-rocket.chat/annual-contribution-programs.md
@@ -287,5 +289,95 @@ redirects:
     contribute-to-rocket.chat/annual-contribution-programs/google-season-of-docs/google-season-of-docs-2022: contribute-to-rocket.chat/annual-contribution-programs.md
     contribute-to-rocket.chat/annual-contribution-programs/google-season-of-docs/google-season-of-docs-2021: contribute-to-rocket.chat/annual-contribution-programs.md
     contribute-to-rocket.chat/annual-contribution-programs/google-season-of-docs/google-season-of-docs-2019: contribute-to-rocket.chat/annual-contribution-programs.md
+   
+
+# LINKS FROM May 26, 2023-May 28, 2023	
+
+    rocket.chat-saas/faq: use-rocket.chat/rocket.chat-cloud/README.md
+    administrator-guides/authentication/ldap: use-rocket.chat/workspace-administration/settings/ldap/README.md
+    guides/administrator-guides/settings/email/setup: use-rocket.chat/workspace-administration/settings/email/README.md
+    administrator-guides/integrations/prometheus: use-rocket.chat/workspace-administration/integrations/prometheus.md
+    installation/paas-deployments/aliyun: deploy/prepare-for-your-deployment/README.md
+    administrator-guides/rocket-chat-apps/zoom: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/zoom.md
+    developer-guides/realtime-api/method-calls/notify-room-stream: resources/development-docs.md
+    guides/rocket.chat-call-center/call-center-admin-guides: use-rocket.chat/rocket.chat-voice-channel/README.md
+    quick-start/deploying-rocket.chat/other-deployment-methods/manual-installation/updating: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/README.md
+    api/rest-api/methods/livechat/visitor: resources/development-docs.md
+    deploy-rocket.chat/prepare-for-your-rocket.chat-deployment/choosing-a-deployment-method: deploy/prepare-for-your-deployment/README.md
+    developer-guides/realtime-api/method-calls/get-subscriptions: resources/development-docs.md	
+    guides/administration/settings/retention-policies: use-rocket.chat/workspace-administration/settings/retention-policies.md 
+    guides/administration/admin-panel/integrations/gitlab: use-rocket.chat/workspace-administration/integrations/gitlab.md
+    guides/administration/misc.-admin-guides/authentication/open-id-connect/keycloak: setup-and-configure/advanced-workspace-management/authentication/open-id-connect/keycloak.md
+    guides/rocket.chat-administrator-guides/administration/integrations/microsoft-teams: use-rocket.chat/workspace-administration/integrations/microsoft-teams.md
+    installation/community-supported-installation: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/README.md
+    quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/docker-containers/high-availability-install: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
+    quick-start/installing-and-updating/manual-installation/mongo-versions: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/README.md
+    contributors/annual-contribution-programs/google-summer-of-code/google-summer-of-code-2022: contribute-to-rocket.chat/annual-contribution-programs.md
+    deyour-deployment/rapid-deployment-methods/docker-and-docker-compose: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
+    getting-support/community-support: resources/get-support/README.md
+    guides/administration/admin-panel/settings/oauth/ms-office-365-oauth-setup: use-rocket.chat/workspace-administration/settings/oauth/ms-office-365-oauth-setup.md
+    guides/administration/admin-panel/settings/omnichannel-admins-guide/queue-types-routing-algorithm: use-rocket.chat/workspace-administration/settings/omnichannel-admins-guide/queue-types-routing-algorithm.md
+    guides/rocket.chat-conference-call: use-rocket.chat/rocket.chat-conference-call/README.md
+    installation/docker-containers/mongodb-mmap-to-wiredtiger-migration: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md
+    installation/manual-installation/debian: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/README.md
+    installation/manual-installation/windows-server: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/README.md
+    quick-start/installing-and-updating/introduction-prerequisites/choosing-a-deployment-method: deploy/prepare-for-your-deployment/README.md
+    quick-start/scaling-rocket.chat: deploy/scaling-rocket.chat/README.md
+    resources/get-support.: resources/get-support/README.md
+    administrator-guides/import/slack/slackbridge: use-rocket.chat/workspace-administration/settings/slackbridge.md
+    administrator-guides/integrations/zapier: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/zapier-app/README.md
+    contributors/google-summer-of-code/google-summer-of-code-2022: contribute-to-rocket.chat/annual-contribution-programs.md
+    deploy/prepare-for-your-deployement/other-deployement-methods/manual-installation/debian-based-distros/debian: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/debian-based-distros/README.md
+    developer-guides/rest-api/channels/history: resources/development-docs.md	
+    developer-guides/rest-api/settings/update: resources/development-docs.md	
+    guides/administrator-guides/custom-emoji: use-rocket.chat/workspace-administration/custom-emoji.md
+    guides/administrator-guides/settings/push-notifications-admin-guide: use-rocket.chat/rocket.chat-mobile/push-notifications/README.md
+    guides/mobile-guides/push-notifications-1: use-rocket.chat/rocket.chat-mobile/push-notifications/README.md
+    guides/rocket.chat-call-center/call-center-admin-guides/how-to-associate-agents-with-extensions: use-rocket.chat/rocket.chat-voice-channel/README.md
+    guides/rocket.chat-call-center/call-center-admin-guides/how-to-configure-voip-on-my-rocket.chat-instance: use-rocket.chat/rocket.chat-voice-channel/README.md
+    guides/user-guides/rooms/teams/teams-channels: use-rocket.chat/user-guides/rooms/teams
+    installation.docker-containers: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/README.md
+    installation/manual-installation: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/README.md
+    installation/snaps/autossl: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md
+    installation/updating/from-0-x-x-to-0-40-0: 
+    installing-and-updating/manual-installation/updating: deploy/updating-rocket.chat/README.md
+    proxy_u/en-ru.ru.0da9006c-64741961-fea6c235-74722d776562/https/docs.rocket.chat/deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
+    quick-start/deploying-rocket.chat/rapid-deployment-methods/snaps/snap-backup-and-restore: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md
+    quick-start/installing-and-updating/manual-installation/ubuntu: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/README.md
+    administrator-guides/custom-fields: use-rocket.chat/omnichannel/custom-fields.md
+    administrator-guides/import/csv: use-rocket.chat/workspace-administration/import/import-csv.md
+    administrator-guides/integrations/gitlab: use-rocket.chat/workspace-administration/integrations/gitlab.md
+    administrator-guides/push-notifications: use-rocket.chat/rocket.chat-mobile/push-notifications/README.md
+    developer-guides/realtime-api/the-message-object: resources/development-docs.md
+    developer-guides/rest-api/groups: resources/development-docs.md
+    guides/omnichannel-guides/omnichannel: use-rocket.chat/omnichannel/README.md
+    guides/rocket.chat-call-center/call-center-admin-guides/voip-troubleshooting: use-rocket.chat/rocket.chat-voice-channel/README.md
+    guides/user-guides/registration: setup-and-configure/license-application.md
+    guides/user-guides/user-panel: use-rocket.chat/user-guides/user-panel/README.md
+    installation/community-supported-installation/windows-server: deploy/prepare-for-your-deployment/README.md
+    installation/manual-installation/running-in-a-sub-folder: deploy/prepare-for-your-deployment/README.md
+    installation/manual-installation/windows-server/releases: deploy/prepare-for-your-deployment/README.md
+    installation/rocketchatctl: deploy/prepare-for-your-deployment/rapid-deployment-methods/rocketchatctl.md
+    installation/updating: deploy/prepare-for-your-deployment/README.md
+    installing-and-updating/hardware-requirements: deploy/prepare-for-your-deployment/README.md
+    installing-and-updating/manual-installation/mongo-replicas: deploy/prepare-for-your-deployment/README.md 
+    quick-start/deploying-rocket.chat/rapid-deployment-methods/snaps/snap-faq: deploy/prepare-for-your-deployment/README.md
+    quick-start/installing-and-updating/rapid-deployment-methods/snaps/auto-ssl-with-snaps: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md 
+    quick-start/scaling-rocket.chat/multiple-instances-to-improve-performance: deploy/scaling-rocket.chat/README.md
+    setup-and-configure/advanced-workspace-management/authentication/open-id-connect/keycloak i: setup-and-configure/advanced-workspace-management/authentication/README.md
+    use-rocket.chat/rocket.chat-workspace-administration/users: use-rocket.chat/workspace-administration/users/README.md
+    user-guides/channel-actions: use-rocket.chat/workspace-administration/rooms.md
+    guides/administrator-guides/integrations: use-rocket.chat/workspace-administration/integrations/README.md
+    use-rocket.chat/rocket.chat-workspace-administration/users?_hsmi=238490370&_hsenc=p2ANqtz-_Ae489Ux0n8L_Ot-RpfZUn2u7SDXdjOa67ARQAD6EtkLhoEn5Qr4dZhWmXGhKuET0UKG3ufgu_sAbEYBj-FdwKzGiiMA: use-rocket.chat/workspace-administration/README.md
+
+
+
+
+    
+
+
+    
+
+
 
     
