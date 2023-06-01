@@ -346,7 +346,6 @@ redirects:
     quick-start/installing-and-updating/manual-installation/ubuntu: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/README.md
     administrator-guides/custom-fields: use-rocket.chat/omnichannel/custom-fields.md
     administrator-guides/import/csv: use-rocket.chat/workspace-administration/import/import-csv.md
-    administrator-guides/integrations/gitlab: use-rocket.chat/workspace-administration/integrations/gitlab.md
     administrator-guides/push-notifications: use-rocket.chat/rocket.chat-mobile/push-notifications/README.md
     developer-guides/realtime-api/the-message-object: resources/development-docs.md
     developer-guides/rest-api/groups: resources/development-docs.md
@@ -369,15 +368,4 @@ redirects:
     user-guides/channel-actions: use-rocket.chat/workspace-administration/rooms.md
     guides/administrator-guides/integrations: use-rocket.chat/workspace-administration/integrations/README.md
     use-rocket.chat/rocket.chat-workspace-administration/users?_hsmi=238490370&_hsenc=p2ANqtz-_Ae489Ux0n8L_Ot-RpfZUn2u7SDXdjOa67ARQAD6EtkLhoEn5Qr4dZhWmXGhKuET0UKG3ufgu_sAbEYBj-FdwKzGiiMA: use-rocket.chat/workspace-administration/README.md
-
-
-
-
-    
-
-
-    
-
-
-
     
