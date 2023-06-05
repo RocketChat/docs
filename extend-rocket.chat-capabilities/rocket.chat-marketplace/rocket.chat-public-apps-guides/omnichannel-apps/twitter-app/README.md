@@ -6,7 +6,7 @@ description: Omnichannel Integration between Rocket.Chat and Twitter.
 
 It is a paid subscription that costs you $25 monthly.
 
-![](<../../../../../.gitbook/assets/image (459) (1) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (459) (1) (1) (1) (1) (1).png>)
 
 {% hint style="warning" %}
 **You must have the** [**Omnichannel feature**](https://docs.rocket.chat/use-rocket.chat/omnichannel#enable-omnichannel) **enabled and have** [**agents**](https://docs.rocket.chat/use-rocket.chat/omnichannel/agents) **and** [**managers**](https://docs.rocket.chat/use-rocket.chat/omnichannel/managers) **assigned to receive and send Omnichannel messages.**

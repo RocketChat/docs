@@ -1,5 +1,5 @@
 ---
-description: 'Last update: April 5th, 2023'
+description: 'Last update: May 29th, 2023'
 ---
 
 # Subprocessors
@@ -34,25 +34,25 @@ Rocket.Chat undertakes to use a commercially reasonable selection process by whi
 
 ## Service Specific Sub-processors
 
-| Entity Name                               | Purpose                                            | Data Processing Location |
-| ----------------------------------------- | -------------------------------------------------- | ------------------------ |
-| Stripe                                    | Billing platform                                   |                          |
-| ZOHO                                      | email marketing, newsletter, CRM, customer support |                          |
-| Apple Push Notification Service, Firebase | Push notification service for iOS devices          |                          |
+| Entity Name                                                                                                                                                                                                                                                                                                                                                              | Purpose                                                                                                                  | Data Processing Location |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
+| [Stripe](https://stripe.com/br/lp/payments/ps\_01?utm\_campaign=MX\_en\_Search\_Brand\_Payments-Core\_PHR-15075698365\&utm\_medium=cpc\&utm\_source=google\&ad\_content=595195078791\&utm\_term=stripe+payments\&utm\_matchtype=p\&utm\_adposition=\&utm\_device=c\&gclid=Cj0KCQjwmtGjBhDhARIsAEqfDEeQKQULea0R8eGAeJOPcb6e2A4k8dGHlC344b3Eq4xBkiH-abZ2hsQaAk3eEALw\_wcB) | Billing platform                                                                                                         | United States            |
+| [Xero](https://www.xero.com/)                                                                                                                                                                                                                                                                                                                                            | Accounting                                                                                                               | United States            |
+| Zoho Corporation                                                                                                                                                                                                                                                                                                                                                         | Business operations such as email marketing, newsletter, CRM, customer support (Zoho Desk); electronic document signing: |                          |
+| Apple Push Notification Service, Firebase                                                                                                                                                                                                                                                                                                                                | Push notification service for iOS devices                                                                                |                          |
+| Google                                                                                                                                                                                                                                                                                                                                                                   | Email, file storage, collaboration tool                                                                                  | United States            |
+| [Atlassian](https://www.atlassian.com/legal/cloud-terms-of-service)                                                                                                                                                                                                                                                                                                      | Task management software (Jira)                                                                                          | United States            |
 
 ## Innovation Service Specific Sub-processors
 
-| Entity Name                         | Purpose                           | Data Processing Location |
-| ----------------------------------- | --------------------------------- | ------------------------ |
-| Clearbit                            | Account Enrichment                | United States            |
-| [Yesware](https://www.yesware.com/) | email marketing                   | United States            |
-| Appollo.io                          | Marketing and Sales Intelligence. | United States            |
-| PRVolt                              | email marketing                   |                          |
-| Mailchimp                           | email marketing                   |                          |
+| Entity Name | Purpose                           | Data Processing Location |
+| ----------- | --------------------------------- | ------------------------ |
+| Clearbit    | Account Enrichment                | United States            |
+| Appollo.io  | Marketing and Sales Intelligence. | United States            |
 
 ## Rocket.Chat Affiliates
 
-Rocket.Chat affiliates involved in processing of personal data will depend on the location of our users and their customers and the nature of the services we provide to you. By agreeing to the [DPA](https://docs.rocket.chat/rocket.chat-privacy-and-security/data-processing-agreement), you agree all of these Sub-Processors may have access to Customer Data.&#x20;
+Rocket.Chat affiliates involved in the processing of personal data will depend on the location of our users and their customers and the nature of the services we provide to you. By agreeing to the [DPA](https://docs.rocket.chat/rocket.chat-privacy-and-security/data-processing-agreement), you agree all of these Sub-Processors may have access to Customer Data.&#x20;
 
 The following entities are members of the Rocket.Chat Group. Accordingly, they function as sub-processors to provide the Services.
 
@@ -67,7 +67,7 @@ The following entities are members of the Rocket.Chat Group. Accordingly, they f
 
 ## **Objecting to a subprocessor**
 
-You may object to a subprocessor by submitting your objection by email to [privacy@rocket.chat](mailto:privacy@rocket.chat.com) with the subject line “Subprocessor Objection," along with your name, company name, name of the [Rocket.Chat](http://rocket.chat) service, name of the subprocessor, and objectively justifiable grounds for objection unless otherwise provided for in your service agreement with [Rocket.chat](http://rocket.chat) which terms control.
+You may object to a subprocessor by submitting your objection by email to [privacy@rocket.chat](mailto:privacy@rocket.chat.com) with the subject line “Subprocessor Objection," along with your name, company name, and name of the [Rocket.Chat](http://rocket.chat) service, name of the subprocessor, and objectively justifiable grounds for objection unless otherwise provided for in your service agreement with Rocket.Chat which terms control.
 
 ## Updates to this page
 
@@ -76,6 +76,8 @@ Due to the nature of our business, we are consistently updating the list and con
 For more information on Rocket.Chat's privacy practices, please visit our[ Privacy Policy](./). If you have questions regarding this page, please get in touch with us at privacy@rocket.chat.&#x20;
 
 ### Previous Versions of this Subprocessors List
+
+{% file src="broken-reference" %}
 
 {% file src="../../.gitbook/assets/Rocket.Chat-Subprocessors-list-01-05-2023.pdf" %}
 

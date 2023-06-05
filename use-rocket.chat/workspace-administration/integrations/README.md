@@ -13,7 +13,7 @@ With scripts, you can point any webhook to Rocket.Chat and process the requests 
 * **Incoming Webhook**: Let an external service send a request to Rocket.Chat to be processed.
 * **Outgoing Webhook**: Let Rocket.Chat trigger and optionally send a request to an external service and process the response.
 
-By default, a webhook is designed to post messages only. The _message_ is part of a JSON structure, which has the same format as that of a [Rocket.Chat message](http://localhost:5000/s/-MWf1K8RJU-TjNEtPxvb/reference/api/rest-api/endpoints/core-endpoints/chat-endpoints/postmessage#message-object-example).
+By default, a webhook is designed to post messages only. The _message_ is part of a JSON structure, which has the same format as that of a [Rocket.Chat message](http://localhost:5000/s/-MWf1K8RJU-TjNEtPxvb/reference/api/rest-api/endpoints/chat-endpoints/postmessage#message-object-example).
 
 {% hint style="info" %}
 If you would like more power and control over various features of Rocket.Chat, aside from sending and receiving messages, take a look at [Rocket.Chat Apps.](https://rocket.chat/marketplace#apps)

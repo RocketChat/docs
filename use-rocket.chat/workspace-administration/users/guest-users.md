@@ -25,9 +25,9 @@ A  Rocket.Chat guest users can:
 * [Create Discussions](../../user-guides/rooms/discussions/create-a-new-discussion.md).
 
 {% hint style="info" %}
-It's possible to set a maximum number of guest users for every license.
+You can set a maximum number of guest users for every license.
 
-It's possible to set a maximum number of channels a guest can join for every license.
+You can set a maximum number of channels a guest can join for every license.
 {% endhint %}
 
 ## Manage your guest users
