@@ -125,8 +125,10 @@ More details on what channels are: [https://snapcraft.io/docs/channels](https://
 **To update to a new version, execute**
 
 ```
-sudo snap refresh rocketchat-server --channel=x.x.x/stable
+sudo snap refresh rocketchat-server --channel=x.x/stable
 ```
+
+where the first x is the major version, keep the second x as is, e.g. for major version 6, it's 6.x/stable, for major 5, it's 5.x/stable. Each 6.x/stable channel, for example, will receive all minor and patch release updates for that major version.
 
 {% embed url="https://docs.rocket.chat/getting-support#mongodb-versions" %}
 
