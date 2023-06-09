@@ -51,7 +51,7 @@ Their respective color codes are:
 
 These gradients are a gradient version of the supporting colors and should only be used as the fill for the highlighting shape, as exemplified on our homepage, behind the second sentence in the subtitle.
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 ![Their respective color codes are:](<../../.gitbook/assets/image (1143).png>)
 

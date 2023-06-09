@@ -51,8 +51,29 @@ AOL Mail
 
 [**Yahoo Mail**](https://help.yahoo.com/kb/generate-manage-third-party-passwords-sln15241.html)
 
+### Configuration for Office365
 
+If you wish to connect an Office365 email to Rocket.Chat then please follow the following steps:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+1. First, we need to make sure IMAP is enabled here. You can get to this from Admin Center -> Active Users -> Click on a user -> Mail -> Manage Email Apps\
+   ![](<../../.gitbook/assets/image (2).png>)
+2. Next, we also need to make sure that the Security default is off\
+   ![](<../../.gitbook/assets/image (7).png>)
+3. Next, ensure 2FA is turned OFF for the email account on office365
+4. Now, head to your Rocket.Chat workspace and add a new email Inbox with following configuration:
+   1. SMTP:&#x20;
+      1. Server: `smtp.office365.com`
+      2. Port: `587`
+      3. Username: \<Your office365 email>
+      4. Password: \<Your office365 password>
+      5. Connect with SSL: **OFF** (This needs to be turned off)
+   2.  IMAP
+
+       1. Server: `outlook.office365.com`
+       2. Port: `993`
+       3. Username: \<Your office365 email>
+       4. Password: \<Your office365 password>
+       5. Connect with SSL: ON
+
+       In the end, your config screen should appear something like this:\
+       ![](<../../.gitbook/assets/image (1).png>)\
