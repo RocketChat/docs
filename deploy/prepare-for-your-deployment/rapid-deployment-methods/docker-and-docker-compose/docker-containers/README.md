@@ -439,9 +439,11 @@ For basic command help, in the chat message box, type BOTNAME help (where BOTNAM
 
 Q: _It works! But how do I add more functionality to the bot?_ A: You can add more scripts to the bot by adding them to the EXTERNAL\_SCRIPTS definitions: `nano /var/www/rocket.chat/docker-compose.yml`
 
-Find out more about Hubot scripts here: [https://github.com/RocketChat/hubot-rocketchat](https://github.com/RocketChat/hubot-rocketchat) and here: [https://github.com/hubot-scripts](https://github.com/hubot-scripts). Some of the available scripts for example: hubot-help, hubot-isup, hubot-4chan, hubot-strawpoll, hubot-seen, hubot-weather, hubot-hackerman, hubot-links, hubot-greetings, hubot-tell, hubot-geo, hubot-decides, hubot-praise, hubot-hello-ninja, hubot-thank-you, hubot-cool-ascii-faces, hubot-insulter, hubot-reddit
+Find out more about Hubot scripts here: [https://github.com/RocketChat/hubot-rocketchat](https://github.com/RocketChat/hubot-rocketchat) Some of the available scripts for example: hubot-help, hubot-isup, hubot-4chan, hubot-strawpoll, hubot-seen, hubot-weather, hubot-hackerman, hubot-links, hubot-greetings, hubot-tell, hubot-geo, hubot-decides, hubot-praise, hubot-hello-ninja, hubot-thank-you, hubot-cool-ascii-faces, hubot-insulter, hubot-reddit
 
-Q: _How do I get email working?_ A: You need to configure SMTP parameters via the Administration UI (from inside rocketchat).
+Question: _How do I get email working?_&#x20;
+
+Answer: You must configure SMTP parameters via the Administration UI (inside rocketchat).
 
 ### TROUBLESHOOTING
 
