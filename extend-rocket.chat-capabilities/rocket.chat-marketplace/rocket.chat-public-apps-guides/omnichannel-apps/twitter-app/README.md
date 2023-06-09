@@ -26,7 +26,7 @@ To configure the Twitter App,
 
 * On the **Twitter App Info** screen, navigate to **Settings.**
 * Update the **Settings**:
-  * **Default Department**. Only the agents of this [department](https://docs.rocket.chat/guides/omnichannel/departments) can serve Twitter conversations.
+  * **Default Department**. Only the agents of this [department](../../../../../use-rocket.chat/omnichannel/departments.md) can serve Twitter conversations.
   * **Service Unavailable Message:** A message sent to visitors when no agents are available online.
   * **Welcome Message:** A message sent to visitors when they send their first message in a conversation.
   * **Conversation Finished Message:** A message sent to visitors when the conversation is closed.
