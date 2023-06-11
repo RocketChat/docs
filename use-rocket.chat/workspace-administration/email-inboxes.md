@@ -56,7 +56,7 @@ AOL Mail
 If you wish to connect an Office365 email to Rocket.Chat then please follow the following steps:
 
 1. First, we need to make sure IMAP is enabled here. You can get to this from Admin Center -> Active Users -> Click on a user -> Mail -> Manage Email Apps\
-   ![](<../../.gitbook/assets/image (2).png>)
+   ![](<../../.gitbook/assets/image (2) (2).png>)
 2. Next, we also need to make sure that the Security default is off\
    ![](<../../.gitbook/assets/image (7).png>)
 3. Next, ensure 2FA is turned OFF for the email account on office365
@@ -76,4 +76,4 @@ If you wish to connect an Office365 email to Rocket.Chat then please follow the 
        5. Connect with SSL: ON
 
        In the end, your config screen should appear something like this:\
-       ![](<../../.gitbook/assets/image (1).png>)\
+       ![](<../../.gitbook/assets/image (1) (2).png>)\

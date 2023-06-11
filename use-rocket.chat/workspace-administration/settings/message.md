@@ -12,6 +12,12 @@ Remember to hit **Save Changes** in order to apply any changes made.
 
 ## Basic Settings
 
+* **Custom Domain Whitelist for Auto Link**: When a local server link (for example, http://gitlab.local) is shared,  it is not clickable. For such internal links to be clickable, you need to whitelist the corresponding custom domain.  Navigate to **Administration** > **Workspace** > **Settings** > **Message** look for the '**Custom Domain Whitelist for Auto Link**' setting, and **add custom domains of your choice**. When you're finished, you'll see that when you send a message with a URL, including the custom domain, it becomes clickable. &#x20;
+
+{% hint style="info" %}
+**Custom Domain Whitelist for Auto Link** is available on workspaces running version 6.2 and above.
+{% endhint %}
+
 * **Allow Message Pinning**: When enabled, allow messages to be pinned to any channel.
 * **Allow Message Starring**: When enabled, users are able to star messages.
 * **Video Recorder Enabled**: Requires `video/webm` files to be an accepted media type within [File Upload](file-upload/) settings.
