@@ -19,7 +19,7 @@ See the complete list of considerations in the [Docker documentation](https://do
 {% endhint %}
 
 * Deploy a local registry following the[ official Docker guide](https://docs.docker.com/registry/deploying/).&#x20;
-* Then, pull the [Rocket.Chat](https://hub.docker.com/\_/rocket-chat), [MongoDB](https://hub.docker.com/r/bitnami/mongodb), and Nginx images from the docker hub which are needed to run Rocket.Chat into your registry. More details on how to do that [here](https://docs.docker.com/registry/deploying/#copy-an-image-from-docker-hub-to-your-registry)
+* Then, pull the [Rocket.Chat](https://hub.docker.com/r/rocketchat/rocket.chat), [MongoDB](https://hub.docker.com/r/bitnami/mongodb), and Nginx images from the docker hub which are needed to run Rocket.Chat into your registry.&#x20;
 
 {% hint style="info" %}
 For more details, see [copying an image from Docker Hub to your registry](https://docs.docker.com/registry/deploying/#copy-an-image-from-docker-hub-to-your-registry).
