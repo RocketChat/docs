@@ -77,6 +77,7 @@
   * [Extras](deploy/rocket.chat-environment-configuration/extras/README.md)
     * [Running in a sub folder with Apache](deploy/rocket.chat-environment-configuration/extras/running-in-a-sub-folder.md)
     * [Univention Corporate Server (UCS)](deploy/rocket.chat-environment-configuration/extras/univention-corporate-server-ucs.md)
+    * [Setting Up Client SSL Certificate Authentication for Rocket.Chat](deploy/rocket.chat-environment-configuration/extras/setting-up-client-ssl-certificate-authentication-for-rocket.chat.md)
     * [Setting up Process Managers and Init Systems](deploy/rocket.chat-environment-configuration/extras/pm2-systemd-upstart.md)
   * [Configuring SSL Reverse Proxy](deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)
   * [Environment Variables](deploy/rocket.chat-environment-configuration/environment-variables.md)
