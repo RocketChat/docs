@@ -26,9 +26,9 @@ To create a new business hour,
 
 ## View and Edit Omnichannel Business Hours
 
-On the Business Hours page, a list of all the created business hours is seen.&#x20;
+A list of all the created business hours is seen on the Business Hours page.&#x20;
 
-To edit a bussiness hour,
+To edit a business hour,
 
-* Click on that bussiness hour from the list.
-* Update the bussiness hour and click **Save**.
+* Click on that business hour from the list.
+* Update the business hour and click **Save**.

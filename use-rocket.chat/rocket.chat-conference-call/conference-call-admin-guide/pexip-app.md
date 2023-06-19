@@ -59,6 +59,20 @@ The events sink informs the workspace when a call on Pexip Infinity has ended. T
 * On the **Pexip App Info** screen, navigate to **Settings.** Update the **Base URL** with the URL of your running Pexip server.
 * Click **Save Changes.**
 
+{% hint style="success" %}
+Other Settings
+
+* **Base URL**: The URL where Pexip is running.
+* **API Username**: The API username to use for authenticated calls.
+* **API Password**: The password to use along with the API Username.
+* **Theme Name**: Name of the Pexip theme to be used on Rocket.Chat calls.
+* **Lock Conferences**: Whether conferences should be locked on creation.
+* **Allow multiple concurrent calls on the same room**: Enable to allow the creation of multiple conference calls in the same room.
+* **Static Host Pin**: A pin code to identify meeting hosts. Leave empty to generate a new unique pin for every meeting.
+* **Participant name overlay text**: Enable to allow participants' name or aliases to show at the bottom of a video in a conference call
+* **Static Guest Pin**: Set a pin code to grant meeting access to guests. Leave empty to generate a new unique pin for every meeting.
+{% endhint %}
+
 ### Configure conference call using the Pexip app
 
 To configure the Pexip video conference on your workspace,
