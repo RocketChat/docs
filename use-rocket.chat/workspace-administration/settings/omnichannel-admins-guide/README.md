@@ -85,20 +85,18 @@ See how to [install the Live Chat widget](../../../omnichannel/livechat-widget-i
 
 ## Business Hour
 
-Set your business hours to automatically manage when your Live Chat agents are online.
+Set your business hours to automatically manage conversations when your Live Chat agents are online.
 
 {% hint style="info" %}
-Configuring multiple business hours is an [Enterprise](../../../../setup-and-configure/enterprise-edition-trial/) feature. ![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (41).jpg>)
+![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (41).jpg>) Configuring multiple business hour mode is an [Enterprise](../../../../setup-and-configure/enterprise-edition-trial/) feature.
 {% endhint %}
 
 * **Business hours enabled**: Toggle on to enable business hours.
 * **Business Hour Type (Single or Multiple)**: Set the type of business hour. Community workspaces can only set a single business hour.
 
-Learn more on how to create and manage Business Hours here.
-
-{% content-ref url="../../../omnichannel/business-hours.md" %}
-[business-hours.md](../../../omnichannel/business-hours.md)
-{% endcontent-ref %}
+{% hint style="info" %}
+To learn more about how to optimize business hours in your workspace, see [business-hours.md](../../../omnichannel/business-hours.md "mention").
+{% endhint %}
 
 ## CRM Integration
 
