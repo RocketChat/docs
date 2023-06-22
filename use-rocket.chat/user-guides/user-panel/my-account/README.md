@@ -49,7 +49,16 @@ For email notifications, you must verify your email address.
 ### Messages
 
 * **Unread Tray Icon Alert**: Toggles if the tray icon highlights when you have unread messages.
-* **Show thread messages in the main thread**: When enabled, threaded messages will be displayed directly in the room.
+* **Always show thread replies in the main channel**: When enabled, all replies under a [thread](../../rooms/threads/) will also be displayed directly in the main    [room](../../rooms/). When disabled, only the first thread reply is displayed.
+* **Also send thread messages to channel behavior:** When replying to a [thread](../../rooms/threads/), select how your replies should be sent to the [room](../../rooms/).
+  * **Selected for the first reply, unselected for the remaining**: The first reply to the [thread](../../rooms/threads/) is displayed in the main [room](../../rooms/), while subsequent replies are not.
+  * **Selected by default**: The **Also send to channel** checkbox is always selected when replying to a [thread](../../rooms/threads/). When the reply is sent, it's also displayed in the main [room](../../rooms/).
+  * **Unselected by default**: The **Also send to channel** checkbox is not selected when replying to a [thread](../../rooms/threads/). When the reply is sent, it's not displayed in the main [room](../../rooms/).&#x20;
+
+{% hint style="info" %}
+You can select or unselect the **Also send to channel** checkbox based on your preference when replying to a thread.
+{% endhint %}
+
 * **Time Format**: Set the time format of your account (**12 hour clock** or **24 hour clock**).
 * **Use Emojis**: Enable this to allow the use of emojis.
 * **Convert ASCII to Emoji**: Toggles emoji conversion when inputting ASCII characters.
