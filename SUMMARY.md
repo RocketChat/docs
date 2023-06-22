@@ -434,6 +434,7 @@
 ## Resources
 
 * [Frequently Asked Questions](resources/frequently-asked-questions/README.md)
+  * [Messages Privacy](resources/frequently-asked-questions/messages-privacy.md)
   * [Apps FAQs](resources/frequently-asked-questions/apps-faqs.md)
   * [Update FAQs](resources/frequently-asked-questions/update-faqs.md)
   * [WhatsApp Cloud API FAQs](resources/frequently-asked-questions/whatsapp-cloud-api-faqs.md)
