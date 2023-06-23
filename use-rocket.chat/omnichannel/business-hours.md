@@ -43,3 +43,7 @@ To edit a business hour,
 * Navigate to **Administration > Omnichannel > Business Hour**.
 * Click on the business hour from the list.
 * Update the business hour and click **Save**.
+
+{% hint style="info" %}
+If your agent's live chat status shows available or is still turned on when business hours are closed, navigate to [business hour admin settings](../workspace-administration/settings/omnichannel-admins-guide/#business-hour). Then, disable and enable business hours again.
+{% endhint %}
