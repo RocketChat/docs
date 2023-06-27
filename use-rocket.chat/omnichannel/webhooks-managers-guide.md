@@ -59,7 +59,7 @@ Here is an example of JSON data sent in the  request.
     "username": "guest-3",
     "email": [
       {
-        "address": "fongang.rodrique+local-on@rocket.chat"
+        "address": "faria+local-on@rocket.chat"
       }
     ],
     "phone": null
