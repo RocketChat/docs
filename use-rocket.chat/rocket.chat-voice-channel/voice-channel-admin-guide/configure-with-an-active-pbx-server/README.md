@@ -20,7 +20,8 @@ You can start to configure the voice channel Rocket.Chat workspace.
 
 ### 2. Configure AMI connection
 
-Go to the menu **Avatar Menu > Administration - Settings - Voice Channel**, and in the **Management Server** section under the **Settings** tab, fill the form with the FQDN of your server and the user/password that gotten as shown [here](../configure-without-previously-having-a-pbx-server/) or it should be provided to you by your _Asterisk manager._
+* Navigate to **Administration > Workspace > Settings > Voice Channel > Settings > Asterisk Manager Interface (AMI).**
+* Fill the form with the FQDN of your server and the username/password gotten as shown [here](../configure-without-previously-having-a-pbx-server/), or it should be provided to you by your _Asterisk manager._
 
 <figure><img src="../../../../.gitbook/assets/image (1114).png" alt=""><figcaption><p><em>AMI connection</em></p></figcaption></figure>
 
