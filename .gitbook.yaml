@@ -503,8 +503,8 @@ administrator-guides/: use-rocket.chat/workspace-administration/README.md
 api/rest-api/methods/livechat: resources/development-docs.md
 api/rest-api/methods/rooms/get: resources/development-docs.md
 api/rest-api/methods/users/info: resources/development-docs.md
-apps-development/getting-started/creating-an-example-app: : resources/development-docs.md
-apps-development/recipes/making-http-requests: : resources/development-docs.md
+apps-development/getting-started/creating-an-example-app: resources/development-docs.md
+apps-development/recipes/making-http-requests: resources/development-docs.md
 chat-engine: resources/development-docs.md
 contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code: contribute-to-rocket.chat/annual-contribution-programs.md
 contributing/: contribute-to-rocket.chat/annual-contribution-programs.md
@@ -512,7 +512,7 @@ deploy-rocket.chat/updating-rocket.chat: deploy/updating-rocket.chat/README.md
 deploy/prepare-for-your-deployment/rapid-deployment-meethods/docker-and-docker-ompose: deploy/updating-rocket.chat/README.md
 deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compos: deploy/updating-rocket.chat/README.md
 deploy/scaling-rocket.chat/automation-tools/kubernetes-using-helm: deploy/scaling-rocket.chat/automation-tools/README.md
-developer-guides/ embed: : resources/development-docs.md
+developer-guides/ embed: resources/development-docs.md
 developer-guides/rest-api/channels/addall: resources/development-docs.md
 developer-guides/rest-api/groups.members: resources/development-docs.md
 developer-guides/rest-api/groups/settopic: resources/development-docs.md
@@ -544,7 +544,7 @@ use-rocket.chat/rocket.chat-workspace-administration/integrations/gitlab: use-ro
 use-rocket.chat/rocket.chat-workspace-administration/settings/omnichannel-admins-guide: use-rocket.chat/workspace-administration/settings/omnichannel-admins-guide/README.md
 administrator-guides/integrations/gitlab: use-rocket.chat/workspace-administration/integrations/gitlab.md
 administrator-guides/settings-via-env-vars: deploy/rocket.chat-environment-configuration/environment-variables.md
-developer-guides/rest-api/users/register?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=ja&_x_tr_pto=sc: : resources/development-docs.md
+developer-guides/rest-api/users/register?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=ja&_x_tr_pto=sc: resources/development-docs.md
 guides/administration/admin-panel/integrations/giphy: use-rocket.chat/workspace-administration/integrations/README.md
 guides/administration/admin-panel/integrations/giphy?_hsmi=196587919&_hsenc=p2ANqtz-_xR3xUC91RZZ3KZ6JZLi60xfsJUsZ9V09MjN_4FlLwVlsD1Fg2q7CdsrAhGHkox01S4XVsnLzMCZWKZK0hltW_BwwqEA: use-rocket.chat/workspace-administration/integrations/README.md
 guidesadministration/admin-panel/integrations/giphy?_hsmi=196587919&_hsenc=p2ANqtz-90MF3-e9H5iAxxQiSkmH8S86MkZm6J4L0-WLxo-jH-Thf9WmDzq0fX6CBmh7Q8pjjjDz2WqgpcBgsv1HL7UaC29NhvOA: use-rocket.chat/workspace-administration/integrations/README.md
