@@ -435,6 +435,7 @@
 
 * [Frequently Asked Questions](resources/frequently-asked-questions/README.md)
   * [Message Privacy](resources/frequently-asked-questions/message-privacy.md)
+  * [Localization](resources/frequently-asked-questions/localization.md)
   * [Apps FAQs](resources/frequently-asked-questions/apps-faqs.md)
   * [Update FAQs](resources/frequently-asked-questions/update-faqs.md)
   * [WhatsApp Cloud API FAQs](resources/frequently-asked-questions/whatsapp-cloud-api-faqs.md)
