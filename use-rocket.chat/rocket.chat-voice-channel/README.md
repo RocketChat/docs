@@ -6,7 +6,7 @@ To fulfill this gap and avoid fragmented experiences for agents and customers, R
 
 In the following articles, we help you onboard and start using **Rocket.Chat's voice channel** as an extension to our Omnichannel feature set, with outstanding customer experience.
 
-***
+
 
 ### **Features**
 

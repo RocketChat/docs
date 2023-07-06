@@ -53,7 +53,7 @@ At a minimum, you will need this:
 
     * If we can't replicate it we can't debug it.
 
-    ***
+
 
 **(i) Server Setup Information**
 
@@ -158,7 +158,7 @@ Remember, **you** are the one with the problem. They can just go back to work or
 
 If you think your issue is urgent, then you have two choices:
 
-### ****[**Enterprise Edition**](https://rocket.chat/enterprise)****
+### [**Enterprise Edition**](https://rocket.chat/enterprise)
 
 Switch to Rocket.Chat's Enterprise Edition - [https://rocket.chat/enterprise](https://rocket.chat/enterprise)
 
