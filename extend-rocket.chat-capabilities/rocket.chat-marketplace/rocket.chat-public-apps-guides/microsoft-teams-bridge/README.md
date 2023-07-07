@@ -37,7 +37,7 @@ To set up an Azure Active Directory App for your organization,
 * Click **Register**. Copy the **Application (client) ID** and **Directory (tenant) ID** shown on the overview page.
 * Click **Add a certificate or secret > New Client Secret.** Fill in the description and expiration timeline. Then, click **Add**.
 * After the client secret is created, copy the **Client Secret Value**.
-* Navigate to **API permissions**. Select **Add a permission**, add the set of required permissions, and click **Grant admin consent for org**. The table below outlines the required permissions you'll need to set.
+* Navigate to **API permissions**. Select **Add a permission**, add the set of required permissions. The table below outlines the required permissions you'll need to set.
 
 | Name                                     | Type        | Description                                                                                | Requires Admin Consent |
 | ---------------------------------------- | ----------- | ------------------------------------------------------------------------------------------ | ---------------------- |
@@ -61,6 +61,9 @@ To set up an Azure Active Directory App for your organization,
 | ChatMessage.Read.All                     | Application | Read all chat messages                                                                     | Yes                    |
 | ChatMessage.Send                         | Delegated   | Send user chat messages                                                                    | No                     |
 | email                                    | Delegated   | View users' email address                                                                  | No                     |
+| Files.Read                               | Delegated   | Read user files                                                                            | No                     |
+| Files.Read.All                           | Delegated   | Read all files that user can access                                                        | No                     |
+| Files.Read.All                           | Application | Read files in all site collections                                                         | Yes                    |
 | Files.ReadWrite                          | Delegated   | Have full access to user files                                                             | No                     |
 | Group.ReadWrite.All                      | Delegated   | Read and write all groups                                                                  | Yes                    |
 | offline\_access                          | Delegated   | Maintain access to data you have given it access to                                        | No                     |
@@ -71,6 +74,8 @@ To set up an Azure Active Directory App for your organization,
 | User.Read.All                            | Delegated   | Read all users' full profiles                                                              | Yes                    |
 | User.Read.All                            | Application | Read all users' full profiles                                                              | Yes                    |
 | User.ReadWrite.All                       | Application | Read and write all users' full profiles                                                    | Yes                    |
+
+* After setting all permissions, click on **Grant admin consent for org**.
 
 ### Configure Microsoft Teams Bridge
 
