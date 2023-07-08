@@ -37,7 +37,8 @@ To set up an Azure Active Directory App for your organization,
 * Click **Register**. Copy the **Application (client) ID** and **Directory (tenant) ID** shown on the overview page.
 * Click **Add a certificate or secret > New Client Secret.** Fill in the description and expiration timeline. Then, click **Add**.
 * After the client secret is created, copy the **Client Secret Value**.
-* Navigate to **API permissions**. Select **Add a permission**, add the set of required permissions. The table below outlines the required permissions you'll need to set.
+* Navigate to **API permissions** > Select **Add a permission** > Select "**Microsoft Graph**".
+* Add the set of required permissions. The table below outlines the required permissions you'll need to set.
 
 | Name                                     | Type        | Description                                                                                | Requires Admin Consent |
 | ---------------------------------------- | ----------- | ------------------------------------------------------------------------------------------ | ---------------------- |
