@@ -238,6 +238,7 @@
           * [Create federated rooms](use-rocket.chat/workspace-administration/settings/federation/matrix-bridge/matrix-users-guide/create-a-federated-rooms.md)
           * [Invite external users to your Rocket.Chat server](use-rocket.chat/workspace-administration/settings/federation/matrix-bridge/matrix-users-guide/invite-external-users-to-your-rocket.chat-server.md)
           * [Communicate with a federated user](use-rocket.chat/workspace-administration/settings/federation/matrix-bridge/matrix-users-guide/communicate-with-a-federated-user.md)
+          * [Search and join public channels on the Matrix network](use-rocket.chat/workspace-administration/settings/federation/matrix-bridge/matrix-users-guide/search-and-join-public-channels-on-the-matrix-network.md)
           * [Assign roles for users in federated rooms](use-rocket.chat/workspace-administration/settings/federation/matrix-bridge/matrix-users-guide/assign-roles-for-users-in-federated-rooms.md)
         * [Matrix Bridge FAQs](use-rocket.chat/workspace-administration/settings/federation/matrix-bridge/matrixbridge-faqs.md)
       * [Rocket.Chat Basic Federation](use-rocket.chat/workspace-administration/settings/federation/rocket.chat-federation/README.md)
