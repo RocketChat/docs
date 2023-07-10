@@ -436,6 +436,7 @@
 ## Resources
 
 * [Frequently Asked Questions](resources/frequently-asked-questions/README.md)
+  * [Registration](resources/frequently-asked-questions/registration.md)
   * [Message Privacy](resources/frequently-asked-questions/message-privacy.md)
   * [Localization](resources/frequently-asked-questions/localization.md)
   * [Apps FAQs](resources/frequently-asked-questions/apps-faqs.md)

@@ -24,7 +24,7 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 [**Invites**](invites.md): Under Invites, you can view and delete the invite links generated to invite users to the team/channels.
 
-[**Connectivity Services**](registration.md): Rocket.Chat Connectivity Services gives you access to connect your self-hosted workplace to Rocket.Chat cloud. Learn how to se create a new cloud account and use connectivity services.
+[**Registration**](registration.md): Rocket.Chat Registration gives you access to connect your self-hosted workplace to Rocket.Chat cloud. Learn how to use create a new cloud account and use connectivity services.
 
 [**View Logs**](settings/logs.md): Check your workspace logs.
 
