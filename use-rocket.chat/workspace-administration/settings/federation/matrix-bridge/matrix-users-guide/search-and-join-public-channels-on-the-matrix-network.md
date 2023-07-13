@@ -19,6 +19,10 @@ To search for and join a federated channel,
 * Select a server and search for federated rooms on that server.
 * You can join rooms that have auto-join enabled.
 
+{% hint style="info" %}
+Users may encounter difficulty joining a public channel with a large number of members. A temporary fix is to enable [faster remote room joins](https://matrix.org/blog/2022/10/18/testing-faster-remote-room-joins/) as an administrator. However, it is essential to note that enabling this setting may have potential impacts on other aspects of the matrix server.
+{% endhint %}
+
 ### Manage Server List
 
 You can manage the server list and choose to join federated rooms from each of the Matrix network servers you have enlisted.
