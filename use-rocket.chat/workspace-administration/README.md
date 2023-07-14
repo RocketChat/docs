@@ -42,7 +42,7 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 [**User Status**](user-status.md): See how to manage user presence and status on your workspace.
 
-[**Permissions**](permissions.md): Customize which users can perform specific actions under Rocket. Chat's rich permissions system.
+[**Permissions**](permissions/): Customize which users can perform specific actions under Rocket. Chat's rich permissions system.
 
 [**Settings**](settings/): Rocket.Chat is very flexible thanks to the vast amount of settings that allow you to configure your workspace the way you prefer.
 

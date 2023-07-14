@@ -6,7 +6,7 @@ description: Review log history of users who have accessed the Message Auditing 
 
 <figure><img src="../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (41).jpg" alt=""><figcaption></figcaption></figure>
 
-The **Message Audit Log** allows you to verify who run audits and when a conversation was inspected. The user must have an `auditor-log` [role](../setup-and-configure/roles-in-rocket.chat.md) and `Can Audit Log` [permission](workspace-administration/permissions.md) to access the **Audit Logs**.
+The **Message Audit Log** allows you to verify who run audits and when a conversation was inspected. The user must have an `auditor-log` [role](../setup-and-configure/roles-in-rocket.chat.md) and `Can Audit Log` [permission](workspace-administration/permissions/) to access the **Audit Logs**.
 
 To access the message auditing log,
 
@@ -24,7 +24,7 @@ The message auditing logs returns a table with following information:
 
 ## Assign Message Audit Log Permission to Specific Users
 
-The **Audit Log** [permissions](workspace-administration/permissions.md) grant users access to **Message Audit** **Log** features. As a workspace administrator, you can assign this permssion \*\*\*\* to any [role ](workspace-administration/permissions.md#roles)you want to give audit log access to.
+The **Audit Log** [permissions](workspace-administration/permissions/) grant users access to **Message Audit** **Log** features. As a workspace administrator, you can assign this permssion \*\*\*\* to any [role ](workspace-administration/permissions/#roles)you want to give audit log access to.
 
 To assign message audit permissions,
 

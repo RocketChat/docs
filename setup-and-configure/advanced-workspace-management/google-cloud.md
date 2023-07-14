@@ -29,7 +29,7 @@ It's time to configure auto-translate in your workspace now that you have your A
 * Select **Google** as the **Service Provider**.
 
 {% hint style="info" %}
-Only users with `auto-translate` [permission](../../use-rocket.chat/workspace-administration/permissions.md) can use this feature.
+Only users with `auto-translate` [permission](../../use-rocket.chat/workspace-administration/permissions/) can use this feature.
 {% endhint %}
 
 ## Enabling Auto-Translate on a Channel

@@ -1,6 +1,6 @@
 # Roles in Rocket.Chat
 
-Roles in Rocket.Chat makes managing, controlling, and securing access to resources and features easy in your workspace. A Role can be associated with one or more [**Permissions**](../use-rocket.chat/workspace-administration/permissions.md) allowing users to have different levels of access based on the role assigned to them by the workspace administrator.
+Roles in Rocket.Chat makes managing, controlling, and securing access to resources and features easy in your workspace. A Role can be associated with one or more [**Permissions**](../use-rocket.chat/workspace-administration/permissions/) allowing users to have different levels of access based on the role assigned to them by the workspace administrator.
 
 As a Rocket.Chat workspace administrator, you can assign certain privileges to users, such as the ability to send messages or manage channels. By assigning roles and permissions, you can control and limit the actions of a user, ensuring that they can only access and perform the actions that they are authorized to do so.
 
@@ -38,7 +38,7 @@ Rocket.Chat users can have one or more roles, allowing them to perform the vario
 | `livechat-monitor` | Users with the `livechat-monitor` role can view and [monitor ](../use-rocket.chat/omnichannel/monitors.md)Live Chat interactions and analytics.                                                                |
 
 {% hint style="info" %}
-You can create and manage custom roles with specified permissions tailored to your needs. To learn more, see [#roles](../use-rocket.chat/workspace-administration/permissions.md#roles "mention").
+You can create and manage custom roles with specified permissions tailored to your needs. To learn more, see [#roles](../use-rocket.chat/workspace-administration/permissions/#roles "mention").
 {% endhint %}
 
 ### Rocket.Chat Marketplace Roles

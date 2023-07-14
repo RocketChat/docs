@@ -24,7 +24,7 @@ To access this setting,
 {% endhint %}
 
 * **AppService User Localpart:** The bot user associated with the application service (Sometimes, it's used to execute some actions).
-* **Maximum number of users when joining a public room in a remote server:** The number of the maximum users when joining a public room in a remote server. Public rooms with more users will be ignored in the list of public rooms to join.
+* **Maximum number of users when joining a public room in a remote server:** The number of the maximum users when joining a public room in a remote server. Public rooms with more users will be shown in the list of public rooms to join. However, they display a _Can't join_ warning, and users won't be able to join those channels.
 
 {% hint style="info" %}
 Increasing the maximum number may consume a large amount of the resources in your infrastructure platform. It is recommended to adhere to the default size.

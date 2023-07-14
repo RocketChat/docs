@@ -1,6 +1,6 @@
 # Assign roles for users in federated rooms
 
-Room members can assign room roles for federated users within a federated room context. Roles in federated rooms are slightly different from the regular [Rocket.Chat Roles](../../../../permissions.md#default-roles) for the [_Room Scope_](../../../../permissions.md#scope-of-roles).
+Room members can assign room roles for federated users within a federated room context. Roles in federated rooms are slightly different from the regular [Rocket.Chat Roles](../../../../permissions/#default-roles) for the [_Room Scope_](../../../../permissions/#scope-of-roles).
 
 Federated rooms support three roles:
 
@@ -15,7 +15,7 @@ Matrix uses the concept of power levels to define room roles with the `Owner` be
 ### IMPORTANT
 
 {% hint style="danger" %}
-Rocket.Chat global roles are not supported in federated rooms. It doesn't matter if they are [_Room Scoped_](../../../../permissions.md#scope-of-roles).
+Rocket.Chat global roles are not supported in federated rooms. It doesn't matter if they are [_Room Scoped_](../../../../permissions/#scope-of-roles).
 {% endhint %}
 
 {% hint style="danger" %}

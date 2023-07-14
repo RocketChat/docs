@@ -7,7 +7,7 @@ description: >-
 # Guest users
 
 {% hint style="info" %}
-As from Rocket.Chat `6.0`, Guest role [permissions](../permissions.md) on [Enterprise Edition](../settings/enterprise.md) and [Rocket.Chat SaaS](../../../#rocket.chat-saas) workspaces cannot be modified.
+As from Rocket.Chat `6.0`, Guest role [permissions](../permissions/) on [Enterprise Edition](../settings/enterprise.md) and [Rocket.Chat SaaS](../../../#rocket.chat-saas) workspaces cannot be modified.
 {% endhint %}
 
 {% hint style="success" %}
