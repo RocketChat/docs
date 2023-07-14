@@ -13,7 +13,7 @@ To be an Omnichannel agent, you must have the **`Omnichannel Agent`** role. Cont
 As an omnichannel agent, your home screen has Omnichannel navigation tab that has features for:
 
 * [Opening Omnichannel Queue](omnichannel-queue.md)
-* [Setting Omnichannel Agent's Availability](./#undefined)
+* [Setting Omnichannel Agent's Availability](./#omnichannel-agent-availability)
 * [Opening up Omnichannel Contact Center](omnichannel-contact-center/)
 
 ## Omnichannel Agent Availability
