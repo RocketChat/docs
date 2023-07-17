@@ -1,9 +1,13 @@
-# Outlook Calender
+# Outlook Calendar
 
 The **Outlook Calendar** integration allows users to sync their daily calendar events from Outlook to their Rocket.Chat workspace. It also provides quick action buttons to interact with the events, _**for example**_ —_**Joining a meeting.**_
 
 {% hint style="info" %}
 This integration only works with Exchange Servers and does not support Office 365.
+{% endhint %}
+
+{% hint style="warning" %}
+The Outlook Calender integration is
 {% endhint %}
 
 To access the **Outlook calendar** on your workspace,
@@ -43,4 +47,3 @@ To remove your credentials from the workspace,&#x20;
 
 * Click the **Calendar** **Settings** button.
 * Click the **Disable** button for Outlook authentication.
-

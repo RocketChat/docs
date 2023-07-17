@@ -4,30 +4,30 @@ description: Here you can view room details, edit rooms and delete rooms.
 
 # Rooms
 
-Rocket.Chat rooms are where any communication or interaction with other users occurs. There are various types of rooms. Visit the room section to view room details, and create, edit, and delete rooms.
+Rocket.Chat [rooms](../user-guides/rooms/) are where any communication or interaction with other users occurs. This section lets you view room details and create, edit, and delete rooms.
 
 {% hint style="info" %}
-To find more information on Rocket.Chat rooms, please visit user guide on [rooms](../user-guides/rooms/ "mention")
+To learn more, see the [rooms](../user-guides/rooms/ "mention")user guide.
 {% endhint %}
 
-To access this room's administration menu, navigate to **Administration** > **Workspace** > **Rooms**.
+To access this room's administration menu,&#x20;
 
-Here you can see all the rooms that currently exist in your Rocket.Chat workspace along with details like the number of users in a room, number of messages, type of room, etc.
+* Navigate to **Administration** > **Workspace** > **Rooms**.
 
-You are provided with a variety of filters like **Public**, **Private**, etc., available to help you sort them by type.
+It displays all the rooms currently in your workspace alongside details like the number of users in a room, number of messages, type of room, etc. You can use the checkboxes to filter the rooms based on their types.&#x20;
 
 ## Edit Room Details
 
-To edit room details:
+To edit room details,
 
 * Navigate to **Administration** > **Workspace** > **Rooms**.
-* Click the room you want to edit the details for
-* Here you have options to change the room's avatar, edit room details, and configure other settings with respect to this room, like Read-Only, Private, etc.
-* Click **Save** after making your desired changes.
+* Click the room you want to edit the details for.
+* You can change the room's avatar, edit room details, and configure other settings related to this room, like read-only, private, featured, etc.
+* Click **Save.**
 
 ## Delete Room
 
-To delete a room:
+To delete a room,
 
 * Navigate to **Administration** > **Workspace** > **Rooms**.
 * Search and click on the room you want to delete

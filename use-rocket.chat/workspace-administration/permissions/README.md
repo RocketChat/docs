@@ -1,13 +1,13 @@
 # Permissions
 
-Rocket.Chat has a vast and customizable permissions system. Most actions a user can make require particular permission, so you can customize what users can do and see.
+Rocket.Chat provides a comprehensive and customizable permissions framework. Most user actions require specific permissions, enabling you to tailor user capabilities and visibility within the system.
 
-To access this menu:
+To access this menu,
 
-Navigate to **Administration** > **Workspace** > **Permissions**
+* Navigate to **Administration** > **Workspace** > **Permissions**
 
-{% hint style="info" %}
-Permission changes are immediate and transparent. Users do not need to log out, log in, or refresh for permissions to be applied.
+{% hint style="success" %}
+Permission changes are immediate and transparent. There is no need for users to log out, sign back in, or refresh the system for the revised permissions to take effect.
 {% endhint %}
 
 ## Roles
@@ -177,7 +177,7 @@ You can now allocate [permissions](./#permissions-available) to the role by chec
 | Remove User                                                           | `remove-user`                                    | Permission to remove users from channels.                                                                                                                                                                                                                                                                        |
 | Request PDF Transcript                                                | `request``-``pdf``-``transcript`                 | Permission to request a PDF transcript for a chat.                                                                                                                                                                                                                                                               |
 | Restart the server                                                    | `restart``_``server`                             | Permission to reset the server.                                                                                                                                                                                                                                                                                  |
-|                                                                       | `reset-other-user-e2e-key`                       | Permission to set E2E key. See [End to End Encryption](../settings/e2e-encryption.md).                                                                                                                                                                                                                           |
+| Reset Other User E2E                                                  | `reset-other-user-e2e-key`                       | Permission to set E2E key. See [End to End Encryption](../settings/e2e-encryption.md).                                                                                                                                                                                                                           |
 | Run Import                                                            | `run-import`                                     | Permission to use the data importer tools. Must also be an admin. Accessible from Administration -> Import.                                                                                                                                                                                                      |
 | Run Migration                                                         | `run-migration`                                  | Permission to run migrations.                                                                                                                                                                                                                                                                                    |
 | Save All Canned Responses                                             | `save``-``all``-``canned``-``responses`          | Permission to save all canned responses.                                                                                                                                                                                                                                                                         |

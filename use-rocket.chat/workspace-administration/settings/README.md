@@ -89,3 +89,11 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 [**WebDav Integration**](webdav-integration.md): Learn how to enable your workspace users to add, edit, and delete files on a WebDAV server.
 
 [**WebRTC**](webrtc.md): Discover how to enable real-time communication to ensure the transmission of audio/video data and other data among browsers.&#x20;
+
+{% hint style="info" %}
+To manage users' access to any of these settings based on their role, see /
+{% endhint %}
+
+{% hint style="info" %}
+To control a user's access to any of these settings based on their role, see [settings-permission.md](../permissions/settings-permission.md "mention").
+{% endhint %}

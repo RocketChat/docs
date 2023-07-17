@@ -76,7 +76,7 @@ Message info is an enterprise feature that enables the workspace administrator t
 
 ## Message Forwarding/Share message &#x20;
 
-Click <img src="../../../.gitbook/assets/image.png" alt="" data-size="line">to forward messages to another channel, thread, or discussion.&#x20;
+Click <img src="../../../.gitbook/assets/image (1).png" alt="" data-size="line">to forward messages to another channel, thread, or discussion.&#x20;
 
 You can forward messages directly to any user, channel, thread, or discussion where you have access to send messages. You can select a message and share it with unlimited recipients.  It saves time by eliminating the need to send individual messages and ensures everyone is on the same page by sharing messages with multiple users in one go. This feature is particularly valuable for efficiently sharing important information through different channels and engaging with a larger audience. It offers benefits such as time efficiency, streamlined communication, enhanced collaboration, and convenience.
 

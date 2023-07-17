@@ -4,8 +4,10 @@ description: This menu shows you your workspace logs.
 
 # View Logs
 
-In the **View Logs** section of your Rocket.Chat server, you can see all the information configured to be logged. This can help you troubleshoot or monitor the state of your server's activity.
+The View Logs section in your Rocket.Chat server allows you to access and review detailed information that has been configured for logging purposes. It is particularly useful for troubleshooting issues or monitoring the ongoing activity and status of your server.
 
-Check out the [Logs Settings](settings/logs.md) for additional configurations on what to log.
+To access this menu, go to **Administration** > **Workspace** > **View Log.**
 
-To access this menu, go to **Administration** > **Workspace** > **View Log**
+{% hint style="info" %}
+For additional configurations to the log, see [logs.md](settings/logs.md "mention").
+{% endhint %}

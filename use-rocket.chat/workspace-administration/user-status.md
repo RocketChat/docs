@@ -15,7 +15,7 @@ By default, Rocket.Chat has the following Presence presets.
 
 To access this menu,
 
-Navigate to **Administration** > **Workspace** > **User Status**
+Navigate to **Administration** > **Workspace** > **User Status.**
 
 ## Presence Service
 
@@ -23,20 +23,19 @@ With the Presence service enabled, users can see the status of other users in th
 
 To enable the Presence service,
 
-* Navigate to **Administration** > **Workspace** > **User Status** > **Presence service.** The Presence service cap side panel opens up.
+* Navigate to **Administration** > **Workspace** > **User Status** > **Presence service.**&#x20;
+* Click the **Presence Service** button.
 * Toggle the **Service status** to on.
 
 {% hint style="warning" %}
-The Presence service automatically gets disabled when concurrent connections are up to 200 on Rocket.Chat _Free Edition(Community Edition)_.
-
-[Enterprise workspaces](settings/enterprise.md) have no cap on the Presence service.
+For community edition workspaces, the Presence service is automatically disabled when the number of concurrent connections reaches 200.
 {% endhint %}
 
 {% hint style="info" %}
 When the Presence service gets disabled automatically due to the cap on concurrent connections,
 
 * Users see the status indicator for all users, including themselves as `disabled`.
-* The workspace Administrator has to manually reactivate the Presence service when the total number of connections drops below the connection limit of 200.&#x20;
+* The workspace administrator has to manually reactivate the Presence service when the number of connections drops below the connection limit of 200.&#x20;
 * Workspace users and administrator(s) are notified that Presence is inactive because the workspace has exceeded the connection limit.
 {% endhint %}
 
@@ -44,20 +43,20 @@ When the Presence service gets disabled automatically due to the cap on concurre
 
 To create a custom status,
 
-* Navigate to **Administration** > **Workspace** > **User Status** > **New custom status.** A side panel opens up.
+* Navigate to **Administration** > **Workspace** > **User Status.**
+* Click **New custom status.**&#x20;
 * Enter a **name** for your custom status.
 * Select a **presence** to tie with your custom status.
-* Hit **Save**
+* Hit **Save.**
 
 ### Use Custom Status
 
-Created custom status shows up along with the default status presets to all users across your workspace.
+The custom status and default status presets will be visible to all users in your workspace.
 
 To set a custom status,&#x20;
 
-* Click on your avatar by the top left of your workspace
-* A dropdown is seen
-* Select the custom status from the list of statuses.
+* Click on your avatar by the top left of your workspace.
+* From the dropdown, select the custom status from the list of statuses.
 
 ### Delete/Edit Custom Status
 
@@ -65,4 +64,5 @@ To delete or edit a custom status,
 
 * Navigate to **Administration** > **Workspace** > **User Status**
 * Search and click the custom status you want to edit or delete.
-* Hit **Delete** or **Edit** to delete or update the selected status, respectively.
+* Update the details and click **Save** to edit the status.
+* Click **Delete** to delete the status.

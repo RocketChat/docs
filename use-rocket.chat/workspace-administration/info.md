@@ -20,12 +20,15 @@ The deployment info card shows information related to your server deployment.
 * **MongoDB**: The MongoDB version
 * **Commit Details**: Details on the recent commit of your server.
 * **PID**
+* **Instances:** See the status of your workspace instance.
+
+
 
 ## License Info
 
 This shows the information patenting to the license of your server.
 
-* **License**: This shows the tags of the license you have active on your server.
+* **License**: This shows the license tags active on your server.
 * **Features**: The various features supported by the license on your server. Like `Omnichannel` `Auditing`, `Canned Responses`, `Engagement Dashboard`.
 
 ### Apply Offline License
@@ -39,12 +42,12 @@ To apply your offline license:
 
 ### Change Offline License
 
-To change your offline license from the **License** card of the **Info** dashboard:
+To change your offline license,
 
 * Navigate to **Administration** > **Workspace** > **Info**
 * Click on the **Change Offline License** at the bottom of the License card
 * A modal is presented, prompting you to paste the license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home) or provided from the License purchase confirmation email.
-* Clear the old license code and paste the new license code, then hit **Apply license**
+* Clear the old license code and paste the new license code, then hit **Apply license.**
 
 ## Usage Info
 
@@ -75,47 +78,58 @@ To change your offline license from the **License** card of the **Info** dashboa
   * **Total Messages in Channels**: Total messages in all channels only
   * **Total Messages in Private Groups**: Total number of messages in private groups only
   * **Total Messages in Direct Messages**: Total number of messages that have been sent in all direct messages
-  * **Total Messages in Omnichannel**: The total number of messages in omnichannel
+  * **Total Messages in Omnichannel**: The total number of messages in omnichannel.
 
-More details on usage info can be seen on the [engagement-dashboard.md](engagement-dashboard.md "mention")
+{% hint style="info" %}
+Click the **See on Engagement Dashboard** button to view more usage statistics on the [engagement-dashboard.md](engagement-dashboard.md "mention").
+{% endhint %}
 
 ## Federation Info
 
-[Rocket.Chat's Federation](settings/federation/#introduction) lets you set up communication between Rocket.Chat workspaces.
+[Rocket.Chat's Federation](settings/federation/#introduction) lets you set up communication between Rocket.Chat workspaces over a federated network.
 
-**Enabled**: Enables federation on your server.
+* **Enabled**: Enables federation on your server.
 
-When enabled, it shows a green checkmark :white\_check\_mark: across the features well configured. And a red cross :x:across those that aren't.
+When enabled, it shows a green checkmark :white\_check\_mark: across the configured features. And a red cross :x:across those that aren't.
 
 ### Federation Settings
 
-To see more on federation settings:
+To see more on federation settings,
 
-* Click on **Settings** at the bottom right of the Federation card
-* A modal appears. Enter the **Domain** and **Discovery Method** and hit **Next**
-* **Domain**: Add the domain name that your server should be linked to.
-* **Discovery Method**: A dropdown to select which discoverability mode to use e.g. `DNS` or `HUB`
+* Click on **Settings** at the bottom right of the Federation card.
+* A modal appears. Enter the **Domain** and **Discovery Method** and hit **Next.**
+  * **Domain**: Add the domain name that your server should be linked to.
+  * **Discovery Method**: A dropdown to select which discoverability mode to use e.g. `DNS` or `HUB`
 
 {% hint style="info" %}
 We recommend using **DNS**.
 {% endhint %}
 
-Next, continue by adding the given DNS records on your server and follow the given instructions.
+* Click **Next**, add the DNS records on your server, and follow the remaining prompts.
 
 {% hint style="info" %}
-More on the federation setup can be seen in [this section](settings/federation/).
+To learn more, see the [federation](settings/federation/ "mention") guide.
+{% endhint %}
 
-We also have a guide on [federation](settings/federation/ "mention")
+## Seats Usage
+
+The seats usage displays the statistics of used, available(unused), and total seats.
+
+{% hint style="info" %}
+Click on **Request Seats** to upgrade your plan and get more seats.
 {% endhint %}
 
 ## Download Info
 
-To download info about your server, click the **Download Info** button at the top right of **Info** menu.
+To download info about your server,&#x20;
 
-A download is prompted with a file named `statistics.json`.
+* Click the **Download Info** button at the top right of **Info** menu.
+* A download is prompted with a file named `statistics.json`.
 
 ## Refresh Info
 
 Refreshing info on your Rocket.Chat server will prompt for the latest stats to be pulled.
 
-To refresh info, click the **Refresh** button by the top right of your info panel.
+To refresh info,&#x20;
+
+* Click the **Refresh** button at the top right of the **Info** screen.

@@ -2,9 +2,9 @@
 
 Rocket.Chat Registration gives you access to connect your workplace to [Rocket.Chat Cloud](https://cloud.rocket.chat/).
 
-To access this menu:
+To access this menu,
 
-Navigate to **Administration** > **Workspace** > **Registration** for workspaces above Rocket.Chat `6.0` or **Administration** > **Workspace** > **Connectivity Services** for workspaces below `6.0`.
+* Navigate to **Administration** > **Workspace** > **Registration** for workspaces above Rocket.Chat `6.0` or **Administration** > **Workspace** > **Connectivity Services** for workspaces below `6.0`.
 
 ## Introduction
 

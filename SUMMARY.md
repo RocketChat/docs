@@ -210,7 +210,7 @@
   * [Mailer](use-rocket.chat/workspace-administration/mailer.md)
   * [User Status](use-rocket.chat/workspace-administration/user-status.md)
   * [Permissions](use-rocket.chat/workspace-administration/permissions/README.md)
-    * [Settings](use-rocket.chat/workspace-administration/permissions/settings.md)
+    * [Setting's Permission](use-rocket.chat/workspace-administration/permissions/settings-permission.md)
   * [Settings](use-rocket.chat/workspace-administration/settings/README.md)
     * [Accounts](use-rocket.chat/workspace-administration/settings/account-settings/README.md)
       * [Custom Fields](use-rocket.chat/workspace-administration/settings/account-settings/custom-fields.md)

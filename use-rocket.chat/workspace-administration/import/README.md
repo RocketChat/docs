@@ -8,10 +8,10 @@ Rocket.Chat lets you import all your data if you are moving from another service
 
 To access this menu, navigate to **Administration** > **Workspace** > **Import**.
 
-To Import your data:
+To Import your data,
 
-* Click **Import New File**
-* Select **Import Type**
+* Click **Import New File.**
+* Select **Import Type.**
 
 {% content-ref url="import-from-slack/" %}
 [import-from-slack](import-from-slack/)

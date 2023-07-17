@@ -1,6 +1,6 @@
-# Settings
+# Setting's Permission
 
-Setting permissions allows you to control the [settings](../settings/) users can change within a workspace based on their roles. Instead of giving full access, you can grant specific permissions related to certain tasks. For example, a user managing file uploads can be assigned permissions to modify settings directly related to file upload, while restricting access to other sensitive areas. The ability to control permissions at a detailed level can help to improve security, reduce the risk of accidental changes, and facilitate the delegation of responsibilities.
+Establishing Setting's permissions enables you to control what settings users can alter within a workspace based on their roles. Rather than providing unrestricted access, you have the option to grant specific permissions associated with particular tasks. Take, for instance, a user responsible for file uploads; you can allocate permissions to change settings strictly related to file upload while limiting access to other sensitive workspace settings. Managing permissions with such precision can enhance security, mitigate the risk of inadvertent alterations, and streamline the distribution of duties throughout the workspace.
 
 {% hint style="info" %}
 All [settings](../settings/) have permissions to determine which users can access them.
