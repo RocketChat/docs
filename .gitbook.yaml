@@ -67,6 +67,22 @@ redirects:
     developer-guides/rocketchat-ui/css-variables: resources/development-docs.md
     developer-guides/schema-definition: resources/development-docs.md
     guides/developer-guides/developing-apps: resources/development-docs.md
+    developer-guides/rest-api/subscriptions/read: resources/development.md
+    developer-guides/rest-api/subscriptions/unread: resources/development.md
+    developer-guides/ui-and-theming/themes: resources/development.md
+    apps-development/getting-started/creating-an-example-app: resources/development.md
+    apps-development/recipes/making-http-requests: resources/development.md
+    developer-guides/ embed: resources/development.md
+    developer-guides/rest-api/channels/addall: resources/development.md
+    developer-guides/rest-api/groups.members: resources/development.md
+    developer-guides/rest-api/groups/settopic: resources/development.md
+    developer-guides/rest-api/rooms/get: resources/development.md
+    developer-guides/rest-api/users/createtoken: resources/development.md
+    developer-guides/rest-api/users/register?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=ja&_x_tr_pto=sc: resources/development.md
+    reference/api/schema_definition: resources/development.md
+    api/rest-api/methods/livechat: resources/development.md
+    api/rest-api/methods/rooms/get: resources/development.md
+    api/rest-api/methods/users/info: resources/development.md
 
 
     contribute-to-rocket.chat/how-can-i-help: resources/development-docs.md
@@ -273,7 +289,33 @@ redirects:
     use-rocket.chat/user-guides/rooms/channels/channel-actions/members-list-of-a-channel/add-user-to-a-channel: use-rocket.chat/user-guides/rooms/channels/README.md
     use-rocket.chat/user-guides/rooms/direct-messages/direct-messages-between-multiple-users: use-rocket.chat/user-guides/rooms/direct-messages/README.md
     user-guides/end-to-end-encryption: use-rocket.chat/user-guides/security-bundle/end-to-end-encryption-user-guide.md
-    
+    guides/administration/admin-panel/import: use-rocket.chat/workspace-administration/import/README.md
+    guides/administration/admin-panel/settings/general: use-rocket.chat/workspace-administration/settings/general/README.md
+    guides/administration/admin-panel/settings/saml/keycloak: setup-and-configure/advanced-workspace-management/authentication/open-id-connect/keycloak.md
+    guides/administration/misc.-admin-guides/authentication: setup-and-configure/advanced-workspace-management/authentication/README.md
+    guides/administration/settings/saml/active-directory-federation-services: use-rocket.chat/workspace-administration/settings/saml/active-directory-federation-services.md
+    guides/administrator-guides/file-upload/amazon-s3: use-rocket.chat/workspace-administration/settings/file-upload/README.md
+    guides/administrator-guides/integrations/jira: use-rocket.chat/workspace-administration/integrations/jira.md
+    guides/app-guides/omnichannel-apps/telegram-app: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/telegram-app/README.md
+    guides/message-auditing: use-rocket.chat/message-auditing/README.md
+    guides/omnichannel/omnichannel-overview: use-rocket.chat/omnichannel/README.md
+    guides/user-guides/rooms/channels: use-rocket.chat/user-guides/rooms/channels/README.md
+    guides/user-guides/rooms/channels/channel-actions/search-messages-in-a-channel: use-rocket.chat/user-guides/rooms/channels/search-messages-in-a-channel.md
+    guides/user-guides/rooms/teams/teams-channels: use-rocket.chat/user-guides/rooms/teams/manage-team-channels.md
+    installation/automation-tools/ansible: deploy/scaling-rocket.chat/automation-tools/ansible.md
+    installation/docker-containers/high-availability-install: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/high-availability-install.md
+    installation/manual-installation/rocketchatctl: deploy/prepare-for-your-deployment/rapid-deployment-methods/rocketchatctl.md
+    installation/rocket-chat-cloud: use-rocket.chat/rocket.chat-cloud/README.md
+    quick-start/deploying-rocket.chat/introduction-prerequisites: deploy/prepare-for-your-deployment/README.md
+    quick-start/deploying-rocket.chat/other-deployment-methods/plug-in-deployments/pidgin: deploy/prepare-for-your-deployment/README.md
+    quick-start/deploying-rocket.chat/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md
+    quick-start/environment-configuration/extras/pm2-systemd-upstart: deploy/rocket.chat-environment-configuration/README.md
+    quick-start/installing-and-updating/introduction-prerequisites: deploy/prepare-for-your-deployment/README.md
+    quick-start/installing-and-updating/other-deployment-methods/manual-installation/extras/mongodb-mmap-to-wiredtiger-migration: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md
+    quick-start/installing-and-updating/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/mongodb-mmap-to-wiredtiger-migration.md
+    rocket.chat-legal/terms: rocket.chat-legal/terms-of-service/README.md
+    admin/import/new/slack: use-rocket.chat/workspace-administration/settings/slackbridge.md
+    administrator-guides: use-rocket.chat/workspace-administration/README.md
     
     # Annual Contribution Programs
     contribute-to-rocket.chat/annual-contribution-programs/google-summer-of-code: contribute-to-rocket.chat/annual-contribution-programs.md
@@ -335,7 +377,6 @@ redirects:
     guides/mobile-guides/push-notifications-1: use-rocket.chat/rocket.chat-mobile/push-notifications/README.md
     guides/rocket.chat-call-center/call-center-admin-guides/how-to-associate-agents-with-extensions: use-rocket.chat/rocket.chat-voice-channel/README.md
     guides/rocket.chat-call-center/call-center-admin-guides/how-to-configure-voip-on-my-rocket.chat-instance: use-rocket.chat/rocket.chat-voice-channel/README.md
-    guides/user-guides/rooms/teams/teams-channels: use-rocket.chat/user-guides/rooms/teams/README.md
     installation.docker-containers: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/README.md
     installation/manual-installation: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/README.md
     installation/snaps/autossl: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md
