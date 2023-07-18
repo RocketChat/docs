@@ -24,3 +24,7 @@ To configure the **ClamAV** Integration app,
 * Update the required details:
   * **ClamAV Server Host**: The ClamAV Server Host, where your ClamAV server is hosted.
   * **ClamAV Server Port**: The port for your ClamAV server.
+
+{% hint style="info" %}
+When a user attempts to send malicious content to a room in the workspace, the content won't be uploaded. The user is notified that a virus has been detected in the file.
+{% endhint %}
