@@ -1,5 +1,7 @@
 # Outlook Calendar
 
+<figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (53).jpg" alt=""><figcaption></figcaption></figure>
+
 The **Outlook Calendar** integration allows users to sync their daily calendar events from Outlook to their Rocket.Chat workspace. It also provides quick action buttons to interact with the events, _**for example**_ —_**Joining a meeting.**_
 
 {% hint style="info" %}
