@@ -8,8 +8,6 @@ Setting up analytics allows you to see how users interact with your server and h
 
 To access analytics, navigate to **Administration > Workspace > Settings > Analytics.**
 
-You have access to various configurations that can be done.
-
 {% hint style="success" %}
 Remember always to hit **Save changes** to apply any changes made.
 {% endhint %}

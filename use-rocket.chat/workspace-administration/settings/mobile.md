@@ -6,9 +6,8 @@ description: Define behaviors for connecting to your workspace from mobile devic
 
 These settings are applied to the users using Mobile App on your workspace. This gives you the flexibility to define some behaviors when connecting to your workspace from a mobile device.
 
-To access this setting:
+To access this setting, navigate to **Administration** > **Workspace** > **Settings** > **Mobile**.
 
-* Navigate to **Administration** > **Workspace** > **Settings** > **Mobile**.
 * **Allow Save Media to Gallery**: When enabled, files shared in chats are saved on the user's device gallery.
 
 ## Screen Lock

@@ -4,48 +4,49 @@ description: Modify workspace member account settings.
 
 # Accounts
 
-To access this setting, navigate to
+To access this setting, navigate to **Administration** > **Workspace** > **Settings** > **Accounts.**
 
-**Administration** > **Workspace** > **Settings** > **Accounts.**
-
-These are the basic Account configuration settings. Most of the options are either `True` or `False` depending on whether you want the setting enabled or not.
+Below are the basic account configuration settings. Most of the options can be set to either "**True**" or "**False**"  to enable or disable the setting.
 
 * **Allow anonymous read**: If enabled, allows people to use the chat without having to create an account or log in. Anonymous users are only allowed to read messages on public channels.
 * **Allow anonymous write**: If enabled, allows Anonymous users to post messages on public channels.
-* **Allow users to delete own account**: Setting this to true allows users to delete their account. When a user is deleted, all their messages are deleted too.
-* **Allow User Profile Change**: Setting this to false blocks users from changing the information on their profile.
-* **Allow User Avatar Change**: Setting this to false blocks users from changing their avatar.
-* **Allow Name Change**: Setting this to false blocks users from changing their names.
-* **Allow Custom Status Message:** Setting this to true allows users to create the custom status message.
+* **Allow users to delete own account**: If enabled, users can delete thier account. When a user is deleted, all their messages are deleted too.
+* **Allow User Profile Change**: If disabled, blocks users from changing the information on their profile.
+* **Allow User Avatar Change**: If disabled, users are blocked from changing their avatar.
+* **Allow Name Change**:  If disabled, users are blocked from changing their names.
+* **Allow Custom Status Message:** Setting this to true allows users to create a custom status message.
 * **Allow Username Change**: Setting this to false blocks users from changing their usernames.
 * **Allow User Email Change**: Setting this to false blocks users from changing their email.
 * **Allow User Password Change**: Setting this to false blocks users from changing their password.
 * **Allow Password Change for OAuth Users:** Setting this to false blocks OAuth users from changing their password.
 * **Allow Email Notifications:** Setting this to true enables the users to receive email notifications.
-* **Custom Fields to Show in User Info**: Other fields to be displayed in the user info. Please see more in [Custom fields](custom-fields.md).
-* **Login Expiration in Days**: After this number of days of inactivity, the user is logged out.
-* **Show Default Login Form**: Setting this to false removes the login form from the login screen. This setting is useful when you are using a third-party login system.
+* **Custom Fields to Show in User Info**: Other fields to be displayed in the user info.&#x20;
+
+{% hint style="info" %}
+To learn more, see [custom-fields.md](../../../omnichannel/custom-fields.md "mention").
+{% endhint %}
+
+* **Login Expiration in Days**: The number of days after which a user is logged out if they are inactive.
+* **Show Default Login Form**: Setting this to false removes the login form from the login screen. It is useful when you are using a third-party login system.
 * **Placeholder for email or username login field**: This changes the placeholder for the _email or username_ field on the login screen.
 * **Placeholder for password login field**: This changes the placeholder for the _password_ field on the login screen.
 * **Confirm Placeholder for Password Login Field:** This confirms the placeholder for the password field on the login screen.
 * **Forget user session on window close**: This logs out users when they close the window running Rocket.Chat.
 * **Fields to Consider in Search**: Specifies the fields to be considered when searching for users. The default is _username, name, bio, and nickname._
-* **Default Directory Listing**: This sets the default directory to be listed.
-* **Allow Invisible Status Option:** Setting this option allows users to set the invisible status.
+* **Default Directory Listing**: This sets the default directory to be listed on your workspace.
+* **Allow Invisible Status Option:** Setting this to true allows users to set the invisible status.
 * **Reset section to default**: Click the button to reset all these basic configurations back to their default value.
-
-
 
 ## Two Factor Authentication
 
-* **Enable Two Factor Authentication**: Here you can enable or disable Two Factor Authentication for users, and set for how long a token is valid.
+* **Enable Two Factor Authentication**: Enable or disable Two Factor Authentication for users, and set for how long a token is valid.
 * **Maximum Delta**: Let you set the number of tokens that are valid at any given time.
-* **Enable Two-Factor Authentication via TOTP**: This lets you set whether or not users can set up two-factor authentication with authentication apps like Google Authenticator.
+* **Enable Two-Factor Authentication via TOTP**: Set whether or not users can set up two-factor authentication with authentication apps like Google Authenticator.
 * **Enable Two Factor Authentication via Email:** Sets whether users receive certain emails with a temporary code to authorize some actions.
-* **Auto opt in new users for Two Factor via Email**: When set to true users have the Two-Factor Authentication via Email enabled by default. This can be disabled on their profile page.
-* **Time to expire the code sent via email in seconds**: Receives in seconds how long the two-factor code sent to a user's email is valid.
+* **Auto opt in new users for Two Factor via Email**: When enabled, users have the Two-Factor Authentication via Email enabled by default. This can be disabled on their profile page.
+* **Time to expire the code sent via email in seconds:** Set the time (in seconds) for how long the two-factor code sent to a user's email is valid.
 * **Remember Two Factor for (seconds)**: This lets you set how long in seconds users won't be able to request an authorization code if it was already provided.
-* **Enforce password fallback**: Turning this on forces users to enter their passwords in order to perform some important tasks.
+* **Enforce password fallback**: Enabling this setting forces users to enter their passwords to perform some important tasks.
 
 ## Default User Preferences
 
@@ -53,21 +54,21 @@ These are the basic Account configuration settings. Most of the options are eith
 Default user preferences for notifications are universal for all the users in your workspace until a user changes it for themselves.
 {% endhint %}
 
-* **Enable Auto-Away**: When set to True, it automatically changes the User's status to **Away** they exit Rocket.Chat.
-* **Idle Time Limit**: Sets how long _in milliseconds_ for a User to go idle.
+* **Enable Auto-Away**: When set to true, it automatically changes the user's status to **Away** when they exit Rocket.Chat.
+* **Idle Time Limit**: Sets how long _in milliseconds_ for a user to go idle.
 * **Require Interaction to Dismiss Desktop Notification**: Enabling this sets the notification prompt active until the User interacts with it.
 * **Desktop Notifications Default Alert**: This lets you set when the desktop notification alert is triggered. The default is _All messages_. This only concerns the groups and channels the user belongs to.
 * **Push Notifications Default Alert**: Setting this to allow the users to set whether they want to receive push notifications or not. The default is _All messages._
 * **Mobile Notifications Default Alert**: Sets when the default notification alert plays on mobile devices.
 * **Unread Tray Icon Alert**: Disabling this stops the unread tray icon from displaying.
 * **Use Emojis**: Setting this to false disables the use of emojis.
-* **Convert ASCII to Emoji**: When this is true, ASCII characters are converted to emojis.
+* **Convert ASCII to Emoji**: ASCII characters are converted to emojis when this setting is enabeld.
 * **Auto Load Images**: Turning this off prevents images from auto-loading when a room/chat is opened.
 * **Save Mobile Bandwidth**: When enabled acts like a data saver.
 * **Collapse Embedded Media by Default**: Setting this to true causes embedded media cards to collapse.
 * **Hide Usernames**: When enabled, it'll hide usernames in conversation rooms.
 * **Hide Roles**: When set to true, user roles like _admin_, and _moderator_ are not be shown in chat rooms.
-* **Hide Right Sidebar with Click**: Enabling this gives the ability for the right sidebar to be hidden.
+* **Hide Contextual** B**ar with Click**: Enabling this gives the ability for the right sidebar to be hidden.
 * **Display Avatars**: Setting this to true displays the user's avatars in chat.
 * **Group by Type**: This lets you group conversations by type.
 * **Sidebar Channel List Mode**: This lets you choose from _Extended, Medium, and Condensed_ how the sidebar should be.
@@ -83,7 +84,7 @@ Default user preferences for notifications are universal for all the users in yo
 * **New Message Notification**: Lets you select the notification for new messages. The default options are None and Default.
 * **Mute-Focused Conversations**: When set to true, no notifications are sent for focused/open conversations.
 * **Notifications sound volume**: Lets you set the notification volume.
-* **Enable New Message Template**: Enable this setting to allow users to create a new message template.
+* **Send chat transcript via email**: Always send the transcript to contacts at the end of the conversations.
 
 ## Avatar
 
@@ -142,7 +143,22 @@ If the user has already logged into the third-party system, the `API URL` should
 
 **Enable Password Policy**: When this is set to true, new passwords must follow the corresponding configured policies.
 
-The various settings that fall under this have simple descriptions for understanding.
+**Minimum Length:** Ensures that passwords must have at least this amount of characters. Use `-1` to disable.
+
+**Maximum Length:** Ensures that passwords do not have more than this amount of characters. Use `-1` to disable.\
+
+
+**Forbid Repeating Characters:** Ensures passwords do not contain the same character repeating next to each other.
+
+**Max Repeating Characters:** Set the amount of times a character can be repeating before it is not allowed.
+
+**At Least One Lowercase:** Enforce that a password contain at least one lowercase character.
+
+**At Least One Uppercase:** Enforce that a password contain at least one uppercase character.
+
+**At Least One Number:** Enforce that a password contain at least one numerical character.
+
+**At Least One Symbol:** Enforce that a password contain at least one special character.
 
 ## Registration
 
@@ -152,7 +168,7 @@ The various settings that fall under this have simple descriptions for understan
 * **Require Name For Signup**: If this is set to true, the name of the user is required to create an account.
 * **Require Password Confirmation**: If this is set to true, the user has to input their password twice when registering.
 * **Only allow verified users to login:** Enable this option only to allow the verified users only to log in.
-* **Verify Email for External Accounts**: If this is set to true, users has to confirm their email via a confirmation email sent to their email. (For this setting to work, the SMTP settings must be already set up. See [Email Configuration](../email/email-configuration.md))
+* **Mark Email for External Accounts**: If this is set to true, users has to confirm their email via a confirmation email sent to their email. (For this setting to work, the SMTP settings must be already set up. See [Email Configuration](../email/email-configuration.md))
 * **Manually Approve New Users**: If this is set to true, new users have to wait for a user with the `view-user-administration` permission to approve their account before using Rocket.Chat.
 * **Allowed Domains List**: This blocks emails with different domains than the ones on the list.
 * **Blocked Domains List**: This blocks emails with domains that are on the list.

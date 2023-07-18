@@ -16,11 +16,12 @@ Navigate to **Administration** > **Workspace** > **Settings** > **Omnichannel**
 Remember to hit **Save Changes** in order to apply any changes made here.
 {% endhint %}
 
-* **Enable Omnichannel**: When set to true, it enables the Omnichannel feature on your Rocket.Chat instance.\
+* **Omnichannel enabled**: When set to true, it enables the Omnichannel feature on your Rocket.Chat instance.\
   Workspace administrators and omnichannel managers can now see the [Omnichannel ](../../../omnichannel/)section to manage, while Omnichannel [Agents ](../../../omnichannel/agents.md)have access to their respective Omnichannel features.
 * **Request comment when closing conversation**: If enabled, the agent will need to set a comment before the conversation is closed.
 * **Accept new omnichannel requests when the agent is idle**: Toggle true to let Omnichannel agents receive new chat requests when they are idle.
-* File Uploads Enabled: Enable this to allow file uploads on Omnichannel communication channels.
+* **Continuous sound notifications for new omnichannel room**: Set notification sound for a new omnichannel room.
+* **File Uploads Enabled**: Enable this to allow file uploads on Omnichannel communication channels.
 * **Ask visitors if they would like a transcript after chat closed**: When enabled, Omnichannel visitors will be asked if they need a transcript of their conversation after closing.
 * **Message to Show When Asking About Transcript**: This lets you set a message that will be shown to the visitor when asking if they need a transcript.
 
@@ -106,22 +107,6 @@ See more details about this below.
 
 {% content-ref url="../../../omnichannel/webhooks.md" %}
 [webhooks.md](../../../omnichannel/webhooks.md)
-{% endcontent-ref %}
-
-## Facebook
-
-Configure the integration between Rocket.Chat and Facebook and communicate directly with your Facebook users.
-
-{% hint style="info" %}
-You are required to request an `OmniChannel API Key` and an `OmniChannel API Secret` from Rocket.Chat support through [omni@rocket.chat](mailto:omni@rocket.chat). This can take a few days depending on demand.
-{% endhint %}
-
-* **Facebook integration enabled**: Set true to enable Facebook integration.
-* **OmniChannel API Key**: The OmniChannel API Key provided by support.
-* **OmniChannel API Secret**: The OmniChannel API Secret provided by support.
-
-{% content-ref url="../../../omnichannel/facebook-messenger-managers-guide.md" %}
-[facebook-messenger-managers-guide.md](../../../omnichannel/facebook-messenger-managers-guide.md)
 {% endcontent-ref %}
 
 ## GDPR

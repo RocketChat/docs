@@ -10,6 +10,7 @@ Logs are a very useful way to monitor workspace activities in detail, and they c
 
 To access this section, navigate to **Administration** > **Workspace** > **Settings** > **Logs**.
 
+* **Log Exceptions to Channel**: Set a channel to receive all captured exceptions. Leave empty to ignore exceptions.
 * **Log Level**: A dropdown to select the level of logs to receive
 * **Log View Limit**: The limit of logs to view
 * **Trace method calls**: When enabled, it gives the ability to trace every method call

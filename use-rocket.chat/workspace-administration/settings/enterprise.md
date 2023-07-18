@@ -4,12 +4,12 @@ description: Manually update your Enterprise license
 
 # Enterprise
 
-Use this setting to update your enterprise license manually. See this section on how to get an [Enterprise Trial](../../../setup-and-configure/enterprise-edition-trial/).
+Use this setting to update your enterprise license manually. See [enterprise-edition-trial](../../../setup-and-configure/enterprise-edition-trial/ "mention")to get a trial period.
 
 {% hint style="info" %}
 If your workspace is registered and the license is provided by Rocket.Chat Cloud, you don't need to update the license here manually.
 
-Follow the guide specified in this section [#self-managed-registered-workspace](../../../setup-and-configure/license-application.md#self-managed-registered-workspace "mention").
+Follow the [#self-managed-registered-workspace](../../../setup-and-configure/license-application.md#self-managed-registered-workspace "mention") guide.
 {% endhint %}
 
 To access this menu, go to **Administration** > **Workspace** > **Settings** > **Enterprise**.
@@ -18,8 +18,6 @@ To access this menu, go to **Administration** > **Workspace** > **Settings** > *
 * **Status**: This shows the current status of your applied license, whether it is valid or invalid.
 
 When all your changes are done, hit the **Save changes** button to commit it.
-
-Read more about the Enterprise License application here:
 
 {% content-ref url="../../../setup-and-configure/license-application.md" %}
 [license-application.md](../../../setup-and-configure/license-application.md)
