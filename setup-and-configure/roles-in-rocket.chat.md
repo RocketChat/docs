@@ -71,3 +71,7 @@ A user with the `developer` role can read everything and update Apps.
 #### Publisher: Viewer
 
 The `viewer` role can read everything but can.t update anything.
+
+{% hint style="info" %}
+See [#scope-of-roles](../use-rocket.chat/workspace-administration/permissions/#scope-of-roles "mention") to learn more about the role scopes in Rocket.Chat.
+{% endhint %}

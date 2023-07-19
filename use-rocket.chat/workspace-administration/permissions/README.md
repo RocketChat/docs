@@ -12,21 +12,27 @@ Permission changes are immediate and transparent. There is no need for users to 
 
 ## Roles
 
-A `Role` is a set of permissions that are given to users. Rocket.Chat comes with a set of default roles that can be modified.
+A role refers to a set of permissions and privileges assigned to a user or a group of users within the workspace. They determine what actions and features a user can access and control within the Rocket.Chat environment. They are shown as little tags on the side of a username on messages. Rocket.Chat comes with a set of default roles that can be modified.&#x20;
 
 {% hint style="info" %}
-Roles are shown as little tags on the side of a username on messages.
+See [roles-in-rocket.chat.md](../../../setup-and-configure/roles-in-rocket.chat.md "mention") to learn more about roles.
 {% endhint %}
 
 ### Scope of Roles
 
-Roles can have different scopes. Currently, we have two scopes `Global` and `Rooms`.
+Rocket.Chat provides a comprehensive role-based permission system, which includes two distinct scopes: the Global Scope and the Room Scope. These scopes serve different purposes and offer various permissions that users can assign.
 
-**Global scope**: A role with the `Global` scope is valid for the whole server.
+#### Global Scope
 
-**Room scope**: A role with the `Room` scope gets applied to [rooms](../rooms.md), where a user has to be elected to that role in that channel.
+A Global Scope Role applies to the entire workspace; _for example —`admin`_. They can be assigned permissions relevant at the server level and not specific to individual [rooms](../rooms.md) or [channels](../../user-guides/rooms/channels/). For example, **Create a Team** is a permission that is applicable server-wide, enabling users to create teams regardless of the room or channel they are currently in.
 
-An example of `Global` scope role is the `admin` role having permissions valid for the whole server, while a `moderator` role is a `Room` scope role which has permissions valid only in a [channel](../../user-guides/rooms/channels/) they were elected for.
+#### Room Scope
+
+Room scope roles are designed to provide users with specific permissions within individual [rooms](../rooms.md), _for example - `Moderator`_. Room scope permissions are helpful when managing room-specific activities and interactions. For example, you can assign the **Edit Room** permission to a **Moderator** role. However, a user must be set as a moderator in a room before they can edit that room information.
+
+{% hint style="info" %}
+While you can globally assign some room roles to a user when creating or editing the user, it would only make meaning once the role is assigned to that user in the specific room.
+{% endhint %}
 
 ### Creating Custom Roles
 
