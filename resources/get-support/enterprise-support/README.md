@@ -29,6 +29,10 @@ This ensures we can provide quick fixes and a more efficient way to reproduce pr
 
 ## Rocket.Chat versions
 
+{% hint style="warning" %}
+We are deprecating cloud services, mobile and desktop applications for legacy server versions with the introduction of the new policy, which will take effect on **October 1, 2023**. For all the Community and Enterprise workspaces to continue using our mobile and desktop applications and access cloud services after October 1st, they must stay within the supported window.
+{% endhint %}
+
 Rocket.Chat provides support for, at least, 3 months for each release. Rocket.Chat provides support for 6 months to the latest releases of each major version, e.g. 1.3 is the latest release of major version 1.x before major version 2.0. Rocket.Chat may provide a longer period of support depending on the necessity, check the table below to verify the final support date of each release version.
 
 By support, we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the below-mentioned versions. Bugs not related to security issues will be fixed only in new versions.
@@ -55,9 +59,19 @@ Rocket.Chat manages upgrades and provides support to Rocket.Chat Cloud users reg
 
 Rocket.Chat Services include services such as our push gateway, the marketplace, and other services managed by Rocket.Chat.
 
-October 1st our services will no longer continue to guarantee support for Rocket.Chat 0.x. After this date, you may receive errors or warnings about incompatibility.
-
 3 months after a new major release, e.g. 2.x, the last major release, e.g. 1.x, will have the Services support deprecated and you may receive warnings about the deprecation. 5 months after the deprecation the support will be removed and you may receive errors and warnings about incompatibility.
+
+{% hint style="info" %}
+October 1, 2023 will be the sunset date for allowing connections between our cloud services, official mobile and desktop apps and workspaces running legacy versions of Rocket.Chat that are outside of our Long Time Support (LTS) window.
+{% endhint %}
+
+#### **What should you do before the end of the deprecation period?**
+
+Before the end of the deprecation period, we strongly recommend all the workspaces on Community and Enterprise editions to upgrade to a supported version (version 6.0.0 or higher) for continued access to cloud services, mobile and desktop apps. If you do not wish to upgrade, Rocket.Chat provides workspace owners with a variety of options for managing their workspaces in the manner of your choosing. If you choose to remain on a version of Rocket.Chat that is outside of our LTS, you must implement the following alternatives to our cloud services and published apps:&#x20;
+
+* **Mobile and desktop apps:** You must compile each app from our open-source code and publish your own builds to relevant app stores.&#x20;
+* **Push notifications:** You will need to deploy your own push notification server.&#x20;
+* **Apps:** You will be required to develop and sideload your own applications instead of installing them through our Marketplace.
 
 #### Cloud Service Support
 
