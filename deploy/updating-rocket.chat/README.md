@@ -18,7 +18,7 @@ Workspace admins should monitor new releases and our release notes [here ](https
 
 ## Updating Rocket.Chat on Docker
 
-Provided your workspace was deployed using [Docker and Docker Compose](../prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/), you can update the `rocketchat` [docker image](../prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/available-images.md) and the version of your Rocket.Chat server to the latest or any version following any of these guides.
+Provided your workspace was deployed using [Docker and Docker Compose](../prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/), you can update the `rocketchat` [docker image](../prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/available-images.md) and the version of your Rocket.Chat server to the latest or any version following any of these guides.
 
 {% hint style="success" %}
 Updating the Rocket.Chat image doesn't affect your data, since it exists in the mongo image.

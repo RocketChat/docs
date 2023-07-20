@@ -42,7 +42,7 @@ cp env.example .env
 ```
 
 * Set the `RELEASE` variable in the `.env`to your desired Rocket.Chat version. See [releases here](https://github.com/RocketChat/Rocket.Chat/releases).\
-  Keeping the default `latest` is **not recommended** (More at [Docker Images Available](docker-containers/available-images.md) )
+  Keeping the default `latest` is **not recommended** (More at [Docker Images Available](available-images.md) )
 * Edit `ROOT_URL` from the default `http://localhost:3000` to match your domain name or IP address as you wish
 *   If you have a registration token to register the workspace automatically you can provide it with:
 
