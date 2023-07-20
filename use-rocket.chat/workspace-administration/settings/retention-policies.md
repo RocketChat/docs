@@ -21,10 +21,12 @@ To enable channel owners to set their policies, assign `edit-room-retention-poli
 
 Retention policies have two levels, global policies (enforced everywhere) and per-channel policies (implemented in specific channels).
 
-To enable retention policies,
+To enable retention policies, navigate to **Administration > Workspace > Settings > Retention Policy**
 
-* Navigate to **Administration > Workspace > Settings > Retention Policy**
 * Toggle on **Enabled.**
+* **Timer Precision**: It establishes how often the deletion script should run. When your policies have a long lifetime or do not care about the policy's precision, you can lower this to save processing power.
+* **Use Advanced Retention Policy configuration**: If enabled, it uses an advanced retention policy configuration.
+* **Use Advanced Retention Policy Cron**: How often the prune timer should run defined by cron job expression. Setting this to a more precise value makes channels with fast retention timers work better, but might cost extra processing power on large communities
 
 ### Global policies
 
@@ -32,9 +34,7 @@ To enable retention policies,
 Tweaking these settings without extreme caution can **destroy** **all message history across your server**. Please read this entire section **before** you enable this feature.
 {% endhint %}
 
-To update the **Global Policies** settings,
-
-* Navigate to **Administration > Workspace > Settings > Retention Policy > Global Policies**
+To update the **Global Policies** settings, navigate to **Administration > Workspace > Settings > Retention Policy > Global Policies.**
 
 The policy is split into three parts: one for all channels, one for all private groups, and one for all direct messages. Each type has two options:
 
@@ -43,9 +43,8 @@ The policy is split into three parts: one for all channels, one for all private 
 
 Furthermore, other options allow you to specify how the policy works:
 
-* **Exclude pinned messages**: If enabled, pinned messages are not deleted. For example, when you pin a few messages with essential links, these messages stay intact.
+* **Do not prune pinned messages**: If enabled, pinned messages are not deleted. For example, when you pin a few messages with essential links, these messages stay intact.
 * **Only delete files**: If enabled, messages are not deleted, but files are. They are replaced by a simple _File removed by automatic prune_ message. When used together with **Exclude pinned messages**, only unpinned files are deleted.
-* **Timer Precision**: It establishes how often the deletion script should run. When your policies have a long lifetime or do not care about the policy's precision, you can lower this to save processing power.
 * **Do not prune discussion messages:** If enabled, discussion messages are not deleted. All the discussions in your workspace remain intact.
 
 {% hint style="danger" %}

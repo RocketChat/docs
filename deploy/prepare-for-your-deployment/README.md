@@ -26,8 +26,8 @@ We strongly recommend using our official Docker images to eliminate environmenta
 Rocket.Chat's cloud uses our official Docker images, which makes this installation method the most tested.
 {% endhint %}
 
-{% content-ref url="rapid-deployment-methods/docker-and-docker-compose/docker-containers/" %}
-[docker-containers](rapid-deployment-methods/docker-and-docker-compose/docker-containers/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 #### Why Docker?

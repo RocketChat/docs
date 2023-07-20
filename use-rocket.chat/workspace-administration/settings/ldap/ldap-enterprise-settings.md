@@ -1,5 +1,9 @@
 # LDAP Enterprise Settings
 
+
+
+<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (3).jpg" alt=""><figcaption></figcaption></figure>
+
 ## Advanced Sync
 
 * **Sync User Active State**: Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status. The '`pwdAccountLockedTime`' attribute will be used to determine if the user is disabled. This setting is not yet compatible with all LDAP Servers, so if you don't use the '`pwdAccountLockedTime`' attribute, you may want to disable it completely.

@@ -29,6 +29,9 @@ Remember always to hit **Save Changes** to apply any changes made.
   * **Group mentions only**: Only group mentions using `@all` or `@here` are counted on the counter.
   * **User and group mentions only**: All mentions are counted, this includes `@all`, `@here` and `@yourUsername`
 * **Unread Count for Direct Messages**: This setting changes the behavior of the unread counter on Direct Messages
+  * **All messages**: All messages sent by a customer are counted on the counter.
+  * **Mentions only**: Only mentions using `@yourUsername` are counted on the counter.
+* **Unread Count for Omnichannel Chats**: This setting changes the behavior of the unread counter on Direct Messages
   * **All messages**: All messages sent by another user are counted on the counter.
   * **Mentions only**: Only mentions using `@yourUsername` are counted on the counter.
 * **DeepLink\_Url**: Lets you set the DeepLink URL
@@ -90,7 +93,6 @@ Setting this to false makes your workspace only accept requests from the same do
 
 ## Notifications
 
-* **Always notify mobile**: Choose always to notify mobile devices regardless of presence status.
 * **Max Room Members Before Disabling All Message Notifications**: Max number of members in the room when notifications for all messages get disabled. Users can still change per room setting to receive all notifications on an individual basis. (0 to disable)
 
 ## Iframe Integration
@@ -110,11 +112,13 @@ To be able to use the microphone, camera, and geolocation in an iframe, be sure 
 
 ## NPS
 
-See this section for NPS
-
 {% content-ref url="net-promoter-score-nps-survey.md" %}
 [net-promoter-score-nps-survey.md](net-promoter-score-nps-survey.md)
 {% endcontent-ref %}
+
+## Reporting
+
+* **Send Statistics to Rocket.Chat:** By sending your statistics, you'll help us identify how many instances of Rocket.Chat are deployed, as well as how good the system is behaving, so we can further improve it. Don't worry, as no user information is sent and all the information we receive is kept confidential.
 
 ## Stream Cast
 

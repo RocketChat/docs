@@ -10,6 +10,10 @@ To enable **Apple OAuth** on your workspace,
 
 * Navigate to **OAuth** settings (**Administration > Workspace > Settings> OAuth)** in your workspace.
 * In the **Apple** tab, toggle on **Sign In with Apple.**
+* **Accounts\_OAuth\_Apple\_id**: Your Apple id
+* **Accounts\_OAuth\_Apple\_secretKey**: Your Apple secretKey
+* **Accounts\_OAuth\_Apple\_iss**: Your Apple iss
+* **Accounts\_OAuth\_Apple\_kid**: Your Apple kid
 
 {% hint style="info" %}
 If you want Apple login enabled only on mobile, you can leave all other fields empty.

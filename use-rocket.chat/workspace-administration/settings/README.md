@@ -44,8 +44,6 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**LDAP**](ldap/): Learn how to configure Lightweight Access Directory Protocol so that no one can access or cannot access information about your server or business.
 
-[**Livestream & Broadcasting (Youtube)**](broken-reference): Enable channel administrators to broadcast to Youtube Live.
-
 [**Logs**](logs.md): Learn to configure how server logs are received, the log level, and other essential log settings.
 
 [**Message**](message.md): Message settings such as message pinning, starring, deleting, and others can be found under the Message option.

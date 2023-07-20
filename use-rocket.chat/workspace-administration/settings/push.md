@@ -12,9 +12,8 @@ By default, community workspaces come with 10,000 free monthly push notification
 To be able to use push notifications, you are required to accept the **Cloud Service Privacy Terms Agreement** in the **Administration** > **Workspace** > **Settings** > **Setup Wizard** > **Cloud Info** settings.
 {% endhint %}
 
-To enable push notifications:
+To enable push notifications, go to **Administration > Workspace > Settings > Push.**
 
-* Go to **Administration > Workspace > Settings > Push**
 * **Enable**: Turn on to enable push notifications on your Rocket.Chat instance
 * **Enable Gateway**: Setting this to true allows you to use a custom push notification gateway
 
@@ -46,16 +45,10 @@ In Privacy, you can configure what information you want your push notification t
 For [Enterprise workspaces](enterprise.md), failure in fetching a message using the `message id` provided in the push data results in a "You have a new message" being sent.
 {% endhint %}
 
-With the push configuration completed, follow this guide to set the default user preferences for notifications [#default-user-preferences](account-settings/#default-user-preferences "mention").&#x20;
-
-Manage channel-based notifications using the&#x20;
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+With the push configuration completed, follow the  [#default-user-preferences](account-settings/#default-user-preferences "mention") guide to set the default user preferences for notinotificationsfication. Manage channel-based notifications using the [#channel-notifications](../../user-guides/rooms/channels/edit-a-channel.md#channel-notifications "mention") guide.
 
 {% hint style="info" %}
-On some channels, notifications can stop if the number of users exceeds the set limit. The limit is set in the **Administration** > **General** > **Notifications**. [#notifications](general/#notifications "mention")
+On some channels, notifications can stop if the number of users exceeds the set limit. You can set the limit in **Administration** > **General** > **Notifications**. See[#notifications](general/#notifications "mention") for more information.
 {% endhint %}
 
 ## Connect to cloud
