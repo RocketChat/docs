@@ -81,7 +81,7 @@ To change your offline license,
   * **Total Messages in Omnichannel**: The total number of messages in omnichannel.
 
 {% hint style="info" %}
-Click the **See on Engagement Dashboard** button to view more usage statistics on the [engagement-dashboard.md](engagement-dashboard.md "mention").
+Click the **See on Engagement Dashboard** button to view more usage statistics on the [engagement-dashboard.md](engagement-dashboard.md "mention"). This button is disabled for community edition workspaces.
 {% endhint %}
 
 ## Federation Info

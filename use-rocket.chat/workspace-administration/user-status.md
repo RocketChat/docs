@@ -28,7 +28,7 @@ To enable the Presence service,
 * Toggle the **Service status** to on.
 
 {% hint style="warning" %}
-For community edition workspaces, the Presence service is automatically disabled when the number of concurrent connections reaches 200.
+Community edition workspaces have a maximum limit of 200 concurrent connections. While you can have more connections active, users' statuses will no longer be visible, and the presence service gets disabled once you reach this cap. However, this limitation does not impact their capacity to send and receive messages.
 {% endhint %}
 
 {% hint style="info" %}
