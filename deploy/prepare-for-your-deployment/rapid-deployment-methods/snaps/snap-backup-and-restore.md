@@ -1,6 +1,6 @@
 # Snap Backup and Restore
 
-This guide shows how you can perform backup and restore of your data.
+Snap Backup and Restore is a handy tool that allows you to create backups of your Rocket.Chat instance and restore them as needed.
 
 ## Backup Rocket.Chat Snap Data
 
@@ -8,7 +8,7 @@ This guide shows how you can perform backup and restore of your data.
 You can enable automatic backup on each snap refresh by executing `sudo snap set rocketchat-server backup-on-refresh=enable`
 {% endhint %}
 
-To backup the data on your snap installation, follow these steps
+To backup the data on your snap installation,&#x20;
 
 * Stop your rocketchat-server by running
 
@@ -17,7 +17,7 @@ sudo service snap.rocketchat-server.rocketchat-server stop
 ```
 
 {% hint style="info" %}
-Note that while the `rocketchat-server service` should be stopped, the `rocketchat-mongo service` should be kept running!
+While the `rocketchat-server service` should be stopped, the `rocketchat-mongo service` should be kept running!
 {% endhint %}
 
 ```
@@ -31,7 +31,7 @@ sudo service snap.rocketchat-server.rocketchat-mongo status | grep Active
 sudo snap run rocketchat-server.backupdb
 ```
 
-* If all goes well, you get an output like below
+* A successful backup will return this:
 
 ```
 [+] A backup of your data can be found at /var/snap/rocketchat-server/common/backup/rocketchat_backup_<timestamp>.tar.gz
@@ -43,11 +43,11 @@ sudo snap run rocketchat-server.backupdb
 sudo service snap.rocketchat-server.rocketchat-server start
 ```
 
-Copy your backup to a different system for safekeeping.
+* Copy your backup to a different system for safekeeping.
 
 ## Restore Rocket.Chat Snap Data
 
-Follow these steps to restore your previously backed up data.
+To restore your backed up snap data,
 
 * Stop your rocketchat-server by running
 
@@ -56,7 +56,7 @@ sudo service snap.rocketchat-server.rocketchat-server stop
 ```
 
 {% hint style="info" %}
-Note that while the `rocketchat-server service` should be stopped, the `rocketchat-mongo service` should be kept running!
+While the `rocketchat-server service` should be stopped, the `rocketchat-mongo service` should be kept running!
 {% endhint %}
 
 ```
@@ -82,15 +82,13 @@ If you are replacing an existing database, you get a warning message
 **ATTENTION**
 
 * Your current database WILL BE DROPPED prior to the restore!
-* Would you like to make a backup of the current database before proceeding?
-* (y/n/Q)>
+* Do you want to restore?
+  * 1\) Yes
+  * 2\) No
 {% endhint %}
 
-* Choose the option you want
-  * Press `y` and `Enter` to make a backup of the database in its current state.
-  * Press `n` and `Enter` to continue _without a backup_ of the database in its current state.
-  * Press any key and/or `Enter` to quit the restore process without making any changes.
-* If you choose to proceed and all goes well, you will see an output similar to:
+* Choose your restore option.
+* If it is successfully done, you will see an output similar to:
 
 ```
 [*] Extracting backup file...

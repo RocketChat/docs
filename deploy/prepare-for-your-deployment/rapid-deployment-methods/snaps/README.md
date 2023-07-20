@@ -4,35 +4,49 @@
 **Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
 {% endhint %}
 
+## Prerequisites
+
+* A Linux-based system (Ubuntu, Debian, Fedora, etc.)
+* AVX/AVX2 supported CPU to run _Mongo 5.0_ for Rocket.Chat workspaces on version 6.0 & above.
+
 ## Installation
 
-Snap is pre-installed in most modern distributions. If it is not, please read snap's [official documentation](https://snapcraft.io/docs/installing-snapd) on how to install snap.
+Snap is pre-installed in most modern Linux distributions. Snap is secure and also auto-updates when we release a new version.
 
-Installing Rocket.Chat with snap on Ubuntu is as easy as executing:
+{% hint style="info" %}
+See the [official documentation](https://snapcraft.io/docs/installing-snapd) on how to install snap if it's not pre-installed.
+{% endhint %}
+
+* To install Rocket.Chat with snap on Ubuntu, run the following command:
 
 ```
 sudo snap install rocketchat-server
 ```
 
-Then browse to `http://localhost:3000` and setup Rocket.Chat.
+{% hint style="info" %}
+This command installs the latest available version on Rocket.Chat. You can also specify the installation by track.
+{% endhint %}
 
-The above command should install the latest version available. You can also specify install by track.
+* Go to `http://localhost:3000` and complete the [setup wizard](../../../../setup-and-configure/accessing-your-workspace/).
 
-Snaps are secure. Rocket.Chat and all of its dependencies are isolated from the rest of your system. Snaps also auto-update when we release a new version. So no need for more hassle updating.
+### Moving Between Major Releases
 
-To move between different major releases, from 2.x to 3.x or from 3.x to 4.x, take a look at [snap tracks](https://forums.rocket.chat/t/introducing-snap-tracks/5890).
+\
+You can leverage Snap tracks to transit between different major releases (e.g., from 2.x to 3.x or from 3.x to 4.x). Snap tracks allow you to stay on a specific release while receiving updates only for that track. For example:
+
+{% hint style="info" %}
+sudo snap switch rocketchat-server --channel=4.x/stable
+{% endhint %}
 
 ## Configuration
 
-**To configure snap variables for your Rocket.Chat server:**
-
-To see the list of snap variables to configure for your Rocket.Chat server, run:
+* To see the list of snap variables to configure for your Rocket.Chat server, run:
 
 ```shell
 snap get rocketchat-server
 ```
 
-A list of variables is displayed
+A list of variables is displayed as follows:
 
 ```
 Key                Value
@@ -44,7 +58,7 @@ port               3000
 siteurl            http://localhost:3000
 ```
 
-Setting one is done by simply executing
+* To set any of the variables, run this command:
 
 ```bash
 sudo snap set rocketchat-server <variable-name>=<value>
