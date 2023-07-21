@@ -26,6 +26,7 @@ Remember always to hit **Save Changes** to apply any changes made.
 * **Protect Uploaded Files**
   * **Yes**: Only authenticated users can have access to the uploaded files.
   * **No**: If in possession of the uploaded file's URL, unauthenticated users can access and download said files.
+* **Restrict files to rooms' members**: Restrict the access of files uploaded on rooms to the rooms' members only.
 * **Rotate images on upload**: Turn on to enable image rotation. This affects the image quality.
   * **Enable JSON Web Tokens protection to file uploads**: Turn on to enable JWT protection on file uploads.
 * **File Upload Json Web Token Secret**: Set the JWT secret to be used.
