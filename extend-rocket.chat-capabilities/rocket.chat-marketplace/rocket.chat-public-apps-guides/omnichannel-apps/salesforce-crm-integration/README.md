@@ -4,6 +4,47 @@ description: Integration between Rocket.Chat and Salesforce CRM platform.
 
 # Salesforce CRM Integration
 
+## Configure Salesforce CRM&#x20;
+
+* Create a private key and public key certificate with these commands:&#x20;
+
+{% hint style="info" %}
+Linux has OpenSSL by default to run these commands. However, you can choose your preferred method.
+{% endhint %}
+
+```
+openssl genrsa -out privatekey.pem 1024
+
+openssl req -new -x509 -key privatekey.pem -out publickey.cer -days 3650
+```
+
+&#x20;To view the keys you just created, run this command:
+
+```
+ls -lrt
+```
+
+* Retrieve and copy the private key using this command:
+
+```
+openssl rsa -in privatekey.pem -check
+```
+
+* Create a new connected app on Salesforce.
+  * Fill in the name, email, and other required information.
+  * Check the **Enable OAuth Settings** option.
+  * Add your callback URL.
+  * Check the **Use Digital signatures** option and upload the public key certificate _(publickey.cer)_ you created earlier.
+  * For the **Selected OAuth scopes**, add the _**api refresh\_token offline\_access**_ option.&#x20;
+  * Click **Save**.
+* Click **Manage Consumer Key** and copy the **Consumer Key**.
+* Navigate to **Manage Apps > Connected Apps** and click the **Edit** action against the app you created earlier.
+  * Select **Admin approved users are pre-authorized** for **Permitted Users**.
+  * Click **Save**.
+* Navigate to **Manage Users > Users** and click the profile of your user.
+  * Click **Edit.** Scroll to **Connected App Access** and checkbox the app you created.
+  * Click **Save**.
+
 ## Install Salesforce CRM Integration App
 
 To install the Salesforce CRM Integration App,
@@ -24,7 +65,9 @@ To configure the Salesforce CRM Integration App,
 * Update the required fields:
   * **Consumer Key:** The consumer key from your Salesforce instance.
   * **Private Key:** The private key from your Salesforce instance.
-  * **Salesforce Username**: The salesforce username, it's useful for identification.
+  * **Salesforce Username**: Your salesforce username, it's useful for identification.
+  * **Authentication URL**: Authentication URL for Salesforce Api. In the case of production, this should be [https://login.salesforce.com/services/oauth2/token](https://login.salesforce.com/services/oauth2/token) .&#x20;
+  * **Audience for JWT**: In case of production, this should be [https://login.salesforce.com](https://login.salesforce.com/)
   * **Display Contact information when assigning the agent to the chat**: If enabled, Salesforce contact information will be displayed to agents when assigned to chats.
   * **Auto-Save/Update Contacts when a Chat Ends**: If enabled, the app will auto-save/update the customers' info on Salesforce once an agent closes the chat.
   * **Metadata Refresh Interval(in Minutes)**: The duration within which the app will automatically refresh its cache. For a better user experience, the app will cache some meta-data information from Salesforce.
