@@ -92,7 +92,7 @@ docker compose rm rocketchat
 docker compose up -d rocketchat
 ```
 
-See [available-images.md](../prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/available-images.md "mention") for more on rocketchat docker images.
+See [available-images.md](../prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/available-images.md "mention") for more on rocketchat docker images.
 
 ## Updating Rocket.Chat Snap
 
@@ -131,7 +131,3 @@ sudo snap refresh rocketchat-server --channel=x.x/stable
 where the first x is the major version, keep the second x as is, e.g. for major version 6, it's 6.x/stable, for major 5, it's 5.x/stable. Each 6.x/stable channel, for example, will receive all minor and patch release updates for that major version.
 
 {% embed url="https://docs.rocket.chat/getting-support#mongodb-versions" %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}

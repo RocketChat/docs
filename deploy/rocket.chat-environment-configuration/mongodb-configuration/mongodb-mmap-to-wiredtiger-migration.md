@@ -6,8 +6,6 @@ description: Migrate your existing mmap based MongoDB instance into a wiredTiger
 
 Starting with the major release 4.X.Y of Rocket.Chat, MongoDB has to be setup with a _WiredTiger_ storage engine rather than the deprecated _mmapv1_ one. This is mandatory, if you plan to upgrade to one of the future Rocket.Chat versions and has to be prepared before initiating the application upgrade.
 
-If you are using a Docker setup, [click here to find an alternative article](broken-reference) in our docs about migration.
-
 ## Requirements
 
 * MongoDB instance with _mmap_ storage engine
