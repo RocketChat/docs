@@ -409,3 +409,5 @@ redirects:
     user-guides/channel-actions: use-rocket.chat/workspace-administration/rooms.md
     guides/administrator-guides/integrations: use-rocket.chat/workspace-administration/integrations/README.md
     use-rocket.chat/rocket.chat-workspace-administration/users?_hsmi=238490370&_hsenc=p2ANqtz-_Ae489Ux0n8L_Ot-RpfZUn2u7SDXdjOa67ARQAD6EtkLhoEn5Qr4dZhWmXGhKuET0UKG3ufgu_sAbEYBj-FdwKzGiiMA: use-rocket.chat/workspace-administration/README.md
+
+    deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
