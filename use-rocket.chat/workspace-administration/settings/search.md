@@ -12,6 +12,8 @@ To access this setting, navigate to **Administration** > **Workspace** > **Setti
 
 ## Chatpal Provider <a href="#buyfmnjsg2h" id="buyfmnjsg2h"></a>
 
+<figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (3).jpg" alt=""><figcaption></figcaption></figure>
+
 * **Backend Type**: Lets you choose the backend type for your Chatpal provider. Select if you want to use Chatpal as a Service or as On-Site Installation.
 * **API Key**: Your Chatpal API key. Find some descriptions on how to run a local instance [on GitHub](https://github.com/chatpal/chatpal-search-standalone).&#x20;
 * **Base\_URL:** Your Chatpal base URL. The URL must be absolute and point to the Chatpal core, e.g. `http://localhost:8983/solr/chatpal`

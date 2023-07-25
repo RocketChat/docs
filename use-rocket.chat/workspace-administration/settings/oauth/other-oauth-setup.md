@@ -78,3 +78,8 @@ To use Okta OAuth, you need to go to the OAuth section of your Rocket.Chat setti
 * Go to your [Okta developers panel](https://developer.okta.com) and create a new Sign in OAuth app for a web application.&#x20;
 * Fill in all the required information and save.
 * Your new app is created with all the credentials needed for configuration.
+
+## Proxy
+
+* **Proxy Host**: The OAuth proxy host.
+* **Proxy service:** The OAuth proxy service.

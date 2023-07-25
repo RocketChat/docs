@@ -17,6 +17,10 @@ The LDAP features supported by community and enterprise editions are detailed in
 
 These actions are found at the top of the LDAP settings screen.
 
+{% hint style="info" %}
+All these actions, except "**LDAP Documentation"** are exclusive to enterprise edition workspaces.&#x20;
+{% endhint %}
+
 * **Test Connection**: This will use your provided values and test for a connection. It will test the authentication and encryption but not the syncing settings.
 * **Test LDAP Search**: Searches and notify if a user is found as configured in the user search page.
 * **Sync Now**: Syncs your LDAP data based on the Data Sync configurations.

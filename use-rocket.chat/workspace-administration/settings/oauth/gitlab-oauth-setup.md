@@ -1,5 +1,13 @@
 # GitLab OAuth Setup
 
+
+
+
+
+
+
+
+
 Google OAuth requires you to fill in the Application **ID** and **Secret of** your GitLab OAuth app.
 
 To enable **GitLab OAuth** on your workspace,
@@ -9,5 +17,5 @@ To enable **GitLab OAuth** on your workspace,
 * After the application is created successfully, the OAuth credentials are displayed.
 * Copy the **Application ID** and **Secret.**
 * Navigate to **OAuth** settings (**Administration > Workspace > Settings> OAuth)** in your workspace.
-* In the GitLab tab, fill in the **OAuth credentials** you copied earlier and toggle on **OAuth Enabled**.
+* In the GitLab tab, fill in the **OAuth credentials** you copied earlier and toggle on **OAuth Enabled**. Toggle on **Merge Users** based your preference.
 * Click **Save Changes**. A **Sign in with GitLab** button appears on your workspace's login page. Users can now **sign in with GitLab** by clicking that button.

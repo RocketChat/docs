@@ -24,23 +24,19 @@ Remember to hit **Save Changes** in order to apply any changes made here.
 * **File Uploads Enabled**: Enable this to allow file uploads on Omnichannel communication channels.
 * **Ask visitors if they would like a transcript after chat closed**: When enabled, Omnichannel visitors will be asked if they need a transcript of their conversation after closing.
 * **Message to Show When Asking About Transcript**: This lets you set a message that will be shown to the visitor when asking if they need a transcript.
+* **Enable department removal**: Once departments are removed, there is no option to restore them. We highly recommend archiving the department instead.
 
 ## Canned Responses <a href="#a4x6dcwkpxm" id="a4x6dcwkpxm"></a>
 
-{% hint style="info" %}
-Canned Responses is an [Enterprise](../../../../setup-and-configure/enterprise-edition-trial/) feature. ![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (41).jpg>)
-{% endhint %}
+<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (3).jpg" alt=""><figcaption></figcaption></figure>
 
-Under this section, you can enable or disable the use of Canned Responses.\
-Canned Response allows for OmnichannelAgents to use predefined message replies.
+Canned Response allows for OmnichannelAgents to use predefined message replies. You can enable or disable the use of canned responses in your workspace.
 
 * **Enable Canned Responses**: Turn on to enable the use of Canned Replies.
 
-Learn more about Canned Responses below:
-
-{% content-ref url="../../../omnichannel/canned-responses/" %}
-[canned-responses](../../../omnichannel/canned-responses/)
-{% endcontent-ref %}
+{% hint style="info" %}
+To learn more about canned responses, see [canned-responses-omnichannel-managers-guide.md](../../../omnichannel/canned-responses/canned-responses-omnichannel-managers-guide.md "mention").
+{% endhint %}
 
 ## External Frame <a href="#gdtlte4az75" id="gdtlte4az75"></a>
 
@@ -86,11 +82,7 @@ See how to [install the Live Chat widget](../../../omnichannel/livechat-widget-i
 
 ## Business Hour
 
-Set your business hours to automatically manage conversations when your Live Chat agents are online.
-
-{% hint style="info" %}
-![](<../../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (41).jpg>) Configuring multiple business hour mode is an [Enterprise](../../../../setup-and-configure/enterprise-edition-trial/) feature.
-{% endhint %}
+<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (3).jpg" alt=""><figcaption></figcaption></figure>
 
 * **Business hours enabled**: Toggle on to enable business hours.
 * **Business Hour Type (Single or Multiple)**: Set the type of business hour. Community workspaces can only set a single business hour.
@@ -148,6 +140,9 @@ Routing allows you to define the behavior of your Live Chat queues.
 * **Show Queue List to All Agents**: Enable this to show the Omnichannel Queue list to all [Omnichannel Agents](../../../omnichannel/agents.md).
 * **External Queue Service URL**: Set your External Queue Service URL if your _Omnichannel Routing Method_ is [External Service](queue-types-routing-algorithm.md#external-service).
 * **Secret Token**: Enter the secret token.
+
+<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (3).jpg" alt=""><figcaption></figcaption></figure>
+
 * **Last-Chatted Agent Preferred**: Enable to allow the allocation of chats to the agent who previously interacted with the same visitor if the agent is available when the chat starts.
 * **Assign new conversations to the contact manager**: This setting allocates a chat to the assigned Contact Manager as long as the Contact Manager is online when the chat starts.
 
@@ -162,6 +157,9 @@ The Sessions setting allows you to define how open chat sessions are to be handl
 * **How Long to Wait After Agent Goes Offline**: Set the time in seconds before the action specified above happens.
 * **Comment to Leave on Closing Session**: Set a comment to be displayed to the Visitor on closing the chat.
 * **How Long to Wait to Consider Visitor Abandonment?**: This lets you set how long in seconds to wait for before considering the Visitor abandoned the chat.
+
+<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (3).jpg" alt=""><figcaption></figcaption></figure>
+
 * **How to handle Visitor Abandonment**: Select what to do when Visitors abandon chats.
 * **Custom message when room is automatically closed by visitor inactivity**: Set a message that will be sent when a chat gets automatically closed due to the Visitor's inactivity.
 * **How long to wait before closing a chat in On Hold Queue?**: Define how long in seconds the chat will remain in the On Hold queue until it's automatically closed by the system.

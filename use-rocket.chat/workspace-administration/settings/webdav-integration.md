@@ -9,7 +9,7 @@ A framework for users to create, change and move documents on a server. Used to 
 To access this setting, navigate to **Administration** > **Workspace** > **Settings** > **Webdav Integration**.
 
 * **Webdav Integration Enabled**: When set to true, WebDAV is available on the server,
-* Navigating to the :heavy\_plus\_sign:  button on the right side of your message composer inside any chat or room
+* Navigate to the :heavy\_plus\_sign:  button on the right side of your message composer inside any chat or room
 * Click :heavy\_plus\_sign: **Add Server**
 
-To integrate a WebDAV server, follow this article on [nextcloud-and-webdav.md](../integrations/nextcloud-and-webdav.md "mention")
+To integrate a WebDAV server, follow this guide on [nextcloud-and-webdav.md](../integrations/nextcloud-and-webdav.md "mention")

@@ -12,8 +12,6 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**Assets**](assets.md)**:** Learn how to provide scalable assets for your brand's identity.
 
-[**Atlassian Crowd**](broken-reference): Discover how to link Rocket.Chat with Atlassian Crowd.
-
 [**Bots**](bots.md): Find out how to set the fields that can be utilized and referenced while developing bots.
 
 [**CAS**](cas.md): Learn how to configure Central Authentication Service to allow members to use one set of credentials to sign in to multiple sites over multiple protocols.
@@ -84,13 +82,11 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**User Data Download**](user-data-download.md): The ability for workspace users to download data can be controlled, and you can find it under `User Data Download.`
 
+[**Voice Channel**](../../rocket.chat-voice-channel/): Understand how to set up the Rocket.Chat voice channel in your workspace.
+
 [**WebDav Integration**](webdav-integration.md): Learn how to enable your workspace users to add, edit, and delete files on a WebDAV server.
 
 [**WebRTC**](webrtc.md): Discover how to enable real-time communication to ensure the transmission of audio/video data and other data among browsers.&#x20;
-
-{% hint style="info" %}
-To manage users' access to any of these settings based on their role, see /
-{% endhint %}
 
 {% hint style="info" %}
 To control a user's access to any of these settings based on their role, see [settings-permission.md](../permissions/settings-permission.md "mention").

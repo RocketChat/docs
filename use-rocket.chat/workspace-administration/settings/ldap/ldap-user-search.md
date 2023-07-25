@@ -36,6 +36,10 @@ If you specify restricted user groups, only users that belong to those groups wi
 
 The group filter is for OpenLDAP as it doesnt have a _memberOf_ filter.
 
+{% hint style="info" %}
+**Enable LDAP User Group Filter** is available only on enterprise edition workspaces.
+{% endhint %}
+
 * **Enable LDAP User Group Filter**: Enable to restrict users access in a LDAP group. It is useful for allowing OpenLDAP servers without a _memberOf_ filter to limit group access.
 * **Group ObjectClass**: The _**objectclass**_ that identifies the groups. E.g. `OpenLDAP:groupOfUniqueNames`.
 * **Group ID Attribute**: E.g. `*OpenLDAP:*cn`.

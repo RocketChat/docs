@@ -16,7 +16,7 @@ After configuring, you are able to communicate directly from your Rocket.Chat to
 
 To access this setting, go to **Administration** > **Workspace** > **Settings** > **IRC Federation**.
 
-* **Enable**: When enabled, provides settings for IRC Federation integration.
+* **Enabled**: When enabled, provides settings for IRC Federation integration.
 * **Protocol**: This lets you set the protocol your IRC server uses. example `RFC2813`.
 * **Host**: The host on which your IRC is running on, for example `irc.rocket.chat`
 * **Port**: The port to bind to on the IRC host server.

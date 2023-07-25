@@ -1,6 +1,6 @@
 # Keycloak
 
-[https://www.keycloak.org/ ](https://www.keycloak.org/)is another popular open-source IdP that you can use in connection with Rocket.Chat.
+[Keycloak](https://www.keycloak.org/) is another popular open-source IdP that you can use in connection with Rocket.Chat.
 
 ## Prerequisites
 

@@ -18,7 +18,8 @@ Remember always to hit **Save Changes** to apply any changes made.
 * **Document Domain**: Lets you set the document domain.
 * **Language**: This sets the default language for the workspace. This setting is overridden if the user has changed his language preference.
 * **Allow Invalid Self-Signed Certs**: Enable to allow invalid and self-signed SSL certificates for link validation and previews.
-* **Enable Content-Security-Policy**: Do not disable this option unless you have a custom build and are having problems due to inline-scripts
+* **Enable Content-Security-Policy**: Do not disable this option unless you have a custom build and are having problems due to inline-scripts.
+* **Extra CSP Domains**: Extra domains to add to the Content-Security-Policy.
 * **Restrict access inside any Iframe**: Lets you set restrictions to load the Rocket.Chat inside any iframe
 * **Options to X-Frame-Options**: Options to X-Frame-Options. [You can see all the options here.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options#Syntax)
 * **Enable Favorite Rooms**: Lets you set if users can mark a room as favorite
@@ -69,7 +70,7 @@ This feature is currently in alpha
 
 * **Max Record Amount**: This sets the maximum number of records the REST API should return when not set to unlimited.
 * **Default Count**: The default count for REST API results if the consumer did not provide any.
-* **Allow Getting Everything:** This setting affects the `count` query parameter. See more at [Offset and Count Information](https://developer.rocket.chat/api/rest-api/offset-and-count-and-sort-info)
+* **Allow Getting Everything:** This setting affects the `count` query parameter. See more at [Offset and Count Information](https://developer.rocket.chat/reference/api/rest-api#pagination)
   * **Yes**: Allows the usage of the number `0` as `count` parameter. Setting `count` to `0`  returns **ALL** the data from that endpoint
   * **No**: Setting the number `0` on `count`, returns `0` results.
 * **Enable Direct Message History Endpoint**: This enables the `/api/v1/im.history.others` which allows the viewing of direct messages sent by other users that the caller is not part of.
@@ -148,6 +149,7 @@ To be able to use the microphone, camera, and geolocation in an iframe, be sure 
 
 * **UTF8 Names Validation**: RegExp used to validate usernames and channel names
 * **UTF8 Channel Names Validation**: RegExp used to validate channel names
+* **UTF8 Names Slugify:** RegExp used to create slugs for names.
 
 {% hint style="info" %}
 If you are having problems with names when creating channels (e.g., when using non-English characters), changing these values will probably fix it. For example, using `[\w_-]+` should allow any non-space character to be part of a name.

@@ -1,4 +1,4 @@
-# GitHub OAuth Setup
+# GitHub Enterprise OAuth Setup
 
 GitHub OAuth requires you to fill in the GitHub **Client ID** and **Secret**`.`
 
@@ -15,5 +15,5 @@ If your callback URL is wrong, GitHub does not display any error. Instead of log
 * Your **Client Id** and a button to **Generate a new client secret** are now displayed. Click the button to generate a new client secret for your OAuth credentials.&#x20;
 * Copy the **Application ID** and **Secret.**
 * Navigate to **OAuth** settings (**Administration > Workspace > Settings> OAuth)** in your workspace.
-* In the **GitHub** tab, fill in the **OAuth credentials** you copied earlier and toggle on **OAuth Enabled**. Add the **Server URL** also.
+* In the **GitHub Enterprise** tab, fill in the **OAuth credentials** you copied earlier and toggle on **OAuth Enabled**.
 * Click **Save Changes**. A **Sign in with GitHub** button appears on your workspace's login page. Users can now **sign in with GitHub** by clicking that button.

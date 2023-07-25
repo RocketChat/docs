@@ -212,7 +212,6 @@
       * [Custom Fields](use-rocket.chat/workspace-administration/settings/account-settings/custom-fields.md)
     * [Analytics](use-rocket.chat/workspace-administration/settings/analytics.md)
     * [Assets](use-rocket.chat/workspace-administration/settings/assets.md)
-    * [Atlassian Crowd](use-rocket.chat/workspace-administration/settings/atlassian-crowd.md)
     * [Bots](use-rocket.chat/workspace-administration/settings/bots.md)
     * [CAS](use-rocket.chat/workspace-administration/settings/cas.md)
     * [Conference Call](https://docs.rocket.chat/use-rocket.chat/rocket.chat-conference-call)
@@ -264,6 +263,7 @@
       * [Google OAuth Setup](use-rocket.chat/workspace-administration/settings/oauth/google-oauth-setup.md)
       * [GitLab OAuth Setup](use-rocket.chat/workspace-administration/settings/oauth/gitlab-oauth-setup.md)
       * [GitHub OAuth Setup](use-rocket.chat/workspace-administration/settings/oauth/github-oauth-setup.md)
+      * [GitHub Enterprise OAuth Setup](use-rocket.chat/workspace-administration/settings/oauth/github-oauth-setup-1.md)
       * [LinkedIn OAuth Setup](use-rocket.chat/workspace-administration/settings/oauth/linkedin-oauth-setup.md)
       * [NextCloud OAuth Setup](use-rocket.chat/workspace-administration/settings/oauth/nextcloud-oauth-setup.md)
       * [WordPress OAuth Setup](use-rocket.chat/workspace-administration/settings/oauth/wordpress.md)
@@ -432,6 +432,8 @@
 ## Resources
 
 * [Frequently Asked Questions](resources/frequently-asked-questions/README.md)
+  * [Accessing your workspace FAQs](resources/frequently-asked-questions/accessing-your-workspace-faqs.md)
+  * [My Account FAQs](resources/frequently-asked-questions/my-account-faqs.md)
   * [Registration](resources/frequently-asked-questions/registration.md)
   * [Message Privacy](resources/frequently-asked-questions/message-privacy.md)
   * [Localization](resources/frequently-asked-questions/localization.md)
