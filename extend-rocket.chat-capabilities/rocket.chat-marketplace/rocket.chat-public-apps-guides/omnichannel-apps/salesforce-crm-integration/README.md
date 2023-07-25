@@ -38,11 +38,12 @@ openssl rsa -in privatekey.pem -check
   * For the **Selected OAuth scopes**, add the _**api refresh\_token offline\_access**_ option.&#x20;
   * Click **Save**.
 * Click **Manage Consumer Key** and copy the **Consumer Key**.
-* Navigate to **Manage Apps > Connected Apps** and click the **Edit** action against the app you created earlier.
-  * Select **Admin approved users are pre-authorized** for **Permitted Users**.
+* Navigate to **Settings > Apps > Manage Apps > Connected Apps.** From the list of connected apps, click the **Edit** action beside the app you created earlier.
+  * Select **Admin approved users are pre-authorized** option for **Permitted Users** dropdown option.
   * Click **Save**.
-* Navigate to **Manage Users > Users** and click the profile of your user.
-  * Click **Edit.** Scroll to **Connected App Access** and checkbox the app you created.
+* Navigate to **Settings > Users > Users** and confirm your user profile name.&#x20;
+* Navigate to **Settings > Users > Profile.** From the list of profiles, click the **Edit** action beside your user's profile name. Alternatively, click the profile name, then hit the **Edit** button**.**&#x20;
+  * Scroll to **Connected App Access** and select the checkbox of the app you created.
   * Click **Save**.
 
 ## Install Salesforce CRM Integration App
