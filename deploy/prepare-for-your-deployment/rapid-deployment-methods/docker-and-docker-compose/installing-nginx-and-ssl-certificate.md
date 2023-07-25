@@ -2,24 +2,23 @@
 
 ## Securing the server: Firewall basics (optional, recommended)
 
-First, make sure [UFW](https://en.wikipedia.org/wiki/Uncomplicated\_Firewall) (Uncomplicated FireWall) is installed. It should be installed by default in Ubuntu, but if it’s not, you can check if it is installed by running.
+Ensure [UFW](https://en.wikipedia.org/wiki/Uncomplicated\_Firewall) (Uncomplicated FireWall) is installed. It should be installed by default in Ubuntu, but if it’s not, you can check if it is installed by running.
 
 ```
 apt -qq list ufc
 ```
 
-It will return simple information about the package if it is found. Otherwise, install the package by running
+It will return simple information about the package if it is found. Otherwise, install the package by running this command:
 
 ```
 sudo apt-get install ufw
 ```
 
 {% hint style="info" %}
-**IMPORTANT**: We're going to add a firewall rule to permit your default SSH connection port on port 22/tcp.
+**IMPORTANT**: We will add a firewall rule to permit your default SSH connection port on port 22/tcp.
 {% endhint %}
 
-In case you have the port changed on your device, be sure to use the corresponding port.\
-Failure to do so will break your SSH connection and log you out of the server as soon as you enable the firewall!
+If you have the port changed on your device, be sure to use the corresponding port. Failure to do so will break your SSH connection and log you out of the server as soon as you enable the firewall!
 
 **Set the default access rules:**
 
@@ -73,7 +72,7 @@ sudo apt-get install nginx
 
 If you don't have a certificate already, you can grab one for free at [Let's Encrypt](https://letsencrypt.org).
 
-Or, if you want to use a self-signed SSL cert instead, skip ahead to [Self-Signed SSL](installing-nginx-and-ssl-certificate.md#5b-self-signed-ssl).
+Alternatively, if you want to use a self-signed SSL cert instead, see [#self-signed-ssl](installing-nginx-and-ssl-certificate.md#self-signed-ssl "mention").
 
 #### **Install the private key (created when you generated the CSR)**
 
@@ -81,7 +80,7 @@ Or, if you want to use a self-signed SSL cert instead, skip ahead to [Self-Signe
 sudo nano /etc/nginx/certificate.key
 ```
 
-Open the private key and Copy the entire private key text-block from the file that was generated when you created the CSR. Right click on the terminal window and select paste to paste it into nano. Alternatively, if you have a tool such as FileZilla, you can use it via SSH over FTP to upload your cert and key files instead of copy or paste.
+Open the private key and copy the entire private key text-block from the file that was generated when you created the CSR. Right-click on the terminal window and select paste to paste it into nano. Alternatively, if you have a tool such as FileZilla, you can use SSH over FTP to upload your cert and key files instead of copying or pasting.
 
 Save and Exit.
 
@@ -91,13 +90,15 @@ Save and Exit.
 sudo nano /etc/nginx/certificate.crt
 ```
 
-Open the SSL Certificate provided by the SSL vendor (will probably have a .crt or .pem extension) and copy the entire text-block. Right click on the terminal window and select paste to paste it into nano.
+Open the SSL Certificate provided by the SSL vendor (it will probably have a .crt or .pem extension) and copy the entire text block. Right-click on the terminal window and select paste to paste it into nano.
 
 Save and Exit.
 
 ### Self-Signed SSL
 
-If you acquired an SSL cert and installed it via the steps above, skip this step.
+{% hint style="info" %}
+If you acquired and installed an SSL cert via the steps above, skip this step.
+{% endhint %}
 
 **Create and install a self-signed SSL certificate:**
 
@@ -107,7 +108,11 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/cert
 
 **Follow the prompts.**
 
-Tip: It is **IMPORTANT** that the **Common Name** be set properly. Enter your fully qualified domain name (FQDN) here or, if you don’t have a FQDN, use your public IP address. For example, my FQDN for the chat server is `chat.inumio.com`.
+{% hint style="info" %}
+It is **IMPORTANT** that the **Common Name** be set properly
+{% endhint %}
+
+Enter your fully qualified domain name (FQDN) here or use your public IP address if you don’t have a FQDN. For example, my FQDN for the chat server is `chat.inumio.com`.
 
 Save and Exit.
 
@@ -165,7 +170,7 @@ Delete the example in this file, and paste in the following:
     }
 ```
 
-**Edit the config** Change the server name and proxy\_pass to reflect your own details.
+**Edit the config.** Change the server name and proxy\_pass to reflect your details.
 
 Save and Exit.
 
