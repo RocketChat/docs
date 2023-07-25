@@ -32,6 +32,17 @@ With the configuration all done, you can **Send a test push to my user** to send
 To successfully send a test push to your user, you need to be logged in to the workspace on your mobile device and then close or minimize the application.
 {% endhint %}
 
+### Certificate and Keys
+
+* **APN Passphrase**: The passphrase required for authenticating with Apple's push notification servers.
+* **APN Key**:  The Apple Push Notification Service key.
+* **APN Cert**: The Apple Push Notification Service certificate  required to send push notifications to iOS devices.
+* **APN Dev Passphrase**: The password used to protect your APNs development certificate.
+* **APN Dev Key**: The Apple Push Notification Service development key.
+* **APN Dev Cert:** The certificate used for development purposes to authenticate an app with Apple's push notification service to send push notifications to iOS devices.
+* **GCM API Key**: The key used to authenticate an app with Google's Cloud Messaging service to send push notifications to Android devices.
+* **GCM Project Number:** The unique identifier for your Google Cloud Platform project used to authenticate your app with Google's Cloud Messaging service.
+
 ### Privacy
 
 In Privacy, you can configure what information you want your push notification to have.
