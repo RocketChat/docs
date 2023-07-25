@@ -1,9 +1,3 @@
----
-description: >-
-  Resource designed to assist admins and users in maximizing the potential of
-  Rocket.Chat their Rocket.Chat workspace.
----
-
 # Rocket.Chat
 
 Every day, we rely on communication platforms for collaboration with colleagues, businesses, customers, and communities. However, most platforms offer limited control and customization. Rocket.Chat stands apart as a secure, compliant collaboration platform. With Rocket.Chat, you truly own your data, enjoy limitless customization, and benefit from seamless integration capabilities. Take control of your communication with [Rocket.Chat](https://rocket.chat).
