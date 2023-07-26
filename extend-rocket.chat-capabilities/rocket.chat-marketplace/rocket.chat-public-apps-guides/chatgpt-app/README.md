@@ -13,8 +13,8 @@ ChatGPT is a sophisticated artificial intelligence (AI) model that uses natural 
 * ​**Generate content:** ChatGPT can produce high-quality content for websites, blogs, product descriptions, social media posts, and long-form content.
 * **Assist developers:** ChatGPT assists developers in writing, debugging, and analyzing code.  It presents issues and solutions to help debug code.
 * **Conduct market research:** ChatGPT can assist with market research by summarizing reports and emphasizing significant trends and valuable insights.&#x20;
-* **Education and training:** ChatGPT can be used to automate aspects of education and training, such as grading assignments, and developing lesson plans.
-* **Facilitate multilingual communication:** ChatGPT can surmount language barriers by providing translation services in real[^1] time.&#x20;
+* **Education and training:** ChatGPT can be used to automate aspects of education and training, such as grading assignments and developing lesson plans.
+* **Facilitate multilingual communication:** ChatGPT can surmount language barriers by providing translation services in real-time.&#x20;
 
 Refer to the steps below to install the ChatGPT app in your workspace as an administrator.
 
@@ -33,9 +33,9 @@ The ChatGPT app in Rocket.Chat is capable of the following:&#x20;
 
 * **Answer questions:** The ChatGPT bot responds to each inquiry in a thread, allowing you to manage multiple threaded conversations. Sending questions to ChatGPT in direct messaging rooms with other users opens up more conversations and corroboration opportunities.
 * **Fix spelling, punctuation & grammar:** ChatGPT can be used to proofread your messages. Input text into the message box, and seek ChatGPT’s help to identify and correct grammar errors in your messages, sparing you the trouble of correcting each error individually.
-* **Generate summaries:** ChatGPT can be used to generate summaries of lengthy documents to provide an executive summary, an excerpt to share with others or to allow you to avoid perusing the entire document.
+* **Generate summaries:** ChatGPT can be used to generate summaries of lengthy documents to provide an executive summary, an excerpt to share with others, or to allow you to avoid perusing the entire document.
 * **Voice and tone editing:** ChatGPT is accessible from any channel, team, or discussion, so the application is always available to help you establish the tone of your communications. You can alter it based on whether you want the message to be formal or informal.
-* **Index conversations:** ChatGPT responds to each conversation inside a thread. It indexes the conversations and the responses within the conversation are contextually appropriate.
+* **Index conversations:** ChatGPT responds to each conversation inside a thread. It indexes the conversations, and the responses within the conversation are contextually appropriate.
 
 {% hint style="warning" %}
 Large conversations or threads cannot be summarized in the current version of the ChatGPT app. In future versions, we intend to support this feature. Nevertheless, it is now possible to summarize a great deal of information—articles, news, novels, and so on—using ChatGPT.
@@ -46,5 +46,3 @@ Below are instructions on how to get started with the ChatGPT app and some commo
 {% content-ref url="using-chatgpt-app.md" %}
 [using-chatgpt-app.md](using-chatgpt-app.md)
 {% endcontent-ref %}
-
-[^1]: 
