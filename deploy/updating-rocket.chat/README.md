@@ -13,8 +13,8 @@ Workspace admins should monitor new releases and our release notes [here ](https
 * Upgrading to `v5` requires you to be on at least `4.x`.
 {% endhint %}
 
-* [Updating on Docker](./#upgrading-rocket.chat-on-docker)
-* [Updating on Snap](./#upgrading-rocket.chat-snap)
+* [Updating on Docker](./#updating-rocket.chat-on-docker)
+* [Updating on Snap](./#updating-rocket.chat-snap)
 
 ## Updating Rocket.Chat on Docker
 
