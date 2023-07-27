@@ -2,9 +2,18 @@
 
 As features are added to Rocket.Chat, the database schema may change between versions.&#x20;
 
-Database migration means updating an older schema to a newer one (or vice versa). When you incrementally update your Rocket.Chat version, the database migration is automatic, and you do not have to take any explicit action. Rocket.Chat migrations and thier versions can be found on [GitHub](https://github.com/RocketChat/Rocket.Chat/blob/develop/apps/meteor/server/startup/migrations).
+Database migration means updating an older schema to a newer one (or vice versa). When you incrementally update your Rocket.Chat version, the database migration is automatic, and you do not have to take any explicit action. Rocket.Chat migrations and their versions can be found on [GitHub](https://github.com/RocketChat/Rocket.Chat/blob/develop/apps/meteor/server/startup/migrations).
 
-We use migrations to force an updatable version range. It means you cannot upgrade from version three to five because the migrations in between are removed.
+We use migrations to force an updatable version range. It means you cannot upgrade from major version three to five because the migrations in between are removed.
+
+The versioning in Rocket.Chat looks like this:
+
+```
+Major.Minor.Patch
+6.2.10
+```
+
+For more information on updating Rocket.Chat, see [Updating Rocket.Chat](../../deploy/updating-rocket.chat/README.md).
 
 {% hint style="info" %}
 Rocket.Chat cannot be officially downgraded due to database migrations. However, you can manually roll back migrations separately.
