@@ -6,21 +6,32 @@ description: Deploying Rocket.Chat on Google Compute Engine
 
 ## Create a Compute Instance
 
-* Click **create VM instance** in Google Cloud Console.
+* Log in to [Google Cloud Console](https://console.cloud.google.com/).
+* Select a project and navigate to **VM instance**.&#x20;
+* Create a **VM instance.**
 * Select a preferred Machine Type (Default: 1cpu, 3.75GB Memory).
-* Select a Linux image (Default: Debian/ ubuntu).
-* Allow HTTP/S Traffic.
+* Select a Linux image (Default: Debian/ubuntu).
+* Allow HTTP and HTTPS Traffic.
+* Click **Create.**
+
+{% hint style="info" %}
+To learn more about VM instances, see the [official documentation](https://cloud.google.com/compute/docs/instances/create-start-instance).
+{% endhint %}
 
 ## Deploy Rocket.Chat on the Google Compute Engine
 
-* Connect to the instance by SSH or via the browser on any port other than `80`.
-* To install docker on the instance, run the following command:
+* SSH into the VM instance.
+* To install docker on the instance, run the following command
 
-`sudo wget -qO- https://get.docker.com/ | sh`
+```
+sudo wget -qO- https://get.docker.com/ | sh
+```
 
 * Create a container network by running this command:
 
-`docker network create chatNetwork`
+```
+sudo docker network create chatNetwork
+```
 
 * To install a docker image, run this command:
 
@@ -29,13 +40,17 @@ sudo docker run --name mongo --network chatNetwork -d mongo \
 --smallfiles --oplogSize 128 --replSet rs0 --storageEngine=mmapv1
 ```
 
-* SSH into the `mongodb` docker container and run this command to configure the MongoDB Replica set:
+* SSH into the `mongodb` docker container:
 
-&#x20;`sudo docker exec -it mongo mongo`
+```
+sudo docker exec -it mongo mongo
+```
 
-Execute the following script to create a replica set :&#x20;
+* Execute the following script to configure the MongoDB replica set:&#x20;
 
-`rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})`
+```
+rs.initiate({ _id: 'rs0', members: [ { _id: 0, host: 'localhost:27017' } ]})
+```
 
 Then, exit the docker container.
 
@@ -53,15 +68,15 @@ docker run --name rocketchat -d -p 80:3000 \
 Replace the `ROOT_URL` with your domain.
 {% endhint %}
 
-You are now running Rocket.Chat on compute engine. You can open a browser with the external IP of the instance.
+Rocket.Chat is currently operational on compute engine. You can access it by opening a browser and entering the external IP of the instance.
 
-If you want the containers to start each time the instance reboots, configure the following to the instance.
+If you want the containers to start each time the instance reboots, configure the startup script to the instance.
 
 * Click on the instance and hit **edit**.
 * Under **Custom metadata**, add an item with the following:
 
 ```
 key: "startup-script"
-value "sudo docker start mongo;
+value: "sudo docker start mongo;
 sudo docker start rocketchat"
 ```
