@@ -49,7 +49,9 @@ tar -xzf /tmp/rocket.chat.tgz -C /tmp
 cd /tmp/bundle/programs/server && npm install --production
 ```
 
+{% hint style="warning" %}
 If you're using the `root` account (not recommended), use `sudo npm install --unsafe-perm --production` instead of the above.
+{% endhint %}
 
 * Move the extracted files to the _/opt_ directory.
 
@@ -120,7 +122,12 @@ Environment=MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=rs01
 
 ### MongoDB Configuration
 
-* Open the MongoDB config file (`/etc/mongod.conf`) in your preferred text editor. It is a simple YAML file.
+* Open the MongoDB config file (`/etc/mongod.conf`) in your preferred text editor.&#x20;
+
+```
+nano /etc/mongod.conf
+```
+
 * Set the storage engine to `wiredTiger`.
 
 ```yaml
@@ -165,7 +172,9 @@ replication:
   replSetName: rs01
 ```
 
+{% hint style="info" %}
 Read the [official documentation](https://docs.mongodb.org/manual/reference/configuration-options/) for a complete list of available MongoDB config options.
+{% endhint %}
 
 * Start MongoDB with the following command:
 
@@ -173,7 +182,7 @@ Read the [official documentation](https://docs.mongodb.org/manual/reference/conf
 sudo systemctl enable --now mongod
 ```
 
-* The replicaset:
+* The replicaset with this command:
 
 ```bash
 mongo --eval "printjson(rs.initiate())"
