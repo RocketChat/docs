@@ -12,10 +12,10 @@ By default, community workspaces come with 10,000 free monthly push notification
 To be able to use push notifications, you are required to accept the **Cloud Service Privacy Terms Agreement** in the **Administration** > **Workspace** > **Settings** > **Setup Wizard** > **Cloud Info** settings.
 {% endhint %}
 
-To enable push notifications, go to **Administration > Workspace > Settings > Push.**
+Go to **Administration > Workspace > Settings > Push** to enable push notifications**.**
 
-* **Enable**: Turn on to enable push notifications on your Rocket.Chat instance
-* **Enable Gateway**: Setting this to true allows you to use a custom push notification gateway
+* **Enable**: Turn on to enable push notifications on your Rocket.Chat workspace.
+* **Enable Gateway**: Setting this to true allows you to use a custom push notification gateway. When disabled, it utilizes [Certificates and Keys](push.md#certificate-and-keys), allowing direct communication with Apple/Google instead of going through a gateway.
 
 {% hint style="info" %}
 Rocket.Chat SaaS workspaces use the Rocket.Chat gateway by default and cannot be changed.
@@ -23,8 +23,8 @@ Rocket.Chat SaaS workspaces use the Rocket.Chat gateway by default and cannot be
 On self-managed workspaces, you can either use the default Rocket.Chat gateway or set up a custom notification gateway.
 {% endhint %}
 
-* **Gateway**: Specify the gateway to use. Multiple lines can be used to specify multiple gateways
-* **Production:** Enable this for workspaces in production
+* **Gateway**: Specify the gateway to use. Multiple lines can be used to specify multiple gateways.
+* **Production:** Enable this for workspaces in production.
 
 With the configuration all done, you can **Send a test push to my user** to send a test push to yourself.
 
@@ -34,14 +34,9 @@ To successfully send a test push to your user, you need to be logged in to the w
 
 ### Certificate and Keys
 
-* **APN Passphrase**: The passphrase required for authenticating with Apple's push notification servers.
-* **APN Key**:  The Apple Push Notification Service key.
-* **APN Cert**: The Apple Push Notification Service certificate  required to send push notifications to iOS devices.
-* **APN Dev Passphrase**: The password used to protect your APNs development certificate.
-* **APN Dev Key**: The Apple Push Notification Service development key.
-* **APN Dev Cert:** The certificate used for development purposes to authenticate an app with Apple's push notification service to send push notifications to iOS devices.
-* **GCM API Key**: The key used to authenticate an app with Google's Cloud Messaging service to send push notifications to Android devices.
-* **GCM Project Number:** The unique identifier for your Google Cloud Platform project used to authenticate your app with Google's Cloud Messaging service.
+The workspace will rely on certificates and keys to configure push notifications if gateways are not enabled. Refer to the official guide below for configuring push notifications certifications and keys on Android and iOS.
+
+{% embed url="https://developer.rocket.chat/open-source-projects/mobile-app/mobile-app-white-labelling/configuring-push-notifications" %}
 
 ### Privacy
 
