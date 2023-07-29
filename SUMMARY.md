@@ -11,7 +11,7 @@
     * [Docker & Docker Compose](deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md)
       * [Available Images](deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/available-images.md)
       * [Docker Mongo Backup and Restore](deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers/docker-mongo-backup-and-restore.md)
-      * [Installing Nginx & SSL certificate](deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/installing-nginx-and-ssl-certificate.md)
+      * [Enable HTTPS](deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/installing-nginx-and-ssl-certificate.md)
     * [Snaps](deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md)
       * [Configuring MongoDB](deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/configuring-mongodb.md)
       * [Auto SSL with Snaps](deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/auto-ssl-with-snaps.md)

@@ -1,187 +1,43 @@
-# Installing Nginx & SSL certificate
+# Enable HTTPS
 
-## Securing the server: Firewall basics (optional, recommended)
+You can secure your Rocket.Chat docker instance with TLS certificates from Let's Encrypt. Using Traefik as a reverse proxy, the certificates are automatically generated, enabling safe access to your Rocket.Chat instance via HTTPS on your specified domain.
 
-Ensure [UFW](https://en.wikipedia.org/wiki/Uncomplicated\_Firewall) (Uncomplicated FireWall) is installed. It should be installed by default in Ubuntu, but if it’s not, you can check if it is installed by running.
+To get HTTPS, ensure the correct A record (optionally CNAME) is set for your domain going to your server IP.&#x20;
 
-```
-apt -qq list ufc
-```
-
-It will return simple information about the package if it is found. Otherwise, install the package by running this command:
-
-```
-sudo apt-get install ufw
-```
-
-{% hint style="info" %}
-**IMPORTANT**: We will add a firewall rule to permit your default SSH connection port on port 22/tcp.
-{% endhint %}
-
-If you have the port changed on your device, be sure to use the corresponding port. Failure to do so will break your SSH connection and log you out of the server as soon as you enable the firewall!
-
-**Set the default access rules:**
+* Update the following variables in your `.env` file. If you don't have one, create a .env file following [our example](https://github.com/RocketChat/Docker.Official.Image/blob/master/env.example).
+  * `LETSENCRYPT_EMAIL`: Your required email for the TLS certificates.
+  * `DOMAIN`: Your domain or subdomain name only. Avoid adding https:// or any trailing slashes. Confirm that this domain resolves to the server IP address.
+  * `RELEASE` : Your preferred Rocket.Chat release. See the [releases page](https://github.com/RocketChat/Rocket.Chat/releases) to know more about our releases.
+  * `DOMAIN` : Set the value to "[https://your-domain.com](https://your-domain.com/)," replacing "your-domain.com" with the domain name you want to use.
+  * `BIND_IP`: Set to `127.0.0.1` .
 
 ```
-sudo ufw default deny incoming
-
-sudo ufw default allow outgoing
+LETSENCRYPT_EMAIL= # your email, required for the tls certificates
+# set this to your domain name or subdomain, not trailing slashes or https://, just the domain
+# make sure it actually resolves to your droplet ip
+DOMAIN= 
+RELEASE= # pin the rocketchat version, at the time of writing, prefer 6.0.0
+ROOT_URL= # set this to https://${DOMAIN} replace ${DOMAIN} with the actual domain
+BIND_IP=127.0.0.1
 ```
 
-**Set the service rules (SSH / HTTPS):**
+* Download the traefik template by running the following command:
 
 ```
-sudo ufw allow 22/tcp
-
-sudo ufw allow 443/tcp
+curl -LO \
+    https://raw.githubusercontent.com/RocketChat/Docker.Official.Image/master/traefik.yml
 ```
 
-**Enable the firewall:**
+* Recreate the existing Rocket.Chat container
 
 ```
-sudo ufw enable
+docker compose up -d rocketchat --force-recreate
 ```
 
-**Check the Firewall status:**
+* Star traefik
 
 ```
-sudo ufw status
+docker compose -f traefik.yml up -d
 ```
 
-**If you ever add or delete rules you should reload the firewall:**
-
-```
-sudo ufw reload
-```
-
-**If you ever need to turn off the firewall:**
-
-```
-sudo ufw disable
-```
-
-## Installing Nginx & SSL certificate
-
-**Install Nginx**
-
-```
-sudo apt-get install nginx
-```
-
-### Using a commercial SSL cert (recommended)
-
-If you don't have a certificate already, you can grab one for free at [Let's Encrypt](https://letsencrypt.org).
-
-Alternatively, if you want to use a self-signed SSL cert instead, see [#self-signed-ssl](installing-nginx-and-ssl-certificate.md#self-signed-ssl "mention").
-
-#### **Install the private key (created when you generated the CSR)**
-
-```
-sudo nano /etc/nginx/certificate.key
-```
-
-Open the private key and copy the entire private key text-block from the file that was generated when you created the CSR. Right-click on the terminal window and select paste to paste it into nano. Alternatively, if you have a tool such as FileZilla, you can use SSH over FTP to upload your cert and key files instead of copying or pasting.
-
-Save and Exit.
-
-**Install the SSL certificate (note that this goes in certificate.**_**crt**_**, not .**_**key**_**)**
-
-```
-sudo nano /etc/nginx/certificate.crt
-```
-
-Open the SSL Certificate provided by the SSL vendor (it will probably have a .crt or .pem extension) and copy the entire text block. Right-click on the terminal window and select paste to paste it into nano.
-
-Save and Exit.
-
-### Self-Signed SSL
-
-{% hint style="info" %}
-If you acquired and installed an SSL cert via the steps above, skip this step.
-{% endhint %}
-
-**Create and install a self-signed SSL certificate:**
-
-```
-sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/certificate.key -out /etc/nginx/certificate.crt
-```
-
-**Follow the prompts.**
-
-{% hint style="info" %}
-It is **IMPORTANT** that the **Common Name** be set properly
-{% endhint %}
-
-Enter your fully qualified domain name (FQDN) here or use your public IP address if you don’t have a FQDN. For example, my FQDN for the chat server is `chat.inumio.com`.
-
-Save and Exit.
-
-### Set Key Permissions, Dhparams, Configure NGINX
-
-**Set permissions:**
-
-```
-sudo chmod 400 /etc/nginx/certificate.key
-```
-
-**Generate Strong Diffie Helman group**
-
-```
-sudo openssl dhparam -out /etc/nginx/dhparams.pem 2048
-```
-
-**Configure Nginx:**
-
-```
-sudo nano /etc/nginx/sites-available/default
-```
-
-Delete the example in this file, and paste in the following:
-
-```apacheconf
-# HTTPS Server
-    server {
-        listen 443 ssl;
-        server_name chat.inumio.com;
-
-        error_log /var/log/nginx/rocketchat_error.log;
-
-        ssl_certificate /etc/nginx/certificate.crt;
-        ssl_certificate_key /etc/nginx/certificate.key;
-        ssl_dhparam /etc/nginx/dhparams.pem;
-        ssl_protocols TLSv1.2;
-        ssl_ciphers 'ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:kEDH+AESGCM:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA256:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:DHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA256:AES256-SHA256:AES128-SHA:AES256-SHA:AES:CAMELLIA:DES-CBC3-SHA:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!MD5:!PSK:!aECDH:!EDH-DSS-DES-CBC3-SHA:!EDH-RSA-DES-CBC3-SHA:!KRB5-DES-CBC3-SHA';
-        ssl_prefer_server_ciphers on;
-        ssl_session_cache shared:SSL:20m;
-        ssl_session_timeout 180m;
-
-        location / {
-            proxy_pass http://chat.inumio.com:3000/;
-            proxy_http_version 1.1;
-            proxy_set_header Upgrade $http_upgrade;
-            proxy_set_header Connection "upgrade";
-            proxy_set_header Host $http_host;
-            proxy_set_header X-Real-IP $remote_addr;
-            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-            proxy_set_header X-Forwarded-Proto https;
-            proxy_set_header X-Nginx-Proxy true;
-            proxy_redirect off;
-        }
-    }
-```
-
-**Edit the config.** Change the server name and proxy\_pass to reflect your details.
-
-Save and Exit.
-
-**Test the config & Restart nginx:**
-
-```
-sudo service nginx configtest && sudo service nginx restart
-```
-
-**Note:** You can pinpoint problems in your nginx config using the following command:
-
-```
-sudo nginx -t
-```
+Wait for the TLS certificates to generate and Rocket.Chat to restart. Then,  access your Rocket.Chat instance securely at [https://your-domain.com](https://your-domain.com/), using the actual domain name you configured.
