@@ -8,7 +8,7 @@ This guide covers the following:
 
 * Hosting Rocket.Chat on an Amazon EC2 instance
 * Hosting a domain name with Amazon Route 53
-* Securing your server with a free SSL certificate from [Let's Encrypt](https://letsencrypt.org/)
+* Securing your server with a free SSL certificate from [Let's Encrypt](https://letsencrypt.org/).
 
 ## Launch an EC2 Instance
 
@@ -21,7 +21,7 @@ It is not recommended to use this method for large production. Instead, check ho
 To create a new EC2 instance:
 
 * Log into your [AWS Console](https://console.aws.amazon.com), and open the **EC2 Service.**
-* From the sidebar, click **Instances.** Then\*\*,\*\* click **Launch Instances** to set up a new EC2 instance.
+* From the sidebar, click **Instances.** Then, click **Launch Instances** to set up a new EC2 instance.
 * Set the instance name and select at least _Ubuntu Server 18.04 LTS_" with "_64-bit (x86)_ architecture as the OS image.
 * Select an instance type of your choice according to our recommendation above.
 * Choose an existing key pair or create a new one for SSH connections.
@@ -46,7 +46,7 @@ To allocate an elastic IP,
 
 * Open the **Route 53** service dashboard and navigate to **Hosted Zones**.
 * Click **Create Hosted Zone.**
-* Enter your domain name and select _**Public Hosted Zone**_ as the type. Click the **Create hosted zone** button\*\*.\*\*
+* Enter your domain name and select _**Public Hosted Zone**_ as the type. Click the **Create hosted zone** button.
 * Select your newly created zone and click **Create Record Set.**
 * Enter "_www_" as a subdomain (if desired), select Type _CNAME_, enter the Public DNS name you copied from the [elastic IP](aws.md#allocate-an-elastic-ip) to the value field, and click "**Create.**"
 
@@ -77,7 +77,9 @@ sudo apt install certbot
 sudo certbot certonly --standalone --email <emailaddress@email.com> -d <domain.com> -d <subdomain.domain.com>
 ```
 
-**Note:** Second (or more) domain is optional.
+{% hint style="success" %}
+A second (or more) domain is optional.
+{% endhint %}
 
 {% hint style="info" %}
 **\[Optional] Restrict access using security groups.**
@@ -163,7 +165,7 @@ sudo nginx -t
 sudo systemctl restart nginx
 ```
 
-Confirm it is running properly by opening a web browser and going to your domain name. A "_502 Bad Gateway_" page is expected since the Rocket.Chat backend is not yet running. Ensure the SSL connection is working properly by clicking the lock icon next to the address bar. Confirm it's valid and issued by "_Let's Encrypt Authority X3_".
+Confirm it is running correctly by opening a web browser and entering your domain name. A "_502 Bad Gateway_" page is expected since the Rocket.Chat backend is not yet running. Ensure the SSL connection works appropriately by clicking the lock icon next to the address bar. Confirm it's valid and issued by "_Let's Encrypt Authority X3_".
 
 ## Install Rocket.Chat
 
@@ -182,5 +184,5 @@ To install Rocket.Chat,
 Log in to your site at `https://ABC.DOMAIN.COM.`
 
 {% hint style="info" %}
-**T**he first user to log in will be an administrator user.
+The first user to log in will be an administrator user.
 {% endhint %}
