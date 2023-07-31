@@ -68,3 +68,7 @@ When it comes to localization Reocket.Chat supports following languages with 80+
 | Ukrainian            |
 | Vietnamese (Vietnam) |
 | Welsh                |
+
+{% hint style="info" %}
+Visit [internationalization](https://developer.rocket.chat/contribute-to-rocket.chat/modes-of-contribution/development/internationalization) for a comprehensive understanding of how to work with Rocket.Chat's internationalization.&#x20;
+{% endhint %}
