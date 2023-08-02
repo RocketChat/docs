@@ -45,50 +45,50 @@ In case of security-relevant bugs, we might decide to backport patches to older 
 | Rocket.Chat Release | Latest Version                                                          | Released At  | End of Life  |
 | ------------------- | --------------                                                          | ----------:  | ----------:  |
 | 6.2                 | [6.2.11](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.2.11) | Apr 2023     | TBD          |
-| 6.1                 | [6.1.8](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.1.8)   | Mar 2023     | Jun 2023     |
-| 6.0                 | [6.0.8](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.0.8)   | Feb 2023     | May 2023     |
-| **5.4 \(LTS\)**     | [5.4.10](https://github.com/RocketChat/Rocket.Chat/releases/tag/5.4.10) | **Nov 2022** | **May 2023** |
-| 5.3                 | [5.3.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/5.3.7)   | Oct 2022     | Jan 2023     |
-| 5.2                 | [5.2.2](https://github.com/RocketChat/Rocket.Chat/releases/tag/5.2.2)   | Sep 2022     | Dec 2022     |
-| 5.1                 | [5.1.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/5.1.5)   | Aug 2022     | Nov 2022     |
-| 5.0                 | [5.0.8](https://github.com/RocketChat/Rocket.Chat/releases/tag/5.0.8)   | Jul 2022     | Oct 2022     |
-| **4.8 \(LTS\)**     | [4.8.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.8.7)   | **May 2022** | **Nov 2022** |
-| 4.7                 | [4.7.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.7.5)   | Apr 2022     | Jul 2022     |
-| 4.6                 | [4.6.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.6.4)   | Mar 2022     | Jun 2022     |
-| 4.5                 | [4.5.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.5.7)   | Feb 2022     | May 2022     |
-| 4.4                 | [4.4.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.4.5)   | Jan 2022     | Apr 2022     |
-| 4.3                 | [4.3.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.3.3)   | Dec 2021     | Mar 2022     |
+| 6.1                 | [6.1.8](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.1.8)   | Mar 2023     | Jul 2023     |
+| 6.0                 | [6.0.8](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.0.8)   | Feb 2023     | Jun 2023     |
+| **5.4 \(LTS\)**     | [5.4.10](https://github.com/RocketChat/Rocket.Chat/releases/tag/5.4.10) | **Nov 2022** | **Aug 2023** |
+| 5.3                 | [5.3.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/5.3.7)   | Oct 2022     | Feb 2023     |
+| 5.2                 | [5.2.2](https://github.com/RocketChat/Rocket.Chat/releases/tag/5.2.2)   | Sep 2022     | Jan 2023     |
+| 5.1                 | [5.1.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/5.1.5)   | Aug 2022     | Dec 2022     |
+| 5.0                 | [5.0.8](https://github.com/RocketChat/Rocket.Chat/releases/tag/5.0.8)   | Jul 2022     | Nov 2022     |
+| **4.8 \(LTS\)**     | [4.8.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.8.7)   | **May 2022** | **Jan 2023** |
+| 4.7                 | [4.7.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.7.5)   | Apr 2022     | Aug 2022     |
+| 4.6                 | [4.6.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.6.4)   | Mar 2022     | Jul 2022     |
+| 4.5                 | [4.5.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.5.7)   | Feb 2022     | Jun 2022     |
+| 4.4                 | [4.4.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.4.5)   | Jan 2022     | May 2022     |
+| 4.3                 | [4.3.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.3.3)   | Dec 2021     | Apr 2022     |
 | 4.2                 | [4.2.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.2.4)   | Nov 2021     | Mar 2022     |
-| 4.1                 | [4.1.6](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.1.6)   | Oct 2021     | Jan 2022     |
-| 4.0                 | [4.0.6](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.0.6)   | Sep 2021     | Dec 2021     |
+| 4.1                 | [4.1.6](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.1.6)   | Oct 2021     | Mar 2022     |
+| 4.0                 | [4.0.6](https://github.com/RocketChat/Rocket.Chat/releases/tag/4.0.6)   | Sep 2021     | Jan 2022     |
 | **3.18 \(LTS\)**    | [3.18.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.18.7) | **Aug 2021** | **Mar 2022** |
-| 3.17                | [3.17.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.17.3) | Jul 2021     | Oct 2021     |
-| 3.16                | [3.16.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.16.5) | Jun 2021     | Sep 2021     |
-| 3.15                | [3.15.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.15.4) | May 2021     | Aug 2021     |
-| 3.14                | [3.14.6](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.14.6) | Apr 2021     | Jul 2021     |
-| 3.13                | [3.13.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.13.5) | Mar 2021     | Jun 2021     |
-| 3.12                | [3.12.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.12.7) | Feb 2021     | May 2021     |
-| 3.11                | [3.11.6](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.11.6) | Jan 2021     | Apr 2021     |
-| 3.10                | [3.10.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.10.7) | Dec 2020     | Mar 2021     |
-| 3.9                 | [3.9.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.9.7)   | Nov 2020     | Feb 2021     |
-| 3.8                 | [3.8.9](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.8.9)   | Oct 2020     | Jan 2021     |
-| 3.7                 | [3.7.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.7.4)   | Sep 2020     | Dec 2020     |
-| 3.6                 | [3.6.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.6.3)   | Aug 2020     | Nov 2020     |
-| 3.5                 | [3.5.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.5.4)   | Jul 2020     | Oct 2020     |
-| 3.4                 | [3.4.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.4.3)   | Jun 2020     | Sep 2020     |
-| 3.3                 | [3.3.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.3.3)   | May 2020     | Aug 2020     |
-| 3.2                 | [3.2.2](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.2.2)   | Apr 2020     | Jul 2020     |
-| 3.1                 | [3.1.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.1.3)   | Mar 2020     | Jun 2020     |
-| 3.0                 | [3.0.13](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.0.13) | Jan 2020     | Apr 2020     |
-| **2.4 \(LTS\)**     | [2.4.14](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.4.14) | **Dec 2019** | **Jun 2020** |
-| 2.3                 | [2.3.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.3.3)   | Nov 2019     | Feb 2020     |
-| 2.2                 | [2.2.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.2.1)   | Oct 2019     | Jan 2020     |
-| 2.1                 | [2.1.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.1.3)   | Sep 2019     | Dec 2019     |
-| 2.0                 | [2.0.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.0.1)   | Aug 2019     | Nov 2019     |
-| **1.3 \(LTS\)**     | [1.3.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.3.5)   | **Jul 2019** | **Jan 2020** |
-| 1.2                 | [1.2.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.2.4)   | Jun 2019     | Sep 2019     |
-| 1.1                 | [1.1.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.1.5)   | May 2019     | Aug 2019     |
-| 1.0                 | [1.0.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.0.5)   | Apr 2019     | Jul 2019     |
+| 3.17                | [3.17.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.17.3) | Jul 2021     | Dec 2021     |
+| 3.16                | [3.16.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.16.5) | Jun 2021     | Oct 2021     |
+| 3.15                | [3.15.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.15.4) | May 2021     | Sep 2021     |
+| 3.14                | [3.14.6](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.14.6) | Apr 2021     | Aug 2021     |
+| 3.13                | [3.13.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.13.5) | Mar 2021     | Jul 2021     |
+| 3.12                | [3.12.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.12.7) | Feb 2021     | Jun 2021     |
+| 3.11                | [3.11.6](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.11.6) | Jan 2021     | May 2021     |
+| 3.10                | [3.10.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.10.7) | Dec 2020     | May 2021     |
+| 3.9                 | [3.9.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.9.7)   | Nov 2020     | Mar 2021     |
+| 3.8                 | [3.8.9](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.8.9)   | Oct 2020     | Feb 2021     |
+| 3.7                 | [3.7.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.7.4)   | Sep 2020     | Jan 2021     |
+| 3.6                 | [3.6.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.6.3)   | Aug 2020     | Dec 2020     |
+| 3.5                 | [3.5.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.5.4)   | Jul 2020     | Nov 2020     |
+| 3.4                 | [3.4.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.4.3)   | Jun 2020     | Oct 2020     |
+| 3.3                 | [3.3.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.3.3)   | May 2020     | Sep 2020     |
+| 3.2                 | [3.2.2](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.2.2)   | Apr 2020     | Aug 2020     |
+| 3.1                 | [3.1.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.1.3)   | Mar 2020     | Jul 2020     |
+| 3.0                 | [3.0.13](https://github.com/RocketChat/Rocket.Chat/releases/tag/3.0.13) | Jan 2020     | Jun 2020     |
+| **2.4 \(LTS\)**     | [2.4.14](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.4.14) | **Dec 2019** | **Jul 2020** |
+| 2.3                 | [2.3.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.3.3)   | Nov 2019     | Mar 2020     |
+| 2.2                 | [2.2.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.2.1)   | Oct 2019     | Feb 2020     |
+| 2.1                 | [2.1.3](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.1.3)   | Sep 2019     | Jan 2020     |
+| 2.0                 | [2.0.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/2.0.1)   | Aug 2019     | Dec 2019     |
+| **1.3 \(LTS\)**     | [1.3.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.3.5)   | **Jul 2019** | **Feb 2020** |
+| 1.2                 | [1.2.4](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.2.4)   | Jun 2019     | Oct 2019     |
+| 1.1                 | [1.1.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.1.5)   | May 2019     | Sep 2019     |
+| 1.0                 | [1.0.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.0.5)   | Apr 2019     | Aug 2019     |
 <!-- END VERSIONS TABLE -->
 
 {% hint style="warning" %}
