@@ -63,3 +63,7 @@ siteurl            http://localhost:3000
 ```bash
 sudo snap set rocketchat-server <variable-name>=<value>
 ```
+
+{% hint style="info" %}
+If you have any concerns or issues with your deployment, see [snap-faq.md](../../../../resources/frequently-asked-questions/deployment-faq/snap-faq.md "mention").
+{% endhint %}

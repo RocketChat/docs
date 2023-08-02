@@ -85,6 +85,6 @@ MongoDB supports continuous 24 x 7 operations and live backup, minimizing the ne
 
 To update the `rocketchat` docker image to the latest version, update the `RELEASE` value in your `.env` file, then run `docker compose up -d`. Your data should not be affected by this since it's located in the `mongo` image.
 
-{% content-ref url="../../../updating-rocket.chat/" %}
-[updating-rocket.chat](../../../updating-rocket.chat/)
+{% content-ref url="../../../updating-rocket.chat.md" %}
+[updating-rocket.chat.md](../../../updating-rocket.chat.md)
 {% endcontent-ref %}

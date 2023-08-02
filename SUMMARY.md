@@ -16,7 +16,6 @@
       * [Configuring MongoDB](deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/configuring-mongodb.md)
       * [Auto SSL with Snaps](deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/auto-ssl-with-snaps.md)
       * [Snap Backup and Restore](deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/snap-backup-and-restore.md)
-      * [Snap FAQ](deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/snap-faq.md)
     * [RocketChatCTL](deploy/prepare-for-your-deployment/rapid-deployment-methods/rocketchatctl.md)
     * [Kubernetes with Helm](deploy/prepare-for-your-deployment/rapid-deployment-methods/helm.md)
   * [Cloud Deployments](deploy/prepare-for-your-deployment/cloud-deployments/README.md)
@@ -78,8 +77,7 @@
     * [Setting up Process Managers and Init Systems](deploy/rocket.chat-environment-configuration/extras/pm2-systemd-upstart.md)
   * [Configuring SSL Reverse Proxy](deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)
   * [Environment Variables](deploy/rocket.chat-environment-configuration/environment-variables.md)
-* [Updating Rocket.Chat](deploy/updating-rocket.chat/README.md)
-  * [Updating FAQ](deploy/updating-rocket.chat/updating-faq.md)
+* [Updating Rocket.Chat](deploy/updating-rocket.chat.md)
 
 ## Setup and Configure
 
@@ -447,6 +445,9 @@
   * [Support FAQs](resources/frequently-asked-questions/support-faqs.md)
   * [Whatsapp Business App FAQs](resources/frequently-asked-questions/whatsapp-business-app-faqs.md)
   * [Identity Management EE FAQ](resources/frequently-asked-questions/ldap-faq.md)
+  * [Deployment FAQ](resources/frequently-asked-questions/deployment-faq/README.md)
+    * [Updating Rocket.Chat FAQ](resources/frequently-asked-questions/deployment-faq/updating-faq.md)
+    * [Snaps FAQ](resources/frequently-asked-questions/deployment-faq/snap-faq.md)
   * [Omnichannel FAQs](resources/frequently-asked-questions/omnichannel-faqs.md)
 * [Brand and Visual Guidelines](resources/brand-and-visual-guidelines/README.md)
   * [Logo](resources/brand-and-visual-guidelines/logo.md)

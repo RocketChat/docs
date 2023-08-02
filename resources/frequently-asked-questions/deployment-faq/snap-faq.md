@@ -1,4 +1,4 @@
-# Snap FAQ
+# Snaps FAQ
 
 {% hint style="info" %}
 If you have questions about snaps, ask them in the [#ubuntu-snap](https://open.rocket.chat/channel/ubuntu-snap) channel.
@@ -24,7 +24,7 @@ sudo snap set rocketchat-server port=8080
 
 Ensure you restart the `rocketchat-service` service afterward for the change to take effect. **You only need to restart the Rocket.Chat application itself, not the database or Caddy**.
 
-For enabling TLS/SSL, check out our guide for enabling caddy [here](auto-ssl-with-snaps.md).
+For enabling TLS/SSL, check out our guide for enabling caddy [here](../../../deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/auto-ssl-with-snaps.md).
 
 </details>
 
@@ -217,7 +217,7 @@ The snap's policy is to restart on failure.
 
 <summary>How do I restore backup data to my Snap?</summary>
 
-See [snap-backup-and-restore.md](snap-backup-and-restore.md "mention").
+See [snap-backup-and-restore.md](../../../deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/snap-backup-and-restore.md "mention").
 
 </details>
 
@@ -225,7 +225,7 @@ See [snap-backup-and-restore.md](snap-backup-and-restore.md "mention").
 
 <summary>How do I back up my Snap data?</summary>
 
-See [snap-backup-and-restore.md](snap-backup-and-restore.md "mention")
+See [snap-backup-and-restore.md](../../../deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/snap-backup-and-restore.md "mention")
 
 </details>
 
