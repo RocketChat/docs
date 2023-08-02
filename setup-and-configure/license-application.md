@@ -1,12 +1,12 @@
 # Enterprise License Application
 
+&#x20;In the realm of open-source communication, Rocket.Chat, has always been at the forefront of providing secure and scalable solutions. To fully appreciate Rocket.Chat's breadth and depth, you are encouraged to try out the enterprise version. Having a Rocket.Chat License unlocks additional functionality. [Check out our plans](https://www.rocket.chat/pricing). &#x20;
+
+All directions on this page assume you have a valid license and now wish to apply it. If you do not yet have one, please get in [contact with sales](https://www.rocket.chat/sales-contact).
+
 {% hint style="success" %}
 **Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
 {% endhint %}
-
-Having a Rocket.Chat License unlocks additional functionality included with your purchased [plan](https://www.rocket.chat/pricing). &#x20;
-
-All directions on this page assume you have a valid license in hand and now wish to apply it. If you do not yet have one, please get in [contact with sales](https://www.rocket.chat/sales-contact).
 
 ## I have a…
 
