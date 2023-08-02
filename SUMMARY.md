@@ -81,10 +81,10 @@
 
 ## Setup and Configure
 
-* [Enterprise License Application](setup-and-configure/license-application.md)
+* [Enterprise License Application](setup-and-configure/enterprise-license-application.md)
 * [Accessing Your Workspace](setup-and-configure/accessing-your-workspace/README.md)
   * [Rocket.Chat Setup Wizard](setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard.md)
-  * [Admin Account Creation](setup-and-configure/accessing-your-workspace/creating-the-first-administrator.md)
+  * [Admin Account Creation](setup-and-configure/accessing-your-workspace/admin-account-creation.md)
   * [Basic White-labeling](setup-and-configure/accessing-your-workspace/basic-white-labeling.md)
   * [Inviting Users](setup-and-configure/accessing-your-workspace/inviting-users.md)
 * [Advanced workspace management](setup-and-configure/advanced-workspace-management/README.md)

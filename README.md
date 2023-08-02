@@ -35,8 +35,8 @@ Rocket.Chat ensures top-tier data privacy, security, and ownership for your comm
 [prepare-for-your-deployment](deploy/prepare-for-your-deployment/)
 {% endcontent-ref %}
 
-{% content-ref url="setup-and-configure/accessing-your-workspace/creating-the-first-administrator.md" %}
-[creating-the-first-administrator.md](setup-and-configure/accessing-your-workspace/creating-the-first-administrator.md)
+{% content-ref url="setup-and-configure/accessing-your-workspace/admin-account-creation.md" %}
+[admin-account-creation.md](setup-and-configure/accessing-your-workspace/admin-account-creation.md)
 {% endcontent-ref %}
 
 {% content-ref url="use-rocket.chat/user-guides/access-your-workspace.md" %}
