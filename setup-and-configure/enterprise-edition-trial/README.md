@@ -4,26 +4,9 @@ description: Apply Enterprise license for your 30-day Trial.
 
 # Enterprise Edition Trial
 
-## Benefits of Rocket.Chat Enterprise Trial
+In the world of digital communication platforms, the ability to test and evaluate features before making a commitment is crucial. Rocket.Chat offers a 30-day trial of its Enterprise Edition, allowing potential users to experience its advanced features before deciding to upgrade. This document will provide a detailed overview of how to apply for the Enterprise Edition trial and the benefits it offers.
 
-The Rocket.Chat Enterprise edition has many benefits, which include the following:
-
-* Message auditing panel and logs
-* Access to Support
-* Omnichannel features for improved management and agent efficiency &#x20;
-* Engagement Dashboard
-* Access to Enterprise bundle on the marketplace&#x20;
-* High scalability&#x20;
-* Unlimited & secure push notifications
-* Full Matrix Federation
-* Advanced identity management
-* Centralized admin controls
-* Data loss prevention
-* Video conferencing integrations
-* Custom roles and permissions
-* Guest users
-* Custom white-label branding
-* Delivered/read receipt
+**Benefits of Rocket.Chat Enterprise Trial**: The Rocket.Chat Enterprise Edition trial offers numerous benefits, including a message auditing panel and logs, access to support, omnichannel features for improved management and agent efficiency, an engagement dashboard, access to the Enterprise bundle on the marketplace, high scalability, unlimited and secure push notifications, full Matrix Federation, advanced identity management, centralized admin controls, data loss prevention, video conferencing integrations, custom roles and permissions, guest users, custom white-label branding, and delivered/read receipt.
 
 ## Get Enterprise Edition if you have a workspace
 
@@ -61,3 +44,5 @@ To apply for an extension,
 * Select the **Trial Extension.**
 * Add a message to Sales describing why you need the extension and click **Send Request**.&#x20;
 * The request is sent to the Rocket.Chat Sales Team for evaluation.
+
+Rocket.Chat's Enterprise Edition trial provides potential users with an opportunity to experience the platform's advanced features before making a commitment. By offering a comprehensive trial process and the ability to extend the trial if needed, Rocket.Chat ensures that users can make an informed decision about upgrading to the Enterprise Edition.

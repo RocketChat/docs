@@ -4,13 +4,13 @@ The advanced workspace management features of Rocket.Chat offers a range of func
 
 [**Authentication**](authentication/): Authenticate users into your Rocket.Chat workspace through [LDAP](../../use-rocket.chat/workspace-administration/settings/ldap/), [SAML](../../use-rocket.chat/workspace-administration/settings/saml/), [OpenID](authentication/open-id-connect/), and [OAuth](../../use-rocket.chat/workspace-administration/settings/oauth/).
 
-[**Google Cloud Features**](google-translate-integration.md): Implement various Google Cloud features in your workspace—for example, Google Auto-Translate.
+[**Google Cloud Features**](google-cloud.md): Implement various Google Cloud features in your workspace—for example, Google Auto-Translate.
 
 [**Environment Variables**](../../deploy/rocket.chat-environment-configuration/environment-variables.md): Configure your workspace settings using environment variables.
 
 [**Identity management (EE vs. CE)**](identity-management-ee-vs-ce.md)**:** Learn the differences between community and enterprise editions while using Identity Management Systems.
 
-[**Notifications**](notifications.md): Update your workspace notification preferences.
+[**Notifications**](../../use-rocket.chat/user-guides/notifications.md): Update your workspace notification preferences.
 
 [**Database Migration**](database-migration.md): Configure the database migration collection.
 

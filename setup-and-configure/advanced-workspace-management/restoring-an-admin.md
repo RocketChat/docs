@@ -1,12 +1,10 @@
 # Restoring an Admin User
 
-You may lose access to a vital admin user (or the only Admin on the server) and need to restore it without using another admin user. To restore an admin, you will need to access the database.
+In the management of any digital platform, there may be instances where access to an admin user is lost and needs to be restored. Rocket.Chat provides a comprehensive process for restoring an admin user without requiring another admin user. This document will provide a detailed overview of how to restore an admin user in Rocket.Chat by accessing the database.
 
-## Access the Database
+**Access the Database:** Restoring an admin user in Rocket.Chat involves accessing the database, which can be done in various ways depending on how the Rocket.Chat server was installed. Restoring an admin user in Rocket.Chat involves accessing the database, which can be done in various ways depending on how the Rocket.Chat server was installed. For Docker-based installations, the mongo shell within the mongo container can be accessed, and for Ubuntu Snaps installations, MongoDB can be connected directly.
 
-You can access the database in various ways, depending on how you installed Rocket.Chat server.
-
-### Docker-based installations
+1. **Docker-based installations**:
 
 To open the **mongo shell** within the **mongo container**,
 
@@ -47,7 +45,7 @@ Make sure to replace `rocketchat` with the name of your Mongo database. If you'r
 show dbs
 ```
 
-### Ubuntu Snaps Installation
+2. **Ubuntu Snaps Installation**:
 
 * Connect to MongoDB using the following command:
 
@@ -61,11 +59,11 @@ sudo rocketchat-server.mongo
 use parties
 ```
 
-## Updating the Admin Password
+3. **Updating the Admin Password**:
 
-To update the admin password, you can either use a one-time access token or update the admin password to a random string.&#x20;
+To update the admin password, you can either use a one-time access token or update the admin password to a random string.
 
-* Using an access token will require the user to change his password.
+Using an access token will require the user to change his password.
 
 ```javascript
 db.getCollection('users').update({username:"administrator"}, {$set: { "services":{"loginToken":{"token":"some-token-id-that-you-will-use-to-login-once"}}, "requirePasswordChange":true} })
@@ -73,7 +71,7 @@ db.getCollection('users').update({username:"administrator"}, {$set: { "services"
 
 Then access `http://{your server url}/login-token/some-token-id-that-you-will-use-to-login-once` to log in.
 
-* Alternatively, you can update the admin password to a random string. Using `12345` as an example of the password, use its hashed(bycrypt) value:
+Alternatively, you can update the admin password to a random string. Using `12345` as an example of the password, use its hashed(bycrypt) value:
 
 ```javascript
 db.getCollection('users').update({username:"administrator"}, { $set: {"services" : { "password" : {"bcrypt" : "$2a$10$n9CM8OgInDlwpvjLKLPML.eizXIzLlRtgCh3GRLafOdR9ldAUh/KG" } } } })
@@ -85,9 +83,7 @@ _Replace `administrator` with the appropriate username of the administrator on y
 
 * Restart your application container in case the new password is not accepted yet.
 
-### **Generate a Valid Admin Password**
-
-To generate a valid password and its hashed value with `bcrypt-cli,`
+4. **Generate a Valid Admin Password:** To generate a valid password and its hashed value with `bcrypt-cli,`
 
 * Install `bcrypt-cli` with:
 
@@ -95,15 +91,17 @@ To generate a valid password and its hashed value with `bcrypt-cli,`
 // npm install -g @carsondarling/bcrypt-cli
 ```
 
-* Then,  use this to generate your `bcrypt` password:
+* Then, use this to generate your `bcrypt` password:
 
 ```
 // npm install -g @carsondarling/bcrypt-cli bcrypt $(echo -n "yourPasswordHere" | sha256sum | cut -d " " -f 1) && echo
 ```
 
-## Reset a User role to Admin
+5. **Reset a User role to Admin**:
 
-To reset a user role to admin, run the following database command :
+In addition to updating the password, the user role can also be reset to admin using a specific database command. This ensures that the restored user has the necessary admin privileges.
+
+Run the following database command :
 
 ```javascript
 db.users.update({username: "administrator"}, { $push: { roles: "admin"}})

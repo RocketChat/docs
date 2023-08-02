@@ -13,5 +13,5 @@ Always confirm that your mobile device settings allow the Rocket.Chat app to sho
 * Click **Save Changes.**
 
 {% hint style="info" %}
-Learn about **Idle Time Limit** and enable **Auto-away** from[ User Presence](../../../setup-and-configure/advanced-workspace-management/notifications.md#user-presence).
+Learn about **Idle Time Limit** and enable **Auto-away** from[ User Presence](../../user-guides/notifications.md#user-presence).
 {% endhint %}

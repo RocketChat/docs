@@ -1,6 +1,6 @@
 # Identity Management (EE vs CE)
 
-Guaranteeing that only the right individuals have appropriate access to your workspace and every conversation there is essential. With Rocket.Chat, you can connect to your Active Directory application or Identity Management System through [Lightweight Directory Access Protocol](../../use-rocket.chat/workspace-administration/settings/ldap/) (LDAP), [Open Authorization](../../use-rocket.chat/workspace-administration/settings/oauth/) (OAuth), and [Security Assertion Markup Language](../../use-rocket.chat/workspace-administration/settings/saml/) (SAML).
+Identity management plays a crucial role in ensuring secure and efficient user access to digital resources. Rocket.Chat, , offers robust identity management features in both its Enterprise Edition (EE) and Community Edition (CE). This document will provide a comprehensive overview of the identity management features in Rocket.Chat's EE and CE, highlighting the differences and capabilities of each. With Rocket.Chat, you can connect to your Active Directory application or Identity Management System through [Lightweight Directory Access Protocol](../../use-rocket.chat/workspace-administration/settings/ldap/) (LDAP), [Open Authorization](../../use-rocket.chat/workspace-administration/settings/oauth/) (OAuth), and [Security Assertion Markup Language](../../use-rocket.chat/workspace-administration/settings/saml/) (SAML).
 
 ## **LDAP / AD**  <a href="#ldap3" id="ldap3"></a>
 
