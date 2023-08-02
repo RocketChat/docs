@@ -4,9 +4,9 @@ description: Creating your first admin user and user group.
 
 # Admin Account Creation
 
-After deploying the server, the first user to register becomes the administrator, with the privilege to set other users as administrators.&#x20;
+As you set up your workspace, creating the first administrator account is one of the most critical steps. The administrator has the highest level of control over the workspace, making this role pivotal for effective workspace management. This guide will walk you through the process of creating the first administrator for your Rocket.Chat workspace.
 
-The [**Setup Wizard**](../../use-rocket.chat/workspace-administration/settings/setup-wizard.md) shows you how to create the first admin user of your workspace. Alternatively, you can configure an admin user during deployment by specifying it in the configuration files.
+[rocket.chat-setup-wizard.md](rocket.chat-setup-wizard.md "mention") allows you to create the first admin user of your workspace. Alternatively, you can configure an admin user during deployment by specifying it in the configuration files.
 
 If your server has no administrators, you can create the first admin account by defining the environment variables `INITIAL_USER, ADMIN_PASS,` and `ADMIN_EMAIL` once. Open your terminal and specify these variables line by line.
 

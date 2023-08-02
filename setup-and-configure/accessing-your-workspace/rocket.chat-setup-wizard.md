@@ -38,7 +38,7 @@ Rocket.Chat's setup wizard is designed to streamline the process of creating and
   * Agree to the [**Terms**](../../rocket.chat-legal/terms-of-service/) and [**Privacy Policy**](broken-reference) and **Register**.
   * Open your email inbox and click **verify registration** to ensure the security codes match.
 
-Once you've completed these steps, your workspace will be set up and ready to use. You can access it by logging in with your admin credentials.
+Once you've completed these steps, your workspace will be set up and ready to use. You can access it by logging in with your admin credentials. You can change the information provided here in [setup-wizard.md](../../use-rocket.chat/workspace-administration/settings/setup-wizard.md "mention").
 
 {% hint style="info" %}
 With a registered workspace, you have access to benefits like:
