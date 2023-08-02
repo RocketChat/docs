@@ -1,5 +1,9 @@
 # Client Compatibility Matrix
 
+Rocket.Chat maintains a client compatibility matrix to ensure its mobile and desktop applications function correctly across different server versions. This document will provide an overview of Rocket.Chat's approach to maintaining client compatibility.
+
+While all past releases are not officially supported and may cause problems, Rocket.Chat strives to ensure that its applications function correctly with the most recent server versions. This approach ensures that users can leverage the latest features and improvements while maintaining a secure,  stable, and reliable user experience.
+
 ## Desktop
 
 | Electron Version | Supported releases |
@@ -16,7 +20,7 @@
 
 ## Mobile
 
-Our mobile applications have a maximum of 3 major server versions that is supported on each release. All the past releases are not officially supported and may cause problems. It is because our APIs are evolving a lot on each release, and sometimes it is hard to maintain compatibility with older versions when they don’t have support for specific features.
+Rocket.Chat's mobile applications support a maximum of three major server versions on each release. This is due to the rapid evolution of the platform's APIs with each release, which can make maintaining compatibility with older versions challenging, especially when those versions lack support for specific features.
 
 | App Version | Supported releases |
 | :---------: | :----------------: |

@@ -33,7 +33,9 @@ This ensures we can provide quick fixes and a more efficient way to reproduce pr
 We are deprecating cloud services, mobile and desktop applications for legacy server versions with the introduction of the new policy, which will take effect on **October 1, 2023**. For all the Community and Enterprise workspaces to continue using our mobile and desktop applications and access cloud services after October 1st, they must stay within the supported window.
 {% endhint %}
 
-Rocket.Chat provides support for, at least, 3 months for each release. Rocket.Chat provides support for 6 months to the latest releases (LTS) of each major version, e.g. 1.3 is the latest release of major version 1.x before major version 2.0. Rocket.Chat may provide a longer period of support depending on the necessity, check the table below to verify the final support date of each release version.
+Rocket.Chat will provide support for 3 months for the prior minor release and 6 months for the prior major release (LTS). In simple terms, for example, we'll support 1.2.x for 3 months after the release date of 1.3.0. And we'll support 1.3.x for 6 months after the release of 2.0.0.\
+\
+[Rocket.Chat](https://rocket.chat/) may provide a longer period of support depending on the necessity, check the table below to verify the final support date of each release version.
 
 By support, we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the below-mentioned versions. Bugs not related to security issues will be fixed only in new versions.
 
