@@ -94,7 +94,7 @@
       * [Keycloak](setup-and-configure/advanced-workspace-management/authentication/open-id-connect/keycloak.md)
       * [Okta Identity Cloud Service](setup-and-configure/advanced-workspace-management/authentication/open-id-connect/okta.md)
     * [iframe based Single Sign On](setup-and-configure/advanced-workspace-management/authentication/single-sign-on-iframe.md)
-  * [Google Cloud Features](setup-and-configure/advanced-workspace-management/google-cloud.md)
+  * [Google Translate Integration ](setup-and-configure/advanced-workspace-management/google-translate-integration.md)
   * [Managing Settings Using Environmental Variables](setup-and-configure/advanced-workspace-management/managing-settings-using-environmental-variables.md)
   * [Identity Management (EE vs CE)](setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md)
   * [Notifications](setup-and-configure/advanced-workspace-management/notifications.md)
