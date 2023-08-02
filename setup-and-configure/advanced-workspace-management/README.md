@@ -1,5 +1,7 @@
 # Advanced workspace management
 
+The advanced workspace management features of Rocket.Chat offers a range of functionalities that can be customized to suit the unique needs of any workspace. From managing users and channels to integrating with third-party applications, the advanced workspace management features provide a robust framework for efficient team collaboration. The security offerings ensure that your communication remains safe, while platform enhancements improve the overall user experience.
+
 [**Authentication**](authentication/): Authenticate users into your Rocket.Chat workspace through [LDAP](../../use-rocket.chat/workspace-administration/settings/ldap/), [SAML](../../use-rocket.chat/workspace-administration/settings/saml/), [OpenID](authentication/open-id-connect/), and [OAuth](../../use-rocket.chat/workspace-administration/settings/oauth/).
 
 [**Google Cloud Features**](google-cloud.md): Implement various Google Cloud features in your workspace—for example, Google Auto-Translate.
