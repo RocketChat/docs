@@ -173,10 +173,10 @@ To install Rocket.Chat,
 
 * Installing [Docker](https://docs.docker.com/install) and [Docker-compose](https://docs.docker.com/compose/install/) (v2 is required).
 * Fetch the Rocket.Chat [compose file](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml).
-* Configure the environmental variables and [install Rocket.Chat](../docker-and-docker-compose.md).
+* Configure the environmental variables and [install Rocket.Chat](../rapid-deployment-methods/docker-and-docker-compose/).
 
-{% content-ref url="../docker-and-docker-compose.md" %}
-[docker-and-docker-compose.md](../docker-and-docker-compose.md)
+{% content-ref url="../rapid-deployment-methods/docker-and-docker-compose/" %}
+[docker-and-docker-compose](../rapid-deployment-methods/docker-and-docker-compose/)
 {% endcontent-ref %}
 
 ## Use it

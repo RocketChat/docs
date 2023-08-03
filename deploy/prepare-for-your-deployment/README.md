@@ -13,7 +13,7 @@ We have a minimum set of requirements to obtain official support from our team. 
 [Docker](https://www.docker.com) is widely used for packaging applications in containers and distributing them as images, providing abstraction and isolation layers from the OS (operational system). It allows the application to be shipped with a specific version of the OS compatibility layer and its dependencies already installed and configured.
 
 {% hint style="success" %}
-We offer a variety of Deployment methods, and we recommend you set up using our [Docker & Docker Compose](docker-and-docker-compose.md) guide for several reasons mentioned below.
+We offer a variety of Deployment methods, and we recommend you set up using our [Docker & Docker Compose](rapid-deployment-methods/docker-and-docker-compose/) guide for several reasons mentioned below.
 {% endhint %}
 
 ## Environment
@@ -26,8 +26,8 @@ We strongly recommend using our official Docker images to eliminate environmenta
 Rocket.Chat's cloud uses our official Docker images, which makes this installation method the most tested.
 {% endhint %}
 
-{% content-ref url="docker-and-docker-compose.md" %}
-[docker-and-docker-compose.md](docker-and-docker-compose.md)
+{% content-ref url="rapid-deployment-methods/docker-and-docker-compose/" %}
+[docker-and-docker-compose](rapid-deployment-methods/docker-and-docker-compose/)
 {% endcontent-ref %}
 
 #### Why Docker?
