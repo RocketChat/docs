@@ -6,7 +6,7 @@
 
 ## Choosing a Deployment Method
 
-Rocket.Chat offers various deployment methods, and choosing can get slightly conflicting. Although we recommend using [Docker and Docker Compose](docker-and-docker-compose.md), you may want to know when best to consider other deployment methods.
+Rocket.Chat offers various deployment methods, and choosing can get slightly conflicting. Although we recommend using [Docker and Docker Compose](rapid-deployment-methods/docker-and-docker-compose/), you may want to know when best to consider other deployment methods.
 
 * **Deployment Methods**: Docker, Snap, Manual, Ansible, etc
 * **Deployment Platforms**: AWS, Digital Ocean, GCP, etc

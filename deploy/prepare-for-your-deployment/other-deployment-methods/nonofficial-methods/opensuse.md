@@ -260,8 +260,8 @@ These are docs and snippets I used to figure all of this out.
 [ubuntu.md](../manual-installation/debian-based-distros/ubuntu.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../aws.md" %}
-[aws.md](../../aws.md)
+{% content-ref url="../../cloud-deployments/aws.md" %}
+[aws.md](../../cloud-deployments/aws.md)
 {% endcontent-ref %}
 
 {% embed url="https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-deploy-rocket-chat-on-ubuntu-14-04" %}

@@ -1,16 +1,16 @@
-# RocketChatCTL
+# Deploy with RocketchatCTL
 
-Rocketchatctl is a powerful command-line tool written in bash designed to simplify the installation, configuration, and maintenance of Rocket.Chat servers on Linux hosts. It automates the entire setup process, including installing dependencies, configuring repositories, setting up directories, permissions, and managing systemd services for both Node.js and MongoDB. Additionally, `rocketchatctl` provides an effortless way to keep your Rocket.Chat installation up to date by checking for available updates and performing smooth upgrades to the latest release.
+Rocketchatctl is a powerful command-line tool written in bash designed to simplify the installation, configuration, and maintenance of Rocket.Chat servers on Linux hosts. It automates the entire setup process, including installing dependencies, configuring repositories, setting up directories, permissions, and managing systemd services for both Node.js and MongoDB.&#x20;
 
-Furthermore, `rocketchatctl` optionally installs a loadbalancer/proxy with auto SSL provided by Let's Encrypt.
+Additionally, `rocketchatctl` provides an effortless way to keep your Rocket.Chat installation updated by checking for available updates and performing smooth upgrades to the latest release. Furthermore, it offers the option to install a load balancer/proxy with auto SSL provided by Let's Encrypt for enhanced security.
 
-{% hint style="info" %}
-To learn more, visit the [GitHub repository](https://github.com/RocketChat/install.sh).
+{% hint style="success" %}
+&#x20;For additional information, see the [GitHub repository](https://github.com/RocketChat/install.sh).
 {% endhint %}
 
-## Environment
+## Preparation Steps
 
-Currently, `rocketchatctl` is supported in these Linux distributions:
+`rocketchatctl` is currently supported in these Linux distributions:
 
 * Ubuntu 18.04, 19.04, 19.10, 20.04, 21.04, 21.10&#x20;
 * CentOS 7, 8
@@ -22,78 +22,78 @@ Currently, `rocketchatctl` is supported in these Linux distributions:
 The automatic installation for MongoDB and Node.js for CentOS is still under development.
 {% endhint %}
 
-{% hint style="info" %}
+### Deploy Rocket.Chat with RocketChatCTL
+
+{% hint style="success" %}
 All `rocketchatctl` commands must be run as an admin with root privileges.
 {% endhint %}
 
-## Install Rocket.Chat
+You can run `rocketchatctl install` directly, curling the _install.sh_ script from our website. `install.sh` will download `rocketchatctl` , save it in `/usr/local/bin` , and call `rocketchatctl` with the install option. This installation prompts you for the following:
 
-You can run `rocketchatctl install` directly, curling the _install.sh_ script from our website. `install.sh` will download `rocketchatctl` , save it in `/usr/local/bin` , and call `rocketchatctl` with the install option.&#x20;
-
-This installation prompts you for the following:
-
-* **ROOT\_URL**: The public URL where Rocket.Chat server will be accessible on the Internet
-* **Webserver**: The web server to use as a reverse proxy. You can choose caddy, traefik, or none. If you choose a web server, it also prompts you for the email address to use.
+1. **ROOT\_URL**: The public URL where Rocket.Chat server will be accessible on the Internet
+2. **Webserver**: The web server to use as a reverse proxy. You can choose caddy, traefik, or none. If you choose a web server, it also prompts you for the email address to use.
 
 ```bash
 bash -c "$(curl https://install.rocket.chat)"
 ```
 
-If you want an unattended install, use unattended install flags with `install.sh` script like this:
+* If you want an unattended install, use unattended install flags with `install.sh` script like this:
 
 ```bash
 bash -c "$(curl https://install.rocket.chat)" -s --root-url=https://www.example.com --webserver=traefik --letsencrypt-email=myemail@mydomain.com
 ```
 
-If you already have `rocketchatctl` installed, run the following command:
+* If you already have `rocketchatctl` installed, run the following command:
 
 ```bash
 rocketchatctl install
 ```
 
-* To use your Mongo server, update the node version required for Rocket.Chat, listen to a different port, and install a specific release; run this command:
+* To utilize your Mongo server, ensure that you have updated the required node version for Rocket.Chat, listen to a different port, and install a specific release with this command:
 
 ```bash
 rocketchatctl install --root-url=https://www.example.com --webserver=none --use-mongo --install-node --port=4000 --version=3.9.0
 ```
 
-### Update Rocket.Chat with `rockectchatctl`
+**Update Rocket.Chat with `rockectchatctl`**
 
-Check for release updates by running the following command:
+The "**update**" option begins by creating a temporary backup directory and fetching the latest Rocket.Chat release. After downloading, it launches the new release and verifies its health by querying the info API. If any startup issues occur, it automatically reverts to the previous version from the backup and displays an error message explaining the problem encountered.
+
+* Check for release updates by running the following command:
 
 ```bash
 rocketchatctl check-updates
 ```
 
-Update to the latest release with this command:
+* Update to the latest Rocket.Chat release with this command:
 
 ```bash
 rocketchatctl update
 ```
 
-The "update" option initiates the process by creating a temporary backup directory and fetching the most recent release of rocket.chat. Once downloaded, it launches the new release and verifies its health by querying the info API. If any issues arise during the startup, it will automatically revert to the previously installed version from the backup and provide an error message explaining the encountered problem.
+**Upgrade `rockectchatctl`**
 
-### Upgrade `rockectchatctl`
+The upgrade option downloads the latest version available for `rocketchatctl`  command line tool, compares it to your current `rocketchatctl` , and upgrade to the latest version if needed. Ensure to check that you are running the latest `rocketchactl`.
 
-The upgrade option downloads the latest version available for `rocketchatctl`  command line tool, compare it to your current `rocketchatctl` , and upgrade to the latest version if needed. Ensure to check that you are running the latest `rocketchactl`.
+**Backup `rocketchatctl`**
 
-```bash
-rocketchatctl upgrade-rockectchatctl
-```
-
-### **Backup `rocketchatctl`**
-
-Backup `rocketchatctl` data by running this command:
+* Backup `rocketchatctl` data by running this command:
 
 ```
 rocketchatctl backup
 ```
 
-By default, a backup is made in the `/tmp` directory. You can specify the location using the `--backup-dir` flag. To get more help, run `rocketchatctl --help.`
+By default, a backup is made in the `/tmp` directory. You can specify the location using the `--backup-dir` flag.
 
-## Options and Flags
+**Options and Flags**&#x20;
 
-Run `rocketchatctl help` to check for  options and flags:
+* To check for options and flags, run this command:
+
+```
+  rocketchatctl --help
+```
+
+You will see something similar to this:
 
 ```
 Usage: rocketchatctl [options] [--root-url=ROOT_URL --port=PORT --letsencrypt-email=EMAIL --webserver=WEBSERVER  --version=VERSION --install-node --use-mongo]
