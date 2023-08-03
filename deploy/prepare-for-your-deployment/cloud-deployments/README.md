@@ -17,9 +17,9 @@ If you need full control of your deployment, here are some guides for specific e
 
 * [Aliyun](../other-deployment-methods/nonofficial-methods/aliyun.md)
 * [Amazon Web Services](aws.md)
-* [Digital Ocean](digitalocean.md)
+* [Digital Ocean](../other-deployment-methods/digitalocean.md)
 * [Meteor Galaxy](../other-deployment-methods/nonofficial-methods/galaxy.md)
-* [Google Compute Engine](google-compute-engine.md)
+* [Google Compute Engine](../other-deployment-methods/google-compute-engine.md)
 * [IBM Cloud](ibm-cloud.md)
 * [Syncloud.org](../other-deployment-methods/nonofficial-methods/syncloud.md)
 
