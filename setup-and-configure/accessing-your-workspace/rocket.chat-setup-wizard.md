@@ -4,11 +4,11 @@ In the digital age, effective communication is the key to success for any team. 
 
 You can access Rocket.Chat in two ways:
 
-1. **Adding Rocket.Chat server to Desktop Client**: Once you've successfully installed the [Rocket.Chat Desktop Client](../../deploy/installing-client-apps/#desktop-apps), initiate the application. Input the URL of your server. Proceed by clicking on **Connect**. If you wish to incorporate additional servers into the Desktop client application, click on the plus symbol on the navigation menu's left side.
+1. **Adding Rocket.Chat server to Desktop Client**: Once you've successfully installed the [Rocket.Chat Desktop Client](../installing-client-apps/#desktop-apps), initiate the application. Input the URL of your server. Proceed by clicking on **Connect**. If you wish to incorporate additional servers into the Desktop client application, click on the plus symbol on the navigation menu's left side.
 2. **Accessing Rocket.Chat via a Web Browser**: To access Rocket.Chat through a web browser, navigate to the address bar, and input the URL associated with your Rocket.Chat server.
 
 {% hint style="info" %}
-* Rocket.Chat provides multiple [Rocket.Chat Client Apps](../../deploy/installing-client-apps/) that can be used for the user interface.&#x20;
+* Rocket.Chat provides multiple [Rocket.Chat Client Apps](../installing-client-apps/) that can be used for the user interface.&#x20;
 * The URL of your Rocket.Chat server may be a local host or domain server URL, depending on how you deploy your workspace.
 {% endhint %}
 

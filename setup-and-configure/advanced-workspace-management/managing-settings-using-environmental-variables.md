@@ -214,4 +214,4 @@ You can force settings to be required on wizard pages by using the `SETTINGS_REQ
 SETTINGS_REQUIRED_ON_WIZARD=Organization_Type,Organization_Name
 ```
 
-Rocket.Chat's use of environmental variables for managing settings provides a powerful and flexible configuration mechanism. To learn more about deploying Rocket.Chat with environment variables, see [environment-variables.md](../../deploy/rocket.chat-environment-configuration/environment-variables.md "mention").
+Rocket.Chat's use of environmental variables for managing settings provides a powerful and flexible configuration mechanism. To learn more about deploying Rocket.Chat with environment variables, see [environment-variables.md](../rocket.chat-environment-configuration/environment-variables.md "mention").

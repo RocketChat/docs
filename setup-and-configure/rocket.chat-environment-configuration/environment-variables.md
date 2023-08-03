@@ -10,7 +10,7 @@ Environmental variables can be specified to take affect how the workspace is dep
 
 ## Deployment Environment Variables
 
-Deployment environment variables are critical in deploying a workspace. Using the most common deployment method [docker-and-docker-compose](../prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/ "mention") these variables can be set in the `compose.yml` file.&#x20;
+Deployment environment variables are critical in deploying a workspace. Using the most common deployment method [docker-and-docker-compose](../../deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/ "mention") these variables can be set in the `compose.yml` file.
 
 Some of these environment variables are mandatory and others can be treated optionally.
 
@@ -37,6 +37,6 @@ Some of these environment variables are mandatory and others can be treated opti
 
 Learn more about the environment variables and their value types that can be used to modify the workspace settings in this guide.
 
-{% content-ref url="../../setup-and-configure/advanced-workspace-management/managing-settings-using-environmental-variables.md" %}
-[managing-settings-using-environmental-variables.md](../../setup-and-configure/advanced-workspace-management/managing-settings-using-environmental-variables.md)
+{% content-ref url="../advanced-workspace-management/managing-settings-using-environmental-variables.md" %}
+[managing-settings-using-environmental-variables.md](../advanced-workspace-management/managing-settings-using-environmental-variables.md)
 {% endcontent-ref %}

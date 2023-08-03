@@ -6,7 +6,7 @@ The advanced workspace management features of Rocket.Chat offers a range of func
 
 [**Google Cloud Features**](google-cloud.md): Implement various Google Cloud features in your workspace—for example, Google Auto-Translate.
 
-[**Environment Variables**](../../deploy/rocket.chat-environment-configuration/environment-variables.md): Configure your workspace settings using environment variables.
+[**Environment Variables**](../rocket.chat-environment-configuration/environment-variables.md): Configure your workspace settings using environment variables.
 
 [**Identity management (EE vs. CE)**](identity-management-ee-vs-ce.md)**:** Learn the differences between community and enterprise editions while using Identity Management Systems.
 

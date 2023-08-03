@@ -4,6 +4,8 @@
 **Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
 {% endhint %}
 
+Installing the Rocket.Chat client applications on your devices marks an exciting stage in your journey towards seamless, secure digital communication. This guide aims to facilitate this transition, providing you with a clear roadmap for the installation process.
+
 ## Desktop Apps
 
 Here you can find the Electron-based Desktop Apps:
@@ -81,3 +83,5 @@ Beta versions of our apps are available on Google Play beta and TestFlight. Help
 [Rocket.Chat Experimental Beta on TestFlight](https://testflight.apple.com/join/7I3dLCNT)
 
 [Rocket.Chat Experimental Beta on Google Play](https://play.google.com/store/apps/details?id=chat.rocket.reactnative)
+
+With your server set up and your client applications installed, you're well on your way to making the most out of everything Rocket.Chat has to offer.

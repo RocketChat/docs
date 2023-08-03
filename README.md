@@ -97,8 +97,8 @@ Rocket.Chat ensures top-tier data privacy, security, and ownership for your comm
 
 #### Minimum Requirements
 
-{% content-ref url="deploy/installing-client-apps/minimum-requirements-for-using-rocket.chat.md" %}
-[minimum-requirements-for-using-rocket.chat.md](deploy/installing-client-apps/minimum-requirements-for-using-rocket.chat.md)
+{% content-ref url="setup-and-configure/installing-client-apps/minimum-requirements-for-client-apps.md" %}
+[minimum-requirements-for-client-apps.md](setup-and-configure/installing-client-apps/minimum-requirements-for-client-apps.md)
 {% endcontent-ref %}
 
 {% content-ref url="deploy/prepare-for-your-deployment/hardware-requirements.md" %}

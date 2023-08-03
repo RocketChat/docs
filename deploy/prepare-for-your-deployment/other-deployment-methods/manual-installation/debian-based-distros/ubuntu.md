@@ -103,7 +103,7 @@ The command above will create a barebone service file; this service file is what
 
 ### Passing environment variables
 
-* Next, pass some environment variables to the running process. See  [Rocket.Chat environmental variables](../../../../rocket.chat-environment-configuration/environment-variables.md) for more details. To update the Rocket.Chat file, run the following command :
+* Next, pass some environment variables to the running process. See  [Rocket.Chat environmental variables](../../../../../setup-and-configure/rocket.chat-environment-configuration/environment-variables.md) for more details. To update the Rocket.Chat file, run the following command :
 
 ```
 sudo systemctl edit rocketchat
@@ -197,5 +197,5 @@ Open a web browser and access the configured ROOT\_URL (`http://your-host-name.c
 
 ## Optional Configurations
 
-* [Configure firewall rule](../../../../rocket.chat-environment-configuration/optional-configurations.md)&#x20;
-* [Configure an HTTP reverse proxy to access Rocket.Chat server](../../../../rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)&#x20;
+* [Configure firewall rule](../../../../../setup-and-configure/rocket.chat-environment-configuration/optional-configurations.md)&#x20;
+* [Configure an HTTP reverse proxy to access Rocket.Chat server](../../../../../setup-and-configure/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)&#x20;
