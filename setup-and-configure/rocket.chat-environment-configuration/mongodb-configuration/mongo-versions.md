@@ -76,4 +76,4 @@ db.runCommand({ grantRolesToUser: "YOUR_USER" , roles: [{role: "clusterMonitor",
 
 ## Supported Storage Engines
 
-Mmapv1 is no longer supported in MongoDB since version 4.2. So to make sure you update your Rocket.Chat installations easily in the future, use the [WiredTiger](https://docs.mongodb.com/manual/core/wiredtiger/) storage engine. If you're already running mmapv1, please [migrate to wiredTiger](../../../setup-and-configure/rocket.chat-environment-configuration/mongodb-configuration/mongodb-mmap-to-wiredtiger-migration.md) immediately.
+Mmapv1 is no longer supported in MongoDB since version 4.2. So to make sure you update your Rocket.Chat installations easily in the future, use the [WiredTiger](https://docs.mongodb.com/manual/core/wiredtiger/) storage engine. If you're already running mmapv1, please [migrate to wiredTiger](mongodb-mmap-to-wiredtiger-migration.md) immediately.

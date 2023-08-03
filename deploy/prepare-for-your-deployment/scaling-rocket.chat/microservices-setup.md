@@ -1,6 +1,6 @@
 # Microservices
 
-![](<../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (45).jpg>)
+![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (45).jpg>)
 
 ## Components Overview
 
@@ -18,14 +18,14 @@ To learn more about NAT, see [the official documentation](https://docs.nats.io/n
 * **stream-hub** (`rocketchat/stream-hub-service)`: A message broker that provides a scalable and fault-tolerant message stream for Rocket.Chat. It receives real-time changes or data from MongoDB and sends it to all the services. The services can act on that change at their discretion.
 * **accounts** (`rocketchat/accounts-service`): The accounts component is responsible for managing user accounts and authentication -
 * **ddp-streamer** (`rocketchat/ddp-streamer-service`): It deals with all web socket connections. All web socket connections must be forwarded directly to this service. It uses the Distributed Data **Protocol** (DDP).
-* **presence** (`rocketchat/presence-service`): The presence component is responsible for managing [user presence status](../../use-rocket.chat/workspace-administration/user-status.md).
+* **presence** (`rocketchat/presence-service`): The presence component is responsible for managing [user presence status](../../../use-rocket.chat/workspace-administration/user-status.md).
 *   **The central Rocket.Chat monolith** (`rocketchat/rocket.chat)`: Each component is disabled from this monolith, so each "service" can take over its respective functionalities.
 
     \`\`
 
 Rocket.Chat microservices deployment looks like the diagram below. Each component is comprised of one container from a bare metal perspective.
 
-![Rocket.Chat deployment with multiple microservices](<../../.gitbook/assets/Micro services deployment - v0.1@2x (1) (1).png>)
+![Rocket.Chat deployment with multiple microservices](<../../../.gitbook/assets/Micro services deployment - v0.1@2x (1) (1).png>)
 
 Since each component is a container, you can pull them the same way as any docker image. Consequently, you can also deploy Rocket.Chat with all these components via docker directly or with docker-compose; however, it is not officially supported. To deploy using docker directly, you are required to set up nats. Ensure that you're using a custom network to connect each related container.
 
@@ -36,7 +36,7 @@ See [the official documentation](https://docs.nats.io/) to learn how to start NA
 Bare minimum, each container must be started with `MONGO_URL` and `TRANSPORTER` environment variables set, pointing to the MongoDB database (using full connection string) and the nats gateway address, respectively. At the very least, each container must be started with `MONGO_URL` and `TRANSPORTER` environment variables set, pointing to the MongoDB database (using full connection string) and the NATS gateway address, respectively. All `/sockjs` and `/websocket` connections must be routed through a reverse proxy or load balancer (LB), with the remainder going to the monolith.
 
 {% hint style="warning" %}
-Again, it is essential to note that we do not support direct docker/compose microservices deployment. The only supported method currently is using [Kubernetes with our official helm chart](../prepare-for-your-deployment/other-deployment-methods/helm.md).
+Again, it is essential to note that we do not support direct docker/compose microservices deployment. The only supported method currently is using [Kubernetes with our official helm chart](../other-deployment-methods/helm.md).
 {% endhint %}
 
 ## Microservices Deployment
@@ -98,7 +98,7 @@ replicaCount: 2
 {% endhint %}
 
 {% hint style="info" %}
-You can find other deployment variables in [helm.md](../prepare-for-your-deployment/other-deployment-methods/helm.md "mention").
+You can find other deployment variables in [helm.md](../other-deployment-methods/helm.md "mention").
 {% endhint %}
 
 * Set up ingress. This architecture requires an ingress controller. All WebSocket connections needs to be sent directly to the `ddp-streamer`service as mentioned earlier. For example, install an nginx controller in your cluster following [this guide](https://kubernetes.github.io/ingress-nginx/deploy/#quick-start), then edit the `values.yml` file and add the following values:
@@ -125,5 +125,5 @@ helm install rocketchat -f Values.yaml rocketchat/rocketchat
 * Once deployed, you should be able to access the Rocket.Chat using the configured host. You can convert your existing monolith deployment to using microservices by making the same changes mentioned in this document and running `helm upgrade` with the values file and the current deployment name instead of `helm install`.
 
 {% hint style="info" %}
-A complete guide on how to deploy with helm can be found in [helm.md](../prepare-for-your-deployment/other-deployment-methods/helm.md "mention"). For multi-workspace deployment, please [contact support](../../resources/get-support/).
+A complete guide on how to deploy with helm can be found in [helm.md](../other-deployment-methods/helm.md "mention"). For multi-workspace deployment, please [contact support](../../../resources/get-support/).
 {% endhint %}
