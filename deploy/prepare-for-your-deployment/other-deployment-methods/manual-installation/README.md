@@ -6,8 +6,8 @@ Here you can find guides on how to manually install and manage Rocket.Chat serve
 [debian.md](debian-based-distros/debian.md)
 {% endcontent-ref %}
 
-{% content-ref url="debian-based-distros/ubuntu.md" %}
-[ubuntu.md](debian-based-distros/ubuntu.md)
+{% content-ref url="../ubuntu.md" %}
+[ubuntu.md](../ubuntu.md)
 {% endcontent-ref %}
 
 {% content-ref url="debian-based-distros/kali-linux.md" %}

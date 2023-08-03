@@ -1,19 +1,13 @@
-# Rocket.Chat on Ubuntu
+# Deploy with Ubuntu
 
 {% hint style="success" %}
 **Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
 {% endhint %}
 
-## Recommended Server Install
+## Preparation Steps
 
-We recommend installing Rocket.Chat using our[ Docker and Docker Compose](../../../rapid-deployment-methods/docker-and-docker-compose/) or [Snaps](../../../snaps.md) guide, as they are the easiest way to get your server up and running on all supported Linux distributions (Ubuntu, etc.). To enable TLS on your site like this `https://yoursite.com` when using the snap, see [this guide](broken-reference).
-
-## Manual installation of Rocket.Chat on Ubuntu
-
-### Requirements
-
-{% hint style="info" %}
-We recommend installing your workspace on any Ubuntu version with LTS.
+{% hint style="success" %}
+To ensure the best performance and stability, it is advisable to install your workspace on an Ubuntu version with Long-Term Support (LTS).
 {% endhint %}
 
 Depending on the version of [Rocket.Chat](https://rocket.chat/) you want to install, check the [release notes](https://github.com/RocketChat/Rocket.Chat/releases) to see the supported engine versions for MongoDB and NodeJs, and install as recommended.&#x20;
@@ -25,7 +19,7 @@ Depending on the version of [Rocket.Chat](https://rocket.chat/) you want to inst
 
     Follow the [official guide](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) to install NodeJS on Ubuntu. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
 
-### Install Rocket.Chat
+### Install Rocket.Chat on Ubuntu
 
 * Install the required packages/dependencies.
 
@@ -39,7 +33,7 @@ sudo apt install -y curl build-essential graphicsmagick
 curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
 ```
 
-* Extract the Rocket.Chat server files.
+* Extract the Rocket.Chat server files using these commands:
 
 ```bash
 tar -xzf /tmp/rocket.chat.tgz -C /tmp
@@ -63,7 +57,7 @@ sudo mv /tmp/bundle /opt/Rocket.Chat
 This guide uses the _/opt directory_. However, you can choose your preferred directory.
 {% endhint %}
 
-## Configure the Rocket.Chat service
+**Configure the Rocket.Chat service**
 
 * Add the rocketchat user and set the right permissions on the Rocket.Chat folder.
 
@@ -81,7 +75,7 @@ sudo chown -R rocketchat:rocketchat /opt/Rocket.Chat
 NODE_PATH=$(which node)
 ```
 
-* Now, save the systemd service file,
+* Now, save the systemd service file.
 
 ```bash
 cat << EOF |sudo tee -a /lib/systemd/system/rocketchat.service
@@ -101,15 +95,15 @@ EOF
 
 The command above will create a barebone service file; this service file is what systemd will use to start your Rocket.Chat daemon/process.
 
-### Passing environment variables
+**Passing environment variables**
 
-* Next, pass some environment variables to the running process. See  [Rocket.Chat environmental variables](../../../../../setup-and-configure/rocket.chat-environment-configuration/environment-variables.md) for more details. To update the Rocket.Chat file, run the following command :
+* Pass some environment variables to the running process. See  [Rocket.Chat environmental variables](https://docs.rocket.chat/deploy/rocket.chat-environment-configuration/environment-variables) for more details. To update the Rocket.Chat file, run the following command :
 
 ```
 sudo systemctl edit rocketchat
 ```
 
-Update the text editor with the information below and save.
+* Update the text editor with the information below and save.
 
 ```
 [Service]
@@ -119,7 +113,7 @@ Environment=MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01
 Environment=MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=rs01
 ```
 
-### MongoDB Configuration
+**MongoDB Configuration**
 
 * Open the MongoDB config file (`/etc/mongod.conf`) in your preferred text editor.&#x20;
 
@@ -181,21 +175,23 @@ Read the [official documentation](https://docs.mongodb.org/manual/reference/conf
 sudo systemctl enable --now mongod
 ```
 
-* The replicaset with this command:
+* Then, initiate  replica set with this command:
 
 ```bash
 mongo --eval "printjson(rs.initiate())"
 ```
 
-You can start your Rocket.Chat workspace now using this command:
+* You can start your Rocket.Chat workspace now using this command:
 
 ```bash
 sudo systemctl enable --now rocketchat
 ```
 
-Open a web browser and access the configured ROOT\_URL (`http://your-host-name.com-as-accessed-from-internet:3000`), follow the prompts to set up an admin account and your organization server info.
+**Configure your Rocket.Chat server**
 
-## Optional Configurations
+To access your Rocket.Chat workspace, open a web browser and navigate to the specified ROOT URL (http://your-host-name.com-as-accessed-from-internet:3000). Follow the configuration prompts to [configure your workspace.](https://docs.rocket.chat/setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard#setup-wizard)
 
-* [Configure firewall rule](../../../../../setup-and-configure/rocket.chat-environment-configuration/optional-configurations.md)&#x20;
-* [Configure an HTTP reverse proxy to access Rocket.Chat server](../../../../../setup-and-configure/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)&#x20;
+**Optional Configurations**
+
+* [Configure firewall rule](https://docs.rocket.chat/deploy/rocket.chat-environment-configuration/optional-configurations)&#x20;
+* [Configure an HTTP reverse proxy to access Rocket.Chat server](https://docs.rocket.chat/deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy)&#x20;
