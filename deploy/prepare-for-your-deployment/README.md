@@ -6,15 +6,20 @@
 
 Explore options for deploying Rocket.Chat. Learn about hosting, server requirements, optimization, and top-notch security measures.
 
-* [**System Requirements**](hardware-requirements.md)**:** Discover the necessary software and hardware specifications for a seamless and successful Rocket.Chat installation and deployment.
-* **Official Deployments:** Rocket.Chat offers two official ways to deploy your workspace.
+[**System Requirements**](hardware-requirements.md)**:** Discover the necessary software and hardware specifications for a seamless and successful Rocket.Chat installation and deployment.
+
+**Official Deployments:** Rocket.Chat offers two modes to deploy your workspace for production.
 
 1. [**Deploy with Docker & Docker Compose**](rapid-deployment-methods/docker-and-docker-compose/)**:** Install and set up Rocket.Chat with Docker & Docker compose.
 2. [**Deploy with AWS**](cloud-deployments/aws.md)**:**  Use docker to set up Rocket.Chat and streamline your deployment on AWS.
-3. [**Deploy with Snaps**](snaps.md)**:** Launch Rocket.Chat using Snaps on all supported Linux distributions.
 
-* [**Update Rocket.Chat**](updating-rocket.chat.md)**:** Learn how to update the version of your Rocket.Chat workspace to the latest or your preferred release. For additional information about the releases, kindly visit our [release page](https://github.com/RocketChat/Rocket.Chat/releases).
-* [**Scaling Rocket.Chat with Microservices**](scaling-rocket.chat/)**:** Ensure optimal performance of your Rocket.Chat workspace even with thousands of users and more by monitoring and scaling it. Deploy Rocket.Chat using microservices or several smaller components, each focusing on a single feature of Rocket.Chat.
+In addition, snaps are a convenient way to rapidly deploy a Rocket.Chat instance for development or discovery purposes. We do not recommend snaps for managing production environment.
+
+[**Deploy with Snaps**](snaps.md)**:** Launch Rocket.Chat using Snaps on all supported Linux distributions.
+
+[**Update Rocket.Chat**](updating-rocket.chat.md)**:** Learn how to update the version of your Rocket.Chat workspace to the latest or your preferred release. For additional information about the releases, kindly visit our [release page](https://github.com/RocketChat/Rocket.Chat/releases).
+
+[**Scaling Rocket.Chat with Microservices**](scaling-rocket.chat/)**:** Ensure optimal performance of your Rocket.Chat workspace even with thousands of users and more by monitoring and scaling it. Deploy Rocket.Chat using microservices or several smaller components, each focusing on a single feature of Rocket.Chat.
 
 ### **Additional Deployments**
 
@@ -28,4 +33,4 @@ Explore options for deploying Rocket.Chat. Learn about hosting, server requireme
 * [**Deploy on Debian**](other-deployment-methods/manual-installation/debian-based-distros/debian.md)**:** Support Rocket.Chat installation for all Debian-based distros.
 * [**Deploy on CentOS**](other-deployment-methods/manual-installation/rocket.chat-in-centos.md)**:**  Install and run Rocket.Chat on CentOS
 * [**Deploy on Kali**](other-deployment-methods/manual-installation/debian-based-distros/kali-linux.md)**:** Set up Rocket.Chat on Kali Linux.
-* [**Plugin Deployments**](other-deployment-methods/plug-in-deployments.md)**: I**ntegrate Rocket.Chat (or LiveChat) features into popular applications via Plug-ins.
+* [**Plugin Deployments**](other-deployment-methods/plug-in-deployments.md)**:** Integrate Rocket.Chat (or LiveChat) features into popular applications via Plug-ins.
