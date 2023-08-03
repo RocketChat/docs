@@ -59,7 +59,7 @@
 ## Setup and Configure
 
 * [Installing Client Apps](setup-and-configure/installing-client-apps/README.md)
-  * [Rocket.Chat Desktop & Mobile Apps](setup-and-configure/installing-client-apps/rocket.chat-desktop-and-mobile-apps.md)
+  * [Desktop & Mobile Apps](setup-and-configure/installing-client-apps/desktop-and-mobile-apps.md)
   * [Minimum Requirements for Client Apps ](setup-and-configure/installing-client-apps/minimum-requirements-for-client-apps.md)
 * [Rocket.Chat Environment Configuration](setup-and-configure/rocket.chat-environment-configuration/README.md)
   * [Node Configuration](setup-and-configure/rocket.chat-environment-configuration/node-configuration/README.md)
