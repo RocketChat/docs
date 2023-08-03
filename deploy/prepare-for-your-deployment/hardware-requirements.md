@@ -1,14 +1,14 @@
 ---
-description: Minimum Requirements for Server Deployment
+description: Requirements for Rocket.Chat Deployment
 ---
 
-# Hardware Requirements
+# System Requirements
 
 {% hint style="success" %}
 **Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
 {% endhint %}
 
-To get a Rocket.Chat instance running, paying attention to the properties of the machine/hardware you have is essential.
+When preparing to deploy your Rocket.Chat workspace, it's essential to consider the necessary software and hardware requirements to ensure a successful deployment.
 
 These requirements vary significantly with the following:
 
@@ -17,40 +17,40 @@ These requirements vary significantly with the following:
 * Users' activities: Solely text-based messaging takes minimal resources, while file sharing and jpg uploads will consume more resources. This is because a set of computations has to be done on these files.
 * Bot or integration activity level: Different bots and integrations have different requirements.
 
-## Bare-metal Server
+### Hardware Requirements
 
-The following are sizes for the lowest-cost deployment unit available for cloud VPS and bare-metal servers.
+1. **Virtual Private Server (VPS)**
 
-* Intel Xeon E5-2603 v4 (or equivalent) \[1.7 GHz, 6 cores, $213 USD]
-* 4 GB RAM
-* 500 GB hard disk or larger
+A VPS is a virtual machine offered as a service by a hosting provider or cloud service, allowing users to access and manage their own isolated server environment.
 
-This minimal hardware configuration is ideal for corporate or groups with up to 1,000 users, up to 300 concurrently active, and moderate levels of mixed uploads, sharing, and bot activities.
+**Minimal VPS requirements**
 
-## VPS(Virtual Private Server)
-
-A virtual private server is a virtual machine sold as a service by an Internet hosting service or cloud provider.
-
-### VPS (minimal)
+This minimal virtual setup, if not over-provisioned, is suitable for small deployments of up to 200 users, and 50 concurrent active users, with limited mixed uploads, sharing, and bot activities.
 
 * Single-core (2 GHz)
 * 1 GB RAM
 * 30 GB of SSD
 
-When not over-provisioned by the provider, this minimal virtual configuration is ideal for small deployments of up to 200 users, up to 50 concurrently active, and a minimal level of mixed uploads, sharing, and bot activities.
+**Recommended VPS requirements**
 
-### VPS (recommended)
+If not over-provisioned, the recommended virtual configuration can handle small deployments with up to 500 users, 100 concurrent active users, and moderate levels of mixed uploads, sharing, and bot activities.
 
 * Dual-core (2 GHz)
 * 2 GB RAM
 * 40 GB of SSD
 
-When not over-provisioned by the provider, this virtual configuration can accommodate small deployments of up to 500 users, up to 100 concurrently active, and moderate levels of mixed uploads, sharing, and bot activities.
+2. **Small Office Server**
 
-## Small Office Server
+This configuration can support a small office or group of up to 50 users, with 25 concurrently active users and moderate levels of mixed uploads, sharing, and bot activities. It relies on a managed MongoDB service ([mlab.com](https://www.mongodb.com/cloud/atlas/migrate/mlab)), as running MongoDB locally on a Pi is not advised.
 
 * Raspberry Pi 3 or Pi 2
 * 4 cores 1 GB memory
 * 32 GB SD card ($15)
 
-This minimal configuration can accommodate a small office or group of up to 50 users and up to 25 concurrently active and moderate levels of mixed uploads, sharing, and bot activities. It is based on a managed MongoDB service ([mlab.com](https://www.mongodb.com/cloud/atlas/migrate/mlab)). Running mongo locally to a Pi is not recommended at this time.
+3. **Bare-metal server**
+
+This minimal hardware configuration is ideal for corporate or groups with up to 1,000 users, up to 300 concurrently active, and moderate levels of mixed uploads, sharing, and bot activities.
+
+* Intel Xeon E5-2603 v4 (or equivalent) \[1.7 GHz, 6 cores, $213 USD]
+* 4 GB RAM
+* 500 GB hard disk or larger
