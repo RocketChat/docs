@@ -6,7 +6,7 @@ As concurrent users on your workspace grow, you may experience system latency. M
 
 You can use microservices to scale your environment while maintaining user performance.
 
-[**Microservices**](microservices-setup.md)**:** Deploy Rocket.Chat using microservices or several smaller components, each focusing on a single feature of Rocket.Chat.
+[**Microservices**](../../scaling-rocket.chat/microservices-setup.md)**:** Deploy Rocket.Chat using microservices or several smaller components, each focusing on a single feature of Rocket.Chat.
 
 {% hint style="success" %}
 **Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!

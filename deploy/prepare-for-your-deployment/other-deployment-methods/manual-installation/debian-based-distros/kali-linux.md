@@ -141,4 +141,4 @@ To access your Rocket.Chat workspace, open a web browser and navigate to the spe
 **Optional configurations**
 
 * [Configure firewall rule](../../../../../setup-and-configure/rocket.chat-environment-configuration/optional-configurations.md)&#x20;
-* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../../setup-and-configure/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)&#x20;
+* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)&#x20;

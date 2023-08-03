@@ -20,8 +20,8 @@
 [additional-configurations](additional-configurations/)
 {% endcontent-ref %}
 
-{% content-ref url="configuring-ssl-reverse-proxy.md" %}
-[configuring-ssl-reverse-proxy.md](configuring-ssl-reverse-proxy.md)
+{% content-ref url="../../deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md" %}
+[configuring-ssl-reverse-proxy.md](../../deploy/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)
 {% endcontent-ref %}
 
 {% content-ref url="environment-variables.md" %}

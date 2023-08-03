@@ -205,6 +205,6 @@ sudo systemctl enable --now rocketchat
 To access your Rocket.Chat workspace, open a web browser and navigate to the specified ROOT URL (http://your-host-name.com-as-accessed-from-internet:3000). Follow the configuration prompts to [configure your workspace.](https://docs.rocket.chat/setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard#setup-wizard)
 
 * [Configure firewall rule](../../../../../setup-and-configure/rocket.chat-environment-configuration/optional-configurations.md)
-* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../../setup-and-configure/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)
-* [Configure mongo access control](../../../../../setup-and-configure/rocket.chat-environment-configuration/mongodb-configuration/mongodb-uri-authentication.md)
-* [Configure production values for mongodb](../../../../../setup-and-configure/rocket.chat-environment-configuration/mongodb-configuration/mongo-options.md)
+* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)
+* [Configure mongo access control](../../../../rocket.chat-environment-configuration/mongodb-configuration/mongodb-uri-authentication.md)
+* [Configure production values for mongodb](../../../../rocket.chat-environment-configuration/mongodb-configuration/mongo-options.md)

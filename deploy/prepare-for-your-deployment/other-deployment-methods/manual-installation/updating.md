@@ -68,7 +68,7 @@ Always look out for the [release notes](https://github.com/RocketChat/Rocket.Cha
 
 ### Replica sets
 
-Any version after `1.0.x` requires `replicasets/oplogging` enabled on Mongo. To learn more, see [mongo replicas](../../../../setup-and-configure/rocket.chat-environment-configuration/mongodb-configuration/mongo-replicas.md).
+Any version after `1.0.x` requires `replicasets/oplogging` enabled on Mongo. To learn more, see [mongo replicas](../../../rocket.chat-environment-configuration/mongodb-configuration/mongo-replicas.md).
 
 ### Upgrading the database
 
@@ -111,7 +111,7 @@ MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=rs01
 ```
 
 {% hint style="info" %}
-To learn more,  [see configure a replica set with MongoDB](../../../../setup-and-configure/rocket.chat-environment-configuration/mongodb-configuration/mongo-replicas.md).
+To learn more,  [see configure a replica set with MongoDB](../../../rocket.chat-environment-configuration/mongodb-configuration/mongo-replicas.md).
 {% endhint %}
 
 #### &#x20;Mongo Authentication
