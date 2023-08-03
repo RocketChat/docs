@@ -16,8 +16,8 @@
 [optional-configurations.md](optional-configurations.md)
 {% endcontent-ref %}
 
-{% content-ref url="extras/" %}
-[extras](extras/)
+{% content-ref url="additional-configurations/" %}
+[additional-configurations](additional-configurations/)
 {% endcontent-ref %}
 
 {% content-ref url="configuring-ssl-reverse-proxy.md" %}
