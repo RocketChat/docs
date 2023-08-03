@@ -35,7 +35,7 @@ sudo reboot
 
 **Fetching Compose file**
 
-* Navigate to your preferred directory and create a `docker-compose.yml` file following [our example](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml).  Alternatively, you can use the `curl` command to download the example `docker-compose.yml` file by executing this command
+* Navigate to your preferred directory and create a `docker-compose.yml` file following [our example](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml).  Alternatively, you can use the `curl` command to download the example `docker-compose.yml` file by executing this command:
 
 ```bash
 curl -L https://raw.githubusercontent.com/RocketChat/Docker.Official.Image/master/compose.yml -O
@@ -165,7 +165,34 @@ Updating the Rocket.Chat image doesn't affect your data since it exists in the M
 
 To update your Rocket.Chat version,
 
-* For a specific version, modify the `RELEASE` variable in the `.env` file to point to the [docker image tag](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) of that version.&#x20;
+* For a specific version, modify the `RELEASE` variable in the `.env` file to point to the [docker image tag](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) of that version. Alternatively, you can edit the  `compose.yml` file to point to the desired Rocket.Chat version.
+
+<details>
+
+<summary>Changing version in <code>.env</code></summary>
+
+In the [`.env`](https://github.com/RocketChat/Docker.Official.Image/blob/master/env.example) file, change the `RELEASE` value to your specified version.
+
+```
+RELEASE=<desired version>
+```
+
+</details>
+
+<details>
+
+<summary>Changing version in <code>compose.yml</code></summary>
+
+In the [`compose.yml`](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml) file, change the `rocketchat` service `image` value to point to an image in the rocketchat registry image with a [tag](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) of your desired version.
+
+```
+services:
+  rocketchat:
+    image:registry.rocket.chat/rocketchat/rocket.chat:<desired version>
+```
+
+</details>
+
 * Use `latest` to update to the latest version of Rocket.Chat. Alternatively, you can pull the Rocket.Chat image directly with the `latest` tag with this command:
 
 ```
@@ -179,6 +206,10 @@ docker compose stop rocketchat
 docker compose rm rocketchat
 docker compose up -d rocketchat
 ```
+
+{% hint style="info" %}
+See [#rocket.chat-docker-images](./#rocket.chat-docker-images "mention") for more details on Rocket.Chat docker images.
+{% endhint %}
 
 ## Enable HTTPs
 
