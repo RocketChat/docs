@@ -58,9 +58,6 @@
 
 ## Setup and Configure
 
-* [Installing Client Apps](setup-and-configure/installing-client-apps/README.md)
-  * [Desktop & Mobile Apps](setup-and-configure/installing-client-apps/desktop-and-mobile-apps.md)
-  * [Minimum Requirements for Client Apps ](setup-and-configure/installing-client-apps/minimum-requirements-for-client-apps.md)
 * [Rocket.Chat Environment Configuration](setup-and-configure/rocket.chat-environment-configuration/README.md)
   * [Node Configuration](setup-and-configure/rocket.chat-environment-configuration/node-configuration/README.md)
     * [Supported NodeJs Version](setup-and-configure/rocket.chat-environment-configuration/node-configuration/supported-nodejs-version.md)
@@ -81,6 +78,9 @@
     * [Setting up Process Managers and Init Systems](setup-and-configure/rocket.chat-environment-configuration/extras/pm2-systemd-upstart.md)
   * [Configuring SSL Reverse Proxy](setup-and-configure/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)
   * [Environment Variables](setup-and-configure/rocket.chat-environment-configuration/environment-variables.md)
+* [Installing Client Apps](setup-and-configure/installing-client-apps/README.md)
+  * [Desktop & Mobile Apps](setup-and-configure/installing-client-apps/rocket.chat-desktop-and-mobile-apps.md)
+  * [Minimum Requirements for Client Apps ](setup-and-configure/installing-client-apps/minimum-requirements-for-client-apps.md)
 * [Enterprise License Application](setup-and-configure/enterprise-license-application.md)
 * [Accessing Your Workspace](setup-and-configure/accessing-your-workspace/README.md)
   * [Rocket.Chat Setup Wizard](setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard.md)

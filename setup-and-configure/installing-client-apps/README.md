@@ -8,4 +8,4 @@ Congratulations on successfully deploying the Rocket.Chat server! You've taken a
 
 In today's interconnected world, having access to your communication platform across various devices, be it desktop or mobile, is not just convenient, but a necessity. This guide provides comprehensive instructions to download, install, and set up the Rocket.Chat apps, customized for your specific device and operating system. Regardless of whether you're a tech expert or a beginner, these guidelines are tailored to ensure a smooth installation process
 
-To use [desktop-and-mobile-apps.md](desktop-and-mobile-apps.md "mention"), make sure you meet the [minimum-requirements-for-client-apps.md](minimum-requirements-for-client-apps.md "mention")
+To use [rocket.chat-desktop-and-mobile-apps.md](rocket.chat-desktop-and-mobile-apps.md "mention"), make sure you meet the [minimum-requirements-for-client-apps.md](minimum-requirements-for-client-apps.md "mention")
