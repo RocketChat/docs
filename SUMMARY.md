@@ -53,9 +53,7 @@
 ## Setup and Configure
 
 * [Rocket.Chat Environment Configuration](setup-and-configure/rocket.chat-environment-configuration/README.md)
-  * [Node Configuration](setup-and-configure/rocket.chat-environment-configuration/node-configuration/README.md)
-    * [Supported NodeJs Version](setup-and-configure/rocket.chat-environment-configuration/node-configuration/supported-nodejs-version.md)
-    * [Runtime Configuration](setup-and-configure/rocket.chat-environment-configuration/node-configuration/runtime-configuration.md)
+  * [NodeJs Configuration](setup-and-configure/rocket.chat-environment-configuration/nodejs-configuration.md)
   * [MongoDB Configuration](setup-and-configure/rocket.chat-environment-configuration/mongodb-configuration/README.md)
     * [MongoDB URI Authentication](setup-and-configure/rocket.chat-environment-configuration/mongodb-configuration/mongodb-uri-authentication.md)
     * [MongoDB Backup and Restore](setup-and-configure/rocket.chat-environment-configuration/mongodb-configuration/mongodb-backup-and-restore.md)
