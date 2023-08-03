@@ -8,11 +8,11 @@ Deploying Rocket.Chat with Docker and Docker Compose is a straightforward and hi
 
 **In this guide, you'll learn how to:**
 
-* [Install Docker and Docker Compose](./#preparation-steps)
-* [Deploy Rocket.Chat on Docker](./#deploy-rocket.chat-on-docker)
-* [Update Rocket.Chat on Docker](./#updating-rocket.chat-on-docker)
-* [Enable HTTPs with Docker deployment](./#enable-https)
-* [Backup and Restore Docker Mongo ](./#docker-mongo-backup-and-restore)
+* [Install Docker and Docker Compose](docker-and-docker-compose.md#preparation-steps)
+* [Deploy Rocket.Chat on Docker](docker-and-docker-compose.md#deploy-rocket.chat-on-docker)
+* [Update Rocket.Chat on Docker](docker-and-docker-compose.md#updating-rocket.chat-on-docker)
+* [Enable HTTPs with Docker deployment](docker-and-docker-compose.md#enable-https)
+* [Backup and Restore Docker Mongo ](docker-and-docker-compose.md#docker-mongo-backup-and-restore)
 
 ## Preparation Steps
 
@@ -62,7 +62,7 @@ cp env.example .env
 * Set the `RELEASE` variable in the `.env`to your desired Rocket.Chat version.&#x20;
 
 {% hint style="info" %}
-See our [releases page](https://github.com/RocketChat/Rocket.Chat/releases) and [available docker images.](./#rocket.chat-docker-images) Keeping the default release as`latest` is **not recommended.**&#x20;
+See our [releases page](https://github.com/RocketChat/Rocket.Chat/releases) and [available docker images.](docker-and-docker-compose.md#rocket.chat-docker-images) Keeping the default release as`latest` is **not recommended.**&#x20;
 {% endhint %}
 
 * Edit `ROOT_URL` from the default `http://localhost:3000` to match your domain name or IP address.

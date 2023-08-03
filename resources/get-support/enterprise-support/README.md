@@ -23,8 +23,8 @@ We require the installation to run the Docker image provided by the Rocket.Chat 
 
 This ensures we can provide quick fixes and a more efficient way to reproduce problems leading to the most efficient support flow possible.
 
-{% content-ref url="../../../deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/" %}
-[docker-and-docker-compose](../../../deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/)
+{% content-ref url="../../../deploy/prepare-for-your-deployment/docker-and-docker-compose.md" %}
+[docker-and-docker-compose.md](../../../deploy/prepare-for-your-deployment/docker-and-docker-compose.md)
 {% endcontent-ref %}
 
 ## Rocket.Chat versions

@@ -16,7 +16,7 @@ If you are interested in quickly deploying an instance, you can try one of these
 If you need full control of your deployment, here are some guides for specific environments:
 
 * [Aliyun](../other-deployment-methods/nonofficial-methods/aliyun.md)
-* [Amazon Web Services](aws.md)
+* [Amazon Web Services](../aws.md)
 * [Digital Ocean](digitalocean.md)
 * [Meteor Galaxy](../other-deployment-methods/nonofficial-methods/galaxy.md)
 * [Google Compute Engine](google-compute-engine.md)

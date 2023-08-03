@@ -9,7 +9,7 @@ Rocket.Chat can now be easily installed on DigitalOcean using the  [1-Click inst
 Set up an A record from your domain to your server's IP address (e.g., _chat.mycompany.com_). , it's important to note that Rocket.Chat won't have HTTPS by default, as certificates are unique to each installation. However, with this configuration, you can enable HTTPS using Let's Encrypt certificates.
 
 {% hint style="success" %}
-Behind the scenes, the image uses Docker to handle the deployment. See [docker-and-docker-compose](../rapid-deployment-methods/docker-and-docker-compose/ "mention") to learn how to manage docker deployments.
+Behind the scenes, the image uses Docker to handle the deployment. See [docker-and-docker-compose.md](../docker-and-docker-compose.md "mention") to learn how to manage docker deployments.
 {% endhint %}
 
 After the Rocket.Chat droplet and your domain is set up,

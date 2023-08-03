@@ -1,6 +1,6 @@
 # Setting Up Client SSL Certificate Authentication for Rocket.Chat
 
-You may want to add an extra layer of your security to your app. After installing Rocket.Chat following our [docker-and-docker-compose](../../../deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/ "mention") guide, here are the next steps to follow:
+You may want to add an extra layer of your security to your app. After installing Rocket.Chat following our [docker-and-docker-compose.md](../../../deploy/prepare-for-your-deployment/docker-and-docker-compose.md "mention") guide, here are the next steps to follow:
 
 ## Install Nginx
 
