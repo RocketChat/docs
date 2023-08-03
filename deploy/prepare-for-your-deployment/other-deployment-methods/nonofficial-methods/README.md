@@ -2,7 +2,7 @@
 description: Community Supported Installation Methods
 ---
 
-# Nonofficial Methods
+# Unsupported Methods
 
 {% hint style="warning" %}
 The installation methods under this section are not officially supported by Rocket.Chat, so we can't assure that these are working or always up to date.
@@ -16,4 +16,4 @@ You can also check their respective forum pages under [Community Guides](https:/
 * [Windows 10 Pro](../windows-10-pro.md)
 * [Windows Server 2012](windows-server.md)
 * [OpenSUSE](opensuse.md)
-* [Kali](../kali-linux.md)
+* [Kali](../manual-installation/debian-based-distros/kali-linux.md)
