@@ -1,26 +1,8 @@
-# Rocket.Chat on Kali Linux
+# Deploy on Kali
 
-Since Kali is a [Debian ](debian.md)distribution, the installation process is quite similar.
+## Preparation Steps
 
-## Requirements
-
-Depending on the version of [Rocket.Chat](https://rocket.chat/) you want to install, check the [release notes](https://github.com/RocketChat/Rocket.Chat/releases) to see the supported engine versions for MongoDB and NodeJs, and install as recommended.&#x20;
-
-*   **MongoDB**
-
-    Please refer to the official MongoDB documentation on installing [MongoDB on Debian](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-debian/).&#x20;
-*   **NodeJS**
-
-    Follow the [official guide](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) to install NodeJS on Debian. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
-
-This installation guide was tested in the following environment:
-
-* Rocket.Chat 3.9.0
-* OS: Kali Rolling 2020.2
-* Mongodb 4.0.19
-* NodeJS 12.18.4
-
-## Install necessary dependency packages
+**Install necessary dependencies**
 
 * Update the package list and configure apt to install the official MongoDB packages with the following repository file:
 
@@ -38,6 +20,10 @@ echo "deb http://repo.mongodb.org/apt/debian stretch/mongodb-org/4.0 main" | sud
 
 * Configure Node.js to be installed via the package manager.
 
+{% hint style="warning" %}
+Install the Node and MongoDB versions required for the Rocket.Chat release you intend to install.
+{% endhint %}
+
 ```bash
 sudo apt-get -y update && sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
 ```
@@ -54,9 +40,9 @@ sudo apt-get install -y build-essential libcurl3 mongodb-org-server mongodb-org 
 sudo npm install -g inherits n && sudo n 12.18.4
 ```
 
-## Install Rocket.Chat
+### **Install Rocket.Chat on Kali**
 
-* Download the latest Rocket.Chat version.
+* Download and extract the latest Rocket.Chat version with these commands:
 
 ```bash
 curl -L https://releases.rocket.chat/latest/download -o /tmp/rocket.chat.tgz
@@ -80,7 +66,7 @@ cd /tmp/bundle/programs/server && npm install
 sudo mv /tmp/bundle /opt/Rocket.Chat
 ```
 
-## Configure the Rocket.Chat service
+**Configure the Rocket.Chat service**
 
 * Add the rocketchat user and set the right permissions on the Rocket.Chat folder.
 
@@ -130,27 +116,29 @@ sudo sed -i "s/^#  engine:/  engine: wiredTiger/"  /etc/mongod.conf
 sudo sed -i "s/^#replication:/replication:\n  replSetName: rs01/" /etc/mongod.conf
 ```
 
-Then, enable and start MongoDB and Rocket.Chat.
+* Enable and start MongoDB with the following command
 
 ```bash
 sudo systemctl enable mongod && sudo systemctl start mongod
 ```
 
+* Then, initiate  replica set with this command:
+
 ```bash
 mongo --eval "printjson(rs.initiate())"
 ```
+
+* Enable and start your Rocket.Chat workspace now using this command:
 
 ```bash
 sudo systemctl enable rocketchat && sudo systemctl start rocketchat
 ```
 
-## Optional configurations
+**Configure your Rocket.Chat server**
 
-You might also want to add the following optional configurations:
+To access your Rocket.Chat workspace, open a web browser and navigate to the specified ROOT URL (http://your-host-name.com-as-accessed-from-internet:3000). Follow the configuration prompts to [configure your workspace.](https://docs.rocket.chat/setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard#setup-wizard)
 
-* [Configure firewall rule](../../../../../setup-and-configure/rocket.chat-environment-configuration/optional-configurations.md)&#x20;
-* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../../setup-and-configure/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)&#x20;
+**Optional configurations**
 
-## Configure your Rocket.Chat server
-
-Open a web browser and access the configured ROOT\_URL (`http://your-host-name.com-as-accessed-from-internet:3000`). Follow the configuration steps to [set up an admin account and your organization and server info](../../../../../setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard.md#setup-wizard).
+* [Configure firewall rule](../../../setup-and-configure/rocket.chat-environment-configuration/optional-configurations.md)&#x20;
+* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../setup-and-configure/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)&#x20;

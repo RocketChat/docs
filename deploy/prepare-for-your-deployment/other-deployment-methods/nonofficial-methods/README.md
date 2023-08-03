@@ -16,4 +16,4 @@ You can also check their respective forum pages under [Community Guides](https:/
 * [Windows 10 Pro](../windows-10-pro.md)
 * [Windows Server 2012](windows-server.md)
 * [OpenSUSE](opensuse.md)
-* [Kali](../manual-installation/debian-based-distros/kali-linux.md)
+* [Kali](../kali-linux.md)

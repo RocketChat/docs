@@ -256,8 +256,8 @@ These are docs and snippets I used to figure all of this out.
 
 {% embed url="https://en.opensuse.org/MongoDB" %}
 
-{% content-ref url="../ubuntu.md" %}
-[ubuntu.md](../ubuntu.md)
+{% content-ref url="../manual-installation/debian-based-distros/ubuntu.md" %}
+[ubuntu.md](../manual-installation/debian-based-distros/ubuntu.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../cloud-deployments/aws.md" %}
