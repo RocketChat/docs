@@ -1,4 +1,6 @@
+import 'colors';
 import { Octokit } from '@octokit/rest';
+import * as Diff from 'diff';
 import semver from 'semver';
 import fs from 'fs/promises';
 
@@ -107,6 +109,28 @@ async function generateTable({ owner, repo } = {}) {
 	text.push(endBlock);
 
 	const file = (await fs.readFile(filePath)).toString();
+
+	const oldTable = file.match(new RegExp(`${startBlock}.+${endBlock}`, 'gs'))[0];
+
+	const diff = Diff.diffLines(oldTable, text.join('\n'), { ignoreWhitespace: true, newlineIsToken: false });
+	diff.forEach((item) => {
+		let color = 'green';
+
+		if (item.removed) {
+			color = 'red';
+		}
+
+		if (item.removed || item.added) {
+			item.value.split('\n').forEach((line) => {
+				if (line === '') { return };
+				console.log(`${item.removed ? '-' : '+'} ${line}`[color]);
+			})
+		}
+	});
+	if (diff.length === 1) {
+		console.log('No changes found');
+	}
+
 	await fs.writeFile(filePath, file.replace(new RegExp(`${startBlock}.+${endBlock}`, 'gs'), text.join('\n')));
 
 	// console.log(text.join('\n'));
