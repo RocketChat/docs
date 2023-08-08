@@ -43,6 +43,7 @@ By support, we mean that Rocket.Chat will provide only security fixes and answer
 In case of security-relevant bugs, we might decide to backport patches to older releases on a case-by-case basis. Please understand though, that those will be rare exceptions. If you want to play it safe, upgrade to the latest stable.
 {% endhint %}
 
+<!-- VERSIONS TABLE -->
 | Rocket.Chat Release | Latest Version                                                          |  Released At |  End of Life |
 | ------------------- | ----------------------------------------------------------------------- | -----------: | -----------: |
 | 6.2                 | [6.2.11](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.2.11) |     Apr 2023 |          TBD |
@@ -91,6 +92,7 @@ In case of security-relevant bugs, we might decide to backport patches to older 
 | 1.1                 | [1.1.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.1.5)   |     May 2019 |     Sep 2019 |
 | 1.0                 | [1.0.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.0.5)   |     Apr 2019 |     Aug 2019 |
 |                     |                                                                         |              |              |
+<!-- END VERSIONS TABLE -->
 
 {% hint style="warning" %}
 Always update to the latest stable version before reporting any bugs or before ask for help from the community.
