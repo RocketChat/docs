@@ -54,3 +54,16 @@ This minimal hardware configuration is ideal for corporate or groups with up to 
 * Intel Xeon E5-2603 v4 (or equivalent) \[1.7 GHz, 6 cores, $213 USD]
 * 4 GB RAM
 * 500 GB hard disk or larger
+
+## Sizing Guides
+
+| Type                   | VPS                         | Small HA(Monolithic)            | S. Microservices                | L Microservices                 |
+| ---------------------- | --------------------------- | ------------------------------- | ------------------------------- | ------------------------------- |
+| **Total Users**        | 0 - 500                     | 1k - 2k                         | 10k - 20k                       | 40k - 80k                       |
+| **C Active Users**     |                             |                                 |                                 |                                 |
+| **CPU**                | 0.8 - 3 CPU                 | 31 - 60 CPUs                    | 31 - 60 CPUs                    | 117 - 233                       |
+| **RAM/GB**             | 2GB                         | 1.5GB - 4GB                     |                                 |                                 |
+| **Storage**            | 40GB SSD                    |                                 |                                 | 3508 - 6999                     |
+| **MongoDB min Memory** | 8GB(2 Cores) 32GB (8 Cores) | 32GB(2 Cores) 32GB (8 Cores)    | 32GB(2 Cores) 32GB (8 Cores)    | 32GB(2 Cores) 32GB (8 Cores)    |
+| **File Uploads**       |                             | S3, Google Storage, File System | S3, Google Storage, File System | S3, Google Storage, File System |
+| **Deployment method**  | Docker/Docker Compose       |                                 |                                 |                                 |
