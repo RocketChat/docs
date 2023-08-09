@@ -6,8 +6,13 @@ description: Learn how to handle omnichannel conversations.
 
 When you log in to your workspace as an agent and [set your status to **Available**](./#omnichannel-agent-availability)**,** to handle new conversations:
 
-* Any new Conversation initiated to the [department](../omnichannel/departments.md) you belong to appears under **Chats in Progress**
-* Click on a conversation to reply to omnichannel contact.
+* When you receive an omnichannel message from a customer/visitor, you will be notified by a pop-up sound, and the message is displayed under the "**Queued Chat**" section.
+* You can preview the content of a conversation by clicking on it. When you're ready to handle the conversation, click **Take it,** and it is moved to the "**Chats in Progress**" section.
+* Click on a conversation to reply to an omnichannel contact.
+
+{% hint style="warning" %}
+If a message is sent to a [department](../omnichannel/departments.md) that you don't belong to, you won't receive it.
+{% endhint %}
 
 ## Omnichannel Conversation Quick Actions
 
