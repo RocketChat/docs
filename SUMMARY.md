@@ -6,8 +6,10 @@
 
 * [Deploy Rocket.Chat](deploy/prepare-for-your-deployment/README.md)
   * [System Requirements](deploy/prepare-for-your-deployment/hardware-requirements.md)
-  * [Deploy with Docker & Docker Compose](deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md)
-  * [Deploy with AWS](deploy/prepare-for-your-deployment/cloud-deployments/aws.md)
+  <!-- * [Deploy with Docker & Docker Compose](deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md) -->
+  * [Deploy with Docker & Docker Compose](deploy/prepare-for-your-deployment/docker-compose.md)
+  <!-- * [Deploy with AWS](deploy/prepare-for-your-deployment/cloud-deployments/aws.md) -->
+  * [Deploy with AWS](deploy/prepare-for-your-deployment/aws.md)
   * [Deploy with Snaps](deploy/prepare-for-your-deployment/snaps.md)
   * [Updating Rocket.Chat](deploy/prepare-for-your-deployment/updating-rocket.chat.md)
   * [Scaling Rocket.Chat](deploy/prepare-for-your-deployment/scaling-rocket.chat/README.md)
