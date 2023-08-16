@@ -5,7 +5,7 @@ description: Your conversational search engine within Rocket.Chat
 # ChatGPT App
 
 {% hint style="warning" %}
-ChatGPT app will only be available to workspaces running **version 6.3.0 and higher**.&#x20;
+The ChatGPT app is currently in Beta and some features may not function as expected.
 {% endhint %}
 
 ChatGPT is a sophisticated artificial intelligence (AI) model that uses natural language processing (NLP) to comprehend and respond to human text inputs. It has been trained on vast amounts of data, which enables it to generate human-like responses to a wide range of queries, making it highly versatile and adaptable for a wide range of business communication use cases, including the following:&#x20;
@@ -27,6 +27,10 @@ ChatGPT app is supported in the **Enterprise Edition**. The app can be installed
 {% endhint %}
 
 ### Capabilities of ChatGPT app within Rocket.Chat&#x20;
+
+{% hint style="warning" %}
+ChatGPT app will only be available to workspaces running **version 6.3.0 and higher**.&#x20;
+{% endhint %}
 
 \
 The ChatGPT app in Rocket.Chat is capable of the following:&#x20;

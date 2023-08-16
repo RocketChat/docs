@@ -82,10 +82,12 @@ See how to [install the Live Chat widget](../../../omnichannel/livechat-widget-i
 
 ## Business Hour
 
-<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (3).jpg" alt=""><figcaption></figcaption></figure>
-
 * **Business hours enabled**: Toggle on to enable business hours.
 * **Business Hour Type (Single or Multiple)**: Set the type of business hour. Community workspaces can only set a single business hour.
+
+{% hint style="warning" %}
+The multiple business hour feature is only available on enterprise edition workspaces.
+{% endhint %}
 
 {% hint style="info" %}
 To learn more about how to optimize business hours in your workspace, see [business-hours.md](../../../omnichannel/business-hours.md "mention").

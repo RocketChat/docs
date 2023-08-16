@@ -1,4 +1,6 @@
+import 'colors';
 import { Octokit } from '@octokit/rest';
+import * as Diff from 'diff';
 import semver from 'semver';
 import fs from 'fs/promises';
 
@@ -21,7 +23,10 @@ function addLine(...args) {
 }
 
 async function generateTable({ owner, repo } = {}) {
+	// const releasesResult = JSON.parse(await fs.readFile('/tmp/releasesResult'));
+
 	const releasesResult = await octokit.paginate(octokit.repos.listReleases.endpoint.merge({ owner, repo, per_page: 100 }));
+	// await fs.writeFile('/tmp/releasesResult', JSON.stringify(releasesResult));
 
 	const releases = releasesResult
 		.filter((release) => !release.tag_name.includes('-rc') && semver.gte(release.tag_name, '1.0.0'))
@@ -30,6 +35,13 @@ async function generateTable({ owner, repo } = {}) {
 	const releasesMap = {};
 
 	for (const release of releases) {
+		release.releaseDate = new Date(release.published_at);
+
+		// If release happened before 20th we consider it from the past month
+		if (release.releaseDate.getDate() < 20) {
+			release.releaseDate.setMonth(release.releaseDate.getMonth() - 1);
+		}
+
 		releasesMap[release.tag_name] = release;
 	}
 
@@ -37,19 +49,27 @@ async function generateTable({ owner, repo } = {}) {
 	// eslint-disable-next-line no-constant-condition
 	while (true) {
 		const release = releases[index];
+
+		release.minor_tag = release.tag_name.replace(/\.\d+$/, '');
+		release.minorRelease = releasesMap[`${release.minor_tag}.0`];
+
 		if (!releases[index + 1]) {
 			break;
 		}
 
 		const currentVersion = semver.parse(release.tag_name);
-		const nextVersion = semver.parse(releases[index + 1].tag_name);
+		const previousVersion = semver.parse(releases[index + 1].tag_name);
 
-		if (currentVersion.major === nextVersion.major && currentVersion.minor === nextVersion.minor) {
+		releases[index + 1].nextRelease = release;
+
+		// Remove duplicated due to patches
+		if (currentVersion.major === previousVersion.major && currentVersion.minor === previousVersion.minor) {
 			releases.splice(index + 1, 1);
 			continue;
 		}
 
-		if (currentVersion.major !== nextVersion.major) {
+		// Previous version changed major so it's LTS
+		if (currentVersion.major !== previousVersion.major) {
 			releases[index + 1].lts = true;
 		}
 
@@ -61,18 +81,17 @@ async function generateTable({ owner, repo } = {}) {
 	addLine('Rocket.Chat Release', 'Latest Version', 'Released At', 'End of Life');
 	addLine('-------------------', '--------------', '----------:', '----------:');
 
-	for (const { tag_name, html_url, lts, last } of releases) {
-		const minor = tag_name.replace(/\.\d+$/, '');
-		const releaseDate = new Date(releasesMap[`${minor}.0`].published_at);
-		if (releaseDate.getDate() < 20) {
-			releaseDate.setMonth(releaseDate.getMonth() - 1);
-		}
-		const supportDate = new Date(releaseDate);
-		supportDate.setMonth(supportDate.getMonth() + (lts ? 6 : 3));
+	for (const { tag_name, html_url, lts, last, nextRelease, minorRelease, minor_tag} of releases) {
+		let supportDate;
 
-		const release = `${lts ? '**' : ''}${minor}${lts ? ' \\(LTS\\)**' : ''}`;
+		if (nextRelease) {
+			supportDate = new Date(nextRelease.minorRelease.releaseDate);
+			supportDate.setMonth(supportDate.getMonth() + (lts ? 6 : 3));
+		}
+
+		const release = `${lts ? '**' : ''}${minor_tag}${lts ? ' \\(LTS\\)**' : ''}`;
 		const url = `[${tag_name}](${html_url})`;
-		const releasedAt = `${lts ? '**' : ''}${releaseDate.toLocaleString('en', { month: 'short' })} ${releaseDate.getFullYear()}${
+		const releasedAt = `${lts ? '**' : ''}${minorRelease.releaseDate.toLocaleString('en', { month: 'short' })} ${minorRelease.releaseDate.getFullYear()}${
 			lts ? '**' : ''
 		}`;
 		const endOfLife = last
@@ -80,7 +99,6 @@ async function generateTable({ owner, repo } = {}) {
 			: `${lts ? '**' : ''}${supportDate.toLocaleString('en', { month: 'short' })} ${supportDate.getFullYear()}${lts ? '**' : ''}`;
 
 		addLine(release, url, releasedAt, endOfLife);
-		releaseDate.setMonth(releaseDate.getMonth() + 1);
 	}
 
 	const text = [startBlock];
@@ -91,6 +109,28 @@ async function generateTable({ owner, repo } = {}) {
 	text.push(endBlock);
 
 	const file = (await fs.readFile(filePath)).toString();
+
+	const oldTable = file.match(new RegExp(`${startBlock}.+${endBlock}`, 'gs'))[0];
+
+	const diff = Diff.diffLines(oldTable, text.join('\n'), { ignoreWhitespace: true, newlineIsToken: false });
+	diff.forEach((item) => {
+		let color = 'green';
+
+		if (item.removed) {
+			color = 'red';
+		}
+
+		if (item.removed || item.added) {
+			item.value.split('\n').forEach((line) => {
+				if (line === '') { return };
+				console.log(`${item.removed ? '-' : '+'} ${line}`[color]);
+			})
+		}
+	});
+	if (diff.length === 1) {
+		console.log('No changes found');
+	}
+
 	await fs.writeFile(filePath, file.replace(new RegExp(`${startBlock}.+${endBlock}`, 'gs'), text.join('\n')));
 
 	// console.log(text.join('\n'));

@@ -1,8 +1,6 @@
 # Roles in Rocket.Chat
 
-Roles in Rocket.Chat makes managing, controlling, and securing access to resources and features easy in your workspace. A Role can be associated with one or more [**Permissions**](../use-rocket.chat/workspace-administration/permissions/) allowing users to have different levels of access based on the role assigned to them by the workspace administrator.
-
-As a Rocket.Chat workspace administrator, you can assign certain privileges to users, such as the ability to send messages or manage channels. By assigning roles and permissions, you can control and limit the actions of a user, ensuring that they can only access and perform the actions that they are authorized to do so.
+Roles and permissions are integral to managing access in any digital workspace. Rocket.Chat employs a comprehensive role-based system for secure and efficient workspace management. This system allows administrators to assign roles, each with a specific set of [permissions](../use-rocket.chat/workspace-administration/permissions/), to control user actions and access levels within the workspace.
 
 ## Categories of Rocket.Chat Roles
 
@@ -75,3 +73,5 @@ The `viewer` role can read everything but can.t update anything.
 {% hint style="info" %}
 See [#scope-of-roles](../use-rocket.chat/workspace-administration/permissions/#scope-of-roles "mention") to learn more about the role scopes in Rocket.Chat.
 {% endhint %}
+
+Rocket.Chat's role-based system provides a robust and flexible mechanism for managing access to resources and features within a workspace. By offering a variety of predefined roles and the ability to create custom roles, Rocket.Chat ensures that workspace administrators can effectively control and limit user actions.

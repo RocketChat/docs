@@ -104,7 +104,7 @@ Follow this guide to set up a Matrix Homeserver with Synapse manually.
 * Install [Synapse](https://matrix.org/docs/projects/server/synapse).
 * Obtain [Lets Encrypt](https://letsencrypt.org/) Certificate.
 * Setup [Element ](https://github.com/vector-im/element-web)(Optional).
-* Configure [Nginx](../../../../../../../deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/installing-nginx-and-ssl-certificate.md) using the certificates, reverse proxying the requests to Synapse.
+* Configure [Nginx](broken-reference) using the certificates, reverse proxying the requests to Synapse.
 * Point all the generated DNS records to your server's IP address (all to the same IP).
 * [Configure ](https://matrix-org.github.io/synapse/latest/application\_services.html)the support for [Application Service](https://matrix.org/docs/guides/application-services) on the Matrix Homeserver: This can be done by creating a `registration.yaml` file under the `app/matrix-federation-config` directory with the content provided in **Workspace** > **Settings** > **Federation** > **Matrix Bridge** > **Registration File**.
 

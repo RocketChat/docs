@@ -15,7 +15,7 @@ Rocket.Chat has four key product offerings:&#x20;
 * [**Team collaboration**](use-rocket.chat/workspace-administration/) - A single point for secure internal and cross-company collaboration.
 * [**Omnichannel customer service**](use-rocket.chat/omnichannel/) - Engage in seamless interactions with customers regardless of how they connect with you.
 * [**Chat engine**](https://developer.rocket.chat/chat-engine/overview-of-chat-engine) - Create customized messaging experiences within your mobile or web app.
-* [**Marketplace** ](extend-rocket.chat-capabilities/rocket.chat-marketplace/)- Choose from a wide range of apps and native integrations that help your business communicate more effectively.
+* [**Marketplace** ](extend-rocket.chat-capabilities/rocket.chat-marketplace/)- Choose a wide range of apps and native integrations that help your business communicate more effectively.
 
 ## Security Offerings
 
@@ -31,12 +31,12 @@ Rocket.Chat ensures top-tier data privacy, security, and ownership for your comm
 
 #### Setup your account
 
-{% content-ref url="deploy/prepare-for-your-deployment/" %}
-[prepare-for-your-deployment](deploy/prepare-for-your-deployment/)
+{% content-ref url="deploy/deploy-rocket.chat/" %}
+[deploy-rocket.chat](deploy/deploy-rocket.chat/)
 {% endcontent-ref %}
 
-{% content-ref url="setup-and-configure/accessing-your-workspace/creating-the-first-administrator.md" %}
-[creating-the-first-administrator.md](setup-and-configure/accessing-your-workspace/creating-the-first-administrator.md)
+{% content-ref url="setup-and-configure/accessing-your-workspace/admin-account-creation.md" %}
+[admin-account-creation.md](setup-and-configure/accessing-your-workspace/admin-account-creation.md)
 {% endcontent-ref %}
 
 {% content-ref url="use-rocket.chat/user-guides/access-your-workspace.md" %}
@@ -97,12 +97,12 @@ Rocket.Chat ensures top-tier data privacy, security, and ownership for your comm
 
 #### Minimum Requirements
 
-{% content-ref url="deploy/installing-client-apps/minimum-requirements-for-using-rocket.chat.md" %}
-[minimum-requirements-for-using-rocket.chat.md](deploy/installing-client-apps/minimum-requirements-for-using-rocket.chat.md)
+{% content-ref url="setup-and-configure/installing-client-apps/minimum-requirements-for-client-apps.md" %}
+[minimum-requirements-for-client-apps.md](setup-and-configure/installing-client-apps/minimum-requirements-for-client-apps.md)
 {% endcontent-ref %}
 
-{% content-ref url="deploy/prepare-for-your-deployment/hardware-requirements.md" %}
-[hardware-requirements.md](deploy/prepare-for-your-deployment/hardware-requirements.md)
+{% content-ref url="deploy/deploy-rocket.chat/system-requirements.md" %}
+[system-requirements.md](deploy/deploy-rocket.chat/system-requirements.md)
 {% endcontent-ref %}
 
 ### Support

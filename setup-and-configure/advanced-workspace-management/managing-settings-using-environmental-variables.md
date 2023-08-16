@@ -1,5 +1,7 @@
 # Managing Settings Using Environmental Variables
 
+In software configuration, environmental variables play a crucial role in managing settings. Rocket.Chat leverages environmental variables to provide a flexible and efficient way to manage settings. This guide will provide a comprehensive overview of how Rocket.Chat manages settings using environmental variables
+
 When starting your server, you can set any settings value via an environment variable. You will only have to know the setting id and what type of setting it is (boolean, string, integer, etc.).
 
 ### Basic Settings
@@ -38,7 +40,7 @@ When starting your server, you can set any settings value via an environment var
 | multiline(Optional)           | `boolean`                                                                                                                                                                                             |
 | values(Optional)              | `Array`                                                                                                                                                                                               |
 | placeholder(Optional)         | `string`                                                                                                                                                                                              |
-| wizard(Optional)              | <p>step: <code>number</code>; </p><p>order: <code>number</code>;</p>                                                                                                                                  |
+| wizard(Optional)              | <p>step: <code>number</code>;</p><p>order: <code>number</code>;</p>                                                                                                                                   |
 | persistent(Optional)          | `boolean`                                                                                                                                                                                             |
 | readonly(Optional)            | `boolean`                                                                                                                                                                                             |
 | alert(Optional)               | `string`                                                                                                                                                                                              |
@@ -83,7 +85,7 @@ When starting your server, you can set any settings value via an environment var
 | value                | `string`  |
 | actionText(Optional) | `string`  |
 
-### Code Settings &#x20;
+### Code Settings
 
 | Name                 | Data Type |
 | -------------------- | --------- |
@@ -167,7 +169,7 @@ FileUpload_Storage_Type=hiGoogleCloudStorage
 ```
 
 {% hint style="info" %}
-This only works if the setting isn't already set hence it's most useful for setting on the initial start. If the setting already has a value you will need to use [overwrite setting](managing-settings-using-environmental-variables.md#overwrite-setting).
+This only works if the setting isn't already set; hence it's most useful for setting on the initial start. If the setting already has a value, you will need to use [overwrite setting](managing-settings-using-environmental-variables.md#overwrite-setting).
 {% endhint %}
 
 ## Overwrite Setting
@@ -178,7 +180,7 @@ You can overwrite any setting by setting an environment variable prefixed with `
 OVERWRITE_SETTING_FileUpload_Storage_Type=GoogleCloudStorage
 ```
 
-Settings capable of this can be seen when hovered upon in the **Administration** > **Workspace** > **Settings** section.
+Settings capable of this can be seen when hovered in the **Administration** > **Workspace** > **Settings** section.
 
 ![Example Settings code](<../../.gitbook/assets/image (11).png>)
 
@@ -190,7 +192,7 @@ You can block a setting from being changed by specifying the `SETTINGS_BLOCKED` 
 SETTINGS_BLOCKED=FileUpload_Storage_Type,FileUpload_GoogleStorage_AccessId,FileUpload_GoogleStorage_Secret
 ```
 
-As an administrator, you can't change this from the UI. You have to remove it from the list and reboot the server to change this setting.
+As an administrator, you can't change this from the UI. You must remove it from the list and reboot the server to change this setting.
 
 ## Hide Settings
 
@@ -212,6 +214,4 @@ You can force settings to be required on wizard pages by using the `SETTINGS_REQ
 SETTINGS_REQUIRED_ON_WIZARD=Organization_Type,Organization_Name
 ```
 
-{% hint style="info" %}
-To learn more about deploying Rocket.Chat with environment variables, see [environment-variables.md](../../deploy/rocket.chat-environment-configuration/environment-variables.md "mention").
-{% endhint %}
+Rocket.Chat's use of environmental variables for managing settings provides a powerful and flexible configuration mechanism. To learn more about deploying Rocket.Chat with environment variables, see [environment-variables.md](../rocket.chat-environment-configuration/environment-variables.md "mention").

@@ -32,7 +32,7 @@ To add a new workspace:
 
 To connect to a Rocket.Chat workspace using a mobile client app:
 
-* [Download](../../deploy/installing-client-apps/#mobile-apps) the app for your mobile operating system
+* [Download](../../setup-and-configure/installing-client-apps/#mobile-apps) the app for your mobile operating system
 * Open the app. If this is your first time using the mobile app, the workspace connect screen appears&#x20;
 * Click **Join a workspace**&#x20;
 * Enter a valid workspace address

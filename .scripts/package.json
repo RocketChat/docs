@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "@octokit/rest": "^20.0.1",
+    "colors": "^1.4.0",
+    "diff": "^5.1.0",
     "semver": "^7.5.4"
   }
 }

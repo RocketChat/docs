@@ -1,6 +1,6 @@
 # Email configuration
 
-The Rocket.Chat Emails, [Notifications](../../../../setup-and-configure/advanced-workspace-management/notifications.md), [Email verification](../../../../setup-and-configure/advanced-workspace-management/notifications.md#emails), and [Mailer ](../../mailer.md)features depend on this Email configuration.
+The Rocket.Chat Emails, [Notifications](../../../user-guides/notifications.md), [Email verification](../../../user-guides/notifications.md#emails), and [Mailer ](../../mailer.md)features depend on this Email configuration.
 
 This page guides you through configuring SMTP settings for your Rocket.Chat workspace.
 

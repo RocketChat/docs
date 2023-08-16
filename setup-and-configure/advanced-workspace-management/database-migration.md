@@ -1,10 +1,21 @@
 # Database Migration
 
-As features are added to Rocket.Chat, the database schema may change between versions.&#x20;
+As software evolves and new features are added, the underlying database schema often needs to change to accommodate these updates. This process, known as database migration, is a critical aspect of maintaining and updating software systems. Rocket.Chat, a leading communication platform, handles database migrations seamlessly, ensuring that the transition between different versions of the platform is smooth and efficient. This document will provide a comprehensive overview of how Rocket.Chat manages database migrations.
+
+For more information on updating Rocket.Chat, see [Updating Rocket.Chat](../../deploy/updating-rocket.chat/README.md).
+=======
 
 Database migration means updating an older schema to a newer one (or vice versa). When you incrementally update your Rocket.Chat version, the database migration is automatic, and you do not have to take any explicit action. Rocket.Chat migrations and their versions can be found on [GitHub](https://github.com/RocketChat/Rocket.Chat/blob/develop/apps/meteor/server/startup/migrations).
 
-We use migrations to force an updatable version range. It means you cannot upgrade from major version three to five because the migrations in between are removed.
+{% hint style="success" %}
+When you incrementally update your Rocket.Chat version, the database migration is automatic, and you do not have to take any explicit action. Rocket.Chat migrations and their versions can be found on [GitHub](https://github.com/RocketChat/Rocket.Chat/blob/develop/apps/meteor/server/startup/migrations).
+{% endhint %}
+
+However, it's important to note that Rocket.Chat uses migrations to enforce an updatable version range. This means that direct upgrades from non-consecutive versions (e.g., from version three to five) are not possible since the intermediate migrations have been removed.
+
+{% hint style="info" %}
+While Rocket.Chat does not officially support downgrades due to the changes made during database migrations, it is possible to manually roll back migrations separately if necessary.
+{% endhint %}
 
 The versioning in Rocket.Chat looks like this:
 
@@ -13,15 +24,9 @@ Major.Minor.Patch
 6.2.10
 ```
 
-For more information on updating Rocket.Chat, see [Updating Rocket.Chat](../../deploy/updating-rocket.chat/README.md).
-
-{% hint style="info" %}
-Rocket.Chat cannot be officially downgraded due to database migrations. However, you can manually roll back migrations separately.
-{% endhint %}
-
 ### Migration Collection
 
-A migration collection has only one document with the following structure:
+Rocket.Chat's migration collection contains a single document with a specific structure that controls migration actions. This document includes fields for the migration version, a lock to indicate whether a migration is currently in progress, and an ID field. If a particular migration needs to be skipped, the version field in the migration collection can be set to the next version.
 
 ```javascript
 {"_id": "control","locked":false, "version":19}
@@ -31,4 +36,4 @@ A migration collection has only one document with the following structure:
 * &#x20;`locked` : The value is boolean and can either be `true` or `false`. It identifies whether migration is currently happening or not. If  a migration fails, it will be stuck at true.
 * &#x20;`version` - The migration version your server is currently at.
 
-**To skip a migration**, set the version field in the migration collection to the next version of the one you want to skip.
+Rocket.Chat's approach to database migration ensures a smooth and efficient transition between different versions of the platform. By automating the migration process and providing mechanisms for controlling migration actions, Rocket.Chat ensures that its database schema is always up-to-date and compatible with the current version of the platform.
