@@ -26,7 +26,7 @@ After connecting to the Cloud account,&#x20;
 * Create a new account on[ Rocket.Chat Cloud](https://cloud.rocket.chat/trial/ee).
 * A link to **Create a workspace and Apply Trial** is sent to your inbox. To proceed, click the link or paste it into your browser.
 * Then, you are redirected to [Rocket.Chat Cloud Portal](https://cloud.rocket.chat/). Since you don't have any workspace registered yet, the Workspaces section is empty with the following options to create a workspace:
-  * **Install Rocket.Chat**:  Learn how to install[ your Rocket.Chat instance](../../deploy/prepare-for-your-deployment/).
+  * **Install Rocket.Chat**:  Learn how to install[ your Rocket.Chat instance](../../deploy/deploy-rocket.chat/).
   * **Launch a SaaS Trial**: The fastest deployment option is a Rocket.Chat workspace.
   * **Register self-managed**:  Register your workspace if you have a workspace up and running.
 * After installing your Rocket.Chat workspace following the first option, proceed to activate the enterprise license on the workspace following these steps:

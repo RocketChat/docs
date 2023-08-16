@@ -11,8 +11,8 @@ Keeping your Rocket.Chat installation up-to-date is essential to access the late
 * Upgrading to `v5` requires you to be on at least `4.x`.
 {% endhint %}
 
-1. [**Update Rocket.Chat on Docker**](rapid-deployment-methods/docker-and-docker-compose/#updating-rocket.chat-on-docker)
-2. [**Update Rocket.Chat on Snaps**](snaps.md#updating-rocket.chat-snap)
+1. [**Update Rocket.Chat on Docker**](deploy-with-docker-and-docker-compose.md#updating-rocket.chat-on-docker)
+2. [**Update Rocket.Chat on Snaps**](deploy-with-snaps.md#updating-rocket.chat-snap)
 
 **Updating Manual Installation**
 

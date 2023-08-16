@@ -116,7 +116,7 @@ Your workspace should now be ready to use.
 
 If you purchased a license for Self Managed but do not yet have a workspace.
 
-* [Deploy a new workspace](../deploy/prepare-for-your-deployment/)
+* [Deploy a new workspace](../deploy/deploy-rocket.chat/)
 * Visit your workspace URL and complete the [setup](../use-rocket.chat/workspace-administration/settings/setup-wizard.md).
 * Copying the Registration token provided to you.
 * For Rocket.Chat `6.0` or newer

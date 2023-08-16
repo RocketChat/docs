@@ -85,4 +85,4 @@ sudo chown -R $UID:$GID rocketchat
 cd rocketchat
 ```
 
-* Follow the steps highlighted in the [#enable-https](../rapid-deployment-methods/docker-and-docker-compose/#enable-https "mention") section of our docker deployment guide.​
+* Follow the steps highlighted in the [#enable-https](../deploy-with-docker-and-docker-compose.md#enable-https "mention") section of our docker deployment guide.​

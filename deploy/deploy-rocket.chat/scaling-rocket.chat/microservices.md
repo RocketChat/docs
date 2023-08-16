@@ -36,7 +36,7 @@ See [the official documentation](https://docs.nats.io/) to learn how to start NA
 Bare minimum, each container must be started with `MONGO_URL` and `TRANSPORTER` environment variables set, pointing to the MongoDB database (using full connection string) and the nats gateway address, respectively. At the very least, each container must be started with `MONGO_URL` and `TRANSPORTER` environment variables set, pointing to the MongoDB database (using full connection string) and the NATS gateway address, respectively. All `/sockjs` and `/websocket` connections must be routed through a reverse proxy or load balancer (LB), with the remainder going to the monolith.
 
 {% hint style="warning" %}
-Again, it is essential to note that we do not support direct docker/compose microservices deployment. The only supported method currently is using [Kubernetes with our official helm chart](../other-deployment-methods/helm.md).
+Again, it is essential to note that we do not support direct docker/compose microservices deployment. The only supported method currently is using [Kubernetes with our official helm chart](../additional-deployment-methods/deploy-with-kubernetes.md).
 {% endhint %}
 
 ## Microservices Deployment
@@ -98,7 +98,7 @@ replicaCount: 2
 {% endhint %}
 
 {% hint style="info" %}
-You can find other deployment variables in [helm.md](../other-deployment-methods/helm.md "mention").
+You can find other deployment variables in [deploy-with-kubernetes.md](../additional-deployment-methods/deploy-with-kubernetes.md "mention").
 {% endhint %}
 
 * Set up ingress. This architecture requires an ingress controller. All WebSocket connections needs to be sent directly to the `ddp-streamer`service as mentioned earlier. For example, install an nginx controller in your cluster following [this guide](https://kubernetes.github.io/ingress-nginx/deploy/#quick-start), then edit the `values.yml` file and add the following values:
@@ -125,5 +125,5 @@ helm install rocketchat -f Values.yaml rocketchat/rocketchat
 * Once deployed, you should be able to access the Rocket.Chat using the configured host. You can convert your existing monolith deployment to using microservices by making the same changes mentioned in this document and running `helm upgrade` with the values file and the current deployment name instead of `helm install`.
 
 {% hint style="info" %}
-A complete guide on how to deploy with helm can be found in [helm.md](../other-deployment-methods/helm.md "mention"). For multi-workspace deployment, please [contact support](../../../resources/get-support/).
+A complete guide on how to deploy with helm can be found in [deploy-with-kubernetes.md](../additional-deployment-methods/deploy-with-kubernetes.md "mention"). For multi-workspace deployment, please [contact support](../../../resources/get-support/).
 {% endhint %}

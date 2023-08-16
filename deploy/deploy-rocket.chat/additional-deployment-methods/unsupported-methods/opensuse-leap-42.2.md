@@ -256,12 +256,12 @@ These are docs and snippets I used to figure all of this out.
 
 {% embed url="https://en.opensuse.org/MongoDB" %}
 
-{% content-ref url="../manual-installation/debian-based-distros/ubuntu.md" %}
-[ubuntu.md](../manual-installation/debian-based-distros/ubuntu.md)
+{% content-ref url="../deploy-with-ubuntu.md" %}
+[deploy-with-ubuntu.md](../deploy-with-ubuntu.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../cloud-deployments/aws.md" %}
-[aws.md](../../cloud-deployments/aws.md)
+{% content-ref url="../../deploy-with-aws.md" %}
+[deploy-with-aws.md](../../deploy-with-aws.md)
 {% endcontent-ref %}
 
 {% embed url="https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-deploy-rocket-chat-on-ubuntu-14-04" %}

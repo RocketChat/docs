@@ -12,10 +12,10 @@ Installing software on Linux can now be done easily with the use of Snaps. They 
 
 In this guide, you'll learn how to:&#x20;
 
-* [Deploy Rocket.Chat using Snap](snaps.md#deploy-rocket.chat-with-snaps)
-* [Backup & Restore Rocket.Chat Snap data](snaps.md#snap-backup-and-restore)
-* [Auto SSL with Snaps](snaps.md#auto-ssl-with-snaps)
-* [Update Rocket.Chat Snap](snaps.md#updating-rocket.chat-snap)
+* [Deploy Rocket.Chat using Snap](deploy-with-snaps.md#deploy-rocket.chat-with-snaps)
+* [Backup & Restore Rocket.Chat Snap data](deploy-with-snaps.md#snap-backup-and-restore)
+* [Auto SSL with Snaps](deploy-with-snaps.md#auto-ssl-with-snaps)
+* [Update Rocket.Chat Snap](deploy-with-snaps.md#updating-rocket.chat-snap)
 
 ## Preparation Steps
 
@@ -348,7 +348,7 @@ If the configuration is succesfull, the website should now be easily accessible 
 With the Rocket.Chat snap installation, you'll always be on the latest track at the setup time, ensuring access to the latest releases.
 
 {% hint style="warning" %}
-It is highly advised to [back up your data](snaps.md#snap-backup-and-restore) before upgrading.
+It is highly advised to [back up your data](deploy-with-snaps.md#snap-backup-and-restore) before upgrading.
 
 Before a major version update, check the [forum's announcement section](https://forums.rocket.chat/c/announcements/10). Major releases are often delayed by a couple of weeks to gather feedback and apply minor patches before the final release.
 {% endhint %}

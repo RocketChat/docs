@@ -31,8 +31,8 @@ Rocket.Chat ensures top-tier data privacy, security, and ownership for your comm
 
 #### Setup your account
 
-{% content-ref url="deploy/prepare-for-your-deployment/" %}
-[prepare-for-your-deployment](deploy/prepare-for-your-deployment/)
+{% content-ref url="deploy/deploy-rocket.chat/" %}
+[deploy-rocket.chat](deploy/deploy-rocket.chat/)
 {% endcontent-ref %}
 
 {% content-ref url="setup-and-configure/accessing-your-workspace/admin-account-creation.md" %}
@@ -101,8 +101,8 @@ Rocket.Chat ensures top-tier data privacy, security, and ownership for your comm
 [minimum-requirements-for-client-apps.md](setup-and-configure/installing-client-apps/minimum-requirements-for-client-apps.md)
 {% endcontent-ref %}
 
-{% content-ref url="deploy/prepare-for-your-deployment/hardware-requirements.md" %}
-[hardware-requirements.md](deploy/prepare-for-your-deployment/hardware-requirements.md)
+{% content-ref url="deploy/deploy-rocket.chat/system-requirements.md" %}
+[system-requirements.md](deploy/deploy-rocket.chat/system-requirements.md)
 {% endcontent-ref %}
 
 ### Support

@@ -7,7 +7,7 @@ description: Deploy Rocket.Chat in an air-gapped environment using docker & dock
 An air-gapped computer system is one that is not directly connected to any external network. It ensures that a secure computer network is physically isolated from unsecured networks, such as the public internet or an unsecured local area network.
 
 {% hint style="info" %}
-The recommended deployment method for Rocket.Chat is using [Docker and Docker Compose](../../deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/).
+The recommended deployment method for Rocket.Chat is using [Docker and Docker Compose](../../deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md).
 {% endhint %}
 
 ## Deploying  a local Docker Registry with Images
@@ -31,7 +31,7 @@ For more details, see [copying an image from Docker Hub to your registry](https:
 
 With your local registry completely [deployed](https://docs.docker.com/registry/deploying/) and [configured](https://docs.docker.com/registry/configuration/),&#x20;
 
-* Follow our guide on installing Rocket.Chat with [Docker & Docker Compose](../../deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/#fetching-compose-file) using the example `compose.yml` file.
+* Follow our guide on installing Rocket.Chat with [Docker & Docker Compose](../../deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md#fetching-compose-file) using the example `compose.yml` file.
 
 {% hint style="info" %}
 Once your local registry is configured on an air-gapped system, Docker will pull and use images directly from there.

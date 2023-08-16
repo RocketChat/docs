@@ -4,7 +4,7 @@ There are currently two different HipChat importers. One for HipChat Cloud and a
 
 ## HipChat Cloud
 
-To start importing values from HipChat you first need to have an instance of Rocket.Chat running. You can do that on [your own](../../../deploy/prepare-for-your-deployment/other-deployment-methods/nonofficial-methods/freebsd/universal.md).
+To start importing values from HipChat you first need to have an instance of Rocket.Chat running. You can do that on [your own](../../../deploy/deploy-rocket.chat/additional-deployment-methods/unsupported-methods/freebsd/universal.md).
 
 If you already have an instance running and administration privileges, you can follow these steps:
 

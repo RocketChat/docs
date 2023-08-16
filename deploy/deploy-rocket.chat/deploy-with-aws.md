@@ -176,4 +176,4 @@ Confirm it is running correctly by opening a web browser and entering your domai
 
 **Install Rocket.Chat**
 
-Now that your EC2 instance and domain are ready, SSH into your instance and follow our [Deploy with Docker & Docker Compose](../rapid-deployment-methods/docker-and-docker-compose/) guide to set up your Rocket.Chat workspace. Once your workspace is running, log in to your site at `https://ABC.DOMAIN.COM.`The first user to log in will be the workspace administrator.
+Now that your EC2 instance and domain are ready, SSH into your instance and follow our [Deploy with Docker & Docker Compose](deploy-with-docker-and-docker-compose.md) guide to set up your Rocket.Chat workspace. Once your workspace is running, log in to your site at `https://ABC.DOMAIN.COM.`The first user to log in will be the workspace administrator.

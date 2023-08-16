@@ -10,7 +10,7 @@ Environmental variables can be specified to take affect how the workspace is dep
 
 ## Deployment Environment Variables
 
-Deployment environment variables are critical in deploying a workspace. Using the most common deployment method [docker-and-docker-compose](../../deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/ "mention") these variables can be set in the `compose.yml` file.
+Deployment environment variables are critical in deploying a workspace. Using the most common deployment method [deploy-with-docker-and-docker-compose.md](../../deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md "mention") these variables can be set in the `compose.yml` file.
 
 Some of these environment variables are mandatory and others can be treated optionally.
 
