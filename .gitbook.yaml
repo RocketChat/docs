@@ -413,16 +413,16 @@ redirects:
     deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-containers: deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/README.md
 
     # Deployment restructure redirects
-    deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/available-images: deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md#rocketchat-docker-images
-    deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-mongo-backup-and-restore: deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md#docker-mongo-backup-and-restore
-    deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/installing-nginx-and-ssl-certificate: deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md#enable-https
-    deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/configuring-mongodb: deploy/deploy-rocket.chat/deploy-with-snaps.md#configuring-mongodb
-    deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/auto-ssl-with-snaps: deploy/deploy-rocket.chat/deploy-with-snaps.md#auto-ssl-with-snaps
-    deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/snap-backup-and-restore: deploy/deploy-rocket.chat/deploy-with-snaps.md#snap-backup-and-restore
+    deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/available-images: deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md
+    deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/docker-mongo-backup-and-restore: deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md
+    deploy/prepare-for-your-deployment/rapid-deployment-methods/docker-and-docker-compose/installing-nginx-and-ssl-certificate: deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md
+    deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/configuring-mongodb: deploy/deploy-rocket.chat/deploy-with-snaps.md
+    deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/auto-ssl-with-snaps: deploy/deploy-rocket.chat/deploy-with-snaps.md
+    deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/snap-backup-and-restore: deploy/deploy-rocket.chat/deploy-with-snaps.md
     deploy/prepare-for-your-deployment/choosing-a-deployment-method: deploy/deploy-rocket.chat/README.md
     deploy/prepare-for-your-deployment/rapid-deployment-methods: deploy/deploy-rocket.chat/README.md
     deploy/prepare-for-your-deployment/manual-installation: deploy/deploy-rocket.chat/README.md
     deploy/prepare-for-your-deployment/manual-installation/debian-based-distros: deploy/deploy-rocket.chat/README.md
     deploy/prepare-for-your-deployment/manual-installation/updating: deploy/deploy-rocket.chat/updating-rocket.chat.md
     deploy/prepare-for-your-deployment/cloud-deployments: deploy/deploy-rocket.chat/README.md
-    deploy/prepare-for-your-deployment/starting-and-stopping: deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md#deploy-rocketchat-on-docker
+    deploy/prepare-for-your-deployment/starting-and-stopping: deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md
