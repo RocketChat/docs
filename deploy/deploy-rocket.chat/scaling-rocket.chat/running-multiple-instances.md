@@ -82,9 +82,11 @@ You can use any desired port instead of `3001`.
 
 ### Ensure nodes can communicate
 
-If you run Rocket.Chat instances on multiple physical nodes or containers, ensure they can communicate with each other. Rocket.Chat uses a peer-to-peer connection to inform each other of events. For example, when you type a message and tag a friend or coworker connected to another instance. Two different events are fired; the user (you) is typing and notifying the user (friend).
+If you run Rocket.Chat instances on multiple physical nodes or containers, ensure they can communicate with each other.  This means that instead of relying on a central server, the instances directly interact with one another. Rocket.Chat uses a peer-to-peer connection to inform each other of events. This becomes especially important when certain events occur that require cross-instance notification.
 
-Each Rocket.Chat instance registers in your database the IP address it detected for itself. Other instances use this list to discover and establish connections with each other. If you find instances unable to communicate, set the `INSTANCE_IP` environment variable to the IP the other instances can use to talk to it.
+For example, when you type a message and tag a friend or coworker connected to another instance. Two different events are fired; the user (you) is typing and notifying the user (friend).
+
+When you set up a Rocket.Chat instance, it registers its IP address in your database. Other instances use this list to discover each other and establish connections. If you are having trouble getting two instances to communicate, you can set the `INSTANCE_IP` environment variable in the `.env` file to the IP address that the other instances can use to talk to it.
 
 ## Update your Nginx proxy config
 
