@@ -65,7 +65,7 @@ We don't remove MongoDB support overnight. A version marked to be removed from s
 
 
 {% hint style="info" %}
-See a list of Releases, Mongo versions, and their deprecation notice here [#mongodb-versions](../../../resources/get-support/enterprise-support-and-version-durability/#mongodb-versions "mention")
+See a list of Releases, Mongo versions, and their deprecation notice here [#mongodb-versions](../../../resources/rocket.chats-support-structure/enterprise-support-and-version-durability/#mongodb-versions "mention")
 {% endhint %}
 
 **Note** Without the MongoDB version we can't ensure you are running a compatible version. If you are running your MongoDB with auth enabled and a **user different from admin** you may need to grant permissions for this user to check cluster data. You can do it via Mongo shell running the following command replacing the string _YOUR\_USER_ by the correct user\\'s name:

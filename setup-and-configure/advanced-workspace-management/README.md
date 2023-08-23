@@ -23,5 +23,5 @@ The advanced workspace management features of Rocket.Chat offers a range of func
 [**Client Compatibility Matrix**](client-compatibility-matrix.md): Mobile and desktop clients with their supported Rocket.Chat releases.
 
 {% hint style="info" %}
-To learn more, go to [workspace administration](../../use-rocket.chat/workspace-administration/). If these guides don't meet your needs, you can contact us via [support](../../resources/get-support/).
+To learn more, go to [workspace administration](../../use-rocket.chat/workspace-administration/). If these guides don't meet your needs, you can contact us via [support](../../resources/rocket.chats-support-structure/).
 {% endhint %}

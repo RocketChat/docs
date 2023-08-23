@@ -107,8 +107,8 @@ Rocket.Chat ensures top-tier data privacy, security, and ownership for your comm
 
 ### Support
 
-{% content-ref url="resources/get-support/" %}
-[get-support](resources/get-support/)
+{% content-ref url="resources/rocket.chats-support-structure/" %}
+[rocket.chats-support-structure](resources/rocket.chats-support-structure/)
 {% endcontent-ref %}
 
 #### Developer Guides

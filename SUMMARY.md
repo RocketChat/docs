@@ -444,11 +444,11 @@
   * [Brand Usage Examples](resources/brand-and-visual-guidelines/brand-usage-examples.md)
   * [Media Kit](resources/brand-and-visual-guidelines/compositionsed.md)
 * [Development Docs](resources/development-docs.md)
-* [Get Support](resources/get-support/README.md)
-  * [Enterprise Support and Version Durability](resources/get-support/enterprise-support-and-version-durability/README.md)
-    * [Enterprise Support Plans](resources/get-support/enterprise-support-and-version-durability/enterprise-support-plans.md)
-  * [Community Resources](resources/get-support/community-resources.md)
-  * [Legacy Support](resources/get-support/legacy-support.md)
+* [Rocket.Chat's Support Structure](resources/rocket.chats-support-structure/README.md)
+  * [Enterprise Support and Version Durability](resources/rocket.chats-support-structure/enterprise-support-and-version-durability/README.md)
+    * [Enterprise Support Plans](resources/rocket.chats-support-structure/enterprise-support-and-version-durability/enterprise-support-plans.md)
+  * [Community Resources](resources/rocket.chats-support-structure/community-resources.md)
+  * [Legacy Support](resources/rocket.chats-support-structure/legacy-support.md)
 
 ## Contribute to Rocket.Chat
 
