@@ -445,8 +445,8 @@
   * [Media Kit](resources/brand-and-visual-guidelines/compositionsed.md)
 * [Development Docs](resources/development-docs.md)
 * [Get Support](resources/get-support/README.md)
-  * [Enterprise Support](resources/get-support/enterprise-support/README.md)
-    * [Enterprise Support Plans](resources/get-support/enterprise-support/enterprise-support-plans.md)
+  * [Enterprise Support and Version Durability](resources/get-support/enterprise-support-and-version-durability/README.md)
+    * [Enterprise Support Plans](resources/get-support/enterprise-support-and-version-durability/enterprise-support-plans.md)
   * [Community Resources](resources/get-support/community-resources.md)
   * [Legacy Support](resources/get-support/legacy-support.md)
 
