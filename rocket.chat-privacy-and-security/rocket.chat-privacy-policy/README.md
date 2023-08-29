@@ -209,7 +209,7 @@ Ensuring the security of the data you entrust to us is one of our most important
 
 Your data can only be accessed by persons for whom it is necessary in relation to their work.
 
-We may outsource our processing of personal data to external service providers. In such events, we enter into appropriate agreements with the providers in order to ensure that your personal data is processed in accordance with this Privacy Policy and any applicable laws. We also have received internationally recognized [security certifications](../security/compliance-resources.md).
+We may outsource our processing of personal data to external service providers. In such events, we enter into appropriate agreements with the providers in order to ensure that your personal data is processed in accordance with this Privacy Policy and any applicable laws. We also have received internationally recognized [security certifications](../security-and-compliance/compliance-resources.md).
 
 Although we do our best, given the nature of communications and information processing technology, we cannot guarantee that Information during transmission through the Internet or while stored on our systems or otherwise in our care will be absolutely safe from intrusion by others.
 
