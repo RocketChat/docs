@@ -480,5 +480,6 @@
   * [Security fixes and updates](rocket.chat-privacy-and-security/security/security-updates/README.md)
     * [cve-2022-32211](rocket.chat-privacy-and-security/security/security-updates/cve-2022-32211.md)
   * [End-to-End Encryption Specifications](rocket.chat-privacy-and-security/security/end-to-end-encryption-algorithms.md)
-* [Data Processing Agreement](rocket.chat-privacy-and-security/data-processing-agreement.md)
-* [GDPR](rocket.chat-privacy-and-security/gdpr.md)
+* [Privacy Center](rocket.chat-privacy-and-security/privacy-center/README.md)
+  * [GDPR](rocket.chat-privacy-and-security/privacy-center/gdpr/README.md)
+    * [Data Processing Agreement](rocket.chat-privacy-and-security/privacy-center/gdpr/data-processing-agreement.md)
