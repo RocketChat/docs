@@ -426,3 +426,4 @@ redirects:
     deploy/prepare-for-your-deployment/manual-installation/updating: deploy/deploy-rocket.chat/updating-rocket.chat.md
     deploy/prepare-for-your-deployment/cloud-deployments: deploy/deploy-rocket.chat/README.md
     deploy/prepare-for-your-deployment/starting-and-stopping: deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md
+    quick-start/installing-and-updating/paas-deployments/oracle-cloud: deploy/deploy-rocket.chat/README.md
