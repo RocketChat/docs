@@ -163,7 +163,7 @@ redirects:
     installing-and-updating/manual-installation: deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/README.md
     quick-start/installing-and-updating/manual-installation/univention-corporate-server-ucs: deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation/README.md
     quick-start/installing-and-updating/paas-deployments/ibm-cloud: deploy/prepare-for-your-deployment/cloud-deployments/ibm-cloud.md
-    quick-start/installing-and-updating/paas-deployments/oracle-cloud: deploy/prepare-for-your-deployment/cloud-deployments/README.md
+    quick-start/installing-and-updating/paas-deployments/oracle-cloud: deploy/deploy-rocket.chat/README.md
     quick-start/installing-and-updating/paas-deployments/cloudron-io: deploy/prepare-for-your-deployment/other-deployment-methods/nonofficial-methods/cloudron-io.md
     quick-start/installing-and-updating/paas-deployments/digitalocean: deploy/prepare-for-your-deployment/cloud-deployments/digitalocean.md
     quick-start/installing-and-updating/paas-deployments/d2c-io: deploy/prepare-for-your-deployment/other-deployment-methods/nonofficial-methods/README.md
@@ -426,4 +426,3 @@ redirects:
     deploy/prepare-for-your-deployment/manual-installation/updating: deploy/deploy-rocket.chat/updating-rocket.chat.md
     deploy/prepare-for-your-deployment/cloud-deployments: deploy/deploy-rocket.chat/README.md
     deploy/prepare-for-your-deployment/starting-and-stopping: deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md
-    quick-start/installing-and-updating/paas-deployments/oracle-cloud: deploy/deploy-rocket.chat/README.md
