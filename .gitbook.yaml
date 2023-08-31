@@ -439,4 +439,6 @@ redirects:
     guides/user-guides/messaging/off-the-record-otr-messaging-guide: use-rocket.chat/user-guides/messages/off-the-record-otr-messaging-user-guide.md
     guides/administration/settings/oauth: use-rocket.chat/workspace-administration/settings/oauth/README.md
     guides/administration/settings/saml: use-rocket.chat/workspace-administration/settings/saml/README.md
+    guides/omnichannel/managers: use-rocket.chat/omnichannel/managers.md
+    guides/omnichannel/agents: use-rocket.chat/omnichannel/agents.md
     
