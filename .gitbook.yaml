@@ -427,3 +427,5 @@ redirects:
     deploy/prepare-for-your-deployment/cloud-deployments: deploy/deploy-rocket.chat/README.md
     deploy/prepare-for-your-deployment/starting-and-stopping: deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md
     deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation: deploy/deploy-rocket.chat/README.md
+
+    guides/user-guides/rooms: use-rocket.chat/user-guides/rooms/README.md
