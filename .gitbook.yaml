@@ -441,4 +441,6 @@ redirects:
     guides/administration/settings/saml: use-rocket.chat/workspace-administration/settings/saml/README.md
     guides/omnichannel/managers: use-rocket.chat/omnichannel/managers.md
     guides/omnichannel/agents: use-rocket.chat/omnichannel/agents.md
+    guides/omnichannel/analytics: use-rocket.chat/omnichannel/analytics.md
+    guides/omnichannel/canned-responses-omnichannel-managers-guide: use-rocket.chat/omnichannel/canned-responses/README.md
     
