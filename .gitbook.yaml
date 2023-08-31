@@ -435,4 +435,6 @@ redirects:
     guides/app-guides/poll: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/poll-plus/README.md
     guides/administration/admin-panel/integrations/giphy: use-rocket.chat/workspace-administration/integrations/giphy.md
     guides/user-guides/security-bundle/two-factor-authentication: use-rocket.chat/user-guides/security-bundle/two-factor-authentication-user-guide.md
+    guides/administration/settings/e2e-encryption: use-rocket.chat/user-guides/security-bundle/end-to-end-encryption-user-guide.md
+    guides/user-guides/messaging/off-the-record-otr-messaging-guide: use-rocket.chat/user-guides/messages/off-the-record-otr-messaging-user-guide.md
     
