@@ -437,7 +437,6 @@ redirects:
     guides/user-guides/security-bundle/two-factor-authentication: use-rocket.chat/user-guides/security-bundle/two-factor-authentication-user-guide.md
     guides/administration/settings/e2e-encryption: use-rocket.chat/user-guides/security-bundle/end-to-end-encryption-user-guide.md
     guides/user-guides/messaging/off-the-record-otr-messaging-guide: use-rocket.chat/user-guides/messages/off-the-record-otr-messaging-user-guide.md
-    guides/administration/settings/ldap: use-rocket.chat/workspace-administration/settings/ldap/README.md
     guides/administration/settings/oauth: use-rocket.chat/workspace-administration/settings/oauth/README.md
     guides/administration/settings/saml: use-rocket.chat/workspace-administration/settings/saml/README.md
     
