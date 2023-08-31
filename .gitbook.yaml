@@ -429,3 +429,4 @@ redirects:
     deploy/prepare-for-your-deployment/other-deployment-methods/manual-installation: deploy/deploy-rocket.chat/README.md
 
     guides/user-guides/rooms: use-rocket.chat/user-guides/rooms/README.md
+    guides/app-guides/zoom: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/zoom.md
