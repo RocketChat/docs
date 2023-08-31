@@ -433,5 +433,6 @@ redirects:
     guides/app-guides/atlassian/bitbucket-server-integration: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bitbucket-server-integration.md
     guides/app-guides/atlassian/bamboo-integration: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bamboo-integration.md
     guides/app-guides/poll: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/poll-plus/README.md
-    guides/administration/admin-panel/integrations/giphy: use-rocket.chat/workspace-administration/integrations/giphy.md 
+    guides/administration/admin-panel/integrations/giphy: use-rocket.chat/workspace-administration/integrations/giphy.md
+    guides/user-guides/security-bundle/two-factor-authentication: use-rocket.chat/user-guides/security-bundle/two-factor-authentication-user-guide.md
     
