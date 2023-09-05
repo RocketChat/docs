@@ -4,6 +4,8 @@ description: Omnichannel Integration between Rocket.Chat and Facebook.
 
 # Facebook App
 
+<figure><img src="../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
+
 Omnichannel Integration between Rocket.Chat and Facebook Messenger. The Facebook Messenger app lets you handle messages from your Facebook contacts directly in Rocket.Chat. Your customers contact you via Messenger, and you answer chats from your Rocket.Chat workspace. Some key features of this integration include sending messages with quick reply buttons, welcome messages(starting/closing chat), file sharing, and the correlation between your Facebook pages and your Rocket.Chat departments.
 
 {% hint style="warning" %}

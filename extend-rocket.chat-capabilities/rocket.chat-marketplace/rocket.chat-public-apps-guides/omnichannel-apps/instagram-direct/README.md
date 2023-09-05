@@ -5,6 +5,8 @@ coverY: 0
 
 # Instagram Direct
 
+<figure><img src="../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
+
 With Instagram Direct, you can directly handle messages from your Instagram Business Inbox in [Rocket.Chat](http://rocket.chat). Instagram users contact you via Instagram Direct messages, and you answer chats from your Rocket.Chat workspace. Some key features of this integration include sending messages with quick reply buttons, welcome messages(starting/closing chat), file sharing, and the correlation between your Instagram Direct pages and your Rocket.Chat departments.
 
 The Instagram Direct integration is available to the following Instagram Direct Professional Accounts:

@@ -1,5 +1,7 @@
 # Zapier App
 
+<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
+
 The Rocket.Chat Zapier App provides integration between Rocket.Chat and [Zapier](https://zapier.com/), a popular automation tool that allows users to automate tasks and workflows by creating triggers and actions.
 
 The Zapier app makes it possible for Rocket.Chat and many other external services and tools to be connected thus providing several benefits:

@@ -1,5 +1,7 @@
 # WhatsApp Cloud App
 
+<figure><img src="../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
+
 The Rocket.Chat WhatsApp Cloud App provides direct communication between Rocket.Chat and WhatsApp using the WhatsApp Cloud API without needing third-party services like 360Dialog. Your Rocket.Chat workspace is linked through a [Facebook Developer app](https://developers.facebook.com/apps) with the WhatsApp setup.
 
 ## Install Whatsapp Cloud App
