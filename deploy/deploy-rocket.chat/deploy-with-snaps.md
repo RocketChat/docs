@@ -345,6 +345,10 @@ If the configuration is succesfull, the website should now be easily accessible 
 
 ### Updating Rocket.Chat Snap
 
+{% hint style="info" %}
+Before you proceed, see the [general guidelines for updating Rocket.Chat](updating-rocket.chat.md).
+{% endhint %}
+
 With the Rocket.Chat snap installation, you'll always be on the latest track at the setup time, ensuring access to the latest releases.
 
 {% hint style="warning" %}

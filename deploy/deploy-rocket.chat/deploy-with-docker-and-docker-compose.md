@@ -157,11 +157,15 @@ docker pull registry.rocket.chat/rocketchat/rocket.chat:develop
 
 ## Updating Rocket.Chat on Docker
 
-Using Docker & Docker compose, you can update your `rocketchat`  docker image to the latest or preferred version of Rocket.Chat.
+{% hint style="info" %}
+Before you proceed, see the [general guidelines for updating Rocket.Chat](updating-rocket.chat.md).
+{% endhint %}
 
 {% hint style="warning" %}
 Updating the Rocket.Chat image doesn't affect your data since it exists in the Mongo image. Ensure that the version of your MongoDB is compatible with the intended [release](https://github.com/RocketChat/Rocket.Chat/releases) before proceeding with the update.
 {% endhint %}
+
+Using Docker & Docker compose, you can update your `rocketchat`  docker image to the latest or preferred version of Rocket.Chat.
 
 To update your Rocket.Chat version,
 
@@ -193,13 +197,13 @@ services:
 
 </details>
 
-* Use `latest` to update to the latest version of Rocket.Chat. Alternatively, you can pull the Rocket.Chat image directly with the `latest` tag with this command:
+* For the latest version, use `latest` as the `RELEASE` variable in the `.env` file. Alternatively, you can pull the Rocket.Chat image directly with the `latest` tag with this command:
 
 ```
 docker pull registry.rocket.chat/rocketchat/rocket.chat:latest
 ```
 
-* Now, stop and restart the existing container with these commands:
+* Now, stop, remove and restart the existing container with these commands:
 
 ```
 docker compose stop rocketchat
