@@ -1,12 +1,4 @@
----
-description: Install and use the Zoom App.
----
-
-# Zoom
-
-<figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
-
-The Zoom app allows you to generate zoom meeting links from your Rocket.Chat workspace.&#x20;
+# Install Zoom App
 
 ## Install Zoom App
 
@@ -41,7 +33,7 @@ To configure the Zoom App,
 
 ## Using the Zoom App
 
-To use the zoom app in a [room](../../../use-rocket.chat/workspace-administration/rooms.md),
+To use the zoom app in a [room](../../../../use-rocket.chat/workspace-administration/rooms.md),
 
 * Run the slash command `/zoom start` to generate a new Zoom meeting link. It generates a Zoom meeting link, and anyone in that room can click the link to join the meeting.
 * You can also run `/zoom start <topic>` to add a title to the meeting. For example, `/zoom start < Designers Daily Standup>`.

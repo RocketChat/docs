@@ -115,7 +115,7 @@ Some apps are part of the **Enterprise Edition** offerings. You don't have to pu
 | [Twitter](rocket.chat-public-apps-guides/omnichannel-apps/twitter-app/)                                         | Enterprise | No         |
 | [WhatsApp](rocket.chat-public-apps-guides/omnichannel-apps/whatsapp/)                                           | Paid       | No         |
 | [Whatsapp Cloud](rocket.chat-public-apps-guides/omnichannel-apps/whatsapp-cloud-app/)                           | Enterprise | No         |
-| [Zoom](rocket.chat-public-apps-guides/zoom.md)                                                                  | Enterprise | No         |
+| [Zoom](rocket.chat-public-apps-guides/zoom/)                                                                    | Enterprise | No         |
 
 {% hint style="success" %}
 If you are subscribed to Rocket.Chat's **Enterprise Edition**, you can install and enable any number of paid and free apps available in the marketplace on your workspace.
