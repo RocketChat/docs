@@ -4,7 +4,7 @@ description: Integrate your Zoom app with Rocket.Chat
 
 # Zoom
 
-<figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
 
 Zoom enables users to construct and join virtual meeting spaces in which they can communicate using audio and video. When it's not feasible to meet in person, video conferencing technologies like Zoom enable people to collaborate and meet effectively "face-to-face." This adds a personal touch to online meetings, which is crucial for keeping people engaged. Many employees rely on Rocket.Chat as their primary means of communication during the day; by including Zoom's features within the app, they can work more efficiently and collaborate more quickly. Companies may increase their efficiency by using video conferencing tools like Zoom, which can be readily linked with Rocket.Chat.&#x20;
 

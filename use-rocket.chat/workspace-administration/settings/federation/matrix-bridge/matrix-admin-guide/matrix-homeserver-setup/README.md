@@ -28,7 +28,7 @@ You are required to have a domain available to host your Matrix Homeserver.
 
 You must be aware of this vital setting before proceeding with the installation.
 
-* Enabling ephemeral events like _user typing indicator_ can affect the performance of your Matrix Homeserver and Rocket.Chat server for federated communicaation.\
+* Enabling ephemeral events like _user typing indicator_ can affect the performance of your Matrix Homeserver and Rocket.Chat server for federated communication.\
   This can be enabled by adding the following property in your Application Service configuration file:
 
 ```yaml
