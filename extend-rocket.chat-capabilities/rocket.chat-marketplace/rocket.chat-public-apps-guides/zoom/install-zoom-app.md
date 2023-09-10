@@ -23,7 +23,7 @@ To create a new Server-to-Server OAuth app from the Zoom marketplace, follow the
 **Note:** You cannot participate in two or more meetings simultaneously. The generated token will be utilized for creating Zoom meetings in which the administrator serves as the meeting host. Since each user in the workspace will have the ability to create Zoom meetings on behalf of the administrator, the administrator cannot simultaneously host more than one meeting.
 {% endhint %}
 
-## Install Zoom App
+## Install Zoom App within Rocket.Chat
 
 To install the Zoom app,
 
@@ -55,4 +55,4 @@ To configure the Zoom App,
 To use the Zoom app in a [room](../../../../use-rocket.chat/workspace-administration/rooms.md),
 
 * Run the slash command `/zoom start` to generate a new Zoom meeting link. It generates a Zoom meeting link, and anyone in that room can click the link to join the meeting.
-* You can also run `/zoom start <topic>` to add a title to the meeting. For example, `/zoom start < Designers Daily Standup>`.
+* You can also run `/zoom start <topic>` to add a title to the meeting. For example, `/zoom start Designers Daily Standup`.
