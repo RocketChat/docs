@@ -31,7 +31,7 @@ jobs:
       uses: peter-evans/create-pull-request@v5
       with:
         # base: main
-        commit-message: Update resources/get-support/enterprise-support/README.md
+        commit-message: Update resources/rocket.chats-support-structure/enterprise-support-and-version-durability/README.md
         branch: update-versions-table
         title: 'Update versions table'
         delete-branch: true
