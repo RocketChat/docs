@@ -12,7 +12,7 @@ const tableLines = [];
 const columnSizes = [];
 const startBlock = '<!-- VERSIONS TABLE -->';
 const endBlock = '<!-- END VERSIONS TABLE -->';
-const filePath = './resources/get-support/enterprise-support/README.md';
+const filePath = './resources/rocket.chats-support-structure/enterprise-support-and-version-durability/README.md';
 
 function addLine(...args) {
 	args.forEach((arg, index) => {
