@@ -87,7 +87,7 @@ With read receipt enabled, the [message info action](../../user-guides/messages/
 ## Auto-Translate <a href="#ibh8nd40he" id="ibh8nd40he"></a>
 
 * **Enable Auto-Translate**: Enabling auto-translation allows users with `auto-translate` permission to have all messages automatically translated into their selected language. Fees may apply.
-* **Service Provider**: A drop-down to select the translation service provider.
+* **Service Provider**: A drop-down to select the translation service provider. You can choose between [DeepL](message.md#hqizve3lvh5), [Google](message.md#e5sd70k5l0d) and [Microsoft](message.md#microsoft) based on your preference.
 
 ### DeepL <a href="#hqizve3lvh5" id="hqizve3lvh5"></a>
 
