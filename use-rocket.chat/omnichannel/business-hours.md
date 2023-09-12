@@ -1,14 +1,13 @@
 # Business Hours
 
-The Omnichannel **Business Hour** enables businesses to set their designated working days and hours. This data is reflected on the [Live Chat widget](livechat-widget-installation.md) availability status, notifying customers to contact customer support agents exclusively during those specified hours. It also helps to manage the workload of agents by ensuring that they receive notifications of queries only within their working hours, enabling them to assist customers promptly.
+The Omnichannel Business Hour allows companies to define their operating hours, which is displayed on the [Live Chat Widget](livechat-widget-installation.md), guiding customers to reach out only during those hours. This system helps manage agent workloads by alerting them of inquiries strictly within these hours, ensuring timely customer assistance.
 
 ## Business Hour Modes
 
-The Business Hour feature has two operating modes: **single** and **multiple**. In the **single mode,** all agents and departments in the workspace follow one business hour setting. This mode is beneficial when all agents share the same shift and time zone. On the contrary, the **multiple mode** enables businesses to set up different working hour rules for various departments, making it particularly valuable when customer support teams operate across numerous time zones.
+* **Single Mode:** Every agent and department adheres to one uniform business hour. It is ideal for teams sharing the same shift and time zone.
+* **Multiple Mode:** Allows distinct working hours for different departments, useful for teams in varied time zones. Here, a default business hour is established, with the option to customize hours for specific departments.
 
-Every agent has a default business hour to follow when using multiple business hour mode. This default business hour applies to any department not associated with a custom business hour or any agents who don't belong to a department. It's the default business hour for the entire workspace.
-
-However, you can create a new custom business hour and specify the department it should apply to. Once that business hour is active, all agents in that department adhere to the new business hour. They can only handle new conversations from this department during working hours. Once it's outside their working hours, their LiveChat status is turned off, and they can't receive any new conversations from this department.
+In the multiple mode, unless a department has a customized business hour, the default is applied. This is also the case for agents not aligned with any department. Once a custom business hour is active for a department, its agents follow that schedule. For instance, if Agent Mike is in both Support (9 AM - 3 PM) and Sales (default hours 4 PM - 5 PM), he'll attend to Support chats till 3 PM, be unavailable till 4 PM, then assist Sales till 5 PM.
 
 {% hint style="info" %}
 Multiple business hour mode is an [enterprise ](https://www.rocket.chat/pricing)feature.
@@ -17,7 +16,7 @@ Multiple business hour mode is an [enterprise ](https://www.rocket.chat/pricing)
 To enable the business hour mode settings for your workspace,
 
 * Navigate to **Administration** > **Workspace** > **Settings** > **Omnichannel > Business Hours.**
-* Toggle ON **Business hours enabled.**
+* Toggle on **Business hours enabled.**
 * Set the **Business Hour Type** to **Single** or **Multiple,** specifying the business hour mode.
 * Click **Save Changes**.
 
