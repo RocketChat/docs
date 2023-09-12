@@ -5,12 +5,14 @@ The Omnichannel Business Hour allows companies to define their operating hours, 
 ## Business Hour Modes
 
 * **Single Mode:** Every agent and department adheres to one uniform business hour. It is ideal for teams sharing the same shift and time zone.
-* **Multiple Mode:** Allows distinct working hours for different departments, useful for teams in varied time zones. Here, a default business hour is established, with the option to customize hours for specific departments.
+* **Multiple Mode:** Allows distinct working hours for different departments, especially useful for teams in varied time zones. In this mode, the workspace has a default business hour, but custom hours can be set for specific departments. Agents in those departments primarily handle chats during those custom hours. Outside of that, their Live Chat status ideally goes offline.
 
-In the multiple mode, unless a department has a customized business hour, the default is applied. This is also the case for agents not aligned with any department. Once a custom business hour is active for a department, its agents follow that schedule. For instance, if Agent Mike is in both Support (9 AM - 3 PM) and Sales (default hours 4 PM - 5 PM), he'll attend to Support chats till 3 PM, be unavailable till 4 PM, then assist Sales till 5 PM.
+In the Multiple Mode, agents without a department-specific rule follow the default business hour. **An important note:** due to system nuances, while agents are assigned to specific department hours, they may still receive chats from other departments they're associated with, even outside the set hours. For instance, if Mike is in Support (9 AM-3 PM) and Sales (default hour: 4 PM-5 PM), he'll mainly handle Support chats until 3 PM. However, he might occasionally receive chats from Sales during the Support hours. Post 3 PM, he'll be primarily available for Sales from 4 PM-5 PM.
+
+We recommend businesses to be aware of this operational nuance and plan their staffing and training accordingly to ensure consistent customer experience.
 
 {% hint style="info" %}
-Multiple business hour mode is an [enterprise ](https://www.rocket.chat/pricing)feature.
+Multiple business hour mode is a premium feature.
 {% endhint %}
 
 To enable the business hour mode settings for your workspace,
