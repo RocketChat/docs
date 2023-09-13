@@ -21,7 +21,6 @@
     * [Deploy with Kubernetes](deploy/deploy-rocket.chat/additional-deployment-methods/deploy-with-kubernetes.md)
     * [Deploy with Digital Ocean](deploy/deploy-rocket.chat/additional-deployment-methods/digitalocean.md)
     * [Deploy on Google Compute Engine](deploy/deploy-rocket.chat/additional-deployment-methods/deploy-on-google-compute-engine.md)
-    * [Deploy with RocketchatCTL](deploy/deploy-rocket.chat/additional-deployment-methods/deploy-with-rocketchatctl.md)
     * [Deploy with Ubuntu](deploy/deploy-rocket.chat/additional-deployment-methods/deploy-with-ubuntu.md)
     * [Deploy with CentOS](deploy/deploy-rocket.chat/additional-deployment-methods/deploy-with-centos.md)
     * [Deploy on Kali](deploy/deploy-rocket.chat/additional-deployment-methods/deploy-on-kali.md)
