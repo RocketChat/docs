@@ -4,7 +4,7 @@ description: Omnichannel Integration between Rocket.Chat and WhatsApp Business.
 
 # WhatsApp
 
-It is a paid subscription and costs you $39 per month. Alternatively, you can use the [whatsapp-cloud-app](../whatsapp-cloud-app/ "mention"), which connects Rocket.Chat directly to WhatsApp without any third-party service.
+This is a WhatsApp integration powered by [360Dialog](https://docs.360dialog.com/docs/account-management/the-360-client-hub). It is a paid subscription and costs you $39 per month. Alternatively, you can use the [whatsapp-cloud-app](../whatsapp-cloud-app/ "mention"), which connects Rocket.Chat directly to WhatsApp without any third-party service.
 
 ![](<../../../../../.gitbook/assets/image (841).png>)
 
@@ -71,6 +71,10 @@ After copying your newly generated API key on 360Dialog,&#x20;
 
 {% hint style="info" %}
 You can set up as many WhatsApp numbers as you want.
+{% endhint %}
+
+{% hint style="danger" %}
+If access to cloud services is suspended on your workspace, you may still incur charges for **360Dialog**, as Rocket.Chat doesn't manage the billing for this service. Refer to the[ official documentation](https://docs.360dialog.com/docs/account-management/the-360-client-hub/cancellation) for instructions on canceling your service subscription.
 {% endhint %}
 
 ## Uninstall WhatsApp App

@@ -2,7 +2,7 @@
 
 <figure><img src="../../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
 
-The Rocket.Chat WhatsApp Cloud App provides direct communication between Rocket.Chat and WhatsApp using the WhatsApp Cloud API without needing third-party services like 360Dialog. Your Rocket.Chat workspace is linked through a [Facebook Developer app](https://developers.facebook.com/apps) with the WhatsApp setup.
+The Rocket.Chat WhatsApp Cloud App provides direct communication between Rocket.Chat and WhatsApp using the WhatsApp Cloud API without needing third-party services like 360Dialog. It is a more secure option and addresses privacy concerns. Your Rocket.Chat workspace is linked through a [Facebook Developer app](https://developers.facebook.com/apps) with the WhatsApp setup.
 
 ## Install Whatsapp Cloud App
 
@@ -53,6 +53,16 @@ Follow the guides below to learn more about how to add a WhatsApp production num
 {% embed url="https://developers.facebook.com/docs/whatsapp/cloud-api/get-started/add-a-phone-number/" %}
 
 {% embed url="https://youtu.be/CEt_KMMv3V8?t=388" %}
+
+When you connect a new number to WhatsApp cloud, you will get  some free messages per month. If you exceed this quota, your card will start getting charged. See the [official pricing guide](https://developers.facebook.com/docs/whatsapp/pricing/) to learn more about the billing and free tier.
+
+{% hint style="info" %}
+We recommend adding your card details as soon as you connect a new number. This ensures that your service integration won't be disrupted if you go beyond the monthly free limit.
+{% endhint %}
+
+{% hint style="danger" %}
+If access to cloud services is suspended on your workspace, you may still incur charges from **Whatsapp**, as  Rocket.Chat does not manage these services and can not cancel them on your behalf. See your [WhatsApp Business Account panel](https://developers.facebook.com/docs/whatsapp/cloud-api/get-started) for any pending bills and to manage your payments.
+{% endhint %}
 
 ### Create a Permanent Whatsapp Cloud API Token
 
