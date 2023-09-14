@@ -28,7 +28,7 @@ You will be required to provide the following information:
 * The workspace URL.
 {% endhint %}
 
-* When the license code is provided, follow the steps outlined in [applying offline license.](../../use-rocket.chat/workspace-administration/workspace.md#apply-offline-license)
+* When the license code is provided, follow the steps outlined in [applying offline license.](../../use-rocket.chat/workspace-administration/info.md#apply-offline-license)
 
 ### 2. Get a License from Rocket.Chat Cloud
 
@@ -38,4 +38,4 @@ You are required to have completed[ registering your offline workspace](offline-
 
 * Click the workspace on the [Rocket.Chat Cloud portal](https://cloud.rocket.chat/home)
 * Click **Get License**&#x20;
-* Copy the license code provided and follow the steps outlined in [applying offline license.](../../use-rocket.chat/workspace-administration/workspace.md#apply-offline-license)
+* Copy the license code provided and follow the steps outlined in [applying offline license.](../../use-rocket.chat/workspace-administration/info.md#apply-offline-license)

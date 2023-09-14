@@ -1,14 +1,14 @@
 ---
 description: >-
-  With Rocket.Chat OAuth Applications, you can set up custom applications to be
+  With Rocket.Chat Third-party Login, you can set up custom applications to be
   used for Open Authentication.
 ---
 
-# OAuth Applications
+# Third-party Login
 
-The OAuth applications dashboard shows the various OAuth apps linked to your workspace.&#x20;
+The Third-party login shows the various OAuth apps linked to your workspace.&#x20;
 
-To access this menu, navigate to **Administration** > **Workspace** > **OAuth Applications.**
+To access this menu, navigate to **Administration** > **Workspace** > **Third-party login.**
 
 ## Adding New OAuth Application
 
