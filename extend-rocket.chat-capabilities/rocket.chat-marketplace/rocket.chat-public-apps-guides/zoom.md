@@ -1,5 +1,5 @@
 ---
-description: Integrate your Zoom app with Rocket.Chat
+description: Install and use the Zoom App.
 ---
 
 # Zoom
