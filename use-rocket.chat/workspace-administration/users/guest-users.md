@@ -1,45 +1,35 @@
----
-description: >-
-  If you want to invite external users to your Rocket.Chat workspace, you can
-  add them as guest users.
----
-
 # Guest users
 
-{% hint style="info" %}
-As from Rocket.Chat `6.0`, Guest role [permissions](../permissions/) on [Enterprise Edition](../settings/enterprise.md) and [Rocket.Chat SaaS](../../../#rocket.chat-saas) workspaces cannot be modified.
-{% endhint %}
+Guest users in Rocket.Chat are invited external users with limited capabilities. While they can join select channels and discussions, they don't have full workspace access. This setup is ideal for collaboration with partners, contractors, or customers, allowing businesses to grant project-specific access while ensuring security.
 
-{% hint style="success" %}
-Users with the Guest role don't count on the cap of seats, but they count on the guest cap.
+{% hint style="info" %}
+Guest users do not count towards the seat cap, but they do count towards the guest cap.
 {% endhint %}
 
 ### What can a guest user do?
 
-Guest users have fewer capabilities than regular users.
-
-A  Rocket.Chat guest users can:
+A Rocket.Chat guest users can do the following:
 
 * Join channels they are invited to.
 * Participate in [Channel](../../user-guides/rooms/channels/), [1:1 DM](../../user-guides/rooms/direct-messages/#types-of-direct-messages), and [1:M DM](../../user-guides/rooms/direct-messages/#types-of-direct-messages) conversations they are a part of.
 * [Create Discussions](../../user-guides/rooms/discussions/create-a-new-discussion.md).
 
 {% hint style="info" %}
-You can set a maximum number of guest users for every license.
-
-You can set a maximum number of channels a guest can join for every license.
+You can manage the capabilities of guest users further by [configuring their permissions](guest-users.md#guest-access-permissions).
 {% endhint %}
 
 ## Manage your guest users
 
 ### **Guest Access Permissions**
 
-Go to **Administration > Workspace > Permissions** and locate the guest role. You see the available permissions the guest role has.
-
-Check to enable any other permission to elevate the guest privileges.
+Go to **Administration > Workspace > Permissions** and locate the guest role. You see the available permissions the guest role has. Check to enable any other permission to elevate the guest privileges.
 
 {% hint style="info" %}
-For Enterprise workspaces from `6.0`, the guest role has limited permissions like: `Start Discussion`,`View Direct Messages` and cannot be modified.
+As from Rocket.Chat `6.0`, guest role [permissions](../permissions/) on [Enterprise Edition](../settings/enterprise.md) and [Rocket.Chat SaaS](../../../#rocket.chat-saas) workspaces cannot be modified.
+{% endhint %}
+
+{% hint style="info" %}
+For Enterprise workspaces from `6.0`, the guest role has limited permissions like: `Start Discussion`,`View Direct Messages` . These permissions cannot be modified.
 {% endhint %}
 
 #### Permissions Available **for the Guest Role**
@@ -51,6 +41,8 @@ For Enterprise workspaces from `6.0`, the guest role has limited permissions lik
 {% hint style="info" %}
 You must be an administrator to add a guest to Rocket.Chat workspace.
 {% endhint %}
+
+To add a guest user,&#x20;
 
 * Go to **Administration > Workspace > Users > New**
 * On the **Add User** page, enter the guest users' information:
@@ -69,7 +61,7 @@ You must be an administrator to add a guest to Rocket.Chat workspace.
 * Click **Save**.
 
 {% hint style="info" %}
-[**Roles** ](../../../setup-and-configure/roles-in-rocket.chat.md)- This defines what permissions a user has.
+[**Roles**](../../../setup-and-configure/roles-in-rocket.chat.md) defines what permissions a user has.
 {% endhint %}
 
 Once the guest user is added, you can edit, activate or deactivate the guest user as needed.
