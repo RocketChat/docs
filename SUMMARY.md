@@ -485,3 +485,5 @@
 * [Privacy Center](rocket.chat-privacy-and-security/privacy-center/README.md)
   * [GDPR](rocket.chat-privacy-and-security/gdpr.md)
     * [Data Processing Agreement](rocket.chat-privacy-and-security/data-processing-agreement.md)
+  * [LGDP](rocket.chat-privacy-and-security/privacy-center/lgdp/README.md)
+    * [Nomeação do Encarregado pelo Tratamento de Dados Pessoais](rocket.chat-privacy-and-security/privacy-center/lgdp/nomeacao-do-encarregado-pelo-tratamento-de-dados-pessoais.md)
