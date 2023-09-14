@@ -2,9 +2,9 @@
 
 <figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
 
-**Reports** is a powerful solution designed for workspace administrators, managers, and supervisors to efficiently track and evaluate customer service support metrics across different categories and specified time ranges. It provides a comprehensive insight into conversation metrics and agents' performance in your workspace. You can use filters to select time ranges like **Today**, **This Week**, **Last 15 days**, **This Month,** **Last 6 Months,** and **Last year**. You can also export the data to a **CSV** file.
+**Reports** offer a robust tool tailored for workspace administrators and managers to effectively monitor and assess customer service metrics across various categories and specific time intervals. They grant an in-depth view into conversation data and the performance of agents within your workspace.&#x20;
 
-By selecting specific time ranges on the Reports dashboard, you can easily identify patterns and trends that were previously difficult to discern among random data points.
+You can use filters to select time ranges like **Today**, **This Week**, **Last 15 days**, **This Month,** **Last 6 Months,** and **Last year**. You can also export the data to a **CSV** file. By selecting specific time ranges on the Reports dashboard, you can easily identify patterns and trends that were previously difficult to discern among random data points.
 
 To access the **Omnichannel Reports** dashboard,
 
@@ -17,7 +17,7 @@ You can view the metrics of omnichannel conversations in your workspace during a
 
 ### Conversation by Channels
 
-You can view the metrics of omnichannel conversations in your workspace during a selected time range based on the enabled channels in your workspace . This gives you an overview of conversations that are handled by channels like **Facebook**, **WhatsApp**, and **LiveChat.** Select a time range and click the **download icon** to export the metrics to a CSV file.
+You can view the metrics of omnichannel conversations in your workspace during a selected time range based on the enabled channels in your workspace. This gives you an overview of conversations handled by **Facebook**, **WhatsApp**, and **LiveChat.** Select a time range and click the **download icon** to export the metrics to a CSV file.
 
 ### Conversation by Departments
 
@@ -25,7 +25,7 @@ You can view [department-specific](departments.md) metrics of omnichannel conver
 
 ### Conversations by Tags
 
-You can track the performance of omnichannel conversations by [tags ](tags.md)within a selected time period in your workspace. Select a time range and click the **download icon** to export the metrics to a CSV file.
+You can track the performance of omnichannel conversations by [tags ](tags.md)within a selected period in your workspace. Select a time range and click the **download icon** to export the metrics to a CSV file.
 
 ### Conversation by Agents
 
