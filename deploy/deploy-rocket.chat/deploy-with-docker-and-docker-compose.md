@@ -119,7 +119,7 @@ docker compose logs -f rocketchat
 
 **Official image (stable and tested)**
 
-The Official Docker Images Repository is responsible for maintaining and controlling Rocket.Chat's official stable image through Docker. It is also reviewed by the Docker committee.
+The [Official Docker Images Repository](https://hub.docker.com/r/rocketchat/rocket.chat/tags) is responsible for maintaining and controlling Rocket.Chat's official stable image through Docker. It is also reviewed by the Docker committee.
 
 ```bash
 docker pull registry.rocket.chat/rocketchat/rocket.chat
