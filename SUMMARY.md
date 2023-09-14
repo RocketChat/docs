@@ -280,6 +280,7 @@
     * [WebRTC](use-rocket.chat/workspace-administration/settings/webrtc.md)
 * [Omnichannel](use-rocket.chat/omnichannel/README.md)
   * [Current Chats](use-rocket.chat/omnichannel/current-chats.md)
+  * [Reports](use-rocket.chat/omnichannel/reports.md)
   * [Analytics](use-rocket.chat/omnichannel/analytics.md)
   * [Real-time Monitoring](use-rocket.chat/omnichannel/real-time-monitoring.md)
   * [Managers](use-rocket.chat/omnichannel/managers.md)
