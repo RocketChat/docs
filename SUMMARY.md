@@ -136,7 +136,7 @@
   * [Keyboard Shortcuts](use-rocket.chat/user-guides/keyboard-shortcuts.md)
 * [Workspace Administration](use-rocket.chat/workspace-administration/README.md)
   * [Go Fully Featured](use-rocket.chat/workspace-administration/go-fully-featured.md)
-  * [Info](use-rocket.chat/workspace-administration/info.md)
+  * [Workspace](use-rocket.chat/workspace-administration/workspace.md)
   * [Moderation Dashboard](use-rocket.chat/workspace-administration/moderation-dashboard.md)
   * [Import](use-rocket.chat/workspace-administration/import/README.md)
     * [Import from HipChat](use-rocket.chat/workspace-administration/import/import-from-hipchat.md)

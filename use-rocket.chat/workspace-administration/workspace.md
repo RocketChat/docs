@@ -1,12 +1,14 @@
 ---
-description: Info gives you a consolidated view of basic information about your workspace.
+description: >-
+  Workspace menu gives you a consolidated view of basic information about your
+  workspace.
 ---
 
-# Info
+# Workspace
 
-Visit the **Info** section to get insight, statistics, and information on the various aspects of your server. This can help you to evaluate better and monitor the various activities.
+Visit this section to get insight, statistics, and information on the various aspects of your server. This can help you to evaluate better and monitor the various activities.
 
-To access this menu, go to **Administration** > **Workspace** > **Info.**
+To access this menu, go to **Administration** > **Workspace** > **Workspace.**
 
 ## Deployment&#x20;
 

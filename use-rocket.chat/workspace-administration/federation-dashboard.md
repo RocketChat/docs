@@ -9,7 +9,7 @@ description: >-
 
 
 {% hint style="warning" %}
-The **Federation Dashboard** menu is displayed only when [Federation](info.md#federation-info) is enabled in the workspace.
+The **Federation Dashboard** menu is displayed only when [Federation](workspace.md#federation-info) is enabled in the workspace.
 {% endhint %}
 
 With the Rocket.Chat [Federation Setup](settings/federation/), you can configure your server to communicate seamlessly with other servers.
