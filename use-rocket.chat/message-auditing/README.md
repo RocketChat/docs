@@ -2,7 +2,7 @@
 
 <figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (41).jpg" alt=""><figcaption></figcaption></figure>
 
-Rocket.Chat allows authorized users to audit messages and read conversations in a workspace. The user must have an `auditor` [role](../../setup-and-configure/roles-in-rocket.chat.md) and `Can Audit` [permission](../workspace-administration/permissions/) to access the auditing panel. As an organization, you may want to inspect the [omnichannel](../omnichannel/) conversations and watch out for [agents ](../omnichannel/agents.md)that use improper language with customers. An auditor can do the following:
+Rocket.Chat allows authorized users to audit messages and read conversations in a workspace. The user must have an `auditor` [role](../../setup-and-configure/roles-in-rocket.chat.md) and `Can Audit` [permission](../workspace-administration/permissions/) to access the **Audit Messages Panel**. As an organization, you may want to inspect the [omnichannel](../omnichannel/) conversations and watch out for [agents ](../omnichannel/agents.md)that use improper language with customers. An auditor can do the following:
 
 * Review messages in private rooms.
 * Review messages by users.
@@ -10,14 +10,14 @@ Rocket.Chat allows authorized users to audit messages and read conversations in 
 * Review omnichannel messages.
 * Check the audit history of individuals using the Message Auditing Panel.
 
-To access the Message Auditing Panel,
+To access the **Audit Messages Panel**,
 
-* Navigate to **Administration** > **Audit** > **Messages,**
+* Navigate to **Administration** > **Audit** > **Messages.**
 
 {% hint style="info" %}
-If you cant find the audit options, don't hesitate to get in touch with your workspace administrator to [assign message auditing permmisions to you](assign-message-auditing-permissions-to-specific-users.md).
+If you can't find the audit options, don't hesitate to get in touch with your workspace administrator to [assign message auditing permissions to you](assign-message-auditing-permissions-to-specific-users.md).
 
-See [**Messaging Auditing Log**](./) to learn more about the auditing log history.
+See [**MessagE Auditing Log**](./) to learn more about the audit log history.
 {% endhint %}
 
 ## Search and Review Messages

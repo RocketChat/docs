@@ -6,15 +6,15 @@ description: Review log history of users who have accessed the Message Auditing 
 
 <figure><img src="../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (41).jpg" alt=""><figcaption></figcaption></figure>
 
-The **Message Audit Log** allows you to verify who run audits and when a conversation was inspected. The user must have an `auditor-log` [role](../setup-and-configure/roles-in-rocket.chat.md) and `Can Audit Log` [permission](workspace-administration/permissions/) to access the **Audit Logs**.
+The **Audit Logs Panel** allows you to verify who runs audits and when a conversation was inspected. The user must have an `auditor-log` [role](../setup-and-configure/roles-in-rocket.chat.md) and `Can Audit Log` [permission](workspace-administration/permissions/) to access the **Audit Logs**.
 
-To access the message auditing log,
+To access the **Audit Logs Panel**,
 
 * Navigate to **Administration** > **Audit** > **Logs**.
 
-If you are interested in the entire log history, clear the start and end date fields. The full log history results are returned, from the oldest audits to the most recent. However, if you want to see who audited messages within a specific time frame, select the **start** (left) and end **date**s(right). The ![](../.gitbook/assets/three-dot-icon.png)**three-dots icon** also provides other time options like **Today**, **This Week,** etc.
+If you are interested in the entire log history, clear the start and end date fields. The full log history results are returned, from the oldest to the most recent audits. However, if you want to see who audited messages within a specific time frame, select the **start** (left) and end **date**s(right). The **kebab** **menu** also provides other time options like **Today**, **This Week,** etc.
 
-The message auditing logs returns a table with following information:
+The **Audit Logs** returns a table with the following information:
 
 * **Username** : The name, username, and avatar of the auditors.
 * **Looked for** : The search term of each audit.
@@ -24,9 +24,9 @@ The message auditing logs returns a table with following information:
 
 ## Assign Message Audit Log Permission to Specific Users
 
-The **Audit Log** [permissions](workspace-administration/permissions/) grant users access to **Message Audit** **Log** features. As a workspace administrator, you can assign this permssion \*\*\*\* to any [role ](workspace-administration/permissions/#roles)you want to give audit log access to.
+The **`Can Audit Log`** [permission](workspace-administration/permissions/) grant users access to the **Audit** **Logs** feature. As a workspace administrator, you can assign this permission to any [role ](workspace-administration/permissions/#roles)you want to give audit log access to.
 
-To assign message audit permissions,
+To assign audit logs permissions,
 
 * Navigate to **Administration** > **Workspace** > **Permissions.**
-* To access the **Message Auditing Panel**, check the `Can Audit Log` box under the role you want to assign.
+* To access the **Audit Logs Panel**, check the `Can Audit Log` box under the role you want to assign.
