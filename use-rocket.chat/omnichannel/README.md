@@ -14,7 +14,7 @@ Rocket.Chat **Omnichannel** allows you to integrate various customer communicati
 
 You can also use advanced [Omnichannel Apps](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/), which provide a seamless communication experience between Rocket.Chat and external users from other communication platforms like [WhatsApp](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/whatsapp/), [SMS](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/sms.md), [Facebook](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/facebook-app/), [Instagram Direct](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/instagram-direct/), [Twitter](broken-reference), [Telegram](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/telegram-app/), etc.&#x20;
 
-Using Omnichannel helps **acquire** and **retain** customers in a multi-channel environment to save valuable potential sales while building relationships, providing an exceptional experience and the ability to interact through various communication channel
+Using Omnichannel helps **acquire** and **retain** customers in a multi-channel environment to save valuable potential sales while building relationships, providing an exceptional experience and the ability to interact through various communication channel.
 
 Rocket.Chat Omnichannel has three primary users; [Admins](./), [Managers](managers.md), and [Agents](agents.md).
 

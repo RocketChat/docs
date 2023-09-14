@@ -1,6 +1,6 @@
 # Livechat Triggers
 
-Omnichannel Live Chat Triggers are a set of events that can be configured that when they happen, causes the Live Chat widget to perform an action or opens up automatically.
+Omnichannel Live Chat Triggers are events you can set up. When these events occur, they make the Live Chat widget take action or open automatically.
 
 To access this menu, go to **Administration > Omnichannel > Live Chat Triggers**. Here, you can **View**, **Create New**, **Edit** or **Delete** existing Live Chat Triggers.
 
@@ -14,10 +14,14 @@ To create a new Omnichannel Live Chat Trigger:
 ### Omnichannel LiveChat Trigger Information
 
 * **Enable**: Enables the Live Chat Trigger
-* **Run only once for each visitor**: Enable to let the trigger only run once for each visitor. If false, you get a recurring pop-open. (e.g., If your user goes to a different website and comes back to the same website, it pops open)
+* **Run only once for each visitor**: Enable to let the trigger only run once for each visitor. If false, you get a recurring pop-open. (e.g., If your user goes to a different website and comes back to the same website, it pops open).
 * **Name**: Name your new trigger.
 * **Description**: Allows you set the description of the trigger.
 * **Condition**: Allows you set the condition for which the action will be triggered. Depending on what condition to track, you can set additional properties for validation.
+  * **Visitor Page URL**: It allows you to enter a regex to describe the website page you want the action to occur. For example, if you own a website called _xyz.com_ and you only want the live chat widget action to occur on one specific page _(xyz.com/contact)_, not on any other pages, select **Visitor Page URL** and define the regex in the **Action** field. For this example, the regex should look like `.*/contact`.
+  * **Visitor Time on Site**: The action occurs after the specified time in seconds once the customer visits your website.
+  * **Chat Open by Visitor**: The action occurs when the customer/visitor opens a new chat.
+  * **After Guest Registration**: The action occurs after a guest submits the LiveChat registration form.
 * **Action**: Define the action you want the Live Chat widget to perform. For now, there is only one option of sending a message to the visitor. You can also select if you want to impersonate the next available agent in the queue or use a bot/custom agent.
 
 ## Edit Omnichannel Live Chat Trigger
