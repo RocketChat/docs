@@ -28,13 +28,21 @@ When someone mentions you with `@username`, `@all` or `@here`, a symbol or a num
 
 ## Auto-Translate
 
-Auto-Translate is a powerful feature in Rocket.Chat that enhances communication and collaboration by automatically translating room messages in real time. It is especially valuable for global teams, multilingual communities, or organizations that need to bridge language barriers effortlessly. It translates messages you receive to a sepcified in real time.
+Auto-Translate is a powerful feature in Rocket.Chat that enhances communication and collaboration by automatically translating room messages in real time. It is valuable for global teams, multilingual communities, or organizations that need to bridge language barriers effortlessly.&#x20;
 
 {% hint style="info" %}
-The workspace administrator must enable the Au
+The workspace administrator must configure the [Auto-Translate settings](../../workspace-administration/settings/message.md#ibh8nd40he).
 {% endhint %}
 
-To enable Auto-Translate in a room,&#x20;
+To enable **Auto-Translate** in a room,&#x20;
 
-* Click the **three dots** icon at the menu bar of the room.
-* Select **Notification Preferences**.
+* Click the **kebab** icon at the menu bar of the room.
+* Select **Auto-Translate**.
+* Enable **Automatic Translation.**
+* Select your preferred language.
+
+All the messages you receive in the room will be automatically translated to the selected language.
+
+{% hint style="warning" %}
+Your translation settings won't affect other users in the room. The messages they receive will also be translated to their selected language.
+{% endhint %}

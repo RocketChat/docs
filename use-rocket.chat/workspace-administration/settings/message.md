@@ -87,7 +87,11 @@ With read receipt enabled, the [message info action](../../user-guides/messages/
 ## Auto-Translate <a href="#ibh8nd40he" id="ibh8nd40he"></a>
 
 * **Enable Auto-Translate**: Enabling auto-translation allows users with `auto-translate` permission to have all messages automatically translated into their selected language. Fees may apply.
-* **Service Provider**: A drop-down to select the translation service provider. You can choose between [DeepL](message.md#hqizve3lvh5), [Google](message.md#e5sd70k5l0d) and [Microsoft](message.md#microsoft) based on your preference.
+* **Service Provider**: A drop-down to select the translation service provider. You can choose between [DeepL](message.md#hqizve3lvh5), [Google](message.md#e5sd70k5l0d) and [Microsoft](message.md#microsoft) based on your preference.&#x20;
+
+{% hint style="info" %}
+Add the respective API key to complete authentication for the setup depending on your selected service provider.
+{% endhint %}
 
 ### DeepL <a href="#hqizve3lvh5" id="hqizve3lvh5"></a>
 
@@ -95,7 +99,7 @@ With read receipt enabled, the [message info action](../../user-guides/messages/
 
 ### Google <a href="#e5sd70k5l0d" id="e5sd70k5l0d"></a>
 
-* **API Key**: Takes in the Google API key.
+* **API Key**:  Enter the Google Translate API key. To get the API key for authentication, see the official [setup guide for Google Translate](https://cloud.google.com/translate/docs/setup).
 
 ### Microsoft
 
