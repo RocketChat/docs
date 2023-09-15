@@ -16,7 +16,12 @@ To create a new Server-to-Server OAuth app from the Zoom marketplace, follow the
 * Under the **App Credentials** section, copy the app's **Account ID**, **Client ID,** and **Client Secret**.&#x20;
 * Once you have copied this, provide the **basic information** of your app such as the name, description, and company name. This will show on the app listing card.
 * Also, provide the **developer contact information**. Provide your corporate email for announcements including new Marketplace/API updates, breaking changes, and other updates that impact your app.
-* Define the **features** and **scope** of your app and head to the **Activation** section. Your app will now be ready for activation. Once activated, your app will be allowed to invoke the selected Zoom APIs.&#x20;
+* Define the **features** of your app and head to the **Scopes** section.&#x20;
+* Click on **Add Scopes** button and add this scope: \
+  \
+  **View and manage all user meetings** **`/meeting:write:admin`**\
+
+* After adding this scope, continue to the last step for **Activation**. Your app will now be ready for activation. Once activated, your app will be allowed to invoke the selected Zoom APIs.&#x20;
 * Once you have created the server-to-server OAuth app at Zoom marketplace, visit the Rocket.Chat marketplace within your workspace to install the Zoom app.&#x20;
 
 {% hint style="danger" %}
