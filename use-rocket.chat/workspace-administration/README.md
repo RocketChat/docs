@@ -14,7 +14,7 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 [**Go Fully Featured**](go-fully-featured.md): An overview of all the potential of Rocket. Chat's enterprise edition.
 
-[**Workspace**](info.md): A consolidated view of basic information about your workspace.
+[**Workspace**](workspace.md): A consolidated view of basic information about your workspace.
 
 [**Registration**](registration.md): Rocket.Chat Registration gives you access to connect your self-hosted workplace to Rocket.Chat cloud. Learn how to use create a new cloud account and use connectivity services.
 

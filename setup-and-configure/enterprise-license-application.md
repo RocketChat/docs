@@ -1,6 +1,6 @@
 # Enterprise License Application
 
-&#x20;In the realm of open-source communication, Rocket.Chat, has always been at the forefront of providing secure and scalable solutions. To fully appreciate Rocket.Chat's breadth and depth, you are encouraged to try out the enterprise version. Having a Rocket.Chat License unlocks additional functionality. [Check out our plans](https://www.rocket.chat/pricing). &#x20;
+In the realm of open-source communication, Rocket.Chat, has always been at the forefront of providing secure and scalable solutions. To fully appreciate Rocket.Chat's breadth and depth, you are encouraged to try out the enterprise version. Having a Rocket.Chat License unlocks additional functionality. [Check out our plans](https://www.rocket.chat/pricing). &#x20;
 
 All directions on this page assume you have a valid license and now wish to apply it. If you do not yet have one, please get in [contact with sales](https://www.rocket.chat/sales-contact).
 
@@ -22,7 +22,7 @@ You can do this by:
 * Navigate to **Administration** > **Workspace** > **Registration** > **Manage** for workspaces as from Rocket.Chat `6.0` or  **Administration** > **Connectivity Services** for workspaces below `6.0`.
 * Click on **Sync**. This fetches the License for your workspace from Rocket.Chat Cloud.
 
-Your License is now applied to your workspace and it is ready to use. You can confirm this by going to **Administration > Workspace > Info** and checking the License section.
+Your License is now applied to your workspace and it is ready to use. You can confirm this by going to **Administration > Workspace > Workspace** and checking the License section.
 
 </details>
 
@@ -38,7 +38,7 @@ You can do this by:
 * Navigate to **Administration** > **Workspace** > **Registration** > **Manage** for workspaces as from Rocket.Chat `6.0` or  **Administration** > **Connectivity Services** for workspaces below `6.0`.
 * Click on **Sync.** This fetches fetch the License for your workspace from Rocket.Chat Cloud
 
-Your License is applied to your workspace and is ready to use.  You can confirm this by going to **Administration > Info** and checking the License section
+Your License is applied to your workspace and is ready to use.  You can confirm this by going to **Administration > Workspace** and checking the License section
 
 </details>
 
@@ -61,7 +61,7 @@ You can do this by:
   * Click **Register**
 * Click on **Sync** to sync the workspace to Rocket.Chat cloud.
 
-Your workspace is now Registered and your License applied to your workspace.  You can confirm this by going to **Administration > Info** and checking the License section
+Your workspace is now Registered and your License applied to your workspace.  You can confirm this by going to **Administration > Workspace** and checking the License section
 
 </details>
 
@@ -73,11 +73,11 @@ You have an existing workspace that is air-gapped and has been given a license t
 
 You can do this by:
 
-* Navigate to **Administration** > **Workspace** > **Info** > **Apply Offline License**
+* Navigate to **Administration** > **Workspace** > **Workspace** > **Apply Offline License**
 * Paste the License token you were provided
 * Click **Apply License**
 
-Your License should now be applied. You can confirm this by going to **Administration > Info** and checking the License section.
+Your License should now be applied. You can confirm this by going to **Administration > Workspace** and checking the License section.
 
 If your workspace will need to send push notifications you will need to allow access to:
 
@@ -90,7 +90,7 @@ Then take the Registration token provided:
 * Click **Register** and then click **Use Token.**
 * Paste the token provided.
 
-Your workspace should now be Registered and your License should now be applied to your workspace and be ready to use.  You can confirm this by going to **Administration > Info** and checking the License section
+Your workspace should now be Registered and your License should now be applied to your workspace and be ready to use.  You can confirm this by going to **Administration > Workspace** and checking the License section
 
 </details>
 
@@ -129,7 +129,7 @@ If you purchased a license for Self Managed but do not yet have a workspace.
   * Click Register
 * Click on **Sync** to sync the workspace to Rocket.Chat cloud.
 
-Your workspace is now registered and your License applied to it. You can confirm this by going to **Administration > Info** and checking the License section
+Your workspace is now registered and your License applied to it. You can confirm this by going to **Administration > Workspace** and checking the License section
 
 </details>
 
@@ -142,11 +142,11 @@ You have an existing workspace but it is air-gapped and you have been given a li
 You can do this by:
 
 * [Deploy a new air-gapped workspace](rocket.chat-air-gapped-deployment/)&#x20;
-* Navigate to **Administration** > **Workspace** > **Info** > **Apply Offline License**
+* Navigate to **Administration** > **Workspace** > **Workspace** > **Apply Offline License**
 * Paste the License token you were provided.
 * Click **Apply License.**
 
-Your Lice is applied. You can confirm this by going to **Administration > Info** and checking the License section.
+Your License is applied. You can confirm this by going to **Administration > Workspace** and checking the License section.
 
 If your workspace needs to send push notifications you will need to allow access to:
 
@@ -159,7 +159,7 @@ Then take the Registration token provided:
 * Click **Register** and then click **Use Token**&#x20;
 * Paste the token provided
 
-Your workspace gets registered and your License is applied to it.  You can confirm this by going to **Administration > Info** and checking the License section
+Your workspace gets registered and your License is applied to it.  You can confirm this by going to **Administration > Workspace**  and checking the License section
 
 </details>
 

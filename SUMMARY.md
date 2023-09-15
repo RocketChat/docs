@@ -136,7 +136,7 @@
   * [Keyboard Shortcuts](use-rocket.chat/user-guides/keyboard-shortcuts.md)
 * [Workspace Administration](use-rocket.chat/workspace-administration/README.md)
   * [Go Fully Featured](use-rocket.chat/workspace-administration/go-fully-featured.md)
-  * [Workspace](use-rocket.chat/workspace-administration/info.md)
+  * [Workspace](use-rocket.chat/workspace-administration/workspace.md)
   * [Registration](use-rocket.chat/workspace-administration/registration.md)
   * [Engagement](use-rocket.chat/workspace-administration/engagement-dashboard.md)
   * [Moderation](use-rocket.chat/workspace-administration/moderation-dashboard.md)

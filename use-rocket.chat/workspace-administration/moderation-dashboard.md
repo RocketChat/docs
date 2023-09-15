@@ -2,7 +2,7 @@
 
 Moderation allows workspace admins and moderators of Rocket.Chat to view the reported messages and take appropriate action against detrimental users.
 
-To access this menu, go to **Administration** > **Workspace** > **Moderation.**
+To access this menu, go to **Administration** > **Workspace** > **Moderation .**
 
 * The reported messages are displayed on a table.
 * Click the kebab menu <img src="../../.gitbook/assets/image (1) (2).png" alt="" data-size="line"> across a report to view all the actions you can do to the user and message that was reported.
