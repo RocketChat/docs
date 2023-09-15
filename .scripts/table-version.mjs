@@ -10,8 +10,6 @@ const octokit = new Octokit({
 
 const tableLines = [];
 const columnSizes = [];
-const startBlock = '<!-- VERSIONS TABLE -->';
-const endBlock = '<!-- END VERSIONS TABLE -->';
 const filePath = './resources/rocket.chats-support-structure/enterprise-support-and-version-durability/README.md';
 
 function addLine(...args) {
