@@ -109,7 +109,7 @@ async function generateTable({ owner, repo } = {}) {
 
 	const file = (await fs.readFile(filePath)).toString();
 
-	const reg = /\| Rocket\.Chat Release \|.+(\n\|.+)*/gm;
+	const reg = /\| Rocket\.Chat Release \| Latest Version.+(\n\|.+)*/m;
 
 	const oldTable = file.match(reg)[0];
 
