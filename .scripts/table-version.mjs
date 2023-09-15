@@ -78,8 +78,8 @@ async function generateTable({ owner, repo } = {}) {
 
 	releases[0].last = true;
 
-	addLine('Rocket.Chat Release', 'Latest Version', 'Released At', 'End of Life');
-	addLine('-------------------', '--------------', '----------:', '----------:');
+	addLine('Rocket.Chat Release', 'Latest Version                                                         ', ' Released At', ' End of Life');
+	addLine('-------------------', '-----------------------------------------------------------------------', '-----------:', '-----------:');
 
 	for (const { tag_name, html_url, lts, last, nextRelease, minorRelease, minor_tag} of releases) {
 		let supportDate;
@@ -89,7 +89,7 @@ async function generateTable({ owner, repo } = {}) {
 			supportDate.setMonth(supportDate.getMonth() + (lts ? 6 : 3));
 		}
 
-		const release = `${lts ? '**' : ''}${minor_tag}${lts ? ' \\(LTS\\)**' : ''}`;
+		const release = `${lts ? '**' : ''}${minor_tag}${lts ? ' (LTS)**' : ''}`;
 		const url = `[${tag_name}](${html_url})`;
 		const releasedAt = `${lts ? '**' : ''}${minorRelease.releaseDate.toLocaleString('en', { month: 'short' })} ${minorRelease.releaseDate.getFullYear()}${
 			lts ? '**' : ''
@@ -101,16 +101,17 @@ async function generateTable({ owner, repo } = {}) {
 		addLine(release, url, releasedAt, endOfLife);
 	}
 
-	const text = [startBlock];
+	const text = [];
 	for (const line of tableLines) {
-		const columns = line.map((col, index) => String(col).padEnd(columnSizes[index] || 0, ' '));
+		const columns = line.map((col, index) => String(col)[index < 2 ? 'padEnd' : 'padStart'](columnSizes[index] || 0, ' '));
 		text.push(`| ${columns[0]} | ${columns[1]} | ${columns[2]} | ${columns[3]} |`);
 	}
-	text.push(endBlock);
 
 	const file = (await fs.readFile(filePath)).toString();
 
-	const oldTable = file.match(new RegExp(`${startBlock}.+${endBlock}`, 'gs'))[0];
+	const reg = /\| Rocket\.Chat Release \|.+(\n\|.+)*/gm;
+
+	const oldTable = file.match(reg)[0];
 
 	const diff = Diff.diffLines(oldTable, text.join('\n'), { ignoreWhitespace: true, newlineIsToken: false });
 	diff.forEach((item) => {
@@ -131,7 +132,7 @@ async function generateTable({ owner, repo } = {}) {
 		console.log('No changes found');
 	}
 
-	await fs.writeFile(filePath, file.replace(new RegExp(`${startBlock}.+${endBlock}`, 'gs'), text.join('\n')));
+	await fs.writeFile(filePath, file.replace(reg, text.join('\n')));
 
 	// console.log(text.join('\n'));
 }
