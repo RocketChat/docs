@@ -86,8 +86,8 @@ With read receipt enabled, the [message info action](../../user-guides/messages/
 
 ## Auto-Translate <a href="#ibh8nd40he" id="ibh8nd40he"></a>
 
-* **Enable Auto-Translate**: Enabling auto-translation allows users with `auto-translate` permission to have all messages automatically translated into their selected language. Fees may apply.
-* **Service Provider**: A drop-down to select the translation service provider. You can choose between [DeepL](message.md#hqizve3lvh5), [Google](message.md#e5sd70k5l0d) and [Microsoft](message.md#microsoft) based on your preference.&#x20;
+* **Enable Auto-Translate**: Enabling auto-translation allows users with `auto-translate` permission to have all messages in a room automatically translated into their selected language. To learn more, see the[ Auto-Translate user guide](../../user-guides/rooms/#auto-translate).
+* **Service Provider**: A drop-down to select the translation service provider. You can choose between [DeepL](message.md#hqizve3lvh5), [Google](message.md#e5sd70k5l0d) and [Microsoft](message.md#microsoft).&#x20;
 
 {% hint style="info" %}
 Add the respective API key to complete authentication for the setup depending on your selected service provider.
@@ -95,15 +95,19 @@ Add the respective API key to complete authentication for the setup depending on
 
 ### DeepL <a href="#hqizve3lvh5" id="hqizve3lvh5"></a>
 
-* **API Key**: Takes in DeepL API key.
+* **API Key**: Enter your **DeepL API** key. To get the Authentication key, see the [official DeepL API documentation](https://www.deepl.com/docs-api/api-access/authentication).
+
+{% hint style="info" %}
+Rocket.Chat does not currently support the [free version of DeepL API](https://www.deepl.com/pro/change-plan#developer).
+{% endhint %}
 
 ### Google <a href="#e5sd70k5l0d" id="e5sd70k5l0d"></a>
 
-* **API Key**:  Enter the Google Translate API key. To get the API key for authentication, see the official [setup guide for Google Translate](https://cloud.google.com/translate/docs/setup).
+* **API Key**:  Enter your Google Translate API key. To get the API key for authentication, see the official [setup guide for Google Translate](https://cloud.google.com/translate/docs/setup).
 
 ### Microsoft
 
-* **Ocp-Apim-Subscription-Key**: Takes in your Microsoft Ocp-Apim-Subscription-Key.
+* **Ocp-Apim-Subscription-Key**: Enter your Microsoft Ocp-Apim-Subscription-Key. Follow the [official Azure translator guide](https://learn.microsoft.com/en-us/azure/ai-services/translator/create-translator-resource#get-your-authentication-keys-and-endpoint) to create a translator resource and use the API key as your **Microsoft Ocp-Apim-Subscription-Key.**
 
 ## Google Maps <a href="#phxcc899uio" id="phxcc899uio"></a>
 
