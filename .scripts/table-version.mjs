@@ -3,6 +3,7 @@ import { Octokit } from '@octokit/rest';
 import * as Diff from 'diff';
 import semver from 'semver';
 import fs from 'fs/promises';
+import { create } from './generateVersionImage.mjs';
 
 const octokit = new Octokit({
 	auth: process.env.GITHUB_TOKEN,
@@ -76,28 +77,60 @@ async function generateTable({ owner, repo } = {}) {
 
 	releases[0].last = true;
 
-	addLine('Rocket.Chat Release', 'Latest Version                                                         ', ' Released At', ' End of Life');
-	addLine('-------------------', '-----------------------------------------------------------------------', '-----------:', '-----------:');
+	const releaseData = [];
 
 	for (const { tag_name, html_url, lts, last, nextRelease, minorRelease, minor_tag} of releases) {
 		let supportDate;
+		let supportDateStart;
+
+		let releasedAt = new Date(minorRelease.releaseDate);
+		releasedAt.setDate(1);
 
 		if (nextRelease) {
-			supportDate = new Date(nextRelease.minorRelease.releaseDate);
+			let minorDate = new Date(nextRelease.minorRelease.releaseDate);
+			minorDate.setDate(1);
+			supportDateStart = minorDate;
+			supportDate = new Date(minorDate);
 			supportDate.setMonth(supportDate.getMonth() + (lts ? 6 : 3));
 		}
 
-		const release = `${lts ? '**' : ''}${minor_tag}${lts ? ' (LTS)**' : ''}`;
-		const url = `[${tag_name}](${html_url})`;
-		const releasedAt = `${lts ? '**' : ''}${minorRelease.releaseDate.toLocaleString('en', { month: 'short' })} ${minorRelease.releaseDate.getFullYear()}${
-			lts ? '**' : ''
-		}`;
-		const endOfLife = last
-			? 'TBD'
-			: `${lts ? '**' : ''}${supportDate.toLocaleString('en', { month: 'short' })} ${supportDate.getFullYear()}${lts ? '**' : ''}`;
 
-		addLine(release, url, releasedAt, endOfLife);
+		releaseData.push({
+			release: {
+				version: minor_tag,
+				releasedAt,
+				extendedSupport: !last && {
+					start: supportDateStart,
+					end: supportDate,
+				},
+				lts: lts === true,
+			},
+			latestPatch: {
+				version: tag_name,
+				url: html_url,
+			}
+		})
 	}
+
+	addLine('Rocket.Chat Release', 'Latest Version                                                         ', ' Released At', ' End of Life');
+	addLine('-------------------', '-----------------------------------------------------------------------', '-----------:', '-----------:');
+
+	releaseData.forEach(({release, latestPatch}) => {
+		const url = `[${latestPatch.version}](${latestPatch.url})`;
+		const releasedAt = release.releasedAt.toLocaleString('en', { month: 'short', year: "numeric" });
+		const endOfLife = !release.extendedSupport
+			? 'TBD'
+			: release.extendedSupport.end.toLocaleString('en', { month: 'short', year: "numeric" });
+
+		if (release.lts) {
+			addLine(`**${release.version} (LTS)**`, url, `**${releasedAt}**`, `**${endOfLife}**`);
+		} else {
+			addLine(release.version, url, releasedAt, endOfLife);
+		}
+	});
+
+	// Create SVG
+	create(releaseData);
 
 	const text = [];
 	for (const line of tableLines) {

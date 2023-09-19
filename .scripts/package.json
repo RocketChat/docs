@@ -11,7 +11,10 @@
   "dependencies": {
     "@octokit/rest": "^20.0.1",
     "colors": "^1.4.0",
+    "d3": "^7.8.5",
+    "d3-node": "^3.0.0",
     "diff": "^5.1.0",
-    "semver": "^7.5.4"
+    "semver": "^7.5.4",
+    "svg2png": "^4.1.1"
   }
 }
