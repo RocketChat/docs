@@ -40,7 +40,7 @@ For total transparency, Rocket.Chat Technologies Corp. owns and operates only on
 
 **​**[**https://open.rocket.chat**](https://open.rocket.chat)**​**
 
-That server is subject to our [Code of Conduct](code-of-conduct-services.md).
+That server is subject to our [Code of Conduct](../code-of-conduct-services.md).
 
 Any other Rocket.Chat server you access is not operated by Rocket.Chat Technologies Corp. and is subjected to the usage warning above.
 

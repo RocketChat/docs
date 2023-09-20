@@ -80,7 +80,7 @@ This Usage Data may include information such as your computer's Internet Protoco
 
 When you access the Service by or through a mobile device, this Usage Data may include information such as the type of mobile device you use, the IP address of your mobile device, your mobile operating system, the app version, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data.
 
-As a byproduct of the usage data within a Rocket.Chat instance, Administrators may choose to share aggregated and, therefore, anonymous, non-personal data with us to help us learn more about how our product is being used. This setting is described [here](../../use-rocket.chat/workspace-administration/settings/general/). The information shared is the same information as is shown on the "info"-page of the administration panel of an instance. E.g., these statistics sharing would transmit the total # of channels, but it would not transmit the actual channel names, and so on, preserving the privacy of your workspace. This is completely optional to use and can be activated and deactivated at any time.
+As a byproduct of the usage data within a Rocket.Chat instance, Administrators may choose to share aggregated and, therefore, anonymous, non-personal data with us to help us learn more about how our product is being used. This setting is described [here](../../../use-rocket.chat/workspace-administration/settings/general/). The information shared is the same information as is shown on the "info"-page of the administration panel of an instance. E.g., these statistics sharing would transmit the total # of channels, but it would not transmit the actual channel names, and so on, preserving the privacy of your workspace. This is completely optional to use and can be activated and deactivated at any time.
 
 #### Location Data
 
@@ -209,7 +209,7 @@ Ensuring the security of the data you entrust to us is one of our most important
 
 Your data can only be accessed by persons for whom it is necessary in relation to their work.
 
-We may outsource our processing of personal data to external service providers. In such events, we enter into appropriate agreements with the providers in order to ensure that your personal data is processed in accordance with this Privacy Policy and any applicable laws. We also have received internationally recognized [security certifications](../security-and-compliance/compliance-resources.md).
+We may outsource our processing of personal data to external service providers. In such events, we enter into appropriate agreements with the providers in order to ensure that your personal data is processed in accordance with this Privacy Policy and any applicable laws. We also have received internationally recognized [security certifications](../../security-and-compliance/compliance-resources.md).
 
 Although we do our best, given the nature of communications and information processing technology, we cannot guarantee that Information during transmission through the Internet or while stored on our systems or otherwise in our care will be absolutely safe from intrusion by others.
 

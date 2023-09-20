@@ -2,7 +2,7 @@
 description: Rocket.Chat Security Documentation
 ---
 
-# Security and Compliance
+# Security Center
 
 ### One-Stop-Shop
 
@@ -34,7 +34,7 @@ Below are related resources in other sections of Rocket.Chat's Documentation.
 
 * [Privacy Policy](https://rocket.chat/privacy) - how we process personal data.
 * [Terms of Service](https://rocket.chat/terms) - legal documentation on how we provide services to you (e.g. push notifications, etc.).
-* [GDPR](../gdpr.md) - a special page dedicated to GDPR requirements we implemented in 2018.
+* [GDPR](../privacy-center/gdpr/) - a special page dedicated to GDPR requirements we implemented in 2018.
 
 ### Community
 

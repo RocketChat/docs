@@ -1,0 +1,2 @@
+# Rocket.Chat Terms
+

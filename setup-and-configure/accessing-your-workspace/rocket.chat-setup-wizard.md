@@ -35,7 +35,7 @@ Rocket.Chat's setup wizard is designed to streamline the process of creating and
     Click **Continue** to proceed to the third step.
 * **Register Your Server**: You are asked to [register your workspace](rocket.chat-setup-wizard.md#register-workspace) to the Rocket.Chat Cloud or link the workspace to an existing Rocket.Chat Cloud account.
   * Check the box if you want to receive security updates.
-  * Agree to the [**Terms**](../../rocket.chat-legal/terms-of-service/) and [**Privacy Policy**](broken-reference) and **Register**.
+  * Agree to the [**Terms**](../../legal-and-compliance/rocket.chat-terms/terms-of-service/) and [**Privacy Policy**](broken-reference) and **Register**.
   * Open your email inbox and click **verify registration** to ensure the security codes match.
 
 Once you've completed these steps, your workspace will be set up and ready to use. You can access it by logging in with your admin credentials. You can change the information provided here in [setup-wizard.md](../../use-rocket.chat/workspace-administration/settings/setup-wizard.md "mention").
