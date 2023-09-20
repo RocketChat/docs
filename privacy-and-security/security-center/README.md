@@ -19,8 +19,8 @@ We have compiled summaries of important security aspects on the pages below:
 ### Learn more
 
 * [Compliance Resources, including certifications](compliance-resources.md) like ISO 27001 to help your organization to determine, if Rocket.Chat fits your needs.
-* [Security fixes and update](security-updates/) - an overview of vulnerabilities that have recently been closed and in which versions.
-* [End-to-End Encryption Specifications](end-to-end-encryption-algorithms.md) - an overview of our algorithms and functionality.
+* [Security fixes and update](security-fixes-and-updates/) - an overview of vulnerabilities that have recently been closed and in which versions.
+* [End-to-End Encryption Specifications](end-to-end-encryption-specifications.md) - an overview of our algorithms and functionality.
 
 ## Outside Resources
 
