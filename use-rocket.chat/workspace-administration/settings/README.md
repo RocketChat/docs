@@ -18,7 +18,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**Conference Call**](../../rocket.chat-conference-call/conference-call-admin-guide/): Choose Pexip or Jitsi as conference call providers for your Rocket.Chat workspace while enabling any for direct messages, private and public rooms, and teams.
 
-[**Custom Emoji Filesystem**](../custom-emoji.md): Specify whether to store emojis on GridFS or your storage.
+[**Custom Emoji Filesystem**](../emoji.md): Specify whether to store emojis on GridFS or your storage.
 
 [**Custom Sound Filesystem**](custom-sound-filesystem.md)**:** Find out how to specify how custom sounds are saved on your workspace.
 

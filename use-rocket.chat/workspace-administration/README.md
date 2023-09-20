@@ -18,11 +18,11 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 [**Registration**](registration.md): Rocket.Chat Registration gives you access to connect your self-hosted workplace to Rocket.Chat cloud. Learn how to use create a new cloud account and use connectivity services.
 
-[**Engagement**](engagement-dashboard.md): Evaluate user engagement on the channels of your workspace.
+[**Engagement**](engagement.md): Evaluate user engagement on the channels of your workspace.
 
-[**Moderation**](moderation-dashboard.md): Assess reported messages on your workspace and take appropriate action against detrimental users.
+[**Moderation**](moderation.md): Assess reported messages on your workspace and take appropriate action against detrimental users.
 
-[**Federation**](federation-dashboard.md)**:** Check statistics about the federation connection on your server.
+[**Federation**](federation.md)**:** Check statistics about the federation connection on your server.
 
 [**Rooms**](../user-guides/rooms/): Learn how to create and manage rooms.
 
@@ -40,7 +40,7 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 [**Mailer**](mailer.md): Use the Mailer tool to email users inside your Rocket.Chat workspace.
 
-[**Third-party Login**](oauth-applications.md): Learn to set up custom applications to be used for Open Authentication.
+[**Third-party Login**](third-party-login.md): Learn to set up custom applications to be used for Open Authentication.
 
 [**Integrations**](integrations/): Integrate tools and services to ease everyday workflows.
 
@@ -48,7 +48,7 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 [**Logs**](settings/logs.md): Check your workspace logs.
 
-[**Custom Emoji**](custom-emoji.md): Learn to work with custom emojis in your Rocket.Chat workspace.
+[**Custom Emoji**](emoji.md): Learn to work with custom emojis in your Rocket.Chat workspace.
 
 [**Settings**](settings/): Rocket.Chat is very flexible thanks to the vast amount of settings that allow you to configure your workspace the way you prefer.
 
