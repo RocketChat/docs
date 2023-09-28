@@ -46,3 +46,7 @@ To configure the **Jitsi** video conference on your workspace,
 * Select the options that meet your needs and click **Save changes.**
 
 The **Jitsi** app is successfully configured on your server. Follow[conference-call-users-guide.md](../conference-call-users-guide.md "mention") to start using it.
+
+{% hint style="warning" %}
+When using mobile apps to join a public server, Jitsi may redirect users to a browser to [complete authentication](https://jitsi.org/blog/authentication-on-meet-jit-si/) before joining calls. Users can choose to stay on the call screen within the app while waiting for another participant to log in, then they can continue the call via thier mobile app. However, if you're using a private Jitsi server, there's no need for anyone to sign in.
+{% endhint %}
