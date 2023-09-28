@@ -28,7 +28,7 @@ Remember to hit **Save Changes** in order to apply any changes made here.
 
 ## Canned Responses <a href="#a4x6dcwkpxm" id="a4x6dcwkpxm"></a>
 
-<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (3).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 Canned Response allows for OmnichannelAgents to use predefined message replies. You can enable or disable the use of canned responses in your workspace.
 
@@ -113,7 +113,7 @@ Configure GDPR data processing and consent.
 
 ## Queue Management <a href="#uuvo8ic5yio" id="uuvo8ic5yio"></a>
 
-<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (41).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 Configure Omnichannel Queue and how simultaneous chats get managed.
 
@@ -143,7 +143,7 @@ Routing allows you to define the behavior of your Live Chat queues.
 * **External Queue Service URL**: Set your External Queue Service URL if your _Omnichannel Routing Method_ is [External Service](queue-types-routing-algorithm.md#external-service).
 * **Secret Token**: Enter the secret token.
 
-<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (3).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 * **Last-Chatted Agent Preferred**: Enable to allow the allocation of chats to the agent who previously interacted with the same visitor if the agent is available when the chat starts.
 * **Assign new conversations to the contact manager**: This setting allocates a chat to the assigned Contact Manager as long as the Contact Manager is online when the chat starts.
@@ -160,7 +160,7 @@ The Sessions setting allows you to define how open chat sessions are to be handl
 * **Comment to Leave on Closing Session**: Set a comment to be displayed to the Visitor on closing the chat.
 * **How Long to Wait to Consider Visitor Abandonment?**: This lets you set how long in seconds to wait for before considering the Visitor abandoned the chat.
 
-<figure><img src="../../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (3).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 * **How to handle Visitor Abandonment**: Select what to do when Visitors abandon chats.
 * **Custom message when room is automatically closed by visitor inactivity**: Set a message that will be sent when a chat gets automatically closed due to the Visitor's inactivity.

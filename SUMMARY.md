@@ -138,7 +138,7 @@
   * [Go Fully Featured](use-rocket.chat/workspace-administration/go-fully-featured.md)
   * [Workspace](use-rocket.chat/workspace-administration/workspace.md)
   * [Registration](use-rocket.chat/workspace-administration/registration.md)
-  * [Engagement](use-rocket.chat/workspace-administration/engagement-dashboard.md)
+  * [Engagement](use-rocket.chat/workspace-administration/engagement.md)
   * [Moderation](use-rocket.chat/workspace-administration/moderation-dashboard.md)
   * [Federation](use-rocket.chat/workspace-administration/federation-dashboard.md)
   * [Rooms](use-rocket.chat/workspace-administration/rooms.md)
