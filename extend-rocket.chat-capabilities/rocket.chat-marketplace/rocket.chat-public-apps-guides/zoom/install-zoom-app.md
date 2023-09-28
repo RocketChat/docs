@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-* A Zoom [Pro account](https://zoom.us/pricing) for other users to create Zoom links. These users are added to your Zoom account, and their emails must be the same on Rocket.Chat and Zoom.
+* A Zoom account within the App Marketplace for other users to create Zoom links. These users are added to your Zoom account, and their emails must be the same on Rocket.Chat and Zoom.
 * A Server-to-Server OAuth app created at Zoom Marketplace.&#x20;
 
 ## Create Server-to-Server OAuth App at Zoom Marketplace
