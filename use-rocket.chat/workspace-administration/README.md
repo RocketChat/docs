@@ -18,7 +18,7 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 [**Registration**](registration.md): Rocket.Chat Registration gives you access to connect your self-hosted workplace to Rocket.Chat cloud. Learn how to use create a new cloud account and use connectivity services.
 
-[**Engagement**](engagement.md): Evaluate user engagement on the channels of your workspace.
+[**Engagement**](engagement-dashboard.md): Evaluate user engagement on the channels of your workspace.
 
 [**Moderation**](moderation-dashboard.md): Assess reported messages on your workspace and take appropriate action against detrimental users.
 
