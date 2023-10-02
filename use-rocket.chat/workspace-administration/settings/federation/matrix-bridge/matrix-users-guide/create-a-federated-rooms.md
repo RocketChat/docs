@@ -15,8 +15,8 @@ To create a federated channel,
 {% hint style="info" %}
 **Important**:
 
-* Federated Channels can not be _Encrypted, Read-Only, or Broadcasted_ for now\_.\_
-* You cannot create [Threads](../../../../../user-guides/rooms/threads/) or [Discussions](../../../../../user-guides/rooms/discussions/) within federated Channels.
+* Federated Channels can not be _Encrypted, Read-Only, or Broadcasted_ for now.
+* You cannot create  [Discussions](../../../../../user-guides/rooms/discussions/) within federated Channels.
 {% endhint %}
 
 Whenever your user is invited to participate in a federated room created in an external server, the server name is displayed at the top of that room. This helps the user to differentiate when there are multiple rooms with the same name but all from different servers.
