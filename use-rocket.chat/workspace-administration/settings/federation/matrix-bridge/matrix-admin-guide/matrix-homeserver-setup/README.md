@@ -68,7 +68,7 @@ bash <(curl -L -s https://go.rocket.chat/i/federation-setup)
   * **Server's hostname**: Add your domain name.
   * Create `A` domain records pointing to your server's IP address as requested.
     * `synapse.<your-domain>`
-    * `matrix.<your-domain>`
+    * `element.<your-domain>`
     * `traefik.<your-domain>`
   * Enter your email address. This is used to issue an SSL certificate for your domain.
 * Start the container by running the following command:
