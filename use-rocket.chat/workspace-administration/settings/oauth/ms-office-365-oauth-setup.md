@@ -2,9 +2,7 @@
 
 This guide shows how you can set up OAuth integration between Microsoft accounts and Rocket.Chat.
 
-This is achieved with the use of [Azure Active Directory](https://azure.microsoft.com/en-us/services/active-directory/) which is an identity service by Microsoft that provides single sign-on and other authentication methods.
-
-Follow these steps to enable Office 365 OAuth on your Rocket.Chat instance.
+This is achieved with the use of[ Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) _(formerly called_ [_Azure Active Directory_](https://azure.microsoft.com/en-us/services/active-directory/)_)_ which is an identity service by Microsoft that provides single sign-on and other authentication methods.
 
 ## Create Custom O365 OAuth
 
@@ -20,13 +18,13 @@ To create a custom authentication method for your Rocket.Chat instance:
 
 ## Creating an Azure Active Directory App
 
-* Log in to your [Azure portal](https://portal.azure.com/) then navigate to the **Azure Active Directory** tab
+* Log in to your [Azure portal](https://portal.azure.com/) then navigate to the **Microsoft Entra ID** tab
 
-![Azure Portal](<../../../../.gitbook/assets/image (1274).png>)
+<figure><img src="../../../../.gitbook/assets/microsoft entra ID.png" alt=""><figcaption><p>Azure Portal</p></figcaption></figure>
 
 * Create a new **App Registration**
 
-![Azure Active Directory new App Registration](<../../../../.gitbook/assets/image (974).png>)
+<figure><img src="../../../../.gitbook/assets/microsoft-app-registration.png" alt=""><figcaption><p>Azure Active Directory new App Registration</p></figcaption></figure>
 
 * Fill in the name and other fields including the redirect URI provided by Rocket.Chat when [creating the new OAuth integration](ms-office-365-oauth-setup.md#create-custom-365-oauth)
 
@@ -38,29 +36,33 @@ After registering your new app, take note of `Application (client) ID` it will b
 
 ![AD create new app secret](<../../../../.gitbook/assets/image (968).png>)
 
-* After creating, take note of the `client secret` immediately. It is only displayed once and is needed in configuring the integration back in Rocket.Chat
+* After creating, take note of the `client secret` immediately, it is only displayed once. You'll need it to configure the integration in your Rocket.Chat workspace.
 
 ![AD client secret](<../../../../.gitbook/assets/image (464).png>)
 
 ## Configuring O365 OAuth
 
-After creating the Azure Active Directory App with its secret, head over back to your Rocket.Chat O365 custom OAuth integration page and set the various fields
+After creating the Azure Active Directory App with its secret, head over back to your Rocket.Chat O365 custom OAuth integration page in your workspace and set the various fields.
 
 * **Enable**: Set to true to enable this OAuth integration
-* **URL**: `https://login.microsoftonline.com/consumers`
-* **Token Path**: `/oauth2/v2.0/token`
+* **URL**: `https://login.microsoftonline.com/<tenant ID>`
+* **Token Path**:  `/oauth2/token`
 * **Token Sent Via**: Payload
 * **Identity Token Sent Via**: Header
 * **Identity Path**: `/openid/userinfo`
-* **Authorize Path**: `/oauth2/v2.0/authorize`
+* **Authorize Path**: `/oauth2/authorize`
 * **Scope**: openid
 * **Param Name for access token**: `access_token`
 * **Id**: `<Your Azure AD Application (client) ID>`
 * **Secret**: `<Your Azure AD client secret>`
+* **Login style**: Redirect
+* **Button Text**: Login via Microsoft
+* **Merge Users**: True
+* **Merge Users From Distinct Services**: True
 
 Do the configurations and **Save changes**
 
-![OAuth 365 integration settings page](<../../../../.gitbook/assets/image (799).png>)
+<figure><img src="../../../../.gitbook/assets/365Oauth-settings.png" alt=""><figcaption><p>OAuth 365 integration settings</p></figcaption></figure>
 
 * After saving, you will find the O365 Oauth button on the login and signup page. Clicking on them brings up a popup to authenticate your Microsoft account
 
