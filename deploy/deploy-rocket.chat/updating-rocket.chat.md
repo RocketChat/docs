@@ -29,7 +29,7 @@ Skipping intermediate major versions, such as upgrading directly from 1.x.x to 4
 {% endhint %}
 
 {% hint style="info" %}
-See our [upgrade version path flowchart](https://whimsical.com/upgrade-version-path-rocket-chat-51eoS7aUunTan5wLt2CBHU) and [demo](https://drive.google.com/file/d/1bBm9nya377wzlW-XdlBNlHD-u2WdbAB9/view) for a more detailed workflow on updating your workspace from the oldest version (1.x.x) with MMAP to the latest version with the supported MongoDB release.
+See our [upgrade version path flowchart](https://whimsical.com/upgrade-version-path-rocket-chat-51eoS7aUunTan5wLt2CBHU) and [demo](https://www.youtube.com/watch?v=y9cLve2G8H0) for a more detailed workflow on updating your workspace from the oldest version (1.x.x) with MMAP to the latest version with the supported MongoDB release.
 {% endhint %}
 
 {% embed url="https://whimsical.com/upgrade-version-path-rocket-chat-51eoS7aUunTan5wLt2CBHU" %}
