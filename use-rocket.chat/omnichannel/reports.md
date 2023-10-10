@@ -1,6 +1,6 @@
 # Reports
 
-<figure><img src="../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 **Reports** offer a robust tool tailored for workspace administrators and managers to effectively monitor and assess customer service metrics across various categories and specific time intervals. They grant an in-depth view into conversation data and the performance of agents within your workspace.&#x20;
 
