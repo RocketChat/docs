@@ -98,6 +98,7 @@
 
 * [User Guides](use-rocket.chat/user-guides/README.md)
   * [Access your workspace](use-rocket.chat/user-guides/access-your-workspace.md)
+  * [Sidebar Header](use-rocket.chat/user-guides/sidebar-header.md)
   * [User Panel](use-rocket.chat/user-guides/user-panel/README.md)
     * [My Account](use-rocket.chat/user-guides/user-panel/my-account/README.md)
       * [Manage Devices](use-rocket.chat/user-guides/user-panel/my-account/manage-devices.md)
