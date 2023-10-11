@@ -1,6 +1,6 @@
-# Sidebar Header
+# Main Menu
 
-The sidebar header icons on your workspace are designed to help you navigate your workspace efficiently.
+The icons in your main menu are designed to enhance your navigation experience within the workspace.
 
 ### User Panel
 
