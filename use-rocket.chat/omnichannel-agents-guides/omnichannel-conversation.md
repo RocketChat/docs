@@ -134,7 +134,7 @@ Canned responses allow you to call pre-saved message snippets with shortcuts (pr
 
 **To send a canned response,**
 
-* Start your message with `!` and a shortcut, or you can select the canned response from the drop-down list that will appear above your text field
+* Start your message with `!` and the canned response shortcut, or you can select the canned response from the drop-down list that will appear above your text field
 * You can also use the same canned responses when talking to your peers outside Omnichannel
 
 To access all available canned responses for your department or all public canned responses on your workspace,
@@ -143,22 +143,13 @@ To access all available canned responses for your department or all public canne
 * Hover your cursor over the canned response you want to use in your current conversation
 * Hit **Use.**
 
-### Creation of canned response from a room
+### Create a canned response from a room as an agent
 
-You can create a canned response during an omnichannel conversation if you have appropriate permissions.
+You can create a canned response during an omnichannel conversation if you have [appropriate permissions](../omnichannel/canned-responses/#canned-responses-permissions).
 
 {% hint style="info" %}
-Check [canned-responses](../omnichannel/canned-responses/ "mention") or contact your workspace administrator.
+See [#create-canned-response-from-within-chatroom](../omnichannel/canned-responses/canned-responses-omnichannel-managers-guide.md#create-canned-response-from-within-chatroom "mention") and contact your workspace administrator to assign you the required permission.
 {% endhint %}
-
-To create a canned response in a conversation,
-
-* Click <img src="../../.gitbook/assets/image (251).png" alt="" data-size="line"> icon
-* Scroll down and click **Create**
-* Enter **Shortcut**. E.g., `!welcome`
-* Enter **Message**. E.g., `Welcome to Rocket.Chat LiveChat support! How can I help you?`
-* Update **Tags** if required
-* Hit **Save**. Your new canned response is saved and ready to be used.
 
 ## Contact information
 
