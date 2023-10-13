@@ -4,7 +4,11 @@ description: Configure the Rocket.Chat workspace to link with your Matrix Homese
 
 # Matrix Bridge Configuration
 
-This Rocket.Chat workspace configuration to link with Matrix Homeserver applies only to [#manual-installation](matrix-homeserver-setup/#manual-installation "mention"). It is automatically done for [#automated-installation](matrix-homeserver-setup/#automated-installation "mention").
+This Rocket.Chat workspace configuration to link  matrix  homeserver applies only to [#manual-installation](matrix-homeserver-setup/#manual-installation "mention"). It is automatically done for [#automated-installation](matrix-homeserver-setup/#automated-installation "mention").
+
+{% hint style="warning" %}
+Enable ![](../../../../../../.gitbook/assets/Premium.svg) license or [apply trial](../../../../../../setup-and-configure/enterprise-edition-trial/) on your workspace to unlock all the available federation features.
+{% endhint %}
 
 To access this setting,
 
