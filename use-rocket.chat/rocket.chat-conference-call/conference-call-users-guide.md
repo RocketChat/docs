@@ -39,6 +39,7 @@ To start a call in a room,
 
 * Click on the <img src="../../.gitbook/assets/phone-icon.png" alt="" data-size="line"> **phone** icon from the room's header. You may have pre-flight options like turning on/off the camera or microphone. However, these options depend on the conference call provider you have selected.
 * Click the **call** button. A message is sent in the room, where all participants in the call are shown as thumbnails.
+* The call message block allows the following actions: **Reply in Thread**, **Follow Message**, **React**, **Pin**, **Star**, **Copy Link** and **Delete**.
 
 {% hint style="info" %}
 The ringing feature is unavailable in any room except **Direct Messages(DMs**).
