@@ -23,7 +23,13 @@ To enable canned responses on your workspace,
 
 ## Canned Responses Permissions
 
-Go to **Administration** > **Workspace** > **Permissions** and search for `canned-response`, you can now define which user roles should be able to view, create and delete  canned responses in your workspace.
+Go to **Administration** > **Workspace** > **Permissions** and search for `canned-response`, you can now define which user roles should be able to view, create, and delete canned responses in your workspace.
+
+Each canned response has a scope and there are three scope levels for creating canned responses:
+
+* **User-level**: These canned responses are created by [agents](../agents.md) for their use. It won't be visible to any other user. This requires the  `save-canned-responses` [permission](../../workspace-administration/permissions/).
+* **Department level**: These canned responses are created by department [managers](../managers.md) and are accessible to the [agents](../agents.md) who belong to that department. It requires the  `save-department-canned-responses` [permission](../../workspace-administration/permissions/).
+* **Global level**: These canned responses are created by managers to be used globally in your workspace. Anyone can access them and it requires the  `save-all-canned-responses` [permission](../../workspace-administration/permissions/).
 
 {% hint style="info" %}
 To create a new canned response for your workspace, visit [Canned Responses Omnichannel Managers Guide](canned-responses-omnichannel-managers-guide.md).
