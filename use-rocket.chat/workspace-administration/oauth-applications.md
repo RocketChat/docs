@@ -1,12 +1,6 @@
----
-description: >-
-  With Rocket.Chat Third-party Login, you can set up custom applications to be
-  used for Open Authentication.
----
-
 # Third-party Login
 
-The Third-party login shows the various OAuth apps linked to your workspace.&#x20;
+Rocket.Chat's Third-party Login allows you to access custom applications through OAuth using your Rocket.Chat account. For example, you can log in to platforms like Zapier using your Rocket.Chat credentials. You can add and view the Third-party login apps linked with your workspace.
 
 To access this menu, navigate to **Administration** > **Workspace** > **Third-party login.**
 
