@@ -27,10 +27,14 @@ If it's a localhost URL, exposing the localhost port to the internet requires a 
 
 ### Set up an Azure Active Directory App
 
-To set up an Azure Active Directory App for your organization,
+{% hint style="warning" %}
+Azure Active Directory is now Microsoft Entra ID. See the [official documentation](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/new-name) for more details.
+{% endhint %}
+
+To set up  Microsoft Entra ID for your organization,
 
 * Login to[ Microsoft Azure Portal ](https://portal.azure.com/)with your organization's Teams admin account.
-* Find and click **Azure Active Directory**.
+* Find and click **Microsoft Entra ID**.
 * Click **Add**. Then, select **App registration**.
 * Give the app a name. Select **Accounts in this organizational directory only** as the **Supported account type**.
 * Select **Web** as the **Redirect URI platform.** Paste the `GET auth endpoint URL` you copied from the **Microsoft Teams Bridge App Info** as the value.
@@ -81,10 +85,10 @@ To set up an Azure Active Directory App for your organization,
 ### Configure Microsoft Teams Bridge
 
 * Navigate to **Microsoft Teams Bridge** **App Info > Settings**.
-* Update the **Directory (tenant) ID, Application (client) ID**, and **Client Secret** with the values you copied earlier. Then, click **Save Changes**.
+* Update the **Microsoft Entra** **Directory (tenant) ID,  Microsoft Entra Application (client) ID**, and **Microsoft Entra Client Secret** with the values you copied earlier. Then, click **Save Changes**.
 
 {% hint style="info" %}
-Ensure you use the correct credentials and set the appropriate API permissions on the Azure Active Directory.
+Ensure you use the correct credentials and set the appropriate API permissions on the Microsoft Entra ID.
 {% endhint %}
 
 ## API Limitation
