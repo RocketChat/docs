@@ -5,7 +5,7 @@ Homeservers are key components that hosts user accounts and other data related t
 You can set up your federated Rocket.Chat workspace using any of the following methods:
 
 * [**Automated Installation**](./#automated-installation): Install Synapse and Rocket.Chat using a simple setup script.
-* [**Manual Installation**](./#manual-installation): Manually install and configure your Homeserver with Rocket.Chat.
+* [**Manual Installation**](./#standalone-manual-installation): Manually install and configure your Homeserver with Rocket.Chat.
 
 {% hint style="success" %}
 We recommend using[ automatic installation](./#automated-installation) since this comes with some pre-configurations.
@@ -99,7 +99,7 @@ Rocket.Chat Matrix setup CLI is coming soon!
 
 **Testing the Setup**
 
-To test and make sure your Matrix setup is successful,
+To test and ensure your Matrix setup is successful,
 
 * Download and execute the test script in the same directory where the setup was initiated.
 
@@ -111,16 +111,15 @@ bash <(curl -L -s https://go.rocket.chat/i/federation-test)
 
 ## Standalone Manual installation
 
-### Prerequisites
+**Prerequisites**
 
 * [Docker](https://www.docker.com/)
 
 {% hint style="info" %}
 If you don't have it  installed, you can conveniently set it  up using Docker's official helper script:
 
-```bash
-curl -L https://get.docker.com | sh
-```
+<pre class="language-bash"><code class="lang-bash"><strong>curl -L https://get.docker.com | sh
+</strong></code></pre>
 
 * To run Docker commands without using sudo, add the current user to the Docker group and then reboot using the following commands:
 
@@ -136,7 +135,7 @@ sudo reboot
 Name the subdomains based on your preference.
 {% endhint %}
 
-* All the generated DNS records pointed to your server's IP address ( the same IP address).
+* All the generated DNS records pointed to your server's IP address (the same IP address).
 
 ### Installation Steps
 
@@ -158,7 +157,7 @@ docker network create rocketchat
 docker run --rm -e SYNAPSE_SERVER_NAME=ps-rocketchat.com -e SYNAPSE_REPORT_STATS=yes -v $PWD/data:/data matrixdotorg/synapse generate
 ```
 
-The `homeserver.yaml` configuration file is stored in the "_data_" subfolder of your current working directory. To start the Synapse Docker, use this command:
+The `homeserver.yaml` configuration file is stored in the "_data_" directory of your current working directory. To start the Synapse Docker, use this command:
 
 ```
 docker run --name synapse --network rocketchat -v $PWD/data:/data:rw -d matrixdotorg/synapse
@@ -260,6 +259,7 @@ See [matrixbridge-configuration.md](../matrixbridge-configuration.md "mention") 
 
 Now that your workspace is set up, navigate to **Administration** > **Workspace** > **Settings** > **Federation > Matrix Bridge** and follow these steps:
 
+* **Enable** Federation.
 * Update the following fields with these values:
   * **Homeserver URL**: [http://synapse:8008](http://synapse:8008)
   * **Homeserver Domain**: \<your domain>
@@ -271,7 +271,7 @@ Now that your workspace is set up, navigate to **Administration** > **Workspace*
 
 <figure><img src="../../../../../../../.gitbook/assets/image (613).png" alt=""><figcaption><p>App Service Registration File content</p></figcaption></figure>
 
-* [Configure ](https://matrix-org.github.io/synapse/latest/application\_services.html)the support for [Application Service](https://matrix.org/docs/guides/application-services) on the matrix home server by creating a `registration.yaml` file in the _**data**_ directory created for synapse and paste the contents of the registration file.&#x20;
+* [Configure ](https://matrix-org.github.io/synapse/latest/application\_services.html)the support for [Application Service](https://matrix.org/docs/guides/application-services) on the matrix home server by creating a `registration.yaml` file in the _**data**_ directory that was created for synapse earlier and paste the contents of the registration file.&#x20;
 * Update the `homeserver.yaml` file in that same _**data**_ directory with these contents and save:    &#x20;
 
 ```
