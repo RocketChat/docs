@@ -1,7 +1,9 @@
 # Desktop & Mobile Apps
 
 {% hint style="success" %}
-**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+Our latest version introduces new features, enhancements, and important security fixes. Workspaces running versions outside our support window will not have access to cloud services, official mobile and desktop apps.&#x20;
+
+[Update to the latest version now](https://docs.rocket.chat/deploy/deploy-rocket.chat/updating-rocket.chat)!&#x20;
 {% endhint %}
 
 Welcome to the detailed guide on installing Rocket.Chat client applications on your desktop and mobile devices. Embarking on your journey with Rocket.Chat is an exciting prospect, promising efficient, secure, and user-friendly communication. This guide is dedicated to helping you take the first crucial step: setting up the Rocket.Chat apps on your preferred devices. Whether you're on Windows, MacOS, Linux, iOS, or Android, this guide has got you covered.

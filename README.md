@@ -5,7 +5,9 @@ Every day, we rely on communication platforms for collaboration with colleagues,
 Rocket.Chat, a secure and customizable open-source platform, is designed for organizations with stringent data protection standards. It seamlessly integrates real-time conversations across web, desktop, and mobile devices, connecting colleagues, businesses, and customers. With its ability to integrate multiple channels such as Live Chat, email, and social media, it provides a unified customer view, enhancing efficiency. Our mobile app, available for Android and iOS, further empowers you to engage in conversations, respond to messages, and collaborate effectively. Choose the deployment method that suits you best: self-hosted on your server or via our SaaS offering. For our premium plans, we offer dedicated support and professional services.
 
 {% hint style="success" %}
-**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+Our latest version introduces new features, enhancements, and important security fixes. Workspaces running versions outside our support window will not have access to cloud services, official mobile and desktop apps.&#x20;
+
+[Update to the latest version now](https://docs.rocket.chat/deploy/deploy-rocket.chat/updating-rocket.chat)!&#x20;
 {% endhint %}
 
 ## Product Offerings

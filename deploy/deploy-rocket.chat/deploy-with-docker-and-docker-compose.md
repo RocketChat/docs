@@ -1,7 +1,9 @@
 # Deploy with Docker & Docker Compose
 
 {% hint style="success" %}
-**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+Our latest version introduces new features, enhancements, and important security fixes. Workspaces running versions outside our support window will not have access to cloud services, official mobile and desktop apps.&#x20;
+
+[Update to the latest version now](https://docs.rocket.chat/deploy/deploy-rocket.chat/updating-rocket.chat)!&#x20;
 {% endhint %}
 
 Deploying Rocket.Chat with Docker and Docker Compose is a straightforward and highly recommended deployment method due to its simplicity and flexibility. This guide will walk you through the essential steps, whether you're a seasoned Docker expert or new to containerization, ensuring a smooth deployment for your Rocket.Chat workspace.

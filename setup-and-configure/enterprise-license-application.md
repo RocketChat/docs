@@ -5,7 +5,9 @@ In the realm of open-source communication, Rocket.Chat, has always been at the f
 All directions on this page assume you have a valid license and now wish to apply it. If you do not yet have one, please get in [contact with sales](https://www.rocket.chat/sales-contact).
 
 {% hint style="success" %}
-**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+Our latest version introduces new features, enhancements, and important security fixes. Workspaces running versions outside our support window will not have access to cloud services, official mobile and desktop apps.&#x20;
+
+[Update to the latest version now](https://docs.rocket.chat/deploy/deploy-rocket.chat/updating-rocket.chat)!&#x20;
 {% endhint %}
 
 ## I have a…

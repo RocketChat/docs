@@ -5,7 +5,9 @@ description: End-user Training Guides
 # User Guides
 
 {% hint style="info" %}
-**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+Our latest version introduces new features, enhancements, and important security fixes. Workspaces running versions outside our support window will not have access to cloud services, official mobile and desktop apps.&#x20;
+
+[Update to the latest version now](https://docs.rocket.chat/deploy/deploy-rocket.chat/updating-rocket.chat)!&#x20;
 {% endhint %}
 
 As a user, this guide will help you optimize your Rocket.Chat workspace. It onboards you on how to use various features of Rocket.Chat.
