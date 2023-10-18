@@ -67,6 +67,8 @@ sudo reboot
 ```
 {% endhint %}
 
+* A domain pointing to your server's IP.
+
 ### Installation Steps
 
 * Open your terminal in any directory of your choice.
@@ -83,6 +85,21 @@ bash <(curl -L -s https://go.rocket.chat/i/federation-setup)
     * `element.<your-domain>`
     * `traefik.<your-domain>`
   * Enter your email address. This is used to issue an SSL certificate for your domain.
+
+<details>
+
+<summary>Update your Rocket.Chat version</summary>
+
+
+
+If you want to install a specific version Rocket.Chat, navigate to the  `.env` file, and modify the `RELEASE`  variable to point to the [docker image tag](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) of that version.
+
+```
+RELEASE=<desired version>
+```
+
+</details>
+
 * Start the container by running the following command:
 
 ```bash
