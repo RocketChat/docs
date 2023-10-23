@@ -256,13 +256,15 @@ http {
 
 * Start the reverse proxy mapping the `nginx.conf` and the certificate and private key for SSL by running  this command:
 
+{% hint style="warning" %}
+Ensure to specify the paths to certificates if you are using relative paths. In this example, the reference location for certificates is the home folder.
+
+Additionally, it's recommended to use the complete directory path for your nginx file, _for example — `/home/ubuntu/test/nginx.conf:/etc/nginx/nginx.conf:ro`_
+{% endhint %}
+
 ```
 docker run --name nginx --network rocketchat -p 443:443 -p 80:80 -v ./nginx.conf:/etc/nginx/nginx.conf:ro -v ./cert2/fullchain.pem:/cert/certificate.crt:ro -v ./cert2/privkey.pem:/cert/private.key:ro -d nginx
 ```
-
-{% hint style="warning" %}
-Ensure to specify the paths to certificates if you are using relative paths. In this example, the reference location for certificates would be the home folder.
-{% endhint %}
 
 * Visit your domain URL in a web browser  to access your Rocket.Chat workspace. Complete the [#setup-wizard](../../../../../../../setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard.md#setup-wizard "mention") and your workspace will be set up and ready to use.
 
@@ -276,11 +278,15 @@ See [matrixbridge-configuration.md](../matrixbridge-configuration.md "mention") 
 
 Now that your workspace is set up, navigate to **Administration** > **Workspace** > **Settings** > **Federation > Matrix Bridge** and follow these steps:
 
-* **Enable** Federation.
+* **Enable** Matrix Bridge.
 * Update the following fields with these values:
-  * **Homeserver URL**: [http://synapse:8008](http://synapse:8008)
+  * **Homeserver URL**: http://synapse:8008
   * **Homeserver Domain**: \<your domain>
-  * **Bridge URL**: [http://rocketchat:3300](http://rocketchat:3300)
+  * **Bridge URL**: http://rocketchat:3300
+
+{% hint style="warning" %}
+Be cautious not to include "https://" before your homeserver domain.
+{% endhint %}
 
 <figure><img src="../../../../../../../.gitbook/assets/matrix-bridge-config.png" alt=""><figcaption></figcaption></figure>
 
@@ -289,7 +295,12 @@ Now that your workspace is set up, navigate to **Administration** > **Workspace*
 <figure><img src="../../../../../../../.gitbook/assets/image (613).png" alt=""><figcaption><p>App Service Registration File content</p></figcaption></figure>
 
 * [Configure ](https://matrix-org.github.io/synapse/latest/application\_services.html)the support for [Application Service](https://matrix.org/docs/guides/application-services) on the matrix home server by creating a `registration.yaml` file in the _**data**_ directory that was created for synapse earlier and paste the contents of the registration file.&#x20;
-* Update the `homeserver.yaml` file in that same _**data**_ directory with these contents and save:    &#x20;
+
+{% hint style="warning" %}
+Creating and modifying files in the _**data**_ directory may require administrative(sudo) rights.
+{% endhint %}
+
+* Add the following content at the end of the `homeserver.yaml` file in that same _**data**_ directory and save: &#x20;
 
 ```
 app_service_config_files:
@@ -495,4 +506,8 @@ sudo rm -fr data
 
 {% hint style="info" %}
 If you had a [cluster set](./#clustered-manual-installation),  you also need to stop/remove the rocketchat2 docker instance.
+{% endhint %}
+
+{% hint style="success" %}
+See [federation-faqs.md](../../../../../../../resources/frequently-asked-questions/federation-faqs.md "mention") for more troubleshooting tips.
 {% endhint %}

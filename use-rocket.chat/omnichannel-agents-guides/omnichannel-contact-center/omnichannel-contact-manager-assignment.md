@@ -1,6 +1,8 @@
 # Omnichannel Contact Manager Assignment
 
-​![](https://files.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-M418Ul0aSTwf2PYsyPW%2Fsync%2F1654b99a4e9df54521f42da4d3c1a7fbdb9f2238.jpg?generation=1633366358329646\&alt=media)
+​
+
+<figure><img src="../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 ​This feature lets you assign an omnichannel contact to a dedicated Omnichannel agent. If this contact initiates a conversation and the dedicated agent is **available**, the chat is routed directly to them. Otherwise, it will be routed to any other agent based on the routing algorithm selected.
 

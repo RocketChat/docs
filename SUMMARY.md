@@ -436,6 +436,7 @@
   * [Deployment FAQ](resources/frequently-asked-questions/deployment-faq/README.md)
     * [Updating Rocket.Chat FAQ](resources/frequently-asked-questions/deployment-faq/updating-faq.md)
     * [Snaps FAQ](resources/frequently-asked-questions/deployment-faq/snap-faq.md)
+  * [Federation FAQs](resources/frequently-asked-questions/federation-faqs.md)
   * [Omnichannel FAQs](resources/frequently-asked-questions/omnichannel-faqs.md)
 * [Brand and Visual Guidelines](resources/brand-and-visual-guidelines/README.md)
   * [Logo](resources/brand-and-visual-guidelines/logo.md)
