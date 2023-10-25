@@ -112,7 +112,7 @@ Some apps are part of the **Enterprise Edition** offerings. You don't have to pu
 | [Pexip](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)             | Enterprise | Yes        |
 | [Telegram](rocket.chat-public-apps-guides/omnichannel-apps/telegram-app/)                                       | Enterprise | No         |
 | [Trello](rocket.chat-public-apps-guides/trello.md)                                                              | Enterprise | No         |
-| [Twitter](rocket.chat-public-apps-guides/omnichannel-apps/twitter-app/)                                         | Enterprise | No         |
+| [Twitter](broken-reference)                                                                                     | Enterprise | No         |
 | [WhatsApp](rocket.chat-public-apps-guides/omnichannel-apps/whatsapp/)                                           | Paid       | No         |
 | [Whatsapp Cloud](rocket.chat-public-apps-guides/omnichannel-apps/whatsapp-cloud-app/)                           | Enterprise | No         |
 | [Zoom](rocket.chat-public-apps-guides/zoom.md)                                                                  | Enterprise | No         |
