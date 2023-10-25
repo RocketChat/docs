@@ -18,6 +18,10 @@ ChatGPT is a sophisticated artificial intelligence (AI) model that uses natural 
 * **Education and training:** ChatGPT can be used to automate aspects of education and training, such as grading assignments and developing lesson plans.
 * **Facilitate multilingual communication:** ChatGPT can surmount language barriers by providing translation services in real-time.&#x20;
 
+{% hint style="info" %}
+**Note:** We extend our support to the GPT-4 model. This additional capability grants you the flexibility to select from two distinct AI models, based on the specific requirements of your business.
+{% endhint %}
+
 Refer to the steps below to install the ChatGPT app in your workspace as an administrator.
 
 {% content-ref url="install-chatgpt-app.md" %}
@@ -42,6 +46,7 @@ The ChatGPT app in Rocket.Chat is capable of the following:&#x20;
 * **Generate summaries:** ChatGPT can be used to generate summaries of lengthy documents to provide an executive summary, an excerpt to share with others, or to allow you to avoid perusing the entire document.
 * **Voice and tone editing:** ChatGPT is accessible from any channel, team, or discussion, so the application is always available to help you establish the tone of your communications. You can alter it based on whether you want the message to be formal or informal.
 * **Index conversations:** ChatGPT responds to each conversation inside a thread. It indexes the conversations, and the responses within the conversation are contextually appropriate.
+* **Handle longer queries:** The app is capable of providing complete, uninterrupted responses with longer text output. This implies that users can ask the app questions that necessitate longer responses without having to break them into smaller chunks.
 
 {% hint style="warning" %}
 Large conversations or threads cannot be summarized in the current version of the ChatGPT app. In future versions, we intend to support this feature. Nevertheless, it is now possible to summarize a great deal of information—articles, news, novels, and so on—using ChatGPT.

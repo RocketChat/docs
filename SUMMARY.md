@@ -494,4 +494,5 @@
     * [Censorship and Harmful Content](legal-and-compliance/compliance-center/law-enforcement/censorship-and-harmful-content.md)
     * [Server Lookup](legal-and-compliance/compliance-center/law-enforcement/server-lookup.md)
   * [Code of Conduct: Services](legal-and-compliance/compliance-center/code-of-conduct-services.md)
-* [Legal Center](legal-and-compliance/legal-center.md)
+* [Legal Center](legal-and-compliance/legal-center/README.md)
+  * [Agreements and Policies History and Notices](legal-and-compliance/legal-center/agreements-and-policies-history-and-notices.md)

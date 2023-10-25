@@ -1,8 +1,12 @@
 # GDPR
 
-_Effective date: May 22, 2018_
+## Rocket.Chat is GDPR-compliant
 
-## Rocket.Chat is GDPR compliant
+<details>
+
+<summary>GDPR Implementation at Rocket.Chat</summary>
+
+_Effective date: May 22, 2018_
 
 Rocket.Chat has implemented various updates and changes to its codebase in preparation for GDPR enforcement on May 25th 2018.
 
@@ -28,7 +32,7 @@ The following are some of the more recent GDPR updates that are now part of the 
 
 ## Other rights
 
-Other rights for the data subjects are either covered by features already built into our codebase, or outside the scope of the open source software project, including:
+Other rights for the data subjects are either covered by features already built into our codebase or outside the scope of the open source software project, including:
 
 ### Right to Rectification
 
@@ -36,17 +40,19 @@ The codebase can be configured to support user modification/correction/rectifica
 
 ### Right to restriction of processing
 
-This is outside the scope of the open source software project, and is up to the controller ( administrator / deployer / operator of the the server system) to enforce.
+This is outside the scope of the open source software project and is up to the controller (administrator/deployer/operator of the the server system) to enforce.
 
 ### Right to Object
 
-This is outside the scope of the open source software project, and is up to the controller ( administrator / deployer / operator of the server system) to enforce.
+This is outside the scope of the open source software project and is up to the controller (administrator/deployer/operator of the server system) to enforce.
+
+</details>
 
 ## Community compliance
 
-The above will allow our community members to build and deploy GDPR compliant systems and services. We know and understand that all of you have custom installation, configuration and deployment environments and that you are working to ensure your own deployment of Rocket.Chat is compliant with GDPR if necessary.
+The above will allow our community members to build and deploy GDPR-compliant systems and services. We know and understand that all of you have custom installation, configuration, and deployment environments and that you are working to ensure your own deployment of Rocket.Chat is compliant with GDPR if necessary.
 
-Meanwhile, we would welcome any advice, input, or questions you may have regarding Rocket.Chat’s GDPR readiness. Please help us by emailing your thoughts to privacy@rocket.chat.
+Meanwhile, we would welcome any advice, input, or questions you may have regarding Rocket. Chat’s GDPR. Please help us by emailing your thoughts to privacy@rocket.chat.
 
 Thank you!
 

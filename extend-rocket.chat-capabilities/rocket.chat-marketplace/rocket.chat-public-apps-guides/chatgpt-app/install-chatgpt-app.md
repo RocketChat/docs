@@ -6,6 +6,17 @@ To install the ChatGPT app,
 2. Search for the **ChatGPT** app and click on the item.&#x20;
 3. Click **Install** and accept the **needed permissions** to install.&#x20;
 
+{% hint style="info" %}
+**Note:** We extend our support to the GPT-4 model. This additional capability grants you the flexibility to select from two distinct AI models, based on the specific requirements of your business.
+{% endhint %}
+
+To update the app,&#x20;
+
+* Go to **Administration** > **Marketplace**.
+* Search for the **ChatGPT** app and click on the item.
+* You will find the **Update** button right below the app name and description.
+* Click on the **Update** button and click **Save Changes**.&#x20;
+
 {% hint style="success" %}
 ChatGPT uses API keys to authenticate your account on Rocket.Chat. API Key is a required field for authentication.&#x20;
 {% endhint %}

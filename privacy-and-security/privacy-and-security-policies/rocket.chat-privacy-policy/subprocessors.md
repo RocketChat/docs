@@ -1,10 +1,8 @@
----
-description: 'Last update: May 29th, 2023'
----
-
 # Subprocessors
 
-We have updated this policy. For the previous version of this policy, please expand the section [below](subprocessors.md#previous-versions-of-this-subprocessors-list).
+Effective Date: May 29th, 2023
+
+We have updated this policy. For the previous version of this policy, please visit the [Agreements and Policies History.](../../../legal-and-compliance/legal-center/agreements-and-policies-history-and-notices.md)
 
 The list below identifies sub-contractors (sub-processors) that may be engaged by Rocket.Chat to Process personal data during the provisioning of our Services.
 
@@ -77,8 +75,4 @@ For more information on Rocket.Chat's privacy practices, please visit our[ Priva
 
 ### Previous Versions of this Subprocessors List
 
-{% file src="broken-reference" %}
-
-{% file src="../../.gitbook/assets/Rocket.Chat-Subprocessors-list-01-05-2023.pdf" %}
-
-{% file src="../../.gitbook/assets/Subprocessors-list-10-23-20.pdf" %}
+Rocket.Chat is committed to transparency as part of its values. As such, we provide previous versions of our Agreements and Policies in our [Agreements and Policies History.](../../../legal-and-compliance/legal-center/agreements-and-policies-history-and-notices.md)
