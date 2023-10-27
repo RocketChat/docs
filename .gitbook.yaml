@@ -443,4 +443,6 @@ redirects:
     guides/omnichannel/agents: use-rocket.chat/omnichannel/agents.md
     guides/omnichannel/analytics: use-rocket.chat/omnichannel/analytics.md
     guides/omnichannel/canned-responses-omnichannel-managers-guide: use-rocket.chat/omnichannel/canned-responses/README.md
+    extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/twitter-app: extend-rocket.chat-capabilities/rocket.chat-marketplace/README.md
+    extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/twitter-app/twitter-app-agents-guide: extend-rocket.chat-capabilities/rocket.chat-marketplace/README.md
     
