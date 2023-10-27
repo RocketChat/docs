@@ -25,7 +25,7 @@ const styles = `
 }
 .label {
 	fill: #fff;
-	font: 18px sans-serif;
+	font: 18px arial;
 	font-weight: 100;
 	dominant-baseline: middle;
 }
@@ -39,7 +39,7 @@ const styles = `
 	fill: #cecece;
 }
 .tick text {
-	font: 14px sans-serif;
+	font: 12px arial;
 	fill: #cecece;
 }
 .tick line {
@@ -64,7 +64,7 @@ export function create(data, options = {}) {
 
 	data = data.filter((item) => !item.release.extendedSupport || item.release.extendedSupport.end > queryStart);
 	data.forEach((item) => {
-		item.support = !item.release.extendedSupport ? 'TBD' : (item.release.lts ? '6 months' : '3 months')
+		item.support = !item.release.extendedSupport ? 'TBD' : (item.release.lts ? '6 months' : '6 months')
 		if (item.release.extendedSupport?.end > queryEnd) {
 			queryEnd = item.release.extendedSupport.end;
 		}
@@ -86,7 +86,7 @@ export function create(data, options = {}) {
 		.padding(0.3);
 	const xAxis = D3.axisBottom(xScale)
 		.tickSize(height)
-		.tickFormat(D3.timeFormat('%b %Y'));
+		.tickFormat(D3.timeFormat('%b %y'));
 	const yAxis = D3.axisRight(yScale).tickSize(width);
 	const baseSvg = d3n.createSVG()
 		.attr('width', width + margin.left + margin.right)
@@ -130,21 +130,23 @@ export function create(data, options = {}) {
 	const bar = svg.selectAll('#bar-container').data(data).enter().append('g');
 
 	bar.append('rect')
-		.attr('class', (data) => { return `bar-join ${data.release.extendedSupport ? (data.release.lts ? 'active-lts' : 'active') : 'latest'}`; })
+		.attr('rx', 6)
+		.attr('class', (data) => { return `bar ${data.release.extendedSupport ? (data.release.lts ? 'active-lts' : 'active') : 'latest'}`; })
 		.attr('x', (data) => { return xScale(data.release.releasedAt); })
 		.attr('y', (data) => { return yScale(data.release.version); })
 		.attr('width', (data) => {return xScale((data.release.extendedSupport?.end || queryEnd)) - xScale(data.release.releasedAt)})
 		.attr('height', (data) => calculateHeight(data));
 
 	bar.append('rect')
+		.attr('rx', 6)
 		.attr('class', (data) => { return `bar ${data.release.extendedSupport ? (data.release.lts ? 'maintenance-lts' : 'maintenance') : ''}`; })
-		.attr('x', (data) => { return data.release.extendedSupport?.start <= queryStart ? 0 : xScale(data.release.extendedSupport?.start) + 2; })
-		.attr('y', (data) => { return yScale(data.release.version) + 2; })
-		.attr('width', (data) => { return xScale(data.release.extendedSupport?.end || queryEnd) - xScale(data.release.extendedSupport?.start) - (data.release.extendedSupport?.start <= queryStart ? 2 : 4)})
-		.attr('height', (data) => calculateHeight(data) - 4);
+		.attr('x', (data) => { return data.release.extendedSupport?.start <= queryStart ? 0 : xScale(data.release.extendedSupport?.start) + 3; })
+		.attr('y', (data) => { return yScale(data.release.version) + 3; })
+		.attr('width', (data) => { return xScale(data.release.extendedSupport?.end || queryEnd) - xScale(data.release.extendedSupport?.start) - (data.release.extendedSupport?.start <= queryStart ? 3 : 6)})
+		.attr('height', (data) => calculateHeight(data) - 6);
 
 	bar.append('text')
-		.attr('class', 'bar label label-version')
+		.attr('class', 'label label-version')
 		.attr('x', (data) => {
 			return xScale(data.release.releasedAt) - (data.release.version.length * 10);
 		})
