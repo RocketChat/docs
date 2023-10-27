@@ -4,10 +4,8 @@ description: Requirements for official support from the Rocket.Chat team
 
 # Enterprise Support and Version Durability
 
-{% hint style="success" %}
-Our latest version introduces new features, enhancements, and important security fixes. Workspaces running versions outside our support window will not have access to cloud services, official mobile and desktop apps.&#x20;
-
-[Update to the latest version now](https://docs.rocket.chat/deploy/deploy-rocket.chat/updating-rocket.chat)!&#x20;
+{% hint style="warning" %}
+We are now extending the deprecation date from October 1, 2023 to **November 20, 2023**. Please ensure you **update your workspace to at least v.6.3.0 before November 20** for continued access to cloud services (marketplace apps, push notification and omnichannel gateway), mobile and desktop applications.&#x20;
 {% endhint %}
 
 ### **Requirements for Official Support**
@@ -32,8 +30,10 @@ Our latest version introduces new features, enhancements, and important security
 * Legacy server versions are being deprecated. To continue using mobile and desktop applications and access cloud services after October 1, 2023, workspaces must stay within the supported window.
 * Rocket.Chat will support the prior minor release for 3 months and the prior major release for 6 months. For instance, version 1.2.x will be supported for 3 months after the release of 1.3.0. Version 1.3.x will be supported for 6 months after the release of 2.0.0.
 
-{% hint style="warning" %}
-We are deprecating cloud services, mobile and desktop applications for legacy server versions with the introduction of the new policy, which will take effect on **October 1, 2023**. For all the Community and Enterprise workspaces to continue using our mobile and desktop applications and access cloud services after October 1st, they must stay within the supported window.
+{% hint style="success" %}
+Our latest version introduces new features, enhancements, and important security fixes. Workspaces running versions outside our support window will not have access to cloud services, official mobile and desktop apps.&#x20;
+
+[Update to the latest version now](https://docs.rocket.chat/deploy/deploy-rocket.chat/updating-rocket.chat)!&#x20;
 {% endhint %}
 
 By support, we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the below-mentioned versions. Bugs not related to security issues will be fixed only in new versions.
