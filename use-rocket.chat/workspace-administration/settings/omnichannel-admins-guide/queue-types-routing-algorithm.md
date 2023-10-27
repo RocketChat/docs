@@ -20,11 +20,11 @@ A new incoming chat will be routed to `agent-2` and so on until all agents have 
 
 ## Manual Selection
 
-With this queue method active, agents will have a new `Incoming Live Chats` section:
+With this queue method active, all agents have a **Queued Chats** section where new incoming chats are displayed. When the agent clicks on the chat, they can preview the chat, see the messages sent, and decide whether to take up the chat or not. If the chat is taken, it is removed from **Queued Chats** for all agents.
 
-Each new chat will be available on the `Incoming Live Chats` section to **all** agents. So any agent can take a new incoming chat.
-
-When the agent clicks on the incoming Live Chat, the system will show the preview of the chat containing the messages sent by the visitor, so the agent can decide if he will take the chat or not. If the agent decides to take it, the incoming chat will be removed from the incoming chats list of the other agents.
+{% hint style="info" %}
+Department-specific chats will only be displayed in **Queued Chats** for agents in that department.&#x20;
+{% endhint %}
 
 ## External Service
 

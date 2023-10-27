@@ -68,9 +68,9 @@ async function generateTable({ owner, repo } = {}) {
 		}
 
 		// Previous version changed major so it's LTS
-		if (currentVersion.major !== previousVersion.major) {
-			releases[index + 1].lts = true;
-		}
+		// if (currentVersion.major !== previousVersion.major) {
+		// 	releases[index + 1].lts = true;
+		// }
 
 		index++;
 	}
@@ -86,20 +86,21 @@ async function generateTable({ owner, repo } = {}) {
 		let releasedAt = new Date(minorRelease.releaseDate);
 		releasedAt.setDate(1);
 
-		if (nextRelease) {
-			let minorDate = new Date(nextRelease.minorRelease.releaseDate);
-			minorDate.setDate(1);
-			supportDateStart = minorDate;
-			supportDate = new Date(minorDate);
-			supportDate.setMonth(supportDate.getMonth() + (lts ? 6 : 3));
-		}
+		// if (nextRelease) {
+		let minorDate = new Date(minorRelease.releaseDate);
+		minorDate.setDate(1);
+		supportDateStart = minorDate;
+		supportDate = new Date(minorDate);
+		supportDate.setMonth(supportDate.getMonth() + (lts ? 6 : 6));
+		// }
 
 
 		releaseData.push({
 			release: {
 				version: minor_tag,
 				releasedAt,
-				extendedSupport: !last && {
+				// extendedSupport: !last && {
+				extendedSupport: {
 					start: supportDateStart,
 					end: supportDate,
 				},
@@ -122,11 +123,11 @@ async function generateTable({ owner, repo } = {}) {
 			? 'TBD'
 			: release.extendedSupport.end.toLocaleString('en', { month: 'short', year: "numeric" });
 
-		if (release.lts) {
-			addLine(`**${release.version} (LTS)**`, url, `**${releasedAt}**`, `**${endOfLife}**`);
-		} else {
-			addLine(release.version, url, releasedAt, endOfLife);
-		}
+		// if (release.lts) {
+		// 	addLine(`**${release.version} (LTS)**`, url, `**${releasedAt}**`, `**${endOfLife}**`);
+		// } else {
+		addLine(release.version, url, releasedAt, endOfLife);
+		// }
 	});
 
 	// Create SVG

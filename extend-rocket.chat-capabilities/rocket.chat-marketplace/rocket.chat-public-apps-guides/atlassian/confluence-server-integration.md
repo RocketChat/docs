@@ -6,8 +6,8 @@ description: Atlassian Confluence Server Integration
 
 <figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
-{% hint style="success" %}
-This app can also work in a fully air-gapped environment. Follow the [air-gapped-app-installation.md](../../../../setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md "mention") guide and continue with the configuration instructions below.
+{% hint style="warning" %}
+Due to Atlassian's decision to deprecate its server products, the Confluence server app is no longer supported in the latest versions of Rocket.Chat and will be deprecated.
 {% endhint %}
 
 ## Install Confluence Server App

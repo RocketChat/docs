@@ -6,8 +6,8 @@ description: How to install and configure your Jira Server integration with Rock
 
 <figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
-{% hint style="success" %}
-This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [air-gapped-app-installation.md](../../../../setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md "mention") guide and then follow the configuration instructions below.
+{% hint style="warning" %}
+Due to Atlassian's decision to deprecate its server products, the Jira server v2.0 app is no longer supported in the latest versions of Rocket.Chat and will be deprecated.
 {% endhint %}
 
 ## Features
