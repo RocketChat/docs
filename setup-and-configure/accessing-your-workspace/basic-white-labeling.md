@@ -18,3 +18,7 @@ Below is a list of common customization you can do on your Rocket.Chat workspace
 [**White-label login screen**](../../use-rocket.chat/workspace-administration/settings/layout.md#login): Customize the look of your Rocket.Chat workspace login screen.
 
 Rocket.Chat's white-labeling feature is a powerful tool that allows you to tailor your workspace to reflect your brand's identity. By customizing elements such as the homepage, color scheme, logo, assets, and login screen, you can create a more personalized and engaging environment for your team. Your workspace is now all set for you to [invite your users](inviting-users.md)!
+
+{% hint style="warning" %}
+The Rocket.Chat watermark is displayed permanently on the sidebar for community workspaces.
+{% endhint %}
