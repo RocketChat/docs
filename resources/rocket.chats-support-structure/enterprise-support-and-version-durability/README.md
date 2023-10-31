@@ -12,16 +12,16 @@ We are extending the deprecation date from October 1, 2023 to **November 20, 202
 
 #### **Requirements for Official Support**
 
-* Rocket.Chat 6.0 is the latest, most secure, and scalable version, featuring security patches, new features, and platform enhancements.
-* To obtain official support, installations must meet specific requirements, ensuring the support request pertains to the Rocket.Chat application and not external factors. The installation should run the Docker image provided by the Rocket.Chat team to ensure this.
+To obtain official support, installations must meet specific requirements, ensuring the support request pertains to the Rocket.Chat application and not external factors. The installation should run the Docker image provided by the Rocket.Chat team to ensure this.
 
 #### **Supported Environment**
 
-* Rocket.Chat requires the installation to run on their Docker image to isolate external factors. This approach ensures efficient support by avoiding issues like:
-  1. Compilation problems.
-  2. Installation issues.
-  3. Missing or outdated dependencies.
-  4. Use of non-official versions.
+Rocket.Chat requires the installation to run on their Docker image to isolate external factors. This approach ensures efficient support by avoiding issues like:
+
+1. Compilation problems.
+2. Installation issues.
+3. Missing or outdated dependencies.
+4. Use of non-official versions.
 
 {% content-ref url="../../../deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md" %}
 [deploy-with-docker-and-docker-compose.md](../../../deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md)
@@ -93,7 +93,7 @@ Rocket.Chat manages upgrades for Cloud users regardless of the release version. 
 
 ### Rocket.Chat Services
 
-Services such as the push gateway and marketplace are managed by Rocket.Chat. Three months after a new major release, the last major release will have its services support deprecated. Five months post-deprecation, support will be removed, leading to potential errors and warnings about incompatibility.
+Services such as the push gateway and marketplace are managed by Rocket.Chat. Six months after a new release, the last release will have its services support deprecated. Five months post-deprecation, support will be removed, leading to potential errors and warnings about incompatibility.
 
 #### **What should you do before the end of the deprecation period?**
 
