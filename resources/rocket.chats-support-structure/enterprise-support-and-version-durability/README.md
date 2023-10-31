@@ -8,7 +8,9 @@ description: Requirements for official support from the Rocket.Chat team
 We are extending the deprecation date from October 1, 2023 to **November 20, 2023**. Please **update your workspace to at least v.6.3.0 before November 20** for continued access to cloud services (marketplace apps, push notification, and omnichannel gateway), mobile and desktop applications.
 {% endhint %}
 
-**All Rocket.Chat releases are supported for six months from the date of the release.** By support, we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the below-mentioned versions. Bugs not related to security issues will be fixed only in new versions.
+**All Rocket.Chat releases are supported for six months from the date of the release.** [Rocket.Chat](https://rocket.chat/) hosted services like Push Gateway and Marketplace stop working once the [Rocket.Chat](https://rocket.chat/) version becomes unsupported.&#x20;
+
+By support, we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the below-mentioned versions. Bugs not related to security issues will be fixed only in new versions.
 
 #### **Requirements for Official Support**
 
@@ -87,14 +89,6 @@ Check the table below to verify the final support date of each release version.
 Always update to the latest stable version before reporting any bugs or before asking for help from the community.
 {% endhint %}
 
-### Rocket.Chat Cloud
-
-Rocket.Chat manages upgrades for Cloud users regardless of the release version. Outdated server versions might be upgraded to the latest stable version for optimal performance.
-
-### Rocket.Chat Services
-
-Services such as the push gateway and marketplace are managed by Rocket.Chat. Six months after a new release, the last release will have its services support deprecated.&#x20;
-
 #### **What should you do before the end of the deprecation period?**
 
 Before the end of the deprecation period, we strongly recommend all the workspaces on Rocket.Chat plans to upgrade to a supported version for continued access to cloud services mobile and desktop apps. If you do not wish to update, Rocket.Chat provides workspace owners with a variety of options for managing their workspaces in the manner of your choosing. If you choose to remain on a version of Rocket.Chat that is outside of our support window, you must implement the following alternatives to our cloud services and published apps:
@@ -102,18 +96,6 @@ Before the end of the deprecation period, we strongly recommend all the workspac
 * **Mobile and desktop apps:** You must compile each app from our open-source code and publish your own builds to relevant app stores.
 * **Push notifications:** You will need to deploy your own push notification server.
 * **Apps:** You must develop and sideload your own applications instead of installing them through our Marketplace.
-
-#### Cloud Service Support
-
-| Rocket.Chat Release | Deprecation Date | End of Life Date |
-| ------------------- | ---------------: | ---------------: |
-| 0.x                 |         Aug 2019 |         Jan 2020 |
-| 1.x                 |         Nov 2019 |         Apr 2020 |
-| 2.x                 |         May 2020 |         Oct 2020 |
-| 3.x                 |         Jan 2022 |         Jun 2022 |
-| 4.x                 |              TBD |              TBD |
-| 5.x                 |              TBD |              TBD |
-| 6.x                 |              TBD |              TBD |
 
 ### MongoDB versions
 
