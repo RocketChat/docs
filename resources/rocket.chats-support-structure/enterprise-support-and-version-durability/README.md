@@ -8,12 +8,14 @@ description: Requirements for official support from the Rocket.Chat team
 We are extending the deprecation date from October 1, 2023 to **November 20, 2023**. Please **update your workspace to at least v.6.3.0 before November 20** for continued access to cloud services (marketplace apps, push notification, and omnichannel gateway), mobile and desktop applications.
 {% endhint %}
 
-### **Requirements for Official Support**
+**All Rocket.Chat releases are supported for six months from the date of the release.** By support, we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the below-mentioned versions. Bugs not related to security issues will be fixed only in new versions.
+
+#### **Requirements for Official Support**
 
 * Rocket.Chat 6.0 is the latest, most secure, and scalable version, featuring security patches, new features, and platform enhancements.
 * To obtain official support, installations must meet specific requirements, ensuring the support request pertains to the Rocket.Chat application and not external factors. The installation should run the Docker image provided by the Rocket.Chat team to ensure this.
 
-### **Supported Environment**
+#### **Supported Environment**
 
 * Rocket.Chat requires the installation to run on their Docker image to isolate external factors. This approach ensures efficient support by avoiding issues like:
   1. Compilation problems.
@@ -24,10 +26,6 @@ We are extending the deprecation date from October 1, 2023 to **November 20, 202
 {% content-ref url="../../../deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md" %}
 [deploy-with-docker-and-docker-compose.md](../../../deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md)
 {% endcontent-ref %}
-
-**Rocket.Chat Versions**
-
-**All Rocket.Chat releases are supported for a six-month period from the date of the release.** By support, we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the below-mentioned versions. Bugs not related to security issues will be fixed only in new versions.
 
 {% hint style="info" %}
 In case of security-relevant bugs, we might backport patches to older releases on a case-by-case basis. Please understand, though, that those will be rare exceptions. If you want to play it safe, upgrade to the latest stable.
@@ -89,17 +87,13 @@ Check the table below to verify the final support date of each release version.
 Always update to the latest stable version before reporting any bugs or before asking for help from the community.
 {% endhint %}
 
-{% hint style="info" %}
-**LTS** means **Long Term Support** and it's used to identify the last **minor** version before a **major** version, e.g. 2.4 is the last minor before 3.x. A new major version means that the version introduced a breaking change and requires attention on the upgrade, so we maintain the support of the previous version for a longer time in order to give you more time to plan and test the upgrade.
-{% endhint %}
-
 ### Rocket.Chat Cloud
 
 Rocket.Chat manages upgrades for Cloud users regardless of the release version. Outdated server versions might be upgraded to the latest stable version for optimal performance.
 
 ### Rocket.Chat Services
 
-Services such as the push gateway and marketplace are managed by Rocket.Chat. Three months after a new major release, the last major release will have its Services support deprecated. Five months post-deprecation, support will be removed, leading to potential errors and warnings about incompatibility.
+Services such as the push gateway and marketplace are managed by Rocket.Chat. Three months after a new major release, the last major release will have its services support deprecated. Five months post-deprecation, support will be removed, qleading to potential errors and warnings about incompatibility.
 
 #### **What should you do before the end of the deprecation period?**
 
