@@ -10,11 +10,11 @@ This document provides comprehensive information about Rocket.Chat's support str
 We are extending the deprecation date from October 1, 2023 to **November 20, 2023**. Please **update your workspace to at least v.6.3.0 before November 20** for continued access to cloud services (marketplace apps, push notification, and omnichannel gateway), mobile and desktop applications.
 {% endhint %}
 
-### 1. Support Duration
+### Support Duration
 
 All Rocket.Chat releases are supported for six months from the date of the release. Rocket.Chat hosted services like Push Gateway and Marketplace stop working once the Rocket.Chat version becomes unsupported. By support, we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the below-mentioned versions. Bugs not related to security issues will be fixed only in new versions.
 
-### 2. Requirements for Official Support
+### Requirements for Official Support
 
 To obtain official support, installations must meet specific requirements, ensuring the support request pertains to the Rocket.Chat application and not external factors. The installation should run the Docker image provided by the Rocket.Chat team to ensure this. Rocket.Chat requires the installation to run on their Docker image to isolate external factors. This approach ensures efficient support by avoiding issues like:
 
@@ -29,7 +29,7 @@ To obtain official support, installations must meet specific requirements, ensur
 Always update to the latest stable version before reporting any bugs or before asking for help from the community.
 {% endhint %}
 
-### 3. Version End-of-Life&#x20;
+### Version End-of-Life&#x20;
 
 Check the table below to verify the final support date of each release version.
 
@@ -83,7 +83,7 @@ Check the table below to verify the final support date of each release version.
 | 1.1                 | [1.1.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.1.5)   |    May 2019 |    Nov 2019 |
 | 1.0                 | [1.0.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.0.5)   |    Apr 2019 |    Oct 2019 |
 
-### 4. What to Do Before Deprecation
+### What to Do Before Deprecation
 
 Before the end of the deprecation period, we strongly recommend all the workspaces on Rocket.Chat plans to upgrade to a supported version for continued access to cloud services, mobile, and desktop apps. If you do not wish to update, Rocket.Chat provides workspace owners with a variety of options for managing their workspaces in the manner of your choosing. You must implement the following alternatives to our cloud services and published apps:
 
@@ -91,7 +91,7 @@ Before the end of the deprecation period, we strongly recommend all the workspac
 * Push notifications: You will need to deploy your own push notification server.
 * Apps: You must develop and sideload your own applications instead of installing them through our Marketplace.
 
-### 5. MongoDB Version Support
+### MongoDB Version Support
 
 Each Rocket.Chat release supports different MongoDB versions. It's essential to follow the official MongoDB documentation for upgrade guides, ensuring no versions are skipped during the upgrade process.
 
@@ -106,18 +106,20 @@ Each Rocket.Chat release supports different MongoDB versions. It's essential to 
 
 > It's possible to bypass the MongoDB version check by using the environment variable `BYPASS_MONGO_VALIDATION=true`. Bare in mind that this work around should be used only when extrictly necessary and may prevent some functionalities to work properly or even prevent the server to start.
 
-### 6. Browser Support
+### Browser Support
 
 Support is limited to recent browsers due to the rapid evolution in the browser ecosystem. Supported browsers include the latest three versions of Google Chrome and Mozilla Firefox, the latest two versions of Apple Safari and Microsoft Edge, and the latest version of Microsoft Internet Explorer.
 
-### 7. System Requirements
+### System Requirements
 
 Support is limited to installations that meet the requirements described in the [system requirements](../../../deploy/deploy-rocket.chat/system-requirements.md) guide.
 
-### **8. Monitoring**
+### **Monitoring**
 
 Monitoring is required for all supported installations with Rocket.Chat supporting the [Prometheus and Grafana monitoring stack](https://github.com/RocketChat/Rocket.Chat.Metrics).
 
-### 9. Access to Logs
+### Access to Logs
 
-While Rocket.Chat doesn't require server or database access, they might need access to logs to identify issues. Potential logs include server logs, web browser logs, and mobile logs.
+While Rocket.Chat doesn't require server or database access; we might need access to logs to identify issues. Potential logs include server logs, web browser logs, and mobile logs.
+
+By adhering to the guidelines and timelines outlined in this document, you can make informed decisions that contribute to the security, efficiency, and longevity of your Rocket.Chat workspace. Should you have any further questions or require additional clarification, we encourage you to reach out to our support team for expert assistance.
