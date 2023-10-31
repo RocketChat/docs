@@ -2,15 +2,27 @@
 
 As software evolves and new features are added, the underlying database schema often needs to change to accommodate these updates. This process, known as database migration, is a critical aspect of maintaining and updating software systems. Rocket.Chat, a leading communication platform, handles database migrations seamlessly, ensuring that the transition between different versions of the platform is smooth and efficient. This document will provide a comprehensive overview of how Rocket.Chat manages database migrations.
 
+For more information on updating Rocket.Chat, see [Updating Rocket.Chat](../../deploy/updating-rocket.chat/README.md).
+=======
+
+Database migration means updating an older schema to a newer one (or vice versa). When you incrementally update your Rocket.Chat version, the database migration is automatic, and you do not have to take any explicit action. Rocket.Chat migrations and their versions can be found on [GitHub](https://github.com/RocketChat/Rocket.Chat/blob/develop/apps/meteor/server/startup/migrations).
+
 {% hint style="success" %}
-When you incrementally update your Rocket.Chat version, the database migration is automatic, and you do not have to take any explicit action. Rocket.Chat migrations and thier versions can be found on [GitHub](https://github.com/RocketChat/Rocket.Chat/blob/develop/apps/meteor/server/startup/migrations).
+When you incrementally update your Rocket.Chat version, the database migration is automatic, and you do not have to take any explicit action. Rocket.Chat migrations and their versions can be found on [GitHub](https://github.com/RocketChat/Rocket.Chat/blob/develop/apps/meteor/server/startup/migrations).
 {% endhint %}
 
-However, it's important to note that Rocket.Chat uses migrations to enforce an updatable version range. This means that direct upgrades from non-consecutive versions (e.g., from version three to five) are not possible if the intermediate migrations have been removed.
+However, it's important to note that Rocket.Chat uses migrations to enforce an updatable version range. This means that direct upgrades from non-consecutive versions (e.g., from version three to five) are not possible since the intermediate migrations have been removed.
 
 {% hint style="info" %}
 While Rocket.Chat does not officially support downgrades due to the changes made during database migrations, it is possible to manually roll back migrations separately if necessary.
 {% endhint %}
+
+The versioning in Rocket.Chat looks like this:
+
+```
+Major.Minor.Patch
+6.2.10
+```
 
 ### Migration Collection
 
