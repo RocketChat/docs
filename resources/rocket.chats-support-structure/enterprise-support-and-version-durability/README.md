@@ -93,7 +93,7 @@ Rocket.Chat manages upgrades for Cloud users regardless of the release version. 
 
 ### Rocket.Chat Services
 
-Services such as the push gateway and marketplace are managed by Rocket.Chat. Six months after a new release, the last release will have its services support deprecated. Five months post-deprecation, support will be removed, leading to potential errors and warnings about incompatibility.
+Services such as the push gateway and marketplace are managed by Rocket.Chat. Six months after a new release, the last release will have its services support deprecated.&#x20;
 
 #### **What should you do before the end of the deprecation period?**
 
@@ -161,7 +161,7 @@ Here's how you can find out if your browser version is still supported.
 ### **Hardware & Monitoring**
 
 * Support is limited to installations that meet the requirements described in the [system requirements](../../../deploy/deploy-rocket.chat/system-requirements.md) guide.
-* Monitoring is required for all supported installations, with Rocket.Chat supporting the [Prometheus and Grafana monitoring stack](https://github.com/RocketChat/Rocket.Chat.Metrics).
+* Monitoring is required for all supported installations with Rocket.Chat supporting the [Prometheus and Grafana monitoring stack](https://github.com/RocketChat/Rocket.Chat.Metrics).
 
 ### Data access
 
