@@ -12,7 +12,7 @@ We are extending the deprecation date from October 1, 2023 to **November 20, 202
 
 ### Support Duration
 
-All Rocket.Chat releases are supported for six months from the date of the release. Rocket.Chat hosted services like Push Gateway and Marketplace stop working once the Rocket.Chat version becomes unsupported. By support, we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the below-mentioned versions. Bugs not related to security issues will be fixed only in new versions.
+Each release of Rocket.Chat comes with a support period lasting six months from its release date. Once this period expires, hosted services such as the Push Gateway and Marketplace will cease to function for that particular version. During the support window, Rocket.Chat focuses on delivering security patches and responding to support queries concerning configuration and usage for the versions specified. Any bugs that are not security-related will be addressed solely in future releases.
 
 ### Requirements for Official Support
 
