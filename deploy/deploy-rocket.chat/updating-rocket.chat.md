@@ -10,7 +10,7 @@ Keeping your Rocket.Chat installation up-to-date is essential to ensure that you
 
 ## Before you Update
 
-To prepare for a successful Rocket.Chat upgrade, it's vital to adhere to specific guidelines. Start by thoroughly understanding the [system-requirements.md](system-requirements.md "mention") and carefully reading the [release notes ](https://github.com/RocketChat/Rocket.Chat/releases)specific to your target version.&#x20;
+To prepare for a successful Rocket.Chat update, it's vital to adhere to specific guidelines. Start by thoroughly understanding the [system-requirements.md](system-requirements.md "mention") and carefully reading the [release notes ](https://github.com/RocketChat/Rocket.Chat/releases)specific to your target version.&#x20;
 
 **Backup your data**
 
@@ -18,24 +18,24 @@ Always perform a full backup of your Rocket.Chat instance, including the databas
 
 **Avoid skipping major versions**
 
-When you upgrade from one major version to another, it is important to follow a sequential path and not skip any intermediate major versions. This is because each major version is a significant change, and skipping intermediate versions can lead to compatibility problems or unexpected behavior.
+When you update from one major version to another, it is important to follow a sequential path and not skip any intermediate major versions. This is because each major version is a significant change, and skipping intermediate versions can lead to compatibility problems or unexpected behavior.
 
-For example, if you are upgrading your workspace from version 1.x.x to version 4.x.x, you should follow this path: **1.x.x -> 2.x.x -> 3.x.x -> 4.x.x.**
+For example, if you are update your workspace from version 1.x.x to version 4.x.x, you should follow this path: **1.x.x -> 2.x.x -> 3.x.x -> 4.x.x.**
 
-We recommend that you upgrade to the latest version of the next release from your current version. Here is the recommended path:&#x20;
+We recommend that you update to the latest version of the next release from your current version. Here is the recommended path:&#x20;
 
 <figure><img src="../../.gitbook/assets/upgrade-path.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Skipping intermediate major versions, such as upgrading directly from 1.x.x to 4.x.x, can lead to problems because the software in 4.x.x may not be compatible with the data or settings that you have in 1.x.x.
+Skipping intermediate major versions, such as updating directly from 1.x.x to 4.x.x, can lead to problems because the software in 4.x.x may not be compatible with the data or settings that you have in 1.x.x.
 {% endhint %}
 
 {% hint style="info" %}
-See our [upgrade version path flowchart](https://whimsical.com/upgrade-version-path-rocket-chat-51eoS7aUunTan5wLt2CBHU) and [demo](https://www.youtube.com/watch?v=y9cLve2G8H0) for a more detailed workflow on updating your workspace from the oldest version (1.x.x) with MMAP to the latest version with the supported MongoDB release.
+See our [update version path flowchart](https://whimsical.com/upgrade-version-path-rocket-chat-51eoS7aUunTan5wLt2CBHU) and [demo](https://www.youtube.com/watch?v=y9cLve2G8H0) for a more detailed workflow on updating your workspace from the oldest version (1.x.x) with MMAP to the latest version with the supported MongoDB release.
 {% endhint %}
 
 {% embed url="https://whimsical.com/upgrade-version-path-rocket-chat-51eoS7aUunTan5wLt2CBHU" %}
-Upgrade Version Path
+Update Version Path
 {% endembed %}
 
 ### Updating Rocket.Chat
@@ -108,6 +108,6 @@ sudo systemctl start rocketchat
 If you have any concerns or issues with updating Rocket.Chat, see [updating-faq.md](../../resources/frequently-asked-questions/deployment-faq/updating-faq.md "mention")
 {% endhint %}
 
-### Upgrading MongoDB
+### Updating MongoDB
 
-Refer to [#mongodb-versions](../../resources/rocket.chats-support-structure/enterprise-support-and-version-durability/#mongodb-versions "mention") and learn more about the supported MongoDB versions for your Rocket.Chat workspace and how to upgrade.
+Refer to [#mongodb-versions](../../resources/rocket.chats-support-structure/enterprise-support-and-version-durability/#mongodb-versions "mention") and learn more about the supported MongoDB versions for your Rocket.Chat workspace and how to update.
