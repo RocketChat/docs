@@ -6,13 +6,13 @@ description: Requirements for official support from the Rocket.Chat team
 
 This document provides comprehensive information about Rocket.Chat's support structure, including the duration of support for different versions, requirements for obtaining official support, and other essential details.
 
-{% hint style="warning" %}
-We are extending the deprecation date from October 1, 2023 to **November 20, 2023**. Please **update your workspace to at least v.6.3.0 before November 20** for continued access to cloud services (marketplace apps, push notification, and omnichannel gateway), mobile and desktop applications.
-{% endhint %}
-
-### Support Duration
+### Support Window Duration
 
 Each release of Rocket.Chat comes with a support period lasting six months from its release date. Once this period expires, hosted services such as the Push Gateway and Marketplace will cease to function for that particular version. During the support window, Rocket.Chat focuses on delivering security patches and responding to support queries concerning configuration and usage for the versions specified. Any bugs that are not security-related will be addressed solely in future releases.
+
+{% hint style="warning" %}
+For versions of [Rocket.Chat](https://rocket.chat/) that are no longer supported, we are extending the support window enforcement date from October 1, 2023 to **November 20, 2023**. Please **update your workspace to at least v.6.3.0 before November 20** for continued access to cloud services (marketplace apps, push notification, and omnichannel gateway), mobile and desktop applications.
+{% endhint %}
 
 ### Requirements for Official Support
 
