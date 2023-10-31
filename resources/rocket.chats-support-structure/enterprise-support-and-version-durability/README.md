@@ -4,34 +4,32 @@ description: Requirements for official support from the Rocket.Chat team
 
 # Enterprise Support and Version Durability
 
+This document provides comprehensive information about Rocket.Chat's support structure, including the duration of support for different versions, requirements for obtaining official support, and other essential details.
+
 {% hint style="warning" %}
 We are extending the deprecation date from October 1, 2023 to **November 20, 2023**. Please **update your workspace to at least v.6.3.0 before November 20** for continued access to cloud services (marketplace apps, push notification, and omnichannel gateway), mobile and desktop applications.
 {% endhint %}
 
-**All Rocket.Chat releases are supported for six months from the date of the release.** [Rocket.Chat](https://rocket.chat/) hosted services like Push Gateway and Marketplace stop working once the [Rocket.Chat](https://rocket.chat/) version becomes unsupported.&#x20;
+### 1. Support Duration
 
-By support, we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the below-mentioned versions. Bugs not related to security issues will be fixed only in new versions.
+All Rocket.Chat releases are supported for six months from the date of the release. Rocket.Chat hosted services like Push Gateway and Marketplace stop working once the Rocket.Chat version becomes unsupported. By support, we mean that Rocket.Chat will provide only security fixes and answer support tickets related to configuration and usage for the below-mentioned versions. Bugs not related to security issues will be fixed only in new versions.
 
-#### **Requirements for Official Support**
+### 2. Requirements for Official Support
 
-To obtain official support, installations must meet specific requirements, ensuring the support request pertains to the Rocket.Chat application and not external factors. The installation should run the Docker image provided by the Rocket.Chat team to ensure this.
+To obtain official support, installations must meet specific requirements, ensuring the support request pertains to the Rocket.Chat application and not external factors. The installation should run the Docker image provided by the Rocket.Chat team to ensure this. Rocket.Chat requires the installation to run on their Docker image to isolate external factors. This approach ensures efficient support by avoiding issues like:
 
-#### **Supported Environment**
-
-Rocket.Chat requires the installation to run on their Docker image to isolate external factors. This approach ensures efficient support by avoiding issues like:
-
-1. Compilation problems.
-2. Installation issues.
-3. Missing or outdated dependencies.
-4. Use of non-official versions.
+* Missing or outdated dependencies.
+* Use of non-official versions.
 
 {% content-ref url="../../../deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md" %}
 [deploy-with-docker-and-docker-compose.md](../../../deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md)
 {% endcontent-ref %}
 
-{% hint style="info" %}
-In case of security-relevant bugs, we might backport patches to older releases on a case-by-case basis. Please understand, though, that those will be rare exceptions. If you want to play it safe, upgrade to the latest stable.
+{% hint style="warning" %}
+Always update to the latest stable version before reporting any bugs or before asking for help from the community.
 {% endhint %}
+
+### 3. Version End-of-Life&#x20;
 
 Check the table below to verify the final support date of each release version.
 
@@ -85,66 +83,41 @@ Check the table below to verify the final support date of each release version.
 | 1.1                 | [1.1.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.1.5)   |    May 2019 |    Nov 2019 |
 | 1.0                 | [1.0.5](https://github.com/RocketChat/Rocket.Chat/releases/tag/1.0.5)   |    Apr 2019 |    Oct 2019 |
 
-{% hint style="warning" %}
-Always update to the latest stable version before reporting any bugs or before asking for help from the community.
-{% endhint %}
+### 4. What to Do Before Deprecation
 
-#### **What should you do before the end of the deprecation period?**
+Before the end of the deprecation period, we strongly recommend all the workspaces on Rocket.Chat plans to upgrade to a supported version for continued access to cloud services, mobile, and desktop apps. If you do not wish to update, Rocket.Chat provides workspace owners with a variety of options for managing their workspaces in the manner of your choosing. You must implement the following alternatives to our cloud services and published apps:
 
-Before the end of the deprecation period, we strongly recommend all the workspaces on Rocket.Chat plans to upgrade to a supported version for continued access to cloud services mobile and desktop apps. If you do not wish to update, Rocket.Chat provides workspace owners with a variety of options for managing their workspaces in the manner of your choosing. If you choose to remain on a version of Rocket.Chat that is outside of our support window, you must implement the following alternatives to our cloud services and published apps:
+* Mobile and desktop apps: You must compile each app from our open-source code and publish your own builds to relevant app stores.
+* Push notifications: You will need to deploy your own push notification server.
+* Apps: You must develop and sideload your own applications instead of installing them through our Marketplace.
 
-* **Mobile and desktop apps:** You must compile each app from our open-source code and publish your own builds to relevant app stores.
-* **Push notifications:** You will need to deploy your own push notification server.
-* **Apps:** You must develop and sideload your own applications instead of installing them through our Marketplace.
-
-### MongoDB versions
+### 5. MongoDB Version Support
 
 Each Rocket.Chat release supports different MongoDB versions. It's essential to follow the official MongoDB documentation for upgrade guides, ensuring no versions are skipped during the upgrade process.
 
-> Rocket.Chat only adds or removes support of MongoDB versions on major releases so the minor versions are ommited on table below.
-
-#### MongoDB Support
-
-| Rocket.Chat Release |      Supported Versions | Deprecated Version |
-| ------------------- | ----------------------: | -----------------: |
-| 1.x                 |      3.2, 3.4, 3.6, 4.0 |                3.2 |
-| 2.x                 |           3.4, 3.6, 4.0 |                3.4 |
-| 3.x                 |           3.4, 3.6, 4.0 |                3.4 |
-| 4.x                 | 3.6, 4.0, 4.2, 4.4, 5.0 |           3.6, 4.0 |
-| 5.x                 |           4.2, 4.4, 5.0 |                4.2 |
-| 6.x                 |           4.4, 5.0, 6.0 |                    |
-
-The upgrade guides available from the official MongoDB documentation are listed below. Bear in mind that it's not possible to skip a version when upgrading, e.g. to upgrade from 3.2 to 3.6 it's necessary to upgrade from 3.2 to 3.4 first and then to 3.6.
-
-* [Upgrade Replicat Set to 3.4](https://docs.mongodb.com/manual/release-notes/3.4-upgrade-replica-set/)
-* [Upgrade Replicat Set to 3.6](https://docs.mongodb.com/manual/release-notes/3.6-upgrade-replica-set/)
-* [Upgrade Replicat Set to 4.0](https://docs.mongodb.com/manual/release-notes/4.0-upgrade-replica-set/)
-* [Upgrade Replicat Set to 4.2](https://docs.mongodb.com/manual/release-notes/4.2-upgrade-replica-set/)
-* [Upgrade Replicat Set to 4.4](https://docs.mongodb.com/manual/release-notes/4.4-upgrade-replica-set/)
-* [Upgrade Replicat Set to 5.0](https://docs.mongodb.com/manual/release-notes/5.0-upgrade-replica-set/)
-* [Upgrade Replicat Set to 6.0](https://www.mongodb.com/docs/manual/release-notes/6.0-upgrade-replica-set/)
+| Rocket.Chat Release |                                                                                                                                                                                                                                      Supported Versions | Deprecated Version |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | -----------------: |
+| 1.x                 |                                                                                                                                                                                                                                      3.2, 3.4, 3.6, 4.0 |                3.2 |
+| 2.x                 |                                                                                                                                                                                                                                           3.4, 3.6, 4.0 |                3.4 |
+| 3.x                 |                                                                                                                                                                                                                                           3.4, 3.6, 4.0 |                3.4 |
+| 4.x                 |                                                                                                                                                                                                                                 3.6, 4.0, 4.2, 4.4, 5.0 |           3.6, 4.0 |
+| 5.x                 |                                                                                                                                                                                                                                           4.2, 4.4, 5.0 |                4.2 |
+| 6.x                 | [4.4](https://www.mongodb.com/docs/manual/release-notes/4.4-upgrade-replica-set/), [5.0](https://www.mongodb.com/docs/manual/release-notes/5.0-upgrade-replica-set/), [6.0](https://www.mongodb.com/docs/manual/release-notes/6.0-upgrade-replica-set/) |                    |
 
 > It's possible to bypass the MongoDB version check by using the environment variable `BYPASS_MONGO_VALIDATION=true`. Bare in mind that this work around should be used only when extrictly necessary and may prevent some functionalities to work properly or even prevent the server to start.
 
-### Browser versions
+### 6. Browser Support
 
 Support is limited to recent browsers due to the rapid evolution in the browser ecosystem. Supported browsers include the latest three versions of Google Chrome and Mozilla Firefox, the latest two versions of Apple Safari and Microsoft Edge, and the latest version of Microsoft Internet Explorer.
 
-{% hint style="info" %}
-Here's how you can find out if your browser version is still supported.
+### 7. System Requirements
 
-* [Mozilla Firefox](https://en.wikipedia.org/wiki/Firefox\_version\_history)
-* [Google Chrome](https://en.wikipedia.org/wiki/Google\_Chrome\_version\_history)
-* [Apple Safari](https://en.wikipedia.org/wiki/Safari\_version\_history)
-* [Microsoft Edge](https://en.wikipedia.org/wiki/Microsoft\_Edge#Release\_history)
-* [Microsoft Internet Explorer](https://en.wikipedia.org/wiki/Internet\_Explorer\_version\_history)
-{% endhint %}
+Support is limited to installations that meet the requirements described in the [system requirements](../../../deploy/deploy-rocket.chat/system-requirements.md) guide.
 
-### **Hardware & Monitoring**
+### **8. Monitoring**
 
-* Support is limited to installations that meet the requirements described in the [system requirements](../../../deploy/deploy-rocket.chat/system-requirements.md) guide.
-* Monitoring is required for all supported installations with Rocket.Chat supporting the [Prometheus and Grafana monitoring stack](https://github.com/RocketChat/Rocket.Chat.Metrics).
+Monitoring is required for all supported installations with Rocket.Chat supporting the [Prometheus and Grafana monitoring stack](https://github.com/RocketChat/Rocket.Chat.Metrics).
 
-### Data access
+### 9. Access to Logs
 
 While Rocket.Chat doesn't require server or database access, they might need access to logs to identify issues. Potential logs include server logs, web browser logs, and mobile logs.
