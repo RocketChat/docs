@@ -93,15 +93,15 @@ Rocket.Chat manages upgrades for Cloud users regardless of the release version. 
 
 ### Rocket.Chat Services
 
-Services such as the push gateway and marketplace are managed by Rocket.Chat. Three months after a new major release, the last major release will have its services support deprecated. Five months post-deprecation, support will be removed, qleading to potential errors and warnings about incompatibility.
+Services such as the push gateway and marketplace are managed by Rocket.Chat. Three months after a new major release, the last major release will have its services support deprecated. Five months post-deprecation, support will be removed, leading to potential errors and warnings about incompatibility.
 
 #### **What should you do before the end of the deprecation period?**
 
-Before the end of the deprecation period, we strongly recommend all the workspaces on all Rocket.Chat plans to upgrade to a supported version for continued access to cloud services, mobile and desktop apps. If you do not wish to update, Rocket.Chat provides workspace owners with a variety of options for managing their workspaces in the manner of your choosing. If you choose to remain on a version of Rocket.Chat that is outside of our support window, you must implement the following alternatives to our cloud services and published apps:
+Before the end of the deprecation period, we strongly recommend all the workspaces on Rocket.Chat plans to upgrade to a supported version for continued access to cloud services mobile and desktop apps. If you do not wish to update, Rocket.Chat provides workspace owners with a variety of options for managing their workspaces in the manner of your choosing. If you choose to remain on a version of Rocket.Chat that is outside of our support window, you must implement the following alternatives to our cloud services and published apps:
 
 * **Mobile and desktop apps:** You must compile each app from our open-source code and publish your own builds to relevant app stores.
 * **Push notifications:** You will need to deploy your own push notification server.
-* **Apps:** You will be required to develop and sideload your own applications instead of installing them through our Marketplace.
+* **Apps:** You must develop and sideload your own applications instead of installing them through our Marketplace.
 
 #### Cloud Service Support
 
