@@ -97,7 +97,7 @@ Services such as the push gateway and marketplace are managed by Rocket.Chat. Th
 
 #### **What should you do before the end of the deprecation period?**
 
-Before the end of the deprecation period, we strongly recommend all the workspaces on Community and Enterprise editions to upgrade to a supported version (version 6.0.0 or higher) for continued access to cloud services, mobile and desktop apps. If you do not wish to upgrade, Rocket.Chat provides workspace owners with a variety of options for managing their workspaces in the manner of your choosing. If you choose to remain on a version of Rocket.Chat that is outside of our LTS, you must implement the following alternatives to our cloud services and published apps:
+Before the end of the deprecation period, we strongly recommend all the workspaces on all Rocket.Chat plans to upgrade to a supported version for continued access to cloud services, mobile and desktop apps. If you do not wish to update, Rocket.Chat provides workspace owners with a variety of options for managing their workspaces in the manner of your choosing. If you choose to remain on a version of Rocket.Chat that is outside of our support window, you must implement the following alternatives to our cloud services and published apps:
 
 * **Mobile and desktop apps:** You must compile each app from our open-source code and publish your own builds to relevant app stores.
 * **Push notifications:** You will need to deploy your own push notification server.
