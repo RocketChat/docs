@@ -8,7 +8,7 @@ The advanced workspace management features of Rocket.Chat offers a range of func
 
 [**Environment Variables**](../rocket.chat-environment-configuration/environment-variables.md): Configure your workspace settings using environment variables.
 
-[**Identity management (EE vs. CE)**](identity-management-ee-vs-ce.md)**:** Learn the differences between community and enterprise editions while using Identity Management Systems.
+[**Identity management (EE vs. CE)**](identity-management-ee-vs-ce.md)**:** Learn the differences between community and enterprise plans while using Identity Management Systems.
 
 [**Notifications**](../../use-rocket.chat/user-guides/notifications.md): Update your workspace notification preferences.
 

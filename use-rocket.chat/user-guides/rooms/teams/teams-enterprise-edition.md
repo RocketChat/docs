@@ -1,8 +1,8 @@
-# Teams Enterprise Edition
+# Teams Enterprise Plan
 
 <figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
-The Enterprise edition brings all functionalities available in Community Edition and additionally the ones listed below:
+The Enterprise plan includes all features in the Community plan, as well as these additional functionalities:
 
 #### Mention teams
 

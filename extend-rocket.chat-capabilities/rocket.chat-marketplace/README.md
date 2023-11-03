@@ -22,7 +22,7 @@ The [Rocket.Chat Marketplace](https://www.rocket.chat/marketplace) provides a re
 * Send messages to users; create and manage public channels, groups, discussions, and threads.
 
 {% hint style="info" %}
-You must register your workspace (even if it is a Community Edition) on [Rocket.Chat Cloud](https://cloud.rocket.chat) before you can install apps from Rocket.Chat marketplace.
+You must register your workspace (even if it is on the community plan) on [Rocket.Chat Cloud](https://cloud.rocket.chat) before you can install apps from Rocket.Chat marketplace.
 {% endhint %}
 
 You can browse Rocket.Chat apps from the [marketplace](https://rocket.chat/marketplace) or access them directly from **Administration > Apps > Marketplace.**
@@ -76,49 +76,49 @@ The app is installed on the workspace and ready to use.
 
 ## App Limitation
 
-### Community Edition
+### Community Plan
 
-Community Edition (CE), workspaces can install numerous Public apps (apps from the marketplace) but enable only five. And they can allow three Private apps. Once it reaches the limit, you can upgrade to the[ Enterprise Edition](./#enterprise-edition) (EE) for access to enable all apps in the workspace.  Refer to the table below for a better understanding.
+Workspaces on the community plan can install numerous Public apps (apps from the marketplace) but enable only five. They can allow only three Private apps. Once it reaches the limit, you can upgrade to the[ Enterprise Plan](./#enterprise-edition) for access to enable all apps in the workspace.  Refer to the table below for a better understanding.
 
-<table><thead><tr><th width="266.3333333333333">Community Edition 6.0</th><th width="199">Public apps</th><th>Private apps</th></tr></thead><tbody><tr><td>Install</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Enable/Use</td><td>5</td><td>3</td></tr></tbody></table>
+<table><thead><tr><th width="266.3333333333333">Community Plan 6.0</th><th width="199">Public apps</th><th>Private apps</th></tr></thead><tbody><tr><td>Install</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Enable/Use</td><td>5</td><td>3</td></tr></tbody></table>
 
 {% hint style="info" %}
 For workspace version`5.4` or lower, you can use all the enabled public and private apps you already have. However, you can not purchase or enable more apps once the limit is reached.&#x20;
 {% endhint %}
 
-### Enterprise Edition
+### Enterprise Plan
 
-Enterprise Edition (EE), workspaces can install all Public and Private apps. But, if the workspace license expires and the workspace has exceeded the limit, the marketplace disables all downloaded apps, and the app count returns to zero.
+Workspaces on the Enterprise plan can install all Public and Private apps. But, if the workspace license expires and the workspace has exceeded the limit, the marketplace disables all downloaded apps, and the app count returns to zero.
 
-## Enterprise Edition App Offerings
+## Enterprise Plan App Offerings
 
-Some apps are part of the **Enterprise Edition** offerings. You don't have to purchase them if you are subscribed to the Enterprise Edition of Rocket.Chat. They include the following:
+Some apps are part of the **Enterprise Plan** offerings. You don't have to purchase them if you are subscribed to the Enterprise Plan of Rocket.Chat. They include the following:
 
-| Name                                                                                                            | EE/CE      | Air-Gapped |
-| --------------------------------------------------------------------------------------------------------------- | ---------- | ---------- |
-| [Bamboo Integration](rocket.chat-public-apps-guides/atlassian/bamboo-integration.md)                            | Enterprise | Yes        |
-| Bitbucket Cloud Integration                                                                                     | Enterprise | No         |
-| [Bitbucket Server Integration](rocket.chat-public-apps-guides/atlassian/bitbucket-server-integration.md)        | Enterprise | Yes        |
-| Confluence Cloud Integration                                                                                    | Enterprise | No         |
-| [Confluence Server Integration](rocket.chat-public-apps-guides/atlassian/confluence-server-integration.md)      | Enterprise | Yes        |
-| [Data Loss Prevention](rocket.chat-public-apps-guides/data-loss-prevention-dlp-app.md)                          | Enterprise | Yes        |
-| [Facebook Messanger](rocket.chat-public-apps-guides/omnichannel-apps/facebook-app/)                             | Enterprise | No         |
-| [Google Calendar](rocket.chat-public-apps-guides/google-calendar/)                                              | Enterprise | No         |
-| [Google Drive](rocket.chat-public-apps-guides/google-drive/)                                                    | Enterprise | No         |
-| [Google Meet](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/google-meet-app.md) | Enterprise | No         |
-| [Instagram](rocket.chat-public-apps-guides/omnichannel-apps/instagram-direct/)                                  | Enterprise | No         |
-| JIRA Cloud Integration                                                                                          | Enterprise | No         |
-| [JIRA Server Integration](rocket.chat-public-apps-guides/atlassian/jira-server-v2.0.md)                         | Enterprise | Yes        |
-| [Pexip](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)             | Enterprise | Yes        |
-| [Telegram](rocket.chat-public-apps-guides/omnichannel-apps/telegram-app/)                                       | Enterprise | No         |
-| [Trello](rocket.chat-public-apps-guides/trello.md)                                                              | Enterprise | No         |
-| [Twitter](broken-reference)                                                                                     | Enterprise | No         |
-| [WhatsApp](rocket.chat-public-apps-guides/omnichannel-apps/whatsapp/)                                           | Paid       | No         |
-| [Whatsapp Cloud](rocket.chat-public-apps-guides/omnichannel-apps/whatsapp-cloud-app/)                           | Enterprise | No         |
-| [Zoom](rocket.chat-public-apps-guides/zoom.md)                                                                  | Enterprise | No         |
+| Name                                                                                                            | Enterprise/Community | Air-Gapped |
+| --------------------------------------------------------------------------------------------------------------- | -------------------- | ---------- |
+| [Bamboo Integration](rocket.chat-public-apps-guides/atlassian/bamboo-integration.md)                            | Enterprise           | Yes        |
+| Bitbucket Cloud Integration                                                                                     | Enterprise           | No         |
+| [Bitbucket Server Integration](rocket.chat-public-apps-guides/atlassian/bitbucket-server-integration.md)        | Enterprise           | Yes        |
+| Confluence Cloud Integration                                                                                    | Enterprise           | No         |
+| [Confluence Server Integration](rocket.chat-public-apps-guides/atlassian/confluence-server-integration.md)      | Enterprise           | Yes        |
+| [Data Loss Prevention](rocket.chat-public-apps-guides/data-loss-prevention-dlp-app.md)                          | Enterprise           | Yes        |
+| [Facebook Messanger](rocket.chat-public-apps-guides/omnichannel-apps/facebook-app/)                             | Enterprise           | No         |
+| [Google Calendar](rocket.chat-public-apps-guides/google-calendar/)                                              | Enterprise           | No         |
+| [Google Drive](rocket.chat-public-apps-guides/google-drive/)                                                    | Enterprise           | No         |
+| [Google Meet](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/google-meet-app.md) | Enterprise           | No         |
+| [Instagram](rocket.chat-public-apps-guides/omnichannel-apps/instagram-direct/)                                  | Enterprise           | No         |
+| JIRA Cloud Integration                                                                                          | Enterprise           | No         |
+| [JIRA Server Integration](rocket.chat-public-apps-guides/atlassian/jira-server-v2.0.md)                         | Enterprise           | Yes        |
+| [Pexip](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)             | Enterprise           | Yes        |
+| [Telegram](rocket.chat-public-apps-guides/omnichannel-apps/telegram-app/)                                       | Enterprise           | No         |
+| [Trello](rocket.chat-public-apps-guides/trello.md)                                                              | Enterprise           | No         |
+| [Twitter](broken-reference)                                                                                     | Enterprise           | No         |
+| [WhatsApp](rocket.chat-public-apps-guides/omnichannel-apps/whatsapp/)                                           | Paid                 | No         |
+| [Whatsapp Cloud](rocket.chat-public-apps-guides/omnichannel-apps/whatsapp-cloud-app/)                           | Enterprise           | No         |
+| [Zoom](rocket.chat-public-apps-guides/zoom.md)                                                                  | Enterprise           | No         |
 
 {% hint style="success" %}
-If you are subscribed to Rocket.Chat's **Enterprise Edition**, you can install and enable any number of paid and free apps available in the marketplace on your workspace.
+If you are subscribed to Rocket.Chat's **Enterprise Plan**, you can install and enable any number of paid and free apps available in the marketplace on your workspace.
 {% endhint %}
 
 If you are looking for the manual/user guide of a particular app, check [rocket.chat-public-apps-guides](rocket.chat-public-apps-guides/ "mention") or search for it within the documentation.

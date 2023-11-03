@@ -10,7 +10,7 @@ To configure **LDAP** authentication,&#x20;
 [Rocket.Chat](http://rocket.chat) supports a variety of **LDAP** capabilities and associated identity management features. For example, you can import users from an active directory into your workspace.&#x20;
 
 {% hint style="info" %}
-The LDAP features supported by community and enterprise editions are detailed in [Identity Management](../../../../setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md).
+The LDAP features supported by community and enterprise plans are detailed in [Identity Management](../../../../setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md).
 {% endhint %}
 
 ## LDAP Actions
@@ -18,7 +18,7 @@ The LDAP features supported by community and enterprise editions are detailed in
 These actions are found at the top of the LDAP settings screen.
 
 {% hint style="info" %}
-All these actions, except "**LDAP Documentation"** are exclusive to enterprise edition workspaces.&#x20;
+All these actions, except "**LDAP Documentation"** are exclusive to workspaces on the enterprise plan.
 {% endhint %}
 
 * **Test Connection**: This will use your provided values and test for a connection. It will test the authentication and encryption but not the syncing settings.
@@ -27,7 +27,7 @@ All these actions, except "**LDAP Documentation"** are exclusive to enterprise e
 * **LDAP Documentation**: This will redirect you to the [Rocket.Chat LDAP Documentation](./).
 
 {% hint style="info" %}
-If you dont get a response alert for these actions, always check the logs **Administration > Workspace > View Logs** to confirm if they were succesful or there is an error.
+If you don't get a response alert for these actions, always check the logs **Administration > Workspace > View Logs** to confirm if they were succesful or there is an error.
 {% endhint %}
 
 {% content-ref url="ldap-connection-setting.md" %}

@@ -2,11 +2,11 @@
 
 <details>
 
-<summary>What exactly will be implemented on Enterprise Edition (EE) only? When will this be effective?</summary>
+<summary>What exactly will be implemented on Enterprise Plan only? When will this be effective?</summary>
 
-Rocket.Chat launched a re-factored set of advanced LDAP features on September 28, 2021. The ability to connect to your LDAP server to sync user names and unique identifiers will remain in the Community Edition with existing social login features.
+Rocket.Chat launched a re-factored set of advanced LDAP features on September 28, 2021. The ability to connect to your LDAP server to sync user names and unique identifiers will remain in the Community plan with existing social login features.
 
-&#x20;Selected advanced LDAP features, including extended user attribute sync, group/team management, background sync, and SAML integration, will be implemented only in the Enterprise edition. This change will enable Rocket.Chat to support ongoing improvements to our suite of identity management solutions while continuing to make our primary LDAP directory synchronization codebase available for use and extension by the Rocket.Chat community.
+Selected advanced LDAP features, including extended user attribute sync, group/team management, background sync, and SAML integration, will be implemented only in the Enterprise plan. This change will enable Rocket.Chat to support ongoing improvements to our suite of identity management solutions while continuing to make our primary LDAP directory synchronization codebase available for use and extension by the Rocket.Chat community.
 
 To learn more, visit [identity-management-ee-vs-ce.md](../../setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md "mention").
 
@@ -44,7 +44,7 @@ Integrating with your organization’s user directory service is essential for a
 
 <summary>What will community users not be able to do anymore? Examples.</summary>
 
-Community users can connect an LDAP service used by their organization to and sync user email, name, and username; use the fallback option and encrypted settings. Basic SAML sync options and Oauth for all providers (Apple, Dolphin, Drupal, Facebook, GitHub, GitHub, Enterprise, GitLab, Google, Linkedin, Meteor, Nextcloud, Tokenpass, Twitter, and WordPress) will continue available in Community Edition.
+Community users can connect an LDAP service used by their organization to and sync user email, name, and username; use the fallback option and encrypted settings. Basic SAML sync options and Oauth for all providers (Apple, Dolphin, Drupal, Facebook, GitHub, GitHub, Enterprise, GitLab, Google, Linkedin, Meteor, Nextcloud, Tokenpass, Twitter, and WordPress) will continue available in Community plan.
 
 \
 [View full functionalities](../../setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md)
@@ -71,7 +71,7 @@ We are rewriting the LDAP feature to TypeScript and making improvements on top o
 
 <summary>How will this affect my air-gapped (no internet connection) environment? Can’t we just pull from our intranet easily anyway?</summary>
 
-If the Rocket.Chat server is air-gapped but integrated with an internal LDAP server, so you must apply for an enterprise edition license to access the complete suite of advanced LDAP/SAML/Oauth features when you upgrade.
+If the Rocket.Chat server is air-gapped but integrated with an internal LDAP server, so you must [apply for an enterprise plan license](../../setup-and-configure/enterprise-license-application.md) to access the complete suite of advanced LDAP/SAML/Oauth features when you upgrade.
 
 </details>
 

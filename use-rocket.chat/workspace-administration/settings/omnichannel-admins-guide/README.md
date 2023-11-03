@@ -86,7 +86,7 @@ See how to [install the Live Chat widget](../../../omnichannel/livechat-widget-i
 * **Business Hour Type (Single or Multiple)**: Set the type of business hour. Community workspaces can only set a single business hour.
 
 {% hint style="warning" %}
-The multiple business hour feature is only available on enterprise edition workspaces.
+The multiple business hour feature is only available for workspaces on the enterprise plan.
 {% endhint %}
 
 {% hint style="info" %}

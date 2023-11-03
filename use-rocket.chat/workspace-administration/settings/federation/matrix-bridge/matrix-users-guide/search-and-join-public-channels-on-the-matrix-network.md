@@ -3,7 +3,7 @@
 You can easily search for and join public channels on the Matrix network from your workspace. This feature expands your ability to collaborate and communicate securely with users from different nodes. Exploring and joining federated rooms connects you with a diverse network, encouraging meaningful engagement and knowledge sharing.
 
 {% hint style="info" %}
-The global search for federated public channels is available on **enterprise edition workspaces** from version `6.3`.
+The global search for federated public channels is available to workspaces on the enterprise plan from version `6.3`.
 {% endhint %}
 
 ## Prerequisites

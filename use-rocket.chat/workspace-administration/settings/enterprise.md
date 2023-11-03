@@ -4,7 +4,7 @@ description: Manually update your Enterprise license
 
 # Enterprise
 
-Use this setting to update your enterprise license manually. See [enterprise-plan-trial.md](../../../setup-and-configure/enterprise-plan-trial.md "mention")to get a trial period.
+Use this setting to update your enterprise license manually. See [enterprise-plan-trial.md](../../../setup-and-configure/enterprise-plan-trial.md "mention") to get a trial period.
 
 {% hint style="info" %}
 If your workspace is registered and the license is provided by Rocket.Chat Cloud, you don't need to update the license here manually.

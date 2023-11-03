@@ -8,7 +8,7 @@ Set up **Authentication**, **Timeouts**, and **Encryption** for your LDAP connec
 * **Port**: The LDAP connection Port, usually `389` or `636.`
 
 {% hint style="info" %}
-**Reconnect** and **Login Fallback** are available only on enterprise edition workspaces.
+**Reconnect** and **Login Fallback** are available only to workspaces on the enterprise plan.
 {% endhint %}
 
 * **Reconnect**: Enable to try reconnecting automatically when the connection is interrupted for some reason while executing operations.

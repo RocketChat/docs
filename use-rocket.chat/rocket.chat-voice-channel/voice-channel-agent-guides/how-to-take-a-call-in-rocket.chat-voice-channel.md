@@ -22,18 +22,20 @@ You have controls to mute/unmute calls.
 
 ### Hold/Unhold![](<../../../.gitbook/assets/image (742).png>)
 
-If you're using Rocket.Chat's enterprise edition you can hold and unhold acording to your workflow needs.
+If your workspace is on the Rocket.Chat's enterprise plan, you can hold and unhold calls according to your workflow needs.
 
 ![Hold/Unhold](<../../../.gitbook/assets/image (546).png>)
 
 ### Device Settings![](<../../../.gitbook/assets/image (742).png>)
 
-Enterprise edition also offers you the flexibilty to switch device during an ongoing call.![](<../../../.gitbook/assets/image (1229).png>)
+Enterprise plan also offers you the flexibility to switch devices during an ongoing call.
+
+![](<../../../.gitbook/assets/image (1229).png>)
 
 ![Device settings](<../../../.gitbook/assets/image (1276).png>)
 
 ### Call Wrap-up![](<../../../.gitbook/assets/image (742).png>)
 
-After the call ends you can leave your notes in the call wrap-up. It is an enterprise-only feature.
+After the call ends you can leave your notes in the call wrap-up. It is only available on the enterprise plan.
 
 ![Call wrap-up](<../../../.gitbook/assets/image (171).png>)

@@ -2,7 +2,7 @@
 
 <figure><img src="../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
-If you are using the Enterprise edition, the Secured Push Notification sends the ID of the message rather than the entire message through a push gateway (Apple or Google). Once the ID reaches the user’s device, the message is retrieved from Rocket.Chat server and the notification is created.
+If you are on the Enterprise plan, the Secured Push Notification sends the ID of the message rather than the entire message through a push gateway (Apple or Google). Once the ID reaches the user’s device, the message is retrieved from Rocket.Chat server and the notification is created.
 
 {% hint style="info" %}
 This process works for both situations if the user uses Rocket.Chat’s push gateway or his own.

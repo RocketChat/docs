@@ -47,7 +47,7 @@
 
 ## Sync Roles <a href="#y262hx6p5o9" id="y262hx6p5o9"></a>
 
-* **Sync LDAP Groups**: Enable this setting to activate role mapping from user groups on the community edition of Rocket.Chat.
+* **Sync LDAP Groups**: Enable this setting to activate role mapping from user groups on your workspace.
 * **Auto Remove User Roles**: Enable this setting to automatically remove roles from LDAP users that don't have the corresponding group. This will only remove roles automatically that are set under the user data group map below.
 * **User Group Filter**: The LDAP search filter checks if a user is in a group. If the search returns any results, the user is considered to be in the group. When performing the search, the following strings, if present in the filter, will be substituted with data from the user and group whose membership status is being checked:
   * `#{username}` - Replaced with the username of the user in RocketChat

@@ -23,7 +23,7 @@ Community support is voluntary, so patience is appreciated. If you believe you'v
 
 If you're still facing issues:
 
-1. Consider Rocket.Chat's [Enterprise Edition](https://rocket.chat/enterprise) for professional support.
+1. Consider Rocket.Chat's Premium plans for professional support.
 2. Seek community help with respect and patience. Avoid spamming or being rude.
 
 Lastly, always refer to the documentation and ensure you've gone through it thoroughly before opening an issue.\

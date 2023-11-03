@@ -75,7 +75,7 @@ When registering your workspace, Rocket.Chat collects the following information 
 </details>
 
 {% hint style="success" %}
-Your workspace is ready for use, and you can apply for an [Enterprise Edition trial](../enterprise-plan-trial.md) to test out all the features that come with an enterprise workspace.
+Your workspace is ready for use, and you can apply for an [Enterprise Plan trial](../enterprise-plan-trial.md) to test out all the features that come with an enterprise workspace.
 {% endhint %}
 
 With your Rocket.Chat workspace setup completed, you can [invite users](inviting-users.md) to collaborate with. Learn more about how to use Rocket.Chat following the [user-guides](../../use-rocket.chat/user-guides/ "mention").

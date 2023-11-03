@@ -18,7 +18,7 @@ To create a new Omnichannel department:
 * Fill in the required [information](departments.md#omnichannel-department-information) and click **Save.**
 
 {% hint style="info" %}
-From community edition workspaces on version `6.0` and above, you can only create one department. To create multiple departments, you are required to upgrade to the [enterprise edition ](../../setup-and-configure/enterprise-plan-trial.md)of Rocket.Chat. For workspaces with multiple departments on previous versions of Rocket.Chat, you can continue with those departments but can't create a new one until you upgrade to Enterprise.
+Workspaces on the community plan from version `6.0` and above can only create one department. To create multiple departments, you are required to upgrade to the Rocket.Chat [enterprise plan](../../setup-and-configure/enterprise-plan-trial.md). For workspaces with multiple departments on previous versions of Rocket.Chat, you can continue with those departments but can't create a new one until you upgrade to Enterprise.
 {% endhint %}
 
 ### Omnichannel Department Information
@@ -51,7 +51,7 @@ Depending on how many departments you've created, you might have the following b
 When an Omnichannel department is no longer needed, but you don't want to delete it just yet, you can archive it. You can also unarchive it later if you discover a need for it.
 
 {% hint style="info" %}
-For community edition workspaces below version `6.0` with multiple departments, archiving departments can be instrumental if you want to avoid getting an enterprise license. Instead of deleting a department when you no longer need it, you can archive it. When you need that department later, you can unarchive it. This gives community edition workspaces below version `6.0` the ability to retain the same number of departments they had before the upgrade.
+For community workspaces below version `6.0` with multiple departments, archiving departments can be instrumental if you want to avoid getting an enterprise license. Instead of deleting a department when you no longer need it, you can archive it. When you need that department later, you can unarchive it. This gives community workspaces below version `6.0` the ability to retain the same number of departments they had before the upgrade.
 {% endhint %}
 
 To archive an **Omnichannel** department,

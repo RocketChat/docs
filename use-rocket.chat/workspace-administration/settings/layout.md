@@ -82,7 +82,7 @@ The section allows you to change the content of your workspace homepage.
 * **Show custom content only**: Turn this on to onhide all other white blocks in the homepage.
 
 {% hint style="info" %}
-The **Show custom content to homepage** and **Show custom content only** settings are only available in enterprise edition workspaces.
+The **Show custom content to homepage** and **Show custom content only** settings are only to workspaces on the enterprise plan.
 {% endhint %}
 
 * **Terms of Service:** Here, you can set the terms of service of your workspace. You can also redirect to YOUR-SERVER-URL/terms-of-service. This is shown by default on the links below your login page.
@@ -96,7 +96,7 @@ The **Show custom content to homepage** and **Show custom content only** setting
 Customize your login page.
 
 {% hint style="info" %}
-All the login settings except "**Show Default Login Form"** are only available on enterprise edition workspaces.
+All the login settings except "**Show Default Login Form"** are only available to workspaces on the enterprise plan.
 {% endhint %}
 
 * **Hide Logo**: Enable this to hide the Rocket.Chat.
