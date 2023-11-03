@@ -369,6 +369,8 @@
         * [HubSpot CRM Agent's Guide](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/hubspot-crm/hubspot-crm-agents-guide.md)
       * [Dialogflow App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/dialogflow-app/README.md)
         * [Upload File To Ongoing Dialogflow Chats](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/dialogflow-app/dialogflow-app-configuration/upload-file-to-ongoing-dialogflow-chats.md)
+      * [Twitter App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/twitter-app/README.md)
+        * [Twitter App Agent's Guide](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/twitter-app/twitter-app-agents-guide.md)
       * [Facebook App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/facebook-app/README.md)
         * [Facebook App Agent's Guide](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/facebook-app/facebook-app-agents-guide.md)
       * [WhatsApp](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/whatsapp/README.md)
