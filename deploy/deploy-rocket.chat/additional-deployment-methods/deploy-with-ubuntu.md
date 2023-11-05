@@ -1,16 +1,6 @@
 # Deploy with Ubuntu
 
-{% hint style="success" %}
-Our latest version introduces new features, enhancements, and important security fixes. Workspaces running versions outside our support window will not have access to cloud services, official mobile and desktop apps.&#x20;
-
-[Update to the latest version now](https://docs.rocket.chat/deploy/deploy-rocket.chat/updating-rocket.chat)!&#x20;
-{% endhint %}
-
 ## Preparation Steps
-
-{% hint style="success" %}
-To ensure the best performance and stability, it is advisable to install your workspace on an Ubuntu version with Long-Term Support (LTS).
-{% endhint %}
 
 Depending on the version of [Rocket.Chat](https://rocket.chat/) you want to install, check the [release notes](https://github.com/RocketChat/Rocket.Chat/releases) to see the supported engine versions for MongoDB and NodeJs, and install as recommended.&#x20;
 
