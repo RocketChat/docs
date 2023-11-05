@@ -7,7 +7,7 @@ description: Atlassian Bitbucket Server Integration
 <figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Due to Atlassian's decision to deprecate its server products, the Bitbucket server app is no longer supported in the latest versions of Rocket.Chat and will be deprecated.
+Due to Atlassian's decision to deprecate its server products, the Bitbucket server app is no longer supported in the latest versions of Rocket.Chat and will be ![](<../../../../.gitbook/assets/Deprecated (1).png>)
 {% endhint %}
 
 ## Install Bitbucket Server App

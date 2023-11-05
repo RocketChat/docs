@@ -4,6 +4,12 @@ description: Omnichannel Integration between Rocket.Chat and Twitter.
 
 # Twitter App
 
+![](<../../../../../.gitbook/assets/Deprecated (1).png>)
+
+{% hint style="warning" %}
+Please be aware that the current Twitter integration facilitated by Rocket.Chat Twitter app has been ![](<../../../../../.gitbook/assets/Deprecated (1).png>). This change follows unilateral amendments to the terms and conditions by Company X (formerly known as Twitter), which has impacted the ability to manage Twitter customer messages directly within Rocket.Chat. Our team is diligently investigating alternative solutions to re-establish this integration. We will provide updates and documentation on a new app designed to deliver an enhanced integration experience as soon as a resolution is found.
+{% endhint %}
+
 It is a paid subscription that costs you $25 monthly.
 
 ![](<../../../../../.gitbook/assets/image (459) (1) (1) (1) (1) (1).png>)

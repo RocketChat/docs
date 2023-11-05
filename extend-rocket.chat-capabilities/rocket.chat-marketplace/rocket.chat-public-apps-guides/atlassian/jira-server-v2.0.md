@@ -7,7 +7,7 @@ description: How to install and configure your Jira Server integration with Rock
 <figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Due to Atlassian's decision to deprecate its server products, the Jira server v2.0 app is no longer supported in the latest versions of Rocket.Chat and will be deprecated.
+Due to Atlassian's decision to deprecate its server products, the Jira server v2.0 app is no longer supported in the latest versions of Rocket.Chat and will be ![](<../../../../.gitbook/assets/Deprecated (1).png>)
 {% endhint %}
 
 ## Features

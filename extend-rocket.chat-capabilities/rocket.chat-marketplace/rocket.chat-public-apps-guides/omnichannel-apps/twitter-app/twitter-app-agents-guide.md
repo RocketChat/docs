@@ -1,5 +1,7 @@
 # Twitter App Agent's Guide
 
+![](<../../../../../.gitbook/assets/Deprecated (1).png>)
+
 If you set up Twitter app integration and a user sends you a message on your Twitter business page,
 
 * It appears in your Rocket.Chat workspace, just like any other Omnichannel conversation available for an [agent ](../../../../../use-rocket.chat/omnichannel/agents.md)to take it.
