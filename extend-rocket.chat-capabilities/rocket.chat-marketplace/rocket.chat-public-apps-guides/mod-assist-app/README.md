@@ -6,10 +6,6 @@ Content moderation is vital for maintaining a safe, inclusive digital workspace.
 
 The Mod Assist app automates this process, offering an efficient, scalable solution for content moderation. It enhances digital workspace security by automating key moderation tasks. It detects harmful content based on predefined rules, flags and reports these messages for moderator review, and enriches reports with contextual details like sender information, room location, and timestamps. This streamlines the moderation process and provides comprehensive data for informed decision-making.
 
-{% hint style="info" %}
-The Mod Assist app is available for all our premium plans.&#x20;
-{% endhint %}
-
 {% hint style="warning" %}
 The app will only be available to workspaces **running version 6.3.0 and higher.**&#x20;
 {% endhint %}
