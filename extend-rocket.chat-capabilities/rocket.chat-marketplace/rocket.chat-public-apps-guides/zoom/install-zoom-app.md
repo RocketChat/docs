@@ -3,7 +3,7 @@
 {% hint style="danger" %}
 **Prerequisites for Integration**
 
-* Users **must** have matching email accounts on both Rocket.Chat and Zoom to enable meeting creation.
+* Users **must** have same email accounts on both Rocket.Chat and Zoom to enable meeting creation.
 * A Server-to-Server OAuth app **must be created** on the Zoom Marketplace prior to integration.
 {% endhint %}
 
