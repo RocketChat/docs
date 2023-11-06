@@ -1,9 +1,9 @@
 # Install Zoom App
 
-## Prerequisites
+## **Prerequisites for Integration**
 
-* A Zoom account within the App Marketplace for other users to create Zoom links. These users are added to your Zoom account, and their emails must be the same on Rocket.Chat and Zoom.
-* A Server-to-Server OAuth app created at Zoom Marketplace.&#x20;
+* Users **must** have matching email accounts on both Rocket.Chat and Zoom to enable meeting creation.
+* A Server-to-Server OAuth app **must be created** on the Zoom Marketplace prior to integration.
 
 ## Create Server-to-Server OAuth App at Zoom Marketplace
 
@@ -24,10 +24,6 @@ To create a new Server-to-Server OAuth app from the Zoom marketplace, follow the
 * After adding this scope, continue to the last step for **Activation**. Your app will now be ready for activation. Once activated, your app will be allowed to invoke the selected Zoom APIs.&#x20;
 * Once you have created the server-to-server OAuth app at Zoom marketplace, visit the Rocket.Chat marketplace within your workspace to install the Zoom app.&#x20;
 
-{% hint style="danger" %}
-**Note:** You cannot participate in two or more meetings simultaneously. The generated token will be utilized for creating Zoom meetings in which the administrator serves as the meeting host. Since each user in the workspace will have the ability to create Zoom meetings on behalf of the administrator, the administrator cannot simultaneously host more than one meeting.
-{% endhint %}
-
 ## Install Zoom App within Rocket.Chat
 
 To install the Zoom app,
@@ -37,7 +33,7 @@ To install the Zoom app,
 3. Click **Install** and accept the **needed permissions** to install.&#x20;
 
 {% hint style="warning" %}
-**Note to existing Zoom app users:** Please be aware that on September 8, 2023, Zoom will be deprecating its JWT authentication method. After September 8, 2023, all JWT applications will be deactivated, and integrations will no longer be able to interact using the JWT app type. You must install the most recent version of the Zoom app to continue using this app. Refer to [Zoom’s announcement](https://developers.zoom.us/docs/internal-apps/jwt-faq/) for more information on the deprecation.&#x20;
+As of September 8, 2023, Zoom has deprecated its JWT authentication method. All JWT applications have been deactivated, and integrations using the JWT app type are no longer functional. You must install the latest version of the Zoom app to maintain functionality. For details on the deprecation, please consult [Zoom's official announcement.](https://developers.zoom.us/docs/internal-apps/jwt-faq/)
 {% endhint %}
 
 To update the app,&#x20;
