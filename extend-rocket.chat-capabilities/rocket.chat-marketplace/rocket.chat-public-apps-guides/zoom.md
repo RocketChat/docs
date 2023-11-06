@@ -10,10 +10,6 @@ Zoom integration with Rocket.Chat allows users to create and join virtual meetin
 
 The Zoom app integration in Rocket.Chat enables users to manage meetings—including initiation, scheduling, joining, recording, and sharing—directly within a channel. It also allows for participant and duration tracking, automated or custom reminders for upcoming meetings, and seamless recognition of Zoom URLs pasted into channels, eliminating the need to switch between applications.
 
-{% hint style="warning" %}
-As of September 8, 2023, Zoom has deprecated its JWT authentication method. All JWT applications have been deactivated, and integrations using the JWT app type are no longer functional. You must install the latest version of the Zoom app to maintain functionality. For details on the deprecation, please consult [Zoom's official announcement.](https://developers.zoom.us/docs/internal-apps/jwt-faq/)
-{% endhint %}
-
 {% hint style="info" %}
 The new Zoom app version 2.3.0 now supports multi-meeting capabilities and can be set as the default video-conferencing provider. Ensure you are using Rocket.Chat v6.3.0 or higher to utilize these features.
 {% endhint %}

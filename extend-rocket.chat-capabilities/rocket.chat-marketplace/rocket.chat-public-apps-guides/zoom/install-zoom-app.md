@@ -1,9 +1,11 @@
 # Install Zoom App
 
-## **Prerequisites for Integration**
+{% hint style="danger" %}
+**Prerequisites for Integration**
 
 * Users **must** have matching email accounts on both Rocket.Chat and Zoom to enable meeting creation.
 * A Server-to-Server OAuth app **must be created** on the Zoom Marketplace prior to integration.
+{% endhint %}
 
 ## Create Server-to-Server OAuth App at Zoom Marketplace
 
@@ -14,14 +16,14 @@ To create a new Server-to-Server OAuth app from the Zoom marketplace, follow the
 * From the available list of app types, choose **Server-to-Server OAuth** and click **Create**.
 * Enter a name for the app and click **Create.**
 * Under the **App Credentials** section, copy the app's **Account ID**, **Client ID,** and **Client Secret**.&#x20;
-* Once you have copied this, provide the **basic information** of your app such as the name, description, and company name. This will show on the app listing card.
-* Also, provide the **developer contact information**. Provide your corporate email for announcements including new Marketplace/API updates, breaking changes, and other updates that impact your app.
+* Once you have copied this, provide the **basic information** of your app, such as the name, description, and company name. This will show on the app listing card.
+* Also, provide the **developer's contact information**. Provide your corporate email for announcements, including new Marketplace/API updates, breaking changes, and other updates that impact your app.
 * Define the **features** of your app and head to the **Scopes** section.&#x20;
 * Click on **Add Scopes** button and add this scope: \
   \
   **View and manage all user meetings** **`/meeting:write:admin`**\
 
-* After adding this scope, continue to the last step for **Activation**. Your app will now be ready for activation. Once activated, your app will be allowed to invoke the selected Zoom APIs.&#x20;
+* After adding this scope, continue to the last step for **Activation**. Your app will now be ready for activation. Once activated, your app can invoke the selected Zoom APIs.&#x20;
 * Once you have created the server-to-server OAuth app at Zoom marketplace, visit the Rocket.Chat marketplace within your workspace to install the Zoom app.&#x20;
 
 ## Install Zoom App within Rocket.Chat
@@ -31,10 +33,6 @@ To install the Zoom app,
 1. Go to **Administration** > **Marketplace**.
 2. Search for the **Zoom** app and click on the item.&#x20;
 3. Click **Install** and accept the **needed permissions** to install.&#x20;
-
-{% hint style="warning" %}
-As of September 8, 2023, Zoom has deprecated its JWT authentication method. All JWT applications have been deactivated, and integrations using the JWT app type are no longer functional. You must install the latest version of the Zoom app to maintain functionality. For details on the deprecation, please consult [Zoom's official announcement.](https://developers.zoom.us/docs/internal-apps/jwt-faq/)
-{% endhint %}
 
 To update the app,&#x20;
 
