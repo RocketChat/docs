@@ -1,9 +1,11 @@
 # Installing Client Apps
 
 {% hint style="success" %}
-Our latest version introduces new features, enhancements, and important security fixes. Workspaces running versions outside our support window will not have access to cloud services, official mobile and desktop apps.&#x20;
+Deprecation for cloud services and apps is now extended to November 20, 2023. Rocket.Chat versions will receive support for 6 months after release.
 
-[Update to the latest version now](https://docs.rocket.chat/deploy/deploy-rocket.chat/updating-rocket.chat)!&#x20;
+⚠️ Attend our community call on November 9th for details and upgrade guidance. Shape the agenda by submitting questions upon registration.
+
+🔗 [Register for the Community Open Call](https://app.livestorm.co/rocket-chat/community-open-call-1?type=detailed)
 {% endhint %}
 
 Congratulations on successfully deploying the Rocket.Chat server! You've taken a significant step towards creating a robust and secure communication environment. The next crucial phase is to install the Rocket.Chat client applications on your preferred devices, and this guide is designed to help you achieve just that.

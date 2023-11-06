@@ -1,7 +1,11 @@
 # Deploy with Snaps
 
 {% hint style="success" %}
-**Rocket.Chat 6.0** is our most secure and scalable version yet. It includes 10 security patches, 9 brand-new features, and 25+ overall platform enhancements. Visit our [website](https://www.rocket.chat/six) to learn more about what’s new in this latest version. [Update now](https://docs.rocket.chat/deploy/updating-rocket.chat)!
+Deprecation for cloud services and apps is now extended to November 20, 2023. Rocket.Chat versions will receive support for 6 months after release.
+
+⚠️ Attend our community call on November 9th for details and upgrade guidance. Shape the agenda by submitting questions upon registration.
+
+🔗 [Register for the Community Open Call](https://app.livestorm.co/rocket-chat/community-open-call-1?type=detailed)
 {% endhint %}
 
 {% hint style="info" %}

@@ -1,9 +1,11 @@
 # Deploy with Docker & Docker Compose
 
 {% hint style="success" %}
-Our latest version introduces new features, enhancements, and important security fixes. Workspaces running versions outside our support window will not have access to cloud services, official mobile and desktop apps.&#x20;
+Deprecation for cloud services and apps is now extended to November 20, 2023. Rocket.Chat versions will receive support for 6 months after release.
 
-[Update to the latest version now](https://docs.rocket.chat/deploy/deploy-rocket.chat/updating-rocket.chat)!&#x20;
+⚠️ Attend our community call on November 9th for details and upgrade guidance. Shape the agenda by submitting questions upon registration.
+
+🔗 [Register for the Community Open Call](https://app.livestorm.co/rocket-chat/community-open-call-1?type=detailed)
 {% endhint %}
 
 Deploying Rocket.Chat with Docker and Docker Compose is a straightforward and highly recommended deployment method due to its simplicity and flexibility. This guide will walk you through the essential steps, whether you're a seasoned Docker expert or new to containerization, ensuring a smooth deployment for your Rocket.Chat workspace.

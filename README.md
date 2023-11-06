@@ -5,9 +5,11 @@ Every day, we rely on communication platforms for collaboration with colleagues,
 Rocket.Chat, a secure and customizable open-source platform, is designed for organizations with stringent data protection standards. It seamlessly integrates real-time conversations across web, desktop, and mobile devices, connecting colleagues, businesses, and customers. With its ability to integrate multiple channels such as Live Chat, email, and social media, it provides a unified customer view, enhancing efficiency. Our mobile app, available for Android and iOS, further empowers you to engage in conversations, respond to messages, and collaborate effectively. Choose the deployment method that suits you best: self-hosted on your server or via our SaaS offering. For our premium plans, we offer dedicated support and professional services.
 
 {% hint style="success" %}
-Our latest version introduces new features, enhancements, and important security fixes. Workspaces running versions outside our support window will not have access to cloud services, official mobile and desktop apps.&#x20;
+Deprecation for cloud services and apps is now extended to November 20, 2023. Rocket.Chat versions will receive support for 6 months after release.
 
-[Update to the latest version now](https://docs.rocket.chat/deploy/deploy-rocket.chat/updating-rocket.chat)!&#x20;
+⚠️ Attend our community call on November 9th for details and upgrade guidance. Shape the agenda by submitting questions upon registration.
+
+🔗 [Register for the Community Open Call](https://app.livestorm.co/rocket-chat/community-open-call-1?type=detailed)
 {% endhint %}
 
 ## Product Offerings

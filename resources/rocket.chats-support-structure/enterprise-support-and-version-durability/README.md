@@ -10,8 +10,12 @@ This document provides comprehensive information about Rocket.Chat's support str
 
 Each release of Rocket.Chat comes with a support period lasting six months from its release date. Once this period expires, hosted services such as the Push Gateway and Marketplace will cease to function for that particular version. During the support window, Rocket.Chat focuses on delivering security patches and responding to support queries concerning configuration and usage for the versions specified. Any bugs that are not security-related will be addressed solely in future releases.
 
-{% hint style="warning" %}
-For versions of [Rocket.Chat](https://rocket.chat/) that are no longer supported, we are extending the support window enforcement date from October 1, 2023 to **November 20, 2023**. Please **update your workspace to at least v.6.3.0 before November 20** for continued access to cloud services (marketplace apps, push notification, and omnichannel gateway), mobile and desktop applications.
+{% hint style="success" %}
+Deprecation for cloud services and apps is now extended to November 20, 2023. Rocket.Chat versions will receive support for six months after release.
+
+⚠️ Attend our community call on November 9th for details and upgrade guidance. Shape the agenda by submitting questions upon registration.
+
+🔗 [Register for the Community Open Call](https://app.livestorm.co/rocket-chat/community-open-call-1?type=detailed)
 {% endhint %}
 
 ### Requirements for Official Support

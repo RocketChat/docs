@@ -113,7 +113,7 @@
       * [Edit a Team](use-rocket.chat/user-guides/rooms/teams/edit-a-team.md)
       * [Manage Team Members](use-rocket.chat/user-guides/rooms/teams/manage-team-members.md)
       * [Manage Team Channels](use-rocket.chat/user-guides/rooms/teams/manage-team-channels.md)
-      * [Teams Enterprise Plan](use-rocket.chat/user-guides/rooms/teams/teams-enterprise-edition.md)
+      * [Teams Enterprise Plan](use-rocket.chat/user-guides/rooms/teams/teams-enterprise-plan.md)
     * [Discussions](use-rocket.chat/user-guides/rooms/discussions/README.md)
       * [Create a new Discussion](use-rocket.chat/user-guides/rooms/discussions/create-a-new-discussion.md)
       * [Edit A Discussion](use-rocket.chat/user-guides/rooms/discussions/edit-a-discussion.md)
