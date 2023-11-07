@@ -7,31 +7,23 @@ description: Your conversational search engine within Rocket.Chat
 <figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-The ChatGPT app is currently in Beta and some features may not function as expected.
+* The ChatGPT app is currently in Beta, and some features may not function as expected.
+* ChatGPT app will only be available to workspaces running **version 6.3.0 and higher**.
 {% endhint %}
 
-The ChatGPT App integration in Rocket.Chat  is an AI-powered chatbot designed to facilitate natural and intelligent text-based interactions, offering significant value for organizational collaboration. It excels in generating high-quality content for websites, code assistance for developers, and summarizing market research reports for valuable insights. Additionally, it facilitates seamless multilingual communication through real-time translation services. This versatility makes the ChatGPT app an invaluable tool for various business communication needs.
+The Rocket.Chat ChatGPT integration is an AI chatbot that enhances text-based communication within organizations. It supports content creation, coding assistance, and summarizes complex reports. The app also offers real-time multilingual translation, adding to its business utility.
 
-With the ChatGPT app, users can engage in meaningful conversations, seek information, and receive assistance through text-based interactions in their workspace.
+Key capabilities include:
 
-### Capabilities of ChatGPT app within Rocket.Chat&#x20;
-
-{% hint style="warning" %}
-ChatGPT app will only be available to workspaces running **version 6.3.0 and higher**.&#x20;
-{% endhint %}
-
-\
-The Rocket.Chat ChatGPT app is capable of the following:&#x20;
-
-* **Answer questions:** The ChatGPT bot responds to each inquiry in a thread, allowing you to manage multiple threaded conversations. Sending questions to ChatGPT in direct messaging rooms with other users opens up more conversations and corroboration opportunities.
-* **Fix spelling, punctuation & grammar:** ChatGPT can be used to proofread your messages. Input text into the message box, and seek ChatGPT’s help to identify and correct grammar errors in your messages, sparing you the trouble of correcting each error individually.
-* **Generate summaries:** ChatGPT can be used to generate summaries of lengthy documents to provide an executive summary, an excerpt to share with others or to allow you to avoid perusing the entire document.
-* **Voice and tone editing:** ChatGPT is accessible from any channel, team, or discussion, so the application is always available to help you establish the tone of your communications. You can alter it based on whether you want the message to be formal or informal.
-* **Index conversations:** ChatGPT responds to each conversation inside a thread. It indexes the conversations, and the responses within the conversation are contextually appropriate.
-* **Handle longer queries:** The app is capable of providing complete, uninterrupted responses with longer text output. This implies that users can ask the app questions that necessitate longer responses without having to break them into smaller chunks.
+* **Threaded Interactions:** Manages and responds to inquiries within conversation threads.
+* **Proofreading:** Corrects spelling, punctuation, and grammar in user messages.
+* **Summarization:** Creates brief overviews of extensive documents.
+* **Tone Customization:** Adjusts communication tone to suit formal or informal contexts.
+* **Conversation Indexing:** Keeps track of threaded discussions for contextually relevant responses.
+* **Long-Form Responses:** Handles detailed queries with comprehensive replies.
 
 {% hint style="warning" %}
-Large conversations or threads cannot be summarized in the current version of the ChatGPT app. In future versions, we intend to support this feature. Nevertheless, it is now possible to summarize a great deal of information—articles, news, novels, and so on—using ChatGPT.
+The current ChatGPT app version does not support summarizing large threads or conversations, but future updates will include this feature. However, ChatGPT can currently summarize extensive content such as articles, news, and novels.
 {% endhint %}
 
 ## Install the ChatGPT App
