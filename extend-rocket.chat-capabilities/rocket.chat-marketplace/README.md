@@ -82,7 +82,7 @@ The app is installed on the workspace and ready to use.
 
 ### Community Plan
 
-Workspaces on the community plan can install numerous Public apps (apps from the marketplace) but enable only five. They can allow only three Private apps. Once it reaches the limit, you can upgrade to the[ Enterprise Plan](./#enterprise-edition) for access to enable all apps in the workspace.  Refer to the table below for a better understanding.
+Workspaces on the community plan can install numerous Public apps (apps from the marketplace) but enable only five. They can allow only three Private apps. Once it reaches the limit, you can upgrade to the [Enterprise Plan](../../setup-and-configure/enterprise-license-application.md) for access to enable all apps in the workspace.  Refer to the table below for a better understanding.
 
 <table><thead><tr><th width="266.3333333333333">Community Plan 6.0</th><th width="199">Public apps</th><th>Private apps</th></tr></thead><tbody><tr><td>Install</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Enable/Use</td><td>5</td><td>3</td></tr></tbody></table>
 

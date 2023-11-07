@@ -52,6 +52,6 @@ To learn more, see [Teams: Efficiently Manage Your Remote Team on Rocket.Chat](h
 [manage-team-channels.md](manage-team-channels.md)
 {% endcontent-ref %}
 
-{% content-ref url="teams-enterprise-plan.md" %}
-[teams-enterprise-plan.md](teams-enterprise-plan.md)
+{% content-ref url="teams-enterprise-edition.md" %}
+[teams-enterprise-edition.md](teams-enterprise-edition.md)
 {% endcontent-ref %}

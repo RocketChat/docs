@@ -1,16 +1,14 @@
 # Getting Started with Voice Channel
 
-To use any Rocket.Chat products, you need to sign up for an [**Enterprise Edition free trial**](https://docs.rocket.chat/guides/enterprise-edition-trial) or have [Rocket.Chat community version deployed](broken-reference). If you already have an account and our other solutions, please proceed.
+To use any Rocket.Chat product, you must have a [Rocket.Chat workspace deployed](../../deploy/deploy-rocket.chat/). The workspace can either be on the community or enterprise [plan](https://www.rocket.chat/pricing).
 
-{% hint style="info" %}
-Requirements:
+**Requirements**
 
 * [Asterisk](https://www.asterisk.org/) 16.19.0 or higher (We used [FreePBX](https://www.freepbx.org/) 16.0.10.40 with Asterisk 18.6.0)
 * Valid SSL certificate (valid domain)
 * You need Rocket.Chat version 5.0.0 or higher.&#x20;
-{% endhint %}
 
-Please note that:
+**It's important to note the following**:
 
 * A **private branch exchange (PBX)**  is a telephone system within an enterprise that switches calls between users on local lines while enabling all users to share a certain number of external phone lines.&#x20;
 * **Asterisk** is an open-source software implementation of a **PBX**.&#x20;
