@@ -29,7 +29,7 @@ The current ChatGPT app version does not support summarizing large threads or co
 
 To install the **ChatGPT** app,
 
-* Go to **Administration** > **Marketplace**.
+* Go to **Administration > Apps > Marketplace**.
 * Search for the **ChatGPT** app and click on it.
 * Click **Install** and accept the needed permissions to install.&#x20;
 
