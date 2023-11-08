@@ -395,7 +395,7 @@
     * [Trello](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/trello.md)
       * [Using the Trello App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/trello/using-the-trello-app.md)
     * [Zoom](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/zoom.md)
-      * [Install Zoom App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/zoom/install-zoom-app.md)
+      * [Using the Zoom App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/zoom/using-the-zoom-app.md)
     * [Data Loss Prevention (DLP) App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/data-loss-prevention-dlp-app.md)
     * [Poll](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/poll.md)
     * [Poll Plus](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/poll-plus/README.md)

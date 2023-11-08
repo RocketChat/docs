@@ -20,7 +20,6 @@ Key capabilities include:
 * **Summarization:** Creates brief overviews of extensive documents.
 * **Tone Customization:** Adjusts communication tone to suit formal or informal contexts.
 * **Conversation Indexing:** Keeps track of threaded discussions for contextually relevant responses.
-* **Long-Form Responses:** Handles detailed queries with comprehensive replies.
 
 {% hint style="warning" %}
 The current ChatGPT app version does not support summarizing large threads or conversations, but future updates will include this feature. However, ChatGPT can currently summarize extensive content such as articles, news, and novels.

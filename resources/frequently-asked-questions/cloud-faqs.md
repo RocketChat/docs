@@ -38,7 +38,7 @@ Send an email to **support@rocket.chat** with the address of your workspace. Not
 
 ## Cloud Accounts
 
-***
+
 
 <details>
 
