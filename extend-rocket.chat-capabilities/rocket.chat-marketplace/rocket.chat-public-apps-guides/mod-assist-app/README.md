@@ -20,7 +20,7 @@ To install the Mod Assist app,
 
 ### Get an OpenAI API Key
 
-The Mod Assist app requires OpenAI API keys to authenticate your Rocket.Chat account and make requests.
+The **Mod Assist app** requires [API keys](https://platform.openai.com/account/api-keys) to authenticate your OpenAI account on Rocket.Chat and make requests.
 
 {% hint style="warning" %}
 Your OpenAI account must have active billing with credits. For a more detailed guide on billing, please refer to [OpenAI's prepaid billing](https://help.openai.com/en/articles/8264644-what-is-prepaid-billing).
@@ -50,7 +50,7 @@ To configure the **Mod Assist App** after installing it,
     * **Flirtation:** Messages that are indecent, intimate, unwanted, and inappropriate can be deemed as a flirtatious content type.&#x20;
 * Click **Save Changes**.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 The API key used when [configuring the app](./#configuring-mod-assist-app) is applied to the entire workspace. Users in your workspace don't need to get their own API keys.&#x20;
 {% endhint %}
 

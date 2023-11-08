@@ -42,7 +42,7 @@ To update the app,&#x20;
 
 ### Get an OpenAI API Key
 
-The **ChatGPT app** requires [OpenAI API keys](https://platform.openai.com/account/api-keys) to authenticate your Rocket.Chat account and make requests.
+The **ChatGPT app** requires [API keys](https://platform.openai.com/account/api-keys) to authenticate your OpenAI account on Rocket.Chat and make requests.
 
 {% hint style="warning" %}
 Your OpenAI account must have active billing with credits. For a more detailed guide on billing, please refer to [OpenAI's prepaid billing](https://help.openai.com/en/articles/8264644-what-is-prepaid-billing).
@@ -70,8 +70,8 @@ We now support the GPT-4 model, giving you flexibility to choose between two AI 
 
 * Click **Save Changes**.
 
-{% hint style="info" %}
-The API key used when configuring the app is applied to the entire workspace. Users in your workspace don't need to get their own API keys.&#x20;
+{% hint style="warning" %}
+The API key used when [configuring the app](./#configuring-the-chatgpt-app) is applied to the entire workspace. Users in your workspace don't need to get their own API keys.&#x20;
 {% endhint %}
 
 Now that you've successfully installed and configured your **ChatGPT**  **app**, proceed to explore [using-chatgpt-app.md](using-chatgpt-app.md "mention").

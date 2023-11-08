@@ -13,24 +13,15 @@ You can access the ChatGPT app in your workspace via the following methods:
 
 You can [create a 1:1 DM](../../../../use-rocket.chat/user-guides/rooms/direct-messages/create-a-new-direct-message.md#create-a-new-direct-message-1-1) with the _chatgpt.bot_ user. You can also [create multi-user DMs](../../../../use-rocket.chat/user-guides/rooms/direct-messages/create-a-new-direct-message.md#create-a-new-multi-user-direct-message-1-m) with the _chatgpt.bot_ and other users in your workspace.
 
-**Message Options**
-
-* Hover over a message and click the **kebab menu** to reveal the message options**.**&#x20;
-* Select **ChatGPT** from the dropdown options.
-
 {% hint style="info" %}
 All users and administrators on your workspace can use the ChatGPT app without any restrictions.
 {% endhint %}
 
-### Getting Started with ChatGPT App
-
-Send a message to the ChatGPT bot using any of the highlighted methods above. Each query response is contained within a thread, allowing you to administer multiple threaded conversations simultaneously with ChatGPT.&#x20;
+To use the ChatGPT app, you'll need to provide both a **prompt** and a **message**. The prompt serves as instructions for the message you're sending, and each query response is organized into a thread. This allows you to manage multiple simultaneous conversations with the ChatGPT app.
 
 #### ChatGPT Prompt Examples
 
-The key to mastering ChatGPT and achieving desirable results is selecting the appropriate prompts. You may need to use more detailed instructions in order to achieve the intended results when simple commands are insufficient. Using specific prompts allows you to navigate the chatbot more efficiently and obtain more personalized responses, thereby maximizing ChatGPT's potential.
-
-Here are some suggestions for getting started with ChatGPT:
+Selecting the right prompts is essential to achieve desirable results with the ChatGPT app. Consider using more detailed instructions when basic commands are insufficient. Here are some prompt suggestions for getting started with ChatGPT:
 
 #### Prompt 1: Simplifying complex notions
 
