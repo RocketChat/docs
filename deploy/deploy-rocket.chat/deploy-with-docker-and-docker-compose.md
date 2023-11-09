@@ -39,7 +39,7 @@ sudo reboot
 
 **Fetching Compose file**
 
-* Navigate to your preferred directory and create a `docker-compose.yml` file following [our example](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml).  Alternatively, you can use the `curl` command to download the example `docker-compose.yml` file by executing this command:
+* Navigate to your preferred directory and create a `compose.yml` file following [our example](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml).  Alternatively, you can use the `curl` command to download the example `compose.yml` file by executing this command:
 
 ```bash
 curl -L https://raw.githubusercontent.com/RocketChat/Docker.Official.Image/master/compose.yml -O
@@ -53,7 +53,11 @@ Modifying the configurations in the compose file directly is strongly discourage
 Remember to uncomment the variables you are updating in the `.env` file.
 {% endhint %}
 
-* In your project directory, create an `.env` file following [this example](https://github.com/RocketChat/Docker.Official.Image/blob/master/env.example).
+* In your project directory, create a  `.env` file  with this command and paste the contents of  [this example file](https://github.com/RocketChat/Docker.Official.Image/blob/master/env.example)&#x20;
+
+```
+sudo nano .env
+```
 
 {% hint style="info" %}
 If you cloned the [GitHub repository](https://github.com/RocketChat/Docker.Official.Image/tree/master), you can copy the `.env.example` to  `.env` with this command:
@@ -76,13 +80,13 @@ See our [releases page](https://github.com/RocketChat/Rocket.Chat/releases) and 
 REG_TOKEN={your token here}
 ```
 
-* If you are using MongoDB Atlas as the database provider, edit the value of the `MONGO_URL` variable in your compose file to be your connection string in this format:
+* If you are using MongoDB Atlas as the database provider, edit the value of the `MONGO_URL` variable to be your connection string in this format:
 
 ```
 MONGO_URL=mongodb://<user>:<pass>@host1:27017,host2:27017,host3:27017/<databaseName>?replicaSet=<replicaSet>&ssl=true&authSource=admin
 ```
 
-* Now, start up the container by executing this command:
+* Save the `.env` file and  start up the container by executing this command:
 
 ```shell
 docker compose up -d
