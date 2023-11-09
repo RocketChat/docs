@@ -8,7 +8,7 @@ Rocket.Chat launched a re-factored set of advanced LDAP features on September 28
 
 Selected advanced LDAP features, including extended user attribute sync, group/team management, background sync, and SAML integration, will be implemented only in the Enterprise plan. This change will enable Rocket.Chat to support ongoing improvements to our suite of identity management solutions while continuing to make our primary LDAP directory synchronization codebase available for use and extension by the Rocket.Chat community.
 
-To learn more, visit [identity-management-ee-vs-ce.md](../../setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md "mention").
+To learn more, visit [identity-management-plan-comparison.md](../../setup-and-configure/advanced-workspace-management/identity-management-plan-comparison.md "mention").
 
 </details>
 
@@ -47,7 +47,7 @@ Integrating with your organization’s user directory service is essential for a
 Community users can connect an LDAP service used by their organization to and sync user email, name, and username; use the fallback option and encrypted settings. Basic SAML sync options and Oauth for all providers (Apple, Dolphin, Drupal, Facebook, GitHub, GitHub, Enterprise, GitLab, Google, Linkedin, Meteor, Nextcloud, Tokenpass, Twitter, and WordPress) will continue available in Community plan.
 
 \
-[View full functionalities](../../setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md)
+[View full functionalities](../../setup-and-configure/advanced-workspace-management/identity-management-plan-comparison.md)
 
 </details>
 

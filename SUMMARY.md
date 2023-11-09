@@ -80,7 +80,7 @@
     * [iframe based Single Sign On](setup-and-configure/advanced-workspace-management/authentication/single-sign-on-iframe.md)
   * [Google Translate Integration](setup-and-configure/advanced-workspace-management/google-cloud.md)
   * [Managing Settings Using Environmental Variables](setup-and-configure/advanced-workspace-management/managing-settings-using-environmental-variables.md)
-  * [Identity Management (Community vs. Enterprise)](setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md)
+  * [Identity Management Plan Comparison](setup-and-configure/advanced-workspace-management/identity-management-plan-comparison.md)
   * [Database Migration](setup-and-configure/advanced-workspace-management/database-migration.md)
   * [Restoring an Admin User](setup-and-configure/advanced-workspace-management/restoring-an-admin.md)
   * [CDN](setup-and-configure/advanced-workspace-management/cdn.md)

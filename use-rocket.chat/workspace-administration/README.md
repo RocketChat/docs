@@ -2,10 +2,6 @@
 
 {% hint style="success" %}
 Deprecation for cloud services and apps is now extended to November 20, 2023. Rocket.Chat versions will receive support for six months after release.
-
-⚠️ Attend our community call on November 9th for details and upgrade guidance. Shape the agenda by submitting questions upon registration.
-
-🔗 [Register for the Community Open Call](https://app.livestorm.co/rocket-chat/community-open-call-1?type=detailed)
 {% endhint %}
 
 This guide is for people who administer an existing Rocket.Chat workspace and have an administrator role inside the workspace.
@@ -13,7 +9,7 @@ This guide is for people who administer an existing Rocket.Chat workspace and ha
 To access this menu, go to **Administration** > **Workspace**
 
 {% hint style="info" %}
-Only users with Administrator roles assigned to them can access this menu. If you have any role other assigned to your Rocket.Chat user, you won't be able to see this menu.
+Only users with Administrator roles assigned to them can access this menu. If you have any role other than that assigned to your Rocket.Chat user, you won't be able to see this menu.
 {% endhint %}
 
 [**Go Fully Featured**](go-fully-featured.md): An overview of all the potential of Rocket. Chat's enterprise plan.

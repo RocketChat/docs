@@ -4,10 +4,6 @@ In a world where collaboration is the backbone of productivity, Rocket.Chat stan
 
 {% hint style="success" %}
 Deprecation for cloud services and apps is now extended to **November 20, 2023**. Rocket.Chat versions will receive support for six months after release.
-
-⚠️ Attend our community call on November 9 for details and upgrade guidance. Shape the agenda by submitting questions upon registration.
-
-🔗 [Register for the Community Open Call](https://app.livestorm.co/rocket-chat/community-open-call-1?type=detailed)
 {% endhint %}
 
 ### **Why Rocket.Chat?**
@@ -40,7 +36,7 @@ Deprecation for cloud services and apps is now extended to **November 20, 2023**
 ### **Resources at Your Fingertips**
 
 * [**User Guides**](use-rocket.chat/user-guides/): From basic navigation to advanced features, find everything you need to make the most of Rocket.Chat.
-* **Features**: Benefit from the extensive array of features offered by Rocket.Chat, including,  [rocket.chat-conference-call](use-rocket.chat/rocket.chat-conference-call/ "mention"),[rocket.chat-federation.md](use-rocket.chat/rocket.chat-federation.md "mention"), [rocket.chat-voice-channel](use-rocket.chat/rocket.chat-voice-channel/ "mention"), [analytics.md](use-rocket.chat/workspace-administration/settings/analytics.md "mention"), [identity-management-ee-vs-ce.md](setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md "mention").
+* **Features**: Benefit from the extensive array of features offered by Rocket.Chat, including,  [rocket.chat-conference-call](use-rocket.chat/rocket.chat-conference-call/ "mention"),[rocket.chat-federation.md](use-rocket.chat/rocket.chat-federation.md "mention"), [rocket.chat-voice-channel](use-rocket.chat/rocket.chat-voice-channel/ "mention"), [analytics.md](use-rocket.chat/workspace-administration/settings/analytics.md "mention"), [identity-management-plan-comparison.md](setup-and-configure/advanced-workspace-management/identity-management-plan-comparison.md "mention").
 * [**Developer Documentation**](resources/development-docs.md): Dive into our developer resources for custom integrations and extensions.
 * [**Support**](resources/rocket.chats-support-structure/): Our dedicated support structure is here to assist you every step of the way.
 

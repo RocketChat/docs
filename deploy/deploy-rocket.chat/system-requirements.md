@@ -6,10 +6,6 @@ description: Requirements for Rocket.Chat Deployment
 
 {% hint style="success" %}
 Deprecation for cloud services and apps is now extended to November 20, 2023. Rocket.Chat versions will receive support for 6 months after release.
-
-⚠️ Attend our community call on November 9th for details and upgrade guidance. Shape the agenda by submitting questions upon registration.
-
-🔗 [Register for the Community Open Call](https://app.livestorm.co/rocket-chat/community-open-call-1?type=detailed)
 {% endhint %}
 
 When preparing to deploy your Rocket.Chat workspace, it's essential to consider the necessary software and hardware requirements to ensure a successful deployment.

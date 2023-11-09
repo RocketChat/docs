@@ -10,7 +10,7 @@ To configure **LDAP** authentication,&#x20;
 [Rocket.Chat](http://rocket.chat) supports a variety of **LDAP** capabilities and associated identity management features. For example, you can import users from an active directory into your workspace.&#x20;
 
 {% hint style="info" %}
-The LDAP features supported by community and enterprise plans are detailed in [Identity Management](../../../../setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md).
+The LDAP features supported by community and enterprise plans are detailed in [Identity Management](../../../../setup-and-configure/advanced-workspace-management/identity-management-plan-comparison.md).
 {% endhint %}
 
 ## LDAP Actions
