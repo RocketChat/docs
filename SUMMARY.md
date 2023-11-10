@@ -424,7 +424,7 @@
 * [Frequently Asked Questions](resources/frequently-asked-questions/README.md)
   * [Accessing your workspace FAQs](resources/frequently-asked-questions/accessing-your-workspace-faqs.md)
   * [License FAQs](resources/frequently-asked-questions/license-faqs/README.md)
-    * [Trial](resources/frequently-asked-questions/license-faqs/trial.md)
+    * [Trial FAQ](resources/frequently-asked-questions/license-faqs/trial-faq.md)
     * [Downgrade behaviour](resources/frequently-asked-questions/license-faqs/downgrade-behaviour.md)
   * [My Account FAQs](resources/frequently-asked-questions/my-account-faqs.md)
   * [Registration](resources/frequently-asked-questions/registration.md)
