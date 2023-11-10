@@ -14,7 +14,7 @@ https://github.com/RocketChat/Rocket.Chat/releases/\<VERSION>
 
 For example, if you want to check what are the supported MongoDB versions for release `6.0.0`, you can go to [https://github.com/RocketChat/Rocket.Chat/releases/6.0.0](https://github.com/RocketChat/Rocket.Chat/releases/6.0.0) and look for "Engine versions".
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Required Mongo version</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Required Mongo version</p></figcaption></figure>
 
 ### Using releases API
 
