@@ -26,7 +26,9 @@ Integrate Zoom with Rocket.Chat to:
 {% hint style="danger" %}
 **Prerequisites for Integration**
 
-* Users **must** have same email accounts on both Rocket.Chat and Zoom to enable meeting creation.
+* For multiple users to create Zoom meetings in the workspace, a paid Zoom account is required.
+* Users **must** have same email accounts on both Rocket.Chat and Zoom to enable meeting creation.&#x20;
+* Users **must** be in the same organization on Zoom. Here is [the official guide](https://support.zoom.com/hc/en/article?id=zm\_kb\&sysparm\_article=KB0061789) that teaches you how to add users to your Zoom account.
 * A Server-to-Server OAuth app **must be created** on the Zoom Marketplace prior to integration.
 {% endhint %}
 
