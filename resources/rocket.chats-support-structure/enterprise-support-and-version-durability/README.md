@@ -11,7 +11,8 @@ This document provides comprehensive information about Rocket.Chat's support str
 Each release of Rocket.Chat comes with a support period lasting six months from its release date. Once this period expires, hosted services such as the Push Gateway and Marketplace will cease to function for that particular version. During the support window, Rocket.Chat focuses on delivering security patches and responding to support queries concerning configuration and usage for the versions specified. Any bugs that are not security-related will be addressed solely in future releases.
 
 {% hint style="success" %}
-Deprecation for cloud services and apps is now extended to November 20, 2023. Rocket.Chat versions will receive support for six months after release.
+* November 20, 2023 will be the sunset date for allowing connections between our cloud services and workspaces running legacy versions of Rocket.Chat that are outside our support window. November 20, 2023 will also be the sunset date for allowing connections between our official mobile and desktop apps and workspaces running legacy versions of Rocket.Chat that are outside our support window. If you are on a legacy unsupported server, we strongly recommend you update to the latest version of Rocket.Chat to access your cloud portal, mobile and desktop apps.
+* Rocket.Chat versions receive support for six months after release.
 {% endhint %}
 
 ### Requirements for Official Support

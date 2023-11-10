@@ -9,5 +9,6 @@ You can use microservices to scale your environment while maintaining user perfo
 [**Microservices**](microservices.md)**:** Deploy Rocket.Chat using microservices or several smaller components, each focusing on a single feature of Rocket.Chat.
 
 {% hint style="success" %}
-Deprecation for cloud services and apps is now extended to November 20, 2023. Rocket.Chat versions will receive support for 6 months after release.
+* November 20, 2023 will be the sunset date for allowing connections between our cloud services and workspaces running legacy versions of Rocket.Chat that are outside our support window. November 20, 2023 will also be the sunset date for allowing connections between our official mobile and desktop apps and workspaces running legacy versions of Rocket.Chat that are outside our support window. If you are on a legacy unsupported server, we strongly recommend you update to the latest version of Rocket.Chat to access your cloud portal, mobile and desktop apps.
+* Rocket.Chat versions receive support for six months after release.
 {% endhint %}

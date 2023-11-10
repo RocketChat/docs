@@ -1,7 +1,8 @@
 # Deploy with Docker & Docker Compose
 
 {% hint style="success" %}
-Deprecation for cloud services and apps is now extended to November 20, 2023. Rocket.Chat versions will receive support for six months after release.
+* November 20, 2023 will be the sunset date for allowing connections between our cloud services and workspaces running legacy versions of Rocket.Chat that are outside our support window. November 20, 2023 will also be the sunset date for allowing connections between our official mobile and desktop apps and workspaces running legacy versions of Rocket.Chat that are outside our support window. If you are on a legacy unsupported server, we strongly recommend you update to the latest version of Rocket.Chat to access your cloud portal, mobile and desktop apps.
+* Rocket.Chat versions receive support for six months after release.
 {% endhint %}
 
 Deploying Rocket.Chat with Docker and Docker Compose is a straightforward and highly recommended deployment method due to its simplicity and flexibility. This guide will walk you through the essential steps, whether you're a seasoned Docker expert or new to containerization, ensuring a smooth deployment for your Rocket.Chat workspace.

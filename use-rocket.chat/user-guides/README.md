@@ -4,8 +4,9 @@ description: End-user Training Guides
 
 # User Guides
 
-{% hint style="info" %}
-Deprecation for cloud services and apps is now extended to November 20, 2023. Rocket.Chat versions will receive support for six months after release.
+{% hint style="success" %}
+* November 20, 2023 will be the sunset date for allowing connections between our cloud services and workspaces running legacy versions of Rocket.Chat that are outside our support window. November 20, 2023 will also be the sunset date for allowing connections between our official mobile and desktop apps and workspaces running legacy versions of Rocket.Chat that are outside our support window. If you are on a legacy unsupported server, we strongly recommend you update to the latest version of Rocket.Chat to access your cloud portal, mobile and desktop apps.
+* Rocket.Chat versions receive support for six months after release.
 {% endhint %}
 
 As a user, this guide will help you optimize your Rocket.Chat workspace. It onboards you on how to use various features of Rocket.Chat.

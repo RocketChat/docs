@@ -1,7 +1,8 @@
 # Desktop & Mobile Apps
 
 {% hint style="success" %}
-Deprecation for cloud services and apps is now extended to November 20, 2023. Rocket.Chat versions will receive support for six months after release.
+* November 20, 2023 will be the sunset date for allowing connections between our cloud services and workspaces running legacy versions of Rocket.Chat that are outside our support window. November 20, 2023 will also be the sunset date for allowing connections between our official mobile and desktop apps and workspaces running legacy versions of Rocket.Chat that are outside our support window. If you are on a legacy unsupported server, we strongly recommend you update to the latest version of Rocket.Chat to access your cloud portal, mobile and desktop apps.
+* Rocket.Chat versions receive support for six months after release.
 {% endhint %}
 
 Welcome to the detailed guide on installing Rocket.Chat client applications on your desktop and mobile devices. Embarking on your journey with Rocket.Chat is an exciting prospect, promising efficient, secure, and user-friendly communication. This guide is dedicated to helping you take the first crucial step: setting up the Rocket.Chat apps on your preferred devices. Whether you're on Windows, MacOS, Linux, iOS, or Android, this guide has got you covered.

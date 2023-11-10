@@ -5,7 +5,8 @@ In the realm of open-source communication, Rocket.Chat, has always been at the f
 All directions on this page assume you have a valid license and now wish to apply it. If you do not yet have one, please get in [contact with sales](https://www.rocket.chat/sales-contact).
 
 {% hint style="success" %}
-Deprecation for cloud services and apps is now extended to November 20, 2023. Rocket.Chat versions will receive support for 6 months after release.
+* November 20, 2023 will be the sunset date for allowing connections between our cloud services and workspaces running legacy versions of Rocket.Chat that are outside our support window. November 20, 2023 will also be the sunset date for allowing connections between our official mobile and desktop apps and workspaces running legacy versions of Rocket.Chat that are outside our support window. If you are on a legacy unsupported server, we strongly recommend you update to the latest version of Rocket.Chat to access your cloud portal, mobile and desktop apps.
+* Rocket.Chat versions receive support for six months after release.
 {% endhint %}
 
 ## I have a…
