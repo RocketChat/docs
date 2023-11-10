@@ -30,7 +30,7 @@ In a world where collaboration is the backbone of productivity, Rocket.Chat stan
 ### **Getting Started**
 
 * [**Deployment**](deploy/deploy-rocket.chat/): Choose your deployment method and follow the step-by-step guide to get Rocket.Chat up and running.
-* System Requirements: Make informed decision around your workspace
+* [**System Requirements**](deploy/deploy-rocket.chat/system-requirements.md): Make informed decisions around your workspace
 * **Set Up Your Account**: Begin by [creating your admin account](setup-and-configure/accessing-your-workspace/admin-account-creation.md) and [accessing your workspace.](setup-and-configure/accessing-your-workspace/)
 * [**Workspace Administration**](use-rocket.chat/workspace-administration/): Manage your workspace with advanced controls and user management features.
 
