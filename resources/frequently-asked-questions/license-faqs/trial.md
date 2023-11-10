@@ -1,4 +1,4 @@
-# Trial
+# Trial FAQ
 
 ## **Why have I been given a trial on my community plan workspace?**
 
