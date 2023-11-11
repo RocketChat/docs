@@ -4,7 +4,7 @@ description: Apply Premium license for your 30-day Trial.
 
 # Pro Trial
 
-The Rocket.Chat Pro trial offers numerous benefits, including a message auditing panel and logs, access to support, omnichannel features for improved management and agent efficiency, an engagement dashboard, access to the Pro bundle on the marketplace, high scalability, unlimited and secure push notifications, full Matrix Federation, advanced identity management, centralized admin controls, data loss prevention, video conferencing integrations, custom roles and permissions, guest users, custom white-label branding, and delivered/read receipt.
+Available from Rocket.Chat version 6.5 or higher the Pro Plan is ideal for organizations in growth mode needing enhanced features and support to broaden their communication capabilities. This plan presents a sturdy platform with expanded user capacity, increased monthly active contacts than the [Starter plan](../../readme/our-plans.md#starter-plan), and a suite of additional premium features. Perfectly suited for businesses on an upward trajectory, the Pro Plan strikes an ideal balance between advanced functionality and robust support, ensuring a smooth and effective collaboration experience.
 
 ## Get an Pro Plan Trial if you have a workspace
 
@@ -43,4 +43,4 @@ To apply for an extension,
 * Add a message to Sales describing why you need the extension and click **Send Request**.&#x20;
 * The request is sent to the Rocket.Chat Sales Team for evaluation.
 
-Rocket.Chat's Pro Plan trial provides potential users with an opportunity to experience the platform's advanced features before committing, by offering a comprehensive trial process and the ability to extend the trial if needed, Rocket.Chat ensures that users can make an informed decision about upgrading to the Pro Plan.
+Rocket.Chat allows potential users to test drive its Pro Plan through a detailed trial, providing a hands-on experience with its advanced capabilities. Coupled with the flexibility to extend the trial period, this enables users to thoroughly assess the platform's features, ensuring they are well-equipped to decide on upgrading to the Pro Plan.

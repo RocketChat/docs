@@ -1,10 +1,10 @@
 ---
-description: Apply Premium license for your 30-day Trial.
+description: Apply Premium license for your 30-day enterprise trial.
 ---
 
 # Enterprise Trial
 
-The Rocket.Chat Enterprise Plan trial offers numerous benefits, including a message auditing panel and logs, access to support, omnichannel features for improved management and agent efficiency, an engagement dashboard, access to the Enterprise bundle on the marketplace, high scalability, unlimited and secure push notifications, full Matrix Federation, advanced identity management, centralized admin controls, data loss prevention, video conferencing integrations, custom roles and permissions, guest users, custom white-label branding, and delivered/read receipt.
+secure, customizable, and comprehensive communication platform. It provides scalable solutions, sophisticated compliance tools, and prioritized support to meet the intricate demands of major enterprises and sectors with strict regulatory standards. Emphasizing high performance, dependability, and advanced integration capabilities, this plan is an ideal selection for businesses looking for a premier collaboration platform.
 
 ## Get an Enterprise Plan if you have a workspace
 
@@ -22,12 +22,12 @@ After connecting to the Cloud account,&#x20;
 &#x20;If you do not have a workspace yet, you must deploy one before applying for the Enterprise Plan Trial.
 
 * Create a new account on[ Rocket.Chat Cloud](https://cloud.rocket.chat/trial/ee).
-* A link to **Create a workspace and Apply Trial** is sent to your inbox. To proceed, click the link or paste it into your browser.
+* A link to **Create a Workspace and Apply Trial** is sent to your inbox. To proceed, click the link or paste it into your browser.
 * Then, you are redirected to [Rocket.Chat Cloud Portal](https://cloud.rocket.chat/). Since you don't have any workspace registered yet, the Workspaces section is empty with the following options to create a workspace:
   * **Install Rocket.Chat**:  Learn how to install[ your Rocket.Chat instance](../../deploy/deploy-rocket.chat/).
   * **Launch a SaaS Trial**: The fastest deployment option is a Rocket.Chat workspace.
   * **Register self-managed**:  Register your workspace if you have a workspace up and running.
-* After installing your Rocket.Chat workspace following the first option, proceed to activate the premuim license on the workspace following these steps:
+* After installing your Rocket.Chat workspace following the first option, proceed to activate the premium license on the workspace following these steps:
   * Navigate to **Workspaces and** click on the **Apply Trial** button for the workspace you created.
   * Refresh the page and confirm that your workspace's current plan and status are **Enterprise Yearly** and **Active**.
 
@@ -43,4 +43,4 @@ To apply for an extension,
 * Add a message to Sales describing why you need the extension and click **Send Request**.&#x20;
 * The request is sent to the Rocket.Chat Sales Team for evaluation.
 
-Rocket.Chat's Enterprise Plan trial provides potential users with an opportunity to experience the platform's advanced features before committing, by offering a comprehensive trial process and the ability to extend the trial if needed, Rocket.Chat ensures that users can make an informed decision about upgrading to the Enterprise Plan.
+Rocket.Chat's Enterprise Plan trial allows potential users to experience the platform's advanced features before committing, by offering a comprehensive trial process and the ability to extend the trial if needed, Rocket.Chat ensures that users can make an informed decision about upgrading to the Enterprise Plan.

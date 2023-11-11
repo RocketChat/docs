@@ -42,7 +42,7 @@ When you install or upgrade to Rocket.Chat version 6.5 or higher automatically e
 
 ## Pro Plan
 
-Available from Rocket.Chat version 6.5 or higher Rocket.Chat Pro Plan is designed for growing organizations seeking to leverage enhanced features and support for expanding communication needs. This plan offers a robust platform with increased user capacity, extended monthly active contacts, and additional premium features. Ideal for businesses scaling their operations, the Pro Plan provides a perfect balance of advanced functionality and support, ensuring a seamless collaboration experience.
+Available from Rocket.Chat version 6.5 or higher Rocket.Chat [**Pro Plan**](../setup-and-configure/trials/pro-trial.md) is designed for growing organizations seeking to leverage enhanced features and support for expanding communication needs. This plan offers a robust platform with increased user capacity, extended monthly active contacts, and additional premium features. Ideal for businesses scaling their operations, the Pro Plan provides a perfect balance of advanced functionality and support, ensuring a seamless collaboration experience.
 
 **Key Features:**
 
@@ -58,7 +58,7 @@ Available from Rocket.Chat version 6.5 or higher Rocket.Chat Pro Plan is designe
 
 ## Enterprise Plan
 
-The Rocket.Chat Enterprise Plan is tailored for large-scale organizations requiring a comprehensive, secure, and highly customizable communication solution. This plan offers extensive scalability, advanced compliance tools, and priority support, catering to the complex needs of large enterprises and industries with stringent regulatory requirements. With its focus on high performance, reliability, and advanced integrations, the Enterprise Plan is the optimal choice for organizations seeking a top-tier collaboration platform.
+The Rocket.Chat [**Enterprise Plan**](../setup-and-configure/trials/enterprise-trial.md) is tailored for large-scale organizations requiring a comprehensive, secure, and highly customizable communication solution. This plan offers extensive scalability, advanced compliance tools, and priority support, catering to the complex needs of large enterprises and industries with stringent regulatory requirements. With its focus on high performance, reliability, and advanced integrations, the Enterprise Plan is the optimal choice for organizations seeking a top-tier collaboration platform.
 
 **Key Features:**
 
