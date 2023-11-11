@@ -30,7 +30,7 @@ When you install or upgrade to Rocket.Chat version 6.5 or higher automatically e
 * **User Capacity**: Up to 25 users.
 * **Monthly Active Contacts**: Supports up to 100 omnichannel contacts.
 * **Premium Features**: Comprehensive access to premium features, including read receipts and multiple queues.
-* **Notifications & Apps**: Unlimited push notifications and a wide selection of apps.
+* **Notifications & Apps**: Unlimited push notifications and a wide selection of [apps](../extend-rocket.chat-capabilities/rocket.chat-marketplace/).
 * **Channel Access**: Full access to all channels, including WhatsApp (omnichannel).
 * **Matrix Federation**: Complete [Matrix Federation](../use-rocket.chat/rocket.chat-federation.md) support.
 
@@ -42,7 +42,7 @@ When you install or upgrade to Rocket.Chat version 6.5 or higher automatically e
 
 ## Pro Plan
 
-The Rocket.Chat Pro Plan is designed for growing organizations seeking to leverage enhanced features and support for expanding communication needs. This plan offers a robust platform with increased user capacity, extended monthly active contacts, and additional premium features. Ideal for businesses scaling their operations, the Pro Plan provides a perfect balance of advanced functionality and support, ensuring a seamless collaboration experience.
+Available from Rocket.Chat version 6.5 or higher Rocket.Chat Pro Plan is designed for growing organizations seeking to leverage enhanced features and support for expanding communication needs. This plan offers a robust platform with increased user capacity, extended monthly active contacts, and additional premium features. Ideal for businesses scaling their operations, the Pro Plan provides a perfect balance of advanced functionality and support, ensuring a seamless collaboration experience.
 
 **Key Features:**
 
