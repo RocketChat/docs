@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Rocket.Chat](README.md)
+  * [Our Plans](readme/our-plans.md)
 
 ## Deploy
 
