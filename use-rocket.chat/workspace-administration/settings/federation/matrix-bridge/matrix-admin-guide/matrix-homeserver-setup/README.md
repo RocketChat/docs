@@ -271,7 +271,7 @@ docker run --name nginx --network rocketchat -p 443:443 -p 80:80 -v ./nginx.conf
 **Configure Rocket.Chat Matrix Bridge**
 
 {% hint style="warning" %}
-Before you proceed, ensure you have an [enterprise license ](../../../../../../../setup-and-configure/enterprise-license-application.md)on your workspace or apply for [enterprise-plan-trial.md](../../../../../../../setup-and-configure/enterprise-plan-trial.md "mention"). &#x20;
+Before you proceed, ensure you have an [enterprise license ](../../../../../../../setup-and-configure/license-application.md)on your workspace or apply for [trials](../../../../../../../setup-and-configure/trials/ "mention"). &#x20;
 {% endhint %}
 
 See [matrixbridge-configuration.md](../matrixbridge-configuration.md "mention") to learn more about the configurations and their definitions.

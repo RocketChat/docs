@@ -71,7 +71,7 @@ We are rewriting the LDAP feature to TypeScript and making improvements on top o
 
 <summary>How will this affect my air-gapped (no internet connection) environment? Can’t we just pull from our intranet easily anyway?</summary>
 
-If the Rocket.Chat server is air-gapped but integrated with an internal LDAP server, so you must [apply for an enterprise plan license](../../setup-and-configure/enterprise-license-application.md) to access the complete suite of advanced LDAP/SAML/Oauth features when you upgrade.
+If the Rocket.Chat server is air-gapped but integrated with an internal LDAP server, so you must [apply for an enterprise plan license](../../setup-and-configure/license-application.md) to access the complete suite of advanced LDAP/SAML/Oauth features when you upgrade.
 
 </details>
 

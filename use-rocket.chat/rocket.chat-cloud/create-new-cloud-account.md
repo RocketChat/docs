@@ -1,6 +1,6 @@
 # Create your new cloud account
 
-Rocket.Chat Cloud allows you to connect your self-hosted Rocket.Chat workspace to the services we provide in our Cloud. It enables you to manage your workspace better. You can explore the workspace capabilities for free by signing up for a [30-day Rocket.Chat Enterprise Plan Trial](../../setup-and-configure/enterprise-plan-trial.md). You will get a notification in advance of when the trial is coming to an end. If you purchase any plan, your trial version will automatically convert to a paid plan at the end of the trial period.
+Rocket.Chat Cloud allows you to connect your self-hosted Rocket.Chat workspace to the services we provide in our Cloud. It enables you to manage your workspace better. You can explore the workspace capabilities for free by signing up for a [30-day Rocket.Chat Enterprise Plan Trial](../../setup-and-configure/trials/). You will get a notification in advance of when the trial is coming to an end. If you purchase any plan, your trial version will automatically convert to a paid plan at the end of the trial period.
 
 {% hint style="info" %}
 If you are a self-managed customer**,** a cloud account is optional, but if you are a SaaS customer, it is created by default when you first start your workspace with us.
