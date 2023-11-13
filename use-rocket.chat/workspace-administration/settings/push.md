@@ -3,7 +3,7 @@
 Enable and configure push notifications for your workspace members using mobile devices.
 
 {% hint style="info" %}
-By default, community workspaces come with 10,000 free monthly push notifications. If you need more, please [contact us](https://www.rocket.chat/sales-contact) to discuss upgrading to an Enterprise plan.
+Workspaces on the [community](../../../readme/our-plans.md#community) plan allow up to 10,000 free monthly push notifications. To request more, [contact Sales](https://www.rocket.chat/sales-contact) to discuss upgrading to a [premium plan](../../../readme/our-plans.md).
 {% endhint %}
 
 ## Push Notifications Configuration
@@ -48,7 +48,7 @@ In Privacy, you can configure what information you want your push notification t
   This adds only the message id to the notification data. The mobile client dynamically fetches the content from the server and updates the notification before displaying it.
 
 {% hint style="info" %}
-For [Enterprise workspaces](enterprise.md), failure in fetching a message using the `message id` provided in the push data results in a "You have a new message" being sent.
+For [Enterprise workspaces](premium.md), failure in fetching a message using the `message id` provided in the push data results in a "You have a new message" being sent.
 {% endhint %}
 
 With the push configuration completed, follow the  [#default-user-preferences](account-settings/#default-user-preferences "mention") guide to set the default user preferences for notinotificationsfication. Manage channel-based notifications using the [#channel-notifications](../../user-guides/rooms/channels/edit-a-channel.md#channel-notifications "mention") guide.

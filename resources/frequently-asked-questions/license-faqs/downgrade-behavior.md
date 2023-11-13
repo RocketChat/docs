@@ -1,4 +1,4 @@
-# Downgrade behaviour
+# Downgrade behavior
 
 ## **What Happens When I Downgrade My Rocket.Chat Workspace Plan?**
 

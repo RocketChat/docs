@@ -58,6 +58,8 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**Outlook Calendar**](outlook-calendar.md): Sync your Outlook events and reminders to your workspace so that you can always stay on top of your schedule.
 
+[**Premium**](premium.md): Manage your workspace license.
+
 [**Push**](push.md): Customize notification behaviors for users using the Rocket.Chat mobile apps.
 
 [**Rate Limiter**](rate-limiter.md): Limit network traffic and potential bot attacks on your Rocket.Chat server by limiting the number of hits on the server within a specified timeframe.

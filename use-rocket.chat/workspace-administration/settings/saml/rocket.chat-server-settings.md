@@ -18,7 +18,7 @@
 * **Signature Validation Type**: Select the type of signature validation. _`This setting will be ignored if no Custom Certificate is provided`**.**_
 * **Private Key Contents**: The private key matches the self-signed certificate you created as PKCS#1 PEM. Format for this is PEM WITH `-----BEGIN PRIVATE KEY-----` and `-----END PRIVATE KEY-----`.
 
-## Enterprise&#x20;
+## Premium
 
 <figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 

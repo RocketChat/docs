@@ -9,5 +9,5 @@ To access this menu, go to **Administration** > **Workspace** > **Moderation .**
 * You can view and delete the reported messages, deactivate the reported user, reset the user avatar, and access the reported message directly for more information.&#x20;
 
 {% hint style="info" %}
-**Moderation** is available to Community and [enterprise.md](settings/enterprise.md "mention") Edition workspaces on version 6.2 or above.
+**Moderation** is available to all workspaces from version 6.2 or above.
 {% endhint %}

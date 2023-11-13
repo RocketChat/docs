@@ -14,7 +14,7 @@ Remember to hit **Save Changes** in order to apply any changes made.
 
 ## Organization Info
 
-* **Organization Type**: A dropdown for you to select the type of organization. Example `Enterprise`
+* **Organization Type**: A dropdown for you to select the type of organization. Example `Government`
 * **Organization Name**: The name of your organization. Example `RocketChat`
 * **Industry**: The industry to which your organization belongs. Example `Technology Services`
 * **Size**: The size of your organization.

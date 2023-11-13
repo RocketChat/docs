@@ -24,31 +24,6 @@ The deployment info card shows information related to your server deployment.
 * **PID:** It is the process ID of the operational system that is running the [Rocket.Chat](https://rocket.chat/) deployment.
 * **Instances:** See the status of your workspace instance.
 
-## License
-
-This shows the information about the license of your server.
-
-* **License**: This shows the license tags active on your server.
-* **Features**: The various features supported by the license on your server. Like `Omnichannel` `Auditing`, `Canned Responses`, `Engagement Dashboard`.
-
-### Apply Offline License
-
-To apply your offline license,
-
-* Navigate to **Administration** > **Workspace** > **Workspace.**
-* On the License card, click **Apply Offline License.**
-* Paste the license you got from the[ Rocket.Chat cloud console](https://cloud.rocket.chat/home) or provided from the license purchase confirmation email in the modal presented.
-* Hit **Apply license.**
-
-### Change Offline License
-
-To change your offline license,
-
-* Navigate to **Administration** > **Workspace** > **Workspace** **.**
-* Click on the **Change Offline License** at the bottom of the License card
-* A modal is presented, prompting you to paste the license you got from the[ Rocket.Chat Cloud Console](https://cloud.rocket.chat/home) or provided from the License purchase confirmation email.
-* Clear the old license code and paste the new license code, then hit **Apply license.**
-
 ## Usage&#x20;
 
 **Users**
@@ -90,7 +65,7 @@ To change your offline license,
 * **Messages in Omnichannel**: The total number of messages in omnichannel.
 
 {% hint style="info" %}
-Click the **See on Engagement Dashboard** button to view more usage statistics on the [engagement-dashboard.md](engagement-dashboard.md "mention"). This button is disabled for workspaces on the community plan.
+Click the **See on Engagement Dashboard** button to view more usage statistics on the [engagement-dashboard.md](engagement-dashboard.md "mention"). This button is disabled for workspaces on the community [plan](../../readme/our-plans.md).
 {% endhint %}
 
 ## Download Info

@@ -1,5 +1,7 @@
 # Guest users
 
+<figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
+
 Guest users in Rocket.Chat are invited external users with limited capabilities. While they can join select channels and discussions, they don't have full workspace access. This setup is ideal for collaboration with partners, contractors, or customers, allowing businesses to grant project-specific access while ensuring security.
 
 {% hint style="info" %}
@@ -28,7 +30,7 @@ To view the guest user permissions,
 * You will see the enabled permissions the guest role has. The guest role has limited permissions like Start Discussion, and View Direct Messages.&#x20;
 
 {% hint style="warning" %}
-As from Rocket.Chat `6.0`, guest role [permissions](../permissions/) on [Enterprise Edition](../settings/enterprise.md) and [Rocket.Chat SaaS](../../../#rocket.chat-saas) workspaces cannot be modified.
+Guest users is only available for workspaces on the [enterprise plan](../../../readme/our-plans.md#enterprise-plan). From Rocket.Chat version `6.0`, guest role [permissions](../permissions/)  and [Rocket.Chat SaaS](../../../#rocket.chat-saas) workspaces cannot be modified.
 {% endhint %}
 
 ![Permissions](../../../.gitbook/assets/GuestUser\_Permissions.png)

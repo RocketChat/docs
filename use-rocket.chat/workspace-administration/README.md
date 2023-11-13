@@ -5,19 +5,19 @@
 * Rocket.Chat versions receive support for six months after release.
 {% endhint %}
 
-This guide is for people who administer an existing Rocket.Chat workspace and have an administrator role inside the workspace.
+This guide is for workspace administrators who administer and manage a Rocket.Chat workspace. They must have an `administrator` role in the workspace.
 
 To access this menu, go to **Administration** > **Workspace**
 
-{% hint style="info" %}
-Only users with Administrator roles assigned to them can access this menu. If you have any role other than that assigned to your Rocket.Chat user, you won't be able to see this menu.
+{% hint style="warning" %}
+This menu is only accessible to users who have been assigned the Administrator role.
 {% endhint %}
-
-[**Go Fully Featured**](go-fully-featured.md): An overview of all the potential of Rocket. Chat's enterprise plan.
 
 [**Workspace**](workspace.md): A consolidated view of basic information about your workspace.
 
-[**Registration**](registration.md): Rocket.Chat Registration gives you access to connect your self-hosted workplace to Rocket.Chat cloud. Learn how to use create a new cloud account and use connectivity services.
+[**Subscription**](subscription.md): Manage your workspace subscriptions including [plans](../../readme/our-plans.md), seats and MAC.
+
+[**Registration**](registration.md): Rocket.Chat Registration gives you access to connect your self-hosted workspace to Rocket.Chat cloud. Learn how to use create a new cloud account and use connectivity services.
 
 [**Engagement**](engagement-dashboard.md): Evaluate user engagement on the channels of your workspace.
 
@@ -47,10 +47,12 @@ Only users with Administrator roles assigned to them can access this menu. If yo
 
 [**Import**](import/): Import data from other services to your Rocket.Chat workspace.
 
-[**Logs**](settings/logs.md): Check your workspace logs.
+[**Reports**](reports.md): Check your workspace logs and analytics reports
 
-[**Custom Emoji**](custom-emoji.md): Learn to work with custom emojis in your Rocket.Chat workspace.
+[**Sounds**](sounds.md): Discover to work with custom sounds in your Rocket.Chat workspace.
+
+[**Emoji**](custom-emoji.md): Learn to work with custom emojis in your Rocket.Chat workspace.
 
 [**Settings**](settings/): Rocket.Chat is very flexible thanks to the vast amount of settings that allow you to configure your workspace the way you prefer.
 
-If the information in this section doesn't solve your problem, look at these [other resources](../../setup-and-configure/advanced-workspace-management/) to find something that meets your needs. Alternatively, you can [get help](../../resources/rocket.chats-support-structure/) from our community or enterprise support services.
+If the information in this section doesn't solve your problem, look at these [other resources](../../setup-and-configure/advanced-workspace-management/) to find something that meets your needs. Alternatively, you can [get help](../../resources/rocket.chats-support-structure/) from our community or premium support services.

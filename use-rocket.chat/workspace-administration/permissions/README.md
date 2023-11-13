@@ -39,7 +39,7 @@ While you can globally assign some room roles to a user when creating or editing
 As a workspace administrator, you can create new roles with custom permissions for your workspace.
 
 {% hint style="info" %}
-As from Rocket.Chat `V6.0.x.x` the creating and editing of custom roles is an enterprise feature. ![](../../../.gitbook/assets/Premium.svg)
+From Rocket.Chat `6.0.x` and above, creating and editing roles is only available on the ![](../../../.gitbook/assets/Premium.svg) [plans](../../../readme/our-plans.md).
 {% endhint %}
 
 To create a new role,
