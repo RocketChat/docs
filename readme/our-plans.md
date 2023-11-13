@@ -6,20 +6,39 @@ description: Introducing our premium plans
 
 As a leader in secure and compliant collaboration solutions, Rocket.Chat offers a range of plans to suit the diverse needs of its user base. Our plans are designed to provide optimal features and flexibility for individuals and small teams to large enterprises. This document details our [**Community**](our-plans.md#community), [**Starter**](our-plans.md#starter-plan), [**Pro**](our-plans.md#pro-plan), and [**Enterprise**](our-plans.md#enterprise-plan) plans, helping you choose the best fit for your organization.
 
-## **Community**
+## Enterprise Plan
 
-Rocket.Chat **Community** is a free open-source solution, self-hosted version of the Rocket.Chat platform.&#x20;
+The Rocket.Chat [**Enterprise Plan**](../setup-and-configure/trials/enterprise-trial.md) is tailored for large-scale organizations requiring a comprehensive, secure, and highly customizable communication solution. This plan offers extensive scalability, advanced compliance tools, and priority support, catering to the complex needs of large enterprises and industries with stringent regulatory requirements. With its focus on high performance, reliability, and advanced integrations, the Enterprise Plan is the optimal choice for organizations seeking a top-tier collaboration platform.
 
-**Key features:**
+**Key Features:**
 
-* **Open Source**: Free to use, modify, and distribute, with source code available on GitHub.
-* **Self-Hosted**: Allows hosting on your own servers for full data control and enhanced privacy.
-* **Core Chat Features**: Includes essential functionalities such as messaging, group chats, and file sharing.
-* **Customization and Integration**: Offers options for customization and integration with various tools and services.
-* **Community Support**: Supported by a community of users and developers, with resources available through forums and online guides.
-* **Limitations**: Advanced features and official support services are reserved for premium versions.
+* **Large-Scale Capacity**: Tailored for extensive, compliance-focused environments.
+* **Advanced Capabilities**: Includes support for multiple server instances, microservices architecture, and sophisticated user management.
+* **Compliance Tools**: Enhanced tools for meeting regulatory and compliance standards.
+* **Customization and Integration**: Greater flexibility in customization and integration with existing systems.
+* **Priority Support**: Access to priority support and dedicated account management.
+* **Scalability and Reliability**: Designed for high scalability and reliability, suitable for mission-critical operations.
 
-Ideal for smaller teams and those with the capability to manage their IT infrastructure, Community is a versatile choice for organizations prioritizing privacy and customization.
+**Ideal for:**
+
+* **Large Enterprises**: Organizations requiring a robust, scalable, and compliant communication platform.
+* **High Compliance Industries**: Ideal for sectors with stringent regulatory requirements, such as finance, healthcare, and government.
+
+## Pro Plan
+
+Available from Rocket.Chat version 6.5 or higher Rocket.Chat [**Pro Plan**](../setup-and-configure/trials/pro-trial.md) is designed for growing organizations seeking to leverage enhanced features and support for expanding communication needs. This plan offers a robust platform with increased user capacity, extended monthly active contacts, and additional premium features. Ideal for businesses scaling their operations, the Pro Plan provides a perfect balance of advanced functionality and support, ensuring a seamless collaboration experience.
+
+**Key Features:**
+
+* **User Capacity**: Designed for up to 500 users.
+* **Monthly Active Contacts**: Manage up to 15,000 omnichannel contacts, with additional packs available.
+* **Customization**: Option to remove the Rocket.Chat watermark.
+* **Support & Hosting**: Standard support with an option for Cloud hosting.
+
+**Ideal for:**
+
+* **Scaling Organizations**: Best suited for businesses expanding their use of premium features.
+* **Enhanced Support Requirements**: Additional support and hosting services for more complex operational needs.
 
 ## Starter Plan
 
@@ -40,39 +59,20 @@ When you install or upgrade to Rocket.Chat version 6.5 or higher automatically e
 * **Flexible Scaling Options**: Upgrade or adjust your usage if you exceed the Starter plan limits.
 * **Open Source Commitment**: The Community option remains steadfast for those preferring a free open-source solution.
 
-## Pro Plan
+## **Community**
 
-Available from Rocket.Chat version 6.5 or higher, Rocket.Chat [**Pro Plan**](../setup-and-configure/trials/pro-trial.md) is designed for growing organizations seeking to leverage enhanced features and support for expanding communication needs. This plan offers a robust platform with increased user capacity, extended monthly active contacts, and additional premium features. Ideal for businesses scaling their operations, the Pro Plan provides a perfect balance of advanced functionality and support, ensuring a seamless collaboration experience.
+Rocket.Chat **Community** is a free open-source solution, self-hosted version of the Rocket.Chat platform.&#x20;
 
-**Key Features:**
+**Key features:**
 
-* **User Capacity**: Designed for up to 500 users.
-* **Monthly Active Contacts**: Manage up to 15,000 omnichannel contacts, with additional packs available.
-* **Customization**: Option to remove the Rocket.Chat watermark.
-* **Support & Hosting**: Standard support with an option for Cloud hosting.
+* **Open Source**: Free to use, modify, and distribute, with source code available on GitHub.
+* **Self-Hosted**: Allows hosting on your own servers for full data control and enhanced privacy.
+* **Core Chat Features**: Includes essential functionalities such as messaging, group chats, and file sharing.
+* **Customization and Integration**: Offers options for customization and integration with various tools and services.
+* **Community Support**: Supported by a community of users and developers, with resources available through forums and online guides.
+* **Limitations**: Advanced features and official support services are reserved for premium versions.
 
-**Ideal for:**
-
-* **Scaling Organizations**: Best suited for businesses expanding their use of premium features.
-* **Enhanced Support Requirements**: Additional support and hosting services for more complex operational needs.
-
-## Enterprise Plan
-
-The Rocket.Chat [**Enterprise Plan**](../setup-and-configure/trials/enterprise-trial.md) is tailored for large-scale organizations requiring a comprehensive, secure, and highly customizable communication solution. This plan offers extensive scalability, advanced compliance tools, and priority support, catering to the complex needs of large enterprises and industries with stringent regulatory requirements. With its focus on high performance, reliability, and advanced integrations, the Enterprise Plan is the optimal choice for organizations seeking a top-tier collaboration platform.
-
-**Key Features:**
-
-* **Large-Scale Capacity**: Tailored for extensive, compliance-focused environments.
-* **Advanced Capabilities**: Includes support for multiple server instances, microservices architecture, and sophisticated user management.
-* **Compliance Tools**: Enhanced tools for meeting regulatory and compliance standards.
-* **Customization and Integration**: Greater flexibility in customization and integration with existing systems.
-* **Priority Support**: Access to priority support and dedicated account management.
-* **Scalability and Reliability**: Designed for high scalability and reliability, suitable for mission-critical operations.
-
-**Ideal for:**
-
-* **Large Enterprises**: Organizations requiring a robust, scalable, and compliant communication platform.
-* **High Compliance Industries**: Ideal for sectors with stringent regulatory requirements, such as finance, healthcare, and government.
+Ideal for smaller teams and those with the capability to manage their IT infrastructure, Community is a versatile choice for organizations prioritizing privacy and customization.
 
 ## Plan Comparison and Pricing
 
