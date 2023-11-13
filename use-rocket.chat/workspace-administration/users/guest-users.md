@@ -30,7 +30,7 @@ To view the guest user permissions,
 * You will see the enabled permissions the guest role has. The guest role has limited permissions like Start Discussion, and View Direct Messages.&#x20;
 
 {% hint style="warning" %}
-Guest users is only available for workspaces on the [enterprise plan](../../../readme/our-plans.md#enterprise-plan). From Rocket.Chat version `6.0`, guest role [permissions](../permissions/)  and [Rocket.Chat SaaS](../../../#rocket.chat-saas) workspaces cannot be modified.
+The Guest Users feature is exclusively available to workspaces on the [Enterprise plan](../../../readme/our-plans.md#enterprise-plan). From Rocket.Chat version `6.0`, permissions for the guest role can not be modified on workspaces subscribed to the Enterprise plan.
 {% endhint %}
 
 ![Permissions](../../../.gitbook/assets/GuestUser\_Permissions.png)

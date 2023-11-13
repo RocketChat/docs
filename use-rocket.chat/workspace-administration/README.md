@@ -47,7 +47,7 @@ This menu is only accessible to users who have been assigned the Administrator r
 
 [**Import**](import/): Import data from other services to your Rocket.Chat workspace.
 
-[**Reports**](reports.md): Check your workspace logs and analytics reports
+[**Reports**](view-logs.md): Check your workspace logs and analytics reports
 
 [**Sounds**](sounds.md): Discover to work with custom sounds in your Rocket.Chat workspace.
 

@@ -1,4 +1,4 @@
-# Reports
+# Omnichannel Reports
 
 <figure><img src="../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 

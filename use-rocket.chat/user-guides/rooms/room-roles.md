@@ -13,7 +13,7 @@ By default, there are three major Roles available in Rocket.Chat Rooms:
 * **Moderator**: This role is designed to help keep the Room organized and on-topic. Moderators can delete messages, kick users out, and pin important messages to the top of the Room.
 
 {% hint style="success" %}
-With an [Enterprise ](../../workspace-administration/settings/premium.md)workspace, you can [create custom Roles](../../workspace-administration/permissions/#creating-custom-roles) as needed.
+With an [Enterprise ](../../workspace-administration/settings/enterprise.md)workspace, you can [create custom Roles](../../workspace-administration/permissions/#creating-custom-roles) as needed.
 {% endhint %}
 
 ### Assigning Room Roles
