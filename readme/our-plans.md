@@ -4,7 +4,7 @@ description: Introducing our premium plans
 
 # Our Plans
 
-As a leader in secure and compliant collaboration solutions, Rocket.Chat offers a range of plans to suit the diverse needs of its user base. Our plans are designed to provide optimal features and flexibility for individuals and small teams to large enterprises. This document details our [**Community**](our-plans.md#community), [**Starter**](our-plans.md#starter-plan), [**Pro**](our-plans.md#pro-plan), and [**Enterprise**](our-plans.md#enterprise-plan) plans, helping you choose the best fit for your organization.
+As a leader in secure and compliant collaboration solutions, Rocket.Chat offers a range of plans to suit the diverse needs of its user base. Our plans are designed to provide optimal features and flexibility for individuals and small teams to large enterprises. This document details our [**Enterprise**](our-plans.md#enterprise-plan)  [**Pro**](our-plans.md#pro-plan), [**Starter**](our-plans.md#starter-plan), and [**Community**](our-plans.md#community) plans, helping you choose the best fit for your organization.
 
 ## Enterprise Plan
 
