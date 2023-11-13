@@ -42,7 +42,7 @@ When you install or upgrade to Rocket.Chat version 6.5 or higher automatically e
 
 ## Pro Plan
 
-Available from Rocket.Chat version 6.5 or higher Rocket.Chat [**Pro Plan**](../setup-and-configure/trials/pro-trial.md) is designed for growing organizations seeking to leverage enhanced features and support for expanding communication needs. This plan offers a robust platform with increased user capacity, extended monthly active contacts, and additional premium features. Ideal for businesses scaling their operations, the Pro Plan provides a perfect balance of advanced functionality and support, ensuring a seamless collaboration experience.
+Available from Rocket.Chat version 6.5 or higher, Rocket.Chat [**Pro Plan**](../setup-and-configure/trials/pro-trial.md) is designed for growing organizations seeking to leverage enhanced features and support for expanding communication needs. This plan offers a robust platform with increased user capacity, extended monthly active contacts, and additional premium features. Ideal for businesses scaling their operations, the Pro Plan provides a perfect balance of advanced functionality and support, ensuring a seamless collaboration experience.
 
 **Key Features:**
 
