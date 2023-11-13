@@ -19,4 +19,4 @@ We recommend these settings be altered only with the guidance of the Rocket.Chat
 * **Disable Live Chat Activity Monitor**: Activating this setting stops the processing of Live Chat contacts sessions, causing the statistics to stop working correctly.
 * **Disable Statistics Generator**: This lets you stop the processing of all statistics making the info page outdated until someone clicks on the refresh button and may cause other missing information around the system.
 * **Disable Data Exporter Processor**: This setting stops the processing of all export requests from users, so they will not receive the link to download their data.
-* **Disable Workspace Sync**: Enabling this stops the sync of the server with Rocket.Chat's cloud may cause issues with the marketplace and enterprise licenses.&#x20;
+* **Disable Workspace Sync**: Enabling this option disables the workspace sync with Rocket.Chat Cloud, which may cause issues with the marketplace and premium [licenses](../../../setup-and-configure/license-application.md).&#x20;
