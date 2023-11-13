@@ -19,6 +19,12 @@ Below is a list of common customization you can do on your Rocket.Chat workspace
 
 Rocket.Chat's white-labeling feature is a powerful tool that allows you to tailor your workspace to reflect your brand's identity. By customizing elements such as the homepage, color scheme, logo, assets, and login screen, you can create a more personalized and engaging environment for your team. Your workspace is now all set for you to [invite your users](inviting-users.md)!
 
-{% hint style="warning" %}
-The Rocket.Chat watermark is displayed permanently on the sidebar for community workspaces.
-{% endhint %}
+**Rocket.Chat Logo**
+
+The Rocket.Chat logo appears on the sidebar footer for workspaces subscribed to any of our [plans](../../readme/our-plans.md), and it can be customized.
+
+**Rocket.Chat Watermark**
+
+The Rocket.Chat watermark appears on the sidebar footer for workspaces on [**Community**](../../readme/our-plans.md#community), [**Starter**](../../readme/our-plans.md#starter-plan), [**Pro Trial**](../trials/pro-trial.md), or [**Enterprise Trial**](../trials/enterprise-trial.md) plans, and cannot be customized or removed. Workspaces with active [**Pro** ](../../readme/our-plans.md#pro-plan)or [**Enterprise**](../../readme/our-plans.md#enterprise-plan) subscriptions do not display this watermark.
+
+<figure><img src="../../.gitbook/assets/sidebar-footer.png" alt=""><figcaption><p>Sidebar footer</p></figcaption></figure>
