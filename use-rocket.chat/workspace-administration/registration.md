@@ -23,7 +23,7 @@ The steps below are required only for self-managed instances. Rocket.Chat SaaS w
 {% endhint %}
 
 {% hint style="info" %}
-To connect your workspace to our Rocket.Chat Cloud, you must be running a supported version. At least `v3.x.`
+To connect your workspace to our Rocket.Chat Cloud, you must be running a version within [our support window](../../resources/rocket.chats-support-structure/enterprise-support-and-version-durability/#support-window-duration).
 {% endhint %}
 
 ## Registration steps
@@ -35,7 +35,7 @@ The registration steps are different depending on the version of Rocket.Chat you
 
 ### Workspaces as from Rocket.Chat 6.x
 
-When [deploying ](broken-reference)a self-managed Rocket.Chat `>=6.x` workspace you are automatically required to register your workspace upon completing the [setup-wizard.md](settings/setup-wizard.md "mention").
+When [deploying ](broken-reference)a self-managed Rocket.Chat `>=6.x` workspace you are automatically required to register your workspace upon completing the  [rocket.chat-setup-wizard.md](../../setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard.md "mention").
 
 With your workspace setup completed, sync it to Rocket.Chat Cloud as an Administrator by:
 
