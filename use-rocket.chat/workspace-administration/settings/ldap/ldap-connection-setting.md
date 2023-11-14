@@ -6,17 +6,12 @@ Set up **Authentication**, **Timeouts**, and **Encryption** for your LDAP connec
 * **Server Type**: Allows you to select the type of server you are connecting to.
 * **Host**: The LDAP connection host or domain, e.g. `ldap.example.com` or `10.0.0.30.`
 * **Port**: The LDAP connection Port, usually `389` or `636.`
-
-{% hint style="info" %}
-**Reconnect** and **Login Fallback** are available only to workspaces on the enterprise plan.
-{% endhint %}
-
 * **Reconnect**: Enable to try reconnecting automatically when the connection is interrupted for some reason while executing operations.
 * **Login Fallback**: Enable to allow regular password users to log in on Rocket.Chat. It will also let LDAP users continue using Rocket.Chat if the LDAP server is down.
 
 ## Authentication
 
-* **Enable**: Enable or disables authentication to skip binding the user DN and password.
+* **Enable**: Enable or disable authentication to skip binding the user DN and password.
 * **User DN**:  The administrative account login details or LDAP user with access to the active directory. This user can perform user lookups to authenticate other users when they sign in. This is typically a service account explicitly created for third-party integrations. Use a fully qualified name, such as `cn=Administrator,cn=Users,dc=Example,dc=com.` **DN** means **Distinguished Name**.
 * **Password**: The password for the **User DN**.
 

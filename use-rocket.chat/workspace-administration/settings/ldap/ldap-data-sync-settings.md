@@ -2,11 +2,7 @@
 
 With LDAP, you can sync your data. Here are some basic data sync settings in Rocket.Chat.
 
-{% hint style="info" %}
-**Merge Existing Users** and **Update User Data on Login with OAuth services** is only available to workspaces on the enterprise plan.
-{% endhint %}
-
-* **Unique Identifier Field**: The field that will link the LDAP user and the Rocket.Chat user. You can include multiple values separated by a comma to get the value from the LDAP record.
+* **Unique Identifier Field**: The field that links the LDAP user and the Rocket.Chat user. You can include multiple values separated by a comma to get the value from the LDAP record.
 * **Merge Existing Users**: Whether or not to merge existing users. When importing a user from LDAP and a user with the same username already exists, the new user data (including info and password) will merge into the existing data.
 * **Update User Data on Login**: Enable to update user data on login.
 * **Update User Data on Login with OAuth services**: Enable to update user data on login with OAuth services.

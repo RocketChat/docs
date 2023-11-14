@@ -1,6 +1,8 @@
-# LDAP Enterprise Settings
+# LDAP Premium Settings
 
 <figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
+
+LDAP Premium Settings is exclusively available to workspaces subscribed to any of Rocket.Chat's [premium plans](../../../../readme/our-plans.md)**.**
 
 ## Advanced Sync
 

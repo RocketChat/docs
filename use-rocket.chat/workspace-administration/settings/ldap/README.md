@@ -1,6 +1,6 @@
 # LDAP
 
-**Lightweight Directory Access Protocol (LDAP)** lets anyone locate data about your server or company. Rocket.Chat lets you connect with your Active Directory application or Identity Management System through **LDAP**. You can leverage advanced settings such as background sync, roles mapping from groups, auto-logout, and advanced user data sync.
+**Lightweight Directory Access Protocol (LDAP)** enables anyone locate data about your server or company. Rocket.Chat allows you to connect with your Active Directory application or Identity Management System through **LDAP**. You can leverage advanced settings such as background sync, roles mapping from groups, auto-logout, and advanced user data sync.
 
 To configure **LDAP** authentication,&#x20;
 
@@ -10,15 +10,15 @@ To configure **LDAP** authentication,&#x20;
 [Rocket.Chat](http://rocket.chat) supports a variety of **LDAP** capabilities and associated identity management features. For example, you can import users from an active directory into your workspace.&#x20;
 
 {% hint style="info" %}
-The LDAP features supported by community and enterprise plans are detailed in [Identity Management](../../../../setup-and-configure/advanced-workspace-management/identity-management-plan-comparison.md).
+To explore the LDAP functionalities supported by our different [plans](../../../../readme/our-plans.md), see [identity-management-plan-comparison.md](../../../../setup-and-configure/advanced-workspace-management/identity-management-plan-comparison.md "mention").
 {% endhint %}
 
 ## LDAP Actions
 
 These actions are found at the top of the LDAP settings screen.
 
-{% hint style="info" %}
-All these actions, except "**LDAP Documentation"** are exclusive to workspaces on the enterprise plan.
+{% hint style="warning" %}
+All these actions except "**LDAP Documentation"** are exclusively available to workspaces subscribed to the [Enterprise plan](../../../../readme/our-plans.md#enterprise-plan).
 {% endhint %}
 
 * **Test Connection**: This will use your provided values and test for a connection. It will test the authentication and encryption but not the syncing settings.
@@ -27,7 +27,7 @@ All these actions, except "**LDAP Documentation"** are exclusive to workspaces o
 * **LDAP Documentation**: This will redirect you to the [Rocket.Chat LDAP Documentation](./).
 
 {% hint style="info" %}
-If you don't get a response alert for these actions, always check the logs **Administration > Workspace > View Logs** to confirm if they were succesful or there is an error.
+If you don't get a response alert for these actions, always check the log in [view-logs.md](../../view-logs.md "mention") to confirm if they were succesful or there is an error.
 {% endhint %}
 
 {% content-ref url="ldap-connection-setting.md" %}
