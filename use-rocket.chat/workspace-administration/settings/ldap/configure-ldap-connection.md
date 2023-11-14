@@ -1,6 +1,8 @@
-# LDAP Connection Setting
+# Configure LDAP Connection
 
-Set up **Authentication**, **Timeouts**, and **Encryption** for your LDAP connection. Go to the **Connection** tab of the **LDAP** settings and set the following parameters:&#x20;
+Configuring the LDAP connection process is crucial for establishing a secure and efficient link between your Rocket.Chat instance and the LDAP directory.
+
+To set up **Authentication**, **Timeouts**, and **Encryption** for your LDAP connection, navigate to the **Connection** tab of the **LDAP** menu and set the following parameters:&#x20;
 
 * **Enable**: Turns LDAP Authentication ON or OFF.
 * **Server Type**: Allows you to select the type of server you are connecting to.
@@ -30,3 +32,5 @@ Set up **Authentication**, **Timeouts**, and **Encryption** for your LDAP connec
 {% hint style="success" %}
 After completing the settings, be sure to **Save changes.**
 {% endhint %}
+
+With the LDAP connection settings correctly configured, particularly the User DN, your Rocket.Chat workspace is now primed for efficient user authentication and management via LDAP

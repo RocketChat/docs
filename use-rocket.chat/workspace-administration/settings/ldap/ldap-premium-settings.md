@@ -1,20 +1,22 @@
-# LDAP Premium Settings
+# LDAP premium Settings
 
 <figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
-LDAP Premium Settings is exclusively available to workspaces subscribed to any of Rocket.Chat's [premium plans](../../../../readme/our-plans.md)**.**
+As we progress further into LDAP integration with Rocket.Chat, we have LDAP premium settings, available exclusively to workspaces subscribed to Rocket.Chat's [premium plans](../../../../readme/our-plans.md). These settings offer advanced capabilities for syncing and managing user data and roles.
 
-## Advanced Sync
+### **Advanced Sync and Management Features**
+
+#### Advanced Sync
 
 * **Sync User Active State**: Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status. The '`pwdAccountLockedTime`' attribute will be used to determine if the user is disabled. This setting is not yet compatible with all LDAP Servers, so if you don't use the '`pwdAccountLockedTime`' attribute, you may want to disable it completely.
 * **Attributes to Query**: Specify which attributes should be returned on LDAP queries, separating them with commas. Defaults to everything. `*` represents all regular attributes and `+` represents all operational attributes. Make sure to include every attribute that is used by every Rocket.Chat sync option.
 
-## Auto Logout Deactivated Users
+#### Auto Logout Deactivated Users
 
 * **Enable Auto Logout**: Set true to enable auto-logout.
 * **Auto Logout Interval**: Allows you to set the interval for auto-logout.
 
-## Background Sync <a href="#z21x5q1bor" id="z21x5q1bor"></a>
+#### Background Sync <a href="#z21x5q1bor" id="z21x5q1bor"></a>
 
 * **Background Sync**: Enable periodic background sync.
 * **Background Sync interval**: The interval between synchronizations, using the [Cron Text](https://bunkat.github.io/later/parsers.html#text) format.
@@ -23,7 +25,7 @@ LDAP Premium Settings is exclusively available to workspaces subscribed to any o
 * **Avatar Background Sync**: Enable a separate background process to sync user avatars.
 * **Avatar Background Sync Interval**: The interval between avatar sync, using the [Cron Text](https://bunkat.github.io/later/parsers.html#text) format.
 
-## Sync Channels
+#### Sync Channels
 
 * **Auto Sync LDAP Groups to Channels**: Enable this feature to automatically add users to a channel based on their LDAP group.
 * **Channel Admin**: When the above setting causes a channel to be created automatically during user sync, this setting will determine what user will become the channel's admin.
@@ -42,12 +44,12 @@ LDAP Premium Settings is exclusively available to workspaces subscribed to any o
 
 * **Auto Remove Users from Channels**: Enabling this will remove any users in a channel that does not have the corresponding LDAP group! This will happen in every login and background sync, so removing a group on LDAP will not instantly remove access to channels on Rocket.Chat.
 
-## Sync Custom Fields <a href="#46mhpg4k6kv" id="46mhpg4k6kv"></a>
+#### Sync Custom Fields <a href="#46mhpg4k6kv" id="46mhpg4k6kv"></a>
 
 * **Sync Custom Fields**: Enable to activate custom field sync
 * **Custom Fields Mapping**: A map of the custom field to sync
 
-## Sync Roles <a href="#y262hx6p5o9" id="y262hx6p5o9"></a>
+#### Sync Roles <a href="#y262hx6p5o9" id="y262hx6p5o9"></a>
 
 * **Sync LDAP Groups**: Enable this setting to activate role mapping from user groups on your workspace.
 * **Auto Remove User Roles**: Enable this setting to automatically remove roles from LDAP users that don't have the corresponding group. This will only remove roles automatically that are set under the user data group map below.
@@ -66,11 +68,13 @@ LDAP Premium Settings is exclusively available to workspaces subscribed to any o
 }
 ```
 
-## Sync Teams <a href="#h8eyqbx7wnb" id="h8eyqbx7wnb"></a>
+#### Sync Teams <a href="#h8eyqbx7wnb" id="h8eyqbx7wnb"></a>
 
 * **Enable team mapping from LDAP to Rocket.Chat**: Enables team mapping from LDAP to Rocket.Chat
 * **Team mapping from LDAP to Rocket.Chat**: Team mapping from LDAP to Rocket.Chat
 * **Validate mapping for each login**: Determine if users' teams should be updated every time they log in to Rocket.Chat. The team will be loaded only on their first login if this is turned off.
-* **LDAP Teams BaseDN**: The LDAP BaseDN used to look up user teams.
-* **LDAP Team Name Attribute**: The LDAP attribute that Rocket.Chat should use to load the team's name. You can specify more than one attribute name by separating them with a comma.
+* **LDAP Teams BaseDN**: The LDAP BaseDN is used to look up user teams.
+* **LDAP Team Name Attribute**: The LDAP attribute that Rocket.Chat should be used to load the team's name. You can specify more than one attribute name by separating them with a comma.
 * **LDAP query to get user groups**: LDAP query to get the LDAP groups that the user is part of
+
+The LDAP premium settings in Rocket.Chat provide a robust framework for advanced user data synchronization and role management, enhancing the administrative capabilities and user experience in premium workspaces. These settings ensure that Rocket.Chat remains in sync with the LDAP directory, reflecting real-time changes and maintaining data integrity.

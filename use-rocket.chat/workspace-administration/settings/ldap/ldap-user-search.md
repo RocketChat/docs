@@ -1,6 +1,8 @@
 # LDAP User Search
 
-Perform an **LDAP** user search. Go to the **User Search** tab and configure these settings:
+Building upon the LDAP connection settings, the next crucial aspect in LDAP integration with Rocket.Chat is the LDAP user search. This functionality is central to how Rocket.Chat locates and authenticates users within the LDAP directory.
+
+To perform an LDAP user search, navigate to the **User Search** tab in LDAP menu and configure the following settings.
 
 ## **Find user after login**&#x20;
 
@@ -42,3 +44,5 @@ The group filter is for OpenLDAP as it doesnt have a _memberOf_ filter.
 * **Group Member Attribute**: E.g. `*OpenLDAP:*uniqueMember`.
 * **Group Member Format**: E.g. `*OpenLDAP:*uid=#{username},ou=users,o=Company,c=com`.
 * **Group name**: Group name to which the user should belong.
+
+With the LDAP User Search properly configured, Rocket.Chat is now equipped to efficiently locate and authenticate users from the LDAP directory, ensuring a secure and streamlined login process.

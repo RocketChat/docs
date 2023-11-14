@@ -1,6 +1,8 @@
 # LDAP Examples
 
-Here are some examples of the LDAP settings and their values. The examples will be based on these environments:
+After exploring the comprehensive LDAP settings in Rocket.Chat, it's beneficial to examine practical examples of these configurations. These examples provide a clearer understanding of how to apply LDAP settings in real-world scenarios.
+
+**Environment**:
 
 * `Host = ldap.domain.com`
 * `Group = CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com (Access Control Group)`
@@ -11,7 +13,7 @@ Here are some examples of the LDAP settings and their values. The examples will 
 Replace the values above with your respective environment.
 {% endhint %}
 
-## Log on with a username
+#### Log on with a username
 
 * `LDAP_Enable = True`
 * `LDAP_Dn = dc=domain,dc=com`
@@ -25,7 +27,7 @@ If you need to auth users from subgroups in LDAP use this filter:
 
 `LDAP_Bind_search = {"filter": "(&(objectCategory=person)(objectclass=user)(memberOf:1.2.840.113556.1.4.1941:=CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com)(sAMAccountName=#{username}))", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}`
 
-## Log on with an email address
+#### Log on with an email address
 
 * `LDAP_Enable = True`
 * `LDAP_Dn = dc=domain,dc=com`
@@ -35,7 +37,7 @@ If you need to auth users from subgroups in LDAP use this filter:
 
 `{"filter": "(&(objectCategory=person)(objectclass=user)(memberOf=CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com)(mail=#{username}))", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}`
 
-## Log on with either an email address or username
+#### Log on with either an email address or username
 
 * `LDAP_Enable = True`
 * `LDAP_Dn = dc=domain,dc=com`
@@ -45,11 +47,11 @@ If you need to auth users from subgroups in LDAP use this filter:
 
 `{"filter": "(&(objectCategory=person)(objectclass=user)(memberOf=CN=ROCKET_ACCESS,CN=Users,DC=domain,DC=com)(|(mail=#{username})(sAMAccountName=#{username})))", "scope": "sub", "userDN": "rocket.service@domain.com", "password": "urpass"}`
 
-## Log in
+### Log in
 
-When you enable LDAP, the login form will log in users via LDAP instead the internal account system.
+When you enable LDAP, the login form will log in users via LDAP instead of the internal account system.
 
-### LDAPS - SSL Connection
+#### LDAPS - SSL Connection
 
 Use stunnel to create a secure connection to the LDAP server. Create a new configuration file _/etc/stunnel/ldaps.conf_ with the following content:
 
@@ -73,3 +75,5 @@ Finally, on the Rocket.Chat server under _/admin/LDAP_ set these values:
 
 * `LDAP_Url = localhost`
 * `LDAP_Port = 389`
+
+By tailoring these settings to your specific environment, you can ensure a secure, efficient, and user-friendly experience. As we conclude this section, remember that these examples serve as a guide, and it's crucial to adapt them to the unique requirements of your workspace.
