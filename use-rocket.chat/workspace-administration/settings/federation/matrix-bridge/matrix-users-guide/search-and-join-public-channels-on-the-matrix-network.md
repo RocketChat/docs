@@ -1,5 +1,7 @@
 # Search and join public channels on the Matrix network
 
+<figure><img src="../../../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
+
 You can easily search for and join public channels on the Matrix network from your workspace. This feature expands your ability to collaborate and communicate securely with users from different nodes. Exploring and joining federated rooms connects you with a diverse network, encouraging meaningful engagement and knowledge sharing.
 
 {% hint style="info" %}

@@ -1,5 +1,7 @@
 # Assign roles for users in federated rooms
 
+<figure><img src="../../../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
+
 Room members can assign room roles for federated users within a federated room context. Roles in federated rooms are slightly different from the regular [Rocket.Chat Roles](../../../../permissions/#default-roles) for the [_Room Scope_](../../../../permissions/#scope-of-roles).
 
 Federated rooms support three roles:

@@ -7,7 +7,7 @@ description: Configure the Rocket.Chat workspace to link with your Matrix Homese
 This Rocket.Chat workspace configuration to link  matrix  homeserver applies only to [#manual-installation](matrix-homeserver-setup/#manual-installation "mention"). It is automatically done for [#automated-installation](matrix-homeserver-setup/#automated-installation "mention").
 
 {% hint style="warning" %}
-Enable ![](../../../../../../.gitbook/assets/Premium.svg) license or [apply trial](../../../../../../setup-and-configure/trials/) on your workspace to unlock all the available federation features.
+Subscribe to any of our [premium plans ](../../../../../../readme/our-plans.md)or [apply trial ](../../../../../../setup-and-configure/trials/)on your workspace to unlock all the available federation features.
 {% endhint %}
 
 To access this setting,
@@ -39,5 +39,5 @@ Increasing the maximum number may consume a large amount of the resources in you
 {% hint style="info" %}
 After any change is made to these settings, update the `registration.yml` file for the Application Service in `pp/matrix-federation-config`.Then restart your Matrix Homeserver and Rocket.Chat Server.
 
-To learn more, see [#manual-installation](matrix-homeserver-setup/#manual-installation "mention").
+To learn more, see [#standalone-manual-installation](matrix-homeserver-setup/#standalone-manual-installation "mention").
 {% endhint %}
