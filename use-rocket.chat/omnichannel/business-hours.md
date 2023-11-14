@@ -11,8 +11,8 @@ In the Multiple Mode, agents without a department or agents with departments tha
 
 We recommend businesses to be aware of this operational nuance and plan their staffing and training accordingly to ensure consistent customer experience.
 
-{% hint style="info" %}
-Multiple business hour mode is a premium feature.
+{% hint style="warning" %}
+Multiple business hour mode is exclusively available to workspaces subscribed to any of Rocket.Chat's [premium plans](../../readme/our-plans.md).
 {% endhint %}
 
 To enable the business hour mode settings for your workspace,
