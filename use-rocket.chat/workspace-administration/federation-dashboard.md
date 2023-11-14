@@ -15,3 +15,7 @@ To access the dashboard, go to **Administration** > **Workspace** > **Federation
 * **Number of events**: This shows the number of federated events that have been triggered.
 * **Number of federated users**: This shows the number of federated users your server has made access to.
 * **Number of federated servers**: The number of federated servers your workspace has communicated with.
+
+{% hint style="success" %}
+See [rocket.chat-federation.md](../rocket.chat-federation.md "mention") to explore the various federation features and the [plans](../../readme/our-plans.md) they're supported in.
+{% endhint %}
