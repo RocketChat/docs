@@ -10,24 +10,23 @@ To configure **LDAP** authentication,&#x20;
 [Rocket.Chat](http://rocket.chat) supports a variety of **LDAP** capabilities and associated identity management features. For example, you can import users from an active directory into your workspace.&#x20;
 
 {% hint style="info" %}
-To explore the LDAP functionalities supported by our different [plans](../../../../readme/our-plans.md), see [identity-management-plan-comparison.md](../../../../setup-and-configure/advanced-workspace-management/identity-management-plan-comparison.md "mention").
+For an overview of the LDAP features available across our various [plans](../../../../readme/our-plans.md), please refer to [identity-management-plan-comparison.md](../../../../setup-and-configure/advanced-workspace-management/identity-management-plan-comparison.md "mention").
 {% endhint %}
 
 ## LDAP Actions
 
-These actions are found at the top of the LDAP settings screen.
+The following actions can be located at the top section of the LDAP settings interface.
+
+* **Test Connection**: This will use your provided values and test for a connection. It will test the authentication and encryption but not the syncing settings.
+* **Test LDAP Search**: Searches and notify if a user is found as configured in the user search page.
+* **Sync Now**: Syncs your LDAP data based on the Data Sync configurations.
 
 {% hint style="warning" %}
 All these actions except "**LDAP Documentation"** are exclusively available to workspaces subscribed to the [Enterprise plan](../../../../readme/our-plans.md#enterprise-plan).
 {% endhint %}
 
-* **Test Connection**: This will use your provided values and test for a connection. It will test the authentication and encryption but not the syncing settings.
-* **Test LDAP Search**: Searches and notify if a user is found as configured in the user search page.
-* **Sync Now**: Syncs your LDAP data based on the Data Sync configurations.
-* **LDAP Documentation**: This will redirect you to the [Rocket.Chat LDAP Documentation](./).
-
 {% hint style="info" %}
-If you don't get a response alert for these actions, always check the log in [view-logs.md](../../view-logs.md "mention") to confirm if they were succesful or there is an error.
+If you don't get a response alert for these actions, always check the log in [view-logs.md](../../view-logs.md "mention") to confirm if they were successful or there is an error.
 {% endhint %}
 
 {% content-ref url="ldap-connection-setting.md" %}
