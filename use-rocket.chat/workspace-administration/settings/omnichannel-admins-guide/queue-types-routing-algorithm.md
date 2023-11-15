@@ -1,56 +1,62 @@
 # Queue Types (Routing Algorithm)
 
-There are the following types of queues in Rocket.Chat Omnichannel solutions:
-
-* [Auto Selection \[default\]](queue-types-routing-algorithm.md#auto-selection)
-* [Manual Selection](queue-types-routing-algorithm.md#manual-selection)
-* [External Service](queue-types-routing-algorithm.md#external-service)
-* [Load Balancing](queue-types-routing-algorithm.md#load-balancing)![](../../../../.gitbook/assets/Premium.svg)
-* [Load Rotation](queue-types-routing-algorithm.md#load-rotation)![](../../../../.gitbook/assets/Premium.svg)
-
-## Auto Selection
-
-Each new chat will be routed to the agent that are accepting chats with the lower count. If there is more than one available agent with the same count, the chat will get the first in order.
-
-Consider the following department configuration:
-
-When a new chat comes, it'll be routed to `agent-1`, because he has `0` count and is the first in order, and the `agent-1`'s count will be increased to `1`:
-
-A new incoming chat will be routed to `agent-2` and so on until all agents have one chat each. So the next round comes, starting with `agent-1`.
-
-## Manual Selection
-
-With this queue method active, all agents have a **Queued Chats** section where new incoming chats are displayed. When the agent clicks on the chat, they can preview the chat, see the messages sent, and decide whether to take up the chat or not. If the chat is taken, it is removed from **Queued Chats** for all agents.
+Rocket.Chat offers diverse types of queues with unique routing algorithms to efficiently manage and distribute incoming Omnichannel conversations in your workspace. They define the routing methods and direct conversations to the appropriate [agents](../../../omnichannel/agents.md).&#x20;
 
 {% hint style="info" %}
-Department-specific chats will only be displayed in **Queued Chats** for agents in that department.&#x20;
+You can manage omnichannel queues in the [#routing](./#routing "mention") settings of your workspace.
 {% endhint %}
 
-## External Service
+## Type of Omnichannel Queues
 
-You can use an `External Service` to integrate your own agent routing rule into Live Chat.
+Here are various types of queues you can set for routing in your Omnichannel workspace:
 
-Once you set up the `External Service` as the Live Chat routing method, you must define the `External Queue Service URL` and `Secret Token` settings in the Omnichannel admin panel.
+**Auto Selection**
 
-Rocket.Chat will send a GET request to the `External Queue Service URL` and the setting `Secret Token` is sent as a header `X-RocketChat-Secret-Token`, so you can validate if the request came from the Rocket.Chat.
+In auto-selection, new incoming chats are directed to available agents with the lowest count. If multiple agents share the same count, the chat is assigned to the agent who is first in the order.&#x20;
 
-If your endpoint returns a response status other than 200, Rocket.Chat will try 10 times until it receives a valid response.
+For example, when a new chat arrives, it's assigned to the available agent with the lowest count. The next chat goes to the next available agent with lowest count in the queue. Once all available agents have the same count, subsequent incoming chats are sequentially assigned to the same agents, starting with the agent who was first assigned a chat. This ensures an equitable distribution of workload and reduces wait times for customers.
 
-Here is an example of the JSON data format that Live Chat will wait for after submitting the get request:
 
-```javascript
+
+**Manual Selection**
+
+When manual selection is active, all agents have a **Queued Chats** section where new incoming chats are displayed. When the agent clicks on a chat, they can preview the chat, see the messages sent, and decide whether to take up the chat or not. If the chat is taken, it is removed from **Queued Chats** for all agents.
+
+{% hint style="info" %}
+Department-specific chats is displayed in **Queued Chats** only for agents in that department.&#x20;
+{% endhint %}
+
+**External Service**
+
+To integrate your custom agent routing rule into Live Chat, use an **External Service**. Once it's configured as the Live Chat [routing method](./#routing), update the **External Queue Service URL** and **Secret Token** in the [#routing](./#routing "mention") settings.
+
+Rocket.Chat sends a `GET` request to the `External Queue Service URL` and the `Secret Token` is sent as a header `X-RocketChat-Secret-Token` for you to validate if the request came from the Rocket.Chat.  If Rocket.Chat receives a response status other than `200`, it will retry up to 10 times until a valid response is received.
+
+After submitting the GET request, Live Chat expects a JSON response in the following format:
+
+```json
 {
     "_id": "CbbQkRAifP6HtDLSr",
     "username": "valid.username"
 }
 ```
 
-After receiving the return from the endpoint in the format described above, Live Chat will check that the `username` the field represents a valid Live Chat agent and then follows the normal process flow.
+Once the valid response is received in the above format, Live Chat verifies that the provided username represents a valid Live Chat [agent](../../../omnichannel/agents.md), proceeding with the standard process flow.
 
-## Load Balancing![](../../../../.gitbook/assets/Premium.svg)
 
-Load Balancing is an enterprise-only feature. It is also an auto-assignment algorithm, but it will consider the agent's online status and the time they have been chatting, contrary to auto-selection, which only considers the agent's online status. For instance, an agent was away on a short break; once he comes back, he will be assigned more chats than his fellow agent. So in this way, the algorithm will maintain a chat load balance between agents.
 
-## Load Rotation![](../../../../.gitbook/assets/Premium.svg)
+**Load Balancing**
 
-Agent queues for service between online agents, without considering the previous chat's history attended or the number of open rooms in attendance. It's a mix between the Load Balancing and Auto Selection algorithms.
+<figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
+
+Load balancing functions as an auto-assignment algorithm that takes into account both the agent's online status and the duration they have been actively engaged in chats. For example, if an agent briefly steps away and returns, the load-balancing algorithm will assign them more chats than a colleague who has been consistently active. This approach ensures a balanced distribution of chat workload among agents.
+
+
+
+**Load Rotation**&#x20;
+
+<figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
+
+Chats are assigned to available agents without considering their previous chat's history or the number of open rooms they have. Load rotation is a mix between the **Load Balancing** and **Auto Selection** queue type.
+
+Workspace administrators can now leverage the various type of queues outlined to achieve dynamic load balancing, strategic auto-selection, and effective chat handling, tailoring the omnichannel experience to their specific organizational needs to enhance productivity.
