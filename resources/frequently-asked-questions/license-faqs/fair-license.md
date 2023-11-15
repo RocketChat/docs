@@ -21,9 +21,7 @@ In recognition of the dynamic nature of organizations and their evolving communi
 **A5:** Organizations should regularly review their user count and plan for potential expansions. It's advisable to stay in close communication with your Rocket.Chat representative and monitor any announcements regarding policy changes.
 
 **Q6: Is the Fair License meant for long-term expansion?**\
-**A6:** No, the **Fair License** is intended for occasional spikes in user count. For long-term expansion, organizations should consider upgrading their plan or adding more seats as per their growth needs.
+**A6:** No, the **Fair License** is intended for occasional spikes in user count. For long-term expansion, organizations should consider upgrading their plan or adding more seats per their growth needs.
 
 **Q7: How can organizations avoid service disruption due to exceeding user limits?**\
 **A7:** Regular monitoring of user count and early communication with Rocket.Chat representatives are key. Additionally, considering timely upgrades or seat additions can prevent disruptions.
-
-\
