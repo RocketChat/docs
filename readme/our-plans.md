@@ -24,14 +24,18 @@ The Rocket.Chat [**Enterprise Plan**](../setup-and-configure/trials/enterprise-t
 * **Large Enterprises**: Organizations requiring a robust, scalable, and compliant communication platform.
 * **High Compliance Industries**: Ideal for sectors with stringent regulatory requirements, such as finance, healthcare, and government.
 
-## Pro Plan
+## Pro Plan&#x20;
+
+{% hint style="info" %}
+Scheduled for release in late November 2023.
+{% endhint %}
 
 Available from Rocket.Chat version 6.5 or higher Rocket.Chat [**Pro Plan**](../setup-and-configure/trials/pro-trial.md) is designed for growing organizations seeking to leverage enhanced features and support for expanding communication needs. This plan offers a robust platform with increased user capacity, extended monthly active contacts, and additional premium features. Ideal for businesses scaling their operations, the Pro Plan provides a perfect balance of advanced functionality and support, ensuring a seamless collaboration experience.
 
 **Key Features:**
 
 * **User Capacity**: Designed for up to 500 users.
-* **Monthly Active Contacts**: Manage up to 15,000 omnichannel contacts, with additional packs available.
+* **Monthly Active Contacts**: Manage up to 15,000 omnichannel contacts.
 * **Customization**: Option to remove the Rocket.Chat watermark.
 * **Support & Hosting**: Standard support with an option for Cloud hosting.
 
@@ -42,7 +46,11 @@ Available from Rocket.Chat version 6.5 or higher Rocket.Chat [**Pro Plan**](../s
 
 ## Starter Plan
 
-When you install or upgrade to Rocket.Chat version 6.5 or higher automatically enrolls you in our **Starter** plan. This plan offers complimentary access to almost all of our premium features, with some usage limitations. As your usage of Rocket.Chat expands, or if you're updating an already scaled workspace, you'll have the flexibility to upgrade to one of our paid plans — Pro or Enterprise — or, alternatively, you can choose to switch back to our Community.
+{% hint style="info" %}
+Scheduled for release in late November 2023.
+{% endhint %}
+
+Your workspace will be automatically provisioned a free **Starter** plan license when you install or upgrade to [Rocket.Chat](https://rocket.chat/) version 6.5 or higher. This plan offers free access to almost all of our premium features, for limited usage. As your usage of [Rocket.Chat](https://rocket.chat/) expands, or if you're updating an already scaled workspace, your workspace will be automatically updated to a trial license so that you can continue your [Rocket.Chat](https://rocket.chat/) usage while you evaluate upgrading to one of our paid plans — Pro or Enterprise — or, alternatively, you can choose to switch back to our [Community](our-plans.md#community).
 
 **Key Features:**
 
@@ -72,7 +80,7 @@ Rocket.Chat **Community** is a free open-source solution, self-hosted version of
 * **Community Support**: Supported by a community of users and developers, with resources available through forums and online guides.
 * **Limitations**: Advanced features and official support services are reserved for premium versions.
 
-Ideal for smaller teams and those with the capability to manage their IT infrastructure, Community is a versatile choice for organizations prioritizing privacy and customization.
+Ideal for smaller teams and those with the capability to manage their IT infrastructure, Community is a versatile choice for organizations who prioritize the ownership and privacy of their conversations.
 
 ## Plan Comparison and Pricing
 
