@@ -2,7 +2,7 @@
 
 Rocket.Chat is a middle tier application server, by itself it does not handle SSL. However, Rocket.Chat works well with several industrial grade, battle-tested reverse proxy servers (see nginx below, for example) that you can configure to handle SSL.
 
-**Note:** You must use the outside https address for the value at `ROOT_URL` in \[\[Section 3|Deploy-Rocket.Chat-without-docker#3-download-rocketchat]] above. This includes the `https://` and leave off the port number. So instead of `ROOT_URL=http://localhost:3000` use something like `https://your_hostname.com`
+**Note:** When deploying Rocket.Chat, you must set the `ROOT_URL`  parameter to a HTTPS address without including a port number. So instead of `ROOT_URL=http://localhost:3000`, use something like `https://your_hostname.com`
 
 **Note:** When setting up a reverse proxy in front of your Rocket.Chat server you need to configure Rocket.Chat to use the correct clientAddress. The rate limiter (and maybe other features) will not work properly if this is not done. Set `HTTP_FORWARDED_COUNT` Environment variable to the correct number of proxies in front of Rocket.Chat. If you are using snap there's documentation how to do it [here](https://docs.rocket.chat/deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps).
 
@@ -90,7 +90,7 @@ location ~ ^/.* {
 
 ## Running behind an Apache SSL Reverse Proxy
 
-**Note:** You must use the outside https address for the value at `ROOT_URL` in \[\[Section 3|Deploy-Rocket.Chat-without-docker#3-download-rocketchat]] above. This includes the `https://` and leave off the port number. So instead of `ROOT_URL=http://localhost:3000` use something like `https://your_hostname.com`
+**Note:** When deploying Rocket.Chat, you must set the `ROOT_URL` parameter to a HTTPS address without including a port number.  So instead of `ROOT_URL=http://localhost:3000`, use something like `https://your_hostname.com`
 
 Run this as root:
 
