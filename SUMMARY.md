@@ -428,7 +428,6 @@
   * [Accessing your workspace FAQs](resources/frequently-asked-questions/accessing-your-workspace-faqs.md)
   * [License FAQs](resources/frequently-asked-questions/license-faqs/README.md)
     * [Trial FAQ](resources/frequently-asked-questions/license-faqs/trial-faq.md)
-    * [Fair License](resources/frequently-asked-questions/license-faqs/fair-license.md)
     * [Downgrade behavior](resources/frequently-asked-questions/license-faqs/downgrade-behavior.md)
   * [My Account FAQs](resources/frequently-asked-questions/my-account-faqs.md)
   * [Registration](resources/frequently-asked-questions/registration.md)
