@@ -1,74 +1,87 @@
 # Permissions
 
-Rocket.Chat provides a comprehensive and customizable permissions framework. Most user actions require specific permissions, enabling you to tailor user capabilities and visibility within the system.
+Permissions play a crucial role in maintaining the security and integrity of your workspace, ensuring that users have the right level of access to various functionalities and resources. Rocket.Chat provides a comprehensive permission-based framework for managing access to various features within your workspace.&#x20;
 
-To access this menu,
+To access the **Permissions** menu,
 
 * Navigate to **Administration** > **Workspace** > **Permissions**
 
 {% hint style="success" %}
-Permission changes are immediate and transparent. There is no need for users to log out, sign back in, or refresh the system for the revised permissions to take effect.
+Permission updates take effect instantly and visibly, without requiring users to log out, sign in again, or refresh the system.
 {% endhint %}
 
-## Roles
+### Roles
 
-A role refers to a set of permissions and privileges assigned to a user or a group of users within the workspace. They determine what actions and features a user can access and control within the Rocket.Chat environment. They are shown as little tags on the side of a username on messages. Rocket.Chat comes with a set of default roles that can be modified.&#x20;
+A role refers to a set of permissions and privileges assigned to a user or group of users that determine the actions and features the user can access and control within the workspace.
 
 {% hint style="info" %}
 See [roles-in-rocket.chat.md](../../../setup-and-configure/roles-in-rocket.chat.md "mention") to learn more about roles.
 {% endhint %}
 
-### Scope of Roles
+#### Scope of Roles
 
-Rocket.Chat provides a comprehensive role-based permission system, which includes two distinct scopes: the Global Scope and the Room Scope. These scopes serve different purposes and offer various permissions that users can assign.
+Rocket.Chat roles are categorized into **Global** and **Room** scopes.
 
-#### Global Scope
+**Global Scope**
 
-A Global Scope Role applies to the entire workspace; _for example —`admin`_. They can be assigned permissions relevant at the server level and not specific to individual [rooms](../rooms.md) or [channels](../../user-guides/rooms/channels/). For example, **Create a Team** is a permission that is applicable server-wide, enabling users to create teams regardless of the room or channel they are currently in.
+Global Scope roles are designed to provide users with permissions that apply to the entire workspace; _for example — `Admin`_. They can be assigned permissions relevant at the server level and not specific to individual [rooms](../rooms.md) or [channels](../../user-guides/rooms/channels/). For example, **Create a Team** is a permission that is applicable server-wide, enabling users to create teams regardless of the room or channel they are currently in.
 
-#### Room Scope
+**Room Scope**
 
 Room scope roles are designed to provide users with specific permissions within individual [rooms](../rooms.md), _for example - `Moderator`_. Room scope permissions are helpful when managing room-specific activities and interactions. For example, you can assign the **Edit Room** permission to a **Moderator** role. However, a user must be set as a moderator in a room before they can edit that room information.
 
 {% hint style="info" %}
-While you can globally assign some room roles to a user when creating or editing the user, it would only make meaning once the role is assigned to that user in the specific room.
+While you can globally assign some room roles to a user when creating or editing the user, it takes effect once the role is assigned to that user in a specific room.
 {% endhint %}
 
-### Creating Custom Roles
+#### **Default Roles**
 
-As a workspace administrator, you can create new roles with custom permissions for your workspace.
+Every Rocket.chat workspace has some default roles which include the following:
+
+* **admin** `(Users)` - Have access to all settings and workspace administrator tools.
+* **moderator** `(Subscriptions)` - Have moderation permissions for a channel. It must be assigned by the [room](../../user-guides/rooms/) owner.
+* **owner** `(Subscriptions)` - Have owner permissions for a room. Users who create a room become the owner of that room. They can also assign more owners for that room.
+* **user** `(Users)` - Normal user rights. Most users receive this role when registering in the workspace.
+* **bot** `(Users)` - Special Role for bot users, with some permissions related to bot functionality.
+* **leader** `(Subscriptions)` - It is used when setting a `leader` in a [room](../rooms.md). Leaders appear on the header of a channel.
+* **anonymous** `(Users)` - Unauthenticated users that access the workspace when the `Allow Anonymous Read` setting is activated.
+* **guest** `(Users)` - Anonymous users that want to write and participate in rooms when the `Allow Anonymous Read` and `Allow Anonymous Write` settings are activated.
+* **livechat-agent** `(Users)` - Omnichannel [agents](../../omnichannel/agents.md). They can answer to Live Chat requests.
+* **livechat-manager** `(Users)` - Omnichannel [managers](../../omnichannel/managers.md), can manage agents and guests.
+* **livechat-guest** `(Users)` - Users coming from a Live Chat room.
+
+#### **Creating Custom Roles**
+
+As a workspace administrator, you can create new roles and assign specific permissions to them in your workspace.
 
 {% hint style="info" %}
-From Rocket.Chat `6.0.x` and above, creating and editing roles is only available on the ![](../../../.gitbook/assets/Premium.svg) [plans](../../../readme/our-plans.md).
+For Rocket.Chat workspaces on version 6.x.x and above, **creating new roles and editing custom role permissions** are exclusively accessible to workspaces subscribed to any of Rocket.Chat's [premium plans](../../../readme/our-plans.md).
 {% endhint %}
 
-To create a new role,
+To **create a new role**,
 
 * Navigate to **Administration** > **Workspace** > **Permissions**
 * Click on **New role**
 * A side panel opens, provide the details required
   * **Role**: Name of the role.
   * **Description**: Set a description of the role.
-  * **Scope**: Select what [scope](./#scope-of-roles) the role is to take effect on.
-* **Save**
+  * **Scope**: Select what [scope](./#scope-of-roles) of the role.
+* Hit **Save**
 
-You can now allocate [permissions](./#permissions-available) to the role by checking the checkbox corresponding to each permission beneath the role.
+{% hint style="success" %}
+To assign [permissions](./#permissions-available) to a role, check the corresponding permission checkbox under the role.
+{% endhint %}
 
-### Default Roles
+To **edit/delete a role**,
 
-* **admin** `(Users)` - Have access to all settings and administrator tools.
-* **moderator** `(Subscriptions)` - Have moderation permissions for a channel. It has to be elected by a channel owner.
-* **owner** `(Subscriptions)` - Have owner permissions for a channel. Users who create a channel become the owner of that channel. They can also elect more owners for that channel.
-* **user** `(Users)` - Normal user rights. Most users receive this role when registering.
-* **bot** `(Users)` - Special Role for bot users, with some permissions related to bot functionality.
-* **leader** `(Subscriptions)` - it doesn't have any special permissions but is used when setting a `leader` to a channel. Leaders appear on the header of a channel.
-* **anonymous** `(Users)` - unauthenticated users that access the server when the `Allow Anonymous Read` setting is activated.
-* **guest** `(Users)` - anonymous users that want to write and participate in channels when the `Allow Anonymous Read` and `Allow Anonymous Write` settings are activated.
-* **livechat-agent** `(Users)` - Agents of Live Chat. They can answer to Live Chat requests.
-* **livechat-manager** `(Users)` - Manager of Live Chat, can manage agents and guests.
-* **livechat-guest** `(Users)` - Users coming from a Live Chat channel.
+* Click the role.
+* Update the required details and click **Save** to edit the role**.**
+* Click **Delete** to delete the role.
+* Click **Users in Role** to see the users who have been assigned to that particular role.
 
 ## Permissions&#x20;
+
+The permissions you can assign to a role on your workspace include the following:
 
 | Name                                                                  | Codebase Name                                    | Purpose                                                                                                                                                                                                                                                                                                          |
 | --------------------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -251,3 +264,5 @@ You can now allocate [permissions](./#permissions-available) to the role by chec
 | Can Audit                                                             | `can-audit`                                      | Permission to access the Message Auditing Panel                                                                                                                                                                                                                                                                  |
 | Can Audit Log                                                         | `can-audit-log`                                  | Permission to check the details about who used the Message Auditing Panel and their search results                                                                                                                                                                                                               |
 | Allow file upload on mobile devices                                   | `Allow file download on mobile devices`          | permission to allow mobile users to be able to download and upload files from and to the server                                                                                                                                                                                                                  |
+
+By carefully managing permissions, administrators can provide a safe space for collaboration. As we move on to the next section, we'll discuss managing permissions for workspace settings.

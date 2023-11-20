@@ -13,7 +13,7 @@ By default, there are three major Roles available in Rocket.Chat Rooms:
 * **Moderator**: This role is designed to help keep the Room organized and on-topic. Moderators can delete messages, kick users out, and pin important messages to the top of the Room.
 
 {% hint style="success" %}
-With an [Enterprise ](../../workspace-administration/settings/enterprise.md)workspace, you can [create custom Roles](../../workspace-administration/permissions/#creating-custom-roles) as needed.
+You can [create custom roles](../../workspace-administration/permissions/#creating-custom-roles) to suit your needs, but this feature is only available for enterprise workspaces.&#x20;
 {% endhint %}
 
 ### Assigning Room Roles
@@ -47,4 +47,6 @@ To remove a role:
 * Click Kebab menu on the right against the user. A dropdown is seen.
 * From the dropdown, click **Remove as \<role>** to remove the role previously assigned to the user.
 
-Learn more about Rocket.Chat [Roles ](../../../setup-and-configure/roles-in-rocket.chat.md)and [Permissions](../../workspace-administration/permissions/).
+{% hint style="info" %}
+See the official documentation to learn more about Rocket.Chat [Roles ](../../../setup-and-configure/roles-in-rocket.chat.md)and [Permissions](../../workspace-administration/permissions/).
+{% endhint %}
