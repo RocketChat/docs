@@ -1,23 +1,16 @@
----
-description: >-
-  A team is a digital workspace where teammates can collaborate and work
-  together towards a common goal.
----
-
 # Teams
 
-A **Team** can have multiple [channels](../channels/). In Rocket.Chat, **Team** is a digital workspace that allows you to manage multiple users simultaneously, making it easier for you to collaborate with teammates. For example, you have a team in your workspace for all core members that contains a list of channels you want them to belong to. If you add a new core member to that team, they have access to all the channels in that team. There will be no need to add them to those channels individually.
+&#x20;In Rocket.Chat, a **Team** is a digital workspace that allows you to manage multiple users simultaneously, where teammates can collaborate and work together towards a common goal. A **Team** can have multiple [channels](../channels/). For example, you have a team in your workspace for all core members of your organization that contains a list of channels you want them to belong to. If you add a new core member to that team, they automatically have access to all the channels in that team. There will be no need to add them to those channels individually.
 
-**Teams** are available to both community and enterprise clients. They are identified by: ![](<../../../../.gitbook/assets/team (2).png>)
+Teams are identified by: ![](<../../../../.gitbook/assets/team (2).png>)
 
-\
 **Teams** can be made private so that only invited members are allowed to join or public so that all Rocket.Chat users can see them. Each **Team** may consist of channels, which may also be either [public ](../channels/#public-channels)or [private](../channels/#private-channels).
 
 ## Team Privacy and Encryption
 
 #### Read-Only Teams
 
-Only authorized users (users with write permissions) can send messages in read-only teams. All other users can react to messages on this channel.
+Only authorized users with write permissions can send messages in read-only teams. All other users can react to messages on this channel.
 
 #### Broadcast Teams
 
@@ -31,6 +24,10 @@ However, it differs from read-only teams in the following ways:
 #### Encrypted Teams
 
 Encrypted teams have end-to-end encryption enabled across all messages exchanged by the Team members.
+
+## Mention Teams
+
+With Teams, you don’t need to remember everyone’s name to communicate with a team quickly. Just mention a Team — @engineers, for instance — and all members will get notified instantly.
 
 {% hint style="info" %}
 To learn more, see [Teams: Efficiently Manage Your Remote Team on Rocket.Chat](https://www.rocket.chat/blog/teams).
@@ -52,6 +49,8 @@ To learn more, see [Teams: Efficiently Manage Your Remote Team on Rocket.Chat](h
 [manage-team-channels.md](manage-team-channels.md)
 {% endcontent-ref %}
 
-{% content-ref url="teams-enterprise-edition.md" %}
-[teams-enterprise-edition.md](teams-enterprise-edition.md)
+{% content-ref url="teams-premium-plan.md" %}
+[teams-premium-plan.md](teams-premium-plan.md)
 {% endcontent-ref %}
+
+From facilitating quick communication through team mentions to ensuring secure, end-to-end encrypted messages, Rocket.Chat Teams offers a versatile solution for remote team management. As we delve into the next section, we'll guide you on how to [create your own Team](create-a-new-team.md).
