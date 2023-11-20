@@ -1,8 +1,7 @@
 # License Application
 
-{% hint style="success" %}
-* November 20, 2023 will be the sunset date for allowing connections between our cloud services and workspaces running legacy versions of Rocket.Chat that are outside our support window. November 20, 2023 will also be the sunset date for allowing connections between our official mobile and desktop apps and workspaces running legacy versions of Rocket.Chat that are outside our support window. If you are on a legacy unsupported server, we strongly recommend you update to the latest version of Rocket.Chat to access your cloud portal, mobile and desktop apps.
-* Rocket.Chat versions receive support for six months after release.
+{% hint style="info" %}
+Effective December 6, 2023, Rocket.Chat will cease support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
 {% endhint %}
 
 In the realm of open-source communication, Rocket.Chat, has always been at the forefront of providing secure and scalable solutions. To gain a comprehensive understanding of Rocket.Chat's extensive capabilities, we recommend exploring our [premium plans](https://www.rocket.chat/pricing). Acquiring a Rocket.Chat license for your workspace unlocks these additional functionalities.&#x20;
