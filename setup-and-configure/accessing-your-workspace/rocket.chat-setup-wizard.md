@@ -1,22 +1,10 @@
 # Rocket.Chat Setup Wizard
 
-In the digital age, effective communication is the key to success for any team. Rocket.Chat offers a platform that fosters collaboration and productivity. This guide will walk you through the process of setting up and configuring your Rocket.Chat workspace using the setup wizard. By the end of this guide, you'll be well-equipped to create, access, and manage your workspace effectively.
+This guide will walk you through the process of setting up and configuring your Rocket.Chat workspace using the **Setup Wizard.** By the end of this guide, you'll be well-equipped to create, access, and manage your workspace effectively.
 
-You can access Rocket.Chat in two ways:
+After [deploying your workspace](../../deploy/deploy-rocket.chat/), [access your workspace](./) and follow these steps:&#x20;
 
-1. **Adding Rocket.Chat server to Desktop Client**: Once you've successfully installed the [Rocket.Chat Desktop Client](../installing-client-apps/#desktop-apps), initiate the application. Input the URL of your server. Proceed by clicking on **Connect**. If you wish to incorporate additional servers into the Desktop client application, click on the plus symbol on the navigation menu's left side.
-2. **Accessing Rocket.Chat via a Web Browser**: To access Rocket.Chat through a web browser, navigate to the address bar, and input the URL associated with your Rocket.Chat server.
-
-{% hint style="info" %}
-* Rocket.Chat provides multiple [Rocket.Chat Client Apps](../installing-client-apps/) that can be used for the user interface.&#x20;
-* The URL of your Rocket.Chat server may be a local host or domain server URL, depending on how you deploy your workspace.
-{% endhint %}
-
-### Setup Wizard
-
-Rocket.Chat's setup wizard is designed to streamline the process of creating and configuring your workspace. To access your workspace, you'll need to follow these steps:
-
-*   **Admin Information**: Fill in this information as it is needed to create the first user who automatically becomes an administrator of your Rocket.Chat workspace.&#x20;
+*   **Admin Information**: The first user to access the workspace is recognized as the workspace administrator. Fill in the required user information to create the admin account.
 
     * **Full name**: Set the first and last name.
     * **Username**: Specify the admin username.
@@ -24,35 +12,28 @@ Rocket.Chat's setup wizard is designed to streamline the process of creating and
     * **Password**: Create a password for the admin user.
 
     Click **Next** to continue.
-*   **Organization Information**: This involves information about your organization. The required information about your organization includes the following:
+*   **Organization Information**: This involves information about your organization. Update the following required information about your organization:
 
     * **Organization name**: Your organization name.
-    * **Organization type**: The type of organization.
     * **Organization industry**: The industry your organization operates under.
     * **Organization size**: The size of the organization
     * **Country**: The country in which your organization is.
 
     Click **Continue** to proceed to the third step.
-* **Register Your Server**: You are asked to [register your workspace](rocket.chat-setup-wizard.md#register-workspace) to the Rocket.Chat Cloud or link the workspace to an existing Rocket.Chat Cloud account.
-  * Check the box if you want to receive security updates.
-  * Agree to the [**Terms**](../../legal-and-compliance/rocket.chat-terms/terms-of-service/) and [**Privacy Policy**](broken-reference) and **Register**.
-  * Open your email inbox and click **verify registration** to ensure the security codes match.
+* **Register Your Workspace**:  Add an admin email to register your workspace to [Rocket.Chat Cloud](https://cloud.rocket.chat/) or link the workspace to an existing [Rocket.Chat Cloud](https://cloud.rocket.chat/) account.
+  * Agree to the [**Terms**](../../legal-and-compliance/rocket.chat-terms/terms-of-service/) and [**Privacy Policy**](broken-reference)&#x20;
+  * Click **Register** to proceed to the last step.
+* An email with a confirmation link is sent to the admin email you provided. Open the email and click **Verify Registration** to ensure the security codes match.
 
-Once you've completed these steps, your workspace will be set up and ready to use. You can access it by logging in with your admin credentials. You can change the information provided here in [setup-wizard.md](../../use-rocket.chat/workspace-administration/settings/setup-wizard.md "mention").
+Once you've completed these steps, your workspace will be set up and ready to use. You can access it by logging in with your admin credentials. You can always update these setup information in **Workspace Administration** [setup-wizard.md](../../use-rocket.chat/workspace-administration/settings/setup-wizard.md "mention").
 
-{% hint style="info" %}
-With a registered workspace, you have access to benefits like:
-
-* Access to [**Marketplace apps**](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/).
-* [**Omnichannel**](../../use-rocket.chat/omnichannel/)
-* Mobile [**push notifications**](../../use-rocket.chat/rocket.chat-mobile/push-notifications/)**.**
+{% hint style="success" %}
+Apply [trials](../trials/ "mention")or subscribe to any of [Rocket.Chat's premium plan](../../readme/our-plans.md) to access our premium features on your workspace.
 {% endhint %}
 
-<details>
+**Information collected for registered workspaces**
 
-<summary>Information collected for Registered workspaces</summary>
-
-When registering your workspace, Rocket.Chat collects the following information about your workspace.
+When registering your workspace, Rocket.Chat collects the following information about your workspace:
 
 * The **workspace Id** to help identify the workspace.
 * The organization's **address.**
@@ -61,7 +42,7 @@ When registering your workspace, Rocket.Chat collects the following information 
 * The number of **seats** for the workspace.
 * The **account name.**
 * The **organization type**.&#x20;
-* What **industry** the organization belongs to.
+* The **industry** that the organization belongs to.
 * The **size of the organization**.&#x20;
 * The **country** of the organization.
 * **Language** set for the workspace.&#x20;
@@ -72,10 +53,4 @@ When registering your workspace, Rocket.Chat collects the following information 
 * The **deployment platform.**
 * The **version of Rocket.Chat** deployed.
 
-</details>
-
-{% hint style="success" %}
-Your workspace is ready for use, and you can apply for an [Enterprise Plan trial](../trials/) to test out all the features that come with an enterprise workspace.
-{% endhint %}
-
-With your Rocket.Chat workspace setup completed, you can [invite users](inviting-users.md) to collaborate with. Learn more about how to use Rocket.Chat following the [user-guides](../../use-rocket.chat/user-guides/ "mention").
+As the workspace administrator, refer to [workspace-administration](../../use-rocket.chat/workspace-administration/ "mention") to learn more about managing your workspace. Now that your workspace is set and ready to use, proceed to [#add-new-users](../../use-rocket.chat/workspace-administration/users/#add-new-users "mention") or [#invite-users-to-your-rocket.chat-workspace](../../use-rocket.chat/workspace-administration/users/#invite-users-to-your-rocket.chat-workspace "mention"). To learn more about using Rocket.Chat, see [user-guides](../../use-rocket.chat/user-guides/ "mention").

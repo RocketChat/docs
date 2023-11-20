@@ -4,7 +4,17 @@ description: Onboard workspace administrators
 
 # Accessing Your Workspace
 
-The first user to set up a Rocket.Chat workspace is the administrator. They can invite other users, have access to manage the entire workspace, and customize the workspace.
+In the era of digital advancements, effective communication stands as the cornerstone of success for any organization. Rocket.Chat provides a platform designed to enhance collaboration and boost productivity through effective communication.
+
+The two primary ways to access Rocket.Chat is through a **web browser** or **desktop application**.
+
+* **Adding Rocket.Chat Server to Desktop Client:** After successfully installing the [Rocket.Chat Desktop Client](../installing-client-apps/#desktop-apps), launch the application. Enter your workspace URL and click **Connect**. To add more servers to the Desktop client app, click the plus icon on the left side of navigation menu.
+* **Accessing Rocket.Chat via a Web Browser:** To access your Rocket.Chat workspace, open a web browser and visit your workspace URL.
+
+{% hint style="info" %}
+* Your Rocket.Chat workspace URL can be a localhost or domain server URL, based on your [deployment method](../../deploy/deploy-rocket.chat/).
+* Rocket.Chat offers various [client applications](../installing-client-apps/) that can be used for the user interface.
+{% endhint %}
 
 [**Rocket.Chat Setup Wizard**](rocket.chat-setup-wizard.md): The simple onboarding steps to setting up your new workspace with a client for other access and usage.
 
