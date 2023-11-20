@@ -1,6 +1,6 @@
 # Teams
 
-&#x20;In Rocket.Chat, a **Team** is a digital workspace that allows you to manage multiple users simultaneously, where teammates can collaborate and work together towards a common goal. A **Team** can have multiple [channels](../channels/). For example, you have a team in your workspace for all core members of your organization that contains a list of channels you want them to belong to. If you add a new core member to that team, they automatically have access to all the channels in that team. There will be no need to add them to those channels individually.
+A **Team** in Rocket.Chat is essentially a collection of [channels](../channels/), each serving a specific purpose or project. For instance, consider a scenario where your workspace includes a Team designated for the core members of your organization. This Team encompasses a variety of channels tailored to the needs and roles of these core members. The primary advantage here is the automation of access privileges: when a new core member joins the Team, they are instantly granted access to all associated channels. This eliminates the need for manually adding them to each channel, thereby enhancing efficiency and reducing administrative overhead
 
 Teams are identified by: ![](<../../../../.gitbook/assets/team (2).png>)
 
@@ -30,27 +30,7 @@ Encrypted teams have end-to-end encryption enabled across all messages exchanged
 With Teams, you don’t need to remember everyone’s name to communicate with a team quickly. Just mention a Team — @engineers, for instance — and all members will get notified instantly.
 
 {% hint style="info" %}
-To learn more, see [Teams: Efficiently Manage Your Remote Team on Rocket.Chat](https://www.rocket.chat/blog/teams).
+To learn more, see [Teams: Efficiently Manage Your Remote Team on Rocket.Chat](https://www.rocket.chat/blog/teams)
 {% endhint %}
 
-{% content-ref url="create-a-new-team.md" %}
-[create-a-new-team.md](create-a-new-team.md)
-{% endcontent-ref %}
-
-{% content-ref url="edit-a-team.md" %}
-[edit-a-team.md](edit-a-team.md)
-{% endcontent-ref %}
-
-{% content-ref url="manage-team-members.md" %}
-[manage-team-members.md](manage-team-members.md)
-{% endcontent-ref %}
-
-{% content-ref url="manage-team-channels.md" %}
-[manage-team-channels.md](manage-team-channels.md)
-{% endcontent-ref %}
-
-{% content-ref url="teams-premium-plan.md" %}
-[teams-premium-plan.md](teams-premium-plan.md)
-{% endcontent-ref %}
-
-From facilitating quick communication through team mentions to ensuring secure, end-to-end encrypted messages, Rocket.Chat Teams offers a versatile solution for remote team management. As we delve into the next section, we'll guide you on how to [create your own Team](create-a-new-team.md).
+In summary, the Team feature in Rocket.Chat represents a significant step towards more efficient and cohesive team management. By centralizing access to multiple channels under a single Team umbrella, it simplifies the process of managing group memberships and ensures seamless integration of new members into the organizational workflow.&#x20;
