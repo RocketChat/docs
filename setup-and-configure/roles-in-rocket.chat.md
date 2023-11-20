@@ -2,7 +2,7 @@
 
 Roles and permissions are integral to managing access in any digital workspace. Rocket.Chat employs a comprehensive role-based system for secure and efficient workspace management. This system allows administrators to assign roles, each with a specific set of [permissions](../use-rocket.chat/workspace-administration/permissions/), to control user actions and access levels within the workspace.
 
-A role refers to a set of permissions and privileges assigned to a user or a group of users within the workspace. They determine the actions and features a user can access and control in Rocket.Chat. They are displayed as mini tags beside the username on messages.
+A role refers to a set of permissions and privileges assigned to a user or a group of users within the workspace. They determine the controls and features a user can access or handle in a workspace. They are displayed as mini tags beside the username on messages.
 
 {% hint style="info" %}
 See [#roles](../use-rocket.chat/workspace-administration/permissions/#roles "mention") to learn more about the default roles and role scopes in your workspace.

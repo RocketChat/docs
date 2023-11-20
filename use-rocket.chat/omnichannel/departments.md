@@ -50,6 +50,10 @@ Omnichannel behavior varies based on how many departments are created in the wor
 
 When a department is no longer needed, but you don't want to delete it, you can archive it and unarchive it later if a need arises.
 
+{% hint style="info" %}
+For [community](../../readme/our-plans.md) workspaces below version `6.0` with multiple departments, archiving departments can be instrumental if you want to avoid upgrading your workspace [plan](../../readme/our-plans.md). Instead of deleting a department when you no longer need it, you can archive it. When the need for that department arise, you can unarchive it. This gives [community](../../readme/our-plans.md) workspaces below version `6.0` the ability to retain the same number of departments they had before the upgrade.
+{% endhint %}
+
 To archive an **Omnichannel** department,
 
 * Click the **kebab** menu across the department you want to archive.
