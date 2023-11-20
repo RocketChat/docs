@@ -1,7 +1,3 @@
----
-description: Guide to be followed by omnichannel agents to assist customers.
----
-
 # Omnichannel Agent's Guides
 
 As an Omnichannel agent, you can log in to your workspace using your username or email, and password. You can handle omnichannel or Livechat conversations.

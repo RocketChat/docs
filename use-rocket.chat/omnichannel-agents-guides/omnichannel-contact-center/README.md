@@ -1,75 +1,81 @@
 # Omnichannel Contact Center
 
-The Omnichannel Contact Center is a directory of contacts, chats, and calls.
+The Omnichannel Contact Center is a directory of contacts, chats, and calls in your omnichannel workspace. Rocket.Chat provides the contact center to enable workspace administrators, managers, and agents to effectively oversee and manage omnichannel contacts, calls, and chats. This guide will teach you how to manage omnichannel contacts using the **Contact Center**.
 
-To access the Contact Center, click the <img src="../../../.gitbook/assets/contact-center.png" alt="" data-size="line"> icon on the Omnichannel navigation tab, and a screen displaying all the records is seen.
+To access the **Omnichannel Contact Center**,&#x20;
+
+* Click the <img src="../../../.gitbook/assets/contact-center.png" alt="" data-size="line"> icon on the Omnichannel navigation sidebar.
 
 {% hint style="info" %}
-As an **omnichannel agent,** you can view contacts, chats, and calls you have served.
-
-As an **omnichannel manager,** you can view contacts, chats, and calls served by your department.
-
-As a **workspace administrator,** you can view contacts, chats, and calls served on your entire workspace.
+* As an **omnichannel** [**agent**](../../omnichannel/agents.md)**,** you can view contacts, chats, and calls you have served in the contact center.
+* As an **omnichannel** [**manager**](../../omnichannel/managers.md)**,** you can view contacts, chats, and calls served by your department in the contact center.
+* As a **workspace administrator,** you can view all the contacts, chats, and calls served on the workspace in the contact center.
 {% endhint %}
 
 ## Contacts
 
-Under the **Contacts** tab, you can see all the contacts you have been serving as an Omnichannel agent.
+The **Contacts** tab displays all the contacts you've assisted as an agent in the workspace.
 
-### Search omnichannel contact
+**Search for Omnichannel Contact**
 
-Omnichannel contacts are searched by username, name, email, or phone. To search for a contact:
+You can search for Omnichannel contacts by username, name, email, or phone. To search for a contact,
 
-* Click the **Contacts** tab if you are on a different tab.
+* Click the **Contacts** tab.
 * Enter your search query in the **Search** box.
-* Click on the contact of interest, and the details are revealed on a panel on the right.
+* From the search results, click the contact you're searching for. The details of the contact is displayed in the **Contact information** interface.
 
-Searching can also be done using [custom field](../../workspace-administration/settings/account-settings/custom-fields.md) values. This is only possible if the **Searchable** option of the field is enabled when creating the contact.
+{% hint style="info" %}
+Enable the **Searchable** option when creating a [custom field](../../omnichannel/custom-fields.md) to allow search by custom field values.
+{% endhint %}
 
-### View/edit omnichannel contact information
+**View/Edit omnichannel contact information**
 
-To view or edit a contact:
+To view or edit a contact,
 
 * Click the contact.
-* The details of the contact are revealed on a panel on the right.
+* The details of the contact is displayed in the **Contact information** interface.
 * Click **Edit** to start editing.
-* Update the fields you are interested in.
-* Click **Save** to save the contact details or click **Cancel** otherwise.
+* Update the required fields.
+* Click **Save** to save the contact details.
 
-### Create a new omnichannel contact
+**Create a new omnichannel contact**
 
-To create a new contact:
+To create a new contact,
 
 * Click the **Contacts** tab.
 * Click **New Contact.**
 * Enter the new contact's name, email, phone, and email.
-* Hit **Save.**
+* Assign a [manager](../../omnichannel/managers.md) to the contact.
 
 {% hint style="success" %}
-As a Rocket.Chat enterprise user; you can [assign an Omnichannel contact to a particular manager](omnichannel-contact-manager-assignment.md).&#x20;
+The [**Contact Manager option**](omnichannel-contact-manager-assignment.md) is exclusively available to workspaces subscribed to any of Rocket.Chat's [premium plans](../../../readme/our-plans.md).
 {% endhint %}
+
+* Hit **Save.**
 
 ## Chats
 
-All the conversations appear under the **Chats** tab.&#x20;
+All the omnichannel conversations are displayed under the **Chats** tab.&#x20;
 
 {% hint style="info" %}
-No open chat appears in the **Contact Center**. A chat appears in the **Contact** **Center** as soon as it is closed because **Contact Center** only deals with archived conversations.
+There are no open chats in the **Contact Center**. A chat is displayed in the **Contact** **Center** as soon as it is closed because the **Contact Center** only handles archived conversations.
 {% endhint %}
 
-* Search to open your desired conversation details
-* Click **Edit** to edit the conversation details
-* Click <img src="../../../.gitbook/assets/image (85).png" alt="" data-size="line"> on top right on **Room Information** panel to view the full conversation
-* You can perform all the [quick actions ](../omnichannel-conversation.md)applicable to the **Closed** state of the conversation.
+To view/edit a chat,
+
+* Search or select a chat. The details are displayed in the **Room Information** interface.
+* Click **Edit** to update the room details. You can edit the topic, [tags](../../omnichannel/tags.md), [SLA policy](../../omnichannel/sla-policies.md), or [priority](../../omnichannel/priorities.md) of the room.
+* Click <img src="../../../.gitbook/assets/image (85).png" alt="" data-size="line"> on top right on **Room Information** panel to view the full conversation.
+* You can perform all the [quick actions](../omnichannel-conversation.md#omnichannel-conversation-quick-actions) applicable to **closed** conversations.
 
 ## Calls
 
-You can see all the calls under the **Calls** tab.
+All Omnichannel calls are displayed under the **Calls** tab. You can search for calls by name or phone number.
 
-### Search omnichannel call
-
-To search omnichannel calls:
+To search for a call,
 
 * Click the **Calls** tab.
-* Enter the search query in the **Search** box. Search is done based on name or phone number.
-* Click on a call row to see the details. The details of the call are revealed on the right, such as the duration, the wrap-up notes, and the last time you had a call with the contact.
+* Enter the search query in the **Search** box.&#x20;
+* From the search results, click the call you're searching for. The call details are displayed including the wrap-up notes and the last time you had a call with the contact.
+
+The Omnichannel Contact Center remains essential for accessing and updating omnichannel chats, contacts, and call details in your workspace. Moving on to the next section, we'll take a look at assigning omnichannel contacts to a dedicated manager.\
