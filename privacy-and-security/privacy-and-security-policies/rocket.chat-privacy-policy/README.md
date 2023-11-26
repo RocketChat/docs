@@ -437,10 +437,6 @@ We do not support Do Not Track ("DNT") signals. Do Not Track is a preference you
 
 You can enable or disable Do Not Track by visiting your web browser's Preferences or Settings page.&#x20;
 
-### Protected Health Information, Payment Card Information, and other Sensitive Information
-
-Rocket.Chat does not need, nor does it request, any protected health information (“PHI”) governed by the Health Insurance Portability and Accountability Act and its implementing regulations (“HIPAA”), nor does it need or request any non-public consumer personally identifiable information or financial information governed by the Gramm-Leach-Bliley Act (“GLBA”) or payment card information covered by the Payment Card Industry Data Security Standards (“PCI DSS”) in order to provide its Services. You should never disclose, or allow to be disclosed, PHI, information protected by PCI DSS or GLBA, or other sensitive information to Rocket.Chat. In the event that an end-user discloses such information (which would be a violation of this Customer Privacy Policy), you, on behalf of your organization, acknowledge that Rocket.Chat does not take steps to ensure its Services are HIPAA or PCI-compliant. All obligations of the aforementioned regulations remain solely with you on behalf of your organization. While users have the capability to upload PHI as user-generated data, please note that even if the workspace's user-generated content is hosted in our [cloud hosting offering](./#specific-provisions-to-our-cloud-offerings), we do not have access to this data, and we bear no liability for it.
-
 ### Specific Provisions to Lei Geral de Proteção de Dados “LGPD”
 
 Rocket.Chat only processes, stores, and collects data according to this Privacy Policy, which covers the main LGPD requirements. For a dedicated section about the DPO appointment letter and Frequently asked questions about LGDP compliance at Rocket.Chat, please refer to the Privacy Center, where we have a dedicated page for LGPD Compliance.&#x20;
