@@ -113,8 +113,8 @@ async function generateTable({ owner, repo } = {}) {
 		})
 	}
 
-	addLine('Rocket.Chat Release', 'Latest Version                                                         ', ' Released At', ' End of Life');
-	addLine('-------------------', '-----------------------------------------------------------------------', '-----------:', '-----------:');
+	addLine('Rocket.Chat Release', ' Released At', ' End of Life');
+	addLine('-------------------', '-----------:', '-----------:');
 
 	releaseData.forEach(({release, latestPatch}) => {
 		const url = `[${latestPatch.version}](${latestPatch.url})`;
@@ -126,7 +126,7 @@ async function generateTable({ owner, repo } = {}) {
 		// if (release.lts) {
 		// 	addLine(`**${release.version} (LTS)**`, url, `**${releasedAt}**`, `**${endOfLife}**`);
 		// } else {
-		addLine(release.version, url, releasedAt, endOfLife);
+		addLine(`${release.version} (${url})`, releasedAt, endOfLife);
 		// }
 	});
 
@@ -136,12 +136,12 @@ async function generateTable({ owner, repo } = {}) {
 	const text = [];
 	for (const line of tableLines) {
 		const columns = line.map((col, index) => String(col)[index < 2 ? 'padEnd' : 'padStart'](columnSizes[index] || 0, ' '));
-		text.push(`| ${columns[0]} | ${columns[1]} | ${columns[2]} | ${columns[3]} |`);
+		text.push(`| ${columns[0]} | ${columns[1]} | ${columns[2]} |`);
 	}
 
 	const file = (await fs.readFile(filePath)).toString();
 
-	const reg = /\| Rocket\.Chat Release \| Latest Version.+(\n\|.+)*/m;
+	const reg = /\| Rocket\.Chat Release \| .+(\n\|.+)*/m;
 
 	const oldTable = file.match(reg)[0];
 
