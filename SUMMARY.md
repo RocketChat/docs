@@ -491,6 +491,7 @@
 * [Rocket.Chat Terms](legal-and-compliance/rocket.chat-terms/README.md)
   * [Terms of Service](legal-and-compliance/rocket.chat-terms/terms-of-service/README.md)
     * [Cloud Deployment Terms/Cloud Terms](legal-and-compliance/rocket.chat-terms/terms-of-service/cloud-deployment-terms-cloud-terms.md)
+  * [Accessibility statement](legal-and-compliance/rocket.chat-terms/accessibility-statement.md)
   * [Master Services Agreement for Self Managed Workspaces](legal-and-compliance/rocket.chat-terms/master-services-agreement-for-self-managed-workspaces.md)
   * [Supplemental Terms](legal-and-compliance/rocket.chat-terms/supplemental-terms/README.md)
     * [Master Service Agreement for Professional Services](legal-and-compliance/rocket.chat-terms/supplemental-terms/master-service-agreement-for-professional-services.md)
