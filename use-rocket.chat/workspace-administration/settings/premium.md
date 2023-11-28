@@ -1,22 +1,17 @@
 ---
-description: Manually update your Enterprise license
+description: Premium License Management
 ---
 
 # Premium
 
-Use this setting to update your workspace license manually. See [trials](../../../setup-and-configure/trials/ "mention") to get a trial period.
+In certain scenarios, you may need to update your workspace license manually. This is typically not required if your workspace is registered and the license is provided by Rocket.Chat Cloud.
+
+Navigate to **`Administration > Workspace > Settings > Premium`** to access the license update settings.
+
+* **Premium License**: Enter your workspace's license key here.
+* **Status**: Displays the current status of your license, indicating whether it is valid or not.
+* **Saving Changes**: After making any modifications, ensure to click the 'Save changes' button to apply them.
 
 {% hint style="info" %}
-If your workspace is registered and the license is provided by Rocket.Chat Cloud, you don't need to update the license here manually. Kindly refer to the official guide to [apply your workspace license](../../../setup-and-configure/license-application.md#i-have-a-self-managed-registered-workspace).
+If your workspace is registered and the license is provided by Rocket.Chat Cloud, you don't need to update the license here manually. For detailed guidance on [apply for your workspace license](../../../setup-and-configure/license-application.md#i-have-a-self-managed-registered-workspace), consult the official Rocket.Chat documentation. See [trials](../../../setup-and-configure/trials/ "mention") to get a trial period.
 {% endhint %}
-
-To access this menu, go to **Administration** > **Workspace** > **Settings** > **Premium**.
-
-* **Premium License**: A field to enter the license for your workspace [plan](../../../readme/our-plans.md).
-* **Status**: This shows the current status of your applied license, whether it is valid or invalid.
-
-When all your changes are done, hit the **Save changes** button to commit it.
-
-{% content-ref url="../../../setup-and-configure/license-application.md" %}
-[license-application.md](../../../setup-and-configure/license-application.md)
-{% endcontent-ref %}
