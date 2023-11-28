@@ -1,7 +1,7 @@
 # Installing Client Apps
 
 {% hint style="info" %}
-Effective December 6, 2023, Rocket.Chat will cease support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
+Effective December 15, 2023, Rocket.Chat will cease support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
 {% endhint %}
 
 Congratulations on successfully deploying the Rocket.Chat server! You've taken a significant step towards creating a robust and secure communication environment. The next crucial phase is to install the Rocket.Chat client applications on your preferred devices, and this guide is designed to help you achieve just that.

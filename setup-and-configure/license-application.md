@@ -1,10 +1,10 @@
 # License Application
 
 {% hint style="info" %}
-Effective December 6, 2023, Rocket.Chat will cease support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
+Effective December 15, 2023, Rocket.Chat will cease support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
 {% endhint %}
 
-In the realm of open-source communication, Rocket.Chat, has always been at the forefront of providing secure and scalable solutions. To gain a comprehensive understanding of Rocket.Chat's extensive capabilities, we recommend exploring our [premium plans](https://www.rocket.chat/pricing). Acquiring a Rocket.Chat license for your workspace unlocks these additional functionalities.&#x20;
+In the realm of open-source communication, Rocket.Chat, has always been at the forefront of providing secure and scalable solutions. To gain a comprehensive understanding of Rocket.We recommend exploring Chat's extensive capabilities and our [premium plans](https://www.rocket.chat/pricing). Acquiring a Rocket.Chat license for your workspace unlocks these additional functionalities.&#x20;
 
 The following instructions provide a detailed guide to apply your workspace license to different kinds of workspaces.
 
@@ -14,7 +14,7 @@ Before you proceed, [contact sales](https://www.rocket.chat/sales-contact) to ge
 
 ## I have a SaaS Workspace&#x20;
 
-You have a SaaS workspace that you've purchased an additional license for.
+You have a SaaS workspace for which you've purchased an additional license.
 
 To apply the license,
 

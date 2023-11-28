@@ -5,7 +5,7 @@ description: You can view the available and installed Rocket.Chat Apps and manag
 # Rocket.Chat Marketplace
 
 {% hint style="info" %}
-Effective December 6, 2023, Rocket.Chat will cease support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
+Effective December 15, 2023, Rocket.Chat will cease support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
 {% endhint %}
 
 Rocket.Chat apps are extensions that users can add to their workspaces to customize and enhance their functionality. Apps can be integrated with third-party services.
@@ -121,4 +121,4 @@ Some apps are part of the **Enterprise Plan** offerings. You don't have to purch
 If you are subscribed to Rocket.Chat's **Enterprise Plan**, you can install and enable any number of paid and free apps available in the marketplace on your workspace.
 {% endhint %}
 
-If you are looking for the manual/user guide of a particular app, check [rocket.chat-public-apps-guides](rocket.chat-public-apps-guides/ "mention") or search for it within the documentation.
+For technical documentation or user guides specific to an app, please consult[rocket.chat-public-apps-guides](rocket.chat-public-apps-guides/ "mention") or search within the provided documentation resource.
