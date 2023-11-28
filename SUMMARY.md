@@ -261,7 +261,7 @@
       * [Queue Types (Routing Algorithm)](use-rocket.chat/workspace-administration/settings/omnichannel-admins-guide/queue-types-routing-algorithm.md)
     * [OTR](use-rocket.chat/workspace-administration/settings/otr.md)
     * [Outlook Calendar](use-rocket.chat/workspace-administration/settings/outlook-calendar.md)
-    * [Premium](use-rocket.chat/workspace-administration/settings/enterprise.md)
+    * [Premium](use-rocket.chat/workspace-administration/settings/premium.md)
     * [Push](use-rocket.chat/workspace-administration/settings/push.md)
     * [Rate Limiter](use-rocket.chat/workspace-administration/settings/rate-limiter.md)
     * [Retention Policy](use-rocket.chat/workspace-administration/settings/retention-policies.md)

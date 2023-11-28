@@ -58,7 +58,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**Outlook Calendar**](outlook-calendar.md): Sync your Outlook events and reminders to your workspace so that you can always stay on top of your schedule.
 
-[**Premium**](enterprise.md): Manage your workspace license.
+[**Premium**](premium.md): Manage your workspace license.
 
 [**Push**](push.md): Customize notification behaviors for users using the Rocket.Chat mobile apps.
 
