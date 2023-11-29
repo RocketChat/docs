@@ -1,6 +1,6 @@
 # GitHub App
 
-The Rocket.Chat GitHub App improves collaboration between developers by seamlessly integrating GitHub into your Rocket.Chat workspace. The app allows users to perform a wide range of tasks from the workspace, including searching for and sharing Issues and Pull Requests, subscribing to Repository Events, creating new Issues, and reviewing and merging Pull Requests
+The Rocket.Chat GitHub App enhances the collaboration between developers by seamlessly integrating GitHub and Rocket.Chat. This app enables users to perform various tasks, such as searching and sharing Issues and Pull Requests, subscribing to Repository events, creating new Issues, reviewing and merging Pull Requests, and more, directly from the Rocket.Chat workspace.
 
 ## Install GitHub App
 

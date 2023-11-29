@@ -33,8 +33,8 @@ Omnichannel apps give consumers a choice to engage with you on their favorite ch
 [dialogflow-app](dialogflow-app/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="twitter-app/" %}
+[twitter-app](twitter-app/)
 {% endcontent-ref %}
 
 {% content-ref url="facebook-app/" %}

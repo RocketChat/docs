@@ -64,6 +64,6 @@ If you don't find this bot user in your workspace, you can create it and assign 
 To delete the app from your workspace,
 
 * Go to **Administration > Apps > Installed.**
-* Click th**e kebab menu** against the Dialogflow app\*\*.\*\*
+* Click th**e kebab menu** against the Dialogflow app.
 * Select **Uninstall**.
 * Click **Yes** to confirm the uninstallation.

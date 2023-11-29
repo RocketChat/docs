@@ -1,13 +1,9 @@
----
-description: Enterprise only feature
----
-
 # Pexip app
 
 <figure><img src="../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-This app can also work in a fully air-gapped environment. If you are an Enterprise customer running an air-gapped workspace, follow the [Air-gapped App installation guide](../../../setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md) and continue with the configuration instructions below.
+This app can also work in a fully air-gapped environment. If your workspace is subscribed to any of Rocket.Chat's premium [plans](../../../readme/our-plans.md), follow the [Air-gapped App installation guide](../../../setup-and-configure/rocket.chat-air-gapped-deployment/air-gapped-app-installation.md), and continue with the configuration instructions below.
 {% endhint %}
 
 [Pexip](https://www.pexip.com/) is a purpose-built video communication platform that empowers large organizations to transform their operations with video conferencing. Pexip’s unique technology provides a customized solution for an innovative and fully bespoke application of video, data privacy, and business continuity for secure spaces and frictionless collaboration for connected spaces.
@@ -28,7 +24,7 @@ Ensure that the Rocket.Chat external policy server can connect to the Pexip Infi
 
 For a complete setup, here are some requirements you need:
 
-* A Rocket.Chat workspace with Enterprise license.
+* A workspace subscribed to any of Rocket.Chat's premium [plans](../../../readme/our-plans.md).
 * A [Pexip infinity server deployed](https://docs.pexip.com/admin/installation\_overview.htm) with:
   * [Valid certificates and intermediate certificates](https://docs.pexip.com/admin/certificate\_management.htm).
   * [A suitable network routing between Rocket.Chat and Pexip Infinity](https://docs.pexip.com/admin/port\_usage.htm)

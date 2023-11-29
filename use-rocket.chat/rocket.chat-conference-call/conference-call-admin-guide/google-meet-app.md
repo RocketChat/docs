@@ -1,10 +1,6 @@
----
-description: Enterprise only feature
----
-
 # Google Meet app
 
-![](<../../../.gitbook/assets/2021-06-10\_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (25).jpg>)
+<figure><img src="../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **The app is currently in Beta, and some features may not function as expected.**
@@ -12,7 +8,7 @@ description: Enterprise only feature
 
 ## Download the Google Meet app
 
-To download the BigBlueButton app,
+To download the Google Meet app,
 
 * Go to **Administration > Apps > Marketplace.**
 * Search for the **Google Meet** app.
@@ -24,7 +20,7 @@ To download the BigBlueButton app,
 To configure the **Google Meet** video conference on your workspace,
 
 * Go to **Administration > Settings > Conference Call**
-* Select **GoogleMeet** as your **Default Provider**
+* Select **Google Meet** as your **default provider**
 * Select the options that meet your needs and click **Save changes.**
 
 The Google Meet app is successfully configured on your server. Follow[conference-call-users-guide.md](../conference-call-users-guide.md "mention") to start using it.

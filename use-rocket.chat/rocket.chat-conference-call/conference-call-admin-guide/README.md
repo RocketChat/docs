@@ -13,7 +13,7 @@ To configure conference calls on your Rocket.Chat workspace,
 The default provider options will be empty if you have not set up any conference call apps from the marketplace.
 {% endhint %}
 
-[**Pexip app**](pexip-app.md) (Enterprise only): Learn to configure conference calls with the Pexip app in Rocket.Chat.
+[**Pexip app**](pexip-app.md): Learn to configure conference calls with the Pexip app in Rocket.Chat.
 
 [**Jitsi app**](jitsi-app.md): Configure conference calls with the Jitsi app in Rocket.Chat.
 

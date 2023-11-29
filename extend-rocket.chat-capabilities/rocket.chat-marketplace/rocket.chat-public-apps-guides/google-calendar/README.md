@@ -3,7 +3,7 @@
 <figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-**Note:** Some of the supported functionalities will only be available to workspaces running version 6.2.0 and higher.
+Some of the supported functionalities will only be available to workspaces running version 6.2.0 and higher.
 {% endhint %}
 
 The Rocket.Chat Google Calendar App connects your Google Calendar with Rocket.Chat to stay organized and get a daily rundown of your events. It gives users the ability to do the following :
