@@ -50,7 +50,7 @@ Need some help? Join our community forums https://forums.rocket.chat and https:/
 ```
 
 {% hint style="success" %}
-Behind the scenes, the image uses Docker to handle the deployment. See [Broken link](broken-reference "mention")to learn how to manage docker deployments.
+Behind the scenes, the image uses Docker to handle the deployment. See [deploy-with-docker-and-docker-compose.md](../deploy-with-docker-and-docker-compose.md "mention") to learn how to manage docker deployments.
 {% endhint %}
 
 #### Enabling HTTPS
