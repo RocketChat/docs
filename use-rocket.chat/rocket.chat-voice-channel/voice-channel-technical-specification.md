@@ -9,13 +9,15 @@ Through VoIP technologies, Rocket.Chat is able to incorporate telephony-based co
 
 ### How does VoIP work?
 
-Voice over IP converts your voice into a digital signal, compresses it, and sends it over the internet. A VoIP service provider sets up the call between all participants. The digital data is then uncompressed into the sound that you hear through your handset on the receiving end.
+Voice over IP converts your voice into a digital signal, compresses it, and sends it over the internet. A VoIP service provider sets up the call between all participants. The digital data is then uncompressed into the sound you hear through your handset on the receiving end.
 
 ### Why is VoIP Important for the Omnichannel environment?
 
 In a contact center environment, Voice is an essential and influential channel. Agents using an omnichannel stack should be able to make audio/video calls to external PSTN networks, cellphone networks, and VoIP endpoints supporting SIP protocol.
 
-Once Rocket.Chat voice-as-channel or VoIP is in place; our Enterprise Edition provides many call center features.
+{% hint style="info" %}
+After configuring Rocket.Chat voice-as-channel or VoIP in your workspace, subscribe to any of Rocket.Chat's [premium plans](../../readme/our-plans.md) and explore the various Voice Channel features.
+{% endhint %}
 
 ## Rocket.Chat VoIP architecture
 

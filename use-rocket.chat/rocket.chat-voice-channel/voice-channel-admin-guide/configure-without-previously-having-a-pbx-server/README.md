@@ -1,15 +1,11 @@
 # Configure without previously having a PBX server
 
-PBX is a piece of architecture that forwards incoming calls to Rocket.Chat from telephony service providers. We are using it for call bookkeeping data like how many queues there are, extension data, agents allocated to a queue, routing system, and others.
+PBX is an architecture that forwards incoming calls from telephony service providers to Rocket.Chat. It is used for call bookkeeping, which includes information such as the number of queues, extension data, agent allocation to a queue, and routing system.
 
-For the purpose of this guide, we are using [FreePBX](https://www.freepbx.org/) as our call management server. You can use any Asterisk distro of your choice.
+For the purpose of this guide, we'll be using [FreePBX](https://www.freepbx.org/) as the call management server. You can use any Asterisk distro of your choice.
 
 {% hint style="info" %}
-Requirements:
-
-* Asterisk 16.19.0 or higher (We used FreePBX 16.0.10.40 with Asterisk 18.6.0)
-* Valid SSL certificate (valid domain)
-* You need Rocket.Chat version 5.0.0 or higher.
+Before you proceed, see [getting-started-with-voice-channel.md](../../getting-started-with-voice-channel.md "mention") to view all the necessary requirements.
 {% endhint %}
 
 ## 1. Prepare FreePBX

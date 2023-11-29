@@ -1,46 +1,21 @@
 # Rocket.Chat Voice Channel
 
-**Omnichannel** means fulfilling customers’ needs at every touchpoint and providing the same functionality and experience across channels, no matter how a customer chooses to interact. The Voice channel is the most crucial touchpoint because it is the human connection people crave. A standalone telephony solution creates data silos with disconnected insights into customer interactions and agent performance across channels.
+In the realm of Omnichannel strategy, the key goal is to consistently meet customer needs across various communication channels. The Voice channel feature is pivotal in this context, offering a crucial human connection that fulfills the innate desire for personal engagement.
 
-To fulfill this gap and avoid fragmented experiences for agents and customers, Rocket.Chat offers a voice channel feature set. It is a key part of our Omnichannel contact center because we know your customers expect to be able to get through to your live agent on the phone when they need to. It helps you get the most out of your in-house or remote back-office teams and deliver the experience that meets your customers' expectations.
+Voice Channel allows agents to initiate and receive calls with visitors or customers in your Omnichannel workspace. Using a standalone phone system creates separate data sets, making it challenging to track customer interactions and agent performance across multiple channels. To bridge this gap and prevent fragmented experiences for both agents and customers, Rocket.Chat provides the Voice Channel feature which is an essential component of the [Omnichannel contact center](../omnichannel-agents-guides/omnichannel-contact-center/). Voice Channel recognizes the importance of enabling customers to connect with an [agent ](../omnichannel/agents.md)via phone calls when necessary. In this guide, you'll learn how to use Rocket.Chat's Voice Channel in your workspace.
 
-In the following articles, we help you onboard and start using **Rocket.Chat's voice channel** as an extension to our Omnichannel feature set, with outstanding customer experience.
+**Inbound Calls**
 
-***
+[**Inbound Calls**](voice-channel-agent-guides/how-to-take-a-call-in-rocket.chat-voice-channel.md) are valuable for establishing a local presence in diverse global markets. They enable you to receive calls on your workspace, initiated by customers using either their mobile or landline phones.
 
-### **Features**
+**Outbound Calls**
 
-<details>
+With [**Outbound Calls**](voice-channel-agent-guides/how-to-initiate-an-outbound-call-as-an-agent.md), you can initiate phone calls with your customers directly from your workspace.
 
-<summary><strong>Inbound Calls</strong></summary>
+### Voice Channel Plan Comparison
 
-[**Inbound Calls**](voice-channel-agent-guides/how-to-take-a-call-in-rocket.chat-voice-channel.md) are great for having local visibility in various markets around the world. These calls allow you to receive calls on your business platform initiated by your customers using their mobile or landline phones.
+Here are the various capabilities of Rocket.Chat's Voice Channel across our various [plans](../../readme/our-plans.md):
 
-</details>
+<table><thead><tr><th width="173" align="center">Feature</th><th align="center">Community </th><th align="center">Starter </th><th>Pro</th><th>Enterprise</th></tr></thead><tbody><tr><td align="center"><strong>Inbound calls</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td align="center"><strong>Call history</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td align="center"><strong>In-App SIP</strong><a href="voice-channel-admin-guide/configure-with-an-active-pbx-server/"> <strong>extension management</strong></a></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td align="center"><strong>Outbound calls</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td align="center"><strong>Calls on hold</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td align="center"><strong>Call Dialer</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td align="center"><strong>Call notes</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td align="center"><strong>Device selection</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td align="center"><strong>Click to call</strong> </td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td align="center"><strong>Call transfer (Coming soon)</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td align="center"><strong>VoIP on mobile (Coming soon)</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td align="center"><strong>Voicemail (Coming soon)</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr></tbody></table>
 
-<details>
-
-<summary>Outbound Calls</summary>
-
-With [**outbound calls**](voice-channel-agent-guides/how-to-initiate-an-outbound-call-as-an-agent.md), you can initiate calls toward your customers.
-
-</details>
-
-### Key capabilities of the Voice Channel
-
-|                                                  Feature                                                  | Community Edition | Enterprise Edition |
-| :-------------------------------------------------------------------------------------------------------: | :---------------: | :----------------: |
-|                                             **Inbound calls**                                             |       **✓**       |        **✓**       |
-|                                              **Call history**                                             |       **✓**       |        **✓**       |
-| **In-App SIP**[ **extension management**](voice-channel-admin-guide/configure-with-an-active-pbx-server/) |       **✓**       |        **✓**       |
-|                                               **Call mute**                                               |       **✓**       |        **✓**       |
-|                                             **Outbound calls**                                            |       **x**       |        **✓**       |
-|                                             **Calls on hold**                                             |       **x**       |        **✓**       |
-|                                              **Call Dialer**                                              |       **x**       |        **✓**       |
-|                                               **Call notes**                                              |       **x**       |        **✓**       |
-|                                            **Device selection**                                           |       **x**       |        **✓**       |
-|                                               Call transfer                                               |       **x**       |     Coming soon    |
-|                                               VoIP on mobile                                              |       **x**       |     Coming soon    |
-|                                                 Voicemail                                                 |       **x**       |     Coming soon    |
-
-To configure **Voice Channel** on your Rocket.Chat workspace, follow the [**administration guide**](voice-channel-admin-guide/). If you have it configured already, follow the [**agent's guide**](voice-channel-agent-guides/) to start using it.
+Voice Channel  holds a unique position in the omnichannel landscape, offering a direct line of communication between customers and agents. This human connection fosters trust and understanding, enabling businesses to resolve issues promptly and effectively. By integrating the voice channel into their omnichannel strategies, businesses can provide a complete and satisfying customer experience that extends beyond the digital realm. Moving to the next section, we'll discuss the [preparation steps for using Voice Channel](getting-started-with-voice-channel.md). Kindly refer to [voice-channel-admin-guide](voice-channel-admin-guide/ "mention") if you're a workspace administrator, and [voice-channel-agent-guides](voice-channel-agent-guides/ "mention") if you're an [agent](../omnichannel/agents.md).
