@@ -21,7 +21,7 @@ After [deploying your workspace](../../deploy/deploy-rocket.chat/), [access your
 
     Click **Continue** to proceed to the third step.
 * **Register Your Workspace**:  Add an admin email to register your workspace to [Rocket.Chat Cloud](https://cloud.rocket.chat/) or link the workspace to an existing [Rocket.Chat Cloud](https://cloud.rocket.chat/) account.
-  * Agree to the [**Terms**](../../legal-and-compliance/rocket.chat-terms/terms-of-service.md) and [**Privacy Policy**](broken-reference)&#x20;
+  * Agree to the [**Terms**](../../applicable-terms/rocket.chat-terms/terms-of-service.md) and [**Privacy Policy**](broken-reference)&#x20;
   * Click **Register** to proceed to the last step.
 * An email with a confirmation link is sent to the admin email you provided. Open the email and click **Verify Registration** to ensure the security codes match.
 

@@ -1,8 +1,10 @@
 ---
-description: Rocket.Chat Enterprise Support Services
+description: Support SLA
 ---
 
-# Enterprise Support Plans
+# Support Services Level Agreement
+
+## Rocket.Chat Enterprise Support Services&#x20;
 
 Rocket.Chat offers a variety of support packages for all customers:
 

@@ -1,8 +1,8 @@
-# Rocket.Chat Privacy Policy
+# Privacy Policy
 
 _Effective date:_ October 20th, 2023
 
-> We have made some updates to our privacy policy which will come into effect on the effective date specified. These changes include modifications related to "[workspace tracking and statistics data](./#the-type-of-data-we-collect)," which will be implemented upon the release of Rocket.Chat 6.5. To access the previous version of this Privacy Policy, click [here](../../../legal-and-compliance/legal-center/agreements-and-policies-history-and-notices.md).
+> We have made some updates to our privacy policy which will come into effect on the effective date specified. These changes include modifications related to "[workspace tracking and statistics data](./#the-type-of-data-we-collect)," which will be implemented upon the release of Rocket.Chat 6.5. To access the previous version of this Privacy Policy, click [here](../../legal-center/agreements-and-policies-history-and-notices.md).
 
 ***
 
@@ -211,7 +211,7 @@ Your information, including Personal Data, may be transferred to — and maintai
 
 If you are located outside the United States and choose to provide information to us, please note that we transfer the data, including Personal Data, to the United States or other jurisdictions deemed not to have an adequate level of data protection deemed by the competent authorities of your residence. Rocket.Chat Technologies Corp. will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy, and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
 
-To access privacy agreements relevant to your jurisdiction and obtain information about privacy policies specific to your jurisdiction or company industry, please visit the [Privacy Center](../../privacy-center/).
+To access privacy agreements relevant to your jurisdiction and obtain information about privacy policies specific to your jurisdiction or company industry, please visit the [Privacy Center](../).
 
 </details>
 
@@ -443,7 +443,7 @@ Rocket.Chat only processes, stores, and collects data according to this Privacy 
 
 ### Specific Provisions for General Data Protection Regulation “GDPR)” and Other Applicable Regulations
 
-Where required, we provide the option to sign [Standard Contractual Clauses](https://docs.rocket.chat/privacy-and-security/privacy-center/gdpr) approved by the European Commission to ensure sufficient data protection or other relevant mechanisms based on the Customer's requirements or applicable agreements in the customer's jurisdiction. For additional details, please visit the [Privacy Center.](../../privacy-center/)\
+Where required, we provide the option to sign [Standard Contractual Clauses](https://docs.rocket.chat/privacy-and-security/privacy-center/gdpr) approved by the European Commission to ensure sufficient data protection or other relevant mechanisms based on the Customer's requirements or applicable agreements in the customer's jurisdiction. For additional details, please visit the [Privacy Center.](../)\
 
 
 </details>
@@ -482,4 +482,4 @@ If you wish to delete your account at Rocket.Chat Open Server, you can do so by 
 
 ## Previous versions of this Privacy Policy
 
-Rocket.Chat is committed to transparency as part of its values. As such, we provide previous versions of our Agreements and Policies in our [Agreements and Policies History.](../../../legal-and-compliance/legal-center/agreements-and-policies-history-and-notices.md)
+Rocket.Chat is committed to transparency as part of its values. As such, we provide previous versions of our Agreements and Policies in our [Agreements and Policies History.](../../legal-center/agreements-and-policies-history-and-notices.md)

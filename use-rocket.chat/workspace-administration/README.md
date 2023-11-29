@@ -54,4 +54,4 @@ This menu is only accessible to users who have been assigned the Administrator r
 
 [**Settings**](settings/): Rocket.Chat is very flexible thanks to the vast amount of settings that allow you to configure your workspace the way you prefer.
 
-If the information in this section doesn't solve your problem, look at these [other resources](../../setup-and-configure/advanced-workspace-management/) to find something that meets your needs. Alternatively, you can [get help](../../resources/rocket.chats-support-structure/) from our community or premium support services.
+If the information in this section doesn't solve your problem, look at these [other resources](../../setup-and-configure/advanced-workspace-management/) to find something that meets your needs. Alternatively, you can [get help](../../customer-center/rocket.chats-support-structure/) from our community or premium support services.

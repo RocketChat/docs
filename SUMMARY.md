@@ -455,11 +455,6 @@
   * [Brand Usage Examples](resources/brand-and-visual-guidelines/brand-usage-examples.md)
   * [Media Kit](resources/brand-and-visual-guidelines/compositionsed.md)
 * [Development Docs](resources/development-docs.md)
-* [Rocket.Chat's Support Structure](resources/rocket.chats-support-structure/README.md)
-  * [Enterprise Support and Version Durability](resources/rocket.chats-support-structure/enterprise-support-and-version-durability/README.md)
-    * [Enterprise Support Plans](resources/rocket.chats-support-structure/enterprise-support-and-version-durability/enterprise-support-plans.md)
-  * [Community Resources](resources/rocket.chats-support-structure/community-resources.md)
-  * [Legacy Support](resources/rocket.chats-support-structure/legacy-support.md)
 
 ## Contribute to Rocket.Chat
 
@@ -467,6 +462,17 @@
 * [How Can I Help?](https://developer.rocket.chat/contribute-to-rocket.chat/ways-to-contribute)
 * [Github Sponsorship](contribute-to-rocket.chat/github-sponsorship.md)
 * [Annual Contribution Programs](contribute-to-rocket.chat/annual-contribution-programs.md)
+
+## APPLICABLE TERMS
+
+* [Customer Terms of Service](applicable-terms/rocket.chat-terms/README.md)
+  * [Terms of Service](applicable-terms/rocket.chat-terms/terms-of-service.md)
+  * [Master Services Agreement for Self Managed Workspaces](applicable-terms/rocket.chat-terms/master-services-agreement-for-self-managed-workspaces.md)
+  * [Additional Terms](applicable-terms/rocket.chat-terms/supplemental-terms/README.md)
+    * [Terms of Use and Acceptable Use Policy](applicable-terms/rocket.chat-terms/supplemental-terms/terms-of-use-and-acceptable-use-policy.md)
+    * [Service-Specific Terms](applicable-terms/rocket.chat-terms/supplemental-terms/service-specific-terms/README.md)
+      * [Master Service Agreement for Professional Services](applicable-terms/rocket.chat-terms/supplemental-terms/service-specific-terms/master-service-agreement-for-professional-services.md)
+      * [Cloud Deployment Terms/Cloud Terms](applicable-terms/rocket.chat-terms/supplemental-terms/service-specific-terms/cloud-deployment-terms-cloud-terms.md)
 
 ## CUSTOMER CENTER
 
@@ -484,23 +490,17 @@
     * [Data Processing Agreement](customer-center/privacy-center/gdpr/data-processing-agreement.md)
   * [LGDP](customer-center/privacy-center/lgdp/README.md)
     * [Nomeação do Encarregado pelo Tratamento de Dados Pessoais](customer-center/privacy-center/lgdp/nomeacao-do-encarregado-pelo-tratamento-de-dados-pessoais.md)
-
-## LEGAL AND COMPLIANCE
-
-* [Rocket.Chat Terms](legal-and-compliance/rocket.chat-terms/README.md)
-  * [Terms of Service](legal-and-compliance/rocket.chat-terms/terms-of-service.md)
-  * [Master Services Agreement for Self Managed Workspaces](legal-and-compliance/rocket.chat-terms/master-services-agreement-for-self-managed-workspaces.md)
-  * [Additional Terms](legal-and-compliance/rocket.chat-terms/supplemental-terms/README.md)
-    * [Service-Specific Terms](legal-and-compliance/rocket.chat-terms/supplemental-terms/service-specific-terms/README.md)
-      * [Master Service Agreement for Professional Services](legal-and-compliance/rocket.chat-terms/supplemental-terms/service-specific-terms/master-service-agreement-for-professional-services.md)
-      * [Cloud Deployment Terms/Cloud Terms](legal-and-compliance/rocket.chat-terms/supplemental-terms/service-specific-terms/cloud-deployment-terms-cloud-terms.md)
-* [Compliance Center](legal-and-compliance/compliance-center/README.md)
-  * [DMCA Policy](legal-and-compliance/compliance-center/dmca-policy.md)
-  * [Law Enforcement](legal-and-compliance/compliance-center/law-enforcement/README.md)
-    * [Guidelines for Law Enforcement](legal-and-compliance/compliance-center/law-enforcement/guidelines-for-law-enforcement.md)
-    * [Censorship and Harmful Content](legal-and-compliance/compliance-center/law-enforcement/censorship-and-harmful-content.md)
-    * [Server Lookup](legal-and-compliance/compliance-center/law-enforcement/server-lookup.md)
-  * [Code of Conduct: Services](legal-and-compliance/compliance-center/code-of-conduct-services.md)
-  * [Accessibility statement](legal-and-compliance/compliance-center/accessibility-statement.md)
-* [Legal Center](legal-and-compliance/legal-center.md)
-  * [Agreements and Policies History and Notices](legal-and-compliance/legal-center/agreements-and-policies-history-and-notices.md)
+* [Support Center](customer-center/rocket.chats-support-structure/README.md)
+  * [Support Services Level Agreement](customer-center/rocket.chats-support-structure/enterprise-support-plans/README.md)
+    * [Legacy Support](customer-center/rocket.chats-support-structure/enterprise-support-plans/legacy-support.md)
+  * [Enterprise Support and Version Durability](customer-center/rocket.chats-support-structure/enterprise-support-and-version-durability.md)
+  * [Community Resources](customer-center/rocket.chats-support-structure/community-resources.md)
+* [Legal and Compliance Center](customer-center/legal-center/README.md)
+  * [Accessibility statement](customer-center/legal-center/accessibility-statement.md)
+  * [Code of Conduct: Services](customer-center/legal-center/code-of-conduct-services.md)
+  * [Agreements and Policies History and Notices](customer-center/legal-center/agreements-and-policies-history-and-notices.md)
+  * [DMCA Policy](customer-center/legal-center/dmca-policy.md)
+  * [Law Enforcement](customer-center/legal-center/law-enforcement/README.md)
+    * [Guidelines for Law Enforcement](customer-center/legal-center/law-enforcement/guidelines-for-law-enforcement.md)
+    * [Censorship and Harmful Content](customer-center/legal-center/law-enforcement/censorship-and-harmful-content.md)
+    * [Server Lookup](customer-center/legal-center/law-enforcement/server-lookup.md)
