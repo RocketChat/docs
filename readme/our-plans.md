@@ -13,10 +13,11 @@ The Rocket.Chat [**Enterprise Plan**](../setup-and-configure/trials/enterprise-t
 **Key Features:**
 
 * **Large-Scale Capacity**: Tailored for extensive, compliance-focused environments.
-* **Advanced Capabilities**: Includes support for multiple server instances, microservices architecture, and sophisticated user management.
+* **Advanced Capabilities**: Includes support for multiple server instances, microservices architecture, and sophisticated user management with an option to add [guest users](../use-rocket.chat/workspace-administration/users/guest-users.md), enhancing flexibility for varied communication needs.
 * **Compliance Tools**: Enhanced tools for meeting regulatory and compliance standards.
 * **Customization and Integration**: Greater flexibility in customization and integration with existing systems.
 * **Priority Support**: Access to priority support and dedicated account management.
+* **Hosting**: Standard, Premium, and Dedicated SaaS hosting.
 * **Scalability and Reliability**: Designed for high scalability and reliability, suitable for mission-critical operations.
 
 **Ideal for:**
@@ -37,7 +38,7 @@ Available from Rocket.Chat version 6.5 or higher Rocket.Chat [**Pro Plan**](../s
 * **User Capacity**: Designed for up to 500 users.
 * **Monthly Active Contacts**: Manage up to 15,000 omnichannel contacts.
 * **Customization**: Option to remove the Rocket.Chat watermark.
-* **Support & Hosting**: Standard support with an option for Cloud hosting.
+* **Support & Hosting**: Standard support with an option for standard SaaS hosting.
 
 **Ideal for:**
 
