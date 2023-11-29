@@ -12,7 +12,7 @@
    * **Advanced User Data Sync**: Provides a comprehensive synchronization of user data, ensuring that all relevant attributes and settings are consistently mirrored in Rocket.Chat.
 
 {% hint style="info" %}
-For an overview of the LDAP features available across our various [plans](../../../../readme/our-plans.md), please refer to [identity-management-plan-comparison.md](../../../../setup-and-configure/advanced-workspace-management/identity-management-plan-comparison.md "mention").
+For an overview of the LDAP features available across our various [plans](../../../../readme/our-plans.md), please refer to [identity-management-ee-vs-ce.md](../../../../setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md "mention").
 {% endhint %}
 
 To configure **LDAP** authentication,&#x20;
