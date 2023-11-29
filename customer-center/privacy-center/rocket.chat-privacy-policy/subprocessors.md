@@ -2,7 +2,7 @@
 
 Effective Date: May 29th, 2023
 
-We have updated this policy. For the previous version of this policy, please visit the [Agreements and Policies History.](../../legal-center/agreements-and-policies-history-and-notices.md)
+We have updated this policy. For the previous version of this policy, please visit the [Agreements and Policies History.](../../../legal-and-compliance/legal-center/agreements-and-policies-history-and-notices.md)
 
 The list below identifies sub-contractors (sub-processors) that may be engaged by Rocket.Chat to Process personal data during the provisioning of our Services.
 
@@ -75,4 +75,4 @@ For more information on Rocket.Chat's privacy practices, please visit our[ Priva
 
 ### Previous Versions of this Subprocessors List
 
-Rocket.Chat is committed to transparency as part of its values. As such, we provide previous versions of our Agreements and Policies in our [Agreements and Policies History.](../../legal-center/agreements-and-policies-history-and-notices.md)
+Rocket.Chat is committed to transparency as part of its values. As such, we provide previous versions of our Agreements and Policies in our [Agreements and Policies History.](../../../legal-and-compliance/legal-center/agreements-and-policies-history-and-notices.md)

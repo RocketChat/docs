@@ -2,7 +2,7 @@
 
 _Effective date:_ October 20th, 2023
 
-> We have made some updates to our privacy policy which will come into effect on the effective date specified. These changes include modifications related to "[workspace tracking and statistics data](./#the-type-of-data-we-collect)," which will be implemented upon the release of Rocket.Chat 6.5. To access the previous version of this Privacy Policy, click [here](../../legal-center/agreements-and-policies-history-and-notices.md).
+> We have made some updates to our privacy policy which will come into effect on the effective date specified. These changes include modifications related to "[workspace tracking and statistics data](./#the-type-of-data-we-collect)," which will be implemented upon the release of Rocket.Chat 6.5. To access the previous version of this Privacy Policy, click [here](../../../legal-and-compliance/legal-center/agreements-and-policies-history-and-notices.md).
 
 ***
 
@@ -482,4 +482,4 @@ If you wish to delete your account at Rocket.Chat Open Server, you can do so by 
 
 ## Previous versions of this Privacy Policy
 
-Rocket.Chat is committed to transparency as part of its values. As such, we provide previous versions of our Agreements and Policies in our [Agreements and Policies History.](../../legal-center/agreements-and-policies-history-and-notices.md)
+Rocket.Chat is committed to transparency as part of its values. As such, we provide previous versions of our Agreements and Policies in our [Agreements and Policies History.](../../../legal-and-compliance/legal-center/agreements-and-policies-history-and-notices.md)

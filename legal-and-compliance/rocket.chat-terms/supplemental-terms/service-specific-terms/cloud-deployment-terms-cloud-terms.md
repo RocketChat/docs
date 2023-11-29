@@ -1,4 +1,4 @@
-# Cloud Deployment Terms "Cloud Terms"
+# Cloud Services Terms
 
 Welcome to Rocket.Chat Cloud Services! Our Cloud Hosting Terms and Conditions ("Cloud Terms") apply to all users who have opted for Rocket.Chat Cloud hosting deployments. These terms set out the specific conditions for our Cloud Services Plans, including data management, Cloud Services Plans capabilities, and the obligations of both parties.
 

@@ -80,4 +80,4 @@ The SLA times listed are the time frames in which customers can expect to receiv
 
 24x7 - Support Specialist on-call 24 hours a day, 7 days a week.
 
-![](../../../.gitbook/assets/RC\_SupportPlan\_Matrix\_Legacy.png)
+![](../../.gitbook/assets/RC\_SupportPlan\_Matrix\_Legacy.png)

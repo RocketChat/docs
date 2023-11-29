@@ -1,2 +1,0 @@
-# Supplemental Terms
-

@@ -125,5 +125,5 @@ helm install rocketchat -f Values.yaml rocketchat/rocketchat
 * Once deployed, you should be able to access the Rocket.Chat using the configured host. You can convert your existing monolith deployment to using microservices by making the same changes mentioned in this document and running `helm upgrade` with the values file and the current deployment name instead of `helm install`.
 
 {% hint style="info" %}
-A complete guide on how to deploy with helm can be found in [deploy-with-kubernetes.md](../additional-deployment-methods/deploy-with-kubernetes.md "mention"). For multi-workspace deployment, please [contact support](../../../customer-center/rocket.chats-support-structure/).
+A complete guide on how to deploy with helm can be found in [deploy-with-kubernetes.md](../additional-deployment-methods/deploy-with-kubernetes.md "mention"). For multi-workspace deployment, please [contact support](../../../resources/rocket.chats-support-structure/).
 {% endhint %}
