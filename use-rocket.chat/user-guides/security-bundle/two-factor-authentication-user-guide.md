@@ -12,7 +12,7 @@ With 2FA enabled, a Rocket.Chat user is required to enter not only their usernam
 By default, 2FA is enabled with the email you used for signing up on the server.
 {% endhint %}
 
-To use 2FA, the Rocket.Chat workspace administrator must turn on the [Two Factor Authentication](../../workspace-administration/settings/account-settings/#two-factor-authentication) feature.
+To use 2FA, the Rocket.Chat workspace administrator must turn on the [Two Factor Authentication](../../workspace-administration/settings/accounts/#two-factor-authentication) feature.
 
 ## Enabling Two Factor Authentication
 

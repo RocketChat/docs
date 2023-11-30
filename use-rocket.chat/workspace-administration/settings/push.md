@@ -51,7 +51,7 @@ In Privacy, you can configure what information you want your push notification t
 For [Enterprise workspaces](premium.md), failure in fetching a message using the `message id` provided in the push data results in a "You have a new message" being sent.
 {% endhint %}
 
-With the push configuration completed, follow the  [#default-user-preferences](account-settings/#default-user-preferences "mention") guide to set the default user preferences for notinotificationsfication. Manage channel-based notifications using the [#channel-notifications](../../user-guides/rooms/channels/edit-a-channel.md#channel-notifications "mention") guide.
+With the push configuration completed, follow the  [#default-user-preferences](accounts/#default-user-preferences "mention") guide to set the default user preferences for notinotificationsfication. Manage channel-based notifications using the [#channel-notifications](../../user-guides/rooms/channels/edit-a-channel.md#channel-notifications "mention") guide.
 
 {% hint style="info" %}
 On some channels, notifications can stop if the number of users exceeds the set limit. You can set the limit in **Administration** > **General** > **Notifications**. See[#notifications](general/#notifications "mention") for more information.

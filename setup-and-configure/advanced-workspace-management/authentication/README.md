@@ -12,7 +12,7 @@ Rocket.Chat's basic authentication method involves the use of a username or emai
 
 [**OAuth**](../../../use-rocket.chat/workspace-administration/settings/oauth/)**:** Authorize users via third-party applications like Google and Github without sharing their login credentials.
 
-**External Authentication**: Rocket.Chat also supports external authentication. If you need to log in users from your website automatically, you can use the [iframe integration](../../../use-rocket.chat/workspace-administration/settings/account-settings/#iframe) in combination with [deeplinking](https://developer.rocket.chat/rocket.chat/deeplink) and resumeToken.&#x20;
+**External Authentication**: Rocket.Chat also supports external authentication. If you need to log in users from your website automatically, you can use the [iframe integration](../../../use-rocket.chat/workspace-administration/settings/accounts/#iframe) in combination with [deeplinking](https://developer.rocket.chat/rocket.chat/deeplink) and resumeToken.&#x20;
 
 ```
 # get the resumeToken from your REST API login - it's the authToken field

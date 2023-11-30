@@ -65,7 +65,7 @@ The deployment info card shows information related to your server deployment.
 * **Messages in Omnichannel**: The total number of messages in omnichannel.
 
 {% hint style="info" %}
-Click the **See on Engagement Dashboard** button to view more usage statistics on the [engagement-dashboard.md](engagement-dashboard.md "mention"). This button is disabled for workspaces on the community [plan](../../readme/our-plans.md).
+Click the **See on Engagement Dashboard** button to view more usage statistics on the [engagement.md](engagement.md "mention"). This button is disabled for workspaces on the community [plan](../../readme/our-plans.md).
 {% endhint %}
 
 ## Download Info

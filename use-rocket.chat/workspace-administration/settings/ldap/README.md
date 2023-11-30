@@ -33,7 +33,7 @@ These actions are exclusively available to workspaces subscribed to the [Enterpr
 {% endhint %}
 
 {% hint style="info" %}
-If you do not receive an alert confirming these actions, always consult the log under [view-logs.md](../../view-logs.md "mention") to check for their success or to identify any errors.&#x20;
+If you do not receive an alert confirming these actions, always consult the log under [reports.md](../../reports.md "mention") to check for their success or to identify any errors.&#x20;
 {% endhint %}
 
 Integrating LDAP with Rocket.Chat not only simplifies user management but also strengthens security and ensures data consistency across your digital ecosystem. As we move to the next section, we will delve deeper into the configuration process, guiding you through the steps to seamlessly integrate LDAP with your Rocket.Chat workspace, thereby unlocking its full potential.

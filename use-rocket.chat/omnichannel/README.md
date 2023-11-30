@@ -38,7 +38,7 @@ Now, the administrator and Rocket.Chat Omnichannel Manager can access _**Omnicha
 
 [**Department**](departments.md): Set up Omnichannel departments.
 
-[**Custom Fields**](../workspace-administration/settings/account-settings/custom-fields.md): Add custom fields to receive additional information from visitors during registration before initiating a Live Chat conversation.
+[**Custom Fields**](../workspace-administration/settings/accounts/custom-fields.md): Add custom fields to receive additional information from visitors during registration before initiating a Live Chat conversation.
 
 [**Livechat Triggers Manager's Guide**](livechat-triggers.md): Configure Omnichannel LiveChat trigger to open the LiveChat widget.
 

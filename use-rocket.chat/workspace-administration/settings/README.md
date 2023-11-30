@@ -6,7 +6,7 @@ description: These are the various settings for admin users to configure their w
 
 To access the settings page, go to **Administration** > **Workspace** > **Settings**.
 
-[**Accounts**](account-settings/): Common Rocket.Chat user account settings such as anonymous reads, usernames, passwords, and email modifications can be configured under Accounts.
+[**Accounts**](accounts/): Common Rocket.Chat user account settings such as anonymous reads, usernames, passwords, and email modifications can be configured under Accounts.
 
 [**Analytics**](analytics.md): Investigate how users interact with your workspace.
 
@@ -18,7 +18,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**Conference Call**](../../rocket.chat-conference-call/conference-call-admin-guide/): Choose Pexip or Jitsi as conference call providers for your Rocket.Chat workspace while enabling any for direct messages, private and public rooms, and teams.
 
-[**Custom Emoji Filesystem**](../custom-emoji.md): Specify whether to store emojis on GridFS or your storage.
+[**Custom Emoji Filesystem**](../emoji.md): Specify whether to store emojis on GridFS or your storage.
 
 [**Custom Sound Filesystem**](custom-sound-filesystem.md)**:** Find out how to specify how custom sounds are saved on your workspace.
 
