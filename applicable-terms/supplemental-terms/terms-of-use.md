@@ -34,7 +34,7 @@ Even though you are signing in to an existing workspace, these Terms of Use appl
 
 Other capitalized terms in the Terms of Use shall have the same meaning as defined in the [Terms of Service.](https://docs.rocket.chat/rocket.chat-legal/terms-of-service)
 
-1.
+1. TERMS THAT MAY APPLY TO YOU
 
 These Terms of Use refer to the following additional terms, which may also apply to your use of our Services:&#x20;
 
@@ -71,7 +71,7 @@ Before making any decisions or taking any actions based on the content on our pl
 
 3. ## ACCEPTABLE USE POLICY
 
-By using our Services, you agree to comply with our Acceptable Use Policy, which sets out the guidelines for expected behavior and conduct while using our Services. Failure to comply with the Acceptable Use Policy may suspend or terminate the Services.
+By using our Services, you agree to comply with our [Acceptable Use Policy](acceptable-use-policy.md), which sets out the guidelines for expected behavior and conduct while using our Services. Failure to comply with the [Acceptable Use Policy](acceptable-use-policy.md) may suspend or terminate the Services.
 
 4. ## LEGAL AGE
 
