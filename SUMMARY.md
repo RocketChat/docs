@@ -465,15 +465,14 @@
 
 ## APPLICABLE TERMS
 
-* [Customer Terms of Service](legal-and-compliance/rocket.chat-terms/README.md)
-  * [Terms of Service](legal-and-compliance/rocket.chat-terms/terms-of-service.md)
-  * [Master Services Agreement for Self Managed Workspaces](legal-and-compliance/rocket.chat-terms/master-services-agreement-for-self-managed-workspaces.md)
+* [Customer Terms of Service](applicable-terms/rocket.chat-terms.md)
 * [Additional Terms](applicable-terms/supplemental-terms/README.md)
   * [Terms of Use](applicable-terms/supplemental-terms/terms-of-use.md)
   * [Acceptable Use Policy](applicable-terms/supplemental-terms/acceptable-use-policy.md)
   * [Service-Specific Terms](applicable-terms/supplemental-terms/service-specific-terms/README.md)
     * [Master Service Agreement for Professional Services](applicable-terms/supplemental-terms/service-specific-terms/master-service-agreement-for-professional-services.md)
     * [Cloud Services Terms](applicable-terms/supplemental-terms/service-specific-terms/cloud-deployment-terms-cloud-terms.md)
+    * [Marketplace and Apps Terms and Conditions](applicable-terms/supplemental-terms/service-specific-terms/marketplace-and-apps-terms-and-conditions.md)
 
 ## CUSTOMER CENTER
 
