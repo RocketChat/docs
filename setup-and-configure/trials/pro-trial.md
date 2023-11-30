@@ -1,10 +1,10 @@
 ---
-description: Apply Premium license for your 30-day Trial.
+description: Apply Premium license for your 30-day Pro Trial.
 ---
 
 # Pro Trial
 
-Available from Rocket.Chat version 6.5 or higher the Pro Plan is ideal for organizations in growth mode needing enhanced features and support to broaden their communication capabilities. This plan presents a sturdy platform with expanded user capacity, increased monthly active contacts than the [Starter plan](../../readme/our-plans.md#starter-plan), and a suite of additional premium features. Perfectly suited for businesses on an upward trajectory, the Pro Plan strikes an ideal balance between advanced functionality and robust support, ensuring a smooth and effective collaboration experience.
+Available from Rocket.Chat version 6.5 or higher, the Pro Plan is ideal for organizations in growth mode needing enhanced features and support to broaden their communication capabilities. This plan presents a sturdy platform with expanded user capacity, increased monthly active contacts than the [Starter plan](../../readme/our-plans.md#starter-plan), and a suite of additional premium features. Perfectly suited for businesses on an upward trajectory, the Pro Plan strikes an ideal balance between advanced functionality and robust support, ensuring a smooth and effective collaboration experience.
 
 ## Get an Pro Plan Trial if you have a workspace
 
@@ -22,7 +22,7 @@ After connecting to the Cloud account,&#x20;
 &#x20;If you do not have a workspace yet, you must deploy one before applying for the Pro Plan Trial.
 
 * Create a new account on[ Rocket.Chat Cloud](https://cloud.rocket.chat/trial/ee).
-* A link to **Create a workspace and Apply Trial** is sent to your inbox. To proceed, click the link or paste it into your browser.
+* A link to **verify your email** is sent to your inbox. To proceed, click the link or paste it into your browser.
 * Then, you are redirected to [Rocket.Chat Cloud Portal](https://cloud.rocket.chat/). Since you don't have any workspace registered yet, the Workspaces section is empty with the following options to create a workspace:
   * **Install Rocket.Chat**:  Learn how to install[ your Rocket.Chat instance](../../deploy/deploy-rocket.chat/).
   * **Launch a SaaS Trial**: The fastest deployment option is a Rocket.Chat workspace.
