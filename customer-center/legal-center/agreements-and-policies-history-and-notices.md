@@ -28,6 +28,22 @@ description: >-
 
 ***
 
-## Customer Terms and Terms of Use
+## Customer Terms and Additional Terms
+
+***
+
+
+
+{% file src="../../.gitbook/assets/Rocket.Chat-MSA-Self-Managed-02-27-21.pdf" %}
+
+{% file src="../../.gitbook/assets/Rocket.Chat-Professional Services Agreement-RC09232023.pdf" %}
+
+{% file src="../../.gitbook/assets/Rocket.Chat-TermsofService.05-04-2021pdf.pdf" %}
+
+{% file src="../../.gitbook/assets/Rocket.Chat-MSA-Self-Managed-02-27-21 (1).pdf" %}
+
+{% file src="../../.gitbook/assets/Rocket.Chat-Professional Services Agreement-RC09232023 (1).pdf" %}
+
+{% file src="../../.gitbook/assets/Rocket.Chat-TermsofService.05-04-2021pdf (1).pdf" %}
 
 ***
