@@ -71,7 +71,7 @@ For Rocket.Chat workspaces on versions less than 6.0, Go to **Administration** >
 
 Workspace on the [community plan](../../readme/our-plans.md) can install multiple public apps from the marketplace, provided the app is not exclusive to premium workspaces. However, they can only enable up to five at a time. They can also enable a maximum of three private apps.
 
-<table><thead><tr><th width="633.3333333333333">Community Plan </th><th width="199">Public apps</th><th>Private apps</th></tr></thead><tbody><tr><td>Install</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Enable/Use</td><td>5</td><td>3</td></tr></tbody></table>
+<table><thead><tr><th width="272.33333333333326">Community Plan </th><th width="194">Public apps</th><th>Private apps</th></tr></thead><tbody><tr><td>Install</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Enable/Use</td><td>5</td><td>3</td></tr></tbody></table>
 
 {% hint style="info" %}
 For workspaces on versions less than 6.0, you can use all the enabled public and private apps you already have. However, you can not purchase or enable more apps once the limit is reached.  Subscribe to any of Rocket.Chat [premium plans](../../readme/our-plans.md) to enable all public apps in the workspace.
