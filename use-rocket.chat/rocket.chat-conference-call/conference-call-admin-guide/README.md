@@ -19,4 +19,4 @@ The default provider options will be empty if you have not set up any conference
 
 [**BigBlueButton (BBB)**](bigbluebutton-bbb-app.md): Understand how to configure conference calls with the BigBlueButton app in Rocket.Chat.
 
-[**Google Meet app**](google-meet-app.md) (Enterprise only): Configure conference calls with the Google Meet app in Rocket.Chat.
+[**Google Meet app**](google-meet-app.md): Configure conference calls with the Google Meet app in Rocket.Chat.
