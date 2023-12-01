@@ -4,22 +4,19 @@ description: Apply an offline License on your Rocket.Chat workspace
 
 # Offline License
 
-Rocket.Chat License unlocks additional functionality included with your purchased plan. To utilize these functionalities, you must activate your workspace with a license.
+To unlock additional features in your workspace, activate your workspace with a license for your subscribed [plan](../../readme/our-plans.md).
 
 {% hint style="info" %}
-See how to get a trial on [enterprise features](../trials/).
+You can also apply [trials](../trials/ "mention") on your workspace to explore these additional features.
 {% endhint %}
 
-## Getting Offline License
+### Getting Offline License
 
-There are two ways to get the license for your workspace before applying for air-gapped workspaces.
+To obtain a license for an air-gapped workspace, you can contact [Rocket.Chat support](https://desk.rocket.chat/portal/en/home) to provide a license for you or retrieve an offline license from your Rocket.Chat cloud console.
 
-* Contact Rocket.Chat support to provide a license for your workspace.
-* Fetch your offline license from Rocket.Chat cloud console.
+**To contact Rocket.Chat support to provide a license for your workspace,**
 
-### Contact Rocket.Chat support to provide a license for your workspace.
-
-* Open up a query requesting a license for your air-gapped workspace from the [Rocket.Chat support](../../resources/rocket.chats-support-structure/enterprise-support-and-version-durability/).
+* Open up a query requesting a license for your air-gapped workspace from [Rocket.Chat support](../../resources/rocket.chats-support-structure/enterprise-support-and-version-durability/).
 
 {% hint style="info" %}
 You will be required to provide the following information:
@@ -28,14 +25,27 @@ You will be required to provide the following information:
 * The workspace URL.
 {% endhint %}
 
-* When the license code is provided, follow the steps outlined in [applying offline license.](../../use-rocket.chat/workspace-administration/workspace.md#apply-offline-license)
+* When the license is provided, proceed to [apply the license](offline-license.md#applying-license) on your workspace.
 
-### 2. Get a License from Rocket.Chat Cloud
+**To get a license from Rocket.Chat Cloud,**
 
 {% hint style="info" %}
-You are required to have completed[ registering your offline workspace](offline-workspace-registration.md).
+You are required to have completed[ registering your workspace](offline-workspace-registration.md).
 {% endhint %}
 
-* Click the workspace on the [Rocket.Chat Cloud portal](https://cloud.rocket.chat/home)
-* Click **Get License**&#x20;
-* Copy the license code provided and follow the steps outlined in [applying offline license.](../../use-rocket.chat/workspace-administration/workspace.md#apply-offline-license)
+* On your [Rocket.Chat Cloud](https://cloud.rocket.chat/home) account, click on the workspace.
+* Click **Get License**
+* Copy the license code provided and [apply the license](offline-license.md#applying-license) on your workspace.
+
+### Applying License
+
+After getting your offline license, proceed with the following steps to apply it to your workspace:
+
+* When the license code is provided, navigate to **Administration > Settings > Premium** on your workspace.&#x20;
+* Update the **Premium License** field with the license code, confirm the status of the applied license, and click **Save Changes**.
+
+{% hint style="warning" %}
+You may need to refresh your workspace for the changes to reflect.
+{% endhint %}
+
+Now that you've upgraded your workspace [plan](../../readme/our-plans.md), proceed to explore the additional benefits Rocket.Chat offers on your workspace. In the next section, we'll show you the  extra configurations you can make on your air-gapped workspace.

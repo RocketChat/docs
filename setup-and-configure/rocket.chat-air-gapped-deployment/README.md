@@ -4,7 +4,7 @@ description: Deploy Rocket.Chat in an air-gapped environment using docker & dock
 
 # Rocket.Chat Air-gapped Deployment
 
-An air-gapped computer system is one that is not directly connected to any external network. It ensures that a secure computer network is physically isolated from unsecured networks, such as the public internet or an unsecured local area network.
+An air-gapped computer system is one that is not directly connected to any external network or the internet. It ensures that a secure computer network is physically isolated from unsecured networks, such as the public internet or an unsecured local area network. This isolation makes it challenging for malware or hackers to infiltrate sensitive systems, providing a strong defense against cyber threats.&#x20;
 
 {% hint style="info" %}
 The recommended deployment method for Rocket.Chat is using [Docker and Docker Compose](../../deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md).
