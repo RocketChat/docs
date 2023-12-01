@@ -20,7 +20,7 @@ The workspace administrator can assign [permissions](../../workspace-administrat
 
 ### Draft messages
 
-Rocket.Chat saves drafts of all message edits so you can return to edit later. When drafting a message, press **Escape** to discard the draft.
+Rocket.Chat saves all message drafts so you can return to edit later.&#x20;
 
 ### Delete messages
 
