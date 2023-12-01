@@ -27,10 +27,6 @@ The Rocket.Chat [**Enterprise Plan**](../setup-and-configure/trials/enterprise-t
 
 ## Pro Plan&#x20;
 
-{% hint style="info" %}
-Scheduled for release in late November 2023.
-{% endhint %}
-
 Available from Rocket.Chat version 6.5 or higher Rocket.Chat [**Pro Plan**](../setup-and-configure/trials/pro-trial.md) is designed for growing organizations seeking to leverage enhanced features and support for expanding communication needs. This plan offers a robust platform with increased user capacity, extended monthly active contacts, and additional premium features. Ideal for businesses scaling their operations, the Pro Plan provides a perfect balance of advanced functionality and support, ensuring a seamless collaboration experience.
 
 **Key Features:**
@@ -46,10 +42,6 @@ Available from Rocket.Chat version 6.5 or higher Rocket.Chat [**Pro Plan**](../s
 * **Enhanced Support Requirements**: Additional support and hosting services for more complex operational needs.
 
 ## Starter Plan
-
-{% hint style="info" %}
-Scheduled for release in late November 2023.
-{% endhint %}
 
 Your workspace will be automatically provisioned a free **Starter** plan license when you install or upgrade to [Rocket.Chat](https://rocket.chat/) version 6.5 or higher. This plan offers free access to almost all of our premium features, for limited usage. As your usage of [Rocket.Chat](https://rocket.chat/) expands, or if you're updating an already scaled workspace, your workspace will be automatically updated to a trial license so that you can continue your [Rocket.Chat](https://rocket.chat/) usage while you evaluate upgrading to one of our paid plans — Pro or Enterprise — or, alternatively, you can choose to switch back to our [Community](our-plans.md#community).
 
