@@ -430,6 +430,7 @@
   * [License FAQs](resources/frequently-asked-questions/license-faqs/README.md)
     * [Trial FAQ](resources/frequently-asked-questions/license-faqs/trial-faq.md)
     * [Downgrade behavior](resources/frequently-asked-questions/license-faqs/downgrade-behavior.md)
+    * [Fair use allowance FAQs](resources/frequently-asked-questions/license-faqs/fair-use-allowance-faqs.md)
   * [My Account FAQs](resources/frequently-asked-questions/my-account-faqs.md)
   * [Registration](resources/frequently-asked-questions/registration.md)
   * [Message Privacy](resources/frequently-asked-questions/message-privacy.md)
