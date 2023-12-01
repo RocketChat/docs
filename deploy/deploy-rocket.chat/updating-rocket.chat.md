@@ -108,4 +108,4 @@ If you have any concerns or issues with updating Rocket.Chat, see [updating-faq.
 
 ### Updating MongoDB
 
-Refer to [#mongodb-versions](../../resources/rocket.chats-support-structure/enterprise-support-and-version-durability/#mongodb-versions "mention") and learn more about the supported MongoDB versions for your Rocket.Chat workspace and how to update.
+Refer to [#mongodb-versions](../../customer-center/rocket.chats-support-structure/premium-support-plans/support-prerequisites-and-version-durability.md#mongodb-versions "mention") and learn more about the supported MongoDB versions for your Rocket.Chat workspace and how to update.

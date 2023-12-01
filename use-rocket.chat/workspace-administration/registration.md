@@ -23,7 +23,7 @@ The steps below are required only for self-managed instances. Rocket.Chat SaaS w
 {% endhint %}
 
 {% hint style="info" %}
-To connect your workspace to our Rocket.Chat Cloud, you must be running a version within [our support window](../../resources/rocket.chats-support-structure/enterprise-support-and-version-durability/#support-window-duration).
+To connect your workspace to our Rocket.Chat Cloud, you must be running a version within [our support window](../../customer-center/rocket.chats-support-structure/premium-support-plans/support-prerequisites-and-version-durability.md#support-window-duration).
 {% endhint %}
 
 ## Registration steps

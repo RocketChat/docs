@@ -1,10 +1,10 @@
 ---
-description: Requirements for official support from the Rocket.Chat team
+description: Requirements for official support from Rocket.Chat team
 ---
 
-# Enterprise Support and Version Durability
+# Support Prerequisites and Version Durability
 
-This document provides comprehensive information about Rocket.Chat's support structure, including the duration of support for different versions, requirements for obtaining official support, and other essential details.
+This document serves as a key resource for understanding the specific conditions and criteria that must be met to ensure full support eligibility. Additionally, it delves into the aspects of version durability, highlighting how different versions are maintained and supported over time. This information is crucial for users and administrators to effectively manage and sustain their Rocket.Chat installations, ensuring they remain up-to-date, secure, and fully functional.
 
 ### Support Window Duration
 

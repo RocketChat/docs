@@ -20,7 +20,7 @@ The [Rocket.Chat Marketplace](https://www.rocket.chat/marketplace) is a central 
 * Send messages to users; create and manage public channels, groups, discussions, and threads.
 
 {% hint style="info" %}
-Before installing apps from the Marketplace, ensure your workspace is registered (even if it is on the [community plan](../../readme/our-plans.md#community)) on [Rocket.Chat Cloud](https://cloud.rocket.chat), and is within the [support window](../../resources/rocket.chats-support-structure/enterprise-support-and-version-durability/#support-window-duration).
+Before installing apps from the Marketplace, ensure your workspace is registered (even if it is on the [community plan](../../readme/our-plans.md#community)) on [Rocket.Chat Cloud](https://cloud.rocket.chat), and is within the [support window](../../customer-center/rocket.chats-support-structure/premium-support-plans/support-prerequisites-and-version-durability.md#support-window-duration).
 {% endhint %}
 
 You can browse Rocket.Chat apps from the [marketplace](https://rocket.chat/marketplace) or access them via **`Administration > Apps > Marketplace`**. Here, you can:
