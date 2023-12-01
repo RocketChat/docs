@@ -2,9 +2,9 @@
 
 Welcome to the Rocket.Chat Support Center, where we are dedicated to providing exceptional service and ensuring the smooth operation of your Rocket.Chat environment.
 
-In today's fast-changing digital world, having a robust support system is very important. We know this and have carefully made a support system for all our users. Whether you're an enterprise client or a community enthusiast, we ensure that your queries and concerns are addressed promptly and efficiently.
+In today's fast-changing digital world, having a robust support system is very important. We know this and have carefully made a support system for all our users. Whether you're a premium client or a community enthusiast, we ensure that your queries and concerns are addressed promptly and efficiently.
 
-1. [**Suppor**](../../customer-center/rocket.chats-support-structure/premium-support-plans/)[**t for Premium Pla**](../../customer-center/rocket.chats-support-structure/premium-support-plans/)[**ns**:](../../customer-center/rocket.chats-support-structure/premium-support-plans/)
+1. [**Support for Premium Plans**](../../customer-center/rocket.chats-support-structure/premium-support-plans/)[**:**](../../customer-center/rocket.chats-support-structure/premium-support-plans/)
    * If you've chosen **Pro** or **Enterprise** plans, you're entitled to [direct support from](../../customer-center/rocket.chats-support-structure/premium-support-plans/) our support team. This ensures that any challenges you face are addressed by experts who understand the intricacies of the platform.
    * Dive deeper into the [prerequisites](../../customer-center/rocket.chats-support-structure/premium-support-plans/support-prerequisites-and-version-durability.md) of the support provided for premium customers.
    * Learn about all the [available ways ](../../customer-center/rocket.chats-support-structure/premium-support-plans/premium-support-channels.md)we support your workspace and choose that best fits your needs.
