@@ -3,7 +3,7 @@
 Enable and configure push notifications for your workspace members using mobile devices.
 
 {% hint style="info" %}
-Workspaces on the [community](../../../readme/our-plans.md#community) plan allow up to 10,000 free monthly push notifications. To request more, [contact Sales](https://www.rocket.chat/sales-contact) to discuss upgrading to a [premium plan](../../../readme/our-plans.md).
+Workspaces on the [community](../../../readme/our-plans.md#community) plan allow up to 10,000 free monthly push notifications. Get unlimited push notifications by subscribing to any of Rocket.Chat's [premium plans](../../../readme/our-plans.md).
 {% endhint %}
 
 ## Push Notifications Configuration

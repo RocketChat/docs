@@ -240,7 +240,7 @@
       * [Configure LDAP Connection](use-rocket.chat/workspace-administration/settings/ldap/configure-ldap-connection.md)
       * [LDAP User Search](use-rocket.chat/workspace-administration/settings/ldap/ldap-user-search.md)
       * [LDAP Data Sync Settings](use-rocket.chat/workspace-administration/settings/ldap/ldap-data-sync-settings.md)
-      * [LDAP premium Settings](use-rocket.chat/workspace-administration/settings/ldap/ldap-premium-settings.md)
+      * [LDAP Premium Settings](use-rocket.chat/workspace-administration/settings/ldap/ldap-premium-settings.md)
       * [LDAP Examples](use-rocket.chat/workspace-administration/settings/ldap/ldap-examples.md)
     * [Logs](use-rocket.chat/workspace-administration/settings/logs.md)
     * [Message](use-rocket.chat/workspace-administration/settings/message.md)

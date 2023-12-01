@@ -50,9 +50,9 @@ This error indicates that the login attempt was successful, but a follow-up sear
 
 Use the "[**Sync User Active State**](../../use-rocket.chat/workspace-administration/settings/ldap/ldap-premium-settings.md#advanced-sync)" setting in [#advanced-sync](../../use-rocket.chat/workspace-administration/settings/ldap/ldap-premium-settings.md#advanced-sync "mention"). Please be aware that compatibility with all LDAP Servers is not guaranteed.
 
-### **Why can't I can't log in even though the setup seems correct?**
+### **Why can't I log in even though the setup seems correct?**
 
-&#x20;If you're unable to log in without receiving error messages (and the last log entry is "Attempt to bind"), ensure that the LDAP account username doesn't match any local account username on your workspace. For instance, if you have a local user with the username "joe," enabling LDAP and attempting to log in with the same username "joe" from your LDAP server may fail without providing an error message. In this case, you won't be able to log in using "joe," your LDAP password, or your local password.
+&#x20;If you're unable to log in without receiving error messages (and the last log entry is "Attempt to bind"), ensure that the LDAP account username doesn't match any local account username on your workspace. For instance, if you have a local user with the username "joe", enabling LDAP and attempting to log in with the same username "joe" from your LDAP server may fail without providing an error message. In this case, you won't be able to log in using "joe," your LDAP password, or your local password.
 
 ### **Why are users not created even though the setup seems correct?**
 

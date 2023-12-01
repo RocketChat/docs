@@ -29,7 +29,7 @@ The following actions can be located at the top section of the LDAP settings int
 * **Sync Now**: Syncs your LDAP data based on the Data Sync configurations.
 
 {% hint style="success" %}
-These actions are exclusively available to workspaces subscribed to the [Enterprise plan](../../../../readme/our-plans.md#enterprise-plan).
+These actions are exclusively available to workspaces subscribed to any of Rocket.Chat's [premium plans](../../../../readme/our-plans.md).
 {% endhint %}
 
 {% hint style="info" %}

@@ -4,7 +4,7 @@ description: Review log history of users who have accessed the Message Auditing 
 
 # Message Auditing Log
 
-<figure><img src="../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
 
 The **Audit Logs Panel** allows you to verify who runs audits and when a conversation was inspected. The user must have an `auditor-log` [role](../setup-and-configure/roles-in-rocket.chat.md) and `Can Audit Log` [permission](workspace-administration/permissions/) to access the **Audit Logs**.
 

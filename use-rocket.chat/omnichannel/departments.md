@@ -4,7 +4,7 @@ An Omnichannel Department is a collection of rooms that can be tailored to repre
 
 **Key Features of Omnichannel Departments**
 
-1. **Directing conversations to a department**: Visitors can choose the specific department they want to forward their inquiries to
+1. **Directing conversations to a department**: Visitors can choose the specific department they want to forward their inquiries to.
 2. **Assigning agents to a department:** You can assign [agents ](agents.md)to specific departments, ensuring that conversations for that department are routed to the most appropriate knowledge experts.
 
 To access the **Department** menu,
@@ -44,7 +44,7 @@ Omnichannel behavior varies based on how many departments are created in the wor
 
 * **No departments**: All Live Chat agents receive incoming chats using a round-robin rule.
 * **One department**: All incoming chats are only assigned to agents in that department using a round-robin rule.
-* **Multiple departments**: The visitor must select the department to handltheirer chat during registration.
+* **Multiple departments**: The visitor must select the department to handle their chat during registration.
 
 ## Archive Omnichannel Department
 
