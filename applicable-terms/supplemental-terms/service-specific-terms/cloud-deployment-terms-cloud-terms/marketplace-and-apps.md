@@ -1,4 +1,4 @@
-# Marketplace and Apps Terms and Conditions
+# Marketplace and Apps
 
 Effective Date: November 30th, 2023
 
@@ -20,11 +20,11 @@ For any Third Party App, you agree that Rocket.Chat is the Vendor’s commercial
 
 3. **App Licensing.**&#x20;
 
-Apps are provided on a license or one-time paid or subscription basis, and you do not acquire any ownership rights in the Marketplace or the Apps. Rocket.Chat reserves the right to offer exclusive apps for certain plans.
+Apps are provided on a license, one-time paid, or subscription basis, and you do not acquire any ownership rights in the Marketplace or the Apps. Rocket.Chat reserves the right to offer exclusive apps for certain plans.
 
 4. **Term and Termination**
 
-**4.1 Agreement Term**. The term of this Agreement (the “Term”) will begin on the Effective Date and continue until the Agreement is terminated as stated in Section 4 (Term and Termination).&#x20;
+**4.1 Agreement Term**. The term of this Agreement (the “Term”) will begin on the Effective Date and continue until the Agreement is terminated as stated in Section 4 (Term and Termination). Users may discontinue their use of the Marketplace or any Vendor Product. If such a situation occurs, Users must meet all financial obligations as specified in the Ordering Document, including the payment of all applicable fees. Upon termination, Users must cease using the relevant Vendor Products.
 
 **4.2 Termination for Cause.** In the event of a material breach or any other grounds for termination for cause, as outlined in the Termination for Cause section of the Customer Terms of Service, either party reserves the right to terminate this Agreement by providing written notice, in accordance with applicable law.
 
@@ -42,14 +42,13 @@ The listing for each App will identify the App provider (“Vendor”), which ma
 
 7. **Access to Data**
 
-Data Handling and Usage of Third-Party Products and Services. You (including your End Users) may choose to use or procure other third-party products or services in connection with the Rocket.Chat Services, including Third Party Apps or implementation, customization, training, or other services. Your receipt or use of any third-party products or services (and the third parties’ use of any of Your Data) is subject to a separate agreement between you and the third-party provider. If you enable or use third-party products or services with the Rocket.Chat Services (including third-party Apps), we will allow the third-party providers to access or use Your Data as required for the interoperation of their products and services with the Rocket.Chat Products. This may include transmitting, transferring, modifying, or deleting Your Data or storing Your Data on systems belonging to third-party providers or other third parties. Any third-party provider’s use of Your Data is subject to the applicable agreement between you and such third-party provider. We are not responsible for any access to or use of Your Data by third-party providers or their products or services or for the security or privacy practices of any third-party provider or its products or services. You are solely responsible for your decision to permit any third-party provider or third-party product or service to use Your Data. It is your responsibility to carefully review the agreement between you and the third-party provider, as provided by the applicable third-party provider. WE DISCLAIM ALL LIABILITY AND RESPONSIBILITY FOR ANY THIRD-PARTY PRODUCTS OR SERVICES (WHETHER SUPPORT, AVAILABILITY, SECURITY, OR OTHERWISE) OR FOR THE ACTS OR OMISSIONS OF ANY THIRD-PARTY PROVIDERS OR VENDORS.
+**7.1 Data Handling and Usage of Third-Party Products and Services.**&#x20;
 
-Data handling on Rocket.Chat Apps. For Rocket.Chat Apps, this access and use is covered by our [Privacy Policy](https://docs.rocket.chat/rocket.chat-privacy-and-security/privacy-policies/privacy).&#x20;
+You (including your End Users) may choose to use or procure other third-party products or services in connection with the Rocket.Chat Services, including Third Party Apps or implementation, customization, training, or other services. Your receipt or use of any third-party products or services (and the third parties’ use of any of Your Data) is subject to a separate agreement between you and the third-party provider. If you enable or use third-party products or services with the Rocket.Chat Services (including third-party Apps), we will allow the third-party providers to access or use Your Data as required for the interoperation of their products and services with the Rocket.Chat Products. This may include transmitting, transferring, modifying, or deleting Your Data or storing Your Data on systems belonging to third-party providers or other third parties. Any third-party provider’s use of Your Data is subject to the applicable agreement between you and such third-party provider. We are not responsible for any access to or use of Your Data by third-party providers or their products or services or for the security or privacy practices of any third-party provider or its products or services. You are solely responsible for your decision to permit any third-party provider or third-party product or service to use Your Data. It is your responsibility to carefully review the agreement between you and the third-party provider, as provided by the applicable third-party provider. WE DISCLAIM ALL LIABILITY AND RESPONSIBILITY FOR ANY THIRD-PARTY PRODUCTS OR SERVICES (WHETHER SUPPORT, AVAILABILITY, SECURITY, OR OTHERWISE) OR FOR THE ACTS OR OMISSIONS OF ANY THIRD-PARTY PROVIDERS OR VENDORS.
+
+**7.2 Data handling on Rocket.Chat Apps.** For Rocket.Chat Apps, this access and use is covered by our [Privacy Policy](https://docs.rocket.chat/rocket.chat-privacy-and-security/privacy-policies/privacy).&#x20;
 
 8. **Representations and Warranties**
-
-\
-
 
 You represent and warrant that you have all necessary authority to enter into and be legally bound by these Marketplace Terms, and Vendor Terms, to place any Orders, and to authorize Vendors to access and use your data and information.
 
@@ -58,15 +57,17 @@ You represent and warrant that you have all necessary authority to enter into an
 
 All undefined terms mentioned in these Marketplace Terms shall have the meaning from the Customer Terms.
 
-“Rocket.Chat Marketplace” is an online marketplace for plugins, addons, extensions, and integrations ("Apps") that work with Rocket.Chat’s services and products, are available at [https://www.rocket.chat/marketplace](https://www.rocket.chat/marketplace)
+**“Rocket.Chat Marketplace”** is an online marketplace for plugins, addons, extensions, and integrations ("Apps") that work with Rocket.Chat’s services and products, are available at [https://www.rocket.chat/marketplace](https://www.rocket.chat/marketplace)
 
-“End Users” means the individuals who are permitted by Customer to use the Marketplace or Vendor Products.
+**“End Users”** means the individuals who are permitted by Customer to use the Marketplace or Vendor Products.
 
-“Subscription Product” means a Vendor Product made available to Customers on a subscription basis, with either a one-time payment or commitment to pay for a given time period.
+**“Subscription Product”** means a Vendor Product made available to Customers on a subscription basis, with either a one-time payment or commitment to pay for a given time period.
 
-“Vendor Agreement ” means a separate agreement between Customer and Vendor governing the Customer’s use of a Vendor Product.
+**“Vendor Agreement ”** means a separate agreement between Customer and Vendor governing the Customer’s use of a Vendor Product.
 
-APPENDIX 1 - THIRD-PARTY SPECIFIC NOTICES, TERMS, AND POLICIES&#x20;
+***
+
+**APPENDIX 1 - THIRD-PARTY SPECIFIC NOTICES, TERMS, AND POLICIES**&#x20;
 
 To assist you in using and accessing information, we may provide notices and information specific to certain third parties in this Section.
 
@@ -78,8 +79,6 @@ You agree to be bound by the then-current Apple Business Register Terms of Use a
 
 Apple Business Chat Integration. For Apple Business Chat Integrations and related Services, the then-current Apple Business Register Terms of Use are available on Apple’s website:[ https://register.apple.com/tou/abr/latest/en](https://register.apple.com/tou/abr/latest/en). These terms apply to such integrations and related Services. &#x20;
 
-&#x20;
-
 2. Notice Regarding 360 Dialog Integration
 
 For Whatsapp Business integration, the Customer agrees to the[ 360dialog Terms of Service,](https://hub.360dialog.com/lp/consent/360dialog-terms-of-service?partnerId=hOLuzAPA\&number=) 360dialog[ Terms of Use](https://hub.360dialog.com/lp/consent/360dialog-terms-of-use) , as well as the Facebook Client Terms of Use for Whatsapp available at[ ](https://hub.360dialog.com/lp/consent/facebook-client-terms-for-whatsapp.)[https://hub.360dialog.com/lp/consent/facebook-client-terms-for-whatsapp](https://hub.360dialog.com/lp/consent/facebook-client-terms-for-whatsapp)[.](https://hub.360dialog.com/lp/consent/facebook-client-terms-for-whatsapp.)
@@ -88,35 +87,22 @@ Note that for support tickets related to WhatsApp integration, do not explicitly
 
 Pricing costs for Whatsapp template messages are not included in the monthly license fee and are charged as of  Facebook/ Whatsapp pricing in USD as stated under https://developers.facebook.com/docs/whatsapp/pricing plus local taxes. Prices are subject to change according to Facebook’s pricing and policy.
 
-&#x20;
-
 3. Notice Regarding Instagram Dialog Integration
 
 For Instagram integration and related services, the then-current Terms of Use as found on Facebook's website
 
 https://developers.facebook.com/docs/messenger-platform/policy/policy-overview/ apply to such integrations and related services.
 
-\
-
-
 4. Notice Regarding Pexip Services
 
 When purchasing Pexip services, please be aware that additional terms of deliverables may apply, which can be found at[ https://www.pexip.com/terms](https://www.pexip.com/terms). By proceeding with your order, you acknowledge and agree to abide by these terms issued by Pexip.
 
-## &#x20;
+
 
 ## Contacting Rocket.Chat
 
 Please also feel free to contact us if you have any questions about Rocket.Chat’s Marketplace Terms.&#x20;
 
-\
-
-
 You may contact us at legal@rocket.chat or at our mailing address below:
 
-\
-
-
 Rocket.Chat Technologies Corp. 251 Little Falls Rd Wilmington, DE, 19808 USA
-
-\
