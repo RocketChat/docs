@@ -55,7 +55,7 @@ Every Rocket.chat workspace has some default roles which include the following:
 As a workspace administrator, you can create new roles and assign specific permissions to them in your workspace.
 
 {% hint style="info" %}
-For Rocket.Chat workspaces on version 6.x.x and above, **creating new roles and editing custom role permissions** are exclusively accessible to workspaces subscribed to any of Rocket.Chat's [premium plans](../../../readme/our-plans.md).
+For Rocket.Chat workspaces on version 6.x.x and above, **creating new roles and editing custom role permissions** are exclusively accessible to workspaces subscribed to the [Enterprise plan](../../../readme/our-plans.md#enterprise-plan).
 {% endhint %}
 
 To **create a new role**,
