@@ -38,7 +38,7 @@ Effective December 15, 2023, Rocket.Chat will cease support for connections from
 * [**User Guides**](use-rocket.chat/user-guides/): From basic navigation to advanced features, find everything you need to make the most of Rocket.Chat.
 * **Features**: Benefit from the extensive array of features offered by Rocket.Chat, including,  [rocket.chat-conference-call](use-rocket.chat/rocket.chat-conference-call/ "mention"),[rocket.chat-federation.md](use-rocket.chat/rocket.chat-federation.md "mention"), [rocket.chat-voice-channel](use-rocket.chat/rocket.chat-voice-channel/ "mention"), [analytics.md](use-rocket.chat/workspace-administration/settings/analytics.md "mention"), [identity-management-ee-vs-ce.md](setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md "mention").
 * [**Developer Documentation**](resources/development-docs.md): Dive into our developer resources for custom integrations and extensions.
-* [**Support**](resources/rocket.chats-support-structure/): Our dedicated support structure is here to assist you every step of the way.
+* [**Support**](customer-center/support-center/): Our dedicated support structure is here to assist you every step of the way.
 
 ### **Stay Updated**
 
@@ -46,4 +46,4 @@ Effective December 15, 2023, Rocket.Chat will cease support for connections from
 
 ### **Join the Community**
 
-[Engage with other Rocket.Chat users](resources/rocket.chats-support-structure/community-resources.md), contribute to the conversation, and help shape the future of communication.
+[Engage with other Rocket.Chat users](customer-center/support-center/community-resources.md), contribute to the conversation, and help shape the future of communication.
