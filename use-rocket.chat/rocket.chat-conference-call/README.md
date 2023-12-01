@@ -1,28 +1,30 @@
 # Rocket.Chat Conference Call
 
-When it comes to conference calling Rocket.Chat supports multiple feature-rich options. Rocket.Chat's conference call allows you to use the following video conferencing platforms, available as apps on our [marketplace](https://rocket.chat/marketplace).
+In today's fast-paced digital world, seamless communication is essential for businesses to thrive. Rocket.Chat provides conference calling capabilities to facilitate productive real-time audio and video meetings, enabling teams to share ideas, brainstorm solutions, and collaborate. Users in your workspace can quickly transition from text-based conversations to audio or video calls with the following call providers, available as apps on the [marketplace](https://rocket.chat/marketplace):
 
-* [Pexip](conference-call-admin-guide/pexip-app.md)
-* [Jitsi](conference-call-admin-guide/jitsi-app.md)
-* [BigBlueButton (BBB)](conference-call-admin-guide/bigbluebutton-bbb-app.md)
-* [Google Meet](conference-call-admin-guide/google-meet-app.md)
+1. [**Jitsi**](conference-call-admin-guide/jitsi-app.md)**:** A popular open-source video conferencing platform.
+2. [**BigBlueButton**](conference-call-admin-guide/bigbluebutton-bbb-app.md)**:** A web-based conferencing solution with whiteboard and presentation features.
+3. [**Pexip**](conference-call-admin-guide/pexip-app.md)**:** An enterprise-grade video conferencing solution with advanced security features.
+4. [**Google Meet**](conference-call-admin-guide/google-meet-app.md)**:** A cloud-based video conferencing platform integrated with Google Workspace.
 
-To configure conference calls on your Rocket.Chat workspace, visit the [**administration guide**](conference-call-admin-guide/). If you have it configured already, follow the [**user's guide**](conference-call-users-guide.md) to start using it.
+### **Conference Call Plan Comparison**
 
-### **Rocket.Chat Edition Specific** Conference Call **Features**
+Here are the various conference call features supported across our various [plans ](../../readme/our-plans.md)and on mobile devices:&#x20;
 
+<table><thead><tr><th align="center">Feature</th><th align="center">Community</th><th align="center">Starter</th><th>Pro</th><th>Enterprise</th><th align="center">Mobile</th><th data-hidden></th></tr></thead><tbody><tr><td align="center"><strong>Create calls</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td></td></tr><tr><td align="center"><strong>List in the channel users who joined a call</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td></td><td></td><td align="center"><strong>x</strong></td><td></td></tr><tr><td align="center"><strong>Contextual bar containing call history</strong> </td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td align="center"><strong>x</strong></td><td></td></tr><tr><td align="center"><strong>Options to start with camera and mic off</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td></td></tr><tr><td align="center"><strong>Mark calls as ended after 24 hours</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td></td></tr><tr><td align="center"><strong>Ring users before starting a call</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td align="center"><strong>x</strong></td><td></td></tr><tr><td align="center"><strong>Disable call button in the workspace</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td align="center"><strong>x</strong></td><td></td></tr></tbody></table>
 
+### Conference Call Features Provider Comparison
 
-<table><thead><tr><th align="center">Feature</th><th align="center">Community Edition</th><th align="center">Enterprise Edition</th><th align="center">Mobile</th><th data-hidden></th></tr></thead><tbody><tr><td align="center"><strong>Create calls</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td></td></tr><tr><td align="center"><strong>List in the channel users who joined a call</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>x</strong></td><td></td></tr><tr><td align="center"><strong>Contextual bar containing call history</strong> </td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>x</strong></td><td></td></tr><tr><td align="center"><strong>Options to start with camera and mic off</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td></td></tr><tr><td align="center"><strong>Mark calls as ended after 24 hours</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>✓</strong></td><td></td></tr><tr><td align="center"><strong>Ring users before starting a call</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>x</strong></td><td></td></tr><tr><td align="center"><strong>Disable call button in the workspace</strong></td><td align="center"><strong>x</strong></td><td align="center"><strong>✓</strong></td><td align="center"><strong>x</strong></td><td></td></tr></tbody></table>
+Here are the various conference call features supported across the available call providers on the marketplace:&#x20;
 
-### **Provider-Specific** Conference Call **Features**
+|                 Feature                 | Pexip | Jitsi |  BBB  | Google Meet |
+| :-------------------------------------: | :---: | :---: | :---: | :---------: |
+|     **Start calls from Rocket.Chat**    | **✓** | **✓** | **✓** |    **✓**    |
+|   **Identify moderator automatically**  | **✓** | **✓** | **✓** |    **x**    |
+| **Control microphone from Rocket.Chat** | **x** | **✓** | **x** |    **x**    |
+|   **Control camera from Rocket.Chat**   | **x** | **✓** | **x** |    **x**    |
+|   **Load user names from Rocket.Chat**  | **x** | **✓** | **✓** |    **x**    |
+|  **Load user avatars from Rocket.Chat** | **x** | **✓** | **✓** |    **x**    |
+|       **End calls automatically**       | **x** | **x** | **✓** |    **x**    |
 
-|                 Feature                 | Pexip (EE) | Jitsi |  BBB  | Google Meet (EE) |
-| :-------------------------------------: | :--------: | :---: | :---: | :--------------: |
-|     **Start calls from Rocket.Chat**    |    **✓**   | **✓** | **✓** |       **✓**      |
-|   **Identify moderator automatically**  |    **✓**   | **✓** | **✓** |       **x**      |
-| **Control microphone from Rocket.Chat** |    **x**   | **✓** | **x** |       **x**      |
-|   **Control camera from Rocket.Chat**   |    **x**   | **✓** | **x** |       **x**      |
-|   **Load user names from Rocket.Chat**  |    **x**   | **✓** | **✓** |       **x**      |
-|  **Load user avatars from Rocket.Chat** |    **x**   | **✓** | **✓** |       **x**      |
-|       **End calls automatically**       |    **x**   | **x** | **✓** |       **x**      |
+Whether you're collaborating on projects, hosting virtual meetings, or conducting remote workshops, Rocket.Chat's conference call feature provides a robust solution for effective communication. As a workspace administrator, kindly refer to [conference-call-admin-guide](conference-call-admin-guide/ "mention") to configure conference calls on your workspace. Once it's successfully configured, users can visit the [conference-call-users-guide.md](conference-call-users-guide.md "mention") to start initiating and recieving calls on your workspace.&#x20;

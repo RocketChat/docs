@@ -4,7 +4,9 @@
 Contact your workspace administrator or follow [conference-call-admin-guide](conference-call-admin-guide/ "mention") to configure conference calls in your workspace.
 {% endhint %}
 
-In Rocket.Chat, you can initiate video and audio conferences using your desired provider in any [room](../user-guides/rooms/).
+This guide will walk you through the essential steps to effectively participate and use conference calls in your Rocket.Chat after it has been successfully [configured](conference-call-admin-guide/).
+
+In Rocket.Chat, you can initiate video and audio conference calls using your the configured provider in any [room](../user-guides/rooms/) on your workspace.
 
 ## Initiating a call - Direct Message
 
