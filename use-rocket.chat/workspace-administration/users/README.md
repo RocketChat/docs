@@ -1,10 +1,12 @@
 ---
-description: Users menu lets you view, create, edit, delete, deactivate, and, invite users.
+description: >-
+  Users menu lets you view, create, edit, delete, deactivate, and, invite team
+  members.
 ---
 
 # Users
 
-This section provides access to various user account management functions within your Rocket.Chat workspace. Here, you can view, create, edit, delete, activate, and perform other actions related to user accounts on your server.
+This section provides access to various user account management functions within your Rocket.Chat workspace. Here, you can view, create, edit, delete, activate, and perform other actions related to team members' accounts on your workspace.
 
 To access this menu, go to **Administration** > **Workspace** > **Users**.
 
@@ -18,7 +20,7 @@ To access this menu,
 * Hit **Send**, and they’ll receive it in their email.
 
 {% hint style="info" %}
-Note that for self-managed workspaces, you need to have [SMTP enabled](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/email/email-configuration) to send emails through the workspace. If you wish not to do so, you can still invite users by creating their credentials.
+Note that for self-managed workspaces, you need to have [SMTP enabled](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/email/email-configuration) to send emails through the workspace. If you wish not to do so, you can still invite team members by creating their credentials.
 {% endhint %}
 
 ## Add new users
@@ -45,4 +47,3 @@ To edit a user,
 {% hint style="info" %}
 You can also [add-users-through-identity-management-and-authentication-services.md](add-users-through-identity-management-and-authentication-services.md "mention")
 {% endhint %}
-

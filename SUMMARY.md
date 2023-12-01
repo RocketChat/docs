@@ -148,7 +148,7 @@
   * [Rooms](use-rocket.chat/workspace-administration/rooms.md)
   * [Users](use-rocket.chat/workspace-administration/users/README.md)
     * [Guest users](use-rocket.chat/workspace-administration/users/guest-users.md)
-    * [Monthly Active Contacts](use-rocket.chat/workspace-administration/users/monthly-active-contacts.md)
+    * [Monthly Active Contacts (MACs)](use-rocket.chat/workspace-administration/users/monthly-active-contacts-macs.md)
     * [Add users through Identity management and authentication services](use-rocket.chat/workspace-administration/users/add-users-through-identity-management-and-authentication-services.md)
   * [Invites](use-rocket.chat/workspace-administration/invites.md)
   * [User Status](use-rocket.chat/workspace-administration/user-status.md)
