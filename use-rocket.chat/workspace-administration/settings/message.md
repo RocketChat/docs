@@ -53,7 +53,11 @@ Remember to hit **Save Changes** in order to apply any changes made.
 
 ## Hex Color Preview
 
-**Enabled**: Set true to allow preview for hex colors.
+**Enabled**: Set true to allow preview for hex colors in rgba format.
+
+To preview a color you should write in this format: color:#000000 and it will be displayed as:
+
+<figure><img src="../../../.gitbook/assets/image (78).png" alt=""><figcaption><p>hex color preview</p></figcaption></figure>
 
 ## Message Attachments
 
