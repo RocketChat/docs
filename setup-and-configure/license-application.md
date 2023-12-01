@@ -4,17 +4,17 @@
 Effective December 15, 2023, Rocket.Chat will cease support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
 {% endhint %}
 
-In the realm of open-source communication, Rocket.Chat, has always been at the forefront of providing secure and scalable solutions. To gain a comprehensive understanding of Rocket.We recommend exploring Chat's extensive capabilities and our [premium plans](https://www.rocket.chat/pricing). Acquiring a Rocket.Chat license for your workspace unlocks these additional functionalities.&#x20;
+In the realm of open-source communication, Rocket.Chat has always been at the forefront of providing secure and scalable solutions. To gain a comprehensive understanding of Rocket.Chat's extensive capabilities, we recommend exploring our [premium plans](https://www.rocket.chat/pricing). A license is applied to your workspace when you subscribe to any of Rocket.Chat's[ premium plans](../readme/our-plans.md). Alternatively, you can  [contact our sales](https://www.rocket.chat/sales-contact) team for a license and  manually apply it on your workspace.
 
-The following instructions provide a detailed guide to apply your workspace license to different kinds of workspaces.
+The guide provides detailed instructions on how to apply and sync your workspace license on different kinds of workspaces.
 
 {% hint style="warning" %}
-Before you proceed, [contact sales](https://www.rocket.chat/sales-contact) to get a valid license for the plan you want to apply on your workspace.
+Before you proceed, [contact sales](https://www.rocket.chat/sales-contact) to get a valid license for the [plan](../readme/our-plans.md) you want to apply on your workspace.
 {% endhint %}
 
 ## I have a SaaS Workspace&#x20;
 
-You have a SaaS workspace for which you've purchased an additional license.
+You have a SaaS workspace and you've purchased a license for it.
 
 To apply the license,
 
@@ -30,7 +30,7 @@ Your License is now applied to your workspace and it is ready to use. Navigate t
 
 ## I have a Self Managed Registered Workspace&#x20;
 
-You have a Self Managed Workspace that you've already registered and have had a license provisioned.
+You have a Self Managed Workspace that you've registered and gotten a license provisioned.
 
 To apply the license,
 
@@ -51,42 +51,41 @@ You have an existing workspace but have not registered and have been given a reg
 To apply the license,
 
 * Copy the Registration token provided to you.
-* For Rocket.Chat `6.0` or newer
+* For workspaces on version `6.0` or newer
   * Navigate to **Administration** > **Workspace** > **Registration**
   * Click **Register** and then click **Use Token**&#x20;
   * Paste the token provided
-* For Rocket.Chat below `6.0`&#x20;
+* For workspaces below version `6.0`&#x20;
   * Navigate to **Administration** > **Connectivity Services**
   * In the Token field provided paste the token
   * Click **Register**
 * Click on **Sync** to sync the workspace to Rocket.Chat cloud.
 
-Your workspace is now Registered and your License applied to your workspace.  Navigate to **Administration > Subscription** to confirm and view your current workspace plan.
+Your workspace is now Registered and your License applied to your workspace.  Navigate to **Administration > Workspace** to confirm and view your current workspace plan.
 
 ## I have a Self Managed Air-gapped Workspace&#x20;
 
-You have an existing workspace that is air-gapped and has been given a license token to apply.
+You have an air-gapped workspace and you've gotten the license token for the workspace.
 
-To apply the license token,
+{% hint style="info" %}
+To apply license to air-gapped workspaces on version 6.5 and above, kindly refer to [offline-license.md](rocket.chat-air-gapped-deployment/offline-license.md "mention").
+{% endhint %}
+
+To apply the license token to air-gapped workspaces on versions below 6.5,
 
 * Navigate to **Administration** > **Workspace** > **Workspace** > **Apply Offline License**
 * Paste the License token you were provided
 * Click **Apply License**
 
-Your License should now be applied. Navigate to **Administration > Subscription** to confirm and view your current workspace plan.
+Your License is now applied to your workspace. Navigate to **Administration > Workspace** to confirm and view your current workspace plan.
 
-For your workspace to send push notifications, it must be registered and allowed access to:
-
-* cloud.rocket.chat
-* pushgateway.rocket.chat
-
-Then take the Registration token provided:
+If your workspace is not registered and you have the registration token,&#x20;
 
 * Navigate to **Administration** > **Workspace** > **Registration.**
 * Click **Register** and then click **Use Token.**
 * Paste the token provided.
 
-Your workspace should now be Registered and your License should now be applied to your workspace and be ready to use.  Navigate to **Administration > Subscription** to confirm and view your current workspace plan.
+Your workspace is now Registered and your License applied to your workspace.
 
 ## I do not have a SaaS Workspace
 
@@ -96,55 +95,49 @@ To start using it,
 
 * Visit the workspace URL and set it up following the [setup-wizard.md](../use-rocket.chat/workspace-administration/settings/setup-wizard.md "mention")
 
-Your workspace should now be ready to use.
+Your workspace is now ready to use.
 
 ## I do not have a Self Managed Workspace
 
-If you purchased a license for Self Managed but do not yet have a workspace.
+You purchased a license for a Self Managed workspace but don't have a workspace.
 
 To apply the license,
 
 * [Deploy a new workspace](../deploy/deploy-rocket.chat/)
-* Visit your workspace URL and complete the [setup](../use-rocket.chat/workspace-administration/settings/setup-wizard.md).
-* Copying the Registration token provided to you.
-* For Rocket.Chat `6.0` or newer
-  * Navigate to **Administration** > **Workspace** > **Registration**
-  * Click **Register** and then click **Use Token**&#x20;
-  * Paste the token provided
-* For Rocket.Chat below `6.0`&#x20;
-  * Navigate to **Administration** > **Connectivity Services**
-  * In the Token Field Provided paste the token
-  * Click Register
-* Click on **Sync** to sync the workspace to Rocket.Chat cloud.
+* Visit your workspace URL and complete the [rocket.chat-setup-wizard.md](accessing-your-workspace/rocket.chat-setup-wizard.md "mention").
+* Navigate to **Administration > Subscription** and click the **Sync license update** button. This fetches the License for your workspace from Rocket.Chat Cloud.
 
-Your workspace is now registered and your License applied to it.  Navigate to **Administration > Subscription** to confirm and view your current workspace plan.
+{% hint style="warning" %}
+* For workspaces below `6.5`, navigate to **Administration** > **Workspace** > **Registration** > **Manage.** For workspaces below `6.0`, navigate to   **Administration** > **Connectivity Services**.
+* Then, click **Sync**.
+{% endhint %}
+
+Your License is applied to your workspace and is ready to use. Navigate to **Administration > Subscription** to confirm and view your current workspace plan.
 
 ## I do not have a Self Managed Air-Gapped Workspace
 
-You don't have an existing air-gapped workspace and you have been given a license token to apply.
+You don't have an air-gapped workspace yet and you've purchased a license token to apply.
 
-To apply the token,
+To apply the license,
 
 * [Deploy a new air-gapped workspace](rocket.chat-air-gapped-deployment/)&#x20;
+
+{% hint style="info" %}
+To apply license to air-gapped workspaces on version 6.5 and above, kindly refer to [offline-license.md](rocket.chat-air-gapped-deployment/offline-license.md "mention").
+{% endhint %}
+
+To apply the license token to air-gapped workspaces on versions below 6.5,
+
 * Navigate to **Administration** > **Workspace** > **Workspace** > **Apply Offline License**
-* Paste the License token you were provided.
-* Click **Apply License.**
+* Paste the License token you were provided
+* Click **Apply License**
 
-Your License is applied. You can confirm this by going to **Administration > Workspace** and checking the License section.
+Your License is now applied to your workspace. Navigate to **Administration > Workspace** to confirm and view your current workspace plan.
 
-If your workspace needs to send push notifications you will need to allow access to:
+If your workspace is not registered and you have the registration token,&#x20;
 
-* cloud.rocket.chat
-* pushgateway.rocket.chat
+* Navigate to **Administration** > **Workspace** > **Registration.**
+* Click **Register** and then click **Use Token.**
+* Paste the token provided.
 
-Then take the Registration token provided:
-
-* Navigate to **Administration** > **Workspace** > **Registration**
-* Click **Register** and then click **Use Token**&#x20;
-* Paste the token provided
-
-Your workspace gets registered and your License is applied to it. Navigate to **Administration > Subscription** to confirm and view your current workspace plan.
-
-## Remove a License
-
-To remove your workspace license and revert back to the community plan, simply navigate to **Administration > Workspace > Settings > Premium** to remove the license and click **Save Changes**.
+Your workspace is now Registered and your License applied to your workspace.
