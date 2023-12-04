@@ -23,12 +23,12 @@ PLEASE READ THE CUSTOMER TERMS CAREFULLY BEFORE USING OUR SERVICES, AND NOTE THA
 This Agreement governs Customer’s use of Rocket.Chat's services. It consists of the following documents:
 
 * **Customer Terms:** These contain the general legal and commercial terms that apply to the use of Rocket.Chat Services, including  Appendix 1 (Self-Hosted) and Appendix 2 (Cloud Hosting), which provide specific clauses that are applicable to the deployment method chosen by the Customer.&#x20;
-* [**Terms of Use and Acceptable Use Policy:** ](../../applicable-terms/supplemental-terms/terms-of-use.md)These documents describe what Users can and can’t do while using our Services. The Terms of Use are applicable to and bound to the End-Users. Customer's represents that it will provide the Terms of Use and Acceptable Use Policy to each of Customer’s End Users, and that Customer will obtain each End User’s acceptance of such terms.
-* [**Service-Specific Terms:** ](../../applicable-terms/supplemental-terms/service-specific-terms/)These encompass any additional terms that apply to the use of our individual Service offerings, such as cloud services (i.g marketplace, push notification, etc)  support, other add-ons.
+* [**Terms of Use and Acceptable Use Policy:** ](supplemental-terms/terms-of-use.md)These documents describe what Users can and can’t do while using our Services. The Terms of Use are applicable to and bound to the End-Users. Customer's represents that it will provide the Terms of Use and Acceptable Use Policy to each of Customer’s End Users, and that Customer will obtain each End User’s acceptance of such terms.
+* [**Service-Specific Terms:** ](supplemental-terms/service-specific-terms/)These encompass any additional terms that apply to the use of our individual Service offerings, such as cloud services (i.g marketplace, push notification, etc)  support, other add-ons.
 * **Data-Specific Agreements:** Depending on the location of the Customer and the applicable privacy regulations, Customer may be required to agree to a data agreement with Rocket.Chat. If you are required to agree to a data agreement with us, it will be added by reference to these terms. You can find information related to privacy agreements within Clause 6 (of this agreement) and in the [Privacy Center](https://app.gitbook.com/o/-M41dOPtnjO7qK6KCyrt/s/NQRwqdF7Dy93Q5Mw0kzs/rocket.chat-privacy-and-security/privacy-center).
 * **Ordering Documents:** If applicable, any Order Forms, Subscriptions or  Statements of Work (each, an “Ordering Document”) entered between Customer and Rocket.Chat shall be attached to and made a part of the Agreement&#x20;
 
-The [Terms of Use](../../applicable-terms/supplemental-terms/terms-of-use.md), [Acceptable Use Policy](../../applicable-terms/supplemental-terms/acceptable-use-policy.md), [Service-Specific Terms](../../applicable-terms/supplemental-terms/service-specific-terms/), and Data Specific Agreement are referred to collectively as the “Additional Terms.”
+The [Terms of Use](supplemental-terms/terms-of-use.md), [Acceptable Use Policy](supplemental-terms/acceptable-use-policy.md), [Service-Specific Terms](supplemental-terms/service-specific-terms/), and Data Specific Agreement are referred to collectively as the “Additional Terms.”
 
 ### 1.2 Updates
 
@@ -38,7 +38,7 @@ We update the Customer Terms and Additional Terms from time to time. If you have
 
 ### 2.1 Service Provided.&#x20;
 
-Upon acceptance of an Order Form or Subscription, Rocket.Chat will make the Services available to the Customer(s). The Services will continue for the Initial Term set forth in the Ordering Document and will be automatically renewed pursuant to Section 9.
+Upon acceptance of an Order Form or Subscription, Rocket.Chat will make the Services available to the Customer(s). The Services will continue for the Initial Term set forth in the Ordering Document and will be automatically renewed pursuant to Section 8.
 
 ### 2.2 Use of the Service.&#x20;
 
