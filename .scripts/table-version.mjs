@@ -11,7 +11,7 @@ const octokit = new Octokit({
 
 const tableLines = [];
 const columnSizes = [];
-const filePath = './resources/rocket.chats-support-structure/enterprise-support-and-version-durability/README.md';
+const filePath = './customer-center/support-center/premium-support-plans/support-prerequisites-and-version-durability.md';
 
 function addLine(...args) {
 	args.forEach((arg, index) => {
@@ -113,8 +113,8 @@ async function generateTable({ owner, repo } = {}) {
 		})
 	}
 
-	addLine('Rocket.Chat Release', ' Released At', ' End of Life');
-	addLine('-------------------', '-----------:', '-----------:');
+	addLine('Rocket.Chat Release', 'Released At', 'End of Life');
+	addLine('-------------------', '----------:', '----------:');
 
 	releaseData.forEach(({release, latestPatch}) => {
 		const url = `[${latestPatch.version}](${latestPatch.url})`;
@@ -135,13 +135,13 @@ async function generateTable({ owner, repo } = {}) {
 
 	const text = [];
 	for (const line of tableLines) {
-		const columns = line.map((col, index) => String(col)[index < 2 ? 'padEnd' : 'padStart'](columnSizes[index] || 0, ' '));
+		const columns = line.map((col, index) => String(col)[index < 1 ? 'padEnd' : 'padStart'](columnSizes[index] || 0, col[0] === '-' ? '-' : ' '));
 		text.push(`| ${columns[0]} | ${columns[1]} | ${columns[2]} |`);
 	}
 
 	const file = (await fs.readFile(filePath)).toString();
 
-	const reg = /\| Rocket\.Chat Release \| .+(\n\|.+)*/m;
+	const reg = /\| Rocket\.Chat Release .+ Released At .+(\n\|.+)*/m;
 
 	const oldTable = file.match(reg)[0];
 
