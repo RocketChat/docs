@@ -35,6 +35,10 @@ tar -xzf /tmp/rocket.chat.tgz -C /tmp
 cd /tmp/bundle/programs/server && npm install
 ```
 
+{% hint style="warning" %}
+When executing `npm install`, it is recommended to operate using a non-root account. Alternatively, you can utilize the `npm install --unsafe-perm` command. This approach eliminates the necessity for building libc or upgrading the host system.
+{% endhint %}
+
 * Move the extracted files to the _/opt_ directory.
 
 ```bash

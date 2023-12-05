@@ -7,9 +7,9 @@ Depending on the version of Rocket.Chat you want to install, check the release n
 *   **Install MongoDB**
 
     Please refer to the official MongoDB documentation on how to install MongoDB on Debian. For the list of supported versions, see our documentation here.
-*   **Install NodeJSNodeJS**
+*   **Install NodeJS**
 
-    Follow the official guide to install NodeJS on a Debian system. Check out our page on supported node versions for your specific version. You can also use third-party tools like nvm or n.
+    Follow the official guide to install NodeJS on a Debian system. Check out our page on supported node versions for your specific version. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
 
 ### Install Rocket.Chat on Debian
 
@@ -54,13 +54,13 @@ You should now see a new directory under `/tmp` named `bundle`.
 
 * Next, install all the node dependencies:
 
+{% hint style="warning" %}
+When executing `npm install`, it is recommended to operate using a non-root account. Alternatively, you can utilize the `npm install --unsafe-perm` command. This approach eliminates the necessity for building libc or upgrading the host system.
+{% endhint %}
+
 ```bash
 (cd /tmp/bundle/programs/server; npm i)
 ```
-
-{% hint style="warning" %}
-If you're doing all this under the `root` user, which is not recommended, you'll need to pass the `--unsafe-perm` flag to npm along with `sudo`.
-{% endhint %}
 
 `/tmp` has been a temporary non-root user-writable location to prepare the bundle. For this guide, we're going to use /opt to be the final location but you can choose any other. Whatever may it be, if not /opt, make sure you change the location in all the other places it is specified.
 
@@ -204,7 +204,7 @@ sudo systemctl enable --now rocketchat
 
 To access your Rocket.Chat workspace, open a web browser and navigate to the specified ROOT URL (http://your-host-name.com-as-accessed-from-internet:3000). Follow the configuration prompts to [configure your workspace.](https://docs.rocket.chat/setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard#setup-wizard)
 
-* [Configure firewall rule](../../../../../setup-and-configure/rocket.chat-environment-configuration/optional-configurations.md)
-* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../../setup-and-configure/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)
-* [Configure mongo access control](../../../../../setup-and-configure/rocket.chat-environment-configuration/mongodb-configuration/mongodb-uri-authentication.md)
-* [Configure production values for mongodb](../../../../../setup-and-configure/rocket.chat-environment-configuration/mongodb-configuration/mongo-options.md)
+* [Configure firewall rule](../../../setup-and-configure/rocket.chat-environment-configuration/optional-configurations.md)
+* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../setup-and-configure/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)
+* [Configure mongo access control](../../../setup-and-configure/rocket.chat-environment-configuration/mongodb-configuration/mongodb-uri-authentication.md)
+* [Configure production values for mongodb](../../../setup-and-configure/rocket.chat-environment-configuration/mongodb-configuration/mongo-options.md)

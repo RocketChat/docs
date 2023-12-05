@@ -36,7 +36,7 @@ cd /tmp/bundle/programs/server && npm install --production
 ```
 
 {% hint style="warning" %}
-If you're using the `root` account (not recommended), use `sudo npm install --unsafe-perm --production` instead of the above.
+When executing `npm install`, it is recommended to operate using a non-root account. Alternatively, you can utilize the `npm install --unsafe-perm --production` command. This approach eliminates the necessity for building libc or upgrading the host system.
 {% endhint %}
 
 * Move the extracted files to the _/opt_ directory.

@@ -54,13 +54,17 @@ tar -xzf /tmp/rocket.chat.tgz -C /tmp
 
 * Install NPM.
 
-{% hint style="info" %}
-This guide uses /opt but feel free to choose a different directory.
+{% hint style="warning" %}
+When executing `npm install`, it is recommended to operate using a non-root account. Alternatively, you can utilize the `npm install --unsafe-perm` command. This approach eliminates the necessity for building libc or upgrading the host system.
 {% endhint %}
 
 ```bash
 cd /tmp/bundle/programs/server && npm install
 ```
+
+{% hint style="info" %}
+This guide uses /opt but feel free to choose a different directory.
+{% endhint %}
 
 ```bash
 sudo mv /tmp/bundle /opt/Rocket.Chat
@@ -140,5 +144,5 @@ To access your Rocket.Chat workspace, open a web browser and navigate to the spe
 
 **Optional configurations**
 
-* [Configure firewall rule](../../../../../setup-and-configure/rocket.chat-environment-configuration/optional-configurations.md)&#x20;
-* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../../../setup-and-configure/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)&#x20;
+* [Configure firewall rule](../../../setup-and-configure/rocket.chat-environment-configuration/optional-configurations.md)&#x20;
+* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../setup-and-configure/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md)&#x20;
