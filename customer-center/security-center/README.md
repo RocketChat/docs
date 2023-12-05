@@ -1,47 +1,32 @@
----
-description: Rocket.Chat Security Documentation
----
-
 # Security Center
 
-### One-Stop-Shop
+Welcome to the comprehensive guide on Rocket.Chat's security and compliance features. This documentation serves as a centralized resource for all security-related information about Rocket.Chat, offering detailed insights into the various security aspects of our product. Whether you're looking to understand specific features or seeking compliance-related information, this guide is designed to efficiently navigate you through Rocket.Chat's security landscape.
 
-Here you can find all Rocket.Chat security- and compliance-related Documentation with links to the different sections to navigate our documentation more efficiently.
+## Available Resources:&#x20;
 
-If you still have questions, feel free to reach out to [security@rocket.chat](mailto:security@rocket.chat)
+### 1. Product Security&#x20;
 
-## Product-related security information
+* Rocket.Chat integrates security into numerous features of its platform. For detailed information on each security feature, utilize the search function in our Docs section with relevant keywords like OAuth, LDAP, and Encryption.
+* Explore summaries of critical security aspects in the following sections:
+  * [Compliance Resources](compliance-resources.md): Information on certifications like ISO 27001, aiding organizations in assessing Rocket.Chat's suitability.
+  * [Security Fixes and Updates](security-fixes-and-updates/): An overview of recently addressed vulnerabilities and the versions they affect.
+  * [End-to-End Encryption Specifications](end-to-end-encryption-specifications.md): Details on our encryption algorithms and functionalities.
 
-Security is built-in myriads of features in Rocket.Chat. Detailed information about each of the security features of our product can best be found via the **search** function of our Docs section. Use keywords (e.g. OAuth, LDAP, Encryption) to narrow your search.
+### **2. External Resources**:
 
-We have compiled summaries of important security aspects on the pages below:
+* [Security Features Overview:](https://www.rocket.chat/enterprise/security-compliance) A comprehensive look at Rocket.Chat's security solutions, including features, testimonials, and use cases.
+* [Privacy Policy](https://docs.rocket.chat/customer-center/privacy-center/rocket.chat-privacy-policy): Information on how personal data is processed.
+* [Terms of Use](../../applicable-terms/supplemental-terms/terms-of-use.md): Legal documentation outlining the provision of use like push notifications.
+* [GDPR Compliance](https://chat.openai.com/c/8eb9da7d-8b7e-4ac9-b5ce-00b13fd6cc3b): Documentation on the GDPR requirements implemented in 2018.
 
-### Learn more
+### **3. Community Engagement**:
 
-* [Compliance Resources, including certifications](compliance-resources.md) like ISO 27001 to help your organization to determine, if Rocket.Chat fits your needs.
-* [Security fixes and update](security-fixes-and-updates/) - an overview of vulnerabilities that have recently been closed and in which versions.
-* [End-to-End Encryption Specifications](end-to-end-encryption-specifications.md) - an overview of our algorithms and functionality.
+* Vulnerability Reporting: Guidelines on reporting security vulnerabilities.
+* Code of Conduct: Rules governing behavior on our servers.
+* [White Hat Hall of Fame](https://handbook.rocket.chat/departments-and-operations/security/whitehat-hall-of-fame): Recognizing contributors who have enhanced Rocket.Chat's security.
 
-## Outside Resources
+### **4. Internal Practices**:
 
-Below are related resources in other sections of Rocket.Chat's Documentation.
+* [Company Security Policy](https://handbook.rocket.chat/departments-and-operations/security/security-policy): An insight into how Rocket.Chat manages security internally.
 
-### Security Features Overview
-
-* [Security Solutions](https://rocket.chat/security) - features, testimonials, and use cases on how Rocket.Chat can help you to secure your data.
-
-### Privacy
-
-* [Privacy Policy](https://rocket.chat/privacy) - how we process personal data.
-* [Terms of Service](https://rocket.chat/terms) - legal documentation on how we provide services to you (e.g. push notifications, etc.).
-* [GDPR](../../privacy-and-security/privacy-center/gdpr/) - a special page dedicated to GDPR requirements we implemented in 2018.
-
-### Community
-
-* [Report Vulnerabilities](broken-reference) - how to best let us know about the security vulnerabilities you have found.
-* [Code of Conduct](broken-reference) - rules that apply to our servers.
-* [White Hat Hall of Fame](https://handbook.rocket.chat/departments-operations/security/whitehat-hall-of-fame) - Famous contributors that made Rocket.Chat more secure.
-
-### Rocket.Chat Handbook
-
-* [Company Security Policy](https://handbook.rocket.chat/departments-operations/security/security-policy) - how we ourselves do security internally.
+This documentation is continually updated to reflect the latest in security and compliance standards. For any additional queries or clarifications, please reach out to [security@rocket.chat](mailto:security@rocket.chat). Your security is our priority, and we are committed to providing a secure and compliant communication platform.

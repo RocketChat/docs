@@ -483,7 +483,7 @@
   * [Cloud Hosting SLA](customer-center/cloud-services-center/cloud-hosting-sla.md)
 * [Security Center](customer-center/security-center/README.md)
   * [Security Policy](customer-center/security-center/security-policy.md)
-  * [Compliance Resources and Certifications](customer-center/security-center/compliance-resources.md)
+  * [Compliance Resources](customer-center/security-center/compliance-resources.md)
   * [Security fixes and updates](customer-center/security-center/security-fixes-and-updates/README.md)
     * [cve-2022-32211](customer-center/security-center/security-fixes-and-updates/cve-2022-32211.md)
   * [End-to-End Encryption Specifications](customer-center/security-center/end-to-end-encryption-specifications.md)
