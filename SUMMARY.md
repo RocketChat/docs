@@ -480,7 +480,7 @@
 ## CUSTOMER CENTER
 
 * [Cloud Services Center](customer-center/cloud-services-center/README.md)
-  * [Cloud Hosting SLA](customer-center/cloud-services-center/cloud-hosting-sla.md)
+  * [Rocket.Chat Cloud Hosting Service Level Agreement (SLA)](customer-center/cloud-services-center/rocket.chat-cloud-hosting-service-level-agreement-sla.md)
 * [Security Center](customer-center/security-center/README.md)
   * [Security Policy](customer-center/security-center/security-policy.md)
   * [Compliance Resources](customer-center/security-center/compliance-resources.md)
