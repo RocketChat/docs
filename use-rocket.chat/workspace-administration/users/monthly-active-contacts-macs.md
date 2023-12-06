@@ -12,9 +12,9 @@ The MAC pack is an add-on that allows workspaces to determine and purchase the r
 
 The billing cycle operates on a monthly basis, commencing from the date of your plan upgrade. This cycle resets at the beginning of each new calendar month. To illustrate, if you switch to the PRO plan on January 18th, your interaction limit with contacts is capped at 15,000 for the period from January 18th to January 31st. Subsequently, on February 1st, this interaction limit is reset, allowing you to engage with up to 15,000 Monthly Active Contacts until the onset of March 1st.
 
-**MAC Fair Usage Allowance:**
+**Exceeding MAC limits:**
 
-The MAC Fair Usage Allowance permits temporary exceeding of MAC scale limits without extra costs. Triggered when the limit of the current plan is reached, it offers a 30-day trial license for the next plan.  Throughout this period, you can engage with multiple contacts within the scale limit specified by the trial plan. This allowance is available once per major release (e.g., 6.x, 7.x, 8.x). After the trial period, the workspace reverts to the original plan.
+Rocket.Chat permits temporary exceeding of MAC scale limits without extra costs. Triggered when the limit of the current plan is reached, it offers a 30-day trial license for the next plan.  Throughout this period, you can engage with multiple contacts within the scale limit specified by the trial plan. This allowance is available once per major release (e.g., 6.x, 7.x, 8.x). After the trial period, the workspace reverts to the original plan.
 
 **Plan-Specific Rules:**
 
