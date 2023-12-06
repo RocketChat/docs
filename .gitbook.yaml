@@ -447,3 +447,6 @@ redirects:
     extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/mod-assist-app/install-mod-assist-app: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/mod-assist-app/README.md
     extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/chatgpt-app/install-chatgpt-app: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/chatgpt-app/README.md
     extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/zoom/install-zoom-app: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/zoom.md
+
+    legal/terms: customer-center/legal-center/agreements-and-policies-history-and-notices.md
+    legal/master-services-agreement-for-self-managed-workspaces: customer-center/legal-center/agreements-and-policies-history-and-notices.md
