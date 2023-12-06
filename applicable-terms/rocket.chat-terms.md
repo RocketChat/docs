@@ -395,22 +395,104 @@ Rocket.Chat Technologies Corp. 251 Little Falls Rd Wilmington, DE, 19808 USA
 
 ***
 
-## Appendix I
+## Appendix 1
+
+## Self-Hosted Terms
 
 Self-Hosted Terms
 
 With respect to Customer’s purchase and/or use of the Self-Hosted Software, the following additional terms shall apply.
 
-1. **CUSTOMER DATA**
+1. ## CUSTOMER DATA
 
-**1.1 Customer Data Management**
+### **1.1 Customer Data Management**
 
 Customer is responsible for maintaining and protecting backups of Customer Data directly or indirectly processed using the Services and Software. Rocket.Chat is not responsible for the exportation of, the failure to store, the loss, or the corruption of Customer Data. Customer shall inform its End Users that any Customer Data that the End User uploads to the Services should be maintained and protected in a location other than the Services. Customer hereby represents and warrants that it has received required consent, licenses and permission to upload any Customer Data to the Services.
 
 Customer agrees that Rocket.Chat and its Affiliates may process configuration, performance, usage, and consumption data about Customer and its End User's use of the Services and Software to assist with the necessary operation and function of the Services and Software and to improve Rocket.Chat products and Services (“Usage Data”). Rocket.Chat’s use of Usage Data shall be subject to Rocket.Chat’s Privacy Policy. All right, title and interest in and to the Usage Data shall be owned exclusively by Rocket.Chat.
 
-**1.2 Protection of Personal Data.**&#x20;
+### 1.2 **Protection of Personal Data.**&#x20;
 
 Each party shall comply with its respective obligations under applicable data protection laws. Each party shall maintain appropriate administrative, physical, technical, and organizational measures that ensure an appropriate level of security for Confidential Information and Personal Data. Customer is responsible for ensuring that the security of the Services is appropriate for its intended use and the storage, hosting, or processing of Personal Data. Information on how Rocket.Chat protects Personal Data is in [Rocket.Chat’s Privacy Policy](https://app.gitbook.com/o/-M41dOPtnjO7qK6KCyrt/s/NQRwqdF7Dy93Q5Mw0kzs/customer-center/privacy-center/rocket.chat-privacy-policy).
 
-\
+***
+
+## Appendix 2
+
+## Cloud Hosting Terms
+
+With respect to Customer’s purchase and/or use of the Services on a Cloud Hosting structure, the following additional terms shall apply.
+
+1. ## CUSTOMER DATA
+
+### 1.1 Customer Data.&#x20;
+
+Customer hereby grants to Rocket.Chat a non-exclusive, royalty-free, perpetual, worldwide license to use, host, store, reproduce, modify, create derivative works (e.g., as translations, adaptations, or other changes we make so that the content in question works better with the Services), communicate, publish, perform, display and distribute Customer Data, to the extent reasonably necessary to carry out its obligations under the Agreement. Customer represents and warrants it has the right to grant this license and has obtained any necessary consent from its End Users and third parties regarding such Customer Data. The rights granted in this license are for the limited purpose of providing, operating, and improving the Services and developing new services. We may also access Customer accounts, End User accounts, and your Cloud Services with End User permission to respond to support requests.
+
+### 1.2 Data Management
+
+Customer can access, import, and export all Customer Data, including private channels and direct messages, through account preferences panel. Additionally, Customer may request the deletion of account(s), which will result in removing all Customer Data, including messages the Users have previously sent, as well as their personal information, including names and email addresses.
+
+### 1.3 Data Retention and Deletion
+
+Customer further acknowledges and agrees that Customer will retrieve its Data or copies of its Data from Rocket.Chat within thirty (30) business days of the termination or expiration of this Agreement Terms. Unless in accordance with our internal policies, contractual, legal, or other obligations, Customer acknowledges and agrees that Rocket.Chat has the right to delete Customer Data, including all copies, after such thirty-day period. Customer Data, once deleted, will not be able to be recovered.&#x20;
+
+### 1.4 Data Portability
+
+As part of our Cloud Hosting, we provide data portability to our customers in accordance with the GDPR, LGPD, and other applicable data protection laws. Please be aware that Data Migration services are not included in our Cloud Hosting and must be purchased separately as Professional Services.
+
+If you require assistance migrating data from or to another service provider or system, Rocket.Chat can provide a separate quote for these services. Please contact our customer support team (via your [Zoho Desk Portal](https://desk.rocket.chat/portal/en/home) or email support@rocket.chat) for assistance or more information.
+
+### 1.5 Removals and Suspension.&#x20;
+
+We have no obligation to monitor any content uploaded to the Cloud Services. Nonetheless, if we deem such action necessary based on your violation of this Agreement, including Our Policies, or in response to takedown requests that we receive following our guidelines for [Reporting Copyright and Trademark Violations](https://docs.rocket.chat/rocket.chat-legal/dmca-policy), we may (1) remove Customer Data from the Cloud Services or (2) suspend or terminate Customer access to the Cloud Services. We will use reasonable efforts to provide advance notice of removals and suspensions when practicable. Nonetheless, if we determine, in our sole discretion, that your actions endanger the operation of the Cloud Services or other users or subject Rocket.Chat to any liability; we may suspend your access or remove Customer Data immediately without notice. We have no liability to Customer for removing or deleting Customer Data from or suspending Customer’s access to any Cloud Services as described in this Section.
+
+### 1.6 Customer Data Compliance Obligations.&#x20;
+
+Customer, and Customer’s use of Cloud Services (including use by its End Users), must always comply with this Agreement, any applicable terms of service, the Acceptable Use Policy, and all applicable laws.&#x20;
+
+Customer represents and warrants that&#x20;
+
+(i) Customer has obtained all necessary rights, releases, and permissions to submit all Customer Data to the Cloud Services and to grant the rights granted to us in this Agreement; and (ii) Customer Data and its submission and use as Customer authorize in these appendices will and do not violate (1) any applicable laws, (2) any third-party intellectual property, privacy, publicity, or other rights, or (3) any of Customers or third-party policies or terms governing Customer Data.&#x20;
+
+Besides our express obligations under the Agreement, we assume no responsibility or liability for Customer Data. Customer is solely responsible for its Customer Data and the consequences of submitting and using it with the Cloud Services.
+
+2. ## SERVICE REQUIREMENTS&#x20;
+
+### 2.1 Environment requirements.
+
+The Customer acknowledges and agrees that it is their responsibility to ensure that the selected deployment option is compatible with their environment and meets their security and data protection requirements. Rocket.Chat shall not be liable for any issues arising from the Customer's choice of deployment option that may result in compatibility or security concerns.
+
+### 2.2 License Requirements for Cloud Hosting
+
+The provision of Cloud Hosting is contingent upon the maintenance of active Rocket.Chat Commercial License. In the event that the Commercial license is canceled, the Customer will become ineligible for Cloud Hosting. Additionally, any changes to the Commercial license may result in the repricing of Cloud Hosting to account for those changes, such as an increase or decrease in User licenses.
+
+### 2.3 Recovery Time Objective and Incident Point Objective:
+
+Rocket.Chat maintains a Recovery Time Objective (RTO) and an Incident Point Objective (IPO) as specified in the [Cloud Hosting Service Level Agreement (SLA)](https://app.gitbook.com/o/-M41dOPtnjO7qK6KCyrt/s/NQRwqdF7Dy93Q5Mw0kzs/customer-center/cloud-services-center/rocket.chat-cloud-hosting-service-level-agreement-sla). Rocket.Chat will take reasonable measures to ensure that the Cloud Hosting will be available to the Customer under the terms and conditions of the SLA. Customer acknowledges that there may be instances where the Cloud Hosting is unavailable due to circumstances beyond Rocket.Chat's control or Force Majeure, including but not limited to acts of God, natural disasters, and service interruptions caused by telecommunications providers. Rocket.Chat will make commercially reasonable efforts to restore Cloud Hosting as swiftly as possible in the event of an outage.
+
+### 2.4 Security Updates
+
+Rocket.Chat​​ reserves the right to apply security patches to all workspaces operating on any Cloud Hosting without prior notice to ensure each hosted workspace's security.
+
+### 2.5 Customer Integration.
+
+The Customer may integrate their own software, applications, or other technologies with the Cloud Hosting, subject to the following conditions: (a) The integration must comply with the Cloud Hosting technical requirements and specifications, as outlined in the documentation provided by Rocket.Chat. (b) The Customer is solely responsible for ensuring the compatibility and functionality of their own software, applications, and other technologies with the Cloud Hosting. (c) Rocket.Chat is not responsible for any issues or errors arising from the Customer's integration with the Cloud Hosting, including but not limited to security breaches, data loss, or downtime. (d) The Customer agrees to indemnify and hold Rocket.Chat harmless against any damages, losses, or claims arising from their integration with Cloud Hosting. (e) Rocket.Chat reserves the right to suspend or terminate the Customer's access to the Cloud Hosting if their integration causes harm or disruption to the Cloud Hosting or other customers.
+
+### 2.6 Hosting Provider
+
+The selection of Hosting Providers available to the Customer is contingent upon location and market availability. Rocket.Chat shall not be under an obligation to maintain the same Hosting Provider throughout the duration of the Cloud Hosting Term. However, in the event that Rocket.Chat determines it necessary to change the Hosting Provider, Rocket.Chat will provide the Customer with prior notice and extend reasonable assistance in migrating Customer data to the new Hosting Provider. It is important to note that any such change shall not have a material adverse impact on the Services provided by Rocket.Chat to the Customer.
+
+### 2.7 Usage Limits
+
+As outlined in the [Cloud Hosting Service Level Agreement (SLA)](https://app.gitbook.com/o/-M41dOPtnjO7qK6KCyrt/s/NQRwqdF7Dy93Q5Mw0kzs/customer-center/cloud-services-center/rocket.chat-cloud-hosting-service-level-agreement-sla), certain usage limits within Cloud Hosting may vary depending on the contracted Service. The Customer acknowledges that they have access to these usage limits and should actively monitor them. Rocket.Chat reserves the right to charge additional fees if these limits are exceeded. The Customer also acknowledges that exceeding these usage limits may affect the availability of the Cloud Hosting provided.
+
+### 2.8 Uptime Target SLA.
+
+The Customer acknowledges that any requested deviations from the reference architecture will automatically void the uptime target SLA.
+
+### 2.9 Updates.
+
+Rocket.Chat reserves the right to perform automatic updates and upgrades to cloud-hosted workspaces. These automatic changes may apply to Customer's workspace(s) depending on the chosen cloud tier, which will be detailed in the applicable Ordering Document.&#x20;
+
+In any case, Rocket.Chat reserves the right to perform updates and patches to all cloud-hosted workspaces within Rocket.Chat, without prior notice, to ensure the security of the workspace and the protection of Customer data. This applies to all Cloud Hosting tiers.
