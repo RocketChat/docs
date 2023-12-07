@@ -1,15 +1,22 @@
----
-description: Setup and manage your Rocket.Chat cloud account.
----
-
 # Rocket.Chat Cloud
 
-Rocket.Chat Cloud lets you connect your workspace to our cloud services and better manage your workspaces. You have the option to choose between cloud-hosted workspace or self-hosted workspaces.
+[Rocket.Chat Cloud ](https://cloud.rocket.chat/)is a centralized portal for managing your workspaces, enabling you to connect them to Rocket.Chat Cloud services. With Rocket.Chat, you can opt for either a [cloud-hosted workspace](https://docs.rocket.chat/customer-center/cloud-services-center/rocket.chat-cloud-hosting-service-level-agreement-sla) or a [self-hosted workspace](../../deploy/deploy-rocket.chat/), tailoring your experience to suit your specific needs.
 
-[**Create your new cloud account**](create-new-cloud-account.md): Sign up for a new cloud account.
+**Key benefits of connecting your workspace to Rocket.Chat Cloud includes:**
 
-[**Manage your cloud account**](manage-your-cloud-account/): Manage your workspaces, add organization information, view invoices, and more services with your cloud account.
+* Mobile push notifications gateway
+* [Omnichannel Gateway](../omnichannel/)
+* OAuth proxy for social network
+* [Apps Marketplace](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/)
 
-[**Cloud Account Setup Wizard**](../../resources/frequently-asked-questions/cloud-faqs.md): Set up your first Admin user and register your server.
+{% hint style="success" %}
+All workspaces must be registered on Rocket.Chat cloud and within our [support window](../../customer-center/support-center/premium-support-plans/support-prerequisites-and-version-durability.md#support-window-duration) to access cloud services.
+{% endhint %}
 
-[**Cloud FAQs**](../../resources/frequently-asked-questions/cloud-faqs.md)**:** Frequently asked questions on Rocket.Chat cloud.
+[**Create your new cloud account**](create-new-cloud-account.md): Get started with Rocket.Chat cloud by creating a new account.
+
+[**Manage your cloud account**](manage-your-cloud-account/): Manage your workspace subscriptions, view invoices, and review payment methods.
+
+[**Cloud FAQs**](../../resources/frequently-asked-questions/cloud-faqs.md)**:** Frequently asked questions on Rocket.Chat Cloud.
+
+This guide will walk you through the different offerings of Rocket.Chat Cloud. You'll learn how to manage your workspaces, optimize your cloud account, select subscription plans and add-ons.

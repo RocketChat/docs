@@ -1,84 +1,85 @@
 # Workspaces
 
-As a workspace administrator, you can view and manage all the workspaces linked to your account.
+As a workspace administrator, you can view and manage all the workspaces linked to your cloud account.
 
-## Manage Workspaces
+**To view all workspaces connected to your Rocket.Chat cloud account,**&#x20;
 
-When you log in, you will see the list of workspaces linked to your cloud account.
+* Log into your cloud account.
+* Click **Workspaces** from the sidebar menu.
 
-To register a self-managed workspace, click **Register self-managed** to enable your self-hosted workspace.
+**To view workspace Information,**
 
-{% hint style="info" %}
-If you want multiple cloud workspaces under the same cloud account, please contact us at [support@rocket.chat](mailto:support@rocket.chat).
-{% endhint %}
-
-To view workspace Information,
-
-* Click the workspace to see the following workspace information:
-  * Workspace plan
-  * Push notification limit
-  * Total usage
-  * Push notification usage.
-
-After your first sign-up, you are given a Rocket.Chat Enterprise Edition for 30 days. No payment is required. On the 30th day, you will be charged according to your chosen plan. The minimum volume or resources on Cloud provided per workspace is for 25 members, so you will be billed accordingly even if you have less than 25 users. Workspace members will continue to receive mobile push notifications for the remainder of the trial.
-
-## Upgrade/Downgrade your plan
+* Log into your cloud account.
+* Click **Workspaces** from the sidebar menu.
+* Click on the workspace from the list of workspaces displayed.
+* You can view the workspace [plan](../../../readme/our-plans.md), push notification limit, total usage and push notification usage of the workspace.
 
 {% hint style="info" %}
-This is currently available for Rocket.Chat SaaS workspaces.
+* To register a self-managed workspace, click **Register self-managed** to enable your self-hosted workspace.
+* If you want multiple [cloud-hosted workspaces](https://docs.rocket.chat/customer-center/cloud-services-center/rocket.chat-cloud-hosting-service-level-agreement-sla) under the same cloud account, please contact us at [support@rocket.chat](mailto:support@rocket.chat).
 {% endhint %}
 
-You can change your workspace plan from the Rocket.Chat Cloud Console, with the option to upgrade, downgrade or switch to monthly or yearly plans.
+**Manage your workspace subscription**
+
+When you [deploy a new workspace](../../../deploy/deploy-rocket.chat/), it is automatically subscribed to the [Starter plan](../../../readme/our-plans.md#starter-plan). As you exceed the scale limits of the [Starter plan](../../../readme/our-plans.md#starter-plan), your workspace is granted a 30-day [pro-trial.md](../../../setup-and-configure/trials/pro-trial.md "mention") to explore the Rocket.Chat features accessible on the [Pro plan](../../../readme/our-plans.md#pro-plan). If your workspace is already subscribed to the [Pro plan](../../../readme/our-plans.md#pro-plan) and you exceed the scale limits, a 30-day [enterprise-trial.md](../../../setup-and-configure/trials/enterprise-trial.md "mention") is granted to your workspace to experience the Rocket.Chat features available on the [Enterprise plan](../../../readme/our-plans.md#enterprise-plan). [Cloud-hosted workspaces](https://docs.rocket.chat/customer-center/cloud-services-center/rocket.chat-cloud-hosting-service-level-agreement-sla) start off with a [pro-trial.md](../../../setup-and-configure/trials/pro-trial.md "mention"), not the [Starter plan](../../../readme/our-plans.md#starter-plan).
+
+You can modify your workspace [plan ](../../../readme/our-plans.md)on Rocket.Chat Cloud, with the option to upgrade, downgrade, or switch to monthly or yearly plans.&#x20;
+
+{% hint style="info" %}
+To subscribe to our [Enterprise plan](../../../readme/our-plans.md#enterprise-plan), kindly [contact our sales team](https://www.rocket.chat/sales-contact).
+{% endhint %}
+
+To upgrade or downgrade your workspace plan,&#x20;
 
 * Log in to your [Rocket.Chat Cloud](https://cloud.rocket.chat/home) account.
-* Click and open the workspace you wish to upgrade the plan for.
-* Click on **Manage Subscription.** A side panel opens up with details for you to manage the subscriptions
-  * **Plans / Seats**: This lets you toggle your billing plan to `Monthly/Yearly`
-  * **Cloud Enterprise \[Monthly/Yearly]**: Increase or decrease the number of seats for your workspace depending on the plan selected above.
-* After the subscription has been modified, hit **Save** to continue.
-* Validate the checkout and payment and **Subscribe** to apply the changes.
+* Navigate to **Workspaces** and select the workspace .
+* Click on **Subscribe.** A **Manage Subscription** panel is displayed, providing options of the **add-on** or **plan** subscriptions to select from.
+  * **Add plan or add-on**: Select the plan or add-on you want to subscribe for.&#x20;
+  * **Renew**: Toggle your billing plan cycle to either Monthly or Yearly.
+  * Update the units of **Seats** or **MAC packs** you want to purchase for the selected plan.&#x20;
+* Click **Save** to continue. Validate the checkout, add your card details, and click **Subscribe** to complete the purchase.
 
 {% hint style="success" %}
-After a successful checkout, your subscription gets activated, and you receive an invoice through email about the purchase. Decreasing already purchased seats will refund the cost as a Rocket.Chat Cloud account credit.
+Upon successful checkout, your subscription is activated and you receive an invoice via email. If you decrease the number of already purchased seats, the cost is refunded as a credit to your Rocket.Chat Cloud account.
 {% endhint %}
 
-After a successful update on your seats, go to **Administration** > **Workspace** > **Registration** > **Manage** and hit **Sync** to sync the workspace.
+Once your subscription is successful, navigate to **Administration** > **Subscription** on your workspace and click **Sync license updates** to sync these changes. To cancel your subscription, kindly consult [#cancel-workspace-subscription](../../../setup-and-configure/license-application.md#cancel-workspace-subscription "mention").
 
-## Restart Workspace
+**Restart Workspace**
 
-When facing issues with your workspace, you can restart your workspace. This process disconnects you from your workspace so that it can be shut down and restarted. A server restart is required when you face minor performance issues, e.g., slow messages. After you restart your workspace, it will take 1-5 minutes (depending upon your number of users) for the workspace to continue again.
+If you encounter any problems with your workspace, you can try restarting it to resolve the issue. This disconnects you from the workspace, which is then shut down and restarted. A server restart is recommended for minor performance issues, such as slow messages. Once you restart your workspace, it may take anywhere from 1 to 5 minutes (depending on the number of users) for it to become available again.
 
 To restart your workspace,
 
-* From the sidebar menu, click **Workspaces**
-* Select the Workspace and click **Restart your workspace.**
+* From the sidebar menu, click **Workspaces.**
+* Click the **kebab menu icon** beside the workspace and select **Restart**.
 
-## Cancel Workspace
+**Cancel Workspace**
 
-You can cancel your workspace to end your subscription and hibernate your server.
+To terminate your subscription and hibernate your workspace, you have the option to cancel it.
 
 To cancel a workspace,
 
 * From the sidebar menu, click **Workspaces.**
-* Click the \*\*\*\* ![](../../../.gitbook/assets/three-dot-icon.png)**three-dot** icon beside the workspace.
-* Select **Cancel**.
+* Click the **kebab menu** **icon** beside the workspace and select **Cancel**.
 
 {% hint style="info" %}
-Please be aware that the workspace administrator in your [Cloud Console](https://cloud.rocket.chat/) is the only person who can end your subscription. Self-managed customers can't cancel their workspaces.
+* Only workspace administrators can terminate subscription from Rocket.Chat cloud.
+* When canceling a workspace, the status shows as "**canceling**" until the end of your billing cycle. Once the billing cycle is over, the status changes to "**canceled**".
+* Should you reconsider your decision within 30 days of canceling your workspace, please contact us at  [support@rocket.chat](mailto:support@rocket.chat) to restore your workspace. However, if more than 30 days have elapsed, you need to create a new workspace.
 {% endhint %}
 
-When you cancel a Saas service, the status remains **canceling** until the end of your billing cycle. After the billing cycle is ended, the status is changed to **canceled.**
+**Update Workspace**
 
-{% hint style="info" %}
-If you change your mind within 30 days of your workspace getting canceled, please reach out to us at [support@rocket.chat](mailto:support@rocket.chat) to get your workspace restored. After 30 days, you will have to create a new one.
-{% endhint %}
-
-## Update Workspace
-
-You can upgrade your workspace to the latest workspace version.
+You can update your workspace to the latest Rocket.Chat version from your cloud account.
 
 To update your workspace,
 
 * From the sidebar menu, click **Workspaces.**
-* Click the \*\*\*\* ![](../../../.gitbook/assets/three-dot-icon.png)**three-dot** icon beside the workspace.
-* Select **Update**.
+* Click the **kebab menu** **icon** beside the workspace and select **Update**.
+
+{% hint style="warning" %}
+Restarting, updating, and canceling workspaces from Rocket.Chat cloud is only available for [cloud-hosted workspaces](https://docs.rocket.chat/customer-center/cloud-services-center/rocket.chat-cloud-hosting-service-level-agreement-sla).
+{% endhint %}
+
+With your Rocket.Chat cloud account, you can manage both[ self-hosted](../../../deploy/deploy-rocket.chat/) and [cloud-hosted](https://docs.rocket.chat/customer-center/cloud-services-center/rocket.chat-cloud-hosting-service-level-agreement-sla) workspaces. This includes subscribing to plans and add-ons for the workspace. In the next section, we'll highlight handling invoices for your subscriptions.
