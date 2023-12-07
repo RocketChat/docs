@@ -29,7 +29,6 @@ Rocket.Chat's Cloud Support varies based on the chosen hosting tier. The cloud h
 
 **Additional Services**
 
-* **VPN Access**: Available exclusively for Dedicated Private Cloud Hosting and is not supported in Standard or Premium Cloud Hosting.
 * **Microservices Architecture**: All workspaces deployed under Premium and Dedicated Private Cloud Services are built on the microservices architecture.
 * **Version Updates and Upgrades**: Updates to our Cloud Services occur periodically, and the policies governing these updates vary based on the selected Cloud Hosting type. It is essential to understand that certain hosting options provide the flexibility for customers to reschedule updates. However, this is not the case for some services, such as the Standard Cloud or the traditional Rocket.Chat SaaS, where rescheduling updates is not an available option.
 * **Usage Limits**: As stated in the Hosting Comparison Table, usage limits in Cloud Hosting differ based on the tier you have contracted. You can view your current usage details by accessing the administrator control panel, and following the [instructions](../../use-rocket.chat/workspace-administration/workspace.md). Please be aware that surpassing these established usage limits could impact the availability of the Cloud Services we offer.&#x20;
