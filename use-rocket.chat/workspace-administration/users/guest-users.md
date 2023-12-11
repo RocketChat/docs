@@ -1,49 +1,20 @@
----
-description: Enterprise only feature
----
-
-# Guest users
+# Guest Users
 
 <figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
 
-Guest users in Rocket.Chat are invited external users with limited capabilities. While they can join select channels and discussions, they don't have full workspace access. This setup is ideal for collaboration with partners, contractors, or customers, allowing businesses to grant project-specific access while ensuring security.
+The **Guest Users** feature in Rocket.Chat enables organizations to extend collaboration beyond internal teams by inviting external users with limited capabilities to your workspace. This setup is ideal for collaboration with partners, contractors, or customers, allowing businesses to grant project-specific access while ensuring security.&#x20;
+
+**Key capabilities of Guest Users in Rocket.Chat include:**
+
+1. Start [Discussions](../../user-guides/rooms/discussions/).
+2. Access and participate in invited [channels](../../user-guides/rooms/channels/).
+3. Reply to [Direct Messages](../../user-guides/rooms/direct-messages/).
 
 {% hint style="info" %}
 Guest users do not count towards the seat cap, but they count towards the guest cap.
 {% endhint %}
 
-### What can a guest user do?
-
-A Rocket.Chat guest users can do the following:
-
-* Join [channels](../../user-guides/rooms/channels/) they are invited to.
-* Participate in [Channel](../../user-guides/rooms/channels/), [1:1 DM](../../user-guides/rooms/direct-messages/#types-of-direct-messages), and [1:M DM](../../user-guides/rooms/direct-messages/#types-of-direct-messages) conversations they are a part of.
-* [Create Discussions](../../user-guides/rooms/discussions/create-a-new-discussion.md).
-
-{% hint style="info" %}
-You can manage the capabilities of guest users further by [configuring their permissions](guest-users.md#guest-access-permissions).
-{% endhint %}
-
-## Manage your guest users
-
-### **Guest User Permissions**
-
-To view the guest user permissions,
-
-* Navigate to **Administration > Workspace > Permissions** and locate the guest role.&#x20;
-* You will see the enabled permissions the guest role has. The guest role has limited permissions like Start Discussion, and View Direct Messages.&#x20;
-
-{% hint style="warning" %}
-The Guest Users feature is exclusively available to workspaces on the [Enterprise plan](../../../readme/our-plans.md#enterprise-plan). From Rocket.Chat version `6.0`, permissions for the guest role can not be modified on workspaces subscribed to the Enterprise plan.
-{% endhint %}
-
-![Permissions](../../../.gitbook/assets/GuestUser\_Permissions.png)
-
-### Add a Guest User
-
-{% hint style="info" %}
-You must be an administrator to add a guest to your  workspace.
-{% endhint %}
+**Add a Guest User**
 
 To add a guest user,&#x20;
 
@@ -52,6 +23,7 @@ To add a guest user,&#x20;
   * **Name:** Enter the name of the guest user.
   * **Username:** Enter the guest users's username.
   * **Email:** Enter the guest users' email address.
+  * **Verified**: Enable or disable this option to verify the guest user.&#x20;
   * **Status Message:** Set the guest user's status message.
   * **Bio:** Enter the guest user's bio information.
   * **Nickname:** Enter the guest users's nickname.
@@ -65,7 +37,7 @@ To add a guest user,&#x20;
 
 Once the guest user is added, you can edit, activate or deactivate the guest user.
 
-### Edit Guest Users
+**Edit Guest Users**
 
 To edit the guest user,
 
@@ -73,3 +45,17 @@ To edit the guest user,
 * Click the guest user from the list of users to view the **User Info.**
 * Click the **Edit** button to edit the user.
 * Click the **kebab** menu for other actions like activate/deactivate, delete the user.
+
+**View Guest User Permissions**
+
+To view the guest user permissions granted in a workspace,
+
+* Navigate to **Administration > Workspace > Permissions** and locate the guest role.&#x20;
+* You can view the enabled permissions for the guest role.
+
+{% hint style="warning" %}
+* Guest role permissions cannot be modified for Rocket.Chat workspaces on version 6.0 and above subscribed to the [Enterprise plan](../../../readme/our-plans.md#enterprise-plan).
+* You must be an administrator to manage guest users in your workspace.
+{% endhint %}
+
+Rocket.Chat **Guest Users** feature is a valuable tool for organizations seeking seamless collaboration with external users. It streamlines communication and promotes efficient collaboration without compromising the security of your workspace.
