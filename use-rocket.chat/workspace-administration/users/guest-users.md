@@ -4,7 +4,7 @@
 
 The **Guest Users** feature in Rocket.Chat enables organizations to extend collaboration beyond internal teams by inviting external users with limited capabilities to your workspace. This setup is ideal for collaboration with partners, contractors, or customers, allowing businesses to grant project-specific access while ensuring security.&#x20;
 
-**Key capabilities of Guest Users in Rocket.Chat include:**
+**Key capabilities of Guest Users:**
 
 1. Start [Discussions](../../user-guides/rooms/discussions/).
 2. Access and participate in invited [channels](../../user-guides/rooms/channels/).
@@ -44,7 +44,7 @@ To edit the guest user,
 * Go to **Administration > Workspace > Users.**
 * Click the guest user from the list of users to view the **User Info.**
 * Click the **Edit** button to edit the user.
-* Click the **kebab** menu for other actions like activate/deactivate, delete the user.
+* Click the **kebab** menu for other actions like activating, deactivating, and deleting the user.
 
 **View Guest User Permissions**
 
