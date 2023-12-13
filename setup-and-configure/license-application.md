@@ -144,7 +144,7 @@ Your workspace is now Registered and your License applied to your workspace.
 
 ## Cancel Workspace Subscription
 
-To cancel your workspace subscription and revert back to the [community](../readme/our-plans.md#community), simply navigate to **Administration > Subscription** and click the **Cancel Subscription** button.
+To cancel your workspace subscription and revert back to  [Community](../readme/our-plans.md#community), simply navigate to **Administration > Subscription** and click the **Cancel Subscription** button.
 
 {% hint style="info" %}
 You can only cancel your subscription when your workspace is subscribed to the [Starter plan](../readme/our-plans.md#starter-plan) or any of our [Trials](trials/).
