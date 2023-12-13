@@ -462,7 +462,6 @@
 
 * [Contributor Code of Conduct](https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/code\_of\_conduct)
 * [How Can I Help?](https://developer.rocket.chat/contribute-to-rocket.chat/ways-to-contribute)
-* [Github Sponsorship](contribute-to-rocket.chat/github-sponsorship.md)
 * [Annual Contribution Programs](contribute-to-rocket.chat/annual-contribution-programs.md)
 
 ## APPLICABLE TERMS
