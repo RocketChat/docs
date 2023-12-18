@@ -6,8 +6,12 @@ If your workspace is on the Starter plan and exceeds some specific limits of the
 
 <figure><img src="../../.gitbook/assets/starterToProTrial (2).svg" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Keep in mind that if an Enterprise trial is triggered while your workspace is on the Pro trial, the Enterprise trial will only be available for the number of remaining days within your 30-day trial. For example, if an Enterprise trial is triggered on the 15th day of your Pro trial, the Enterprise trial will be available to you for the next 15 days.
+{% endhint %}
+
+{% hint style="info" %}
+If you no longer wish to test the trials, you can [Cancel Workspace Subscription](https://docs.rocket.chat/setup-and-configure/license-application#cancel-workspace-subscription) and revert to [Community](https://docs.rocket.chat/readme/our-plans#community).
 {% endhint %}
 
 With this, Rocket.Chat allows potential users to test drive its Pro Plan through a detailed trial, providing a hands-on experience with its advanced capabilities. This enables users to thoroughly assess the platform's features, ensuring that they are well-equipped to decide on upgrading to the Pro Plan.
