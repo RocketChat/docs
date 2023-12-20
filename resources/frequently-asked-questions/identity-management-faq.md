@@ -5,7 +5,7 @@
 While basic functionalities such as LDAP connection to sync user names and unique identifiers remain in the [community plan](../../readme/our-plans.md#community), the [premium plan](../../readme/our-plans.md) will exclusively offer extended user attribute sync, group/team management, and background sync.
 
 {% hint style="success" %}
-For an overview of the Identity Management features available across our various [plans](../../readme/our-plans.md), please refer to [identity-management-ee-vs-ce.md](../../setup-and-configure/advanced-workspace-management/identity-management-ee-vs-ce.md "mention").
+For an overview of the Identity Management features available across our various [plans](../../readme/our-plans.md), please refer to [authentication-plan-comparison.md](../../use-rocket.chat/authentication/authentication-plan-comparison.md "mention").
 {% endhint %}
 
 ### What does LDAP, Active Directory, OAuth, and SAML mean ?
@@ -44,11 +44,11 @@ No, there are no adverse effects.
 
 ### What does the "Bind successful but user was not found via search" error mean?
 
-This error indicates that the login attempt was successful, but a follow-up search for the user on the LDAP Server returned no results. To resolve this, disable the "[**Find user after login**](../../use-rocket.chat/workspace-administration/settings/ldap/ldap-user-search.md#find-user-after-login)" setting.
+This error indicates that the login attempt was successful, but a follow-up search for the user on the LDAP Server returned no results. To resolve this, disable the "[**Find user after login**](broken-reference)" setting.
 
 ### **How can I prevent disabled LDAP users from logging into Rocket.Chat?**
 
-Use the "[**Sync User Active State**](../../use-rocket.chat/workspace-administration/settings/ldap/ldap-premium-settings.md#advanced-sync)" setting in [#advanced-sync](../../use-rocket.chat/workspace-administration/settings/ldap/ldap-premium-settings.md#advanced-sync "mention"). Please be aware that compatibility with all LDAP Servers is not guaranteed.
+Use the "[**Sync User Active State**](../../use-rocket.chat/authentication/ldap/ldap-premium-settings.md#advanced-sync)" setting in [#advanced-sync](../../use-rocket.chat/authentication/ldap/ldap-premium-settings.md#advanced-sync "mention"). Please be aware that compatibility with all LDAP Servers is not guaranteed.
 
 ### **Why can't I log in even though the setup seems correct?**
 
@@ -56,7 +56,7 @@ Use the "[**Sync User Active State**](../../use-rocket.chat/workspace-administra
 
 ### **Why are users not created even though the setup seems correct?**
 
-Every Rocket.Chat user must have an email address. Therefore, either the LDAP users have an email address or you set a default domain using the "**default domain**" setting in [ldap-data-sync-settings.md](../../use-rocket.chat/workspace-administration/settings/ldap/ldap-data-sync-settings.md "mention").
+Every Rocket.Chat user must have an email address. Therefore, either the LDAP users have an email address or you set a default domain using the "**default domain**" setting in [ldap-data-sync-settings.md](../../use-rocket.chat/authentication/ldap/ldap-data-sync-settings.md "mention").
 
 ## References
 

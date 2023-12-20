@@ -1,3 +1,7 @@
+---
+description: Apply Premium license for your 30-day Enterprise Trial.
+---
+
 # Enterprise Trial
 
 The Enterprise Plan is designed for large-scale organizations requiring a secure, customizable, and comprehensive communication platform. It provides scalable solutions, sophisticated compliance tools, and prioritized support to meet the intricate demands of major enterprises and sectors with strict regulatory standards. Emphasizing high performance, dependability, and advanced integration capabilities, this plan is an ideal selection for businesses looking for a premier collaboration platform.
