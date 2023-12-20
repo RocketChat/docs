@@ -27,7 +27,7 @@ To add a custom OAuth:
     https://yourcompany.rocket.chat/_oauth/customoauth
     ```
 
-Learn how to configure custom OAuth by referring to the examples — [ms-office-365-custom-oauth-setup.md](ms-office-365-custom-oauth-setup.md "mention") and [#custom-oauth-okta](additional-oauth-methods.md#custom-oauth-okta "mention")
+Learn how to configure custom OAuth by referring to the examples — [ms-office-365-oauth-setup.md](ms-office-365-oauth-setup.md "mention") and [#custom-oauth-okta](other-oauth-setup.md#custom-oauth-okta "mention")
 
 ## Refresh OAuth Services
 

@@ -11,7 +11,7 @@ This guide shows how you can set up a custom OAuth integration between Microsoft
 * An application ID and client secret.
   * If you don't have an app, log in to the Azure Portal and navigate to the **Microsoft Entra ID** tab.
   * Create a new **App Registration**.
-  * Fill in the details. You will get the redirect URI from your Rocker.Chat workspace when you[#create-custom-o365-oauth](ms-office-365-custom-oauth-setup.md#create-custom-o365-oauth "mention").
+  * Fill in the details. You will get the redirect URI from your Rocker.Chat workspace when you[#create-custom-o365-oauth](ms-office-365-oauth-setup.md#create-custom-o365-oauth "mention").
   * After registering your new app, take note of **Application (client) ID**. It will be needed to configure the integration later.
   * On your new app's page, go to the **Certificates and Secret** tab to create a **New client secret**.
 

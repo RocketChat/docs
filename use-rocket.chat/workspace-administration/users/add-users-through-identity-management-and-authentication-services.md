@@ -10,8 +10,8 @@ LDAP configuration on Rocket.Chat can be used to establish connections, used for
 
 To configure LDAP authentication, go to **Administration** > **Workspace** > **Setting** > **LDAP.**
 
-{% content-ref url="../../authentication/ldap/" %}
-[ldap](../../authentication/ldap/)
+{% content-ref url="../settings/ldap/" %}
+[ldap](../settings/ldap/)
 {% endcontent-ref %}
 
 ### SAML
@@ -20,8 +20,8 @@ To configure LDAP authentication, go to **Administration** > **Workspace** > **S
 
 To access SAML setting, go to **Administration** > **Workspace** > **Settings** > **SAML.**
 
-{% content-ref url="../../authentication/saml/" %}
-[saml](../../authentication/saml/)
+{% content-ref url="../settings/saml/" %}
+[saml](../settings/saml/)
 {% endcontent-ref %}
 
 ### OAuth
@@ -30,8 +30,8 @@ You can configure authentication methods beyond just username and password.&#x20
 
 To access OAuth setting, go to **Administration > Workspace > Settings > OAuth.**
 
-{% content-ref url="../../authentication/oauth/" %}
-[oauth](../../authentication/oauth/)
+{% content-ref url="../settings/oauth/" %}
+[oauth](../settings/oauth/)
 {% endcontent-ref %}
 
 ### CAS

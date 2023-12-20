@@ -10,7 +10,7 @@
 
 ## Set up Rocket.Chat
 
-Go to the [saml-configuration.md](saml-configuration.md "mention") in Rocket.Chat administration:
+Go to the [rocket.chat-server-settings.md](rocket.chat-server-settings.md "mention") in Rocket.Chat administration:
 
 * Provide the Keycloak server "nickname". For example, `keycloak`.
 * For the **Custom Entry Point** and **IDP SLO Redirect URL** fields, go to `https://sso.example.com/auth/realms/<realm>/protocol/saml`

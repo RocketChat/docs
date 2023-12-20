@@ -18,4 +18,4 @@ Use the following attributes required to return user information to Rocket.Chat:
 
 <table><thead><tr><th width="349">Idp Returned Attribute Name</th><th>Usage</th></tr></thead><tbody><tr><td>cn</td><td>User's Full Name.</td></tr><tr><td>email</td><td>User's Email Address.</td></tr><tr><td>username</td><td>User's username.</td></tr></tbody></table>
 
-Proceed to enter all the [saml-configuration.md](saml-configuration.md "mention") settings and ensure a secure authentication mechanism for your workspace!
+Proceed to enter all the [rocket.chat-server-settings.md](rocket.chat-server-settings.md "mention") settings and ensure a secure authentication mechanism for your workspace!

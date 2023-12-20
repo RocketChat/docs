@@ -27,7 +27,7 @@ ADFS uses `.pfx` certificate extensions (widely used on Windows landscapes) and 
 The Custom Authorization context fields must match the authentication methods selected on ADFS. Microsoft Federation Services provides two authentication methods: **Forms Authentication** and **Windows Authentication**.
 {% endhint %}
 
-![](<../../../.gitbook/assets/adfs\_1 (1).png>)
+![](<../../../../.gitbook/assets/adfs\_1 (1).png>)
 
 * **Forms authentication**: If this option is set as 'primary', a login form provided by ADFS will be called by the SAML assertion to perform the login operation. For this method, the recommended **Custom Authn Context** in Rocket.Chat should be `urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport`
 * **Windows authentication**: if this option is set as 'primary', ADFS will expect the login assertions on the Windows Domain level. To set a full SSO scenario between Rocket.Chat and ADFS, the recommended **Custom Authn Context** should be `_urn:federation:authentication:windows_`

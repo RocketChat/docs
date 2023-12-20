@@ -46,7 +46,7 @@ A **Login with KeyCloak** button appears on your workspace's login page. Users c
 
 ## Mapping non-federated Keycloak user roles to Rocket.Chat roles
 
-Client-specific roles of a Keycloak-managed user can be mapped to Rocket.Chat roles. This does not work for federated users (LDAP-managed users). For this example, to map the `admin` and `livechat-manager` [role](../../workspace-administration/permissions/#roles), add the required roles to the client.
+Client-specific roles of a Keycloak-managed user can be mapped to Rocket.Chat roles. This does not work for federated users (LDAP-managed users). For this example, to map the `admin` and `livechat-manager` [role](../../../../use-rocket.chat/workspace-administration/permissions/#roles), add the required roles to the client.
 
 To create a role in Keycloak,
 
@@ -64,8 +64,8 @@ To grant the Rocket.Chat role to a user, we have to modify the user's Role Mappi
 
 **Create Protocol Mapper**
 
-![Create Protocol Mapper](../../../.gitbook/assets/Createprotocalmapping.jpg)
+![Create Protocol Mapper](../../../../.gitbook/assets/Createprotocalmapping.jpg)
 
 **Mappers**
 
-![Mappers](../../../.gitbook/assets/mappersrc.jpg)
+![Mappers](../../../../.gitbook/assets/mappersrc.jpg)

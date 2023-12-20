@@ -40,7 +40,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**Layout**](layout.md): Under the Layout option, you can personalize the appearance of your Rocket.Chat workspace by specifying various colors or providing custom CSS.
 
-[**LDAP**](../../authentication/ldap/): Learn how to configure Lightweight Access Directory Protocol so that no one can access or cannot access information about your server or business.
+[**LDAP**](ldap/): Learn how to configure Lightweight Access Directory Protocol so that no one can access or cannot access information about your server or business.
 
 [**Logs**](logs.md): Learn to configure how server logs are received, the log level, and other essential log settings.
 
@@ -50,7 +50,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**Mobile**](mobile.md): Check how you can help users using Rocket.Chat mobile app to save files to the device storage while enforcing biometrics, pin, or Face ID to gain access to your workspace.
 
-[**OAuth**](../../authentication/oauth/): Ensure that users of your workspace can connect to it using third-party authentication providers such as Facebook, GitHub, Google, Apple, and more.
+[**OAuth**](oauth/): Ensure that users of your workspace can connect to it using third-party authentication providers such as Facebook, GitHub, Google, Apple, and more.
 
 [**Omnichannel**](omnichannel-admins-guide/): Explore the Omnichannel option to talk to your clients from Rocket.Chat without the need to install the messaging apps they are using, such as WhatsApp.&#x20;
 
@@ -66,7 +66,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**Retention Policy**](retention-policies.md): Learn to configure whether to enable the automatic removal of old messages and files across your workspace.
 
-[**SAML**](../../authentication/saml/): Enable using the Security Assertion Markup Language standard to exchange authentication and authorization information.
+[**SAML**](saml/): Enable using the Security Assertion Markup Language standard to exchange authentication and authorization information.
 
 [**Search**](search.md): Check how to select and configure your workspace's search provider.
 

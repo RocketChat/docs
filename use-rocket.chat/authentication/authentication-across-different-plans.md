@@ -1,6 +1,6 @@
-# Authentication Plan Comparison
+# Authentication Across Different Plans
 
-User authentication plays a crucial role in ensuring secure and efficient user access to digital resources. Rocket.Chat offers robust identity management features across [our various plans](../../readme/our-plans.md). This guide provides a comprehensive overview of the identity management features in Rocket.Chat across the various plans, highlighting the capabilities of each.
+Rocket.Chat offers robust identity management features across[ various plans](../../readme/our-plans.md). This guide outlines the identity management features available across different Rocket.Chat plans.
 
 ## **LDAP / AD**  <a href="#ldap3" id="ldap3"></a>
 
@@ -12,7 +12,7 @@ Leverage advanced settings such as background sync, roles mapping from groups, a
 
 Create role mapping from user groups by selecting the field you want to sync with Rocket.Chat.
 
-<table><thead><tr><th width="273">Feature</th><th width="124">Community</th><th width="100">Starter</th><th width="95">Pro</th><th>Enterprise</th></tr></thead><tbody><tr><td><strong>Basic Synchronization</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td><strong>Customizable User Interface</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td><strong>Roles mapping</strong></td><td><strong>x</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td><strong>Fields mapping</strong></td><td><strong>x</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td><a href="saml/saml-configuration.md#advanced"><strong>Advanced SAML Settings</strong></a></td><td><strong>x</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr></tbody></table>
+<table><thead><tr><th width="273">Feature</th><th width="124">Community</th><th width="100">Starter</th><th width="95">Pro</th><th>Enterprise</th></tr></thead><tbody><tr><td><strong>Basic Synchronization</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td><strong>Customizable User Interface</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td><strong>Roles mapping</strong></td><td><strong>x</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td><strong>Fields mapping</strong></td><td><strong>x</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr><tr><td><a href="../workspace-administration/settings/saml/rocket.chat-server-settings.md#advanced"><strong>Advanced SAML Settings</strong></a></td><td><strong>x</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td><td><strong>✓</strong></td></tr></tbody></table>
 
 ## **OAuth / Custom OAuth** <a href="#oauth3" id="oauth3"></a>
 

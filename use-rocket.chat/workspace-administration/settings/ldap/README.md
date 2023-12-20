@@ -14,7 +14,7 @@ This section guides you through the configuration details and examples to help y
    * **Advanced User Data Sync**: Provides a comprehensive synchronization of user data, ensuring that all relevant attributes and settings are consistently mirrored in Rocket.Chat.
 
 {% hint style="info" %}
-For an overview of the LDAP features available across our various [plans](../../../readme/our-plans.md), refer to[authentication-plan-comparison.md](../authentication-plan-comparison.md "mention").
+For an overview of the LDAP features available across our various [plans](../../../../readme/our-plans.md), refer to[authentication-across-different-plans.md](../../../authentication/authentication-across-different-plans.md "mention").
 {% endhint %}
 
 ## Configure LDAP authentication
@@ -31,11 +31,11 @@ The following actions can be located at the top section of the LDAP settings int
 * **Sync Now**: Syncs your LDAP data based on the Data Sync configurations.
 
 {% hint style="success" %}
-These actions are exclusively available to workspaces subscribed to any of Rocket.Chat's [premium plans](../../../readme/our-plans.md).
+These actions are exclusively available to workspaces subscribed to any of Rocket.Chat's [premium plans](../../../../readme/our-plans.md).
 {% endhint %}
 
 {% hint style="info" %}
-If you do not receive an alert confirming these actions, always consult the log under [reports.md](../../workspace-administration/reports.md "mention") to check for their success or to identify any errors.&#x20;
+If you do not receive an alert confirming these actions, always consult the log under [reports.md](../../reports.md "mention") to check for their success or to identify any errors.&#x20;
 {% endhint %}
 
 Integrating LDAP with Rocket.Chat not only simplifies user management but also strengthens security and ensures data consistency across your digital ecosystem. As we move to the next sections, we will delve deeper into the configuration process, guiding you through the steps to seamlessly integrate LDAP with your Rocket.Chat workspace, thereby unlocking its full potential.

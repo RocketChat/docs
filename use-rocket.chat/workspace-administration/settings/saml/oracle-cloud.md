@@ -6,7 +6,7 @@ Oracle Identity and Cloud Service (IDCS) provides an integrated identity and acc
 
 ### Before you begin
 
-Before you create your IDCS application, make sure you have enabled SAML per the [saml-configuration.md](saml-configuration.md "mention"). You must enter a **Custom Provider** and a **Custom Issuer** URL on the SAML settings page in Rocket.Chat.
+Before you create your IDCS application, make sure you have enabled SAML per the [rocket.chat-server-settings.md](rocket.chat-server-settings.md "mention"). You must enter a **Custom Provider** and a **Custom Issuer** URL on the SAML settings page in Rocket.Chat.
 
 {% hint style="info" %}
 Leave the **Custom Entry Point** and **IDP SLO Redirect URL** values as the default values for now. We will obtain these URLs below, but you must save the SAML settings with your **Custom Issuer** URL so you can visit this URL and obtain values that are necessary when creating the IDCS application below.
@@ -18,23 +18,23 @@ For the complete settings, refer to [Add a SAML Application](https://docs.oracle
 
 On your Oracle Cloud Applications Dashboard, find a button to add a new application. It should open the following pop-up:
 
-![](<../../../.gitbook/assets/AddApplication (1).png>)
+![](<../../../../.gitbook/assets/AddApplication (1).png>)
 
 Select **SAML Application** to open the configuration wizard.
 
 ### App Details
 
-![](../../../.gitbook/assets/AppDetails.png)
+![](../../../../.gitbook/assets/AppDetails.png)
 
 The only information needed on this page is the application name and URL. The URL you need to use here is the same one that is set on the **Custom Issuer** SAML configuration field on the Rocket.Chat settings.
 
 ### SSO Configuration
 
-![](../../../.gitbook/assets/SSOConfiguration.png)
+![](../../../../.gitbook/assets/SSOConfiguration.png)
 
 To get the values for those new settings, you need to access the same **Custom Issuer** URL that you used on the previous page. It should show an XML file similar to the one below:
 
-![](<../../../.gitbook/assets/SampleXMLConfiguration (1).png>)
+![](<../../../../.gitbook/assets/SampleXMLConfiguration (1).png>)
 
 * From the **AssertionConsumerService** tag, you need to copy the value of the **Location** attribute. Then, paste this value into the **Assertion Consumer URL** field in the Oracle Settings.&#x20;
 * From the **SingleLogoutService** tag, you need to copy the value of the **Location** attribute, and then paste it into the **Single Logout URL** field of the **Advanced Settings**.&#x20;
@@ -45,7 +45,7 @@ Before clicking on **Finish**, click the **Download Identity Provider Metadata**
 
 ### Rocket.Chat Settings
 
-![](../../../.gitbook/assets/RocketChatSettings.png)
+![](../../../../.gitbook/assets/RocketChatSettings.png)
 
 There are two Rocket.Chat settings that need to be copied from the IDP Metadata you just downloaded — **Custom Entry Point** and **IDP SLO Redirect URL**.
 

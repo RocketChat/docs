@@ -1,8 +1,8 @@
 # LDAP Premium Settings
 
-<figure><img src="../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
-As we progress further into LDAP integration with Rocket.Chat, we have LDAP premium settings, available exclusively to workspaces subscribed to Rocket.Chat's [premium plans](../../../readme/our-plans.md). These settings offer advanced capabilities for syncing and managing user data and roles.
+As we progress further into LDAP integration with Rocket.Chat, we have LDAP premium settings, available exclusively to workspaces subscribed to Rocket.Chat's [premium plans](../../../../readme/our-plans.md). These settings offer advanced capabilities for syncing and managing user data and roles.
 
 ## **Advanced Sync**
 

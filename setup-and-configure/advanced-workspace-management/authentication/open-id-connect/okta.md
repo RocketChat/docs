@@ -32,7 +32,7 @@ Okta Identity Cloud Service can be integrated with Rocket.Chat via its OpenID Co
 
 ## Configure Okta as the identity provider
 
-![](../../../.gitbook/assets/AddApp.png)
+![](../../../../.gitbook/assets/AddApp.png)
 
 * Create a new app on your Okta Application Dashboard.
 * Select **Web** as the **Platform**.

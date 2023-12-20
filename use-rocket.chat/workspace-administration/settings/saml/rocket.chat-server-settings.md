@@ -5,7 +5,7 @@ This page guides you through the various available settings you can configure fo
 In your Rocket.Chat workspace, go to **Administration** > **Workspace** > **Settings** > **SAML**. On the **SAML** page, you will find the configuration tabs where you can provide the details according to your requirements. Make sure that you have an identity provider and the necessary credentials.
 
 {% hint style="info" %}
-You can refer to [SimpleSAMLphp](simplesamlphp.md), [Active Directory Federation Services](active-directory-federation-services.md), [Oracle Identity Cloud Service](oracle-cloud.md), and [Keycloak](keycloak.md#troubleshooting) for specific configuration options and sample values.
+You can refer to [SimpleSAMLphp](simple-saml-php.md), [Active Directory Federation Services](active-directory-federation-services.md), [Oracle Identity Cloud Service](oracle-cloud.md), and [Keycloak](keycloak.md#troubleshooting) for specific configuration options and sample values.
 {% endhint %}
 
 ## Connection
@@ -28,7 +28,7 @@ You can refer to [SimpleSAMLphp](simplesamlphp.md), [Active Directory Federation
 
 ## Premium
 
-<figure><img src="../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 The settings on the **Premium** tab are only available to workspaces on any of the Rocket.Chat premium plans.
 
