@@ -5,7 +5,7 @@ description: Manage Rocket.Chat Apps
 # Rocket.Chat Marketplace
 
 {% hint style="info" %}
-Effective December 15, 2023, Rocket.Chat will cease support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
+As of December 15, 2023, Rocket.Chat has ceased support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
 {% endhint %}
 
 The [Rocket.Chat Marketplace](https://www.rocket.chat/marketplace) is a central hub where users can discover, install, and manage Rocket.Chat Apps to enhance their workspace's functionality. These apps range from integrations with third-party services to custom features designed to improve user experience. You can also develop your own apps using the [Rocket.Chat Apps engine](https://developer.rocket.chat/apps-engine).

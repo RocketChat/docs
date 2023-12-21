@@ -1,10 +1,10 @@
 # License Application
 
 {% hint style="info" %}
-Effective December 15, 2023, Rocket.Chat will cease support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
+As of December 15, 2023, Rocket.Chat has ceased support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
 {% endhint %}
 
-In the realm of open-source communication, Rocket.Chat has always been at the forefront of providing secure and scalable solutions. To gain a comprehensive understanding of Rocket.Chat's extensive capabilities, we recommend exploring our [premium plans](https://www.rocket.chat/pricing). A license is applied to your workspace when you subscribe to any of Rocket.Chat's[ premium plans](../readme/our-plans.md). Alternatively, you can  [contact our sales](https://www.rocket.chat/sales-contact) team for a license and  manually apply it on your workspace.
+Rocket.Chat has always been at the forefront of providing secure and scalable solutions. To gain a comprehensive understanding of Rocket.We recommend exploring Chat's extensive capabilities and our [premium plans](https://www.rocket.chat/pricing). A license is applied to your workspace when you subscribe to any of Rocket.Chat's[ premium plans](../readme/our-plans.md). Alternatively, you can [contact our sales](https://www.rocket.chat/sales-contact) team for a license and manually apply it to your workspace.
 
 The guide provides detailed instructions on how to apply and sync your workspace license on different kinds of workspaces.
 
@@ -26,7 +26,7 @@ To apply the license,
 * Then, click **Sync**.
 {% endhint %}
 
-Your License is now applied to your workspace and it is ready to use. Navigate to **Administration > Subscription** to confirm and view your current workspace plan.
+Your license has now been applied to your workspace, and it is ready to use. Navigate to **Administration > Subscription** to confirm and view your current workspace plan.
 
 ## I have a Self Managed Registered Workspace&#x20;
 
@@ -38,11 +38,11 @@ To apply the license,
 * Navigate to **Administration > Subscription** and click the **Sync license update** button. This fetches the License for your workspace from Rocket.Chat Cloud.
 
 {% hint style="warning" %}
-* For workspaces below `6.5`, navigate to **Administration** > **Workspace** > **Registration** > **Manage.** For workspaces below `6.0`, navigate to   **Administration** > **Connectivity Services**.
+* For workspaces below`6.5`, navigate to **Administration** > **Workspace** > **Registration** > **Manage.** For workspaces below`6.0`, navigate to   **Administration** > **Connectivity Services**.
 * Then, click **Sync**.
 {% endhint %}
 
-Your License is applied to your workspace and is ready to use. Navigate to **Administration > Subscription** to confirm and view your current workspace plan.
+Your license is applied to your workspace and is ready to use. Navigate to **Administration > Subscription** to confirm and view your current workspace plan.
 
 ## I have a Self Managed Unregistered Workspace
 
@@ -77,7 +77,7 @@ To apply the license token to air-gapped workspaces on versions below 6.5,
 * Paste the License token you were provided
 * Click **Apply License**
 
-Your License is now applied to your workspace. Navigate to **Administration > Workspace** to confirm and view your current workspace plan.
+Your license is now applied to your workspace. Navigate to **Administration > Workspace** to confirm and view your current workspace plan.
 
 If your workspace is not registered and you have the registration token,&#x20;
 
@@ -112,7 +112,7 @@ To apply the license,
 * Then, click **Sync**.
 {% endhint %}
 
-Your License is applied to your workspace and is ready to use. Navigate to **Administration > Subscription** to confirm and view your current workspace plan.
+Your license is now applied to your workspace and is ready to use. Navigate to **Administration > Subscription** to confirm and view your current workspace plan.
 
 ## I do not have a Self Managed Air-Gapped Workspace
 
@@ -132,7 +132,7 @@ To apply the license token to air-gapped workspaces on versions below 6.5,
 * Paste the License token you were provided
 * Click **Apply License**
 
-Your License is now applied to your workspace. Navigate to **Administration > Workspace** to confirm and view your current workspace plan.
+Your license is now applied to your workspace. Navigate to **Administration > Workspace** to confirm and view your current workspace plan.
 
 If your workspace is not registered and you have the registration token,&#x20;
 
@@ -140,7 +140,7 @@ If your workspace is not registered and you have the registration token,&#x20;
 * Click **Register** and then click **Use Token.**
 * Paste the token provided.
 
-Your workspace is now Registered and your License applied to your workspace.
+Your workspace is now registered and your license applied to your workspace.
 
 ## Cancel Workspace Subscription
 

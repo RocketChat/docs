@@ -22,7 +22,7 @@ Theme offer a visually comfortable experience that aligns with individual tastes
    * **Description**: Designed for maximum accessibility.
    * **Advantages**: Especially beneficial for individuals with visual impairments, emphasizing element distinction to improve readability and usability.
 
-#### Adjustable Layout
+### Adjustable Layout
 
 Users can tailor their collaboration experience with a range of customization options to align with personal preferences.
 
@@ -35,17 +35,17 @@ Users can tailor their collaboration experience with a range of customization op
 
 * **Purpose**: Facilitates targeted communication by notifying and highlighting messages for groups or specific users. Enhances screen reader effectiveness when the "@" symbol is employed in the mention feature. This ensures that users relying on screen readers can easily interpret and engage with these mentions.
 
-**Time Format**
+3. **Time Format**
 
 * **Options**: Users can choose between a 12-hour or 24-hour clock format.
 * **Benefit**: Ensures accurate tracking of conversations in a preferred time format.
 
-**Show Usernames**
+4. **Show Usernames**
 
 * **Customization**: Option to display or hide usernames.
 * **Balance**: Maintains a clean interface while ensuring the ability to identify conversation participants.
 
-**Show Roles**
+5. **Show Roles**
 
 * **Functionality**: Allows users to display or conceal user roles.
 * **Advantage**: Streamlines the interface for better information retention without unnecessary visual clutter.
