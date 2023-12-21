@@ -4,12 +4,12 @@ description: >-
   mobile apps.
 ---
 
-# My Account
+# Account
 
 To access and manage your Rocket.Chat account on a server,
 
 * Log in to your Rocket.Chat server with a valid username and password.&#x20;
-* Click your avatar and select **My Account**.
+* Click your avatar and select **Account**.
 * You can update your **Profile**, **Preference** , **Security** and **Personal Access Tokens**.
 
 {% hint style="info" %}
@@ -22,7 +22,7 @@ In the **Preferences**, you can configure and set your preferences for your serv
 
 To access this menu,&#x20;
 
-* Navigate to **Avatar Menu > My Account** > **Preferences.**
+* Navigate to **Avatar Menu >  Account** > **Preferences.**
 * Update your preferences and click **Save Changes.**
 
 ### Localization
@@ -49,11 +49,11 @@ For email notifications, you must verify your email address.
 ### Messages
 
 * **Unread Tray Icon Alert**: Toggles if the tray icon highlights when you have unread messages.
-* **Always show thread replies in the main channel**: When enabled, all replies under a [thread](../../rooms/threads/) will also be displayed directly in the main    [room](../../rooms/). When disabled, only the first thread reply is displayed.
-* **Also send thread messages to channel behavior:** When replying to a [thread](../../rooms/threads/), select how your replies should be sent to the [room](../../rooms/).
-  * **Selected for the first reply, unselected for the remaining**: The first reply to the [thread](../../rooms/threads/) is displayed in the main [room](../../rooms/), while subsequent replies are not.
-  * **Selected by default**: The **Also send to channel** checkbox is always selected when replying to a [thread](../../rooms/threads/). When the reply is sent, it's also displayed in the main [room](../../rooms/).
-  * **Unselected by default**: The **Also send to channel** checkbox is not selected when replying to a [thread](../../rooms/threads/). When the reply is sent, it's not displayed in the main [room](../../rooms/).&#x20;
+* **Always show thread replies in the main channel**: When enabled, all replies under a [thread](../rooms/threads/) will also be displayed directly in the main    [room](../rooms/). When disabled, only the first thread reply is displayed.
+* **Also send thread messages to channel behavior:** When replying to a [thread](../rooms/threads/), select how your replies should be sent to the [room](../rooms/).
+  * **Selected for the first reply, unselected for the remaining**: The first reply to the [thread](../rooms/threads/) is displayed in the main [room](../rooms/), while subsequent replies are not.
+  * **Selected by default**: The **Also send to channel** checkbox is always selected when replying to a [thread](../rooms/threads/). When the reply is sent, it's also displayed in the main [room](../rooms/).
+  * **Unselected by default**: The **Also send to channel** checkbox is not selected when replying to a [thread](../rooms/threads/). When the reply is sent, it's not displayed in the main [room](../rooms/).&#x20;
 
 {% hint style="info" %}
 You can select or unselect the **Also send to channel** checkbox based on your preference when replying to a thread.
@@ -99,7 +99,7 @@ You can verify, edit and update your profile information in the user panel.
 
 To access profile settings,&#x20;
 
-* Navigate to **Avatar Menu > My Account** > **Profile**.
+* Navigate to **Avatar Menu > Account** > **Profile**.
   * **Profile Picture**: Lets you upload a profile picture or use default avatar.
   * **Use URL for avatar**: Takes in a URL to fetch avatar from.
   * **Name**: Your name e.g. `John Doe`
@@ -122,7 +122,7 @@ You can enable Two Factor Authentication (2FA) for your account to enhance your 
 
 To access security settings,&#x20;
 
-* Navigate to **Avatar Menu > My Account** > **Security**.
+* Navigate to **Avatar Menu > Account** > **Security**.
 
 To enable **Two-factor authentication via TOTP**,
 
@@ -139,7 +139,7 @@ To enable **Two-factor authentication via Email**,
 To disable the 2FA, click **Disable Two-factor authentication via Email**.
 
 {% hint style="info" %}
-&#x20;If you can't find the 2FA setting, please contact your workspace administrator. [See a detailed guide on 2FA here](./#two-factor-authentication).
+&#x20;If you can't find the 2FA setting, please contact your workspace administrator. [See a detailed guide on 2FA here](account.md#two-factor-authentication).
 {% endhint %}
 
 ### E2E Encryption
@@ -158,7 +158,7 @@ To create an encryption password,
 This option will remove your current E2E key and log you out. When you log in again, Rocket.Chat will generate a new key and restore your access to any encrypted room that has one or more members online. Due to the nature of the E2E encryption, Rocket.Chat can't restore access to any encrypted room with no members online.
 
 {% hint style="info" %}
-[Please find a detailed guide on E2E Encryption here.](../../security-bundle/end-to-end-encryption-user-guide.md)
+[Please find a detailed guide on E2E Encryption here.](../security-bundle/end-to-end-encryption-user-guide.md)
 {% endhint %}
 
 ## Personal Access Tokens
@@ -167,7 +167,7 @@ You can create personalized access tokens to use when making API calls.
 
 To access **Personal Access Tokens**,&#x20;
 
-* Navigate to **Avatar Menu > My Account** > **Personal Access Tokens**.
+* Navigate to **Avatar Menu > Account** > **Personal Access Tokens**.
 
 ## **Creating a Personal Access Token**
 
