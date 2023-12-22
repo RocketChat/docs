@@ -2,7 +2,7 @@
 
 **Effective Date:** December 9th, 2023
 
-This document serves as a Privacy Notice for users of Rocket.Chat's air-gapped licenses. These licenses are designed for environments that are isolated from external networks, including the internet, and therefore do not register with Rocket.Chat's cloud services. We aim to clarify the data handling practices within these specific environments.&#x20;
+This document serves as a privacy notice for users of [air-gapped workspaces](../../../setup-and-configure/rocket.chat-air-gapped-deployment/). These workspaces are isolated from external networks, including the internet, and therefore do not register with Rocket.Chat's cloud services. In this document, we aim to clarify the data handling practices within these environments.&#x20;
 
 ### **Definition of Air-Gapped Environments**
 
