@@ -32,8 +32,8 @@ Rocket.Chat users can have one or more roles, allowing them to perform the vario
 | `Owner`       | A [room ](../use-rocket.chat/user-guides/rooms/)owner is a user designated as the owner of a specific room. The room owner can manage the channel, including controlling access to joining the channel, editing channel settings, and managing messages within the channel. |
 | `Leader`      | A [room](../use-rocket.chat/user-guides/rooms/) leader gets pinned on the top of a channel and can receive 1:1 messages from other channel users.                                                                                                                           |
 | `Moderator`   | Moderators can manage messages, delete messages, and ban users from a specific channel.                                                                                                                                                                                     |
-| `auditor`     | It allows a user to view and [audit all messages](../use-rocket.chat/message-auditing-log.md) within the workspace. Users with the `auditor` role alone cannot send messages.                                                                                               |
-| `auditor-log` | The `auditor-log` role allows a user to see  [logs about all audited messages](../use-rocket.chat/message-auditing-log.md)  with timestamps and by whom. Users with the `auditor-log` role alone cannot send messages.                                                      |
+| `auditor`     | It allows a user to view and [audit all messages](../use-rocket.chat/user-manager/audit-messages/message-audit-logs.md) within the workspace. Users with the `auditor` role alone cannot send messages.                                                                     |
+| `auditor-log` | The `auditor-log` role allows a user to see  [logs about all audited messages](../use-rocket.chat/user-manager/audit-messages/message-audit-logs.md)  with timestamps and by whom. Users with the `auditor-log` role alone cannot send messages.                            |
 
 ### Rocket.Chat Omnichannel Roles
 

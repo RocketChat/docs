@@ -10,7 +10,7 @@ To access the **Permissions** menu,
 Permission updates take effect instantly and visibly, without requiring users to log out, sign in again, or refresh the system.
 {% endhint %}
 
-### Roles
+## Roles
 
 A role refers to a set of permissions and privileges assigned to a user or group of users that determine the actions and features the user can access and control within the workspace.
 
@@ -18,7 +18,7 @@ A role refers to a set of permissions and privileges assigned to a user or group
 See [roles-in-rocket.chat.md](../../../setup-and-configure/roles-in-rocket.chat.md "mention") to learn more about roles.
 {% endhint %}
 
-#### Scope of Roles
+### Scope of Roles
 
 Rocket.Chat roles are categorized into **Global** and **Room** scopes.
 
@@ -36,41 +36,19 @@ While you can globally assign some room roles to a user when creating or editing
 
 #### **Default Roles**
 
-Every Rocket.chat workspace has some default roles which include the following:
+Every Rocket.chat workspace has some default roles, which include the following:
 
-* **admin** `(Users)` - Have access to all settings and workspace administrator tools.
-* **moderator** `(Subscriptions)` - Have moderation permissions for a channel. It must be assigned by the [room](../../user-guides/rooms/) owner.
-* **owner** `(Subscriptions)` - Have owner permissions for a room. Users who create a room become the owner of that room. They can also assign more owners for that room.
-* **user** `(Users)` - Normal user rights. Most users receive this role when registering in the workspace.
-* **bot** `(Users)` - Special Role for bot users, with some permissions related to bot functionality.
-* **leader** `(Subscriptions)` - It is used when setting a `leader` in a [room](../rooms.md). Leaders appear on the header of a channel.
-* **anonymous** `(Users)` - Unauthenticated users that access the workspace when the `Allow Anonymous Read` setting is activated.
-* **guest** `(Users)` - Anonymous users that want to write and participate in rooms when the `Allow Anonymous Read` and `Allow Anonymous Write` settings are activated.
-* **livechat-agent** `(Users)` - Omnichannel [agents](../../omnichannel/agents.md). They can answer to Live Chat requests.
-* **livechat-manager** `(Users)` - Omnichannel [managers](../../omnichannel/managers.md), can manage agents and guests.
-* **livechat-guest** `(Users)` - Users coming from a Live Chat room.
-
-#### **Creating Custom Roles**
-
-As a workspace administrator, you can create new roles and assign specific permissions to them in your workspace.
-
-{% hint style="info" %}
-For Rocket.Chat workspaces on version 6.x.x and above, **creating new roles and editing custom role permissions** are exclusively accessible to workspaces subscribed to the [Enterprise plan](../../../readme/our-plans.md#enterprise-plan).
-{% endhint %}
-
-To **create a new role**,
-
-* Navigate to **Administration** > **Workspace** > **Permissions**
-* Click on **New role**
-* A side panel opens, provide the details required
-  * **Role**: Name of the role.
-  * **Description**: Set a description of the role.
-  * **Scope**: Select what [scope](./#scope-of-roles) of the role.
-* Hit **Save**
-
-{% hint style="success" %}
-To assign [permissions](./#permissions-available) to a role, check the corresponding permission checkbox under the role.
-{% endhint %}
+* **admin** (Global scope) - Have access to all settings and workspace administrator tools.
+* **moderator** (Room scope) - Have moderation permissions for a channel. It must be assigned by the [room](../../user-guides/rooms/) owner.
+* **owner** (Room scope) - Have owner permissions for a room. Users who create a room become the owner of that room. They can also assign more owners for that room.
+* **user** (Global scope) - Normal user rights. Most users receive this role when registering in the workspace.
+* **bot** (Global scope) - Special Role for bot users, with some permissions related to bot functionality.
+* **leader** (Room scope) - It is used when setting a `leader` in a [room](../rooms.md). Leaders appear on the header of a channel.
+* **anonymous** (Global scope) - Unauthenticated users that access the workspace when the `Allow Anonymous Read` setting is activated.
+* **guest** (Global scope) - Anonymous users that want to write and participate in rooms when the `Allow Anonymous Read` and `Allow Anonymous Write` settings are activated.
+* **livechat-agent** (Global scope) - Omnichannel [agents](../../omnichannel/agents.md). They can answer to Live Chat requests.
+* **livechat-manager** (Global scope) - Omnichannel [managers](../../omnichannel/managers.md), can manage agents and guests.
+* **livechat-guest** (Global scope) - Users coming from a Live Chat room.
 
 To **edit/delete a role**,
 
@@ -78,6 +56,10 @@ To **edit/delete a role**,
 * Update the required details and click **Save** to edit the role**.**
 * Click **Delete** to delete the role.
 * Click **Users in Role** to see the users who have been assigned to that particular role.
+
+{% hint style="info" %}
+For information on creating custom roles, see [Custom Roles](../../user-manager/custom-roles.md).
+{% endhint %}
 
 ## Permissions&#x20;
 
