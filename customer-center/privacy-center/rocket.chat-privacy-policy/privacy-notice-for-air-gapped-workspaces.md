@@ -30,7 +30,7 @@ Should an air-gapped environment opt to register with Rocket.Chat, the data coll
 
 ### **Contact**
 
-For inquiries or concerns regarding this Privacy Notice, please contact our Data Protection Officer at privacy@rocket.chat.&#x20;
+For inquiries or concerns regarding this Privacy Notice, contact our Data Protection Officer at privacy@rocket.chat.&#x20;
 
 {% hint style="danger" %}
 **Notice Amendments**
