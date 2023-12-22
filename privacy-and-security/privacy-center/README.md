@@ -1,7 +1,9 @@
 # Privacy Center
 
-### One-Stop-Shop
+The Rocket.Chat Privacy Center is a comprehensive resource for all privacy and compliance-related documentation.
 
-Here you can find all Rocket.Chat privacy- and compliance-related Documentation with links to the different sections to navigate our documentation more efficiently.
+* **Privacy Policy**: Details Rocket.Chat's approach to user privacy.
+* **GDPR Compliance**: Information on Rocket.Chat's adherence to the General Data Protection Regulation (GDPR).
+* **LGDP Compliance**: Covers Rocket.Chat's compliance with the Lei Geral de Proteção de Dados (LGDP), Brazil's data protection law.
 
-If you still have questions, feel free to reach out to privacy@rocket.chat&#x20;
+If you still have questions, feel free to reach out our compliance team at **privacy@rocket.chat**&#x20;

@@ -495,7 +495,7 @@
   * [Privacy Policy](privacy-and-security/privacy-and-security-policies/rocket.chat-privacy-policy/README.md)
     * [Subprocessors](privacy-and-security/privacy-and-security-policies/rocket.chat-privacy-policy/subprocessors.md)
     * [Privacy Policy Facebook Messenger](privacy-and-security/privacy-and-security-policies/privacy-policy-facebook-messenger.md)
-    * [Privacy Notice for Air-Gapped Licenses](customer-center/privacy-center/rocket.chat-privacy-policy/privacy-notice-for-air-gapped-licenses.md)
+    * [Privacy Notice for Air-Gapped Workspaces](customer-center/privacy-center/rocket.chat-privacy-policy/privacy-notice-for-air-gapped-workspaces.md)
   * [GDPR](privacy-and-security/privacy-center/gdpr/README.md)
     * [Data Processing Agreement](customer-center/privacy-center/gdpr/data-processing-agreement.md)
   * [LGDP](customer-center/privacy-center/lgdp/README.md)
