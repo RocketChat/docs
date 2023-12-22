@@ -2,7 +2,7 @@
 
 Are you a Rocket.Chat customer and looking for a GDPR-compliant **Data Processing Agreement (DPA)**?
 
-You can find one here: [Link to Data Processing Agreement Signature Form](https://sign.zoho.com/signform?form\_link=234b4d535f49562358c5ef244fe89e6ae2d8fdb86e695c36b7c86b7756fe6b391304c2d25f1f02b94c622ec59e9df9003ee0724f2f8d49d0d2437ba15135d8f2d9791f88d48dd7e4)
+You can find one here: [Link to Data Processing Agreement Signature Form](https://sign.zoho.com/signform?form\_link=234b4d535f495623d76dd228c07127b3d822f59b6d197997fc10f1712c4b32ba53a58ff032b7b0521acbeb7459364b131d5f24d0f7a04304386d1520743ed607a3f22a73aa04044d)
 
 It is **pre-signed** and only needs to be signed from your end for your compliance purposes. It contains EU standard contract clauses as a data transfer mechanism for data controllers subject to EU law. Keep in mind that our privacy policy is already part of any customer agreement and therefore already is deemed sufficient by most jurisdictions as a "contractual agreement" to prescribe our processing of personal data.
 
