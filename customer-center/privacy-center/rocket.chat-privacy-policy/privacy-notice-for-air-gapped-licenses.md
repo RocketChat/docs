@@ -28,6 +28,10 @@ It's important to note that air-gapped licenses come with certain limitations:
 
 If an air-gapped environment chooses to register with our company at any time, the following section of the [Privacy Policy](../../../privacy-and-security/privacy-and-security-policies/rocket.chat-privacy-policy/) will apply: "The Distinction of Data Collection Between Self-Hosted Workspaces and Cloud Hosting Workspaces."
 
+**Push notification gateway**
+
+&#x20;The push notification service is responsible for delivering push notifications on your mobile device. The push notification gateway from [Rocket.chat](https://rocket.chat/) is hosted on the premises from [Rocket.chat](https://rocket.chat/). If your environment doesn't have access to this gateway. We can help you to configure the connection to an on-premise push notification gateway by setting up the connection to the gateway through our professional services available at:&#x20;
+
 **Definition of Add-Ons**
 
 "Add-ons" refer to additional features, functionalities, or services that can be integrated with our software to enhance its capabilities. These may include extensions, plugins, or modules that provide specific functionalities or integrations with other tools.

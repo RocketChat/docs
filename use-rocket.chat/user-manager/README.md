@@ -5,7 +5,7 @@
 Rocket.Chat provides the following advanced user management features for [Enterprise](../../readme/our-plans.md#enterprise-plan) workspaces.
 
 * [Create custom roles](custom-roles.md): Create new user roles apart from the default ones present in your workspace and assign specific permissions to them.
-* [Manage user devices](device-management/): Get information about the devices that are logged into your workspace and manage access.
-* [Audit messages](audit-messages/): Ensure security standards compliance with message auditing for all channels, direct messages, and omnichannel rooms. Rocket.Chat also provides access control features so you can assign the auditing permissions to specific users.
+* [Manage user devices](../workspace-administration/device-management.md): Get information about the devices that are logged into your workspace and manage access.
+* [Audit messages](../message-auditing/): Ensure security standards compliance with message auditing for all channels, direct messages, and omnichannel rooms. Rocket.Chat also provides access control features so you can assign the auditing permissions to specific users.
 
 In the following sections, you can find further information about each of these features.
