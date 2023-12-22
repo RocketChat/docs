@@ -22,7 +22,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**Custom Sound Filesystem**](custom-sound-filesystem.md)**:** Find out how to specify how custom sounds are saved on your workspace.
 
-[**Device management**](../device-management.md): Become familiar with configuring security and access control rules for your workspace.
+[**Device management**](../../communication-management-hub/device-manager/): Become familiar with configuring security and access control rules for your workspace.
 
 [**Discussion**](discussion.md)**:** Learn how to configure whether users can accept invitations to join particular talks from other channels.
 
