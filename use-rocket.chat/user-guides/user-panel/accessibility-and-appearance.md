@@ -6,46 +6,26 @@ To access this menu,&#x20;
 
 * Navigate to **Avatar Menu >  Account** **> Accessibility and Appearance**
 
-### Theme&#x20;
+### **Theme**
 
-Theme offer a visually comfortable experience that aligns with individual tastes and work environments, enhancing both aesthetics and accessibility.
+The theme offers a visually comfortable experience that aligns with individual tastes and work environments, enhancing both aesthetics and accessibility. You can choose from:
 
-#### Available Themes
+**Light**: If you like a bright and vibrant experience, the light theme promotes clarity and visibility. It's ideal for well-lit environments.
 
-1. **Light Theme**
-   * **Description**: Ideal for bright and vibrant visual experiences.
-   * **Use Case**: Best suited for well-lit environments, promoting clarity and visibility.
-2. **Dark Theme**
-   * **Description**: Optimized for low-light settings.
-   * **Benefits**: Reduces eye strain during extended use and enhances focus and readability.
-3. **High Contrast (Light)**
-   * **Description**: Designed for maximum accessibility.
-   * **Advantages**: Especially beneficial for individuals with visual impairments, emphasizing element distinction to improve readability and usability.
+**Dark**: Better for low-light settings and reduces eye strain during extended usage. Enhances focus and readability.
 
-### Adjustable Layout
+**High contrast (light)**: For maximum accessibility, it provides the most optimal viewing experience for all users. It's especially beneficial for visually impaired people, emphasizing the distinction between elements enhancing readability and usability.
 
-Users can tailor their collaboration experience with a range of customization options to align with personal preferences.
+### Adjustable layout
 
-1. **Font Size**
+For customizing your messaging experience, we've incorporated a suite of customization options to align with your preferences.
 
-* **Purpose**: Allows users to adjust the font size for optimal readability.
-* **Adaptability**: Suitable for different screen resolutions and device sizes.
+**Font size**: Optimize your reading experience by adjusting the font size to your specifications. Whether working on a high-resolution monitor or a smaller device, this setting guarantees that messages are presented in a font size that accommodates your preferences.
 
-2. **Mentions with @ Symbol**
+**Mentions with @ symbol**: Mentions notify and highlight messages for groups or specific users, facilitating targeted communication. Screen readers benefit from having explicit `@` symbol in front of mentions so that the user can interpret them easily.
 
-* **Purpose**: Facilitates targeted communication by notifying and highlighting messages for groups or specific users. Enhances screen reader effectiveness when the "@" symbol is employed in the mention feature. This ensures that users relying on screen readers can easily interpret and engage with these mentions.
+**Time format**: Precision matters, especially when it comes to time. Whether you prefer a 12-hour or 24-hour clock, ensure accurate tracking of conversations in a format that aligns with your workflow.
 
-3. **Time Format**
+**Show usernames**: Decide whether usernames are displayed or hidden, fostering a cleaner interface without compromising your ability to identify contributors during crucial exchanges.
 
-* **Options**: Users can choose between a 12-hour or 24-hour clock format.
-* **Benefit**: Ensures accurate tracking of conversations in a preferred time format.
-
-4. **Show Usernames**
-
-* **Customization**: Option to display or hide usernames.
-* **Balance**: Maintains a clean interface while ensuring the ability to identify conversation participants.
-
-5. **Show Roles**
-
-* **Functionality**: Allows users to display or conceal user roles.
-* **Advantage**: Streamlines the interface for better information retention without unnecessary visual clutter.
+**Show roles**: Personalize your view by choosing to display or conceal user roles, streamlining your interface for optimal information retention without unnecessary visual clutter.
