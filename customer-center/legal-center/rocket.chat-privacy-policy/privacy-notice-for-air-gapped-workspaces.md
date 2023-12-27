@@ -26,7 +26,7 @@ Users should be aware of certain limitations inherent to air-gapped licenses:
 
 ### **Transition to Registered Environments**
 
-Should an air-gapped environment opt to register with Rocket.Chat, the data collection practices outlined [here](../../../privacy-and-security/privacy-and-security-policies/rocket.chat-privacy-policy/#the-distinction-of-data-collection-between-self-hosted-workspaces-and-cloud-hosting-workspaces) will become applicable.
+Should an air-gapped environment opt to register with Rocket.Chat, the data collection practices outlined [here](./#the-distinction-of-data-collection-between-self-hosted-workspaces-and-cloud-hosting-workspaces) will become applicable.
 
 ### **Contact**
 
