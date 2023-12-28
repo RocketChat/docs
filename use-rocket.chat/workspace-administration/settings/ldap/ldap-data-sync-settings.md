@@ -1,8 +1,10 @@
 # LDAP Data Sync Settings
 
-After configuring the LDAP User Search, the next integral component in LDAP integration with Rocket.Chat is the LDAP Data Sync Settings. This feature ensures that user data in Rocket.Chat remains consistent with the information in the LDAP directory.
+After configuring the LDAP User Search, the next integral component in LDAP integration with Rocket.Chat is the LDAP Data Sync Settings. This feature ensures that user data in Rocket.Chat remains up-to-date with the information in your LDAP directory.
 
-* **Unique Identifier Field**: The field that links the LDAP user and the Rocket.Chat user. You can include multiple values separated by a comma to get the value from the LDAP record.
+Rocket.Chat provides the following configuration options for LDAP data sync:
+
+* **Unique Identifier Field**: The field that links the LDAP user and the Rocket.Chat user. You can include multiple values separated by a comma to get the value from the LDAP record. The default value is `objectGUID,ibm-entryUUID,GUID,dominoUNID,nsuniqueId,uidNumber`.
 * **Merge Existing Users**: Whether or not to merge existing users. When importing a user from LDAP and a user with the same username already exists, the new user data (including info and password) will merge into the existing data.
 * **Update User Data on Login**: Enable to update user data on login.
 * **Update User Data on Login with OAuth services**: Enable to update user data on login with OAuth services.
@@ -15,14 +17,16 @@ After configuring the LDAP User Search, the next integral component in LDAP inte
 
 ## Mapping
 
-* **Username Field**: Usually, the `sAMAccountName` is used as a username for new users. Leave empty to let the user pick their Rocket.Chat username. You can use template tags too, for example:
+Map the following fields from the LDAP directory to your workspace:
+
+* **Username Field**: The field that will be used as a username for new users. Leave empty to use the username informed on the login page. By default, the value is `sAMAccountName`. You can use template tags too, for example:
 
 ```
 #{givenName}.#{sn}
 ```
 
 * **Email Field**: The LDAP field binds the user's email.
-* **Name Field**: LDAP name filed for binding.
+* **Name Field**: LDAP name for binding.
 
 Now you have successfully configured your LDAP integration! With these LDAP Data Sync Settings in place, Rocket.Chat ensures a high level of data integrity and consistency, reflecting real-time changes from the LDAP directory in the user's Rocket.Chat profile.&#x20;
 
