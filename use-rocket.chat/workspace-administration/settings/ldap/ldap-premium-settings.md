@@ -8,7 +8,13 @@ On this page, we describe LDAP premium settings, available exclusively to worksp
 
 Set the following advanced sync settings:
 
-* **Sync User Active State**: Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status. The `pwdAccountLockedTime` attribute will be used to determine if the user is disabled. This setting is not yet compatible with all LDAP Servers, so if you don't use the `pwdAccountLockedTime` attribute, you may want to disable it completely.
+* **Sync User Active State**: Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status.&#x20;
+
+{% hint style="info" %}
+* The `pwdAccountLockedTime` attribute will be used to determine if the user is disabled. This setting is not yet compatible with all LDAP Servers, so if you don't use the `pwdAccountLockedTime` attribute, you may want to disable it completely.
+* The `pwdAccountLockedTime` attribute is only available on **OpenLDAP** but not on **Windows Server AD**. For **Windows Server AD**, the `userAccountControl` attribute will be used to determine if the user is disabled or not.
+{% endhint %}
+
 * **Attributes to Query**: Specify which attributes should be returned on LDAP queries, separating them with commas. Defaults to everything. `*` represents all regular attributes and `+` represents all operational attributes. Make sure to include every attribute that is used by every Rocket.Chat sync option.
 
 ## Auto Logout Deactivated Users
