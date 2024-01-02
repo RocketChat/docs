@@ -4,7 +4,7 @@ Rocket.Chat provides advanced workspace management features, offering a range of
 
 [**Google Cloud Features**](google-cloud.md): Implement various Google Cloud features in your workspace—for example, Google Auto-Translate.
 
-[**Environment Variables**](../rocket.chat-configuration/deployment-environment-variables/): Configure your workspace settings using environment variables.
+[**Environment Variables**](../environment-configuration/deployment-environment-variables/): Configure your workspace settings using environment variables.
 
 [**Notifications**](../../use-rocket.chat/user-guides/notifications.md): Update your workspace notification preferences.
 
