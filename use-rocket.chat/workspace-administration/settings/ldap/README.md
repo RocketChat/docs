@@ -14,7 +14,7 @@ This section guides you through the configuration details and examples to help y
    * **Advanced User Data Sync**: Provides a comprehensive synchronization of user data, ensuring that all relevant attributes and settings are consistently mirrored in Rocket.Chat.
 
 {% hint style="info" %}
-For an overview of the LDAP features available across our various [plans](../../../../readme/our-plans.md), refer to[authentication-across-different-plans.md](../../../authentication/authentication-across-different-plans.md "mention").
+For an overview of the LDAP features available across our various [plans](../../../../readme/our-plans.md), refer to[authentication-across-plans.md](../../../authentication/authentication-across-plans.md "mention").
 {% endhint %}
 
 ## Configure LDAP authentication

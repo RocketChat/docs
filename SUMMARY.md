@@ -258,7 +258,7 @@
     * [OAuth](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/oauth)
     * [Device Management](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/device-management-settings)
 * [Authentication](use-rocket.chat/authentication/README.md)
-  * [Authentication Across Different Plans](use-rocket.chat/authentication/authentication-across-different-plans.md)
+  * [Authentication Across Plans](use-rocket.chat/authentication/authentication-across-plans.md)
   * [LDAP](use-rocket.chat/workspace-administration/settings/ldap/README.md)
     * [Configure LDAP Connection](use-rocket.chat/authentication/ldap/configure-ldap-connection.md)
     * [LDAP User Search](use-rocket.chat/authentication/ldap/ldap-user-search.md)

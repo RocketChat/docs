@@ -5,7 +5,7 @@
 While basic functionalities such as LDAP connection to sync user names and unique identifiers remain in the [community plan](../../readme/our-plans.md#community), the [premium plan](../../readme/our-plans.md) will exclusively offer extended user attribute sync, group/team management, and background sync.
 
 {% hint style="success" %}
-For an overview of the Identity Management features available across our various [plans](../../readme/our-plans.md), please refer to [authentication-across-different-plans.md](../../use-rocket.chat/authentication/authentication-across-different-plans.md "mention").
+For an overview of the Identity Management features available across our various [plans](../../readme/our-plans.md), please refer to [authentication-across-plans.md](../../use-rocket.chat/authentication/authentication-across-plans.md "mention").
 {% endhint %}
 
 ### What does LDAP, Active Directory, OAuth, and SAML mean ?
