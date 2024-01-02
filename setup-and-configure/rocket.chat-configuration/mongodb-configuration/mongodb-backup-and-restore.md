@@ -2,7 +2,8 @@
 
 Maintaining backups of your workspace data is a very important practice. These data backups can act as a safety measure where data can be recovered or restored in case of an emergency.
 
-Rocket.Chat uses MongoDB as its database. With MongoDB, you have multiple inbuilt backup options depending on the deployment method.\
+Rocket.Chat uses MongoDB as its database. With MongoDB, you have multiple inbuilt backup options depending on the deployment method.
+
 In this guide, we are going to focus on how to:
 
 1. &#x20;[Perform a backup of your Rocket.Chat workspace data](mongodb-backup-and-restore.md#mongodb-backup-with-mongodump)
@@ -41,7 +42,7 @@ You should see something like the image below when the command is running
 
 <figure><img src="../../../.gitbook/assets/image (1068).png" alt=""><figcaption><p>mongodump command executing</p></figcaption></figure>
 
-## MongoDB Restore with mongorestore
+## MongoDB Restore with `mongorestore`
 
 After backing up your instance, you may need to restore the data at some time. That can be done using [`mongorestore`](https://www.mongodb.com/docs/database-tools/mongorestore/)
 

@@ -2,7 +2,7 @@
 
 <figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
 
-While it's possible to scale up by adding more servers (recommended for HA purposes), you can better utilize your existing hardware by running multiple instances of the Rocket.Chat application (Node.js/Meteor app) on your current host(s). You should only do this if you already use a multi-core computer. A reasonable rule of thumb may be to run `N-1` Rocket.Chat instances, where `N=num_cores`. Running multiple instances of Rocket.Chat on a single host requires a reverse proxy before your application. This tutorial assumes you've already followed the instructions for [running behind an Nginx SSL Reverse Proxy](../../../setup-and-configure/rocket.chat-environment-configuration/configuring-ssl-reverse-proxy.md).
+While it's possible to scale up by adding more servers (recommended for HA purposes), you can better utilize your existing hardware by running multiple instances of the Rocket.Chat application (Node.js/Meteor app) on your current host(s). You should only do this if you already use a multi-core computer. A reasonable rule of thumb may be to run `N-1` Rocket.Chat instances, where `N=num_cores`. Running multiple instances of Rocket.Chat on a single host requires a reverse proxy before your application. This tutorial assumes you've already followed the instructions for [running behind an Nginx SSL Reverse Proxy](../../../setup-and-configure/rocket.chat-configuration/configuring-ssl-reverse-proxy.md).
 
 Essentially, there are just three steps:
 
