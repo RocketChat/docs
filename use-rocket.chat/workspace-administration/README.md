@@ -34,7 +34,7 @@ This menu is only accessible to users who have been assigned the Administrator r
 
 [**Permissions**](permissions/): Customize which users can perform specific actions under Rocket. Chat's rich permissions system.
 
-[**Device management**](../communication-management-hub/device-manager/): Manage the devices linked to your workspace.
+[**Device management**](../communication-management/device-manager/): Manage the devices linked to your workspace.
 
 [**Email Inboxes**](email-inboxes.md): Learn to manage Omnichannel email inboxes or email accounts for the email channels.
 
