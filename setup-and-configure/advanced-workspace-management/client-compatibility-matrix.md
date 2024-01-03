@@ -25,3 +25,7 @@ Rocket.Chat's mobile applications support a maximum of three major server versio
 | App Version | Supported releases |
 | :---------: | :----------------: |
 |    4.0.0+   |        0.70+       |
+
+{% hint style="info" %}
+In case of app server upgrade from 3.x to 6.x versions, if you log out of the app, you cannot log back in. There is a version check that prevents users from logging back in. If you do not log out, the app continues to function normally. We are currently working on fixing this behavior.
+{% endhint %}
