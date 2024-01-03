@@ -207,4 +207,4 @@ To access your Rocket.Chat workspace, open a web browser and navigate to the spe
 * [Configure firewall rule](../../../setup-and-configure/environment-configuration/optional-configurations.md)
 * [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../setup-and-configure/environment-configuration/configuring-ssl-reverse-proxy.md)
 * [Configure mongo access control](../../../setup-and-configure/environment-configuration/mongodb-configuration/mongodb-uri-authentication.md)
-* [Configure production values for mongodb](../../../setup-and-configure/environment-configuration/mongodb-configuration/mongo-options.md)
+* [Configure production values for mongodb](../../../setup-and-configure/environment-configuration/mongodb-configuration/additional-mongodb-driver-options.md)
