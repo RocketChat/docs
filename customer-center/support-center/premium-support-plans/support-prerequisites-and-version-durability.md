@@ -33,6 +33,10 @@ Always update to the latest stable version before reporting any bugs or before a
 
 Check the table below to verify the final support date of each release version.
 
+{% hint style="info" %}
+Please note that **end-of-life** for any version signifies the last day of the month when support for that version will be terminated.
+{% endhint %}
+
 | Rocket.Chat Release                                                            | Released At | End of Life |
 | ------------------------------------------------------------------------------ | ----------: | ----------: |
 | 6.5 ([6.5.0](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.5.0))    |    Nov 2023 |    May 2024 |
