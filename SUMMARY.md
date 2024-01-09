@@ -46,7 +46,6 @@
 ## Setup and Configure
 
 * [Environment Configuration](setup-and-configure/environment-configuration/README.md)
-  * [NodeJs Configuration](setup-and-configure/environment-configuration/nodejs-configuration.md)
   * [Deployment Environment Variables](setup-and-configure/environment-configuration/deployment-environment-variables/README.md)
     * [Manage Settings Using Environmental Variables](setup-and-configure/environment-configuration/deployment-environment-variables/manage-settings-using-environmental-variables.md)
   * [MongoDB Configuration](setup-and-configure/environment-configuration/mongodb-configuration/README.md)
@@ -64,6 +63,7 @@
     * [Univention Corporate Server (UCS)](setup-and-configure/environment-configuration/additional-configurations/univention-corporate-server-ucs.md)
     * [Setting Up Client SSL Certificate Authentication for Rocket.Chat](setup-and-configure/environment-configuration/additional-configurations/setting-up-client-ssl-certificate-authentication-for-rocket.chat.md)
     * [Setting up Process Managers and Init Systems](setup-and-configure/environment-configuration/additional-configurations/pm2-systemd-upstart.md)
+  * [Check Node.js Version](setup-and-configure/environment-configuration/check-node.js-version.md)
 * [Installing Client Apps](setup-and-configure/installing-client-apps/README.md)
   * [Desktop & Mobile Apps](setup-and-configure/installing-client-apps/rocket.chat-desktop-and-mobile-apps.md)
   * [Minimum Requirements for Client Apps](setup-and-configure/installing-client-apps/minimum-requirements-for-client-apps.md)
