@@ -266,7 +266,7 @@ redirects:
     guides/administration/admin-panel/settings/oauth/google-oauth-setup: use-rocket.chat/workspace-administration/settings/oauth/google-oauth-setup.md
     guides/administration/misc.-admin-guides/settings-via-env-vars: deploy/rocket.chat-environment-configuration/environment-variables.md
     guides/administration/settings/layout: use-rocket.chat/workspace-administration/settings/layout.md
-    guides/administrator-guides/settings/ldap/examples: use-rocket.chat/workspace-administration/settings/ldap/ldap-examples.md
+    guides/administrator-guides/settings/ldap/examples: use-rocket.chat/workspace-administration/settings/ldap/ldap-setup.md
     guides/omnichannel/canned-responses/canned-responses-rocket.chat-admins-guides: use-rocket.chat/omnichannel/canned-responses/canned-responses-omnichannel-managers-guide.md
     guides/rocket.chat-administrator-guides/settings/oauth: use-rocket.chat/workspace-administration/settings/oauth/README.md
     guides/security/end-to-end-encryption-algorithms: rocket.chat-privacy-and-security/security/end-to-end-encryption-algorithms.md
