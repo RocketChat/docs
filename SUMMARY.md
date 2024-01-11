@@ -264,7 +264,7 @@
     * [LDAP User Search](use-rocket.chat/authentication/ldap/ldap-user-search.md)
     * [LDAP Data Sync Settings](use-rocket.chat/workspace-administration/settings/ldap/ldap-data-sync-settings.md)
     * [LDAP Premium Settings](use-rocket.chat/workspace-administration/settings/ldap/ldap-premium-settings.md)
-    * [LDAP Examples](use-rocket.chat/workspace-administration/settings/ldap/ldap-examples.md)
+    * [LDAP Setup](use-rocket.chat/workspace-administration/settings/ldap/ldap-setup.md)
   * [SAML](use-rocket.chat/workspace-administration/settings/saml/README.md)
     * [SAML Configuration](use-rocket.chat/workspace-administration/settings/saml/rocket.chat-server-settings.md)
     * [SimpleSAMLphp](use-rocket.chat/workspace-administration/settings/saml/simple-saml-php.md)
