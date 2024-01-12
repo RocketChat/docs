@@ -2,28 +2,26 @@
 
 <figure><img src="../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
-The **Outlook Calendar** integration allows users to sync their daily calendar events from Outlook to their Rocket.Chat workspace. It also provides quick action buttons to interact with the events, _**for example**_ —_**Joining a meeting.**_
+The **Outlook Calendar** integration allows users to sync their daily calendar events from Outlook to their Rocket.Chat workspace. It also provides quick action buttons to interact with the events, for example — joining a meeting.
 
 {% hint style="info" %}
-This integration only works with Exchange Servers and does not support Office 365.
-{% endhint %}
-
-{% hint style="warning" %}
-The Outlook Calender integration is
+* This integration only works with **Exchange Servers** and does not support Office 365.
+* The Outlook Integration is only supported on the Rocket.Chat desktop application.
 {% endhint %}
 
 To access the **Outlook calendar** on your workspace,
 
-* Navigate to **Administration > Workspace > Settings > Outlook Calendar.**
-* Toggle **ON Enable.**
-* Click **Save Changes.**
-* Navigate to a room and click the **kebab menu** at the room header. Select **Outlook Calendar.** A sidebar is displayed with the title "**Outlook Calenda**r."
-
-To use **Outlook**,
-
-* From the Outlook sidebar, click the **Login** button to sync your calendar to the workspace.
-* Fill in your Outlook login details and click **Submit.**&#x20;
-* Then, all your events for the current date are fetched and synced to your workspace. Click an event to see more details about it. If the event has a conference call, click the **Join** button beside it to join the call.
+1. Navigate to **Administration > Workspace > Settings > Outlook Calendar**.
+2. Select **Enable** to enable the integration.
+3. Enter the following information:
+   1. **Exchange URL:** The exchange server URL you need to access the server. For example, `https://owa.xyz.rocket.cat/`
+   2. **Outlook URL:** The Outlook application URL in the exchange server is used to redirect the user to the correct application. For example, `https://owa.xyz.rocket.cat/owa/#path=/calendar/view/Month`
+   3. **Meeting url Regular Expression:** The expression used to detect meeting URLs in event descriptions. The first matching group with a valid URL will be used. HTML-encoded URLs will be decoded automatically.
+4. Click **Save changes**.
+5. To access the Outlook calendar in a room, click the kebab menu at the room header. Select **Outlook calendar.** A sidebar is displayed with the calendar history.
+   1. From the Outlook sidebar, click **Login**.
+   2. Fill in your Outlook login details in the new window and sign in.&#x20;
+   3. Now, all your events for the current date are fetched and synced to your workspace. Click an event to see more details about it. If the event has a conference call, click the **Join** button beside it to join the call.
 
 {% hint style="info" %}
 You can only add one account. Therefore, you can't switch between different accounts.
