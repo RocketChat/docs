@@ -6,6 +6,6 @@ Rocket.Chat's implementation of OpenID Connect is compatible with several provid
 
 You can set up the following by creating custom OAuth methods:
 
-<table data-view="cards"><thead><tr><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="gluu-server-4.0.md">gluu-server-4.0.md</a></td><td><a href="gluu-server-4.0.md">gluu-server-4.0.md</a></td></tr><tr><td><a href="keycloak.md">keycloak.md</a></td><td><a href="keycloak.md">keycloak.md</a></td></tr><tr><td><a href="okta.md">okta.md</a></td><td><a href="okta.md">okta.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="keycloak.md">keycloak.md</a></td><td><a href="keycloak.md">keycloak.md</a></td></tr><tr><td><a href="okta.md">okta.md</a></td><td><a href="okta.md">okta.md</a></td></tr></tbody></table>
 
 OpenID Connect is a vital part of Rocket.Chat's comprehensive authentication system. By supporting this protocol, Rocket.Chat ensures that users can securely authenticate using their existing OpenID provider. This enhances the platform's security and improves user convenience by allowing them to use their preferred authentication method.
