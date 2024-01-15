@@ -58,7 +58,7 @@ To **edit/delete a role**,
 * Click **Users in Role** to see the users who have been assigned to that particular role.
 
 {% hint style="info" %}
-For information on creating custom roles, see [Custom Roles](../../communication-management/custom-roles.md).
+For information on creating custom roles, see [Custom Roles](../../user-management/custom-roles.md).
 {% endhint %}
 
 ## Permissions&#x20;

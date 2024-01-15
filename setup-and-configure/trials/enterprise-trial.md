@@ -4,7 +4,7 @@ description: Apply Premium license for your 30-day Enterprise Trial.
 
 # Enterprise Trial
 
-The Enterprise Plan from Rocket.Chat caters to the unique needs of large-scale organizations that demand a secure, customizable, and all-encompassing communication platform. Tailored for large enterprises and sectors with stringent regulatory requirements, this plan offers [scalable solutions](../../deploy/deploy-rocket.chat/scaling-rocket.chat/), advanced [compliance tools](../../use-rocket.chat/communication-management/), and [priority suppor](../../customer-center/support-center/)t. It is designed to meet the complex needs of these organizations, focusing on high performance, reliability, and integration capabilities. For businesses seeking a top-tier collaboration platform, the Enterprise Plan stands as the optimal choice.
+The Enterprise Plan from Rocket.Chat caters to the unique needs of large-scale organizations that demand a secure, customizable, and all-encompassing communication platform. Tailored for large enterprises and sectors with stringent regulatory requirements, this plan offers [scalable solutions](../../deploy/deploy-rocket.chat/scaling-rocket.chat/), advanced [compliance tools](../../use-rocket.chat/user-management/), and [priority suppor](../../customer-center/support-center/)t. It is designed to meet the complex needs of these organizations, focusing on high performance, reliability, and integration capabilities. For businesses seeking a top-tier collaboration platform, the Enterprise Plan stands as the optimal choice.
 
 If your workspace is on the Pro plan and surpasses certain predefined thresholds, a 30-day Enterprise trial is automatically initiated. The following diagram shows the events that will trigger the Enterprise trial:
 
