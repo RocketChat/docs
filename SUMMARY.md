@@ -459,7 +459,8 @@
   * [Photos](resources/brand-and-visual-guidelines/photos.md)
   * [Brand Usage Examples](resources/brand-and-visual-guidelines/brand-usage-examples.md)
   * [Media Kit](resources/brand-and-visual-guidelines/compositionsed.md)
-* [Development Docs](resources/development-docs.md)
+* [Developer Documentation ](resources/developer-documentation.md)
+* [Glossary](resources/glossary.md)
 
 ## Contribute to Rocket.Chat
 
