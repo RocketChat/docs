@@ -32,7 +32,7 @@ Also, for the next steps you'll need to download and install [Apache Directory S
  * **Port:** 389;
  * **Authentication method:** Simple authentication;
  * **Admin user's Bind DN:** `cn=admin,dc=rcldap,dc=com,dc=br`;
- * **Bind password:** 123456;
+ * **Bind password:** admin;
 
 Apache Directory Studio's authentication model should look as follows (click "Finish" to complete the connection's setup):
 
@@ -91,7 +91,7 @@ Save the changes and press the **"Test Connection"** button in the upper right s
 Access **Workspace > Settings > LDAP > Connection > Authentication** and configure the settings as follows:
 
 * **User DN:** `cn=admin,dc=rcldap,dc=com,dc=br`;
-* **Password:** `123456`.
+* **Password:** `admin`.
 
 ## Search Filter
 
