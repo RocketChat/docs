@@ -16,7 +16,7 @@ Requesting for apps is exclusively available to workspaces subscribed to any of 
 
 Here is a list of the [Rocket.Chat apps](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/) that are supported in an air-gapped workspace:
 
-* [Bamboo Integration](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bamboo-integration.md)
+* [Bamboo Integration](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bamboo-app.md)
 * [Bitbucket Server](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bitbucket-server-integration.md)
 * [Confluence Server](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/confluence-server-integration.md)
 * [Data Loss Prevention](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/data-loss-prevention-dlp-app.md)

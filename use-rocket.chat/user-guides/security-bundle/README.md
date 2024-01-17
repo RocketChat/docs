@@ -8,7 +8,7 @@ The Rocket.Chat Security Bundle includes the following features and tools:
 
 [**Data Loss Prevention(DLP) app**](data-loss-prevention-user-guide.md): Manage the sharing of sensitive data on your workspace.
 
-[**Open-source Antivirus app**](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/clamav-integration.md): Secure file sharing within your workspace.
+[**Open-source Antivirus app**](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/clamav-app.md): Secure file sharing within your workspace.
 
 [**E2E Encryption**](end-to-end-encryption-user-guide.md): Secure the confidentiality of your communication with encryption.
 

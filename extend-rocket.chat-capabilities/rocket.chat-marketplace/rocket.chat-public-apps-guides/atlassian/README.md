@@ -4,7 +4,7 @@ Atlassian apps allow you to sync your Rocket.Chat workspace with various Atlassi
 
 [**Jira Server 2.0**](jira-server-v2.0.md):  ![](<../../../../.gitbook/assets/Deprecated (1).png>)Learn to install and configure Jira Server integration with Rocket.Chat.
 
-[**Bamboo Integration**](bamboo-integration.md): Set up Bamboo integration with Rocket.Chat.
+[**Bamboo Integration**](bamboo-app.md): Set up Bamboo integration with Rocket.Chat.
 
 [**BitBucket Server**](bitbucket-server-integration.md): ![](<../../../../.gitbook/assets/Deprecated (1).png>)Understand how to configure the Bitbucket Server app.
 

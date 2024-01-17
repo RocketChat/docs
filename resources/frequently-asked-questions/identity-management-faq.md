@@ -48,7 +48,7 @@ This error indicates that the login attempt was successful, but a follow-up sear
 
 ### **How can I prevent disabled LDAP users from logging into Rocket.Chat?**
 
-Use the "[**Sync User Active State**](../../use-rocket.chat/workspace-administration/settings/ldap/ldap-premium-settings.md#advanced-sync)" setting in [#advanced-sync](../../use-rocket.chat/workspace-administration/settings/ldap/ldap-premium-settings.md#advanced-sync "mention"). Please be aware that compatibility with all LDAP Servers is not guaranteed.
+Use the "[**Sync User Active State**](../../use-rocket.chat/authentication/ldap/ldap-premium-settings.md#advanced-sync)" setting in [#advanced-sync](../../use-rocket.chat/authentication/ldap/ldap-premium-settings.md#advanced-sync "mention"). Please be aware that compatibility with all LDAP Servers is not guaranteed.
 
 ### **Why can't I log in even though the setup seems correct?**
 
@@ -56,7 +56,7 @@ Use the "[**Sync User Active State**](../../use-rocket.chat/workspace-administra
 
 ### **Why are users not created even though the setup seems correct?**
 
-Every Rocket.Chat user must have an email address. Therefore, either the LDAP users have an email address or you set a default domain using the "**default domain**" setting in [ldap-data-sync-settings.md](../../use-rocket.chat/workspace-administration/settings/ldap/ldap-data-sync-settings.md "mention").
+Every Rocket.Chat user must have an email address. Therefore, either the LDAP users have an email address or you set a default domain using the "**default domain**" setting in [ldap-data-sync-settings.md](../../use-rocket.chat/authentication/ldap/ldap-data-sync-settings.md "mention").
 
 ## References
 
