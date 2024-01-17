@@ -448,3 +448,7 @@ redirects:
     extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/chatgpt-app/install-chatgpt-app: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/chatgpt-app/README.md
     extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/zoom/install-zoom-app: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/zoom.md
     
+    use-rocket.chat/authentication/ldap: use-rocket.chat/authentication/ldap/README.md
+    use-rocket.chat/authentication/ldap/ldap-data-sync-settings: use-rocket.chat/authentication/ldap/ldap-data-sync-settings.md
+    use-rocket.chat/authentication/ldap/ldap-premium-settings: use-rocket.chat/authentication/ldap/ldap-premium-settings.md
+    use-rocket.chat/authentication/ldap/ldap-setup: use-rocket.chat/authentication/ldap/ldap-setup.md
