@@ -52,10 +52,9 @@ To create an End to End Encrypted room,&#x20;
 
 To convert an existing room to an encrypted room,
 
-* Click the **Room Information** icon from the menu bar to view the Channel information. (link channel info).
-* Click **Edit** to edit the Channel information.&#x20;
-* Toggle on **Encrypted**&#x20;
-* Click **Save.**
+* Make sure you have entered your E2E Encryption password.
+* Click the **three dots icon** at the menu bar of the channel.
+* Click **Enable E2E** or **Disable E2E**
 
 ## FAQ
 
