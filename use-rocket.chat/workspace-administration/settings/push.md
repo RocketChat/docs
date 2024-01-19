@@ -9,7 +9,7 @@ Workspaces on the [community](../../../readme/our-plans.md#community) plan allow
 ## Push Notifications Configuration
 
 {% hint style="info" %}
-To be able to use push notifications, you are required to accept the **Cloud Service Privacy Terms Agreement** in the **Administration** > **Workspace** > **Settings** > **Setup Wizard** > **Cloud Info** settings.
+To use push notifications, you are required to accept the **Cloud Service Privacy Terms Agreement** in the **Administration** > **Workspace** > **Settings** > **Setup Wizard** > **Cloud Info** settings.
 {% endhint %}
 
 Go to **Administration > Workspace > Settings > Push** to enable push notifications**.**
@@ -26,7 +26,7 @@ On self-managed workspaces, you can either use the default Rocket.Chat gateway o
 * **Gateway**: Specify the gateway to use. Multiple lines can be used to specify multiple gateways.
 * **Production:** Enable this for workspaces in production.
 
-With the configuration all done, you can **Send a test push to my user** to send a test push to yourself.
+With the configuration all done, click the **Send a test push to my user** button to send a test push to yourself.
 
 {% hint style="info" %}
 To successfully send a test push to your user, you need to be logged in to the workspace on your mobile device and then close or minimize the application.
@@ -44,14 +44,13 @@ In Privacy, you can configure what information you want your push notification t
 
 * **Show Channel/Group/Username in Notification**: Toggle this on to make the channel name, group name, and username visible in notifications.
 * **Show Message in Notification**: Enabling this makes messages visible in notifications.
-* **Hide message content from Apple and Google (and the Gateway, if enabled)**: Turn this on to hide the content of a message from Google/Apple or any other push gateway.\
-  This adds only the message id to the notification data. The mobile client dynamically fetches the content from the server and updates the notification before displaying it.
+* **Hide message content from Apple and Google (and the Gateway, if enabled)**: Turn this on to hide the content of a message from Google/Apple or any other push gateway. This adds only the `message id` to the notification data. The mobile client dynamically fetches the content from the server and updates the notification before displaying it.  Failure to fetch a message using the provided `message id` in the push data triggers a "You have a new message" notification.
 
 {% hint style="info" %}
-Failure to fetch a message using the provided `message id` in the push data triggers a "You have a new message" notification.
+The **Hide message content from Apple and Google (and the Gateway, if enabled)** setting is accessible to workspaces subscribed to any of Rocket.Chat's [premium plans](../../../readme/our-plans.md).
 {% endhint %}
 
-With the push configuration completed, follow the  [#default-user-preferences](accounts/#default-user-preferences "mention") guide to set the default user preferences for notinotificationsfication. Manage channel-based notifications using the [#channel-notifications](../../user-guides/rooms/channels/edit-a-channel.md#channel-notifications "mention") guide.
+With the push configuration completed, follow the  [#default-user-preferences](accounts/#default-user-preferences "mention") guide to set the default user preferences for notifications. Manage channel-based notifications using the [#channel-notifications](../../user-guides/rooms/channels/edit-a-channel.md#channel-notifications "mention") guide.
 
 {% hint style="info" %}
 On some channels, notifications can stop if the number of users exceeds the set limit. You can set the limit in **Administration** > **General** > **Notifications**. See[#notifications](general/#notifications "mention") for more information.
