@@ -6,7 +6,7 @@ After exploring the comprehensive LDAP settings in Rocket.Chat, it's beneficial 
 
 Rocket.Chat allows workspace owners to connect to OpenLDAP or Active Directory LDAP servers to authenticate or retrieve information. In this first step, we'll guide you through how to setup a LDAP server using Docker and OpenLDAP, which is an open source implementation of the LDAP protocol. For starters, navigate to your preferred directory and create a `docker-compose.yml` file with the following content:
 
-```
+```yaml
 services:
   openldap:
     image: osixia/openldap:1.3.0
@@ -105,7 +105,7 @@ Access **Workspace > Settings > LDAP > User Search > Search Filter** and configu
 * **Search Page Size:** `250`;
 * **Search Size Limit:** `1000`.
 
-After this step, you should be able to succesfully search LDAP users in your workspace using the connection that has been setup. Try it with the "Test LDAP Search" button in the upper right side of the screen, specify a LDAP user's `uid` field and a succesfull toast message should be displayed.
+After this step, you should be able to successfully search LDAP users in your workspace using the connection that has been setup. Try it with the "Test LDAP Search" button on the upper right side of the screen, specify an LDAP user's `uid` field and a successful toast message should be displayed.
 
 ## Group Filter
 
@@ -118,6 +118,10 @@ Configuring this section will restrict access to Rocket.Chat to members of the `
 * **Group name:** `RCUsers`.
 
 After this step, LDAP users should already be able to log in to Rocket.Chat using their `uid`/`mail` and password set in the LDAP server!
+
+{% hint style="info" %}
+To sync new users that exist in your LDAP directory but not in Rocket.Chat, you must enable the **Background Sync Import New Users** option in **LDAP** > **Premium** > **Background Sync**. Click **Sync Now** and your new users are imported to your workspace.
+{% endhint %}
 
 ## Log in with an email address
 
