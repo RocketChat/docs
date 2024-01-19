@@ -38,8 +38,8 @@ The main rules for assigning roles in federated rooms are:
 * All the users added to federated rooms have a User role by default.
 * Users with the same role cannot assign roles (promote/demote) between them.
 * Users with a specific role cannot demote other users from the room with the same role.
-* Users can only demote and promote users in the layer again right below his/her roles.
-* Whenever a user wants to promote a user to a role as powerful as his/her own, undoing that change will not be possible (a confirmation modal will double-check the operation).
-* Whenever a user wants to demote himself/herself, it will not be possible to regain the same privileges the user has had. The only possibility is for a user with the necessary permission to give back the same role for that user(a confirmation modal will double-check the operation).
+* Users can only demote and promote users in the layer again right below thier roles.
+* Whenever a user wants to promote a user to a role as powerful as their own, undoing that change will not be possible (a confirmation modal will double-check the operation).
+* When a user chooses to demote themselves, they won't be able to regain their previous privileges. The only possibility is for a user with the necessary permission to give back the same role for that user(a confirmation modal will double-check the operation).
 
 For any other applicable rule, they are the same as regular Rocket.Chat rooms (e.g., Room owners cannot demote themselves if they are the last room owner).

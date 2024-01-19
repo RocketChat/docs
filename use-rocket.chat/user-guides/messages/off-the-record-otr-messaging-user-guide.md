@@ -49,6 +49,6 @@ If User A or B breaks OTR (by clearing their local session storage, e.g., refres
 
 ## Ending an OTR conversation
 
-In case User A or B wants to end the OTR session, one needs to click "End OTR". This ends the OTR session. The following messages will follow the normal configuration of the DM and be recorded on the server again. Refreshing his local session storage will make all **OTR messages disappear for the user.**
+In case User A or B wants to end the OTR session, one needs to click "End OTR". This ends the OTR session. The following messages will follow the normal configuration of the DM and be recorded on the server again. If the user refreshes their local session storage, **all OTR messages disappears.**
 
 ![Ending OTR conversations](<../../../.gitbook/assets/image (1245).png>)

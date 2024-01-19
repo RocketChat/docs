@@ -243,7 +243,6 @@
     * [Rate Limiter](use-rocket.chat/workspace-administration/settings/rate-limiter.md)
     * [Retention Policy](use-rocket.chat/workspace-administration/settings/retention-policies.md)
     * [SAML](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/saml)
-    * [Page](use-rocket.chat/workspace-administration/settings/page.md)
     * [Search](use-rocket.chat/workspace-administration/settings/search.md)
     * [Setup Wizard](use-rocket.chat/workspace-administration/settings/setup-wizard.md)
     * [SlackBridge](use-rocket.chat/workspace-administration/settings/slackbridge.md)

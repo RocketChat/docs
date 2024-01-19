@@ -63,7 +63,7 @@ use parties
 
 To update the admin password, you can either use a one-time access token or update the admin password to a random string.
 
-Using an access token will require the user to change his password.
+Using an access token will require the user to change their password.
 
 ```javascript
 db.getCollection('users').update({username:"administrator"}, {$set: { "services":{"loginToken":{"token":"some-token-id-that-you-will-use-to-login-once"}}, "requirePasswordChange":true} })
