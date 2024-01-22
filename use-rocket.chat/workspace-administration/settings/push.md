@@ -34,7 +34,7 @@ To successfully send a test push to your user, you need to be logged in to the w
 
 ### Certificate and Keys
 
-The workspace will rely on certificates and keys to configure push notifications if gateways are not enabled. Refer to the official guide below for configuring push notifications certifications and keys on Android and iOS.
+The workspace relies on certificates and keys to configure push notifications if gateways are not enabled. Refer to the official guide below for configuring push notifications certifications and keys on Android and iOS.
 
 {% embed url="https://developer.rocket.chat/open-source-projects/mobile-app/mobile-app-white-labelling/configuring-push-notifications" %}
 
@@ -56,15 +56,9 @@ With the push configuration completed, follow the  [#default-user-preferences](a
 On some channels, notifications can stop if the number of users exceeds the set limit. You can set the limit in **Administration** > **General** > **Notifications**. See[#notifications](general/#notifications "mention") for more information.
 {% endhint %}
 
-## Connect to cloud
+**Cloud Sync**
 
-When you purchase a  package for push notifications as a self-managed customer, you need to connect your workspace [Rocket.Chat Cloud](../../rocket.chat-cloud/).
-
-Link and sync your account in the Connectivity Services menu.
-
-{% content-ref url="../registration.md" %}
-[registration.md](../registration.md)
-{% endcontent-ref %}
+When you purchase a package for push notifications as a self-managed customer, navigate to [subscription.md](../subscription.md "mention") and click **Sync license updates** to sync your workspace to Rocket.Chat Cloud and fetch any required updates.
 
 ## Check the count of notifications used per month
 
