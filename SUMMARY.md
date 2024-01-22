@@ -495,7 +495,7 @@
     * [Our Support Ticket Classification System and SLAs](customer-center/support-center/premium-support-plans/our-support-ticket-classification-system-and-slas.md)
     * [Rocket.Chat Legacy Support](customer-center/support-center/premium-support-plans/rocket.chat-legacy-support.md)
   * [Community Resources](customer-center/support-center/community-resources.md)
-* [Legal Center](legal-and-compliance/legal-center.md)
+* [Legal Center](customer-center/legal-center/README.md)
   * [Privacy Policy](customer-center/legal-center/privacy-policy/README.md)
     * [Subprocessors](customer-center/legal-center/privacy-policy/subprocessors.md)
     * [Privacy Policy Facebook Messenger](customer-center/legal-center/privacy-policy/privacy-policy-facebook-messenger.md)
