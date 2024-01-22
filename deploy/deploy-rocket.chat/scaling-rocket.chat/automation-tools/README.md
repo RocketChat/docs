@@ -4,7 +4,7 @@ Instead of manually deploying Rocket.Chat, automation tools can help streamline 
 
 [**Ansible**](ansible.md)**:** Understand how to configure an Ansible environment for deploying Rocket.Chat to multiple servers.
 
-[**Kubernetes using Helm**](broken-reference): Install Rocket.Chat microservices on Kubernetes using Helm.
+[**Kubernetes using Helm**](https://docs.rocket.chat/deploy/deploy-rocket.chat/additional-deployment-methods/deploy-with-kubernetes): Install Rocket.Chat microservices on Kubernetes using Helm.
 
 [**OpenShift**](openshift.md)**:**  Automate Rocket.Chat deployment on OpenShift.
 

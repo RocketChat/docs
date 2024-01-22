@@ -1,6 +1,6 @@
 # OpenShift
 
-Several templates for providing Rocket.Chat are hosted in this [repository](http://developers.redhat.com/).
+Deploy Rocket.Chat using the [Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift) platform and easily manage your application. Several templates for providing Rocket.Chat are hosted in this [repository](http://developers.redhat.com/).
 
 ## Installation on Container Development Kit (CDK)
 

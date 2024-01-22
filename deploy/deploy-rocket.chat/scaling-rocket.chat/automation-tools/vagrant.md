@@ -1,8 +1,6 @@
----
-description: Deploying Rocket.Chat on Vagrant with Ubuntu
----
-
 # Vagrant
+
+You can set up a [Vagrant](https://www.vagrantup.com/) virtual machine environment to deploy a portable Rocket.Chat workspace. The following code explains how you can deploy Rocket.Chat on Vagrant with Ubuntu.
 
 ```bash
 # -*- mode: ruby -*-

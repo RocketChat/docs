@@ -5,7 +5,7 @@ description: Set up an Ansible environment for deploying Rocket.Chat to multiple
 # Ansible
 
 {% hint style="info" %}
-See the [Rocket.Chat official Ansible role](https://galaxy.ansible.com/RocketChat/Server#readme),
+See the [Rocket.Chat official Ansible role](https://galaxy.ansible.com/RocketChat/Server#readme).
 {% endhint %}
 
 ## Installation
