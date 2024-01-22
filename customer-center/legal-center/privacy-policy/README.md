@@ -211,7 +211,7 @@ Your information, including Personal Data, may be transferred to — and maintai
 
 If you are located outside the United States and choose to provide information to us, please note that we transfer the data, including Personal Data, to the United States or other jurisdictions deemed not to have an adequate level of data protection deemed by the competent authorities of your residence. Rocket.Chat Technologies Corp. will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy, and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
 
-To access privacy agreements relevant to your jurisdiction and obtain information about privacy policies specific to your jurisdiction or company industry, please visit the [Privacy Center](broken-reference).
+To access privacy agreements relevant to your jurisdiction and obtain information about privacy policies specific to your jurisdiction or company industry, please visit the [Privacy Center](./).
 
 </details>
 
