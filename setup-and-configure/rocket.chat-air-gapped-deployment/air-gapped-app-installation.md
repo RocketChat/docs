@@ -16,12 +16,12 @@ Requesting for apps is exclusively available to workspaces subscribed to any of 
 
 Here is a list of the [Rocket.Chat apps](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/) that are supported in an air-gapped workspace:
 
-* [Bamboo Integration](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bamboo-app.md)
-* [Bitbucket Server](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bitbucket-server-integration.md)
-* [Confluence Server](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/confluence-server-integration.md)
+* [Bamboo Integration](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian-apps/bamboo-app.md)
+* [Bitbucket Server](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bitbucket-server.md)
+* [Confluence Server](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/confluence-server.md)
 * [Data Loss Prevention](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/data-loss-prevention-dlp-app.md)
 * Jenkins Integration
-* [JIRA Server Integration](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/jira-server-integration.md)
+* [JIRA Server Integration](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian-apps/jira-server.md)
 * [Jitsi](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/jitsi-app.md)
 * [Pexip](../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)
 
