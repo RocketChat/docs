@@ -8,13 +8,7 @@ _Effective date:_ October 20th, 2023
 
 Rocket.Chat Technologies Corp. ('us', 'we', or 'our') operates the Rocket.Chat Website ([https://rocket.chat](https://rocket.chat/)), Rocket.Chat Services, including the Marketplace and associated Rocket.Chat Apps, Rocket.Chat´s Cloud Offering, the Rocket.Chat Open Server ([https://open.rocket.chat](https://open.rocket.chat/)), and the Rocket.Chat mobile applications (the 'Services').
 
-Our policy includes three appendices, each addressing distinct aspects of our privacy framework:
-
-* Appendix 1: Specific details about privacy in our cloud offerings.
-* Appendix 2: Privacy regulations framework, including applicable legal requirements that may pertain to your company or jurisdiction.
-* Appendix 3: Provisions related to the privacy of Rocket.Chat Open Server.
-
-Please note that other services may have additional privacy policies, which can be found in the Appendices of this document or [here](https://docs.rocket.chat/privacy-and-security/privacy-and-security-policies).
+Please note that additional privacy policies may apply to Rocket.Chat's specific services. These policies can be found here.&#x20;
 
 <details>
 
@@ -24,7 +18,7 @@ This page informs you of our policies regarding the collection, use, and disclos
 
 We use your data to provide and improve the Services. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Customer Terms of Service.
 
-**Administrators are responsible for Users privacy, and we help administrators.**
+**Administrators are responsible for Users' privacy, and we help administrators.**
 
 * There are basically two ways of using Rocket. Chat: Self-hosted (also known as on-premises deployment) on your own or someone else's infrastructure or via our Cloud-hosted offering. In both cases, the administrator of that instance - or the organization behind the administrator - is the person responsible for ensuring the privacy of Rocket.Chat users.&#x20;
 * We aim to help by providing features in our products and services to make that job easier.&#x20;
@@ -34,7 +28,7 @@ We use your data to provide and improve the Services. By using the Service, you 
 
 * We cannot access Customer user-generated data in a Self-Hosted instance of Rocket.Chat.&#x20;
 * Rocket.Chat code is open source; there are no back doors whatsoever.
-* Customers may desire to connect a self-hosted instance to other services, e.g., our marketplace or push notification gateway, where this privacy policy applies. You can also connect it to third-party services, such as external authentication services, in which case their privacy policy applies. It is Customer's choice, and Customers are not forced to do so. You can also connect it to third-party services, such as external authentication services, in which case their privacy policy applies.
+* Customers may desire to connect a self-hosted instance to other services, e.g., our marketplace or push notification gateway, where this privacy policy applies. You can also connect it to third-party services, such as external authentication services, in which case their privacy policy applies. It is Customer's choice, and Customers are not forced to do so.&#x20;
 
 &#x20;**Data Handling on a Cloud Hosting Offering**
 
@@ -51,7 +45,7 @@ We use your data to provide and improve the Services. By using the Service, you 
 
 Other definitions not found here shall have the same meaning as outlined in our [Customer Terms of Service](https://docs.rocket.chat/rocket.chat-legal/terms-of-service).
 
-**Services** means the[ ](https://rocket.chat/)website ([https://rocket.chat](https://rocket.chat/)), Rocket.Chat Open Server (​[https://open.rocket.chat](https://open.rocket.chat/)​[https://open.rocket.chat](https://open.rocket.chat/)), Rocket.Chat Sotfware and Marketplace, incl. associated Rocket.Chat Apps, the[ https://cloud.rocket.chat](https://cloud.rocket.chat/) service offering, push notification gateways, and the Rocket.Chat mobile applications operated by Rocket.Chat Technologies Corp. S
+**Services** means the[ ](https://rocket.chat/)website ([https://rocket.chat](https://rocket.chat/)), Rocket.Chat Open Server (​[https://open.rocket.chat](https://open.rocket.chat/)​), Rocket.Chat Sotfware and Marketplace, incl. associated Rocket.Chat Apps, the[ https://cloud.rocket.chat](https://cloud.rocket.chat/) service offering, push notification gateways, and the Rocket.Chat mobile applications operated by Rocket.Chat Technologies Corp.
 
 **Personal Data** means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).
 
@@ -334,7 +328,7 @@ For more information regarding our security practices, please refer to our compr
 
 Our Services are only available to Users above the legal age of 13 years or any higher age required by the applicable regulations in your jurisdiction.&#x20;
 
-Users under the legal age should discontinue using our services. If you are from a country subject to GDPR, you must be 16 years old or above unless your country has enacted a regulation specifying a lower minimum age.&#x20;
+Users under the legal age should discontinue using our services. If you are from a country subject to GDPR, you must be 16 years old or above, unless your country has enacted a regulation specifying a lower minimum age.&#x20;
 
 Individuals from LGDP-regulated countries must be 18 years of age or older unless parental consent has been obtained.&#x20;
 
@@ -362,7 +356,7 @@ The table below explains the general distinction between the data that is proces
 
 <table data-full-width="false"><thead><tr><th>Data Type</th><th>Self-Hosted</th><th>Cloud Hosted at Rocket.Chat</th></tr></thead><tbody><tr><td>Account Data</td><td>Yes. To register your workspace via an account, </td><td>Yes. To register your workspace via an account</td></tr><tr><td>Usage Data</td><td>Yes. As per the service you are consuming via your registration, e.g., push notifications via our gateway,</td><td>Yes. As part of using the hosted workspace on our infrastructure</td></tr><tr><td>App Data</td><td><p>Yes. If you install apps from the marketplace and, based on the use case of the app. Third-party apps have their own privacy policy.</p><p><br></p></td><td><p>Yes - if you install apps from the marketplace and based on the app's use case. Third-party apps have their own privacy policy.</p><p><br></p></td></tr><tr><td>User Generated Content</td><td>No. Content is not processed unless it falls under the aforementioned (e.g. the content of a push notification sent via our gateway).</td><td>Yes. As part of using the hosted workspace on our infrastructure. End-to-end encrypted content is only stored in encrypted form.</td></tr><tr><td>Tracking and Cookies</td><td>Yes. Tracking occurs on our end to monitor the consumption of the services you use (Usage Data). We do not track inside the workspace.</td><td>Tracking occurs to monitor the consumption of the services used.</td></tr></tbody></table>
 
-There are two classifications for [Rocket.Chat](https://rocket.chat/) self-hosted workspaces: registered and non-registered. Registered workspaces have access to a wide range of features and services, and registered workspaces are eligible for our "starter" or paid plans (dependent on user counts and functionality requirements). Note that non-registered workspaces operate independently without formal registration and no data collection by [Rocket.Chat](https://rocket.chat/). Non-registered workspaces are only available via the Free and Open Source Software (FOSS) self-build deployment path;&#x20;
+There are two classifications for [Rocket.Chat](https://rocket.chat/) self-hosted workspaces: registered and non-registered. Registered workspaces have access to a wide range of features and services, and registered workspaces are eligible for our "starter" or paid plans (dependent on user counts and functionality requirements). Note that non-registered workspaces operate independently without formal registration and no data collection by [Rocket.Chat](https://rocket.chat/). Non-registered workspaces are only available via the Free and Open Source Software (FOSS) self-build deployment path.
 
 ## Contact us
 
@@ -445,36 +439,6 @@ Rocket.Chat only processes, stores, and collects data according to this Privacy 
 
 Where required, we provide the option to sign [Standard Contractual Clauses](https://docs.rocket.chat/privacy-and-security/privacy-center/gdpr) approved by the European Commission to ensure sufficient data protection or other relevant mechanisms based on the Customer's requirements or applicable agreements in the customer's jurisdiction. For additional details, please visit the [Privacy Center.](broken-reference)\
 
-
-</details>
-
-***
-
-## APPENDIX 3
-
-<details>
-
-<summary>Specific Provisions to Rocket.Chat Open Server</summary>
-
-“Rocket.Chat Open Server  ([https://open.rocket.chat](https://open.rocket.chat/))” is a dedicated workspace for [Rocket.Chat](https://rocket.chat/) admins, users, contributors, partners, and employees to collaborate and improve the experience of running a [Rocket.Chat](https://rocket.chat/) workspace.
-
-* Our Open Server is for testing purposes.
-* Our Open Server[ ](https://open.rocket.chat/)is a testing ground for our Users, and we use it to test and analyze new features. We track user activity there with the trackers described in the Privacy Policy - including Google Analytics - to learn how our service is used and to improve our product.
-
-**Data Collected on the Open Server**
-
-In addition to the data collected mentioned in the Privacy Policy, please note that any content uploaded by Users to the Rocket.Chat Open Server (open.rocket.chat) will also be stored. This includes images, files, documents, and other user-generated data.&#x20;
-
-Rest assured that we securely store all uploaded content in our cloud-hosted infrastructure.&#x20;
-
-**Data Retention on the Open Server**
-
-Rocket.Chat reserves the right to delete inactive accounts, channels, discussions, and associated content on the Open Server. Rocket.Chat may deem an account, channel, or discussion inactive based on various criteria, including, but not limited to, the account creation date, the last time there was a valid log-in and the date of the last contribution. If we plan to delete your account, we will provide advance notice by sending a message to the email address registered to your account. Rocket.Chat encourages you to utilize your account on occasion to avoid the risk of being deemed inactive.&#x20;
-
-\
-**Account Deletion on the Open Server**
-
-If you wish to delete your account at Rocket.Chat Open Server, you can do so by logging in to your account, clicking on the account, then selecting 'profile', and finally clicking on 'excluding my account'. Please note that once you delete your account, this action cannot be undone.
 
 </details>
 

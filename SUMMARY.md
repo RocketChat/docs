@@ -500,6 +500,7 @@
     * [Subprocessors](customer-center/legal-center/privacy-policy/subprocessors.md)
     * [Privacy Policy Facebook Messenger](customer-center/legal-center/privacy-policy/privacy-policy-facebook-messenger.md)
     * [Privacy Notice for Air-Gapped Workspaces](customer-center/legal-center/privacy-policy/privacy-notice-for-air-gapped-workspaces.md)
+    * [Privacy Notice for the Open Server](customer-center/legal-center/privacy-policy/privacy-notice-for-the-open-server.md)
   * [GDPR](customer-center/legal-center/gdpr/README.md)
     * [Data Processing Agreement](customer-center/legal-center/gdpr/data-processing-agreement.md)
   * [LGDP](customer-center/legal-center/lgdp/README.md)
