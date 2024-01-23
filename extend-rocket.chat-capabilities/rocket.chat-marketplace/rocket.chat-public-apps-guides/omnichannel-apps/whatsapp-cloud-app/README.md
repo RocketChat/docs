@@ -35,7 +35,7 @@ You must verify your account before proceeding if it is your first time accessin
   * **Contact address**: Your email to use when contacting you.
   * **Business Account**: Select a business account if you have one. A new account can be created automatically if none is selected.
 * Click on **Setup** against **WhatsApp** in the list of products to add displayed. A WhatsApp section is added to the left panel of your Facebook Developer dashboard.
-* Navigate to **WhatsApp** > **Getting Started**; you will see a set of credentials to be used later to set [up the WhatsApp Cloud App in Rocket.Chat](whatsapp-cloud-app-configuration.md)
+* Navigate to **WhatsApp** > **Getting Started**; you will see a set of credentials to be used later to set [up the WhatsApp Cloud App in Rocket.Chat](configure-whatsapp-cloud-app.md)
 * Verify any existing WhatsApp number to receive messages while in Test Mode.
 
 {% hint style="info" %}
