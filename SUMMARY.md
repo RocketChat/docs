@@ -469,10 +469,10 @@
 
 ## APPLICABLE TERMS
 
-* [Customer Terms of Service](applicable-terms/rocket.chat-terms.md)
-* [Additional Terms](applicable-terms/supplemental-terms/README.md)
-  * [Terms of Use](applicable-terms/supplemental-terms/terms-of-use.md)
-  * [Acceptable Use Policy](applicable-terms/supplemental-terms/acceptable-use-policy.md)
+* [Customer Terms of Service](applicable-terms/customer-terms-of-service.md)
+* [Additional Terms](applicable-terms/additional-terms/README.md)
+  * [Terms of Use](applicable-terms/additional-terms/terms-of-use.md)
+  * [Acceptable Use Policy](applicable-terms/additional-terms/acceptable-use-policy.md)
   * [Service-Specific Terms](applicable-terms/supplemental-terms/service-specific-terms/README.md)
     * [Master Service Agreement for Professional Services](applicable-terms/supplemental-terms/service-specific-terms/master-service-agreement-for-professional-services.md)
     * [Cloud Services Terms](applicable-terms/supplemental-terms/service-specific-terms/cloud-services-terms/README.md)
