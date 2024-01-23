@@ -35,7 +35,7 @@ To share a file,
 * From the list of files, click the **Kebab menu** across the file, and **Share in room.** This shares a link to the file in that room.
 
 {% hint style="info" %}
-Clicking on **Details and sharing** opens up a modal to edit the [sharing permissions](google-drive-app-file-actions.md#file-permissions) of the file.&#x20;
+Clicking on **Details and sharing** opens up a modal to edit the [sharing permissions](using-the-google-drive-app.md#file-permissions) of the file.&#x20;
 {% endhint %}
 
 ## View File Information
@@ -45,7 +45,7 @@ To view file details,
 * From the list of files, click the **Kebab menu** across the file, and select **File Information.** This shares a link to the file in that room.
 * It returns the following details of the file:
   * **File name:** The name of the file
-  * **Manage Access**: Where to set the [file-sharing permissions](google-drive-app-file-actions.md#file-permissions).
+  * **Manage Access**: Where to set the [file-sharing permissions](using-the-google-drive-app.md#file-permissions).
   * **Type**: The file type.
   * **Size**: The size occupied by the file in Google Drive.
   * **Location**: The location of the file in Drive.
@@ -55,7 +55,7 @@ To view file details,
 
 ### File Permissions
 
-Managing file permissions allows you to restrict the action anyone can perform on a file. A file's permission can be set when [sharing the file](google-drive-app-file-actions.md#share-google-drive-file) or viewing the [File information](google-drive-app-file-actions.md#view-file-information).
+Managing file permissions allows you to restrict the action anyone can perform on a file. A file's permission can be set when [sharing the file](using-the-google-drive-app.md#share-google-drive-file) or viewing the [File information](using-the-google-drive-app.md#view-file-information).
 
 * The various permissions you can set to a file include the following:
   * **Share to room members and allow them to view**: Restricts viewing of the file only by the member(s) of the room.

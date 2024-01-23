@@ -77,7 +77,7 @@ To connect your Google account,
 * Select the Google account you want to authorize, and click **Allow** for all the account permissions.
 * After a successful connection, the `google-drive.bot` message notifies you of a completed authentication.
 
-With your account linked, you can now [view](google-drive-app-file-actions.md#list-google-drive-files), [create](google-drive-app-file-actions.md#create-a-new-google-drive-file) and [share files](google-drive-app-file-actions.md#share-google-drive-file) directly from Rocket.Chat.
+With your account linked, you can now [view](using-the-google-drive-app.md#list-google-drive-files), [create](using-the-google-drive-app.md#create-a-new-google-drive-file) and [share files](using-the-google-drive-app.md#share-google-drive-file) directly from Rocket.Chat.
 
 {% hint style="info" %}
 You may be required to re-authenticate periodically whenever the authentication token expires.

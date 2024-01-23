@@ -452,3 +452,10 @@ redirects:
     use-rocket.chat/authentication/ldap/ldap-data-sync-settings: use-rocket.chat/authentication/ldap/ldap-data-sync-settings.md
     use-rocket.chat/authentication/ldap/ldap-premium-settings: use-rocket.chat/authentication/ldap/ldap-premium-settings.md
     use-rocket.chat/authentication/ldap/ldap-setup: use-rocket.chat/authentication/ldap/ldap-setup.md
+
+    extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian-apps/README.md
+    extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/jira-server-v2.0: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian-apps/jira-server-v2.0.md
+    extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bamboo-app: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian-apps/bamboo-app.md
+    extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bitbucket-server-integration: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian-apps/bitbucket-server.md
+    extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/confluence-server-integration: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian-apps/confluence-server.md
+    extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/jira-server-integration: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian-apps/jira-server.md
