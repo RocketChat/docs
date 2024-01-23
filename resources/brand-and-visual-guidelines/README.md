@@ -17,6 +17,6 @@ These guidelines will touch on the following topics:
 * [Iconography](iconography.md)
 * [Photos](photos.md)
 * [Brand usage examples](brand-usage-examples.md)
-* [Media kit](compositionsed.md)
+* [Media kit](media-kit.md)
 
 Ensure to use this guide anytime you feel unsure of which visual path to take when producing content regarding Rocket.Chat.
