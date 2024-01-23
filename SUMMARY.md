@@ -475,8 +475,8 @@
   * [Acceptable Use Policy](applicable-terms/supplemental-terms/acceptable-use-policy.md)
   * [Service-Specific Terms](applicable-terms/supplemental-terms/service-specific-terms/README.md)
     * [Master Service Agreement for Professional Services](applicable-terms/supplemental-terms/service-specific-terms/master-service-agreement-for-professional-services.md)
-    * [Cloud Services Terms](applicable-terms/supplemental-terms/service-specific-terms/cloud-deployment-terms-cloud-terms/README.md)
-      * [Marketplace and Apps](applicable-terms/supplemental-terms/service-specific-terms/cloud-deployment-terms-cloud-terms/marketplace-and-apps.md)
+    * [Cloud Services Terms](applicable-terms/supplemental-terms/service-specific-terms/cloud-services-terms/README.md)
+      * [Marketplace and Apps](applicable-terms/supplemental-terms/service-specific-terms/cloud-services-terms/marketplace-and-apps.md)
 
 ## CUSTOMER CENTER
 
