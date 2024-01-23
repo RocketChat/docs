@@ -457,7 +457,7 @@
   * [Iconography](resources/brand-and-visual-guidelines/iconography.md)
   * [Photos](resources/brand-and-visual-guidelines/photos.md)
   * [Brand Usage Examples](resources/brand-and-visual-guidelines/brand-usage-examples.md)
-  * [Media Kit](resources/brand-and-visual-guidelines/compositionsed.md)
+  * [Media Kit](resources/brand-and-visual-guidelines/media-kit.md)
 * [Developer Documentation](resources/developer-documentation.md)
 * [Glossary](resources/glossary.md)
 
