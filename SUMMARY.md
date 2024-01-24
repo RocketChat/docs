@@ -332,7 +332,7 @@
       * [Associate agents with extensions in Rocket.Chat](use-rocket.chat/rocket.chat-voice-channel/voice-channel-admin-guide/configure-with-an-active-pbx-server/associate-agents-with-extensions-in-rocket.chat.md)
   * [Voice Channel Technical Specification](use-rocket.chat/rocket.chat-voice-channel/voice-channel-technical-specification.md)
   * [Voice Channel Agent Guides](use-rocket.chat/rocket.chat-voice-channel/voice-channel-agent-guides/README.md)
-    * [How to make myself available to accept calls?](use-rocket.chat/rocket.chat-voice-channel/voice-channel-agent-guides/how-to-make-myself-available-for-accepting-voip-calls.md)
+    * [How to make myself available to accept calls?](use-rocket.chat/rocket.chat-voice-channel/voice-channel-agent-guides/how-to-make-myself-available-to-accept-calls.md)
     * [How to take a call in Rocket.Chat voice channel?](use-rocket.chat/rocket.chat-voice-channel/voice-channel-agent-guides/how-to-take-a-call-in-rocket.chat-voice-channel.md)
     * [How to initiate an outbound call as an agent?](use-rocket.chat/rocket.chat-voice-channel/voice-channel-agent-guides/how-to-initiate-an-outbound-call-as-an-agent.md)
   * [Voice Channel FAQs](use-rocket.chat/rocket.chat-voice-channel/voice-channel-faqs.md)

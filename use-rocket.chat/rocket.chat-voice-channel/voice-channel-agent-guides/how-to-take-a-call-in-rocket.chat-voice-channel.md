@@ -1,6 +1,6 @@
 # How to take a call in Rocket.Chat voice channel?
 
-After you [make yourself available](how-to-make-myself-available-for-accepting-voip-calls.md) to receive/make calls, you can start taking inbound calls.
+After you [make yourself available](how-to-make-myself-available-to-accept-calls.md) to receive/make calls, you can start taking inbound calls.
 
 ## **Call Operations**
 
