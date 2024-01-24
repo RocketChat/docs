@@ -13,7 +13,7 @@
 All workspaces must be registered on Rocket.Chat cloud and within our [support window](../../customer-center/support-center/premium-support-plans/support-prerequisites-and-version-durability.md#support-window-duration) to access cloud services.
 {% endhint %}
 
-[**Create your new cloud account**](create-new-cloud-account.md): Get started with Rocket.Chat cloud by creating a new account.
+[**Create your new cloud account**](create-your-new-cloud-account.md): Get started with Rocket.Chat cloud by creating a new account.
 
 [**Manage your cloud account**](manage-your-cloud-account/): Manage your workspace subscriptions, view invoices, and review payment methods.
 
