@@ -11,8 +11,8 @@ Before you begin, make sure you have the following:
 
 In this guide, you'll learn how to:
 
-* [Deploy Rocket.Chat on Digital Ocea](digitalocean.md#deploy-rocket.chat-on-digital-ocean)n
-* [Enable HTTPs for your workspace](digitalocean.md#enabling-https).
+* [Deploy Rocket.Chat on Digital Ocea](deploy-with-digital-ocean.md#deploy-rocket.chat-on-digital-ocean)n
+* [Enable HTTPs for your workspace](deploy-with-digital-ocean.md#enabling-https).
 
 ## Deploy Rocket.Chat on Digital Ocean
 

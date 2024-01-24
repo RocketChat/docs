@@ -25,7 +25,7 @@ In addition, snaps are a convenient way to rapidly deploy a Rocket.Chat instance
 
 ### **Additional Deployments**
 
-* [**Deploy with Digital Ocean**](additional-deployment-methods/digitalocean.md)**:** Deploy Rocket.Chat with a 1-click install from the Digital Ocean marketplace.
+* [**Deploy with Digital Ocean**](additional-deployment-methods/deploy-with-digital-ocean.md)**:** Deploy Rocket.Chat with a 1-click install from the Digital Ocean marketplace.
 * [**Deploy on IBM Cloud**](additional-deployment-methods/deploy-on-ibm-cloud.md)**:** Experience Rocket.Chat on IBM Cloud with enterprise-grade infrastructure and services.
 * [**Deploy with Google Compute Engine**](additional-deployment-methods/deploy-on-google-compute-engine.md)**:** Launch Rocket.Chat on Google Compute Engine for reliable performance and scalability.
 * [**Deploy with Kubernetes using Helm**](additional-deployment-methods/deploy-with-kubernetes.md)**:** Set up Rocket.Chat more efficiently by utilizing Kubernetes and Helm for effortless scalability and administration.
