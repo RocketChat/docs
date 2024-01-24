@@ -2,13 +2,13 @@
 
 _Effective date:_ October 20th, 2023
 
-> We have made some updates to our privacy policy which will come into effect on the effective date specified. These changes include modifications related to "[workspace tracking and statistics data](./#the-type-of-data-we-collect)," which will be implemented upon the release of Rocket.Chat 6.5. To access the previous version of this Privacy Policy, click [here](../historical-agreements-and-policy-archive.md).
+> We have made some updates to our privacy policy which will come into effect on the effective date specified. These changes include modifications related to "[workspace tracking and statistics data](https://docs.rocket.chat/customer-center/legal-center/privacy-policy#the-type-of-data-we-collect)," which will be implemented upon the release of Rocket.Chat 6.5. To access the previous version of this Privacy Policy, click [here](../historical-agreements-and-policy-archive.md).
 
 ***
 
-Rocket.Chat Technologies Corp. ('us', 'we', or 'our') operates the Rocket.Chat Website ([https://rocket.chat](https://rocket.chat/)), Rocket.Chat Services, including the Marketplace and associated Rocket.Chat Apps, Rocket.Chat´s Cloud Offering, the Rocket.Chat Open Server ([https://open.rocket.chat](https://open.rocket.chat/)), and the Rocket.Chat mobile applications (the 'Services').
+Rocket.Chat Technologies Corp. ('us', 'we', or 'our') operates the Rocket.Chat Website ([https://rocket.chat](https://rocket.chat/)), Rocket.Chat Services, including the Marketplace and associated Rocket.Chat Apps, Rocket.Chat´s Cloud Hosting Services, the Rocket.Chat Open Server ([https://open.rocket.chat](https://open.rocket.chat/)), and the Rocket.Chat mobile applications (the 'Services').
 
-Please note that additional privacy policies may apply to Rocket.Chat's specific services. These policies can be found here.&#x20;
+Please note that additional privacy policies may apply to Rocket.Chat's specific services. These policies can be found [here](https://handbook.rocket.chat/departments-and-operations/legal/privacy-policies).&#x20;
 
 <details>
 
@@ -20,7 +20,7 @@ We use your data to provide and improve the Services. By using the Service, you 
 
 **Administrators are responsible for Users' privacy, and we help administrators.**
 
-* There are basically two ways of using Rocket. Chat: Self-hosted (also known as on-premises deployment) on your own or someone else's infrastructure or via our Cloud-hosted offering. In both cases, the administrator of that instance - or the organization behind the administrator - is the person responsible for ensuring the privacy of Rocket.Chat users.&#x20;
+* There are basically two ways of using Rocket. Chat: Self-hosted (also known as on-premises deployment) on your own or someone else's infrastructure or via our Cloud-hosted services. In both cases, the administrator of that instance - or the organization behind the administrator - is the person responsible for ensuring the privacy of Rocket.Chat users.&#x20;
 * We aim to help by providing features in our products and services to make that job easier.&#x20;
 * We also provide this policy to explain what we do as a "helping hand"/data processor for administrators in case we process users' personal data.
 
@@ -30,10 +30,10 @@ We use your data to provide and improve the Services. By using the Service, you 
 * Rocket.Chat code is open source; there are no back doors whatsoever.
 * Customers may desire to connect a self-hosted instance to other services, e.g., our marketplace or push notification gateway, where this privacy policy applies. You can also connect it to third-party services, such as external authentication services, in which case their privacy policy applies. It is Customer's choice, and Customers are not forced to do so.&#x20;
 
-&#x20;**Data Handling on a Cloud Hosting Offering**
+&#x20;**Data Handling on a Cloud Hosting Services**
 
 * In the Rocket.Chat Cloud hosted offering; we only process Customer data for the purpose of providing Customers the service in the name of the administrator. Administrators are still in full control over the configuration of their instances.&#x20;
-* For more information on data processing in the cloud hosting offering, please refer to '[The distinction of data collection between Self-Hosted Workspaces and Cloud Hosting Workspaces](./#the-distinction-of-data-collection-between-self-hosted-workspaces-and-cloud-hosting-workspaces)' and [Appendix 1](./#appendix-1).
+* For more information on data processing in the cloud hosting services, please refer to '[The distinction of data collection between Self-Hosted Workspaces and Cloud Hosting Workspaces](./#the-distinction-of-data-collection-between-self-hosted-workspaces-and-cloud-hosting-workspaces)' and Privacy Notice for the Cloud Hosting Services.
 
 </details>
 
@@ -43,9 +43,9 @@ We use your data to provide and improve the Services. By using the Service, you 
 
 <summary>Definitions</summary>
 
-Other definitions not found here shall have the same meaning as outlined in our [Customer Terms of Service](https://docs.rocket.chat/rocket.chat-legal/terms-of-service).
+Other definitions not found here shall have the same meaning as outlined in our [Customer Terms of Service](https://docs.rocket.chat/applicable-terms/rocket.chat-terms).
 
-**Services** means the[ ](https://rocket.chat/)website ([https://rocket.chat](https://rocket.chat/)), Rocket.Chat Open Server (​[https://open.rocket.chat](https://open.rocket.chat/)​), Rocket.Chat Sotfware and Marketplace, incl. associated Rocket.Chat Apps, the[ https://cloud.rocket.chat](https://cloud.rocket.chat/) service offering, push notification gateways, and the Rocket.Chat mobile applications operated by Rocket.Chat Technologies Corp.
+**Services** means the[ ](https://rocket.chat/)website ([https://rocket.chat](https://rocket.chat/)), Rocket.Chat Open Server ([https://open.rocket.chat](https://open.rocket.chat/)​), Rocket.Chat Sotfware and Marketplace, incl. associated Rocket.Chat Apps, the[ https://cloud.rocket.chat](https://cloud.rocket.chat/) service offering, push notification gateways, and the Rocket.Chat mobile applications operated by Rocket.Chat Technologies Corp.
 
 **Personal Data** means data about a living individual who can be identified from those data (or from those and other information either in our possession or likely to come into our possession).
 
@@ -78,7 +78,7 @@ While using our Service, we may ask you to provide us with certain personally id
 * Cookies and Usage Data
 * Phone number and other contact details.
 
-## Account Data
+### Account Data
 
 Some Services may allow or require that you register for a personalized account. Account data may include, in addition, your account name, authentication information, registration date, contact information, payment information, and any other information associated with your account.
 
@@ -204,8 +204,6 @@ When your personal data no longer needs to be retained for any of the purposes s
 Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country, or other governmental jurisdiction where the data protection laws may differ from those from your jurisdiction.
 
 If you are located outside the United States and choose to provide information to us, please note that we transfer the data, including Personal Data, to the United States or other jurisdictions deemed not to have an adequate level of data protection deemed by the competent authorities of your residence. Rocket.Chat Technologies Corp. will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy, and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
-
-To access privacy agreements relevant to your jurisdiction and obtain information about privacy policies specific to your jurisdiction or company industry, please visit the [Privacy Center](./).
 
 </details>
 
@@ -371,32 +369,7 @@ To communicate with our Data Protection Officer, please email privacy@rocket.cha
 
 ***
 
-## APPENDIX 1&#x20;
-
-<details>
-
-<summary>Specific Provisions to our Cloud Offerings</summary>
-
-For our Cloud Offerings, we act as a Data Processor for our Customers, who are the Data Controllers of the instances they have licensed and administer. As a User, you will be bound by the Data Controller´s policies. For these instances, please direct your data privacy questions to the Data Controller.
-
-Regarding some of our Cloud Products, Customers have certain options to select the processing location of data and configure the instance's privacy-relevant settings. If you are the Customer of one of these instances, you can contact us and get more information on where your instance is running.
-
-We generally offer two regions:
-
-* hosting in the United States
-* hosting in the European Union
-
-Other regions may be added over time.
-
-The amount of Personal Data we process with our Cloud Offerings is limited to what the Customer and his users enter into the Service. In the Cloud offering, we will not process the personalized cookie or analytics data described above. The purposes of processing the data are strictly limited to providing and improving the Service in accordance with the Data Controller´s instructions. We never access workspace data (i.e. the actual content the customer is entering in his instance) unless the customer asks us to in the form of a support request, we are bound by a valid law enforcement request or to protect our own interests, such as investigating potential abuse of the service.
-
-Once your usage of our cloud offering ceases, we will remove all your data, including backups, after a short grace period - or immediately if you tell us to.
-
-</details>
-
-***
-
-## APPENDIX 2
+## APPENDIX 1
 
 <details>
 
@@ -433,12 +406,11 @@ You can enable or disable Do Not Track by visiting your web browser's Preference
 
 ### Specific Provisions to Lei Geral de Proteção de Dados “LGPD”
 
-Rocket.Chat only processes, stores, and collects data according to this Privacy Policy, which covers the main LGPD requirements. For a dedicated section about the DPO appointment letter and Frequently asked questions about LGDP compliance at Rocket.Chat, please refer to the Privacy Center, where we have a dedicated page for LGPD Compliance.&#x20;
+Rocket.Chat only processes, stores, and collects data according to this Privacy Policy, which covers the main LGPD requirements.  For a dedicated section on the appointment letter for Data Protection Officer (DPO) and frequently asked questions about LGDP compliance at Rocket.Chat, please click [here](https://docs.rocket.chat/customer-center/legal-center/lgdp).
 
 ### Specific Provisions for General Data Protection Regulation “GDPR)” and Other Applicable Regulations
 
-Where required, we provide the option to sign [Standard Contractual Clauses](https://docs.rocket.chat/privacy-and-security/privacy-center/gdpr) approved by the European Commission to ensure sufficient data protection or other relevant mechanisms based on the Customer's requirements or applicable agreements in the customer's jurisdiction. For additional details, please visit the [Privacy Center.](broken-reference)\
-
+Where required, we provide the option to sign [Standard Contractual Clauses](https://docs.rocket.chat/customer-center/legal-center/gdpr/data-processing-agreement) approved by the European Commission to ensure sufficient data protection or other relevant mechanisms based on the Customer's requirements or applicable agreements in the customer's jurisdiction.&#x20;
 
 </details>
 

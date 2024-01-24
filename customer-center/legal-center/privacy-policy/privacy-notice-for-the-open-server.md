@@ -1,6 +1,12 @@
 # Privacy Notice for the Open Server
 
-**Privacy Notice for the “Rocket.Chat Open Server”**
+**Effective date:** October 20th, 2023
+
+{% hint style="info" %}
+This document is a supplementary guide to our main Privacy Policy. It provides additional details and insights into how we manage your personal information under our **Open Server.**&#x20;
+
+While the Privacy Policy outlines our basic principles and practices, this Privacy Notice delves into specific service aspects. It aims to give you a better understanding of our data processing activities.
+{% endhint %}
 
 “Rocket.Chat Open Server ([https://open.rocket.chat](https://open.rocket.chat/))” is a dedicated workspace for[ Rocket.Chat](https://rocket.chat/) admins, users, contributors, partners, and employees to collaborate and improve the experience of running a[ Rocket.Chat](https://rocket.chat/) workspace.
 
@@ -21,4 +27,3 @@ Rocket.Chat reserves the right to delete inactive accounts, channels, discussion
 
 If you wish to delete your account at Rocket.Chat Open Server, you can do so by logging in to your account, clicking on the account, then selecting 'profile', and finally clicking on 'excluding my account'. Please note that once you delete your account, this action cannot be undone.
 
-\
