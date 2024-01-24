@@ -2,7 +2,7 @@
 
 Rocket.Chat provides advanced workspace management features, offering a range of customizable functionalities to suit the unique needs of any workspace. From managing users and channels to integrating with third-party applications, the advanced workspace management features provide a robust framework for efficient team collaboration. The security offerings ensure that your communication remains safe, while platform enhancements improve the overall user experience.
 
-[**Google Cloud Features**](google-cloud.md): Implement various Google Cloud features in your workspace—for example, Google Auto-Translate.
+[**Google Cloud Features**](google-translate-integration.md): Implement various Google Cloud features in your workspace—for example, Google Auto-Translate.
 
 [**Environment Variables**](../environment-configuration/deployment-environment-variables/): Configure your workspace settings using environment variables.
 
@@ -10,7 +10,7 @@ Rocket.Chat provides advanced workspace management features, offering a range of
 
 [**Database Migration**](database-migration.md): Configure the database migration collection.
 
-[**Restoring an Admin User**](restoring-an-admin.md): Restore an admin user based on your workspace installation.
+[**Restoring an Admin User**](restoring-an-admin-user.md): Restore an admin user based on your workspace installation.
 
 [**CDN**](cdn.md): Use a CDN to serve static assets such as JS, CSS, and images to your workspace.
 
