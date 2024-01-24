@@ -64,7 +64,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**Rate Limiter**](rate-limiter.md): Limit network traffic and potential bot attacks on your Rocket.Chat server by limiting the number of hits on the server within a specified timeframe.
 
-[**Retention Policy**](retention-policies.md): Learn to configure whether to enable the automatic removal of old messages and files across your workspace.
+[**Retention Policy**](retention-policy.md): Learn to configure whether to enable the automatic removal of old messages and files across your workspace.
 
 [**SAML**](../../authentication/saml/): Enable using the Security Assertion Markup Language standard to exchange authentication and authorization information.
 
