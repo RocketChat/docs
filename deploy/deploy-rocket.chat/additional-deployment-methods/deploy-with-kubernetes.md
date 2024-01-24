@@ -180,7 +180,7 @@ kubectl scale --replicas=3 deployment/rocketchat
 
 By default, the chart creates one MongoDB instance as a Primary in a replicaset. You can also scale up the capacity and availability of the MongoDB cluster independently.
 
-> See [MongoDB chart](https://github.com/bitnami/charts/tree/master/bitnami/mongodb) for configuration information. To learn more on running Rocket.Chat in scaled configurations, visit the [Configure MongoDB Replicaset](../../../setup-and-configure/environment-configuration/mongodb-configuration/mongo-replicas.md) guide.
+> See [MongoDB chart](https://github.com/bitnami/charts/tree/master/bitnami/mongodb) for configuration information. To learn more on running Rocket.Chat in scaled configurations, visit the [Configure MongoDB Replicaset](../../../setup-and-configure/environment-configuration/mongodb-configuration/configure-a-replica-set-for-mongodb.md) guide.
 
 ### Manage MongoDB secrets
 
