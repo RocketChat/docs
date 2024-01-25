@@ -33,7 +33,7 @@ We use your data to provide and improve the Services. By using the Service, you 
 &#x20;**Data Handling on a Cloud Hosting Services**
 
 * In the Rocket.Chat Cloud hosted offering; we only process Customer data for the purpose of providing Customers the service in the name of the administrator. Administrators are still in full control over the configuration of their instances.&#x20;
-* For more information on data processing in the cloud hosting services, please refer to '[The distinction of data collection between Self-Hosted Workspaces and Cloud Hosting Workspaces](./#the-distinction-of-data-collection-between-self-hosted-workspaces-and-cloud-hosting-workspaces)' and Privacy Notice for the Cloud Hosting Services.
+* For more information on data processing in the cloud hosting services, please refer to '[The distinction of data collection between Self-Hosted Workspaces and Cloud Hosting Workspaces](./#the-distinction-of-data-collection-between-self-hosted-workspaces-and-cloud-hosting-workspaces)' and [Privacy Notice for the Cloud Hosting Services](privacy-notice-for-the-cloud-hosting-services.md).
 
 </details>
 
@@ -43,7 +43,7 @@ We use your data to provide and improve the Services. By using the Service, you 
 
 <summary>Definitions</summary>
 
-Other definitions not found here shall have the same meaning as outlined in our [Customer Terms of Service](https://docs.rocket.chat/applicable-terms/rocket.chat-terms).
+Other definitions not found here shall have the same meaning as outlined in our [Customer Terms of Service.](../../../applicable-terms/customer-terms-of-service.md)
 
 **Services** means the[ ](https://rocket.chat/)website ([https://rocket.chat](https://rocket.chat/)), Rocket.Chat Open Server ([https://open.rocket.chat](https://open.rocket.chat/)​), Rocket.Chat Sotfware and Marketplace, incl. associated Rocket.Chat Apps, the[ https://cloud.rocket.chat](https://cloud.rocket.chat/) service offering, push notification gateways, and the Rocket.Chat mobile applications operated by Rocket.Chat Technologies Corp.
 
