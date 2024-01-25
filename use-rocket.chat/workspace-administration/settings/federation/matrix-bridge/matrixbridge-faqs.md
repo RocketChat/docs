@@ -1,7 +1,5 @@
 # Matrix Bridge FAQs
 
-
-
 <details>
 
 <summary>What is the Matrix Protocol?</summary>
@@ -30,7 +28,7 @@ It's an implementation of the Matrix spec, there are some existing homeservers. 
 
 <summary>How do I install Synapse?</summary>
 
-* Installing [Synapse](https://matrix.org/docs/guides/installing-synapse).
+* Installing [Synapse](https://matrix-org.github.io/synapse/latest/).
 * Configuring [federation](https://matrix-org.github.io/synapse/latest/federate.html).
 
 </details>

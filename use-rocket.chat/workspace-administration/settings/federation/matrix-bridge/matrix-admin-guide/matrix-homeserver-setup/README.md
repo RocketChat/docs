@@ -168,7 +168,7 @@ Replace _`ps-rocketchat.com`_ and _`matrix2.ps-rocketchat.com`_ with your domain
 docker network create rocketchat
 ```
 
-* To set up a [Synapse](https://matrix.org/docs/projects/server/synapse) server, run this command to set up the Synapse environment:
+* To set up a [Synapse](https://matrix-org.github.io/synapse/latest/) server, run this command to set up the Synapse environment:
 
 ```
 docker run --rm -e SYNAPSE_SERVER_NAME=ps-rocketchat.com -e SYNAPSE_REPORT_STATS=yes -v $PWD/data:/data matrixdotorg/synapse generate
@@ -274,7 +274,7 @@ docker run --name nginx --network rocketchat -p 443:443 -p 80:80 -v ./nginx.conf
 Before you proceed, subscribe to any of our [premium plans ](../../../../../../../readme/our-plans.md)or [apply trial ](../../../../../../../setup-and-configure/trials/)on your workspace to unlock all the available federation features.
 {% endhint %}
 
-See [matrixbridge-configuration.md](../matrixbridge-configuration.md "mention") to learn more about the configurations and their definitions.
+See [matrix-bridge-configuration.md](../matrix-bridge-configuration.md "mention") to learn more about the configurations and their definitions.
 
 Now that your workspace is set up, navigate to **Administration** > **Workspace** > **Settings** > **Federation > Matrix Bridge** and follow these steps:
 

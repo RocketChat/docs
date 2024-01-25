@@ -23,7 +23,7 @@ To set up 2FA for your cloud account,&#x20;
 
 * From the sidebar menu, navigate to **Security > Two-factor authentication**.
 * Click **Enable.** A modal is displayed, prompting you to enter your TOTP (time-based one-time password) or to set up one if you don't have.
-* Download any Authenticator app of your choice to proceed. Some popular Authenticators include [Google Authenticator](https://googleauthenticator.net/),[ Authy, ](https://authy.com/)and[ Duo](https://duo.com/).
+* Download any Authenticator app of your choice to proceed. Some popular Authenticators include [Google Authenticator](https://chromewebstore.google.com/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai),[ Authy, ](https://authy.com/)and[ Duo](https://duo.com/).
 * Scan the QR Code with your Authenticator app or set up the Authentication keys manually.
 * Enter the TOTP code from your authenticator app and click **Next.**
 * A list of backup codes is displayed. Save them securely in case you lose access to your Authenticator app.

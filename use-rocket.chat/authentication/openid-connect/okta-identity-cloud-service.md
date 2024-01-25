@@ -1,6 +1,6 @@
 # Okta Identity Cloud Service
 
-Using Okta as an OpenID Connect identity provider is similar to [using it as an OAuth provider](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/oauth/other-oauth-setup#okta-oauth), but OpenConnect ID has additional features specific to identity and access management. You can find more information on the [OAuth 2.0 and OpenID Connect overview](https://developer.okta.com/docs/concepts/oauth-openid/) page.
+Using Okta as an OpenID Connect identity provider is similar to [using it as an OAuth provider](../oauth/additional-oauth-methods.md#custom-oauth-okta), but OpenConnect ID has additional features specific to identity and access management. You can find more information on the [OAuth 2.0 and OpenID Connect overview](https://developer.okta.com/docs/concepts/oauth-openid/) page.
 
 Okta Identity Cloud Service can be integrated with Rocket.Chat via its OpenID Connect support.
 

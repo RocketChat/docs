@@ -32,7 +32,7 @@ To enable **Twitter OAuth** on your workspace,&#x20;
 
 ## Tokenpass OAuth
 
-Tokenpass provides token management and authentication services, specifically for blockchain and cryptocurrencies. To use it as an OAuth provider, create an application on the [Tokenpass developers portal](https://tokenpass.tokenly.com/auth/apps) for OAuth integration.
+Tokenpass provides token management and authentication services, specifically for blockchain and cryptocurrencies. To use it as an OAuth provider, create an application on the Tokenpass developers portal for OAuth integration.
 
 To enable **Tokenpass OAuth** in your workspace,
 

@@ -24,7 +24,7 @@ sudo snap set rocketchat-server port=8080
 
 Ensure you restart the `rocketchat-service` service afterward for the change to take effect. **You only need to restart the Rocket.Chat application itself, not the database or Caddy**.
 
-For enabling TLS/SSL, check out our guide for enabling caddy [here](broken-reference).
+For enabling TLS/SSL, check out our guide for enabling caddy [here](../../../setup-and-configure/environment-configuration/configuring-ssl-reverse-proxy.md).
 
 </details>
 
@@ -72,11 +72,7 @@ snap info rocketchat-server
 
 Look for the `services` section.
 
-
-
 </details>
-
-
 
 | Service     | Snap Service Name | Systemd Service Name                     |
 | ----------- | ----------------- | ---------------------------------------- |
@@ -155,7 +151,7 @@ The following example asks the system only to update snaps between 4.00am and 7.
 sudo snap set system refresh.timer=4:00-7:00,19:00-22:10
 ```
 
-You can find more about your options in the [snapcraft documentation](https://snapcraft.io/docs/keeping-snaps-up-to-date#heading--controlling-updates).
+You can find more about your options in the [snapcraft documentation](https://snapcraft.io/docs/managing-updates).
 
 </details>
 
@@ -217,7 +213,7 @@ The snap's policy is to restart on failure.
 
 <summary>How do I restore backup data to my Snap?</summary>
 
-See [Broken link](broken-reference "mention").
+See [broken-reference](broken-reference/ "mention").
 
 </details>
 
@@ -225,7 +221,7 @@ See [Broken link](broken-reference "mention").
 
 <summary>How do I back up my Snap data?</summary>
 
-See [Broken link](broken-reference "mention")
+See [broken-reference](broken-reference/ "mention")
 
 </details>
 
@@ -310,8 +306,6 @@ sudo ./strace
 <details>
 
 <summary>How do I change Rocket.Chat PORT, MONGO_URL, and MONGO_OPLOG_URL in my snap?</summary>
-
-
 
 Starting from release 0.73, it is possible to configure these environmental variables through snap hooks like this:
 

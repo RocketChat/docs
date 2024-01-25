@@ -32,7 +32,7 @@ Even though you are signing in to an existing workspace, these Terms of Use appl
 
 “Workspace Administrator” means an individual responsible for managing a dedicated workspace(s): including user accounts, configuring settings, ensuring security, and providing technical support within the workspace, as detailed in public documentation.
 
-Other capitalized terms in the Terms of Use shall have the same meaning as defined in the [Terms of Service.](https://docs.rocket.chat/rocket.chat-legal/terms-of-service)
+Other capitalized terms in the Terms of Use shall have the same meaning as defined in the [Terms of Service.](../customer-terms-of-service.md)
 
 1. TERMS THAT MAY APPLY TO YOU
 

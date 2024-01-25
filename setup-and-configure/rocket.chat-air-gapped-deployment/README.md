@@ -29,7 +29,7 @@ For more details, see [copying an image from Docker Hub to your registry](https:
 
 ## Installing Rocket.Chat in an Air-gapped environment through Docker & Docker Compose
 
-With your local registry completely [deployed](https://docs.docker.com/registry/deploying/) and [configured](https://docs.docker.com/registry/configuration/),&#x20;
+With your local registry completely [deployed](https://distribution.github.io/distribution/about/deploying/) and [configured](https://distribution.github.io/distribution/about/configuration/),&#x20;
 
 * Follow our guide on installing Rocket.Chat with [Docker & Docker Compose](../../deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md#fetching-compose-file) using the example `compose.yml` file.
 

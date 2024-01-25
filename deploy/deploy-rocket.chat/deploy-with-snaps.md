@@ -386,5 +386,5 @@ sudo snap refresh rocketchat-server --channel=x.x/stable
 The channel format is "**x.x/stable**," where the first "x" represents the major version, and the second "x" remains unchanged. For example, for major version 6, the channel is "**6.x/stable**," and for major version 5, it's "**5.x/stable**." In each "**6.x/stable**" channel, you will receive all minor and patch release updates specifically for that major version (in this case, major version 6).&#x20;
 
 {% hint style="info" %}
-If you have any concerns or issues with your deployment, see [Snaps FAQ](https://docs.rocket.chat/deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/snap-faq).
+If you have any concerns or issues with your deployment, see [Snaps FAQ](../../resources/frequently-asked-questions/deployment-faq/snaps-faq.md).
 {% endhint %}
