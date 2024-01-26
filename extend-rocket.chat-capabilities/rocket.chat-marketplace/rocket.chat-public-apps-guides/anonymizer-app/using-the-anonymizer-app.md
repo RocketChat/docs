@@ -6,5 +6,3 @@ After [installing and configuring the Anonymizer app](./) in your workspace, inf
 * The custom bot must be a room member where the anonymous messages are forwarded; otherwise, the messages won't be forwarded.
 * If your custom bot isn't forwarding the anonymous messages, try disabling and enabling the Anonymizer app after updating the settings.
 {% endhint %}
-
-In conclusion, the Anonymizer app is a versatile and valuable tool that revolutionizes how you handle confidential discussions, feedback, and suggestions in your organization.

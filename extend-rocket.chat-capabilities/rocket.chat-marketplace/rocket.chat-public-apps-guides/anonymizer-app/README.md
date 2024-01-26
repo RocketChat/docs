@@ -1,6 +1,6 @@
 # Anonymizer App
 
-The Anonymizer App is a valuable tool that allows users to discreetly forward messages to [rooms](../../../../use-rocket.chat/user-guides/rooms/) in your workspace without revealing their identities. It is designed to provide a secure and anonymous way for users to express themselves, share feedback, make suggestions, and engage in discussions without the fear of reprisal.  It is essential for maintaining confidentiality in various settings, where preserving the anonymity of the message sender is crucial in your organization.
+The Anonymizer App ensures confidentiality in your organization by enabling users to forward messages to [rooms](../../../../use-rocket.chat/user-guides/rooms/) in your workspace anonymously. This tool maintains sender anonymity, fostering a secure environment for open expression, feedback, suggestions, and discussions without fear of reprisal.&#x20;
 
 ## Install the Anonymizer App
 
@@ -26,4 +26,4 @@ To configure the **Anonymizer App** after installing it,
 If you [create a custom bot,](../../../../use-rocket.chat/workspace-administration/users/#add-new-users) ensure that it's a member of the room where the anonymous messages are posted.
 {% endhint %}
 
-Now that you've successfully set up the Anonymizer app, the next section will guide you on how to use the app in your workspace.
+Now that you've successfully set up the Anonymizer app, the next section guides you on how to use the app in your workspace.
