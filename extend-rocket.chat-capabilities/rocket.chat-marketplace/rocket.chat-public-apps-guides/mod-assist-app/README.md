@@ -54,4 +54,4 @@ To configure the **Mod Assist App** after installing it,
 The API key used when [configuring the app](./#configuring-mod-assist-app) is applied to the entire workspace. Users in your workspace don't need to get their own API keys.&#x20;
 {% endhint %}
 
-Now that you've successfully installed and configured your Mod Assist app, proceed to explore [using-mod-assist-app.md](using-mod-assist-app.md "mention").
+Now that you've successfully installed and configured your Mod Assist app, proceed to explore [using-the-mod-assist-app.md](using-the-mod-assist-app.md "mention").

@@ -4,14 +4,14 @@ description: Install and use the Zoom App.
 
 # Zoom
 
-<figure><img src="../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 Zoom integration with Rocket.Chat allows users to create and join virtual meetings with audio and video capabilities, facilitating "face-to-face" collaboration when in-person meetings are impossible. This integration enhances user engagement and streamlines communication, enabling more efficient and rapid collaboration within Rocket.Chat.
 
 The Zoom app integration in Rocket.Chat enables users to manage meetings—including initiation, scheduling, joining, recording, and sharing—directly within a channel. It also allows for participant and duration tracking, automated or custom reminders for upcoming meetings, and seamless recognition of Zoom URLs pasted into channels, eliminating the need to switch between applications.
 
 {% hint style="info" %}
-The new Zoom app version 2.3.0 now supports multi-meeting capabilities and can be set as the [default video-conferencing provider](../../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/). Ensure you are using Rocket.Chat v6.3.0 or higher to utilize these features.
+The new Zoom app version 2.3.0 now supports multi-meeting capabilities and can be set as the [default video-conferencing provider](../../../../use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/). Ensure you are using Rocket.Chat v6.3.0 or higher to utilize these features.
 {% endhint %}
 
 Integrate Zoom with Rocket.Chat to:
@@ -73,4 +73,4 @@ To configure the Zoom App,
 * Paste the **Account ID**, **Client ID,** and **Client Secret** of the server-to-server OAuth app you created at Zoom marketplace.&#x20;
 * Click **Save Changes**.&#x20;
 
-Now that you've installed and configured the Zoom app, the next section will guide you through [using-the-zoom-app.md](zoom/using-the-zoom-app.md "mention").
+Now that you've installed and configured the Zoom app, the next section will guide you through [using-the-zoom-app.md](using-the-zoom-app.md "mention").

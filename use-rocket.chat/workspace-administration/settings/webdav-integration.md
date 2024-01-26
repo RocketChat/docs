@@ -12,4 +12,4 @@ To access this setting, navigate to **Administration** > **Workspace** > **Setti
 * Navigate to the :heavy\_plus\_sign:  button on the right side of your message composer inside any chat or room
 * Click :heavy\_plus\_sign: **Add Server**
 
-To integrate a WebDAV server, follow this guide on [nextcloud-and-webdav.md](../integrations/nextcloud-and-webdav.md "mention")
+To integrate a WebDAV server, follow this guide on [nextcloud-and-webdav-integrations.md](../integrations/nextcloud-and-webdav-integrations.md "mention")

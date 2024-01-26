@@ -5,7 +5,7 @@ You may have a use case where you want to upload a file to the ongoing Bot conve
 #### Pre-requisites
 
 * Have a Dialogflow intent with Fulfillment webhook enabled
-* A [bot user ](../#bot-user-configuration)with a Live Chat agent role.
+* A [bot user ](./#bot-user-configuration)with a Live Chat agent role.
 
 To upload a file to an ongoing Bot conversation,
 

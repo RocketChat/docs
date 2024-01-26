@@ -77,7 +77,7 @@ To create a new workspace,
 * Click the title of your current workspace
 * Click **Create a new workspace**.
 * You are redirected to \*\*\*\* [**Rocket.Chat Cloud**](../rocket.chat-cloud).
-* Follow [create-new-cloud-account.md](../rocket.chat-cloud/create-new-cloud-account.md "mention") to create a new workspace.
+* Follow [create-your-new-cloud-account.md](../rocket.chat-cloud/create-your-new-cloud-account.md "mention") to create a new workspace.
 
 ## Adding a Workspace
 

@@ -103,7 +103,7 @@ sudo systemctl start rocketchat
 ```
 
 {% hint style="info" %}
-If you have any concerns or issues with updating Rocket.Chat, see [updating-faq.md](../../resources/frequently-asked-questions/deployment-faq/updating-faq.md "mention")
+If you have any concerns or issues with updating Rocket.Chat, see [updating-rocket.chat-faq.md](../../resources/frequently-asked-questions/deployment-faq/updating-rocket.chat-faq.md "mention")
 {% endhint %}
 
 ### Updating MongoDB

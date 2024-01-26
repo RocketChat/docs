@@ -479,6 +479,8 @@
     * [Master Service Agreement for Professional Services](applicable-terms/additional-terms/service-specific-terms/master-service-agreement-for-professional-services.md)
     * [Cloud Services Terms](applicable-terms/additional-terms/service-specific-terms/cloud-services-terms/README.md)
       * [Marketplace and Apps](applicable-terms/additional-terms/service-specific-terms/cloud-services-terms/marketplace-and-apps.md)
+  * [Data-Specific Agreements](applicable-terms/additional-terms/data-specific-agreements/README.md)
+    * [Data Processing Agreement (GDPR)](applicable-terms/additional-terms/data-specific-agreements/data-processing-agreement.md)
 
 ## CUSTOMER CENTER
 
@@ -504,8 +506,7 @@
     * [Privacy Notice for Air-Gapped Workspaces](customer-center/legal-center/privacy-policy/privacy-notice-for-air-gapped-workspaces.md)
     * [Privacy Notice for the Open Server](customer-center/legal-center/privacy-policy/privacy-notice-for-the-open-server.md)
     * [Privacy Notice for the Cloud Hosting Services](customer-center/legal-center/privacy-policy/privacy-notice-for-the-cloud-hosting-services.md)
-  * [GDPR](customer-center/legal-center/gdpr/README.md)
-    * [Data Processing Agreement](customer-center/legal-center/gdpr/data-processing-agreement.md)
+  * [GDPR](customer-center/legal-center/gdpr.md)
   * [LGDP](customer-center/legal-center/lgdp/README.md)
     * [Nomeação do Encarregado pelo Tratamento de Dados Pessoais](customer-center/legal-center/lgdp/nomeacao-do-encarregado-pelo-tratamento-de-dados-pessoais.md)
   * [DMCA Policy](customer-center/legal-center/dmca-policy.md)

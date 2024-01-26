@@ -74,4 +74,4 @@ We now support the GPT-4 model, giving you flexibility to choose between two AI 
 The API key used when [configuring the app](./#configuring-the-chatgpt-app) is applied to the entire workspace. Users in your workspace don't need to get their own API keys.&#x20;
 {% endhint %}
 
-Now that you've successfully installed and configured your **ChatGPT**  **app**, proceed to explore [using-chatgpt-app.md](using-chatgpt-app.md "mention").
+Now that you've successfully installed and configured your **ChatGPT**  **app**, proceed to explore [using-the-chatgpt-app.md](using-the-chatgpt-app.md "mention").

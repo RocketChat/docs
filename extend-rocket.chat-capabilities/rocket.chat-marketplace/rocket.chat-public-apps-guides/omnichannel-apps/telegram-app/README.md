@@ -9,7 +9,7 @@ description: Omnichannel Integration between Rocket.Chat and Telegram.
 With the Telegram app on Rocket.Chat, your customers can send and receive Omnichannel messages from your workspace through a Telegram bot.
 
 {% hint style="warning" %}
-To use your Telegram bot in a [room](../../../../../use-rocket.chat/workspace-administration/rooms.md), see [telegram.md](../../../../../use-rocket.chat/workspace-administration/integrations/telegram.md "mention").
+To use your Telegram bot in a [room](../../../../../use-rocket.chat/workspace-administration/rooms.md), see [simple-telegram-bot.md](../../../../../use-rocket.chat/workspace-administration/integrations/simple-telegram-bot.md "mention").
 {% endhint %}
 
 ## Install Telegram App

@@ -1,6 +1,6 @@
 # Trello
 
-<figure><img src="../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
 Trello App allows you to receive notifications about your Trello activities, including creating cards and comments, completing checklist items and uploading attachments, etc.
 

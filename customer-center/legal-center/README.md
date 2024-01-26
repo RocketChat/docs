@@ -3,7 +3,7 @@
 The Rocket.Chat Legal Center is a comprehensive resource for all legal and compliance documentation.
 
 * [**Privacy Policy**](privacy-policy/): Details Rocket.Chat's approach to user privacy.
-* [**GDPR Compliance**](gdpr/): Information on Rocket.Chat's adherence to the General Data Protection Regulation (GDPR).
+* [**GDPR Compliance**](gdpr.md): Information on Rocket.Chat's adherence to the General Data Protection Regulation (GDPR).
 * [**LGDP Compliance**](lgdp/): Covers Rocket.Chat's compliance with the Lei Geral de Proteção de Dados (LGDP), Brazil's data protection law.
 * [**DMCA Policy:**](dmca-policy.md) Learn about our DMCA Policy, outlining our approach to copyright infringement and the procedures for reporting and addressing such issues.
 * [**Accessibility statement**](accessibility-statement.md)**:** Explore Rocket.Chat's commitment to digital accessibility and compliance with BITV 2.0 and WCAG 2.1 guidelines.
