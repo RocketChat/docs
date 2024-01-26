@@ -419,6 +419,8 @@
       * [Using the ChatGPT App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/chatgpt-app/using-the-chatgpt-app.md)
     * [Mod Assist App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/mod-assist-app/README.md)
       * [Using the Mod Assist App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/mod-assist-app/using-the-mod-assist-app.md)
+    * [Anonymizer App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/anonymizer-app/README.md)
+      * [Using the Anonymizer App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/anonymizer-app/using-the-anonymizer-app.md)
     * [ClamAV App](extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/clamav-app.md)
   * [App Storage Location](extend-rocket.chat-capabilities/rocket.chat-marketplace/app-storage-location.md)
 * [Integrations](https://docs.rocket.chat/use-rocket.chat/rocket.chat-workspace-administration/integrations)
