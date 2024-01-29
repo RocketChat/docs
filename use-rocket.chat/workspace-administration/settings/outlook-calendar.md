@@ -9,6 +9,22 @@ The **Outlook Calendar** integration allows users to sync their daily calendar e
 * The Outlook Integration is only supported on the Rocket.Chat desktop application.
 {% endhint %}
 
+## Administrator settings
+
+For users to access the Outlook calendar settings, the workspace administrator must follow these steps:
+
+1. Go to **Administration** > **Workspace** > **Permissions**. Select the **Settings** tab.
+2. Search for Outlook.
+3. Enable the settings for the roles that you want, for example, the `user` role.
+
+The following screenshot shows the **Settings** tab on the **Permissions** page:
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-29 191537.png" alt=""><figcaption></figcaption></figure>
+
+Now end users with the role `user` can access and configure the Outlook calendar settings as described in the following sections.
+
+## Configure Outlook calendar
+
 To access the **Outlook calendar** on your workspace,
 
 1. Navigate to **Administration > Workspace > Settings > Outlook Calendar**.
@@ -36,13 +52,13 @@ To access the **Outlook calendar** on your workspace,
    2. Fill in your Outlook login details in the new window and sign in. Check the **Remember my credentials** option so that you can synchronize multiple times in the future without entering your credentials again.
    3. Now, all your events for the current date are fetched and synced to your workspace. Click an event to see more details about it. If the event has a conference call, click the **Join** button beside it to join the call.
 
-## Calendar Settings
+## Calendar settings
 
 Click **Calendar Settings** to perform the following actions:
 
 1. **Event Notifications**: You can enable or disable event notifications based on your preferences.
 2. **Outlook Authentication**: You can remove your credentials from your workspace by clicking **Disable**.
 
-## Refresh Outlook Sync
+## Refresh Outlook sync
 
 To refresh the sync, click the **Sync** button at the bottom of the sidebar.
