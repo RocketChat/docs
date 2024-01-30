@@ -26,6 +26,12 @@ Learn about Rocket.Chat [Room Roles.](room-roles.md)&#x20;
 
 When someone mentions you with `@username`, `@all` or `@here`, a symbol or a number will appear alongside the channel name. If someone mentions `@all` or `@here` a number will show up showing the number of times the mention is specific to you.
 
+For workspaces on version 6.6 and above, mentioning a user in rooms they aren't a member of prompts the following options:&#x20;
+
+* **Add them**: This option allows you to add the user to the room so they can see your message. It is only displayed if you have permission to add members to that room.
+* **Let them know**: You can notify them via DM that you mentioned them, but they're not in the room.
+* **Do nothing**: You can also choose to do nothing about it. The bot informs you that the user you mentioned is not in the room.&#x20;
+
 ## Auto-Translate
 
 Auto-Translate is a powerful feature in Rocket.Chat that enhances communication and collaboration by automatically translating room messages in real time. It is valuable for global teams, multilingual communities, or organizations that need to bridge language barriers effortlessly.&#x20;
