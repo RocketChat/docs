@@ -47,6 +47,6 @@ ISO 27001 certificate 2020
 * **Prospects**: If you are an active customer a Non-Disclosure Agreement (NDA) is required in the CRM for the SOC 2 Type I report.
 * **Active customers**: If you are active customer with signed customer terms, kindly contact Aline Nunes and Mayara Santos, and furnish them with the email address to which the report should be dispatched.
 * **If you are a Rocketeer providing the report**: Check if the prospect or customer has an NDA in place.&#x20;
-* **Contact Information**: For more details or to request reports, users can contact [mayara.santos@rocket.chat](mailto:mayara.santos@rocket.chat).
+* **Contact Information**: For more details or to request reports, users can contact compliance@rocket.chat .
 
 Rocket.Chat's commitment to compliance and security is an integral part of our service offering. By adhering to these rigorous standards, we ensure our platform remains secure, reliable, and trustworthy for all stakeholders. For any further inquiries or specific compliance-related questions, please reach out to our compliance specialists.
