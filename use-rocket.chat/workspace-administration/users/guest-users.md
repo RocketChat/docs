@@ -11,10 +11,8 @@ The **Guest Users** feature in Rocket.Chat enables organizations to extend colla
 3. Reply to [Direct Messages](../../user-guides/rooms/direct-messages/).
 
 {% hint style="info" %}
-Guest users do not count towards the seat cap, but they count towards the guest cap.
-{% endhint %}
 
-**Add a Guest User**
+{% endhint %}
 
 To add a guest user,&#x20;
 
