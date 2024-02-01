@@ -11,6 +11,10 @@ Depending on the version of [Rocket.Chat](https://rocket.chat/) you want to inst
 
     Follow the [official guide](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) to install NodeJS on Ubuntu. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
 
+{% hint style="warning" %}
+When deploying MongoDB, it is crucial to secure MongoDB instances and close all MongoDB ports from public access. Unsecured instances can lead to significant security vulnerabilities. Your vigilance in these practices is essential for maintaining the integrity and safety of your systems.
+{% endhint %}
+
 ### Install Rocket.Chat on Ubuntu
 
 * Install the required packages/dependencies.

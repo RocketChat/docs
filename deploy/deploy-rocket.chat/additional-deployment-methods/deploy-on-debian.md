@@ -2,7 +2,7 @@
 
 ## Preparation Steps
 
-Depending on the version of Rocket.Chat you want to install, check the release notes to see the supported engine versions for MongoDB and NodeJs, and install as recommended.&#x20;
+Depending on the version of Rocket.Chat you want to install, check the release notes to see the supported engine versions for MongoDB and NodeJs, and install as recommended.
 
 *   **Install MongoDB**
 
@@ -10,6 +10,10 @@ Depending on the version of Rocket.Chat you want to install, check the release n
 *   **Install NodeJS**
 
     Follow the official guide to install NodeJS on a Debian system. Check out our page on supported node versions for your specific version. You can also use third-party tools like [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [n](https://www.npmjs.com/package/n).
+
+{% hint style="warning" %}
+When deploying MongoDB, it is crucial to secure MongoDB instances and close all MongoDB ports from public access. Unsecured instances can lead to significant security vulnerabilities. Your vigilance in these practices is essential for maintaining the integrity and safety of your systems.
+{% endhint %}
 
 ### Install Rocket.Chat on Debian
 
@@ -38,7 +42,7 @@ You can also use `wget`to download Rocket.Chat with this command:
 wget https://releases.rocket.chat/latest/download -O /tmp/rocket.chat.tgz
 ```
 
-To download a specific version, replace  `latest` the version number.
+To download a specific version, replace `latest` the version number.
 
 ```
 wget https://releases.rocket.chat/4.1.2/download -O /tmp/rocket.chat.tgz
@@ -110,7 +114,7 @@ The command above will create a barebone service file, this service file is what
 
 **Passing environment variables**
 
-* Pass some environment variables to the running process. See  Rocket.Chat environmental variables for more details. To update the Rocket.Chat file, run the following command :
+* Pass some environment variables to the running process. See Rocket.Chat environmental variables for more details. To update the Rocket.Chat file, run the following command :
 
 ```
 sudo systemctl edit rocketchat
@@ -128,7 +132,7 @@ Environment=MONGO_OPLOG_URL=mongodb://localhost:27017/local?replicaSet=rs01
 
 **MongoDB Configuration**
 
-* Open the MongoDB config file (`/etc/mongod.conf`) in your preferred text editor.&#x20;
+* Open the MongoDB config file (`/etc/mongod.conf`) in your preferred text editor.
 
 ```
 nano /etc/mongod.conf
@@ -188,7 +192,7 @@ Read the official documentation for a complete list of available MongoDB config 
 sudo systemctl enable --now mongod
 ```
 
-* Then, initiate  replica set with this command:
+* Then, initiate replica set with this command:
 
 ```bash
 mongo --eval "printjson(rs.initiate())"

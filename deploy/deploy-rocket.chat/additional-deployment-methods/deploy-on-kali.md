@@ -18,6 +18,10 @@ sudo apt-get install -y dirmngr gnupg && sudo apt-key adv --keyserver hkp://keys
 echo "deb http://repo.mongodb.org/apt/debian stretch/mongodb-org/4.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
 ```
 
+{% hint style="warning" %}
+When deploying MongoDB, it is crucial to secure MongoDB instances and close all MongoDB ports from public access. Unsecured instances can lead to significant security vulnerabilities. Your vigilance in these practices is essential for maintaining the integrity and safety of your systems.
+{% endhint %}
+
 * Configure Node.js to be installed via the package manager.
 
 {% hint style="warning" %}
@@ -101,7 +105,7 @@ WantedBy=multi-user.target
 EOF
 ```
 
-* Open the service file  (`/lib/systemd/system/rocketchat.service`) using sudo and update the `ROOT_URL` environmental variable to reflect the URL you are using to access the server. Optionally, you can change `MONGO_URL`, `MONGO_OPLOG_URL` and `PORT`.
+* Open the service file (`/lib/systemd/system/rocketchat.service`) using sudo and update the `ROOT_URL` environmental variable to reflect the URL you are using to access the server. Optionally, you can change `MONGO_URL`, `MONGO_OPLOG_URL` and `PORT`.
 
 ```bash
 MONGO_URL=mongodb://localhost:27017/rocketchat?replicaSet=rs01
@@ -110,7 +114,7 @@ ROOT_URL=http://your-host-name.com-as-accessed-from-internet:3000
 PORT=3000
 ```
 
-* Set up storage engine and replication for MongoDB.&#x20;
+* Set up storage engine and replication for MongoDB.
 
 ```bash
 sudo sed -i "s/^#  engine:/  engine: wiredTiger/"  /etc/mongod.conf
@@ -126,7 +130,7 @@ sudo sed -i "s/^#replication:/replication:\n  replSetName: rs01/" /etc/mongod.co
 sudo systemctl enable mongod && sudo systemctl start mongod
 ```
 
-* Then, initiate  replica set with this command:
+* Then, initiate replica set with this command:
 
 ```bash
 mongo --eval "printjson(rs.initiate())"
@@ -144,5 +148,5 @@ To access your Rocket.Chat workspace, open a web browser and navigate to the spe
 
 **Optional configurations**
 
-* [Configure firewall rule](../../../setup-and-configure/environment-configuration/firewall-configuration.md)&#x20;
-* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../setup-and-configure/environment-configuration/configuring-ssl-reverse-proxy.md)&#x20;
+* [Configure firewall rule](../../../setup-and-configure/environment-configuration/firewall-configuration.md)
+* [Configure a HTTP reverse proxy to access Rocket.Chat server](../../../setup-and-configure/environment-configuration/configuring-ssl-reverse-proxy.md)

@@ -9,3 +9,7 @@ In this section, you can learn the following about configuring MongoDB with your
 * [Migrate the data](migrate-from-built-in-meteor-mongodb-to-external-server.md) from the built-in Meteor MongoDB server to an external MongoDB server.
 * [Migrate from mmap storage to the WiredTiger storage engine](migrate-from-mmap-to-wiredtiger-storage-engine.md).
 * Make sure that you are using the [supported database versions](supported-mongodb-versions.md).
+
+{% hint style="warning" %}
+When deploying MongoDB, it is crucial to secure MongoDB instances and close all MongoDB ports from public access. Unsecured instances can lead to significant security vulnerabilities. Your vigilance in these practices is essential for maintaining the integrity and safety of your systems.
+{% endhint %}
