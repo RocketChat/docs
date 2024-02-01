@@ -37,9 +37,9 @@ async function generateTable({ owner, repo } = {}) {
 		release.releaseDate = new Date(release.published_at);
 
 		// If release happened before 20th we consider it from the past month
-		if (release.releaseDate.getDate() < 20) {
-			release.releaseDate.setMonth(release.releaseDate.getMonth() - 1);
-		}
+		// if (release.releaseDate.getDate() < 20) {
+		// 	release.releaseDate.setMonth(release.releaseDate.getMonth() - 1);
+		// }
 
 		releasesMap[release.tag_name] = release;
 	}
