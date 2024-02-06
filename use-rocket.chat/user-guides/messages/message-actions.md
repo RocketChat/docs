@@ -58,6 +58,14 @@ Reply to a message to quote and respond to the message. The reply automatically 
 
 Use **Reply in Thread** to start a new [thread ](../rooms/threads/)under the original message. Use **Reply in Direct Message** to quote and respond to the original message in the senders [DM](../rooms/direct-messages/).
 
+### Report a message or user
+
+To report offensive messages, click **Report** from the message actions menu.
+
+To report a user, click the user icon and see the full profile of the user. A **User Info** pane opens on the right-hand side. Click the kebab icon and click **Report**.&#x20;
+
+Workspace admins, moderators, and users with permissions can access the [**Moderation**](../../workspace-administration/moderation.md) tab to view the details of the reported messages and users.
+
 ### Message Info
 
 <figure><img src="../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
