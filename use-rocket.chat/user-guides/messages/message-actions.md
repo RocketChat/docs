@@ -56,7 +56,7 @@ To copy the contents of a message to your clipboard, click on the **Copy Text** 
 
 Reply to a message to quote and respond to the message. The reply automatically triggers a notification sent to the message's original author. You can **Reply in Thread** or **Reply in Direct Message.**
 
-Use **Reply in Thread** to start a new [thread ](../rooms/threads/)under the original message. Use **Reply in Direct Message** to quote and respond to the original message in the senders [DM](../rooms/direct-messages/).
+Use **Reply in Thread** to start a new [thread ](../rooms/threads/)under the original message. Use **Reply in Direct Message** to quote and respond to the original message in the sender's [DM](../rooms/direct-messages/).
 
 ### Report a message or user
 
