@@ -491,6 +491,7 @@
   * [Rocket.Chat Cloud Hosting Service Level Agreement (SLA)](customer-center/cloud-services-center/rocket.chat-cloud-hosting-service-level-agreement-sla.md)
 * [Security Center](customer-center/security-center/README.md)
   * [Security Policy](customer-center/security-center/security-policy.md)
+  * [Security Compliance Program](customer-center/security-center/security-compliance-program.md)
   * [Compliance Resources](customer-center/security-center/compliance-resources.md)
   * [Security fixes and updates](customer-center/security-center/security-fixes-and-updates/README.md)
     * [cve-2022-32211](customer-center/security-center/security-fixes-and-updates/cve-2022-32211.md)
