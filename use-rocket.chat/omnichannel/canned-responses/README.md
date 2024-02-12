@@ -23,13 +23,18 @@ To enable canned responses on your workspace,
 
 ## Canned Responses Permissions
 
-Go to **Administration** > **Workspace** > **Permissions** and search for `canned-response`, you can now define which user roles should be able to view, create, and delete canned responses in your workspace.
+Go to **Administration** > **Workspace** > **Permissions** and search for `canned-response.` You can now define which user roles should be able to view, create, and delete canned responses in your workspace.
 
-Each canned response has a scope and there are three scope levels for creating canned responses:
+Each canned response has a scope, and there are three scope permissions for creating canned responses:
 
-* **User-level**: These canned responses are created by [agents](../agents.md) for their use. It won't be visible to any other user. This requires the  `save-canned-responses` [permission](../../workspace-administration/permissions/).
-* **Department level**: These canned responses are created by department [managers](../managers.md) and are accessible to the [agents](../agents.md) who belong to that department. It requires the  `save-department-canned-responses` [permission](../../workspace-administration/permissions/).
-* **Global level**: These canned responses are created by managers to be used globally in your workspace. Anyone can access them and it requires the  `save-all-canned-responses` [permission](../../workspace-administration/permissions/).
+* `save-canned-responses`: Users with this permission alone can solely create private canned responses. It is assigned to [agents](../agents.md) by default, who can [create or access](canned-responses-omnichannel-managers-guide.md#create-canned-response-from-within-a-chatroom) one from any Omnichannel room.
+
+{% hint style="warning" %}
+`save-canned-responses`is the basic permission required for every user to create any type of canned response.&#x20;
+{% endhint %}
+
+* `save-department-canned-responses`: Users with this permission can create canned responses for [departments](../departments.md).&#x20;
+* `save-all-canned-responses`:  Users with this permission can create public, private, and departmental canned responses. It's assigned to [managers](../managers.md) and workspace administrators by default.
 
 {% hint style="info" %}
 To create a new canned response for your workspace, visit [Canned Responses Omnichannel Managers Guide](canned-responses-omnichannel-managers-guide.md).

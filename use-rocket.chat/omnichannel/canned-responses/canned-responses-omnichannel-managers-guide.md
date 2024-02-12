@@ -12,10 +12,14 @@ To create a Canned Response,&#x20;
   * **Shortcut**: The shortcut of your new canned response.
   * **Message**: Enter your message snippet. You can use any available placeholders to personalize your message. You can also preview the message anytime by switching between the `Editor` and `Preview` tab. The available placeholders include: `{{contact.name}}`, `{{contact.email}}`, `{{contact.phone}}`, `{{agent.name}}`, `{{agent.email}}`.&#x20;
   * **Tags**: Set the tags for your canned response. This helps agents find canned responses specific to a particular topic
-  * **Sharing**: Lets you set the usage level of your Canned Response
-    * **Public**: Anyone across your workspace can access your canned response. It requires the  `save-all-canned-responses` [permission](../../workspace-administration/permissions/).
-    * **Department**: Anyone in the selected department can access your canned response. It requires the  `save-department-canned-responses` [permission](../../workspace-administration/permissions/).
+  * **Sharing**: Set the usage scope of your Canned Response.
+    * **Public**: Anyone across your workspace can access your canned response.
+    * **Department**: Anyone in the selected department can access your canned response.&#x20;
     * **Private**: Only you and Omnichannel managers can access your canned response.&#x20;
+
+{% hint style="warning" %}
+Visit the [Canned Response Permission](./#canned-responses-permissions) guide to learn about the permissions required to create canned responses.
+{% endhint %}
 
 <details>
 
