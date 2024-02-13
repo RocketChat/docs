@@ -10,3 +10,8 @@ You must enable the [Omnichannel ](../../../../../use-rocket.chat/omnichannel/)f
 * Send a message to the test number provided or your WhatsApp business number (if you added any).
 * The message is seen in your Rocket.Chat server, available for any [Omnichannel Agent](../../../../../use-rocket.chat/omnichannel/agents.md) to **Take** the conversation.
 * You can respond to the customer from your workspace, and they receive the response on Whatsapp.
+
+{% hint style="info" %}
+You can use the Rocket.Chat API to send template messages to contacts from your workspace. Kindly refer to the [WhatsApp Template Messages developer's guide](https://developer.rocket.chat/omnichannel/whatsapp-business-template-messages) for more details.
+{% endhint %}
+
