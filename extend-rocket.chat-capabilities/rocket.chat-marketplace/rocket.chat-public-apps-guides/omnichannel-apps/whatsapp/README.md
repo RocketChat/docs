@@ -2,7 +2,7 @@
 description: Omnichannel Integration between Rocket.Chat and WhatsApp Business.
 ---
 
-# WhatsApp
+# WhatsApp 360Dialog
 
 This is a WhatsApp integration powered by [360Dialog](https://docs.360dialog.com/docs/account-management/the-360-client-hub). It is a paid subscription and costs you $39 per month. Alternatively, you can use the [whatsapp-cloud-app](../whatsapp-cloud-app/ "mention"), which connects Rocket.Chat directly to WhatsApp without any third-party service.
 

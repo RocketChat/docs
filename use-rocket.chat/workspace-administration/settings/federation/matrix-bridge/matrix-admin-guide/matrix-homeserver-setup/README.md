@@ -92,10 +92,11 @@ bash <(curl -L -s https://go.rocket.chat/i/federation-setup)
 
 
 
-If you want to install a specific version Rocket.Chat, navigate to the  `.env` file, and modify the `RELEASE`  variable to point to the [docker image tag](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) of that version.
+If you want to install a specific version Rocket.Chat, navigate to the  `.env` file, and modify these variables to point to the [docker image tag](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) of that version.
 
 ```
-RELEASE=<desired version>
+RC_IMAGE=rocket.chat:<release-version>  
+ROCKETCHAT_IMAGE_TAG=<release-version>  
 ```
 
 </details>

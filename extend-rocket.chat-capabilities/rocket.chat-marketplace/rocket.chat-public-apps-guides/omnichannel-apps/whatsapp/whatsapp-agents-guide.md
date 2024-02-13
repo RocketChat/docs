@@ -1,4 +1,4 @@
-# WhatsApp Agent's Guide
+# WhatsApp 360Dialog Agent's Guide
 
 If you set up WhatsApp app integration and a user sends you a message on the WhatsApp connected number,
 

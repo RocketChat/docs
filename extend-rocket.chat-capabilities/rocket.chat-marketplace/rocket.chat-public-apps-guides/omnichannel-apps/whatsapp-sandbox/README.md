@@ -7,7 +7,7 @@ description: An extension for the existing production-ready WhatsApp App.
 The **WhatsApp Sandbox** app allows you to test [Rocket.Chat](http://rocket.chat/) integration with WhatsApp in a sandbox environment. You can send messages and templates in this test environment and receive a webhook.
 
 {% hint style="info" %}
-This app is not intended for production use. It is only for testing purposes. For production use, please use the [official WhatsApp integration](../whatsapp-360dialog/).
+This app is not intended for production use. It is only for testing purposes. For production use, please use the [official WhatsApp integration](../whatsapp/).
 {% endhint %}
 
 {% hint style="warning" %}

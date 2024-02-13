@@ -41,8 +41,8 @@ Omnichannel apps give consumers a choice to engage with you on their favorite ch
 [facebook-app](facebook-app/)
 {% endcontent-ref %}
 
-{% content-ref url="whatsapp-360dialog/" %}
-[whatsapp-360dialog](whatsapp-360dialog/)
+{% content-ref url="whatsapp/" %}
+[whatsapp](whatsapp/)
 {% endcontent-ref %}
 
 {% content-ref url="instagram-direct/" %}
