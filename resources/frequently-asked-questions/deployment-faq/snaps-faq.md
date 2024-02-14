@@ -213,7 +213,7 @@ The snap's policy is to restart on failure.
 
 <summary>How do I restore backup data to my Snap?</summary>
 
-See [broken-reference](broken-reference/ "mention").
+See [#snap-backup-and-restore](../../../deploy/deploy-rocket.chat/deploy-with-snaps.md#snap-backup-and-restore "mention").
 
 </details>
 

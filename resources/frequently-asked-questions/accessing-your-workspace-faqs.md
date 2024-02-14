@@ -6,7 +6,7 @@
 
 <summary>Q: How do I access my workspace in Rocket.Chat?</summary>
 
-A: Open your browser and go to the URL provided by your administrator, which will be in the format of "[https://your-workspace-address.rocket.chat](https://your-workspace-address.rocket.chat/)". Enter your username and password to log in.
+A: Open your browser and go to the URL provided by your administrator, which will be in the format of "https://your-workspace-address.rocket.chat". Enter your username and password to log in.
 
 </details>
 

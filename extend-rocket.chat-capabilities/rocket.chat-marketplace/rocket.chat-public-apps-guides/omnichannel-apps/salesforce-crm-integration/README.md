@@ -67,7 +67,7 @@ To configure the Salesforce CRM Integration App,
   * **Consumer Key:** The consumer key from your Salesforce instance.
   * **Private Key:** The private key from your Salesforce instance.
   * **Salesforce Username**: Your salesforce username, it's useful for identification.
-  * **Authentication URL**: Authentication URL for Salesforce Api. In the case of production, this should be [https://login.salesforce.com/services/oauth2/token](https://login.salesforce.com/services/oauth2/token) .&#x20;
+  * **Authentication URL**: Authentication URL for Salesforce Api. In the case of production, this should be _https://login.salesforce.com/services/oauth2/token_ .&#x20;
   * **Audience for JWT**: In case of production, this should be [https://login.salesforce.com](https://login.salesforce.com/)
   * **Display Contact information when assigning the agent to the chat**: If enabled, Salesforce contact information will be displayed to agents when assigned to chats.
   * **Auto-Save/Update Contacts when a Chat Ends**: If enabled, the app will auto-save/update the customers' info on Salesforce once an agent closes the chat.

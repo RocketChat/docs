@@ -17,7 +17,7 @@ To use 2FA, the Rocket.Chat workspace administrator must turn on the [Two Factor
 ## Enabling Two Factor Authentication
 
 {% hint style="info" %}
-Before beginning the setup, download any available Authenticator app of your choice. Some popular Authenticators include [Google Authenticator](https://googleauthenticator.net/),[ Authy, ](https://authy.com/)and[ Duo](https://duo.com/).
+Before beginning the setup, download any available Authenticator app of your choice. Some popular Authenticators include Google Authenticator,[ Authy, ](https://authy.com/)and[ Duo](https://duo.com/).
 {% endhint %}
 
 To enable 2FA on your account,

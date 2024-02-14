@@ -470,9 +470,9 @@ docker restart nginx
 ```
 
 * Navigate to **Administration** > **Workspace** > **Settings** > **Federation > Matrix Bridge** and update these configurations:
-  * **Homeserver URL**: [http://synapse:8008](http://synapse:8008)
+  * **Homeserver URL**: http://synapse:8008
   * **Homeserver Domain**: \<your domain>
-  * **Bridge URL**: [http://nginx:3300](http://rocketchat:3300)
+  * **Bridge URL**: http://nginx:3300
 
 <figure><img src="../../../../../../../.gitbook/assets/cluster-installation-config.png" alt=""><figcaption><p>Matrix Bridge configurations</p></figcaption></figure>
 

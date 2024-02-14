@@ -28,7 +28,7 @@ This Agreement governs Customer’s use of Rocket.Chat's services. It consists o
 * **Data-Specific Agreements:** Depending on the location of the Customer and the applicable privacy regulations, Customer may be required to agree to a data agreement with Rocket.Chat. If you are required to agree to a data agreement with us, it will be added by reference to these terms. You can find information related to privacy agreements within Clause 6 (of this agreement) and in the [Privacy Center](https://app.gitbook.com/o/-M41dOPtnjO7qK6KCyrt/s/NQRwqdF7Dy93Q5Mw0kzs/rocket.chat-privacy-and-security/privacy-center).
 * **Ordering Documents:** If applicable, any Order Forms, Subscriptions or Statements of Work (each, an “Ordering Document”) entered between Customer and Rocket.Chat shall be attached to and made a part of the Agreement
 
-The [Terms of Use](additional-terms/terms-of-use.md), [Acceptable Use Policy](additional-terms/acceptable-use-policy.md), [Service-Specific Terms](supplemental-terms/service-specific-terms/), and Data Specific Agreement are referred to collectively as the “Additional Terms.”
+The [Terms of Use](additional-terms/terms-of-use.md), [Acceptable Use Policy](additional-terms/acceptable-use-policy.md), [Service-Specific Terms](additional-terms/service-specific-terms/), and Data Specific Agreement are referred to collectively as the “Additional Terms.”
 
 ### 1.2 Updates
 
