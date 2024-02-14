@@ -494,6 +494,7 @@
   * [Security Compliance Program](customer-center/security-center/security-compliance-program.md)
   * [Compliance Resources](customer-center/security-center/compliance-resources.md)
   * [Security fixes and updates](customer-center/security-center/security-fixes-and-updates/README.md)
+    * [Rocket.Chat Security Advisories](customer-center/security-center/security-fixes-and-updates/rocket.chat-security-advisories.md)
     * [cve-2022-32211](customer-center/security-center/security-fixes-and-updates/cve-2022-32211.md)
   * [End-to-End Encryption Specifications](customer-center/security-center/end-to-end-encryption-specifications.md)
 * [Support Center](customer-center/support-center/README.md)
