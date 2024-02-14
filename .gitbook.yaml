@@ -459,3 +459,5 @@ redirects:
     extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/bitbucket-server-integration: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian-apps/bitbucket-server.md
     extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/confluence-server-integration: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian-apps/confluence-server.md
     extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/jira-server-integration: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian-apps/jira-server.md
+
+    deploy/deploy-rocket.chat/additional-deployment-methods/digitalocean: deploy/deploy-rocket.chat/additional-deployment-methods/deploy-with-digital-ocean.md
