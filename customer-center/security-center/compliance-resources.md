@@ -11,7 +11,7 @@ Rocket.Chat is committed to maintaining the highest standards of information sec
 * **Scope**: Hosted Offering, App Store, Software Development
 * **Details**: Rocket.Chat is certified under ISO 27001, an internationally recognized standard for information security management systems. Our adherence to this standard is validated annually by an independent third-party auditor.
 * **Certification Period**: Valid from June 2020 to June 2026
-* **Applicability**: This certification is crucial for due diligence, security reviews, regulatory compliance, internal audits, and supply chain audits. [Statement of Applicability](https://drive.google.com/file/d/1SVkm0JGGwa5MAZQHe1WwiUgswabdqMNW/view) document includes a comprehensive list of controls, specifying their relevance and applicability.
+* **Applicability**: This certification is crucial for due diligence, security reviews, regulatory compliance, internal audits, and supply chain audits. [Statement of Applicability](https://drive.google.com/file/d/1JvBVC0mnRm9QLVWs6u6jZS4DlSc3hjnM/view?usp=drive\_link) document includes a comprehensive list of controls, specifying their relevance and applicability.
 * **First certification date:** June 2020
 * **Certifying body**: QMS Certification Services
 
