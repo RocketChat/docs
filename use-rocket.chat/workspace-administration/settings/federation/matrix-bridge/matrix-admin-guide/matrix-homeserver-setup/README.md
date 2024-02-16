@@ -202,6 +202,10 @@ Before accessing your Rocket.Chat workspace,  set up the reverse proxy following
 * Obtain SSL certificates for your domain records, if you don't have any. You can use [Lets Encrypt](https://letsencrypt.org/).
 * Create an `nginx.conf` file containing forwarding rules for each domain. Create the  file in the same folder where you intend to start your docker instance and paste the following contents:
 
+{% hint style="warning" %}
+Update your domain, subdomain, and the paths to your SSL certificate and key.
+{% endhint %}
+
 ```
 worker_processes 1;
 events { worker_connections 1024; }
@@ -210,7 +214,7 @@ http {
 	listen 443 ssl;
 	server_name ps-rocketchat.com;
 	ssl_certificate /cert/certificate.crt;
-                  ssl_certificate_key /cert/private.key;
+        ssl_certificate_key /cert/private.key;
 	add_header X-Frame-Options DENY;
 	add_header X-Content-Type-Options nosniff;
 	add_header X-XSS-Protection "1; mode=block";
