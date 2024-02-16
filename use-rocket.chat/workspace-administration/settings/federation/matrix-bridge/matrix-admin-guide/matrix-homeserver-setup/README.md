@@ -85,21 +85,16 @@ bash <(curl -L -s https://go.rocket.chat/i/federation-setup)
     * `element.<your-domain>`
     * `traefik.<your-domain>`
   * Enter your email address. This is used to issue an SSL certificate for your domain.
-
-<details>
-
-<summary>Update your Rocket.Chat version</summary>
-
-
-
-If you want to install a specific version Rocket.Chat, navigate to the  `.env` file, and modify these variables to point to the [docker image tag](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) of that version.
+* Navigate to the  `.env` file, and modify these variables to install the latest[ version](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) of Rocket.Chat.
 
 ```
-RC_IMAGE=rocket.chat:<release-version>  
-ROCKETCHAT_IMAGE_TAG=<release-version>  
+RC_IMAGE=registry.rocket.chat/rocketchat/rocket.chat:latest
+ROCKETCHAT_IMAGE_TAG=latest
 ```
 
-</details>
+{% hint style="info" %}
+To install a specific version of Rocket.Chat, replace `latest`  with the [docker image tag](https://hub.docker.com/\_/rocket.chat/tags) of your preferred version.
+{% endhint %}
 
 * Start the container by running the following command:
 
