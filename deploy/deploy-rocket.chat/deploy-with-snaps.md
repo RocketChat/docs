@@ -212,52 +212,6 @@ sudo systemctl enable --now snap.rocketchat-server.rocketchat-caddy
 sudo snap restart rocketchat-server
 ```
 
-To set up Auto SSL with Snaps for _older snaps_,
-
-* To enable TLS and Let's Encrypt certificates:
-
-1. Input a URL starting with HTTPS
-2. Own the domain name you would like to use.
-3. Ensure the proper DNS record is set up to link your domain name to your public IP address. Keep in mind that it may take some time for DNS records to propagate.
-
-* Run the following commands to check that configuration is set up correctly before starting the services:
-
-```bash
-sudo snap set rocketchat-server caddy-url=https://<your-domain-name>
-sudo snap set rocketchat-server caddy=enable
-sudo snap set rocketchat-server https=enable
-sudo snap run rocketchat-server.initcaddy
-```
-
-* If no errors are found, it is safe to restart Rocket.Chat and Caddy:
-
-```bash
-sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
-sudo systemctl restart snap.rocketchat-server.rocketchat-caddy.service
-```
-
-* In case you don't want to configure TLS for your site or want to remove TLS configuration:
-
-```bash
-sudo snap set rocketchat-server https=disable
-sudo snap set rocketchat-server caddy-url=http://<your-domain-name>
-sudo snap set rocketchat-server caddy=enable
-sudo snap run rocketchat-server.initcaddy
-```
-
-If no errors were found, it is safe to restart Rocket.Chat and Caddy:
-
-```bash
-sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
-sudo systemctl restart snap.rocketchat-server.rocketchat-caddy.service
-```
-
-**To view the Caddy log,** run this command:&#x20;
-
-```bash
-sudo snap logs -f rocketchat-server.rocketchat-caddy
-```
-
 **Configure Caddy yourself or use another HTTP Proxy**
 
 For 4.x latest AMD64 snaps or 3.x latest ARM64 snaps,
