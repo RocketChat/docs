@@ -41,7 +41,7 @@ To access the **Outlook calendar** on your workspace,
    3. **Meeting url Regular Expression:** The expression used to detect meeting URLs in event descriptions. The first matching group with a valid URL will be used. HTML-encoded URLs will be decoded automatically.\
       \
       For example, the meeting URL is\
-      `https://go.rocket.chat/conference?host=app.video.valtori.fi&path=conference%2Ftest_room%3FcallUrl%3Dhttps%253A%252F%252Fmeet.video.valtori.fi%252Fwebapp%252Fm%252Ftest_room%26callProvider%3DPexip`\
+      `https://go.rocket.chat/conference?host=app.video.xyz.fi&path=conference%2Ftest_room%3FcallUrl%3Dhttps%253A%252F%252Fmeet.video.xyz.fi%252Fwebapp%252Fm%252Ftest_room%26callProvider%3DPexip`\
       \
       By default, the regular expression is `(?:[?&]callUrl=([^&<]+))|(?:(?:%3F)|(?:%26))callUrl(?:%3D)((?:(?:^&<))+[^&<]?)`\
       This will match everything that comes after `callURL=` and return the specific URL for the meeting.\
