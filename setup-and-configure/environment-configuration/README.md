@@ -62,6 +62,18 @@ Add additional resources as your users grow to maintain optimal system performan
 * [**Run multiple instances**](https://docs.rocket.chat/deploy/deploy-rocket.chat/scaling-rocket.chat/running-multiple-instances): Utilize your existing hardware to run multiple instances of the Rocket.Chat app on your current host.
 * [**Automation tools**](https://docs.rocket.chat/deploy/deploy-rocket.chat/scaling-rocket.chat/running-multiple-instances): Streamline the deployment process by using Ansible, OpenShift, Kubernetes with Helm, or Vagrant.
 
+### 6. Data migration
+
+Migrate your existing data from another service using the import integration:
+
+* [**Import from HipChat**](https://docs.rocket.chat/use-rocket.chat/workspace-administration/import/import-from-hipchat): Move your data from HipChat Cloud or HipChat Enterprise.
+* [**Import from Slack**](https://docs.rocket.chat/use-rocket.chat/workspace-administration/import/import-from-slack): Get your Slack users and data into Rocket.Chat.
+* [**Import CSV**](https://docs.rocket.chat/use-rocket.chat/workspace-administration/import/import-csv): Provide a CSV file or URL to import user data.
+
+### 7. Data monitoring
+
+Gather and visualize your workspace metrics with the [**Prometheus**](https://docs.rocket.chat/use-rocket.chat/workspace-administration/integrations/prometheus) and [**Grafana**](https://docs.rocket.chat/use-rocket.chat/workspace-administration/integrations/prometheus) integrations. Configuring the monitoring setup provides information such as workspace data, subscriptions, REST API details, and more. &#x20;
+
 ## Troubleshooting
 
 Address common issues during environment configuration:
