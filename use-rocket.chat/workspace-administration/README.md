@@ -44,7 +44,7 @@ This menu is only accessible to users who have been assigned the Administrator r
 
 [**Integrations**](integrations/): Integrate tools and services to ease everyday workflows.
 
-[**Import**](import/): Import data from other services to your Rocket.Chat workspace.
+[**Import**](../../setup-and-configure/environment-configuration/data-migration/): Import data from other services to your Rocket.Chat workspace.
 
 [**Reports**](reports.md): Check your workspace logs and analytics reports
 

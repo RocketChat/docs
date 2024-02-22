@@ -72,7 +72,7 @@ Migrate your existing data from another service using the import integration:
 
 ### 7. Data monitoring
 
-Gather and visualize your workspace metrics with the [**Prometheus**](https://docs.rocket.chat/use-rocket.chat/workspace-administration/integrations/prometheus) and [**Grafana**](https://docs.rocket.chat/use-rocket.chat/workspace-administration/integrations/prometheus) integrations. Configuring the monitoring setup provides information such as workspace data, subscriptions, REST API details, and more. &#x20;
+Gather and visualize your workspace metrics with the [**Prometheus**](https://docs.rocket.chat/use-rocket.chat/workspace-administration/integrations/prometheus) and [**Grafana**](https://docs.rocket.chat/use-rocket.chat/workspace-administration/integrations/grafana) integrations. Configuring the monitoring setup provides information such as workspace data, subscriptions, REST API details, and more. &#x20;
 
 ## Troubleshooting
 
