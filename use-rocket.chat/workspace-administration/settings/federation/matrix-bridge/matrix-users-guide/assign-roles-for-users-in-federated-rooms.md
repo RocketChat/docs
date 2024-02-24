@@ -2,15 +2,13 @@
 
 <figure><img src="../../../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
-Room members can assign room roles for federated users within a federated room context. Roles in federated rooms are slightly different from the regular [Rocket.Chat Roles](../../../../permissions/#default-roles) for the [_Room Scope_](../../../../permissions/#scope-of-roles).
+Within a federated room context, room members can assign roles to federated users. However, roles in federated rooms differ slightly from the regular Rocket.Chat roles for the [room scope](../../../../../user-guides/rooms/room-roles.md).
 
 Federated rooms support three roles:
 
-* **Owner**: Owns a room and fully controls it and its activities.\
-  They can invite users, assign new owners, promote/demote moderators, remove users from the room, and edit the room name and topics.
-* **Moderator**: Moderators can manage user actions and details of the room.\
-  They can invite users, assign new moderators, remove users from the room, and edit the room name and topics.
-* **User** (default): Room users can send and perform message actions in the room. Users cannot perform any room management related task
+* **Owner**: The user owns and fully controls a room and its activities. They can invite users, assign new owners, promote/demote moderators, remove users from the room, and edit the room name and topics.
+* **Moderator**: Moderators can manage user actions and details of the room. They can invite users, assign new moderators, remove users from the room, and edit the room name and topics.
+* **User** (default): Room users can send and perform message actions in the room. Users cannot perform any room management-related tasks.
 
 Matrix uses the concept of power levels to define room roles with the `Owner` being the most powerful, followed by the `Moderator`and the `User`the least powerful.
 
@@ -34,8 +32,8 @@ Changing the permissions for event-specific features can lead to unexpected beha
 
 The main rules for assigning roles in federated rooms are:
 
-* Only room owners (admin) can assign roles at the moment of the room creation.
-* All the users added to federated rooms have a User role by default.
+* Only room **owners** (admin) can assign roles at the moment of the room creation.
+* All the users added to federated rooms have a **User** role by default.
 * Users with the same role cannot assign roles (promote/demote) between them.
 * Users with a specific role cannot demote other users from the room with the same role.
 * Users can only demote and promote users in the layer again right below thier roles.

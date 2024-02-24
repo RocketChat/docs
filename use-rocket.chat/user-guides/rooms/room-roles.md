@@ -1,6 +1,6 @@
 # Room Roles
 
-Rocket.Chat [rooms](./), including [Teams](teams/), [Channels](channels/), and [Discussions](discussions/), have different roles that can be assigned to users in order to determine what actions and features they can access and control within a particular room. These roles are associated with permissions in the [room scope](../../workspace-administration/permissions/#scope-of-roles).
+Rocket.Chat rooms have different roles that users can assign to control actions and features within a particular [room](./), including [Teams](teams/), [Channels](channels/), and [Discussions](discussions/). These roles are associated with permissions in the [room scope](../../workspace-administration/permissions/#scope-of-roles).
 
 ### Available Room Roles
 

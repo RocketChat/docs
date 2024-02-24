@@ -65,11 +65,13 @@ To create Multi-user Direct Messages using slash commands, you need to open the 
 
 ## Editing a federated room
 
-Only the **name** and **topic** of a federated room can be edited after it is created.
+<figure><img src="../../../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
+
+Only the **name, avatar,** and **topic** of a federated room can be edited after it is created.
 
 ## Deleting a federated room
 
-Deleting federated rooms are not supported for now.
+Deleting federated rooms is not supported for now.
 
 {% hint style="warning" %}
 Federation does not support sending invite links for now.

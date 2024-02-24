@@ -8,26 +8,14 @@ description: >-
 
 ### Synapse
 
-To configure your Matrix federation for specific workspaces, you can define a subset of whitelisted servers in your Synapse server's configuration file _**(data/homeserver.yaml)**_. By specifying this whitelist, you control which Matrix servers are allowed to federate with your workspace. If you don't specify this whitelist, the default behavior is to allow federation with any Matrix server. You can block undesired communication with specific homeservers or allow only the desired ones.
+To configure Matrix federation for specific workspaces, define a subset of servers that can federate with your workspace in the Synapse server's configuration file _**(homeserver.yaml)**_.  If you don't specify the whitelist, the default behavior is to allow federation with any Matrix server. You can block undesired communication with specific homeservers or allow only the desired ones.
 
 {% hint style="info" %}
+* To access the **homeserver.yam**l file for [automated installation](./#automated-installation), navigate to the _**/data/matrix/synapse**_ directory.
+* To access the **homeserver.yaml** file for [manual installation](./#standalone-manual-installation), navigate to the _**/data**_ directory.
+
 See the official [Synapse documentation](https://matrix-org.github.io/synapse/latest/usage/configuration/config\_documentation.html#federation\_domain\_whitelist) for more details about this configuration.
 {% endhint %}
-
-#### Block List
-
-* Add the following to the Synapse configuration file:
-  * `ip_range_blacklist`: Creates a block list by IP ranges (List all IPs you want as a YAML array).
-
-{% hint style="info" %}
-To learn more, see [Blacklisting IP ranges](https://matrix-org.github.io/synapse/latest/upgrade.html#blacklisting-ip-ranges).
-{% endhint %}
-
-* Then, restart synapse server with this command:
-
-```
-docker restart synapse
-```
 
 #### Allow List
 
@@ -45,12 +33,27 @@ federation_domain_whitelist:
 * Then, restart synapse server with this command:
 
 ```
-docker restart synapse
+docker restart <synapse-container-name>
 ```
 
 {% hint style="info" %}
 To learn more, see [federation\_domain\_whitelist](https://matrix-org.github.io/synapse/latest/usage/configuration/config\_documentation.html#federation\_domain\_whitelist).
 {% endhint %}
+
+#### Block List
+
+* Add the following to the Synapse configuration file:
+  * `ip_range_blacklist`: Creates a block list by IP ranges (List all IPs you want as a YAML array).
+
+{% hint style="info" %}
+To learn more, see [Blacklisting IP ranges](https://matrix-org.github.io/synapse/latest/upgrade.html#blacklisting-ip-ranges).
+{% endhint %}
+
+* Then, restart synapse server with this command:
+
+```
+docker restart <synapse-container-name>
+```
 
 ### Dendrite
 
