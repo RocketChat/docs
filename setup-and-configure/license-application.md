@@ -4,7 +4,7 @@
 As of December 15, 2023, Rocket.Chat has ceased support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
 {% endhint %}
 
-Rocket.Chat has always been at the forefront of providing secure and scalable solutions. To gain a comprehensive understanding of Rocket.We recommend exploring Chat's extensive capabilities and our [premium plans](https://www.rocket.chat/pricing). A license is applied to your workspace when you subscribe to any of Rocket.Chat's[ premium plans](../readme/our-plans.md). Alternatively, you can [contact our sales](https://www.rocket.chat/sales-contact) team for a license and manually apply it to your workspace.
+Rocket.Chat has always been at the forefront of providing secure and scalable solutions. To gain a comprehensive understanding of Rocket.Chat, we recommend exploring the extensive capabilities using our [premium plans](https://www.rocket.chat/pricing). A license is applied to your workspace when you subscribe to any of Rocket.Chat's[ premium plans](../readme/our-plans.md). Alternatively, you can [contact our sales](https://www.rocket.chat/sales-contact) team for a license and manually apply it to your workspace.
 
 The guide provides detailed instructions on how to apply and sync your workspace license on different kinds of workspaces.
 
