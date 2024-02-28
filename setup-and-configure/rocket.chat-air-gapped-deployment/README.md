@@ -8,7 +8,7 @@ An air-gapped computer system is one that is not directly connected to any exter
 
 There are two options for deploying Rocket.Chat in an air-gapped environment:
 
-1. [Copying Rocket.Chat Docker images from a server with internet access](./#copying-rocket.chat-docker-images-from-a-server-with-internet-access)
+1. [Copy Rocket.Chat Docker images from a server with internet access](./#copy-rocket.chat-docker-images-from-a-server-with-internet-access)
 2. [Deploying Rocket.Chat with a Private Docker Registry](./#deploying-rocket.chat-with-a-private-docker-registry)
 
 In this guide, we'll discuss the two options above to deploy your Rocket.Chat workspace.
@@ -17,16 +17,16 @@ In this guide, we'll discuss the two options above to deploy your Rocket.Chat wo
 
 Given that an air-gapped environment has no internet access, simply download the required docker images on a server with internet access and transfer them to the air-gapped server.&#x20;
 
-{% hint style="warning" %}
-This example guide assumes that all your servers belong to the same network. Transfer methods may vary depending on your company's policies and network configurations.
-{% endhint %}
-
 ### **Prerequisites**
 
 * One server that has internet access to download the docker images.
 * One air-gapped server to deploy Rocket.Chat.
 * Ensure that Docker is installed and operational on the two servers.&#x20;
 * The two servers must be able to communicate with each other.&#x20;
+
+{% hint style="warning" %}
+This example guide assumes that all your servers belong to the same network. Transfer methods may vary depending on your company's policies and network configurations.
+{% endhint %}
 
 ### **Download the Rocket.Chat images**
 
@@ -64,18 +64,21 @@ scp -i [key] <mongodb_tar_file_path> <user_name@target_ip_address:/destination_p
 
 Update the following with the appropriate values:
 
-*   `key` : The key to access the air-gapped server where the file should be sent.
+* `key` : The key to access the air-gapped server where the file should be sent.
+* `rocketchat_tar_file_path` : The `rocketchat.tar` file path.
+* `mongodb_tar_file_path` : The `mongodb.tar` file path.
+* `user_name@target_ip_address`: The username and IP address of the air-gapped server where the file should be sent.
+* `destination_path`: The directory path on the air-gapped server where the file should be located.
 
-    * `rocketchat_tar_file_path` : The `rocketchat.tar` file path.
-    * `mongodb_tar_file_path` : The `mongodb.tar` file path.
-    * `user_name@target_ip_address`: The username and IP address of the air-gapped server where the file should be sent.
-    * `destination_path`: The directory path on the air-gapped server where the file should be located.
-
-    For example,
+For example,
 
 ```bash
- scp -i firstServer.pem rocketchat.tar ubuntu@176.37.27.133:/home/u
+ scp -i firstServer.pem rocketchat.tar ubuntu@176.37.27.133:/home/ubuntu
 ```
+
+{% hint style="warning" %}
+This example guide assumes that all your servers belong to the same network. Transfer methods may vary depending on your company's policies and network configurations.
+{% endhint %}
 
 ### **Deploy Rocket.Chat on the air-gapped server**
 
@@ -92,19 +95,20 @@ docker load -i mongodb.tar
 You've successfully transferred the Rocket.Chat and MongoDB images to the air-gapped server. Run `docker images` to view them.
 
 4. Create a `docker-compose.yaml`  based on our [official compose](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml) file and update it according to your needs.
+5. Edit the `ROOT_URL`  in the _docker-compose.yaml_ file from the default `http://localhost:3000` to match your server URL or domain name. For example,
 
-{% hint style="warning" %}
-For production environments, edit `ROOT_URL` from the default `http://localhost:3000` to match your domain name or IP address.
-{% endhint %}
+```
+ROOT_URL:  http://172.55.18.208
+```
 
-5. To install Rocket.Chat, execute this command:
+6. To install Rocket.Chat, execute this command:
 
 ```shell
 docker compose up -d
 ```
 
-6. Confirm that the RocketChat and Mongo DB containers are actively running by executing the command `docker ps`.
-7. To see the log/status of your Rocket.Chat container, execute this command:
+7. Confirm that the RocketChat and Mongo DB containers are actively running by executing the command `docker ps`.
+8. To see the log/status of your Rocket.Chat container, execute this command:
 
 ```bash
 docker compose logs -f rocketchat
@@ -120,22 +124,26 @@ The following section walks you through the second deployment method.
 
 A [docker registry](https://docs.docker.com/registry/) is a system for storing and distributing Docker images with specific names. Considering that an air-gapped computer can't access the internet to download the required docker images for deploying Rocket.Chat, this method will demonstrate how to use a private registry to store the necessary images and deploy Rocket.Chat.
 
-&#x20;Deploying Rocket.Chat with a private registry can be summarized into three phases:
+Deploying Rocket.Chat with a private registry can be summarized into three phases:
 
-1. [Create a private remote registry](./#creating-a-private-registry)
+1. [Create a private remote registry](./#create-a-private-registry)
 2. [Pull and push the Rocket.Chat and MongoDB images to the registry](./#pull-and-push-the-rocket.chat-mongodb-images-to-the-registry)
-3. [Install Rocket.Chat with the images from the remote registry](./#installing-rocket.chat)
-
-The diagram below highlights an overview of the servers:
-
-<figure><img src="../../.gitbook/assets/registry-airgapped-deployment.png" alt=""><figcaption><p>Air</p></figcaption></figure>
+3. [Install Rocket.Chat with the images from the remote registry](./#install-rocket.chat)
 
 ### **Prerequisites**
 
 * One server that has internet access to download the docker images.
 * Two air-gapped servers ( one for hosting the private registry, one for installing Rocket.Chat).
 * Ensure that docker is installed and operational on the three servers.
-* The three servers must be able to communicate with each other.&#x20;
+* The three servers must be able to communicate with each other.
+
+The diagram below highlights an overview of the servers:
+
+<figure><img src="../../.gitbook/assets/registry-airgapped-deployment.png" alt=""><figcaption><p>Air-gapped deployment with private registry servers</p></figcaption></figure>
+
+{% hint style="warning" %}
+This example guide assumes that all your servers belong to the same network. Transfer methods may vary depending on your company's policies and network configurations.
+{% endhint %}
 
 ### **Create a private registry**
 
@@ -172,6 +180,10 @@ For example,&#x20;
 ```bash
 scp -i firstServer.pem registry_image.tar ubuntu@172.31.81.10:/home/ubuntu
 ```
+
+{% hint style="warning" %}
+This example guide assumes that all your servers belong to the same network. Transfer methods may vary depending on your company's policies and network configurations.
+{% endhint %}
 
 4. Now, go to the air-gapped registry host server.  Run the following commands to confirm that you don't have the registry image or container yet:
 
@@ -289,6 +301,10 @@ ls /var/lib/registry/docker/registry/v2/repositories
 
 Confirm that the MongoDB and Rocket.Chat image exists in the registry, and you're ready to install Rocket.Chat from the remote registry.
 
+{% hint style="warning" %}
+You may only see the first name of the image path. For example , _docker.io_ instead of  _/docker.io/bitnami/mongodb_.
+{% endhint %}
+
 ### **Install Rocket.Chat**
 
 Now that the Rocket.Chat and MongoDB images have been pushed to the remote registry, the next step is to install Rocket.Chat on the third server. Note that the third server is also air-gapped and does not have internet access. Therefore, you have to deploy Rocket.Chat using the images from the remote registry.
@@ -325,8 +341,14 @@ Update `<registry_ip_address:5000>` with the IP address of your registry host se
 sudo systemctl restart docker
 ```
 
-5. Create a `docker-compose.yml`  based on our [official compose](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml) file and update it according to your needs.
-6. Update the image paths for Rocket.Chat and MongoDB to reference the images on the remote registry. For example,
+5. Create a `docker-compose.yaml`  based on our [official compose](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml) file and update it according to your needs.
+6. Edit the `ROOT_URL`  in the _docker-compose.yaml_ file from the default `http://localhost:3000` to match your server URL or domain name. For example,
+
+```
+ROOT_URL:  http://172.55.18.208
+```
+
+7. Update the image paths for Rocket.Chat and MongoDB to reference the images on the remote registry. For example,
 
 {% code overflow="wrap" %}
 ```yaml
@@ -339,17 +361,16 @@ mongodb:
 {% endcode %}
 
 {% hint style="warning" %}
-* Update `<registry_ip_address:5000>` with the IP address of your registry host server and the appropriate port number, if your registry container is not running on port 5000.&#x20;
-* For production environments, edit `ROOT_URL` from the default `http://localhost:3000` to match your domain name or IP address.
+Update `<registry_ip_address:5000>` with the IP address of your registry host server and the appropriate port number, if your registry container is not running on port 5000.&#x20;
 {% endhint %}
 
-7. Install Rocket.Chat by executing this command:
+8. Install Rocket.Chat by executing this command:
 
 ```shell
 docker compose up -d
 ```
 
-8. Run these commands to confirm that the RocketChat and Mongo DB  images are present with their containers actively  running:
+9. Run these commands to confirm that the RocketChat and Mongo DB  images are present with their containers actively  running:
 
 ```bash
 docker images 
@@ -357,7 +378,7 @@ docker images
 docker ps
 ```
 
-9. To see the log/status of your Rocket.Chat container, execute this command:
+10. To see the log/status of your Rocket.Chat container, execute this command:
 
 ```
 docker compose logs -f rocketchat
