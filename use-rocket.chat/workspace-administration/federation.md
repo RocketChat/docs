@@ -4,6 +4,8 @@ description: Federation shows statistics about the federation connection on your
 
 # Federation
 
+<figure><img src="../../.gitbook/assets/Deprecated (1).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="warning" %}
 The **Federation** menu is displayed only when [Federation](workspace.md#federation-info) is enabled in the workspace.
 {% endhint %}
