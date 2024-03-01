@@ -11,12 +11,12 @@ Remember to hit **Save Changes** to apply any changes made.
 {% endhint %}
 
 * **Enable SVG favicon**: When enabled, you can set an SVG favicon.
-* **logo (svg, png, jpg)**:  The logo asset represents the primary branding image of the Rocket.Chat workspace and it's used in various parts. This is visible at the bottom left of the side panel. The recommended image size for the logo asset is 300px x 300px, with a transparent background.
-* **logo - dark theme (svg, png, jpg)**: This asset is a variation of the primary logo image specified to be used for a dark theme environment. The recommended image size for this asset is 300px x 300px.
-* **login background (svg, png, jpg)**: Set the image that appears in the background of the login screen. The recommended image size for this is 1920px x 1080px, with a 72dpi resolution.
-* **login background - dark theme (svg, png, jpg)**: This is a variation of the login background image specified for the dark theme of the workspace. This is seen on the login and signup page and is recommended to have a size of 1920px x 1080px and a resolution of  72dpi.
-* **favicon (ico)**: Set a favicon of `.ico` extension. It represents the icon that shows on the browser tab and should have a recommended size of 16px x 16px.
-* **favicon (svg)**: This is another variation of the favicon asset of `.svg` extension optimized for vector graphics. The recommended image size for this asset is 16px x 16px.
+* **logo (svg, png, jpg)**:  The logo asset represents the primary branding image of the Rocket.Chat workspace and it's used in various parts. It appears on the sidebar footer of your workspace. The recommended image size for the logo asset is 300px x 300px, with a transparent background.
+* **logo - dark theme (svg, png, jpg)**: This asset is a variation of the primary **logo** image specified to be used for a dark theme environment. The recommended image size for this asset is 300px x 300px.
+* **login background (svg, png, jpg)**: Set the image to appear in the background of the login and sign-up screen. The recommended image size for this is 1920px x 1080px, with a 72dpi resolution.
+* **login background - dark theme (svg, png, jpg)**: This is a variation of the login background image specified for the dark theme of the workspace. This is seen on the login and signup page and is recommended to have a size of 1920px x 1080px, with a 72dpi resolution.
+* **favicon (ico)**: Set a favicon of `.ico` extension. It represents the icon displayed on the browser tab and should have a recommended size of 16px x 16px.
+* **favicon (svg)**: This is another variation of the favicon asset of `.svg` extension optimized for vector graphics. The recommended image size for this asset is 16px x 16px.  For the desktop app, it  appears as the workspace logo on the servers list.
 * **favicon 16x16 (png)**: This asset type is an alternative variation of the favicon, optimized for use with PNG format. The recommended image size for this asset is 16px x 16px.
 * **favicon 32x32 (png)**: A favicon asset but with a larger size of 32px x 32px.
 * **android-chrome 192x192 (png)**: Lets you set the icon that appears on an Android home screen and should be designed in a way that looks good in the size of 192px x 192px.
