@@ -31,4 +31,4 @@ The Rocket.Chat watermark appears on the sidebar footer for workspaces on [**Com
 
 <figure><img src="../../.gitbook/assets/sidebar-footer.png" alt=""><figcaption><p>Sidebar footer</p></figcaption></figure>
 
-Rocket.Chat's white-labeling feature is a powerful tool that allows you to tailor your workspace to reflect your brand's identity. By customizing elements such as the homepage, color scheme, logo, assets, and login screen, you can create a more personalized and engaging environment for your team. Your workspace is now all set for you to [invite your users](inviting-users.md)!
+Rocket.Chat's white-labeling feature is a powerful tool that allows you to tailor your workspace to reflect your brand's identity. By customizing elements such as the homepage, color scheme, logo, assets, and login screen, you can create a more personalized and engaging environment for your team. Your workspace is now all set for you to [invite your users](inviting-users.md)! Kindly refer to the [white-labeling-faqs.md](../../resources/frequently-asked-questions/white-labeling-faqs.md "mention") for common questions on white-labeling your workspace.

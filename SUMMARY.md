@@ -454,6 +454,7 @@
     * [Snaps FAQ](resources/frequently-asked-questions/deployment-faq/snaps-faq.md)
   * [Federation FAQs](resources/frequently-asked-questions/federation-faqs.md)
   * [Monthly Active Contacts FAQs](resources/frequently-asked-questions/monthly-active-contacts-faqs.md)
+  * [White-labeling FAQs](resources/frequently-asked-questions/white-labeling-faqs.md)
   * [Omnichannel FAQs](resources/frequently-asked-questions/omnichannel-faqs.md)
 * [Brand and Visual Guidelines](resources/brand-and-visual-guidelines/README.md)
   * [Logo](resources/brand-and-visual-guidelines/logo.md)
