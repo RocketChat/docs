@@ -4,7 +4,7 @@ description: Deploy on a kubernetes cluster using our official helm chart.
 
 # Deploy with Kubernetes
 
-Using the [Helm](https://helm.sh/) package manager, the [helm chart](https://github.com/RocketChat/helm-charts/tree/master/rocketchat) bootstraps a Rocket.Chat deployment on a [Kubernetes](https://kubernetes.io/) cluster. It provisions a fully featured Rocket.Chat installation. Additionally, this chart supports the [scaling of Rocket.Chat](../scaling-rocket.chat/) for increased server capacity and high availability.
+Using the [Helm](https://helm.sh/) package manager, the [helm chart](https://github.com/RocketChat/helm-charts/tree/master/rocketchat) bootstraps a Rocket.Chat deployment on a [Kubernetes](https://kubernetes.io/) cluster. It provisions a fully featured Rocket.Chat installation. Additionally, this chart supports the [scaling of Rocket.Chat](../scaling-rocket.chat) for increased server capacity and high availability.
 
 ## Prerequisites Details
 
@@ -20,7 +20,7 @@ helm repo add rocketchat https://rocketchat.github.io/helm-charts
 
 To install the chart ,you can either define your configuration options in a values file or pass the configuration parameters via command line arguments.
 
-### Define the configuations value in a file
+### Define the configurations in a file
 
 We recommend defining the configuration parameters inside a `Values.yaml` file with at least the non-root user's password and the root password before passing it to helm. You must set at least the database and root password in the values file.
 
