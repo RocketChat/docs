@@ -1,8 +1,8 @@
 ---
-description: Apply an offline License on your Rocket.Chat workspace
+description: Apply an Air-Gapped License on your Rocket.Chat workspace
 ---
 
-# Offline License
+# Air-Gapped License
 
 To unlock additional features in your workspace, activate your workspace with a license for your subscribed [plan](../../readme/our-plans.md).
 
@@ -10,7 +10,9 @@ To unlock additional features in your workspace, activate your workspace with a 
 You can also apply [trials](../trials/ "mention") on your workspace to explore these additional features.
 {% endhint %}
 
-### Getting Offline License
+### Getting Air-Gapped License
+
+If you workspace is in an air-gapped environment where it is unable to talk to our licensing servers.  You will need to get an air-gapped license.
 
 To obtain a license for an air-gapped workspace, you can contact [Rocket.Chat support](https://desk.rocket.chat/portal/en/home) to provide a license for you or retrieve an offline license from your Rocket.Chat cloud console.
 
@@ -19,7 +21,11 @@ To obtain a license for an air-gapped workspace, you can contact [Rocket.Chat su
 * Open up a query requesting a license for your air-gapped workspace from [Rocket.Chat support](../../customer-center/support-center/premium-support-plans/support-prerequisites-and-version-durability.md).
 
 {% hint style="info" %}
-You will be required to provide the following information:
+If the workspace detects that is not airgapped it will still force you to register.  The assumption is that the workspace is truly unable to communicate with the outside world.
+
+
+
+When requesting you will be required to provide the following information:
 
 * Your workspace registration email
 * The workspace URL.
@@ -39,7 +45,7 @@ You are required to have completed[ registering your workspace](offline-workspac
 
 ### Applying License
 
-After getting your offline license, proceed with the following steps to apply it to your workspace:
+After getting your air-gapped license, proceed with the following steps to apply it to your workspace:
 
 * When the license code is provided, navigate to **Administration > Settings > Premium** on your workspace.&#x20;
 * Update the **Premium License** field with the license code, confirm the status of the applied license, and click **Save Changes**.
