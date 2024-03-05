@@ -11,8 +11,10 @@ When you log in to your workspace as an agent and [set your status to **Availabl
 * Click on a conversation to reply to an omnichannel contact.
 
 {% hint style="warning" %}
-If a message is sent to a [department](../omnichannel/departments.md) that you don't belong to, you won't receive it.
+If a message is sent to a [department](../omnichannel/departments.md) you don't belong to, you won't receive it.
 {% endhint %}
+
+Not that when the visitors are typing messages, the typing indicator is displayed next to their icon. For example, ![](<../../.gitbook/assets/image (457).png>)
 
 ## Omnichannel Conversation Quick Actions
 

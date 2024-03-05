@@ -12,6 +12,8 @@ To compose a message in Rocket.Chat, go to the channel or user you want to send 
 
 If you want to add new lines of text, press `Shift + Enter` to add a new line.
 
+Note that when messages are being typed, the typing indicator is displayed under the message box. This indicates the user typing the message in the channel. For example, **user-5 is typing**&#x20;
+
 ## Cursor Movement
 
 While writing or editing messages, you can move the cursor using the arrow keys. Where the cursor moves depends on the wrapping of the text.
