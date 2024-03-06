@@ -1,22 +1,23 @@
 # SlackBridge
 
-SlackBridge allows you to mirror the messages received in a Slack channel or private group into Rocket.Chat in real-time.
+SlackBridge allows you to mirror the messages received in a Slack channel or private group into Rocket.Chat in real-time. This means that if you send a message in a Rocket.Chat channel, the message will also be sent in the respective Slack channel, and vice versa. In this way, you can communicate across both platforms.
 
-To enable it, you have to create a Custom Bot in Slack and add it to the desired channels / private groups. Once enabled and added to rooms, SlackBridge will clone the room in Rocket.Chat and also clone users that speak in that room.
+To enable it, you must create a custom bot in Slack and add it to the desired channels and private groups.
 
-## To create a Custom Bot in Slack:
+## Create a custom bot in Slack
 
-1. Got to ["Set up a bot user"](https://my.slack.com/apps/A0F7YS25R-bots)
-2. Click "Add Configuration"
-3. Pick a username for your Bot and click **Add Bot Integration**
-4. Copy the API Token. You'll need it when setting up SlackBridge in Rocket.Chat
-5. Customize your bot the way you like it and click on Save Integration
+1. Go to [Set up a bot user](https://my.slack.com/apps/A0F7YS25R-bots).
+2. Click **Add Configuration**.
+3. Pick a username for your bot and click **Add Bot Integration**.
+4. Copy the API Token. You'll need it when setting up SlackBridge in Rocket.Chat.
+5. Customize your bot the way you like it and click **Save Integration**.
 
-## To enable SlackBridge in Rocket.Chat:
+## Enable SlackBridge in Rocket.Chat
 
-1. Go to `https://[your_host]/admin/SlackBridge`
-2. Enable SlackBridge
-3. Add your API Token, copied in step 4 above
-4. Restart your Rocket.Chat server
+1. Go to **Administration** > **Workspace** > **Settings** > **SlackBridge**.
+2. Enable SlackBridge.
+3. Add the API Token that you got from your custom bot configuration.
+4. You can define values for other settings according to your requirements.
+5. Once you are done, click **Save changes**.
 
-When done, you can now invite/add the bot to the channel or private group you want to mirror from
+You can now add the bot to the channels or private groups you want to mirror from.
