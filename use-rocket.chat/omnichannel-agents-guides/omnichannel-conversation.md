@@ -14,13 +14,13 @@ When you log in to your workspace as an agent and [set your status to **Availabl
 If a message is sent to a [department](../omnichannel/departments.md) you don't belong to, you won't receive it.
 {% endhint %}
 
-Not that when the visitors are typing messages, the typing indicator is displayed next to their icon. For example, ![](<../../.gitbook/assets/image (457).png>)
+Note that when the visitors are typing messages, the typing indicator is displayed next to their icon. For example, ![](<../../.gitbook/assets/image (457).png>)
 
 ## Omnichannel Conversation Quick Actions
 
 In an Omnichannel conversation, quick actions can be performed from the top of the chat screen. They are shown as icons on the top right.
 
-## Moving back to the Queue
+## Move back to the Queue
 
 If an omnichannel conversation needs to be handled by another agent within your department,
 
@@ -29,7 +29,7 @@ If an omnichannel conversation needs to be handled by another agent within your 
 
 The conversation starts to appear in the Queued Chats for other agents to see.
 
-## Forwarding a conversation
+## Forward a conversation
 
 To forward a conversation:
 
@@ -97,7 +97,7 @@ You can also click the conversation in the queue anytime and click **Resume** to
 You can manually place the conversation on hold only when you send the last message to the contact.
 {% endhint %}
 
-## Closing a conversation
+## Close a conversation
 
 To end a conversation:
 
@@ -109,7 +109,7 @@ To end a conversation:
 * Click **Confirm,** and the conversation disappears from the **Chats in Progress** queue.
 * The PDF conversation transcript is sent to you as a direct message if you request that the chat be exported.
 
-## Calling
+## Call
 
 Communication with omnichannel contacts on Rocket.Chat can also be done using audio/video calls. Your workspace must have at least one call app installed to make these calls.
 
@@ -161,7 +161,7 @@ To get the contact details of the currently selected omnichannel conversation's 
 
 While viewing contact information, click **Edit** to edit the contact details or click **Chat History** to see the chat history.
 
-## Searching chats
+## Search chats
 
 To search for messages in a conversation,
 
@@ -169,7 +169,7 @@ To search for messages in a conversation,
 2. Enter your search query.
 3. The search result is displayed as you type. You can also use [Regular Expressions.](https://en.wikipedia.org/wiki/Regular\_expression) For example, to search for the word `error` followed by any three digits, use `error\d{3}` .
 
-## Searching for file attachments
+## Search for file attachments
 
 To search for files that have been attached to the conversation,
 
@@ -178,7 +178,7 @@ To search for files that have been attached to the conversation,
 * Enter the search query.
 * Optionally, choose the file type you are interested in. By default, all the file types are displayed.
 
-## Viewing contact chat history
+## View contact chat history
 
 To get the chat history of the contact:
 
@@ -186,3 +186,14 @@ To get the chat history of the contact:
 * The contact is displayed alongside the last closing message which you sent.
 * Below the contact details, click the ![](../../.gitbook/assets/messages.png) icon, and the messages in the history are displayed.
 * Enter a search query in the search box. The results are displayed as you type.
+
+## Invite users to a chat
+
+Invite other livechat agents or managers to an ongoing chat. This is useful when you require additional help or need to work together with a visitor. To invite:
+
+* In a chat, send the slash command `/invite @<username>`.
+* If the user is not an agent, a manager, or a user with permission to join a chat, the message **User is not an Omnichannel Agent** is displayed. Otherwise, the user is added to the chat.
+
+{% hint style="info" %}
+In the backend, the [Join Livechat Room](https://developer.rocket.chat/reference/api/rest-api/endpoints/omnichannel/livechat-endpoints/livechat-room/join-livechat-room) is called to invite users to a livechat room.
+{% endhint %}
