@@ -43,8 +43,8 @@ You can find a more detailed guide on how to set up your Amazon S3 server [here]
 
 * **Bucket name**: The bucket name you've created on Amazon S3
 * **Acl**(Optional): A _Canned ACL_ configuration (see a complete list [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl))
-* **Access Key**: Your Amazon Access Key ID (optional)
-*   **Secret Key**: Your Amazon Secret Access Key (optional)
+* **Access Key**: Your Amazon Access Key ID.
+*   **Secret Key**: Your Amazon Secret Access Key.
 
     > **Note**: If no `AWSAccessKeyId` and `AWSSecretAccessKey` are set, the underlying AWS SDK the will fallback to trying to retrieve credentials from the [usual locations](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials-node.html).
 * **CDN Domain for Downloads**(Optional): If you had set a CDN for your bucket, put it here
