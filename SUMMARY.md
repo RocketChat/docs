@@ -67,7 +67,7 @@
     * [Import from HipChat](setup-and-configure/environment-configuration/data-migration/import-from-hipchat.md)
     * [Import from Slack](setup-and-configure/environment-configuration/data-migration/import-from-slack/README.md)
       * [SlackBridge](setup-and-configure/environment-configuration/data-migration/import-from-slack/slackbridge.md)
-    * [Import CSV](setup-and-configure/environment-configuration/data-migration/import-csv.md)
+    * [Import from CSV](setup-and-configure/environment-configuration/data-migration/import-from-csv.md)
   * [Check Node.js Version](setup-and-configure/environment-configuration/check-node.js-version.md)
 * [Installing Client Apps](setup-and-configure/installing-client-apps/README.md)
   * [Desktop & Mobile Apps](setup-and-configure/installing-client-apps/desktop-and-mobile-apps.md)

@@ -2,7 +2,7 @@
 description: Import data from other services to your Rocket.Chat workspace.
 ---
 
-# Import
+# Data Migration
 
 Rocket.Chat lets you import all your data if you are moving from another service like Slack to Rocket.Chat
 
@@ -21,6 +21,6 @@ To Import your data,
 [import-from-hipchat.md](import-from-hipchat.md)
 {% endcontent-ref %}
 
-{% content-ref url="import-csv.md" %}
-[import-csv.md](import-csv.md)
+{% content-ref url="import-from-csv.md" %}
+[import-from-csv.md](import-from-csv.md)
 {% endcontent-ref %}
