@@ -19,8 +19,8 @@ Remember to hit **Save Changes** to apply any changes made.
 * **favicon (svg)**: This is another variation of the favicon asset of `.svg` extension optimized for vector graphics. The recommended image size for this asset is 16px x 16px.  For the desktop app, it  appears as the workspace logo on the servers list.
 * **favicon 16x16 (png)**: This asset type is an alternative variation of the favicon, optimized for use with PNG format. The recommended image size for this asset is 16px x 16px.
 * **favicon 32x32 (png)**: A favicon asset but with a larger size of 32px x 32px.
-* **android-chrome 192x192 (png)**: Lets you set the icon that appears on an Android home screen and should be designed in a way that looks good in the size of 192px x 192px.
-* **android-chrome 512x512 (png)**: Android-chrome asset, optimized for higher resolutions. The recommended image size for this asset is 512px x 512px.
+* **android-chrome 192x192 (png)**:   Lets you set the icon that appears on an Android home screen and should be designed in a way that looks good in the size of 192px x 192px.
+* **android-chrome 512x512 (png)**: This asset refers to the icon displayed on the tab of your workspace when accessed via Chrome on an Android device. It's recommended to use an image size of 512px x 512px for this icon.
 * **apple-touch-icon 180x180 (png)**: Lets you set the `180x180` apple icon shown on a web page.
 * **apple-touch-icon-precomposed 180x180 (png)**: Lets you set an icon with a precomposed design that bypasses iOS automatic icon effects. It appears on the iOS home screen and should be 180px x 180px in size.
 * **mstile 70x70 (png)**: This asset type represents the icon that appears on the Windows Start Screen and should be in the size of 70px x 70px.
