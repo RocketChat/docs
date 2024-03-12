@@ -74,9 +74,9 @@ You can select or unselect the **Also send to channel** checkbox based on your p
   * Alternative mode (send with Enter + Ctrl/Alt/Shift/CMD)
   * Desktop mode (only sends with Enter on desktop)
 * **View mode:** Change the amount of space messages take up on screen.
-  * Normal: The default spacing between messages
-  * Cozy: More space between messages (less on the screen)
-  * Compact: Less space between messages (more on the screen)
+  * Normal : The default spacing between messages
+  * Cozy : More space between messages (less on the screen)
+  * Compact : Less space between messages (more on the screen)
 
 ### Highlights
 

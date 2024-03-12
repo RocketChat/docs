@@ -1,114 +1,97 @@
 # Messages
 
-This page explains the ins and outs of messaging in Rocket.Chat.
+In Rocket.Chat, conversations take place in [rooms](../rooms/).  To send a message, go to a room and type in the message box. Then, press **enter** or click the **send** button. When typing a message in the message box, press **Shift + Enter** to enter a new line.  You can move the cursor using the arrow keys.&#x20;
 
-{% hint style="info" %}
-Make sure to go through the [message settings](../../workspace-administration/settings/message.md) to be able to access all these features mentioned below!
+{% hint style="warning" %}
+Before you proceed, kindly ensure the [message.md](../../workspace-administration/settings/message.md "mention")settings for your workspace are configured to enable your prefered features.
 {% endhint %}
 
-## Compose messages
+Utilize the icons in the message box to upload files, format your message, record an audio/video message, and do much more while typing a message.
 
-To compose a message in Rocket.Chat, go to the channel or user you want to send a message to. Type the message in the message box and press Enter or the **Send** Button.
+**Format Messages**
 
-If you want to add new lines of text, press `Shift + Enter` to add a new line.
+Improve your messages by making them clear and neat with various formatting options. You can format your messages using the formatting icons in the message box or markdown.
 
-Note that when messages are being typed, the typing indicator is displayed under the message box. This indicates the user typing the message in the channel. For example, **user-5 is typing**&#x20;
+Highlight a message and click on any of the following formatting icons such as bold, italics, strikethrough, inline code block, multiline code block, and links.
 
-## Cursor Movement
+<figure><img src="../../../.gitbook/assets/formatting-icons.png" alt=""><figcaption><p>Formatting Icons</p></figcaption></figure>
 
-While writing or editing messages, you can move the cursor using the arrow keys. Where the cursor moves depends on the wrapping of the text.
+Optionally you can use markdown to format your messages. Here is a list of the supported markdown formats you can use in your workspace:
 
-Hold `Alt` or `Command` while pressing the right or left arrow keys to move the cursor to the beginning or end of the message.
+<table><thead><tr><th>Markdown</th><th width="233">Example Input</th><th>Example Ouput</th></tr></thead><tbody><tr><td>Bold</td><td>*Hello Team*</td><td><strong>Hello Team</strong></td></tr><tr><td>Italics </td><td> _Hiya_</td><td><em>Hiya</em></td></tr><tr><td>Blockquoutes</td><td>>consectetuer</td><td><img src="../../../.gitbook/assets/blockqoute-output.png" alt=""></td></tr><tr><td>Color</td><td>color:#F00</td><td><img src="../../../.gitbook/assets/color-output.png" alt=""></td></tr><tr><td>Emoticon</td><td>:) :(</td><td><img src="../../../.gitbook/assets/emoticon-output.png" alt=""></td></tr><tr><td>Escape </td><td>\*test\*</td><td>\*test\*</td></tr><tr><td>Headings</td><td># Heading1</td><td>*test*</td></tr><tr><td>Image</td><td>![](https://raw.githubusercontent.com/RocketChat/Rocket.Chat.Artwork/master/Logos/2020/png/logo-horizontal-red.png)<br></td><td><img src="../../../.gitbook/assets/image-output" alt=""></td></tr><tr><td>Links</td><td>&#x3C;https://rocket.chat|link><br>[secondlink](https://rocket.chat)</td><td><p><a href="https://rocket.chat/">link</a></p><p><a href="https://rocket.chat/">secondlink</a></p></td></tr><tr><td>Ordered list</td><td><ol><li>First item</li><li>Second item</li></ol></td><td><ol><li>First item</li><li>Second item</li></ol></td></tr><tr><td>Unordered list</td><td>- First item<br>- Second Item</td><td><ul><li> First item</li><li> Second Item</li></ul></td></tr><tr><td>Tasks list</td><td>- [ ] Get press release<br>- [x] Checked item<br></td><td><ul class="contains-task-list"><li><input type="checkbox">Get press release</li><li><input type="checkbox" checked>Checked item</li></ul></td></tr><tr><td>Phone</td><td><p>[here](+(075)-63546725)<br> +(075)-63546725 </p><p>+07563546725</p></td><td><a href="tel:07563546725">here</a><br><a href="tel:07563546725">+(075)-63546725</a><br><a href="tel:07563546725">+07563546725</a></td></tr><tr><td>Strikethrough</td><td>~Lorem ipsum dolor~</td><td><del>Lorem ipsum dolor</del></td></tr><tr><td>Inline codeblock</td><td>`welcome`     </td><td><code>welcome</code></td></tr><tr><td>Multiline codeblock</td><td>```<br>npm install<br>``` </td><td><pre><code>npm install
+</code></pre></td></tr></tbody></table>
 
-## Notify Other Team Members
+**Upload Files**
 
-To get the attention of a specific team member in a channel, type `@` followed by their username, for example, `@username`. The mentioned user sees a red badge on the channel or is notified via email or their mobile device if they're not online.
+To upload files in a room,
 
-You can also notify everyone in a channel by typing `@all`. Although notifying everyone in the channel is useful for announcements, not every message requires this. We recommend using `@all` sparingly.
+* Click the **upload file icon** in the message box and choose the files,  or drag and drop the files into the message box. You can also paste an image from your clipboard in the message box.
+* Add a file name and description, and click **Send**.
 
-## Send Attachments
+{% hint style="warning" %}
+It's important to note that the workspace administrator can [restrict the upload of certain file types](../../workspace-administration/settings/file-upload/#general-settings).
+{% endhint %}
 
-You can send a variety of attachments with your messages, like files, audio, links, videos, and many more.
+To forward files from a room,&#x20;
 
-To access the attachment menu you can, click on the **plus** (+) icon on the message input.
+* Hover over the file message and click the **forward message icon**.
+* Select the user or room to forward the message and click **Forward**.
 
-### Files
+To search for files in a room,
 
-You can select files using three methods:
+* Click the **kebab menu icon** on the room header and select **Files**.
+* Choose the file type you want to search for, then proceed with your search.
 
-* By choosing the **Select Files from Computer** option from the attachment menu
-* By dragging and dropping the file on Rocket.Chat
-* By pasting an image from the clipboard
+{% hint style="info" %}
+To upload files from Google Drive, see the [google-drive](../../../extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/google-drive/ "mention")app guide.
+{% endhint %}
 
-After selecting the file, add a name and a description of the file and press **Send**.
+**Record audio and video message**
 
-_Remember that the server administrator can block certain file types from being uploaded._
+To improve communication with team members, you can send audio and video messages within a room. Other users in the room can listen to and respond to your message.
 
-### Audio
+To start recording an audio message,&#x20;
 
-When using Rocket.Chat through a web browser, give Rocket.Chat permission to use your microphone.
+* Go to a room and click the <img src="../../../.gitbook/assets/audio-message.png" alt="" data-size="line"> **audio message icon** in the message box.
+* Click the <img src="../../../.gitbook/assets/check-icon.png" alt="" data-size="line">  **check icon** to finish the recording. Click the <img src="../../../.gitbook/assets/cancel-icon.png" alt="" data-size="line"> **cancel icon** if you want to discard the recording.
+* Add a file name and description, then click **Send**.
 
-To start recording, click on **Create new Audio Message** or the option in the attachment menu or microphone icon inside the message box. To stop recording, click the green checkmark. The audio message automatically sends. You can choose to play or download the message.
+To start recording a video message,
 
-### Video
+* Click the <img src="../../../.gitbook/assets/video-message-icon.png" alt="" data-size="line"> **video message icon** in the message box. A video preview window is displayed.
+* Click the <img src="../../../.gitbook/assets/video-record-icon (1).png" alt="" data-size="line"> **record** button to start recording.
+* Click the <img src="../../../.gitbook/assets/video-record-icon (1).png" alt="" data-size="line"> **record** button again to finish the recording and hit **Send.** Click the **cancel** button if you want to discard the recording.
+* Add a file name and description, then click **Send**.
 
-When using Rocket.Chat through a web browser, give Rocket.Chat permission to use your webcam.
+{% hint style="warning" %}
+Remember to grant Rocket.Chat permission to access your microphone and webcam when prompted.
+{% endhint %}
 
-To start recording, click on the **Create new Video Message** option in the attachment menu, then click the red circle icon.
+**Location**
 
-While recording, a stop button appears. To end the recording, press **Stop**.
+To share your location in a room,
 
-Preview the video you recorded by pressing **Ok**. A window appears where you can watch, download, and name the video. To send the video, click **Send** or click **Cancel** to discard the video.
+* Click the <img src="../../../.gitbook/assets/plus-icon.png" alt="" data-size="line"> **plus icon** in the message box.&#x20;
+* Select **Share > Location.** A Google Maps preview of your location is displayed.
+* Click **Share** to send your location, or **Cancel** to discard it.
 
-## Interacting with Google Drive
+**Emoji**
 
-_Note:_ Google Drive features available only if the server's admin has enabled Google Drive access and provided the correct API keys. For instructions to obtain these keys can see the [Administrator guides](broken-reference).
+To insert an emoji,&#x20;
 
-### From Google Drive to Rocket.Chat
+* Click the emoji icon in the message box.&#x20;
+* Browse emojis using the icon categories or the search box.&#x20;
+* Select the emojis you want to use inside your message.&#x20;
+* Hit **enter** or click **send**.
 
-Files can be uploaded from Google Drive to a room by selecting the **Select Files from Google Drive** option on the attachment menu. This opens a Google Drive file picker GUI with search and view modes. Select the required file, enter a title and description, and then click **Upload**.
+Alternatively, you can also insert emojis by inputting an [emoji code](https://www.webfx.com/tools/emoji-cheat-sheet/). For example, typing :) will automatically convert into a smiley face emoji.
 
-Files are upload in the same format as they are stored in Google Drive with exception of Google Docs, Google Slides, and Google Sheets which are converted to pdf upon upload.
+To disable emojis in your workspace, kindly refer to [#messages](../user-panel/account.md#messages "mention"). When graphical emojis are disabled, emoji keywords and shortcuts display as regular text.
 
-### From Rocket.Chat to Google Drive
+**Typing indicator**
 
-Files uploaded as a message attached to a room can be uploaded to Google Drive. Click **Save to Google Drive** above the file attachment. The file saves to Google Drive in its original format.
+When a user types in a channel, a typing indicator appears for others below the message box. For instance, "**User-5 is typing**."
 
-### Create Google Docs, Slides and Sheets
+**Mention users**
 
-Create Google docs, slides, and sheets by clicking to corresponding file type in the attachments menu. The file saves to that user's Google Drive account and posts on the message or channel from which creation occurs. The sharing setting for the file shall remain default. It can be changed by the file owner via the link to collaborate with other users.
-
-## Links
-
-URLs to other sites automatically generate a preview of that site's content. Copy and paste the link into the message box to create the preview.
-
-## Location
-
-To share your location, click **Share My Location**. A message with the link to your location on Google Maps is generated.
-
-## Emoji
-
-To insert an emoji, click the **smiley face icon** in the message box. Browse through emoji using the icon categories or through the search box.
-
-You can also insert emojis by inputting an [emoji code](https://www.webfx.com/tools/emoji-cheat-sheet/).
-
-### Emoticons
-
-Rocket.Chat changes common emoticons, or symbols used to represent emoji, to the equivalent emoji. For example, `:)` converts to the `:smiley:` emoji.
-
-### Disabling emojis
-
-Emojis can be enabled/disabled in [Your Account](../user-panel/account.md) settings under the **Messages** section.
-
-When graphical emojis are disabled, emoji keywords and shortcuts display as regular text.
-
-## Formatting
-
-Use the following symbols to format text as desired:
-
-* Bold: `*Lorem ipsum dolor*`
-* Italic: `_Lorem ipsum dolor_`
-* Strike: `~Lorem ipsum dolor~`
-* Inline code: `` `Lorem ipsum dolor` ``
-* Image: `![Alt text](https://rocket.chat/favicon.ico)`
-* Link: `[Lorem ipsum dolor](https://www.rocket.chat/)` or `<https://www.rocket.chat/ |Lorem ipsum dolor>`
+To mention your team member in a channel, type `@` followed by their username (e.g., `@username`). The mentioned user will be notified through a red badge or email/mobile notification if offline. For important announcements, use `@all` sparingly to notify everyone in the channel.
