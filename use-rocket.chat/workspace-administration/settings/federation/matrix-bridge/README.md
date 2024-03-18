@@ -1,6 +1,10 @@
 # Matrix Bridge
 
-Rocket.Chat Federation uses a standard protocol called the [Matrix Federation Protocol (MFP)](https://matrix.org/) to connect servers. This means that you can federate with any other Rocket.Chat workspace, or servers that supports MFP, such as [Element](https://element.io/).  It is designed to provide secure, interoperable, and decentralized real-time communication between Rocket.Chat and any Matrix-compatible applications or servers seamlessly.
+Rocket.Chat Federation uses a standard protocol called the [Matrix Federation Protocol (MFP)](https://matrix.org/) to connect servers. This means that you can federate with any other Rocket.Chat workspace or servers that support MFP, such as [Element](https://element.io/).  It is designed to provide secure, interoperable, and decentralized real-time communication between Rocket.Chat and any Matrix-compatible applications or servers seamlessly.
+
+A matrix bridge allows you to connect Matrix with other communication networks. Thus, Matrix users can interact with users on different platforms. For example, Element users can interact with users on Slack or Discord using bridges. For details, see the [AppService](https://matrix.org/docs/matrix-concepts/elements-of-matrix/#appservice-bridges-and-some-bots) section in the Matrix documentation.
+
+In this section, we are going to configure a Matrix bridge that will allow Rocket.Chat users to interact in federated rooms and communicate with federated users. See [Rocket.Chat and Matrix architecture](https://github.com/RocketChat/federation-docs/blob/cdd9c3823e4f4329c87402640543226f8423fbd1/DESIGN.md) to learn more.
 
 Using the Rocket.Chat Matrix Bridge integration requires you to have a [Matrix homeserver](https://matrix.org/docs/guides/introduction#how-does-it-work) available.
 
