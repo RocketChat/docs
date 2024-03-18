@@ -95,3 +95,12 @@ When a user types in a channel, a typing indicator appears for others below the 
 **Mention users**
 
 To mention your team member in a channel, type `@` followed by their username (e.g., `@username`). The mentioned user will be notified through a red badge or email/mobile notification if offline. For important announcements, use `@all` sparingly to notify everyone in the channel.
+
+#### View PDF files
+
+You can view PDF attachments within the app from the release version 6.6.0 and the desktop app version [3.9.13](https://github.com/RocketChat/Rocket.Chat.Electron/releases/tag/3.9.13).&#x20;
+
+* The PDF Viewer is only supported for the desktop app.
+* In the **File Upload** settings, the file **Storage Type** must be **Amazon S3** or **Google Cloud Storage**. See [File Upload](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/file-upload).
+
+To access the **PDF Viewer**, send a PDF file attachment to any channel. Select the PDF and the **PDF Viewer** screen displays the file contents within the app.

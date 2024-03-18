@@ -1,26 +1,46 @@
 # Third-party Login
 
-Rocket.Chat's Third-party Login allows you to access custom applications through OAuth using your Rocket.Chat account. For example, you can log in to platforms like Zapier using your Rocket.Chat credentials. You can add and view the Third-party login apps linked with your workspace.
+Rocket.Chat's **Third-party login** allows you to access custom applications through OAuth using your Rocket.Chat account. For example, you can log in to platforms using your Rocket.Chat credentials. You can add and view the third-party login apps linked with your workspace.
 
-To access this menu, navigate to **Administration** > **Workspace** > **Third-party login.**
+## Example
 
-## Adding New OAuth Application
+This guide walks you through the example of adding a Zapier integration as a third-party login application. With this, you can log in to Zapier using your Rocket.Chat workspace credentials.
 
-To add a new OAuth app,
+### Create Zapier integration
 
-* Click the **New Application** button at the top right.
-* Fill in the details of the OAuth app.
-  * **Active**: Enable this to set active the OAuth App.
-  * **Application Name**: The name of the application. It will be displayed to your users.
-  * **Redirect URI**: After OAuth2 authentication, users will be redirected to an URL on this list. You can add one URL per line.
-* Click **Save**.
+Create a [developer account](https://developer.zapier.com/) on the Zapier platform and follow these steps:
 
-## Viewing and Editing OAuth Apps
+1. Go to the **My Integrations** tab.
+2. On the **Create Integration** page, enter the integration details according to your requirements. Click **Create**.
+3. In the newly created integration, click **Authentication** > **OAuth v2**.
+4. Note the redirect URL from the **Step 2 Copy your OAuth Redirect URL** section.&#x20;
 
-To view and edit an OAuth app,
+Let's move on to adding an application to the Rocket.Chat workspace.
 
-* From the list of OAuth apps, click the app to view and edit it.
+### Add new application
 
-{% hint style="info" %}
-When you view an OAuth app, you can obtain additional configurations like Authorization URL, Client ID, and Client Secret.
-{% endhint %}
+To add a new app in the Rocket.Chat workspace, follow these steps:
+
+1. Go to **Administration** > **Workspace** > **Third-party login** to access the third-party login tab**.**
+2. Click **New application** at the top-right.
+3. Enter the following details of the app:
+   1. **Active**: Enable this to activate the app.
+   2. **Application Name**: The name of the application. It will be displayed to your users. For example, `Zapier login`.
+   3. **Redirect URI**: After OAuth2 authentication, users will be redirected to a URL on this list. You can add one URL per line. For this scenario, paste the URL value you got from the OAuth v2 authentication integration.\
+      For example, `https://zapier.com/dashboard/auth/oauth/return/App201062CLIAPI/`
+4. Click **Save**.
+
+### Configure the Zapier integration
+
+Now we will configure the integration that we created in Zapier. This will let us connect the OAuth integration with the Rocket.Chat workspace application. We can then log in to Zapier using the Rocket.Chat credentials.
+
+1. In your Rocket.Chat workspace, click the application that you created. The **Active** status, **Application Name**, and the **Redirect URI** values are displayed.
+2. Additional configuration fields — **Client ID**, **Client Secret**, **Authorization URL**, and **Access Token URL**, are also displayed. The values are automatically filled. You can edit the values to suit your requirements. Make sure to save the application.
+3. Copy the **Client ID** and **Client Secret** values. Paste these values in the Zapier integration **Step 3 Enter your Application Credentials** section. For example,\
+   Client ID: `zapier`\
+   Client secret: `RTK6TlndaCIolhQhZ7_KHIGOKnlaOq_o-7J`
+4. Copy the **Authorization URL** and **Access Token URL** values. Past these values in the Zapier integration **Step 4 Add OAuth v2 Endpoint Configuration** section. For example,\
+   Authorization URL: `https://example.rocket.chat/oauth/authorize`\
+   Access token URL: `https://example.dev.rocket.chat/oauth/token`
+5. Save the values and test the authentication.&#x20;
+6. A pop-up window opens to request access to your Rocket.Chat workspace account. Grant the access and your connection is complete!
