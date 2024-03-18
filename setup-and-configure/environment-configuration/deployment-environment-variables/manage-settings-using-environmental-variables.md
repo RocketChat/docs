@@ -107,7 +107,7 @@ This only works if the setting isn't already set; hence it's most useful for set
 
 ### Overwrite Setting
 
-You can overwrite any setting by setting an environment variable prefixed with `OOVERWRITE_SETTING_<Setting Id>`.
+You can overwrite any setting by setting an environment variable prefixed with `OVERWRITE_SETTING_<Setting Id>`.
 
 For example:
 
