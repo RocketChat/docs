@@ -461,3 +461,4 @@ redirects:
     extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian/jira-server-integration: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/atlassian-apps/jira-server.md
 
     deploy/deploy-rocket.chat/additional-deployment-methods/digitalocean: deploy/deploy-rocket.chat/additional-deployment-methods/deploy-with-digital-ocean.md
+    applicable-terms/rocket.chat-terms: applicable-terms/customer-terms-of-service.md
