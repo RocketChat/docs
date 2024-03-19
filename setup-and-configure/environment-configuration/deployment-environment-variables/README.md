@@ -4,9 +4,9 @@ description: Configuring Rocket.Chat via environment variables
 
 # Deployment Environment Variables
 
-Environmental variables can be specified to affect how the workspace is deployed or affect the workspace settings and configuration. Setting the deployment environment variables depends on the deployment method of choice. This topic takes you through the mandatory and optional deployment environment variables for you to successfully deploy your workspace as per your needs.
+Environmental variables can be specified to impact how the workspace is deployed or affect the workspace settings and configuration. Setting the deployment environment variables depends on the deployment method of choice. This topic takes you through the mandatory and optional deployment environment variables for you to successfully deploy your workspace as per your needs.
 
-Using the most common deployment method [deploy-with-docker-and-docker-compose.md](../../../deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md "mention") these variables can be set in the `compose.yml` file.
+Using the most common deployment method [deploy-with-docker-and-docker-compose.md](../../../deploy/deploy-rocket.chat/deploy-with-docker-and-docker-compose.md "mention"), these variables can be set within the `environment`  section under  `services`  in your [compose.yml file](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml).
 
 ## Mandatory Environment Variables
 
