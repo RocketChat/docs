@@ -40,6 +40,6 @@ To access OAuth setting, go to **Administration > Workspace > Settings > OAuth.*
 
 To access this setting, go to **Administration** > **Workspace** > **Settings** > **CAS**.
 
-{% content-ref url="../settings/cas.md" %}
-[cas.md](../settings/cas.md)
+{% content-ref url="../../authentication/cas.md" %}
+[cas.md](../../authentication/cas.md)
 {% endcontent-ref %}

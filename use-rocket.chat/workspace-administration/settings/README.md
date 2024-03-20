@@ -14,7 +14,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**Bots**](bots.md): Find out how to set the fields that can be utilized and referenced while developing bots.
 
-[**CAS**](cas.md): Learn how to configure Central Authentication Service to allow members to use one set of credentials to sign in to multiple sites over multiple protocols.
+[**CAS**](../../authentication/cas.md): Learn how to configure Central Authentication Service to allow members to use one set of credentials to sign in to multiple sites over multiple protocols.
 
 [**Conference Call**](../../rocket.chat-conference-call/conference-call-admin-guide/): Choose Pexip or Jitsi as conference call providers for your Rocket.Chat workspace while enabling any for direct messages, private and public rooms, and teams.
 
@@ -52,7 +52,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**OAuth**](../../authentication/oauth/): Ensure that users of your workspace can connect to it using third-party authentication providers such as Facebook, GitHub, Google, Apple, and more.
 
-[**Omnichannel**](omnichannel-admins-guide/): Explore the Omnichannel option to talk to your clients from Rocket.Chat without the need to install the messaging apps they are using, such as WhatsApp.&#x20;
+[**Omnichannel**](omnichannel-admins-guide/): Explore the Omnichannel option to talk to your clients from Rocket.Chat without the need to install the messaging apps they are using, such as WhatsApp.
 
 [**OTR**](otr.md): Under off-the-record chats, enable private, encrypted messaging in direct discussions, which are also deleted when conversations are finalized.
 
@@ -84,11 +84,11 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**User Data Download**](user-data-download.md): The ability for workspace users to download data can be controlled, and you can find it under `User Data Download.`
 
-[**Voice Channel**](../../rocket.chat-voice-channel/): Understand how to set up the Rocket.Chat voice channel in your workspace.
+[**Voice Channel**](../../rocket.chat-voice-channel): Understand how to set up the Rocket.Chat voice channel in your workspace.
 
 [**WebDav Integration**](webdav-integration.md): Learn how to enable your workspace users to add, edit, and delete files on a WebDAV server.
 
-[**WebRTC**](webrtc.md): Discover how to enable real-time communication to ensure the transmission of audio/video data and other data among browsers.&#x20;
+[**WebRTC**](webrtc.md): Discover how to enable real-time communication to ensure the transmission of audio/video data and other data among browsers.
 
 {% hint style="info" %}
 To control a user's access to any of these settings based on their role, see [settings-permission.md](../permissions/settings-permission.md "mention").

@@ -6,19 +6,13 @@ description: >-
 
 # CAS
 
-Central Authentication Service (CAS) allows users to use one set of credentials to sign in to many sites over many different protocols.
-
-Rocket.Chat includes a CAS plugin that allows you to use your existing CAS server for user authentication.
+Central Authentication Service (CAS) allows users to use one set of credentials to sign in to many sites over many different protocols. Rocket.Chat includes a CAS plugin that allows you to use your existing CAS server for user authentication.
 
 {% hint style="info" %}
 For more information on CAS, see the [CAS github repo](https://github.com/apereo/cas).
 {% endhint %}
 
 To access this setting, navigate to **Administration** > **Workspace** > **Settings** > **CAS**.
-
-{% hint style="info" %}
-Remember to hit **Save Changes** in order to apply any changes made.
-{% endhint %}
 
 Your Rocket.Chat workspace is the _CAS client_. You must provide a compatible _CAS Server_.
 
@@ -53,9 +47,11 @@ The `/cas` and `/cas/login` URLs are defaults but not mandatory. Check with your
 * **Login Button Background Color**: Sets the background color of the login button.
 * **Autoclose Login Popup**: When enabled, the popups automatically close after authenticating.
 
+Click **Save changes** once you are done.
+
 After successful configuration, your registration and login screens have the CAS button available.
 
 {% hint style="info" %}
-* CAS by ja-sig requires `ssl/tls` all connections.
+* It is recommended that you use a **Trusted CA Signed SSL Certificate**.
 * Any Drupal 7 or 8 sites can serve as a compatible CAS Server. To learn more, see the  [Drupal project guide](https://www.drupal.org/project/cas).
 {% endhint %}
