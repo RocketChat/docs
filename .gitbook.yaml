@@ -462,3 +462,4 @@ redirects:
 
     deploy/deploy-rocket.chat/additional-deployment-methods/digitalocean: deploy/deploy-rocket.chat/additional-deployment-methods/deploy-with-digital-ocean.md
     applicable-terms/rocket.chat-terms: applicable-terms/customer-terms-of-service.md
+    rocket.chat-legal/master-service-agreement-for-professional-services: applicable-terms/additional-terms/service-specific-terms/master-service-agreement-for-professional-services.md
