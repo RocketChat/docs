@@ -1,11 +1,13 @@
 # Matrix Homeserver Setup
 
-Homeservers are key components that hosts user accounts and other data related to communication. It also facilitates communication between users on different servers by relaying messages through a network of matrix servers until it reaches the destination. Rocket.Chat listens to events happening in the homeserver and sends events relayed to other networks.
+Homeservers are key components that host user accounts and other data related to communication. It also facilitates communication between users on different servers by relaying messages through a network of matrix servers until it reaches the destination. Rocket.Chat listens to events happening in the homeserver and sends events relayed to other networks. For further details, see [Homeserver](https://matrix.org/docs/matrix-concepts/elements-of-matrix/#homeserver).
 
-You can set up your federated Rocket.Chat workspace using any of the following methods:
+This page guides you through the steps to set up your federated Rocket.Chat workspace using any of the following methods:
 
 * [**Automated Installation**](./#automated-installation): Install Synapse and Rocket.Chat using a simple setup script.
 * [**Manual Installation**](./#standalone-manual-installation): Manually install and configure your Homeserver with Rocket.Chat.
+
+In the installation methods, along with Matrix, we are using Element and Traefik to configure a federated workspace.
 
 {% hint style="success" %}
 We recommend using[ automatic installation](./#automated-installation) since this comes with some pre-configurations.
@@ -46,81 +48,85 @@ allow_public_rooms_over_federation: true
 
 The automated install offers a simple option to install a matrix homeserver pre-configured with Rocket.Chat.
 
-**Prerequisites**
+### **Prerequisites**
 
 You are required to have the following on your system before installing.
 
-* [Docker](https://www.docker.com/) and [Docker compose](https://docs.docker.com/compose/) (> 2.3.3)
-
-{% hint style="info" %}
-If you don't have them installed, you can conveniently set them up using Docker's official helper script:
-
-```bash
-curl -L https://get.docker.com | sh
-```
-
-* To run Docker commands without using sudo, add the current user to the Docker group and then reboot using the following commands:
-
-```bash
-sudo usermod -aG docker $USER
-sudo reboot
-```
-{% endhint %}
-
 * A domain pointing to your server's IP.
+*   [Docker](https://www.docker.com/) and [Docker compose](https://docs.docker.com/compose/) (> 2.3.3)\
 
-### Installation Steps
 
-* Open your terminal in any directory of your choice.
-* Download and execute the [script](https://go.rocket.chat/i/federation-setup) by running the following command. This creates a `docker-compose` and a `.env` file that can be edited as needed
+    If you don't have them installed, you can conveniently set them up using Docker's official helper script:
+
+    ```bash
+    curl -L https://get.docker.com | sh
+    ```
+
+    \
+    To run Docker commands without using sudo, add the current user to the Docker group and then reboot using the following commands:
+
+    ```bash
+    sudo usermod -aG docker $USER
+    sudo reboot
+    ```
+
+### Installation steps
+
+1. Open your terminal in any directory of your choice.
+2. Download and execute the [script](https://go.rocket.chat/i/federation-setup) by running the following command. This creates a `docker-compose` and a `.env` file that can be edited as needed.
 
 ```bash
 bash <(curl -L -s https://go.rocket.chat/i/federation-setup)
 ```
 
-* Follow the instructions provided by the script to configure the workspace:
-  * **Server's hostname**: Add your domain name.
-  * Create `A` domain records pointing to your server's IP address as requested.
-    * `synapse.<your-domain>`
-    * `element.<your-domain>`
-    * `traefik.<your-domain>`
-  * Enter your email address. This is used to issue an SSL certificate for your domain.
-* To install the latest[ version](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) of Rocket.Chat, navigate to the  `.env` file, and replace these variables as shown below:&#x20;
+3. Follow the instructions provided by the script to configure the workspace:
+   1. **Server's hostname**: Add your domain name.
+   2. Create `A` domain records pointing to your server's IP address as requested.
+      1. `synapse.<your-domain>`
+      2. `element.<your-domain>`
+      3. `traefik.<your-domain>`
+   3. Enter your email address. This is used to issue an SSL certificate for your domain.
+4. To install the latest[ version](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) of Rocket.Chat, navigate to the  `.env` file, and replace these variables as shown below:&#x20;
 
-```
+```bash
 RC_IMAGE=registry.rocket.chat/rocketchat/rocket.chat:latest
 ROCKETCHAT_IMAGE_TAG=latest
 ```
 
 {% hint style="info" %}
-To install a specific version of Rocket.Chat, replace `latest`  with the [docker image tag](https://hub.docker.com/\_/rocket.chat/tags) of your preferred version.
+To install a specific version of Rocket.Chat, replace `latest` with the [docker image tag](https://hub.docker.com/\_/rocket.chat/tags) of your preferred version.
 {% endhint %}
 
-* Start the container by running the following command:
+5. Start the container by running the following command:
 
 ```bash
 docker compose up -d
 ```
 
-{% hint style="success" %}
-Installing with the Automated setup automatically sets the values at **Administration** > **Workspace** > **Settings** > **Federation** > **Matrix Bridge.**
-{% endhint %}
+### **Test the setup**
 
-{% hint style="info" %}
-Rocket.Chat Matrix setup CLI is coming soon!
-{% endhint %}
-
-**Testing the Setup**
-
-To test and ensure your Matrix setup is successful,
-
-* Download and execute the test script in the same directory where the setup was initiated.
+To test and ensure your Matrix setup is successful, download and execute the test script in the same directory where the setup was initiated using the following command:
 
 ```bash
 bash <(curl -L -s https://go.rocket.chat/i/federation-test)
 ```
 
-* You get a notice about the setup status.
+You get a notice about the setup status. This concludes the automated setup. Access your federated workspace at the domain! By default, the first user to log in is the workspace administrator.&#x20;
+
+### Next steps
+
+Now that your federated workspace is ready, you can:
+
+* View the configuration details from **Administration** > **Workspace** > **Settings** > **Federation**.
+* [Allow or block](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/federation/matrix-bridge/matrix-admin-guide/matrix-homeserver-setup/matrix-allow-block-list) specific IP addresses to communicate with your workspace.
+* Go to the [Matrix User's Guide](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/federation/matrix-bridge/matrix-users-guide) to learn how to invite external users, join channels on the Matrix network, and so on.
+
+{% hint style="info" %}
+* Installing with the Automated setup automatically sets the values at **Administration** > **Workspace** > **Settings** > **Federation** > **Matrix Bridge**.
+* Rocket.Chat Matrix setup CLI is coming soon!
+{% endhint %}
+
+The following section guides you through the manual installation steps for a federated workspace.
 
 ## Standalone Manual installation
 
