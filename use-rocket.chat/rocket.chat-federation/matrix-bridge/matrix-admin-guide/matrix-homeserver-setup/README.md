@@ -272,12 +272,12 @@ Additionally, it's recommended to use the complete directory path for your nginx
 docker run --name nginx --network rocketchat -p 443:443 -p 80:80 -v ./nginx.conf:/etc/nginx/nginx.conf:ro -v ./cert2/fullchain.pem:/cert/certificate.crt:ro -v ./cert2/privkey.pem:/cert/private.key:ro -d nginx
 ```
 
-* Visit your domain URL in a web browser  to access your Rocket.Chat workspace. Complete the [#setup-wizard](../../../../../../../setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard.md#setup-wizard "mention") and your workspace will be set up and ready to use.
+* Visit your domain URL in a web browser  to access your Rocket.Chat workspace. Complete the [#setup-wizard](../../../../../setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard.md#setup-wizard "mention") and your workspace will be set up and ready to use.
 
 **Configure Rocket.Chat Matrix Bridge**
 
 {% hint style="warning" %}
-Before you proceed, subscribe to any of our [premium plans ](../../../../../../../readme/our-plans.md)or [apply trial ](../../../../../../../setup-and-configure/trials/)on your workspace to unlock all the available federation features.
+Before you proceed, subscribe to any of our [premium plans ](../../../../../readme/our-plans.md)or [apply trial ](../../../../../setup-and-configure/trials/)on your workspace to unlock all the available federation features.
 {% endhint %}
 
 See [matrix-bridge-configuration.md](../matrix-bridge-configuration.md "mention") to learn more about the configurations and their definitions.
@@ -294,11 +294,11 @@ Now that your workspace is set up, navigate to **Administration** > **Workspace*
 Be cautious not to include "https://" before your homeserver domain.
 {% endhint %}
 
-<figure><img src="../../../../../../../.gitbook/assets/matrix-bridge-config.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/matrix-bridge-config.png" alt=""><figcaption></figcaption></figure>
 
 * Save your changes and copy the contents of your registration file.                                                     &#x20;
 
-<figure><img src="../../../../../../../.gitbook/assets/image (613).png" alt=""><figcaption><p>App Service Registration File content</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (613).png" alt=""><figcaption><p>App Service Registration File content</p></figcaption></figure>
 
 * [Configure ](https://matrix-org.github.io/synapse/latest/application\_services.html)the support for [Application Service](https://matrix.org/docs/guides/application-services) on the matrix home server by creating a `registration.yaml` file in the _**data**_ directory that was created for synapse earlier and paste the contents of the registration file.&#x20;
 
@@ -335,7 +335,7 @@ For testing the Matrix setup, you can use the  [Matrix Federation Tester](https:
 For more real-time testing, visit [Element](https://app.element.io/) and complete these steps:
 
 * Create a user using matrix.org as a homeserver (assuming the default whitelisted matrix.org is still set on your matrix homeserver)
-* [Start a direct message](../../../../../../user-guides/rooms/direct-messages/) from your Rocket.Chat workspace with the user you just created using their matrixId _(@username:matrix.org)._
+* [Start a direct message](../../../../user-guides/rooms/direct-messages/) from your Rocket.Chat workspace with the user you just created using their matrixId _(@username:matrix.org)._
 * Check [Element](https://app.element.io/) to confirm that you received the DM from your Rocket.Chat user. You can choose to respond to the message from [Element](https://app.element.io/) and confirm that you can receive the response in your Rocket.Chat workspace.&#x20;
 
 {% hint style="success" %}
@@ -479,11 +479,11 @@ docker restart nginx
   * **Homeserver Domain**: \<your domain>
   * **Bridge URL**: http://nginx:3300
 
-<figure><img src="../../../../../../../.gitbook/assets/cluster-installation-config.png" alt=""><figcaption><p>Matrix Bridge configurations</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/cluster-installation-config.png" alt=""><figcaption><p>Matrix Bridge configurations</p></figcaption></figure>
 
 * Save your changes and copy the contents of your registration file.
 
-<figure><img src="../../../../../../../.gitbook/assets/registration-file.png" alt=""><figcaption><p>Registration File</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/registration-file.png" alt=""><figcaption><p>Registration File</p></figcaption></figure>
 
 * Paste the contents in the  `data/registration.yaml` file .
 * Now restart the rocketchat and synapse containers with these commands:
@@ -515,5 +515,5 @@ If you had a [cluster set](./#clustered-manual-installation),  you also need to 
 {% endhint %}
 
 {% hint style="success" %}
-See [federation-faqs.md](../../../../../../../resources/frequently-asked-questions/federation-faqs.md "mention") for more troubleshooting tips.
+See [federation-faqs.md](../../../../../resources/frequently-asked-questions/federation-faqs.md "mention") for more troubleshooting tips.
 {% endhint %}

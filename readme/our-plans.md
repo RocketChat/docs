@@ -52,7 +52,7 @@ Your workspace will be automatically provisioned a free **Starter** plan license
 * **Premium Features**: Comprehensive access to premium features, including read receipts and multiple queues.
 * **Notifications & Apps**: Unlimited push notifications and a wide selection of [apps](../extend-rocket.chat-capabilities/rocket.chat-marketplace/).
 * **Channel Access**: Full access to all channels, including WhatsApp (omnichannel).
-* **Matrix Federation**: Complete [Matrix Federation](../use-rocket.chat/rocket.chat-federation.md) support.
+* **Matrix Federation**: Complete [Matrix Federation](../use-rocket.chat/rocket.chat-federation/) support.
 
 **Usage and Scalability:**
 

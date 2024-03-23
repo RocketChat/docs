@@ -10,7 +10,7 @@ description: Federation shows statistics about the federation connection on your
 The **Federation** menu is displayed only when [Federation](workspace.md#federation-info) is enabled in the workspace.
 {% endhint %}
 
-With the Rocket.Chat [Federation Setup](settings/federation/), you can configure your server to communicate seamlessly with other servers.
+With the Rocket.Chat [Federation Setup](broken-reference), you can configure your server to communicate seamlessly with other servers.
 
 To access the dashboard, go to **Administration** > **Workspace** > **Federation.**
 
@@ -19,5 +19,5 @@ To access the dashboard, go to **Administration** > **Workspace** > **Federation
 * **Number of federated servers**: The number of federated servers your workspace has communicated with.
 
 {% hint style="success" %}
-See [rocket.chat-federation.md](../rocket.chat-federation.md "mention") to explore the various federation features and the [plans](../../readme/our-plans.md) they're supported in.
+See [rocket.chat-federation](../rocket.chat-federation/ "mention") to explore the various federation features and the [plans](../../readme/our-plans.md) they're supported in.
 {% endhint %}

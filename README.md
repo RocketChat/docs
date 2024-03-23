@@ -36,7 +36,7 @@ As of December 15, 2023, Rocket.Chat has ceased support for connections from clo
 ### **Resources at Your Fingertips**
 
 * [**User Guides**](use-rocket.chat/user-guides/): From basic navigation to advanced features, find everything you need to make the most of Rocket.Chat.
-* **Features**: Benefit from the extensive array of features offered by Rocket.Chat, including,  [rocket.chat-conference-call](use-rocket.chat/rocket.chat-conference-call/ "mention"),[rocket.chat-federation.md](use-rocket.chat/rocket.chat-federation.md "mention"), [rocket.chat-voice-channel](use-rocket.chat/rocket.chat-voice-channel/ "mention"), [analytics.md](use-rocket.chat/workspace-administration/settings/analytics.md "mention"), [authentication-across-plans.md](use-rocket.chat/authentication/authentication-across-plans.md "mention").
+* **Features**: Benefit from the extensive array of features offered by Rocket.Chat, including,  [rocket.chat-conference-call](use-rocket.chat/rocket.chat-conference-call/ "mention"),[rocket.chat-federation](use-rocket.chat/rocket.chat-federation/ "mention"), [rocket.chat-voice-channel](use-rocket.chat/rocket.chat-voice-channel/ "mention"), [analytics.md](use-rocket.chat/workspace-administration/settings/analytics.md "mention"), [authentication-across-plans.md](use-rocket.chat/authentication/authentication-across-plans.md "mention").
 * [**Developer Documentation**](resources/developer-documentation.md): Dive into our developer resources for custom integrations and extensions.
 * [**Support**](customer-center/support-center/): Our dedicated support structure is here to assist you every step of the way.
 
