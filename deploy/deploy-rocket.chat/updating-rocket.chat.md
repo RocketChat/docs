@@ -22,7 +22,7 @@ For example, if you are update your workspace from version 1.x.x to version 4.x.
 
 We recommend that you update to the latest version of the next release from your current version. Here is the recommended path:&#x20;
 
-<figure><img src="../../.gitbook/assets/upgrade-path.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/update-rc-path.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Skipping intermediate major versions, such as updating directly from 1.x.x to 4.x.x, can lead to problems because the software in 4.x.x may not be compatible with the data or settings that you have in 1.x.x.
