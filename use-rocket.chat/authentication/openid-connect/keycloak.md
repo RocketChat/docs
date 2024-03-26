@@ -33,20 +33,66 @@ To access the URL paths provided in the configurations, go to **Realm Settings >
 
 A **Login with Keycloak** button is displayed on your workspace's login page. Users can now log in with their Keycloak credentials!
 
-## Mapping non-federated Keycloak user roles to Rocket.Chat roles
-
-Client-specific roles of a Keycloak-managed user can be mapped to Rocket.Chat roles. This does not work for federated users (LDAP-managed users). For this example, to map the `admin` and `livechat-manager` [role](../../workspace-administration/permissions/#roles), add the required roles to the client.
-
-To create a role in Keycloak, follow these steps:
-
-* Navigate to **Roles** and click **Add Role.**
-* Fill in the name and description of the role, and then click **Save**.
-* Add a mapper entry that maps our client roles to OpenID, passing the value to Rocket.Chat.
-
-To view all the client roles you have created, navigate to **Roles** and click **View all roles**.
-
-You can also create composite roles. A composite role is a role that can be associated with other roles. To define composite roles, navigate to **Roles > Composite Roles**. To grant the Rocket.Chat role to a user, we have to modify the user's **Role Mappings**.
-
 {% hint style="info" %}
 For more information on Keycloak server setup and roles, see [Server Administration Guide](https://www.keycloak.org/docs/latest/server\_admin/#keycloak-features-and-concepts).
 {% endhint %}
+
+## Advanced configuration
+
+In this section, we talk about some advanced configuration options to map and sync your user data.
+
+### Map Keycloak groups to Rocket.Chat rooms
+
+Let's say that you want to add users from a Keycloak group to Rocket.Chat rooms. For this, keep the following points in mind:
+
+* The **Map Roles/Groups to channels** field must be enabled.
+* Provide the Keycloak groups in the **Roles/Groups field for channel mapping** in the OAuth settings.&#x20;
+* In the **OAuth Group Channel Map** field, enter the group to rooms mapping data in the JSON format. From this mapping, users that belong to the specific Keycloak groups are inserted into all the associated Rocket.Chat rooms. For example, the mapping can look like this:
+
+```json
+{
+    "keycloak-group": ["rocket-chat-room-name-1", "rocket-chat-room-name-2"]
+}
+// users in the "keycloak-group" are added to the specified rooms
+```
+
+If any of the rooms don't exist, Rocket.Chat creates the rooms as public rooms when a user from the Keycloak group logs in.
+
+Note that user groups would not be returned from the Keycloak OAuth response by default. So let's look at an example of how to get the groups from Keycloak.
+
+1. In Keycloak, create a group. For example, `Managers`. Let some users be added to this group. We will map this group to Rocket.Chat rooms.
+2. Add a client scope for the group for Rocket.Chat to retrieve, and enter the required information. For example, create a client scope called `groups`.
+
+<figure><img src="../../../.gitbook/assets/de 2024-03-18 00-03-41.png" alt=""><figcaption></figcaption></figure>
+
+3. Now go to **Mappers** > **Add Mapper** > **By Configuration** > **Group Membership**. Fill in the details of the group membership called `groups`. The following screenshot shows an example:
+
+<figure><img src="../../../.gitbook/assets/de 2024-03-18 00-05-51.png" alt=""><figcaption></figcaption></figure>
+
+4. After saving this, go to **Clients** and select the client you are using for the Rocket.Chat workspace.
+5. Go to the **Client scopes** tab and click **Add client scope**. Select the client scope for the group that you just created; in this example, `groups`.
+
+Our Keycloak group is ready to be mapped to Rocket.Chat. In your workspace OAuth settings, enter the following details:
+
+* **Roles/Groups field for channel mapping**: `groups`
+* Enable the **Map Roles/Groups to channels** setting.
+* Enter the following in the **OAuth Group Channel Map** field:
+
+```json
+{
+    "/Managers": "managers-channel"
+}
+```
+
+The following screenshot shows the example:
+
+<figure><img src="../../../.gitbook/assets/de 2024-03-18 00-10-22 (1).png" alt=""><figcaption></figcaption></figure>
+
+Save your changes. In this way, all users from the **Managers** group are mapped to the `managers-channel` room.
+
+### Merge and sync roles from Keycloak to Rocket.Chat
+
+* The **Merge Roles from SSO** option merges and mirrors the Keycloak user roles in the Rocket.Chat workspace. If you add or remove roles in Keycloak, this is replicated in Rocket.Chat.&#x20;
+* In the **Roles to Sync** field, you can specify a list of role names to be mirrored on every new user login and sync.&#x20;
+
+Make sure that you create roles in Rocket.Chat with the same names as in Keycloak for this to work successfully.
