@@ -67,7 +67,7 @@ Note that user groups would not be returned from the Keycloak OAuth response by 
 
 3. Now go to **Mappers** > **Add Mapper** > **By Configuration** > **Group Membership**. Fill in the details of the group membership called `groups`. The following screenshot shows an example:
 
-<figure><img src="../../../.gitbook/assets/de 2024-03-18 00-05-51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/step3.png" alt=""><figcaption></figcaption></figure>
 
 4. After saving this, go to **Clients** and select the client you are using for the Rocket.Chat workspace.
 5. Go to the **Client scopes** tab and click **Add client scope**. Select the client scope for the group that you just created; in this example, `groups`.
@@ -80,18 +80,21 @@ Our Keycloak group is ready to be mapped to Rocket.Chat. In your workspace OAuth
 
 ```json
 {
-    "/Managers": "managers-channel"
+    "Managers": "managers-channel"
 }
 ```
 
 The following screenshot shows the example:
 
-<figure><img src="../../../.gitbook/assets/de 2024-03-18 00-10-22 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/oauth-screen.png" alt=""><figcaption></figcaption></figure>
 
 Save your changes. In this way, all users from the **Managers** group are mapped to the `managers-channel` room.
 
 ### Merge and sync roles from Keycloak to Rocket.Chat
 
+Keep the following points in mind:
+
+* You must set the **Roles/Groups field name** field as `groups`.
 * The **Merge Roles from SSO** option merges and mirrors the Keycloak user roles in the Rocket.Chat workspace. If you add or remove roles in Keycloak, this is replicated in Rocket.Chat.&#x20;
 * In the **Roles to Sync** field, you can specify a list of role names to be mirrored on every new user login and sync.&#x20;
 
