@@ -26,7 +26,7 @@ To obtain official support, installations must meet specific requirements, ensur
 {% endcontent-ref %}
 
 {% hint style="warning" %}
-Always update to the latest stable version before reporting any bugs or before asking for help from the community.
+Before an app version reaches its end-of-life (EOL), it's crucial to upgrade to ensure you continue to receive official support and have the latest security features. This is particularly important for white-label app users, as they might not receive automatic updates. Ensure you follow the version support dates to maintain optimum app performance and security standards.
 {% endhint %}
 
 ### Version End-of-Life
