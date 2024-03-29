@@ -229,7 +229,7 @@ To get HTTPS, ensure the correct A record (optionally CNAME) is set for your dom
   * `LETSENCRYPT_EMAIL`: Your required email for the TLS certificates.
   * `DOMAIN`: Your domain or subdomain name only. Avoid adding https:// or any trailing slashes. Confirm that this domain resolves to the server IP address.
   * `RELEASE` : Your preferred Rocket.Chat release. See the [releases page](https://github.com/RocketChat/Rocket.Chat/releases) to know more about our releases.
-  * `DOMAIN` : Set the value to "[https://your-domain.com](https://your-domain.com/)," replacing "your-domain.com" with the domain name you want to use.
+  * `ROOT_URL` : Set the value to "[https://your-domain.com](https://your-domain.com/)," replacing "your-domain.com" with the domain name you want to use.
   * `BIND_IP`: Set to `127.0.0.1` .
 
 ```
