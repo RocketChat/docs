@@ -2,7 +2,7 @@
 
 Custom fields can be added to receive additional information from visitors during registration before initiating a Live Chat conversation or used to set other properties of a visitor/room. They can be set upon a **Visitor** or **Room.**
 
-To access this menu, go to **Administration > Omnichannel > Custom Fields**. Here, you can **View**, **Create New**, **Edit,** or **Delete** an existing field.
+To access this menu, go to **Administration > Omnichannel > Custom Fields**. You can **View**, **Create New**, **Edit,** or **Delete** an existing field here.
 
 {% hint style="info" %}
 The Live Chat registration form has the **Name**, **Email**, and **I need Help With…**(Department) fields by default.
@@ -25,13 +25,13 @@ To create a new custom field:
 * **Visible:** Whether or not to make it visible
 * **Searchable**: This lets you set if searching in the [Omnichannel Contact Center](../omnichannel-agents-guides/omnichannel-contact-center/) can be done with the custom field.
 
-### Enterprise Edition Omnichannel Custom Fields![](<../../.gitbook/assets/2022-01-23\_20-47-25 (1).png>)
+### Enterprise Edition Omnichannel Custom Fields ![](<../../.gitbook/assets/2022-01-23\_20-47-25 (1).png>)
 
 {% hint style="warning" %}
 The rest of the settings (mentioned below) are **Enterprise** only.
 {% endhint %}
 
-* **Validation**: This lets you set validation Validation.
+* **Validation**: This lets you set validation.
 * **Required**: When enabled, the field will be set as required.
 * **Type**: Choose the input type (`Input/Select`) of the field
 * **Default value**: Set the default value of the field
@@ -44,8 +44,8 @@ When a custom field is created and made public, any value supplied in that field
 
 To edit an Omnichannel Custom Field:
 
-* Click on the field you want yo update.
-* A section is opened with all the current details of that field which can be modified. Update the field and click **Save**.
+* Click on the field you want to update.
+* A section is opened with all the current details of that field, which can be modified. Update the field and click **Save**.
 
 ## Delete Omnichannel Custom Field
 
