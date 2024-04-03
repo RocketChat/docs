@@ -18,7 +18,7 @@ To create a new Omnichannel Live Chat Trigger:
 * **Name**: Name your new trigger.
 * **Description**: Allows you set the description of the trigger.
 * **Condition**: Allows you set the condition for which the action will be triggered. Depending on what condition to track, you can set additional properties for validation.
-  * **Visitor Page URL**: It allows you to enter a regex to describe the website page you want the action to occur. For example, if you own a website called _xyz.com_ and you only want the live chat widget action to occur on one specific page _(xyz.com/contact)_, not on any other pages, select **Visitor Page URL** and define the regex in the **Action** field. For this example, the regex should look like `.*/contact`.
+  * **Visitor Page URL**: This setting lets you specify a regular expression (regex) describing the website page where you want the live chat widget trigger to occur. For instance, if your website is xyz.com and you wish for the trigger to occur only on a specific page (xyz.com/contact) and not on any other pages, select "**Visitor Page URL**" and enter the regex. In this scenario, the regex should be `.*/contact`_._  Alternatively, if you want the trigger action to occur on all your website pages, the regex should be  `.*`.
   * **Visitor Time on Site**: The action occurs after the specified time in seconds once the customer visits your website.
   * **Chat Open by Visitor**: The action occurs when the customer/visitor opens a new chat.
   * **After Guest Registration**: The action occurs after a guest submits the LiveChat registration form.
