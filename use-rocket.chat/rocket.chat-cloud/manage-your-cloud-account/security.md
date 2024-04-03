@@ -1,3 +1,7 @@
+---
+description: Manage the security of your Rocket.Chat Cloud account.
+---
+
 # Security
 
 Rocket.Chat prioritizes data security in all of our services and offers robust security measures to protect your data in your Rocket.Chat cloud account. In this section, learn how to manage the security settings of your account.

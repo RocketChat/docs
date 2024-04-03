@@ -20,9 +20,7 @@ Remember always to hit **Save Changes** to apply any changes made.
 *   **Accepted Media Types**: Use this setting to define the files the users can upload.
 
     > Comma-separated list of media types. Leave it blank for accepting all media types.
-*   **Blocked Media Types**: Define what types of files are blocked on the workspace.
-
-    > Comma-separated list of media types. This setting has priority over the Accepted Media Types.
+* **Blocked Media Types**: Define what types of files are blocked on the workspace. Enter the MIME type, separated by commas, with or without spaces. This setting has priority over the **Accepted Media Types**. For example, `text/plain,image/jpeg,video/mp4`. This blocks `.txt`, `.jpeg`, `.jpg` and, `.mp4` files.
 * **Protect Uploaded Files**
   * **Yes**: Only authenticated users can have access to the uploaded files.
   * **No**: If in possession of the uploaded file's URL, unauthenticated users can access and download said files.
