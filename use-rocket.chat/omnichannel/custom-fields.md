@@ -28,10 +28,10 @@ To create a new custom field:
 ### Enterprise Edition Omnichannel Custom Fields ![](<../../.gitbook/assets/2022-01-23\_20-47-25 (1).png>)
 
 {% hint style="warning" %}
-The rest of the settings (mentioned below) are **Enterprise** only.
+The following settings are **Enterprise** only.
 {% endhint %}
 
-* **Validation**: This lets you set validation.
+* **Validation**: Validate the values entered for the custom field by using regular expressions. For example, `[a-z]`. This means that the custom field only accepts lowercase letters. Any other characters will display an error message.
 * **Required**: When enabled, the field will be set as required.
 * **Type**: Choose the input type (`Input/Select`) of the field
 * **Default value**: Set the default value of the field
