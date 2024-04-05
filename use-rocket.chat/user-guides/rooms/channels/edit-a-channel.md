@@ -31,6 +31,22 @@ Alternatively, enter the command `/part` or `/leave` in the message input box to
 A channel owner can not leave a channel until they set someone else as the owner of that channel.
 {% endhint %}
 
+## Star Messages in Channel
+
+You can star important messages in a channel to easily access them later. Starred messages are identified by a small star ⭐ by the side.
+
+To star a message,&#x20;
+
+* Click the **three-dot icon** when you hover over the message. Then, select **Star.**
+
+To un-star a message,&#x20;
+
+* Click the **three-dot icon** when you hover over the message. Then, select Remove S**tar.**
+
+To view all stared messages,&#x20;
+
+* Click on the **three-dot** icon of the **Channel** menu bar and select **Starred Messages.** A list of all stared messages are displayed.
+
 ## Prune Messages from a Channel
 
 If you are a server admin, or your admin has given you the **clean-channel-history** permission, the **prune messages** option allows you to delete messages from a channel swiftly.

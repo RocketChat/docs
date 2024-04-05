@@ -129,5 +129,3 @@ To un-star a message,&#x20;
 To view all stared messages,&#x20;
 
 * Click on the **three-dot** icon of the **DM**  menu bar and select **Starred Messages.** A list of all stared messages are displayed.
-
-##

@@ -7,6 +7,22 @@ To edit a discussion,&#x20;
 * Update the required details.
 * Click **Save.**
 
+## Star Messages in Discussion
+
+You can always star important messages in a discussion to easily find them later. Starred messages are identified by a small star ⭐ by the side.
+
+To star a message,&#x20;
+
+* Click the **three-dot icon** when you hover over the message. Then, select **Star.**
+
+To un-star a message,&#x20;
+
+* Click the **three-dot icon** when you hover over the message. Then, select Remove S**tar.**
+
+To view all stared messages,&#x20;
+
+* Click on the **three-dot** icon of the **Discussion** menu bar and select **Starred Messages.** A list of all stared messages is displayed.
+
 ## Prune Messages from a Discussion
 
 If you are a server admin, or your admin has given you the **clean-discussion-history** [permission](../../../workspace-administration/permissions/), the **prune messages** option allows you to delete messages from a discussion swiftly.

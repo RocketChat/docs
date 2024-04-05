@@ -58,3 +58,19 @@ When a team is archived, it is converted to read-only and is no longer open to a
 {% hint style="info" %}
 To unarchive a team, toggle off the **Archive** option.
 {% endhint %}
+
+## Star Messages in a Team
+
+You can always star important messages in a team to easily find them later. Starred messages are identified by a small star ⭐ by the side.
+
+To star a message,&#x20;
+
+* Click the **three-dot icon** when you hover over the message. Then, select **Star.**
+
+To un-star a message,&#x20;
+
+* Click the **three-dot icon** when you hover over the message. Then, select Remove S**tar.**
+
+To view all stared messages,&#x20;
+
+* Click on the **three-dot** icon of the **Team** menu bar and select **Starred Messages.** A list of all stared messages is displayed.
