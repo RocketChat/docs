@@ -10,7 +10,7 @@ This guide shows how you can set up a custom OAuth integration between Microsoft
 * An Azure Active Directory app.
 * An application ID and client secret.
   * If you don't have an app, log in to the Azure Portal and navigate to the **Microsoft Entra ID** tab.
-  * Create a new **App Registration**.
+  * Create a new [App Registration](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app).
   * Fill in the details. You will get the redirect URI from your Rocker.Chat workspace when you[#create-custom-o365-oauth](ms-office-365-custom-oauth-setup.md#create-custom-o365-oauth "mention").
   * After registering your new app, take note of **Application (client) ID**. It will be needed to configure the integration later.
   * On your new app's page, go to the **Certificates and Secret** tab to create a **New client secret**.
@@ -37,10 +37,10 @@ In your workspace, set the following fields as per your requirements.
 * **Identity Token Sent Via**: Select whether you want to send the identify token via `Payload`, `Header`, or keep it **Same as "Token Sent Via"** field value.
 * **Identity Path**: `/openid/userinfo`
 * **Authorize Path**: `/oauth2/authorize`
-* **Scope**: `openid`
+* **Scope**: `openid profile email`
 * **Param Name for access token**: `access_token`
 * **Id**: `<Your Azure AD Application (client) ID>`
-* **Secret**: `<Your Azure AD client secret>`
+* **Secret**: `<Your Azure AD client secret value>`
 * **Login style**: Select the login style as `Popup`, `Redirect`, or `Default`.
 * **Button Text**: Enter some text to display on the button. For example, `Login via Microsoft`.
 * **Merge Users**: True
