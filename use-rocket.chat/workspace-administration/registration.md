@@ -1,5 +1,13 @@
 # Registration
 
+{% hint style="warning" %}
+&#x20;![](<../../.gitbook/assets/Deprecated (1).png>)
+
+The **Registration** tab has been deprecated since the 6.5.0 version. Use the [Subscription](https://docs.rocket.chat/use-rocket.chat/workspace-administration/subscription) tab instead.&#x20;
+
+To learn about the version support window, see [Support Prerequisites and Version Durability](https://docs.rocket.chat/customer-center/support-center/premium-support-plans/support-prerequisites-and-version-durability).
+{% endhint %}
+
 Rocket.Chat Registration gives you access to connect your workplace to [Rocket.Chat Cloud](https://cloud.rocket.chat/).
 
 To access this menu,
