@@ -44,12 +44,12 @@ Use an external frame to embed Rocket.Chat into your own solution or interact wi
 * **External frame URL**: Add the URL of your external frame.
 * **Encryption key (JWK)**: If provided, it encrypts the user's token with the provided key, and the external system needs to decrypt the data to access the token.
 
-## Live Chat
+## Livechat
 
-Manage Omnichannel Live Chat settings.
+Manage Omnichannel Livechat settings.
 
-* **Livechat Title**: The title shown on your Live Chat widget.
-* **Livechat title background color**: The Live Chat background color.
+* **Livechat Title**: The title shown on your Livechat widget.
+* **Livechat title background color**: The Livechat background color.
 * **Enable message character limit**: Toggle on to enable the message character limit.
 * **Livechat message character limit**: Set a limit on message characters allowed on the visitor.
 * **Display Offline Form**: When enabled, the offline form is displayed to visitors when there is no available agent.
@@ -57,11 +57,11 @@ Manage Omnichannel Live Chat settings.
 * **Validate Email Address**: When turned on, the visitor's email address is validated.
 * **Offline Form Unavailable Message**: A message to show when the online form is unavailable.
 * **Title**: The offline form title.
-* **Color**: The style color of the Live Chat widget. This also changes the color of the Live Chat icon.
+* **Color**: The style color of the Livechat widget. This also changes the color of the Livechat icon.
 * **Instructions**: Instructions to your visitor to fill out the form to send a message.
 * **Email Address to Send Offline Messages**: An email address to which you want all offline messages to be sent.
-* **Offline Success Message**: A message seen by the visitor after successfully sending an offline message.
-* **Allow Visitor to Switch Departments**: When enabled, Live Chat visitors can switch departments.
+* **Offline Success Message**: The message seen by the visitor after successfully sending an offline message.
+* **Allow Visitor to Switch Departments**: When enabled, Livechat visitors can switch departments.
 * **Show agent information**: Enable this to show information about the agent attending to a visitor in the Live Chat widget.
 * **Show agent email**: When set to true, the Omnichannel Agent's email is displayed to the visitor.
 * **Conversation Finished Message**: Set a message to be sent to a visitor when the conversation is finished.
@@ -69,14 +69,28 @@ Manage Omnichannel Live Chat settings.
 * **Show Pre-registration Form**: This lets you set whether or not to show the pre-registration form.
 * **Show name field**: Toggle to show or hide the name field.
 * **Show email field**: Toggle to show or hide the email field.
-* **Monitor History for Changes on**: This lets you monitor history changes on Page URL or Page Title.
+* **Monitor History for Changes on**: This lets you monitor history changes on the Page URL or Page Title.
 * **Send Visitor Navigation History as a Message**: When set to true, you can send a visitor's navigation history to them as a message.
 * **Registration Form Message**: The message seen on the registration form.
-* **Livechat Allowed Domains**: Comma-separated list of domains allowed to embed the Live Chat widget. Leave blank to allow all domains.
-* **Send Livechat offline messages to a channel**: Whether to send Live Chat offline message to a channel.
-* **Channel Name**: The channel to which Live Chat offline messages should be sent to.
+* **Livechat Allowed Domains**: Comma-separated list of domains allowed to embed the Livechat widget. Leave blank to allow all domains.
+* **Send Livechat offline messages to a channel**: Whether to send Livechat offline message to a channel.
+* **Channel Name**: The channel to which Livechat offline messages should be sent.
+* **Livechat Widget Additional Scripts**: Use this setting to add additional JavaScript scripts to the widget bundle. You can add a list of scripts by separating them with commas, for example: `https://yourUrl/customScript1.js,https://yourUrl/customScript2.js`
+* **Livechat Widget Additional CSS**: Use this setting to add additional CSS to the widget bundle. You can add a list of CSS files by separating them with commas, for example: `https://yourUrl/customFile1.css,https://yourUrl/customFile2.css`
+* **Livechat widget position on the screen**: ![](../../../../.gitbook/assets/Premium.svg) Select the position of the widget on your site - `Left` or `Right`. The widget is displayed at the bottom of the page.
+* **Livechat background**: ![](../../../../.gitbook/assets/Premium.svg) Enter the widget background color as hexadecimal (`#F5455C`), a color name (`red`), or an image using a URL (`url('https://example.com/image.png')`). This field follows CSS standards. See the [background property documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/background) for details.
+* **Hide system messages**: ![](../../../../.gitbook/assets/Premium.svg) Select the system messages that you want to hide in the livechat conversations in the widget. The options are as follows:
+  * `Hide "User Join" messages`
+  * `Hide "User Leave" messages`
+  * `Hide "Conversation finished" messages`
+  * `Hide "Conversation started" messages`
+  * `Hide "Conversation transfered" messages`
+* **Hide "powered by Rocket.Chat"**: ![](../../../../.gitbook/assets/Premium.svg) Enable this option to hide the watermark in the widget.
+* **Livechat widget logo (svg, png, jpg)**: ![](../../../../.gitbook/assets/Premium.svg) Change the logo of the widget. By default, the following widget logo is displayed:
 
-See how to [install the Live Chat widget](../../../omnichannel/livechat-widget-installation.md) and manage the [Live Chat appearance](../../../omnichannel/livechat-widget-appearance.md) on this [Omnichannel guide](../../../omnichannel/).
+<figure><img src="../../../../.gitbook/assets/widgetlogo.png" alt=""><figcaption></figcaption></figure>
+
+See how to [install the Livechat widget](../../../omnichannel/livechat-widget-installation.md) and manage the [Livechat appearance](../../../omnichannel/livechat-widget-appearance.md) on this [Omnichannel guide](../../../omnichannel/).
 
 ## Business Hour
 
