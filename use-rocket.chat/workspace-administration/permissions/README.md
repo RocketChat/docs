@@ -2,68 +2,21 @@
 
 Permissions play a crucial role in maintaining the security and integrity of your workspace, ensuring that users have the right level of access to various functionalities and resources. Rocket.Chat provides a comprehensive permission-based framework for managing access to various features within your workspace.&#x20;
 
-To access the **Permissions** menu,
+The permissions are assigned to roles. Users with the roles will have access to the permissions. Workspace administrators and users with the permissions can modify the roles and related permissions. To learn about roles in detail, see [Roles in Rocket.Chat](https://docs.rocket.chat/setup-and-configure/roles-in-rocket.chat).
 
-* Navigate to **Administration** > **Workspace** > **Permissions**
+To access the **Permissions** menu, go to **Administration** > **Workspace** > **Permissions**.
 
 {% hint style="success" %}
-Permission updates take effect instantly and visibly, without requiring users to log out, sign in again, or refresh the system.
-{% endhint %}
-
-## Roles
-
-A role refers to a set of permissions and privileges assigned to a user or group of users that determine the actions and features the user can access and control within the workspace.
-
-{% hint style="info" %}
-See [roles-in-rocket.chat.md](../../../setup-and-configure/roles-in-rocket.chat.md "mention") to learn more about roles.
-{% endhint %}
-
-### Scope of Roles
-
-Rocket.Chat roles are categorized into **Global** and **Room** scopes.
-
-**Global Scope**
-
-Global Scope roles are designed to provide users with permissions that apply to the entire workspace; _for example — `Admin`_. They can be assigned permissions relevant at the server level and not specific to individual [rooms](../rooms.md) or [channels](../../user-guides/rooms/channels/). For example, **Create a Team** is a permission that is applicable server-wide, enabling users to create teams regardless of the room or channel they are currently in.
-
-**Room Scope**
-
-Room scope roles are designed to provide users with specific permissions within individual [rooms](../rooms.md), _for example - `Moderator`_. Room scope permissions are helpful when managing room-specific activities and interactions. For example, you can assign the **Edit Room** permission to a **Moderator** role. However, a user must be set as a moderator in a room before they can edit that room information.
-
-{% hint style="info" %}
-While you can globally assign some room roles to a user when creating or editing the user, it takes effect once the role is assigned to that user in a specific room.
-{% endhint %}
-
-#### **Default Roles**
-
-Every Rocket.chat workspace has some default roles, which include the following:
-
-* **admin** (Global scope) - Have access to all settings and workspace administrator tools.
-* **moderator** (Room scope) - Have moderation permissions for a channel. It must be assigned by the [room](../../user-guides/rooms/) owner.
-* **owner** (Room scope) - Have owner permissions for a room. Users who create a room become the owner of that room. They can also assign more owners for that room.
-* **user** (Global scope) - Normal user rights. Most users receive this role when registering in the workspace.
-* **bot** (Global scope) - Special Role for bot users, with some permissions related to bot functionality.
-* **leader** (Room scope) - It is used when setting a `leader` in a [room](../rooms.md). Leaders appear on the header of a channel.
-* **anonymous** (Global scope) - Unauthenticated users that access the workspace when the `Allow Anonymous Read` setting is activated.
-* **guest** (Global scope) - Anonymous users that want to write and participate in rooms when the `Allow Anonymous Read` and `Allow Anonymous Write` settings are activated.
-* **livechat-agent** (Global scope) - Omnichannel [agents](../../omnichannel/agents.md). They can answer to Live Chat requests.
-* **livechat-manager** (Global scope) - Omnichannel [managers](../../omnichannel/managers.md), can manage agents and guests.
-* **livechat-guest** (Global scope) - Users coming from a Live Chat room.
-
-To **edit/delete a role**,
-
-* Click the role.
-* Update the required details and click **Save** to edit the role**.**
-* Click **Delete** to delete the role.
-* Click **Users in Role** to see the users who have been assigned to that particular role.
-
-{% hint style="info" %}
-For information on creating custom roles, see [Custom Roles](../../user-management/custom-roles.md).
+Permission updates take effect instantly without requiring users to log out, sign in again, or refresh the system.
 {% endhint %}
 
 ## Permissions&#x20;
 
-The permissions you can assign to a role on your workspace include the following:
+The permissions you can assign to a [role](https://docs.rocket.chat/setup-and-configure/roles-in-rocket.chat) on your workspace include the following:
+
+{% hint style="info" %}
+The list of permissions is not comprehensive.
+{% endhint %}
 
 | Name                                                                  | Codebase Name                                    | Purpose                                                                                                                                                                                                                                                                                                          |
 | --------------------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
