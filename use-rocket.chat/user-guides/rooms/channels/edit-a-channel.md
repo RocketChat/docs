@@ -2,7 +2,7 @@
 
 To edit a public or private channel:
 
-* Click the **Room Information** icon from the menu bar to view the Channel information. (link channel info).
+* Click the **Room Information** icon from the menu bar to view the [Channel information](./#channel-information).
 * Click **Edit** to edit the Channel information.&#x20;
 * Update the Channel information.
 * Click **Save.**
@@ -21,7 +21,7 @@ Select the Rocket.Chat action alerts to hide. For example—"Hide User Joined me
 
 ## Hide or Leave a Channel
 
-* To **Hide** or **Leave** a channel, click the **three dots** icon next to the delete button on the **Channel Information** page.
+* To **Hide** or **Leave** a channel, click the **kebab** icon next to the delete button on the **Channel Information** page.
 * Select **Hide** or **Leave** from the dropdown options.
 * To unhide a channel, you may search for it in your Rocket.Chat workspace.
 
@@ -37,19 +37,19 @@ You can star important messages in a channel to easily access them later. Starre
 
 To star a message,&#x20;
 
-* Click the **three-dot icon** when you hover over the message. Then, select **Star.**
+* Click the **kebab icon** when you hover over the message. Then, select **Star.**
 
 To un-star a message,&#x20;
 
-* Click the **three-dot icon** when you hover over the message. Then, select Remove S**tar.**
+* Click the **kebab icon** when you hover over the message. Then, select Remove S**tar.**
 
 To view all stared messages,&#x20;
 
-* Click on the **three-dot** icon of the **Channel** menu bar and select **Starred Messages.** A list of all stared messages are displayed.
+* Click on the **kebab icon** of the **Channel** menu bar and select **Starred Messages.** A list of all stared messages are displayed.
 
 ## Prune Messages from a Channel
 
-If you are a server admin, or your admin has given you the **clean-channel-history** permission, the **prune messages** option allows you to delete messages from a channel swiftly.
+If you are a workspace admin or are assigned the **clean-channel-history** permission, the **prune messages** option allows you to swiftly delete messages from a channel.
 
 {% hint style="info" %}
 _Pruned messages and files are deleted forever and cannot be recovered. You are advised to use this feature with extra caution._
@@ -70,7 +70,7 @@ You can update the notification preference for a channel you belong to. By defau
 
 To update channel notification preferences,&#x20;
 
-* Click the **three dots** icon at the menu bar of the channel.
+* Click the **kebab icon** at the menu bar of the channel.
 * Select **Notification Preferences**.
 
 The notification options include the following:

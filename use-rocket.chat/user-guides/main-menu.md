@@ -20,7 +20,7 @@ The <img src="../../.gitbook/assets/directory-icon.png" alt="" data-size="line">
 
 ### Display
 
-The <img src="../../.gitbook/assets/display-icon.png" alt="" data-size="line">**Display icon** controls the display settings of your workspace sidebar, allowing you to customize how chats are presented. Click on the display icon to access display settings. You can customize how conversations are displayed, sorted, and grouped in your workspace.
+The <img src="../../.gitbook/assets/display-icon.png" alt="" data-size="line">**Display icon** controls the display settings of your workspace sidebar, allowing you to customize how chats are presented. You can customize how conversations are displayed, sorted, and grouped in your workspace.
 
 ### Create New
 
@@ -28,4 +28,4 @@ Click the <img src="../../.gitbook/assets/create-new-icon.png" alt="" data-size=
 
 ### Administration
 
-Click the **kebab icon** to access the administration panel. The options displayed for a user vary depending on the permission assigned to them. The **Administration** tab is available for workspace administrators to manage workspace and [omnichannel](../omnichannel/) settings. The **Apps** tab provides the option to manage [apps](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/) in your workspace. The **Audit** tab is available for auditors in the workspace to[ audit messages](../user-management/message-auditor/) and review the [audit log history](../user-management/message-auditor/audit-logs.md).&#x20;
+Click the **kebab icon** to access the administration panel. The options displayed for a user vary depending on the permission assigned to them. The **Administration** tab allows workspace administrators to manage workspace and [omnichannel](../omnichannel/) settings. The **Apps** tab provides the option to explore [Rocket.Chat marketplace](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/) and manage [apps](../../extend-rocket.chat-capabilities/rocket.chat-marketplace/) in your workspace. The **Audit** tab is available for auditors in the workspace to[ audit messages](../user-management/message-auditor/) and review the [audit log history](../user-management/message-auditor/audit-logs.md).&#x20;

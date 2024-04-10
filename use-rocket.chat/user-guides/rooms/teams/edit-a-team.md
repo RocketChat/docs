@@ -41,10 +41,10 @@ When leaving a team, you have the option to decide if you want to continue in th
 
 Once you delete a team, the associated chat content and configurations will also be deleted. You also have the option to keep or delete team channels. If you delete a team and decide to keep the channels, those will go to the workspace. A team can only be deleted by the team owner.
 
-* Click the **Team Information** icon, then click **Delete** next to **Edit.**
+* Click the **Team Information** icon, then click **Delete.**
 
 {% hint style="danger" %}
-hinThis action can not be undone.
+This action can not be undone.
 {% endhint %}
 
 ## Archive A Team  <a href="#archive-a-team" id="archive-a-team"></a>

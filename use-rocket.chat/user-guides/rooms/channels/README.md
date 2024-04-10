@@ -4,25 +4,19 @@ Channels are chat rooms with useful features designed to increase communication 
 
 ## Type Of Channels
 
-Teams can be made private or public. The list of channels is displayed on the sidebar of your workspace. **Public Channels** are listed first, followed by **private Channels**, in alphabetical order.
+Channels can be made **private** or **public**. The list of channels that you are a part of can be found on the sidebar of your workspace.
 
 ### Public Channels
 
 **Public Channels** are **open for all members of a Rocket.Chat workspace** to join, and anything posted is searchable by all members. They are identified by: ![](../../../../.gitbook/assets/2021-12-23\_19-51-58.png)
 
-Channels make it easy to find out what's going on with your team. New members can join a channel and read all the information previously shared by other users. Public conversations help you build your organization's knowledge base with minimal effort. For example, create a channel for a company department or to discuss a specific programming language.
+Channels make finding out what's going on with your team is easy. New members can join a channel and read all the information previously shared by other users. Public conversations help you build your organization's knowledge base with minimal effort. For example, create a channel for a company department or to discuss a specific programming language.
 
+### Private Channels
 
+**Private Channels** are closed channels. They are only visible to their members. Use private channels for sensitive, confidential subjects that are not open to all members. They are identified by: ![](../../../../.gitbook/assets/2021-12-23\_19-50-54.png)
 
-{% hint style="success" %}
-Users mentioned in a thread inside a **public channel** are automatically added to that channel.
-{% endhint %}
-
-### Private Channels&#x20;
-
-**Private Channels** are closed channels. They are only visible only to their members. Use private channels for sensitive, confidential subjects that are not open to all members. They are identified by: ![](../../../../.gitbook/assets/2021-12-23\_19-50-54.png)
-
-Private channels are joined through invitation only. The administrator sets the permissions that determine who can invite others to the channel. Only administrators, room owners, and moderators can invite others to private rooms by default.&#x20;
+Private channels are joined through invitation only. The administrator sets the permissions determining who can invite others to the channel. Only administrators, room owners, and moderators can invite others to private rooms by default.
 
 ## Channel Privacy and Encryption
 
@@ -62,5 +56,5 @@ If a [Retention Policy](../../../workspace-administration/settings/retention-pol
 {% endhint %}
 
 {% hint style="info" %}
-Learn about Rocket.Chat [Room Roles.](../room-roles.md)&#x20;
+Learn about Rocket.Chat [Room Roles.](../room-roles.md)
 {% endhint %}

@@ -1,9 +1,9 @@
 # End to End Encryption User Guide
 
-When E2E is enabled on your workspace, users can create encrypted rooms and send encrypted messages.
+When E2E is enabled on your workspace, users can create encrypted rooms and send encrypted messages. To use E2E Encryption, your workspace administrator must turn on the [e2e-encryption.md](../../workspace-administration/settings/e2e-encryption.md "mention") feature.
 
-{% hint style="info" %}
-**IMPORTANT:** **E2E encryption functionality is currently in beta** and includes notable restrictions that workspace owners should carefully consider before activating this feature for production use as follow:
+{% hint style="warning" %}
+**E2E encryption functionality is currently in beta** and includes the following notable restrictions that workspace owners should carefully consider before activating this feature for production use:
 
 * E2E encrypted messages will not appear in search operations.
 * Bots or other ancillary systems interacting via webhooks or REST API cannot read E2EE encrypted messages.
@@ -11,50 +11,63 @@ When E2E is enabled on your workspace, users can create encrypted rooms and send
 * Rocket.Chat enables users to reset their private E2E key to avoid permanent data loss during the beta period.
 {% endhint %}
 
-## Getting started
+### Save your E2E encryption password
 
-To use E2E Encryption, your Rocket.Chat workspace administrator must [turn on the End to End Encryption](../../workspace-administration/settings/e2e-encryption.md) feature.
+Once E2E is enabled in your workspace, a **Save your encryption password** banner is displayed at the top of your workspace.
 
-{% content-ref url="../../workspace-administration/settings/e2e-encryption.md" %}
-[e2e-encryption.md](../../workspace-administration/settings/e2e-encryption.md)
-{% endcontent-ref %}
+{% hint style="warning" %}
+The encryption password is displayed only once. Therefore, it is essential to save it securely as you will require it to decode or encode encrypted messages on your workspace from any client.
+{% endhint %}
 
-### Set E2E Encryption Password
+To save this password,
 
-If E2E Encryption is enabled on your workspace, you see a banner notifying you to **Enter your E2E Password.**
+* Click the **Save your encryption password** banner. It displays a modal with the encryption password.
+* Hit **copy password** and save the password securely
+* Finally, click on the **I have Saved my Password** button to confirm
 
-* Click on the banner
-* A modal is displayed with **your password.**
-* Copy and store the password securely. You'll need it when using Rocket.Chat on another device.
-* Confirm by clicking on **I Saved My Password.**
+### Enter your E2E encryption password
 
-### Changing Encryption Password
+After [saving your encryption password](end-to-end-encryption-user-guide.md#save-your-e2e-encryption-password), an **Enter E2E password** banner is displayed at the top of your workspace whenever you log in to your account.
 
-To change your Encryption password,
+To access your encrypted messages, enter your E2E encryption password following these steps:
+
+* Click on the **Enter E2E password** banner
+* A modal is displayed, prompting you to input your encryption password
+* Enter the password you saved earlier
+* Hit the **Decode Key** button.
+
+### Change Encryption Password
+
+To set a new encryption password,
 
 * Click your avatar and select **My Account**.
 * Navigate to **Security > E2E Encryption**.
-* Set the **new encryption password**
+* Fill in the **new encryption password** and **confirm new encryption password.**
 * Click **Save changes.**
 
-## Starting an End to End Conversation
-
-To create an End to End Encrypted room,&#x20;
-
-* Follow this guide [create-a-new-channel.md](../rooms/channels/create-a-new-channel.md "mention") to create a room.
-* Enable **Encrypted.**
-
-## Convert an existing room to use End to End encryption
-
 {% hint style="info" %}
-&#x20;It must be a [private room](../rooms/channels/#private-channels).
+You can only change your encryption password in a client where you have already entered the existing password.
 {% endhint %}
 
-To convert an existing room to an encrypted room,
+### Create an Encrypted Room
 
-* Make sure you have entered your E2E Encryption password.
-* Click the **three dots icon** at the menu bar of the channel.
-* Click **Enable E2E** or **Disable E2E**
+E2E is only available for DMs, private [channels](../rooms/channels/), and private [teams](../rooms/teams/).
+
+To create an encrypted [channel](../rooms/channels/create-a-new-channel.md) or [team](../rooms/teams/create-a-new-team.md),&#x20;
+
+* Enable the **Encrypted** option while [creating the room](../rooms/channels/create-a-new-channel.md).
+
+### Enable/Disable E2E in an existing room
+
+{% hint style="info" %}
+You can only enable E2E in [private rooms](../rooms/channels/#private-channels).
+{% endhint %}
+
+To enable/disable E2E in an existing room,
+
+* Ensure you have [entered your E2E Encryption password](end-to-end-encryption-user-guide.md#enter-your-e2e-encryption-password).
+* Click the kebab menu from the room header
+* Select **Enable E2E** or **Disable E2E**
 
 ## FAQ
 

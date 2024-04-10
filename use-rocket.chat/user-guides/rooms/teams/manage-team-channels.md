@@ -9,8 +9,8 @@ Here are some essential details to know about **Team Channels**.
 * Teams may have their own [channels](../channels/), but not all channels belong to a team.
 * Teams can have both [public channels](../channels/#public-channels) and [private channels](../channels/#private-channels).
 * Teams can have [Auto-join channels](manage-team-channels.md#team-auto-join-channels) where members are automatically added to, upon joining the team.
-* It is possible to add all team members to a channel
-* It’s possible to add users outside the team to the team’s channels
+* You can add all team members to a channel
+* You cann add users outside the team to the team’s channels
 
 {% hint style="info" %}
 A team can have a maximum of 100 channels.

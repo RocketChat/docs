@@ -14,12 +14,10 @@ OTR messages can help exchange confidential information between users without cr
 In contrast to OTR, _end-to-end encrypted messages_ have a record on the server (in the form of the encrypted message string) and are persistent.
 {% endhint %}
 
-## Getting started
+## Prerequisites
 
-Prerequisites for using OTR are:
-
-* OTR has been enabled by your server administrator (if not, you will not be able to see OTR in the DM context menu)
-* a direct message (DM) room with only one other participant
+* OTR has been enabled by your workspace administrator (if not, you will not be able to see OTR in the DM context menu)
+* a [direct message (DM)](../rooms/direct-messages/) room with only one other participant
 * you and your DM-partner have entered their [end-to-end encryption key](../security-bundle/end-to-end-encryption-user-guide.md)
 * you and your DM-partner are both online
 

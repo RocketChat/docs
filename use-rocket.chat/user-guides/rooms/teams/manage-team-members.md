@@ -31,7 +31,6 @@ Depending on how long you want an invite link to last, you can edit the invite l
 
 #### Delete Invite Link
 
-\
 To delete an invite link, see [Delete an Invite Record via Admin Panel](../../../workspace-administration/invites.md#delete-a-record). This feature comes in handy when you have an invite link with an **Expiration date: Never**. To avoid abuse, you can revoke it by deleting the invite record.
 
 ### Manually Adding Users

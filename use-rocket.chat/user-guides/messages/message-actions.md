@@ -20,7 +20,7 @@ The workspace administrator can assign [permissions](../../workspace-administrat
 
 ### Draft messages
 
-Rocket.Chat saves all message drafts so you can return to edit later.&#x20;
+Rocket.Chat saves message drafts so you can return to edit later.&#x20;
 
 ### Delete messages
 
@@ -62,9 +62,9 @@ Use **Reply in Thread** to start a new [thread ](../rooms/threads/)under the ori
 
 To report offensive messages, click **Report** from the message actions menu.
 
-To report a user, click the user icon and see the full profile of the user. A **User Info** pane opens on the right-hand side. Click the kebab icon and click **Report**.&#x20;
+To report a user, click the user icon and see the user's full profile. A **User Info** panel opens on the right-hand side. Click the kebab icon and click **Report**.&#x20;
 
-Workspace admins, moderators, and users with permissions can access the [**Moderation**](../../workspace-administration/moderation.md) tab to view the details of the reported messages and users.
+Workspace admins, moderators, and users with appropriate permissions can access the [**Moderation**](../../workspace-administration/moderation.md) tab to review the details of the reported messages and users.
 
 ### Message Info
 

@@ -4,7 +4,7 @@
 
 To update the general notification preferences for your account,
 
-* Click your **avatar** from the sidebar to access the [user panel](https://docs.rocket.chat/use-rocket.chat/user-guides/user-panel).
+* Click your **avatar icon** from the main menu to access the [user panel](https://docs.rocket.chat/use-rocket.chat/user-guides/user-panel).
 * Select <img src="../../.gitbook/assets/image (197).png" alt="" data-size="line">**My Account**.
 * Click **Preferences**, then select **Notifications.**
 
@@ -17,7 +17,7 @@ To configure notifications within a room or channel,
 * Click the **kebab menu** at the menu bar of the room.
 * Select <img src="../../.gitbook/assets/image (1228).png" alt="" data-size="line">**Notification Preferences**.
 
-You can toggle on/off for any of these actions:  receiving alerts,  mute `@here` and `@all` mentions, and mark a room as unread when there are unread messages.
+You can toggle on/off for any of these actions:  receiving alerts,  mute `@here` and `@all` mentions, and mark a room as unread when there are unread messages. You can also set the type of messages to trigger **desktop**, **push**, and **email notifications.**
 
 Room notifications are only sent when the desktop/web client goes without use for more than five minutes. Changing your status to "Away" does not speed up this countdown. Depending on the privacy settings set by the administrator, the sender, room name, or the first line of the message is displayed as a notification on your mobile device.
 
@@ -31,7 +31,7 @@ Depending on your notification preference, you receive notifications on your mob
 
 ## Emails
 
-Direct messages or mentions notifications are only sent to your email address if your web client is connected.
+Direct messages or mention notifications are only sent to your email address if you are offline.
 
 ## Mentions
 
