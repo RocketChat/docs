@@ -14,7 +14,7 @@ Nextcloud is an open-source storage, collaboration, and communication tool. Rock
 * Navigate to **OAuth** settings (**Administration > Workspace > Settings > OAuth)** in your workspace.
 * In the **Nextcloud** tab, enable OAuth.
 * Fill in your **Nextcloud Server URL**, **Nextcloud Id**, and **Client secret**.
-* You can also modify how the sign-in button looks. Enter the values for the **Button Text**, **Button Text Color**, and **Button Color**.
+* You can also modify how the sign-in button looks. Enter the value for the **Button Text** setting.
 * Click **Save Changes**.&#x20;
 
 A **Sign in with Nextcloud** button appears on your workspace's login page. Users can now **Sign in with Nextcloud** by clicking that button!

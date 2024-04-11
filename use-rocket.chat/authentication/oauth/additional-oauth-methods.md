@@ -76,8 +76,6 @@ To enable Dolphin OAuth in your workspace,
   * **Secret**: Dolphin connect secret.
   * **Login Style**: A dropdown to select the login style. You can choose **Redirect**, **Popup**, or the **Default** option.
   * **Button Text**: Text to be displayed on the OAuth button.
-  * **Button Text Color**: The text color in the OAuth button.
-  * **Button Color**: Color of the button.
 
 ## Custom OAuth: Okta
 

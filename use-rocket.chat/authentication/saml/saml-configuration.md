@@ -94,8 +94,6 @@ The settings on the **Premium** tab are only available to workspaces on any of t
 ### User Interface
 
 * **Button Text**: Text to display on the button.
-* **Button Text Color**: Set the button text color.
-* **Button Color**: The button color.
 
 ### Behavior
 

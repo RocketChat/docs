@@ -43,8 +43,6 @@ The `/cas` and `/cas/login` URLs are defaults but not mandatory. Check with your
 * **Login Popup Width**: Lets you set the width in `px` of the popup screen during login.
 * **Login Popup Height**: This lets you set the popup height in `px`.
 * **Login Button Label**: Set the button's label.
-* **Login Button Text Color**: Sets the login button text color from the existing variable.
-* **Login Button Background Color**: Sets the background color of the login button.
 * **Autoclose Login Popup**: When enabled, the popups automatically close after authenticating.
 
 Click **Save changes** once you are done.
