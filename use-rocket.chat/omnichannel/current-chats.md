@@ -2,28 +2,33 @@
 
 Omnichannel Current Chats contains all the existing conversations that have not been deleted.
 
-To see the current chats,&#x20;
-
-* Navigate to **Administration > Omnichannel > Current Chats**
+To see the current chats, go to **Administration** > **Omnichannel** > **Current Chats**
 
 {% hint style="info" %}
-You are required to have **View Omnichannel Contact Center** [permission ](../workspace-administration/permissions/)to access this section. Contact your workspace administrator to grant/revoke this permission.
+You must have **View Omnichannel Contact Center** [permission ](../workspace-administration/permissions/)to access this section. Contact your workspace administrator to grant/revoke this permission.
 {% endhint %}
 
-## Omnichannel Current Chat Filters
+## Current chat filters
 
 You can filter through the current chats with any of the following options:
 
-* **Sort by Guest name**: To sort the conversations by Guest/Visitor's name, enter the name in the field provided, and your conversations are sorted by visitor name.
-* **Sort by Agent**: To sort the conversations served by an [agent](agents.md), select the agent from the **Served By** dropdown field
-* **Sort by Department**: To sort the conversations by [**department**](departments.md), enter the department name in the **Department field**, and your conversations are sorted by department.
-* **Sort by Status**: To sort the conversations by Open/Closed Status, choose the desired status from the **Status dropdown field**, and your conversations are sorted. A conversation can be **Open, On Hold,** or **Closed**
-* **Sort by From and To date**: To sort the conversations per **From** and **To** date, enter the **From** and **To** Date in the field, and your conversations are sorted
+* **Guest**: To sort the conversations by the guest/visitor's name, enter the name in the field provided, and your conversations are sorted by visitor name.
+* **Served By**: To sort the conversations served by an agent, select the agent from the drop-down field.
+* **Sort by Status**: Sort the conversations by status. The options are:
+  * **All**
+  * **Open**
+  * **Closed**
+  * **On Hold**
+* **From and To date**: To sort the conversations as per **From** and **To** date, enter the dates in the fields.
+* **Department**: To sort the conversations by department, select a department name from the drop-down field.
+* **Tags**: Select the tags to filter the chat results.
+
+Additionally, you can sort the chat columns by clicking the up or down arrow next to the column name. This sorts the columns in ascending or descending order.
 
 ## Clear filters
 
-To clear the filters, click on the **three dots icon** and select **Clear filters.**
+To clear the filters, click on the three dots icon next to the **To** date field and select **Clear filters.**
 
 ## Delete all closed chats
 
-To delete closed chats, click on the **three dots icon** and select **Delete all closed chats.** This will delete all the chats that are marked closed by the agents.
+To delete closed chats, click on the three dots icon next to the **To** date field and select **Delete all closed chats.** This will delete all the chats that are marked closed by the agents.

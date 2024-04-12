@@ -2,34 +2,32 @@
 
 <figure><img src="../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
-As a Live Chat Manager, you can set Tags to be assigned to the Live Chat conversations by the agents. Tags can be used to sort Live Chat conversations easily. **Omnichannel Tags** are used for marking and classifying Omnichannel conversations.
+As a Livechat Manager, you can set tags to be assigned to the Livechat conversations by the agents. Tags can be used to sort Livechat conversations easily. **Omnichannel Tags** are used for marking and classifying Omnichannel conversations.
 
 {% hint style="info" %}
-A practical use case is using tags to mark the progress made on a Live Chat query. You can have tags like `new`, `blocked`, `in progress,` `completed` etc.
+A practical use case is using tags to mark the progress made on a Livechat query. You can have tags like `new`, `blocked`, `in progress,` `completed` etc.
 {% endhint %}
 
-To access **Tags** settings,
+To access **Tags** settings, go to **Administration > Omnichannel > Tags**.
 
-* Go to **Administration > Omnichannel > Tags**.
+## List Omnichannel tags
 
-## List Omnichannel Tags
+On the **Tags** page, you see a list of tags if they exist. Clicking on one opens up a page where it can be edited.
 
-On the Tags menu, you see a list of tags if they exist. Clicking on one opens up a page where it can be edited.
+## Create Omnichannel tags
 
-## Create Omnichannel Tags
+To create a new tag:
 
-To create a new Tag:
-
-* Click on **+ New**
-* Update the required information and click **Save**
+* Click **Create tag**.
+* Enter the following information:
   * **Name**: Enter the name you wish for the Tag
   * **Description**: A description of what the Tag is
-  * **Departments**: This lets you select a list of departments in which the Tag is available. Leave it empty to set it available to all departments.
+  * **Departments**: Select a list of departments in which the tag is available. Leave it empty to make it available for all departments.
 
-When created, [Omnichannel Agents](agents.md) can use the Tag on conversations.
+When created, Omnichannel agents can use the tag on conversations.
 
-## Delete Omnichannel Tags
+## Delete Omnichannel tags
 
 To delete an existing **Tag**,
 
-* Click on the **Delete icon** across the **Tag** from the main settings screen.
+* Click on the **Delete** icon across the **Tag** from the main settings screen.

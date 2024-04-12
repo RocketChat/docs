@@ -52,7 +52,7 @@ To access the settings page, go to **Administration** > **Workspace** > **Settin
 
 [**OAuth**](../../authentication/oauth/): Ensure that users of your workspace can connect to it using third-party authentication providers such as Facebook, GitHub, Google, Apple, and more.
 
-[**Omnichannel**](omnichannel-admins-guide/): Explore the Omnichannel option to talk to your clients from Rocket.Chat without the need to install the messaging apps they are using, such as WhatsApp.
+[**Omnichannel**](../../omnichannel/omnichannel-admins-guide/): Explore the Omnichannel option to talk to your clients from Rocket.Chat without the need to install the messaging apps they are using, such as WhatsApp.
 
 [**OTR**](otr.md): Under off-the-record chats, enable private, encrypted messaging in direct discussions, which are also deleted when conversations are finalized.
 

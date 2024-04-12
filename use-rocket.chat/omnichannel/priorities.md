@@ -6,13 +6,13 @@ OmniChannel Priorities helps you streamline conversations coming through multipl
 
 To configure **Priorities** in your workspace,
 
-* Navigate to **Administration > Workspace > Settings > Omnichannel > Queue Management**.
-* Under the **sorting mechanism**, select **priorities.** Click **Save Changes**.
-* Navigate to **Administration > Omnichannel > Priorities**. It lists the default priorities: **Highest**, **High**, **Medium**, **Low,** and **Lowest**.
+* Go to **Administration > Workspace > Settings > Omnichannel >** [**Queue Management**](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/omnichannel-admins-guide#uuvo8ic5yio).
+* For the **Sorting Mechanism** field, select **Priorities.** Click **Save Changes**.
+* Go to **Administration > Omnichannel > Priorities**. It lists the default priorities: **Highest**, **High**, **Medium**, **Low,** and **Lowest**.
 * Select a priority to edit it and customize the name.
 * Click **Reset** to return the name of all the priorities back to default.
 
-## Change the Priority of a chat
+## Change the priority of a chat
 
 To manually change the priority of a conversation,
 
@@ -24,11 +24,11 @@ To manually change the priority of a conversation,
 Organizations can benefit from automation using chatbots to determine the priority of each conversation based on the nature of its contents.
 {% endhint %}
 
-## Filter Omnichannel chats by Priorities
+## Filter Omnichannel chats by priorities
 
 As an Omnichannel [manager](managers.md), you can filter the chats based on their priorities. You can join or forward a high-priority chat to follow up and ensure they are resolved on time.
 
 To filter chats based on priorities,
 
-* Navigate to **Administration > Omnichannel > Current Chats**.
+* Go to **Administration > Omnichannel > Current Chats**.
 * You can preview the priority of each chat from this table.

@@ -6,4 +6,4 @@ To make yourself available for accepting call center calls:
 
 ![Make yourself available to take calls](<../../../.gitbook/assets/image (714).png>)
 
-An incoming call will now be forwarded to you according to the [queue and the routing system](../../workspace-administration/settings/omnichannel-admins-guide/queue-types-routing-algorithm.md) being used.
+An incoming call will now be forwarded to you according to the [queue and the routing system](../../omnichannel/omnichannel-admins-guide/queue-types-routing-algorithm.md) being used.

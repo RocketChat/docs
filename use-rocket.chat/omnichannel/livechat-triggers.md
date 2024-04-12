@@ -1,36 +1,35 @@
 # Livechat Triggers
 
-Omnichannel Live Chat Triggers are events you can set up. When these events occur, they make the Live Chat widget take action or open automatically.
+Omnichannel Livechat triggers are events you can set up. When these events occur, they make the Livechat widget take action or open automatically.
 
-To access this menu, go to **Administration > Omnichannel > Live Chat Triggers**. Here, you can **View**, **Create New**, **Edit** or **Delete** existing Live Chat Triggers.
+To access this menu, go to **Administration > Omnichannel > Livechat Triggers**. Here, you can **View**, **Create New**, **Edit**, or **Delete** existing Livechat Triggers.
 
-## Create New Omnichannel Live Chat Trigger
+## Create new Omnichannel Livechat trigger
 
-To create a new Omnichannel Live Chat Trigger:
+To create a new Omnichannel Livechat trigger, click **Create trigger** and enter the following details:
 
-* Click +**New** on the top right of the screen
-* A page for the department details is seen. Fill in these details and click **Save**
-
-### Omnichannel LiveChat Trigger Information
-
-* **Enable**: Enables the Live Chat Trigger
-* **Run only once for each visitor**: Enable to let the trigger only run once for each visitor. If false, you get a recurring pop-open. (e.g., If your user goes to a different website and comes back to the same website, it pops open).
+* **Enable**: Enables the Livechat trigger.
+* **Run only once for each visitor**: Select to have the trigger run once for each visitor. If false, you get a recurring pop-open. (For example, If your user goes to a different website and comes back to the same website, it pops open.)
 * **Name**: Name your new trigger.
-* **Description**: Allows you set the description of the trigger.
-* **Condition**: Allows you set the condition for which the action will be triggered. Depending on what condition to track, you can set additional properties for validation.
+* **Description**: Set the description of the trigger.
+* **Condition**: Select the condition for which the action will be triggered. Depending on what condition to track, you can set additional properties for validation.
   * **Visitor Page URL**: This setting lets you specify a regular expression (regex) describing the website page where you want the live chat widget trigger to occur. For instance, if your website is xyz.com and you wish for the trigger to occur only on a specific page (xyz.com/contact) and not on any other pages, select "**Visitor Page URL**" and enter the regex. In this scenario, the regex should be `.*/contact`_._  Alternatively, if you want the trigger action to occur on all your website pages, the regex should be  `.*`.
   * **Visitor Time on Site**: The action occurs after the specified time in seconds once the customer visits your website.
   * **Chat Open by Visitor**: The action occurs when the customer/visitor opens a new chat.
-  * **After Guest Registration**: The action occurs after a guest submits the LiveChat registration form.
-* **Action**: Define the action you want the Live Chat widget to perform. For now, there is only one option of sending a message to the visitor. You can also select if you want to impersonate the next available agent in the queue or use a bot/custom agent.
+  * **After Guest Registration**: The action occurs after a guest submits the Livechat registration form.
+* **Action**: Define the action you want the Livechat widget to perform. For now, there is only one option of sending a message to the visitor. You can also select if you want to impersonate the next available agent in the queue or use a bot/custom agent.
+* **Sender**: Select the sender of the trigger action:
+  * **Impersonate next agent from queue**: The next agent from the queue is impersonated as the sender.
+  * **Custom agent**: Select the custom agent as the sender of the trigger action and message.
+* **Message**: Enter a message for the trigger.
 
-## Edit Omnichannel Live Chat Trigger
+## Edit Omnichannel Livechat trigger
 
-To edit an O**mnichannel Live Chat Trigger**:
+To edit an Omnichannel Livechat trigger:
 
-* Click on the Trigger from the list of Triggers
-* A section is opened with all the current details of that Trigger, which can be modified and saved.
+* Select the trigger from the list of triggers.
+* A section is opened with all the current details of that trigger, which can be modified and saved.
 
-## Delete Omnichannel Live Chat Trigger
+## Delete Omnichannel Livechat trigger
 
-To delete an **Omnichannel Live Chat Trigger**, click on the **delete icon** by the right of the Trigger from the Triggers.
+To delete a trigger, click on the **delete** icon on the right-hand side of the trigger.

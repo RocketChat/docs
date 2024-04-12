@@ -12,6 +12,14 @@ To access this menu, navigate to **Administration** > **Workspace** > **Settings
 * **Service**: Select the available SMS services e.g `Twilio`, `Mobex`, `Voxtelesys`
 * **Omnichannel Department (Default)**: If set, all new incoming chats initiated by this integration are routed to this department.
 
+## External Frame <a href="#gdtlte4az75" id="gdtlte4az75"></a>
+
+Use an external frame to embed Rocket.Chat into your own solution or interact with your CRM.
+
+* **External frame enabled**: Turn on to enable External frame.
+* **External frame URL**: Add the URL of your external frame.
+* **Encryption key (JWK)**: If provided, it encrypts the user's token with the provided key, and the external system needs to decrypt the data to access the token.
+
 ## Mobex
 
 Create a Mobex account at [https://mobex.biz/](https://mobex.biz) and get a plan with the needed credentials to configure your Mobex SMS integration.
@@ -30,7 +38,7 @@ Create a Mobex account at [https://mobex.biz/](https://mobex.biz) and get a plan
 * **File Uploads Enabled**: When enabled, file uploads will be active in SMS
 * **Accepted Media Types**: Comma-separated list of media types. Leave it blank for accepting all media types.
 
-## Voxtelesys <a href="#1t0nl2lpq6o" id="1t0nl2lpq6o"></a>
+## Voxtelesys <a href="#id-1t0nl2lpq6o" id="id-1t0nl2lpq6o"></a>
 
 * **Auth Token**: Your Voxtelesys auth token
 * **URL**: The Voxtelesys URL e.g `https://smsapi.voxtelesys.net/api/v1/sms`

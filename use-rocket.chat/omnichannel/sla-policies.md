@@ -10,41 +10,35 @@ Omnichannel SLA Policies allow you to change the order of Omnichannel queues bas
 
 To configure **SLA Policies** in your workspace,
 
-* Navigate to **Administration > Workspace > Settings > Omnichannel > Queue Management**.
-* Under the **sorting mechanism**, select **SLA Policies.** Click **Save Changes**.
+* Go to **Administration > Workspace > Settings > Omnichannel >** [**Queue Management**](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/omnichannel-admins-guide#uuvo8ic5yio).
+* For the **Sorting Mechanism** field, select **SLA Policies.** Click **Save Changes**.
 
-## Create Omnichannel SLA Policies
+## Create Omnichannel SLA policies
 
 To create an Omnichannel **SLA Policy**,
 
-* Navigate to **Administration > Omnichannel > SLA Policies**.
-* Click on **+ New.**
-* Update the required information and click **Save.**
+* Go to **Administration > Omnichannel > SLA Policies**.
+* Click **Create SLA policy**.
+* Enter the following information:
   * **Name:** The name of the SLA Policy.
   * **Description**: The description of the SLA Policy
   * **Estimated due time**: The time in minutes for the SLA Policy.
+* Click **Save**.
 
 {% hint style="info" %}
 An SLA policy name and estimated due time are unique and can not be duplicated. Two SLA policies can not have the same name and estimated due time.
 {% endhint %}
 
-## List Omnichannel SLA Policies
-
-To view a list of all existing SLA Policies
-
-* Navigate to **Administration > Omnichannel > SLA Policies**. It lists the current SLA Policies in your workspace.
-* Click an SLA Policy to edit it and update the details.
-
 ## Delete Omnichannel SLA Policies
 
 To delete an existing **SLA Policy**,
 
-* Navigate to **Administration > Omnichannel > SLA Policies**.
-* From the SLA Policies list, click the **Delete icon** across the SLA Policy you want to delete.
+* Go to **Administration > Omnichannel > SLA Policies**.
+* From the SLA Policies list, click the **Delete** icon across the SLA Policy you want to delete.
 
-## Change the SLA Policy of a chat
+## Change the SLA policy of a chat
 
 To change the SLA policy of a conversation,
 
-* Navigate to **Room Information > Edit**.
+* Go to **Room Information > Edit**.
 * Select the SLA policy and click **Save**. After updating the SLA policy, the chat is moved to reflect its priority position to determine the [queue](../omnichannel-agents-guides/omnichannel-queue.md) order.

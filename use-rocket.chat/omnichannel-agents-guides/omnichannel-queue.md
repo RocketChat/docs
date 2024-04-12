@@ -5,7 +5,7 @@
 When you log in to your workspace as an agent and [set your status to **Available**](./#omnichannel-agent-availability)**,** to handle new conversations, <img src="../../.gitbook/assets/image (871).png" alt="" data-size="line"> icon appears on your screen.
 
 {% hint style="warning" %}
-Queues follow the [routing algorithm](../workspace-administration/settings/omnichannel-admins-guide/queue-types-routing-algorithm.md) specified by the workspace administrator.
+Queues follow the [routing algorithm](../omnichannel/omnichannel-admins-guide/queue-types-routing-algorithm.md) specified by the workspace administrator.
 {% endhint %}
 
 **As an administrator or omnichannel manager,**
