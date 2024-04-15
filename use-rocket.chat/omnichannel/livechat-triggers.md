@@ -55,6 +55,10 @@ You must set a **Secret Token** in [webhooks.md](webhooks.md "mention") before u
 
 ```
 
+{% hint style="info" %}
+To learn how to set the visitor metadata sent by Rocket.Chat, please refer to the [Livechat Widget API guide](https://developer.rocket.chat/reference/api/livechat-api#set-guest-metadata).
+{% endhint %}
+
 Rocket.Chat expects the response returned from the external service to include the trigger message in this JSON format:
 
 ```json
