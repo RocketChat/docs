@@ -10,7 +10,7 @@ Channels can be made **private** or **public**. The list of channels that you ar
 
 **Public Channels** are **open for all members of a Rocket.Chat workspace** to join, and anything posted is searchable by all members. They are identified by: ![](../../../../.gitbook/assets/2021-12-23\_19-51-58.png)
 
-Channels make finding out what's going on with your team is easy. New members can join a channel and read all the information previously shared by other users. Public conversations help you build your organization's knowledge base with minimal effort. For example, create a channel for a company department or to discuss a specific programming language.
+Channels make it easy to stay updated with your team's activities. New members can join a channel and read all the information previously shared by other users. Public conversations help you build your organization's knowledge base with minimal effort. For example, create a channel for a company department or to discuss a specific programming language.
 
 ### Private Channels
 
