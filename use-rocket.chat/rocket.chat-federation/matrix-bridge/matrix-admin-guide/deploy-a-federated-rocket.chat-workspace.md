@@ -1,16 +1,16 @@
-# Matrix Homeserver Setup
+# Deploy a Federated Rocket.Chat Workspace
 
 Homeservers are key components that host user accounts and other data related to communication. It also facilitates communication between users on different servers by relaying messages through a network of matrix servers until it reaches the destination. Rocket.Chat listens to events happening in the homeserver and sends events relayed to other networks. For further details, see [Homeserver](https://matrix.org/docs/matrix-concepts/elements-of-matrix/#homeserver).
 
 This page guides you through the steps to set up your federated Rocket.Chat workspace using any of the following methods:
 
-* [**Automated Installation**](./#automated-installation): Install Synapse and Rocket.Chat using a simple setup script.
-* [**Manual Installation**](./#standalone-manual-installation): Manually install and configure your Homeserver with Rocket.Chat.
+* [**Automated Installation**](deploy-a-federated-rocket.chat-workspace.md#automated-installation): Install Synapse and Rocket.Chat using a simple setup script.
+* [**Manual Installation**](deploy-a-federated-rocket.chat-workspace.md#standalone-manual-installation): Manually install and configure your Homeserver with Rocket.Chat.
 
 In the installation methods, along with Matrix, we are using Element and Traefik to configure a federated workspace.
 
 {% hint style="success" %}
-We recommend using[ automatic installation](./#automated-installation) since this comes with some pre-configurations.
+We recommend using[ automatic installation](deploy-a-federated-rocket.chat-workspace.md#automated-installation) since this comes with some pre-configurations.
 {% endhint %}
 
 ## System Requirements
@@ -272,15 +272,15 @@ Additionally, it's recommended to use the complete directory path for your nginx
 docker run --name nginx --network rocketchat -p 443:443 -p 80:80 -v ./nginx.conf:/etc/nginx/nginx.conf:ro -v ./cert2/fullchain.pem:/cert/certificate.crt:ro -v ./cert2/privkey.pem:/cert/private.key:ro -d nginx
 ```
 
-* Visit your domain URL in a web browser  to access your Rocket.Chat workspace. Complete the [#setup-wizard](../../../../../setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard.md#setup-wizard "mention") and your workspace will be set up and ready to use.
+* Visit your domain URL in a web browser  to access your Rocket.Chat workspace. Complete the [#setup-wizard](../../../../setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard.md#setup-wizard "mention") and your workspace will be set up and ready to use.
 
 **Configure Rocket.Chat Matrix Bridge**
 
 {% hint style="warning" %}
-Before you proceed, subscribe to any of our [premium plans ](../../../../../readme/our-plans.md)or [apply trial ](../../../../../setup-and-configure/trials/)on your workspace to unlock all the available federation features.
+Before you proceed, subscribe to any of our [premium plans ](../../../../readme/our-plans.md)or [apply trial ](../../../../setup-and-configure/trials/)on your workspace to unlock all the available federation features.
 {% endhint %}
 
-See [matrix-bridge-configuration.md](../matrix-bridge-configuration.md "mention") to learn more about the configurations and their definitions.
+See [matrix-bridge-configuration.md](matrix-bridge-configuration.md "mention") to learn more about the configurations and their definitions.
 
 Now that your workspace is set up, navigate to **Administration** > **Workspace** > **Settings** > **Federation > Matrix Bridge** and follow these steps:
 
@@ -294,11 +294,11 @@ Now that your workspace is set up, navigate to **Administration** > **Workspace*
 Be cautious not to include "https://" before your homeserver domain.
 {% endhint %}
 
-<figure><img src="../../../../../.gitbook/assets/matrix-bridge-config.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/matrix-bridge-config.png" alt=""><figcaption></figcaption></figure>
 
 * Save your changes and copy the contents of your registration file.                                                     &#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (613).png" alt=""><figcaption><p>App Service Registration File content</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (613).png" alt=""><figcaption><p>App Service Registration File content</p></figcaption></figure>
 
 * [Configure ](https://matrix-org.github.io/synapse/latest/application\_services.html)the support for [Application Service](https://matrix.org/docs/guides/application-services) on the matrix home server by creating a `registration.yaml` file in the _**data**_ directory that was created for synapse earlier and paste the contents of the registration file.&#x20;
 
@@ -321,11 +321,11 @@ docker restart rocketchat
 ```
 
 {% hint style="success" %}
-Now, you can proceed to [test your workspace setup](./#testing-the-setup).
+Now, you can proceed to [test your workspace setup](deploy-a-federated-rocket.chat-workspace.md#testing-the-setup).
 {% endhint %}
 
 {% hint style="info" %}
-To run multiple Rocket.Chat instances, see [#clustered-manual-installation](./#clustered-manual-installation "mention").
+To run multiple Rocket.Chat instances, see [#clustered-manual-installation](deploy-a-federated-rocket.chat-workspace.md#clustered-manual-installation "mention").
 {% endhint %}
 
 ## Testing your setup
@@ -335,11 +335,11 @@ For testing the Matrix setup, you can use the  [Matrix Federation Tester](https:
 For more real-time testing, visit [Element](https://app.element.io/) and complete these steps:
 
 * Create a user using matrix.org as a homeserver (assuming the default whitelisted matrix.org is still set on your matrix homeserver)
-* [Start a direct message](../../../../user-guides/rooms/direct-messages/) from your Rocket.Chat workspace with the user you just created using their matrixId _(@username:matrix.org)._
+* [Start a direct message](../../../user-guides/rooms/direct-messages/) from your Rocket.Chat workspace with the user you just created using their matrixId _(@username:matrix.org)._
 * Check [Element](https://app.element.io/) to confirm that you received the DM from your Rocket.Chat user. You can choose to respond to the message from [Element](https://app.element.io/) and confirm that you can receive the response in your Rocket.Chat workspace.&#x20;
 
 {% hint style="success" %}
-Now that your federated is successful on your workspace, see the [matrix-users-guide](../../matrix-users-guide/ "mention") to learn more about how to use federation. &#x20;
+Now that your federated is successful on your workspace, see the [matrix-user-guide](../matrix-user-guide/ "mention") to learn more about how to use federation. &#x20;
 {% endhint %}
 
 ### Use your own federation-tester
@@ -366,7 +366,7 @@ curl 'http://localhost:8080/api/report?server_name=ps-rocketchat.com'
 To distribute the work on Rocket.Chat, you run two identical Rocket.Chat applications ( _can be named `rocketchat1` and `rocketchat2`_) that both connect to the same MongoDB. To make this setup accessible externally, you use an NGINX load balancer. This load balancer acts as a single entry point, and internally it distributes the workload between the two Rocket.Chat instances.&#x20;
 
 {% hint style="warning" %}
-Before you proceed, ensure you have completed the [#standalone-manual-installation](./#standalone-manual-installation "mention").
+Before you proceed, ensure you have completed the [#standalone-manual-installation](deploy-a-federated-rocket.chat-workspace.md#standalone-manual-installation "mention").
 {% endhint %}
 
 * Start the second Rocket.Chat with this command:&#x20;
@@ -479,11 +479,11 @@ docker restart nginx
   * **Homeserver Domain**: \<your domain>
   * **Bridge URL**: http://nginx:3300
 
-<figure><img src="../../../../../.gitbook/assets/cluster-installation-config.png" alt=""><figcaption><p>Matrix Bridge configurations</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/cluster-installation-config.png" alt=""><figcaption><p>Matrix Bridge configurations</p></figcaption></figure>
 
 * Save your changes and copy the contents of your registration file.
 
-<figure><img src="../../../../../.gitbook/assets/registration-file.png" alt=""><figcaption><p>Registration File</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/registration-file.png" alt=""><figcaption><p>Registration File</p></figcaption></figure>
 
 * Paste the contents in the  `data/registration.yaml` file .
 * Now restart the rocketchat and synapse containers with these commands:
@@ -494,7 +494,7 @@ docker restart rocketchat
 docker restart rocketchat2           
 ```
 
-* Now you can proceed to [test your workspace](./#testing-your-setup) again.
+* Now you can proceed to [test your workspace](deploy-a-federated-rocket.chat-workspace.md#testing-your-setup) again.
 
 ## Reset your environment and Restart your setup&#x20;
 
@@ -511,9 +511,9 @@ sudo rm -fr data
 ```
 
 {% hint style="info" %}
-If you had a [cluster set](./#clustered-manual-installation),  you also need to stop/remove the rocketchat2 docker instance.
+If you had a [cluster set](deploy-a-federated-rocket.chat-workspace.md#clustered-manual-installation),  you also need to stop/remove the rocketchat2 docker instance.
 {% endhint %}
 
 {% hint style="success" %}
-See [federation-faqs.md](../../../../../resources/frequently-asked-questions/federation-faqs.md "mention") for more troubleshooting tips.
+See [federation-faqs](../../../../resources/frequently-asked-questions/federation-faqs/ "mention") for more troubleshooting tips.
 {% endhint %}

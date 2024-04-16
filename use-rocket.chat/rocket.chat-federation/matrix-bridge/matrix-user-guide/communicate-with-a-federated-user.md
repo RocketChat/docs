@@ -16,10 +16,10 @@ After you have configured everything and created some federated channels, you're
 * Edit Messages.
 * Delete Messages (only your messages).
 * Mention internal and external users inside any federated room.
-* Send and receive users' [typing indicator](../matrix-admin-guide/matrix-homeserver-setup/#important-warning-about-the-installation).
+* Send and receive users' [typing indicator](../matrix-admin-guide/deploy-a-federated-rocket.chat-workspace.md#important-warning-about-the-installation).
 * [Assign user roles](assign-roles-for-users-in-federated-rooms.md) within the room context.
 
 There are also some features not directly related to rooms:
 
 * Users' avatar synchronization.
-* Servers'[ allow list/block list](../matrix-admin-guide/matrix-homeserver-setup/matrix-allow-block-list.md).
+* Servers'[ allow list/block list](../matrix-admin-guide/federation-access-control.md).
