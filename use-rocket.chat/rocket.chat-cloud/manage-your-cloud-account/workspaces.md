@@ -20,7 +20,7 @@ Note the following points when you [deploy a new workspace](../../../deploy/depl
 * The new workspace is automatically subscribed to the [Starter plan](../../../readme/our-plans.md#starter-plan).&#x20;
 * As you exceed the scale limits of the Starter plan, your workspace is granted a 30-day Pro plan trial to explore the Rocket.Chat features that are accessible on the [Pro plan](../../../readme/our-plans.md#pro-plan).&#x20;
 * If your workspace is already subscribed to the Pro plan and you exceed the scale limits, a 30-day Enterprise trial is granted to your workspace to experience the Rocket.Chat features that are available on the [Enterprise plan](../../../readme/our-plans.md#enterprise-plan).&#x20;
-* [Cloud-hosted workspaces](https://docs.rocket.chat/customer-center/cloud-services-center/rocket.chat-cloud-hosting-service-level-agreement-sla) start off with a Pro trial, not the [Starter plan](../../../readme/our-plans.md#starter-plan).
+* [Cloud-hosted workspaces](https://docs.rocket.chat/customer-center/cloud-services-center/rocket.chat-cloud-hosting-service-level-agreement-sla) start off with a Pro trial, not the Starter plan.
 
 You can modify your workspace [plan ](../../../readme/our-plans.md)on Rocket.Chat Cloud, with the option to upgrade, downgrade, or switch to monthly or yearly plans.&#x20;
 
@@ -34,9 +34,9 @@ On the **Workspaces** tab, click **Register self-managed**. You have two options
 
 #### Continue Online with Cloud Services
 
-Online cloud services provide you with benefits such as mobile push notifications, access to marketplace apps, and communication with external providers.&#x20;
+Online cloud services provide you with benefits such as mobile push notifications, access to marketplace apps, and communication with external providers. To register, paste the **Registration Token** in your workspace from **Administration** > **Connectivity Services** > **Token**.
 
-To register, paste the **Registration Token** in your workspace from **Administration** > **Connectivity Services** > **Token**.
+Note that this option is only available for older workspaces. For details, see [Registration](https://docs.rocket.chat/use-rocket.chat/workspace-administration/registration).
 
 #### Continue Offline
 
@@ -60,7 +60,7 @@ To learn how to register an offline workspace, see [Air-gapped Workspace Registr
 * Upon successful checkout, your subscription is activated and you receive an invoice via email. If you decrease the number of already purchased seats, the cost is refunded as a credit to your Rocket.Chat Cloud account.
 {% endhint %}
 
-Once your subscription is successful, navigate to **Administration** > **Subscription** on your workspace and click **Sync license updates** to sync these changes. To cancel your subscription, refer[#cancel-workspace-subscription](../../../setup-and-configure/license-application.md#cancel-workspace-subscription "mention").
+Once your subscription is successful, go to **Administration** > **Subscription** on your workspace and click **Sync license updates** to sync these changes. To cancel your subscription, see [#cancel-workspace-subscription](../../../setup-and-configure/license-application.md#cancel-workspace-subscription "mention").
 
 ## **Workspace actions**
 
