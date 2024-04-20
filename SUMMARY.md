@@ -249,7 +249,7 @@
     * [LDAP User Search](use-rocket.chat/authentication/ldap/ldap-user-search.md)
     * [LDAP Data Sync Settings](use-rocket.chat/authentication/ldap/ldap-data-sync-settings.md)
     * [LDAP Premium Settings](use-rocket.chat/authentication/ldap/ldap-premium-settings.md)
-    * [LDAP Setup](use-rocket.chat/authentication/ldap/ldap-setup.md)
+    * [LDAP Setup Example](use-rocket.chat/authentication/ldap/ldap-setup.md)
   * [SAML](use-rocket.chat/authentication/saml/README.md)
     * [SAML Configuration](use-rocket.chat/authentication/saml/saml-configuration.md)
     * [Active Directory Federation Services](use-rocket.chat/authentication/saml/active-directory-federation-services.md)
