@@ -4,53 +4,56 @@ description: Requirements for Rocket.Chat Deployment
 
 # System Requirements
 
+This document provides an overview of the system requirements for various Rocket.Chat deployment scenarios. The specifications are meant to guide system administrators in selecting appropriate hardware and storage capacities for a stable and efficient Rocket.Chat environment.
+
 {% hint style="info" %}
-As of December 15, 2023, Rocket.Chat has ceased support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
+* It is essential to customize these requirements based on your specific needs and usage patterns.
+* Regular reviews and adjustments to your system specifications are recommended to ensure optimal performance.
+* For deployments with special requirements (such as Omnichannel, Chat Engine) or enterprise-grade setups, please consult with Rocket.Chat representatives for tailored advice.
 {% endhint %}
 
-When preparing to deploy your Rocket.Chat workspace, it's essential to consider the necessary software and hardware requirements to ensure a successful deployment.
+### Hardware Specifications
 
-These requirements vary significantly with the following:
+The hardware requirements for Rocket.Chat vary depending on the expected load and deployment scenario. Below are the specifications for different use cases:
 
-* Number of concurrently active users
-* Number of actually connected devices per user
-* Users' activities: Solely text-based messaging takes minimal resources, while file sharing and jpg uploads will consume more resources. This is because a set of computations has to be done on these files.
-* Bot or integration activity level: Different bots and integrations have different requirements.
+<figure><img src="../../.gitbook/assets/image (466).png" alt=""><figcaption></figcaption></figure>
 
-### Hardware Requirements
+<figure><img src="../../.gitbook/assets/image (538).png" alt=""><figcaption></figcaption></figure>
 
-1. **Virtual Private Server (VPS)**
+<figure><img src="../../.gitbook/assets/image (586).png" alt=""><figcaption></figcaption></figure>
 
-A VPS is a virtual machine offered as a service by a hosting provider or cloud service, allowing users to access and manage their own isolated server environment.
+### File Storage Requirements
 
-**Minimal VPS requirements**
+Rocket.Chat recommends using object storage services such as Amazon S3, GCS, or MinIO for file uploads. GridFS is not recommended for production environments, and therefore, the storage estimation is not considered. Depending on your use case, factor in the average MB/month/user to provide a realistic estimation of your storage size per year.&#x20;
 
-This minimal virtual setup, if not over-provisioned, is suitable for small deployments of up to 200 users, and 50 concurrent active users, with limited mixed uploads, sharing, and bot activities.
+#### Example Calculation:
 
-* Single-core (2 GHz)
-* 1 GB RAM
-* 30 GB of SSD
+If each user sends an average of 5 MB in attachments per month, and there are 100 concurrent users, the minimum yearly storage needed is:
 
-**Recommended VPS requirements**
+`100 users * 5 MB * 12 months = 6,000 MB or approximately 6 GB`
 
-If not over-provisioned, the recommended virtual configuration can handle small deployments with up to 500 users, 100 concurrent active users, and moderate levels of mixed uploads, sharing, and bot activities.
+For deployments over 5000 concurrent users, custom consultations are recommended. For more information visit [recommendations-for-file-upload.md](../../use-rocket.chat/workspace-administration/settings/file-upload/recommendations-for-file-upload.md "mention")
 
-* Dual-core (2 GHz)
-* 2 GB RAM
-* 40 GB of SSD
+### MongoDB Considerations
 
-2. **Small Office Server**
+A MongoDB Replica Set of 3 members is advised for high-availability scenarios to ensure sufficient space and resilience.
 
-This configuration can support a small office or group of up to 50 users, with 25 concurrently active users and moderate levels of mixed uploads, sharing, and bot activities. It relies on a managed MongoDB service ([mlab.com](https://www.mongodb.com/cloud/atlas/migrate/mlab)), as running MongoDB locally on a Pi is not advised.
+**Suggested MongoDB Atlas instance for HA:** Consider the base storage offered in the tier and adjust according to the utilization on a regular basis.
 
-* Raspberry Pi 3 or Pi 2
-* 4 cores 1 GB memory
-* 32 GB SD card ($15)
+### Rocket.Chat Specifications for Large Deployments
 
-3. **Bare-metal server**
+For use cases exceeding 5000 concurrent users, the specifications are:
 
-This minimal hardware configuration is ideal for corporate or groups with up to 1,000 users, up to 300 concurrently active, and moderate levels of mixed uploads, sharing, and bot activities.
+* vCPU: 16
+* Memory: 12 GiB
+* Storage: 40 GB
+* MongoDB Specifications per replica:
+  * vCPU: 4
+  * Memory: 16 GiB
+  * Storage: 80 GB
+* Number of MongoDB replicas needed: 3
+* File Storage (S3, GCS): `5000 users * 2 MB * 12 months = 120,000 MB or 120 GB/year (minimum)`
 
-* Intel Xeon E5-2603 v4 (or equivalent) \[1.7 GHz, 6 cores, $213 USD]
-* 4 GB RAM
-* 500 GB hard disk or larger
+{% hint style="warning" %}
+These are minimum requirements, and we recommend considering a buffer for growth.
+{% endhint %}
