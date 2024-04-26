@@ -37,7 +37,7 @@ It's an implementation of the Matrix spec, there are some existing homeservers. 
 
 <summary>What are the prerequisites for using Matrix on Rocket.Chat?</summary>
 
-See how to [install and configure](../../../use-rocket.chat/rocket.chat-federation/matrix-bridge/matrix-admin-guide/deploy-a-federated-rocket.chat-workspace.md) Rocket.Chat Matrix Bridge integration.
+See how to [install and configure](../../../use-rocket.chat/rocket.chat-federation/federation-admin-guide/deploy-a-federated-rocket.chat-workspace.md) Rocket.Chat Matrix Bridge integration.
 
 </details>
 
@@ -45,7 +45,7 @@ See how to [install and configure](../../../use-rocket.chat/rocket.chat-federati
 
 <summary>How do I test my Rocket.Chat Matrix Bridge setup?</summary>
 
-See how to [test ](../../../use-rocket.chat/rocket.chat-federation/matrix-bridge/matrix-admin-guide/deploy-a-federated-rocket.chat-workspace.md#testing-your-setup)your setup.
+See how to [test ](../../../use-rocket.chat/rocket.chat-federation/federation-admin-guide/deploy-a-federated-rocket.chat-workspace.md#testing-your-setup)your setup.
 
 </details>
 
@@ -53,7 +53,7 @@ See how to [test ](../../../use-rocket.chat/rocket.chat-federation/matrix-bridge
 
 <summary>How can I block undesired homeservers to contact me?</summary>
 
-See [how to create allow/block lists](../../../use-rocket.chat/rocket.chat-federation/matrix-bridge/matrix-admin-guide/federation-access-control.md) in your Matrix homeserver configuration.
+See [how to create allow/block lists](../../../use-rocket.chat/rocket.chat-federation/federation-admin-guide/federation-access-control.md) in your Matrix homeserver configuration.
 
 </details>
 

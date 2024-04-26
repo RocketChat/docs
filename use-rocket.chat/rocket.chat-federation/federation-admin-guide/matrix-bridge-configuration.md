@@ -4,10 +4,10 @@ description: Configure the Rocket.Chat workspace to link with your Matrix Homese
 
 # Matrix Bridge Configuration
 
-This Rocket.Chat workspace configuration to link  matrix  homeserver applies only to [#manual-installation](deploy-a-federated-rocket.chat-workspace.md#manual-installation "mention"). It is automatically done for [#automated-installation](deploy-a-federated-rocket.chat-workspace.md#automated-installation "mention").
+You don’t need to perform any additional federation configuration, as the required fields were automatically populated during the [installation of Rocket.Chat and Synapse](deploy-a-federated-rocket.chat-workspace.md).&#x20;
 
 {% hint style="warning" %}
-Subscribe to any of our [premium plans ](../../../../readme/our-plans.md)or [apply trial ](../../../../setup-and-configure/trials/)on your workspace to unlock all the available federation features.
+Subscribe to any of our [premium plans ](../../../readme/our-plans.md)or [apply trial ](../../../setup-and-configure/trials/)on your workspace to unlock all the available federation features.
 {% endhint %}
 
 To access this setting,
@@ -36,8 +36,3 @@ Increasing the maximum number may consume a large amount of the resources in you
 
 * **Registration**: Automatically generated and updated by Rocket.Chat based on all the values provided in the above settings (The [Application Service](deploy-a-federated-rocket.chat-workspace.md#manual-installation) is configured using this file).
 
-{% hint style="info" %}
-After any change is made to these settings, update the `registration.yml` file for the Application Service in `pp/matrix-federation-config`.Then restart your Matrix Homeserver and Rocket.Chat Server.
-
-To learn more, see [#standalone-manual-installation](deploy-a-federated-rocket.chat-workspace.md#standalone-manual-installation "mention").
-{% endhint %}
