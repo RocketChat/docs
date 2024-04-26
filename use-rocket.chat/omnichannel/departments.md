@@ -30,7 +30,8 @@ To create a new Omnichannel department, follow these steps:
   * **Fallback department for forwarding**: Select a fallback department for forwarding messages.
   * **Request tag(s) before closing the conversation:** Request your agent to set tags for the conversation for later searching purposes.
   * **Conversation closing tags:** As an administrator, you can add some default conversation tags for this department.
-  * Business Hour: The field is automatically populated according to the departments assigned to the [business hours](https://docs.rocket.chat/use-rocket.chat/omnichannel/business-hours).
+  * **Allow department to receive forwarded inquiries even when there's no available agents**: Enable this setting to ensure that inquiries are forwarded to a department even when there are no agents available within that department. This feature is specifically effective with [automatic assignment routing methods](omnichannel-admins-guide/queue-types-routing-algorithm.md#auto-selection) and does not apply to [manual selection](omnichannel-admins-guide/queue-types-routing-algorithm.md#manual-selection).
+  * **Business Hour**: The field is automatically populated according to the departments assigned to the [business hours](https://docs.rocket.chat/use-rocket.chat/omnichannel/business-hours).
   * **Agents:** Assign [agents](agents.md) to the department.
 * Click **Save**.
 
