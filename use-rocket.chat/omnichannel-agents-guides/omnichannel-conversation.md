@@ -2,7 +2,7 @@
 description: Learn how to handle omnichannel conversations.
 ---
 
-# Omnichannel Conversation
+# Omnichannel Conversations
 
 When you log in to your workspace as an agent and [set your status to **Available**](./#omnichannel-agent-availability)**,** to handle new conversations:
 
@@ -37,6 +37,10 @@ To forward a conversation:
 * Enter the department or the Agent to whom the conversation should be forwarded.
 * Leave a comment if necessary and click **Forward**.
 * A notification appears briefly at the top to indicate if the operation succeeded or failed.
+
+{% hint style="info" %}
+It requires the  `Transfer Livechat Guests` [permission](../workspace-administration/permissions/).
+{% endhint %}
 
 ## Conversation transcript
 
