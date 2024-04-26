@@ -3,9 +3,21 @@
 To edit a discussion,&#x20;
 
 * Click the **Room Information** icon from the top-right menu to view **Discussion Information**.&#x20;
-* Click **Edit** to edit the Room information.&#x20;
+* Click **Edit** to edit the [Discussion Information](./#discussion-information).&#x20;
 * Update the required details.
 * Click **Save.**
+
+### Other Discussion Edit Actions <a href="#other-channel-edit-actions" id="other-channel-edit-actions"></a>
+
+Some additional edit actions for a discussions include:
+
+**Password Access**
+
+Secure a discussion by setting up password access. It means users can only join the discussion with a valid password.
+
+**Hide System Messages**
+
+Select the Rocket.Chat action alerts to hide. For example—"Hide User Joined messages" will hide the alert that displays in the chat whenever a new user joins the discussion.
 
 ## Star Messages in Discussion
 

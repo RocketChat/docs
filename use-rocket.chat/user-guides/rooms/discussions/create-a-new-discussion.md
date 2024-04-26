@@ -4,7 +4,9 @@ To create a new discussion,
 
 * On the Rocket.Chat menu bar, click the **Create New** icon, then select **Discussion**.
 * Select the parent team or channel.
-* Fill in the discussion name and message, set the encryption, and invite members.
+* Fill in the discussion name and topic.
+* Add members to the discussion.
+* Add the discussion message and set the encryption.
 * Then, click **Create**.
 
 {% hint style="success" %}

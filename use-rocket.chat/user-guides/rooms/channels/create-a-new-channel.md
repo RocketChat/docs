@@ -2,10 +2,12 @@
 
 To create a new channel,
 
-* On the Rocket.Chat menu bar, click the **Create New** icon, then select **Channel**.&#x20;
-* Give the channel a name and choose if the channel is [public ](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/channels#public-channels)or [private](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/channels#private-channels).
+* On the Rocket.Chat menu bar, click the **Create New** icon, and select **Channel**.&#x20;
+* Give the channel a name and topic.&#x20;
+* Select members to be added to the channel.
+* Choose if the channel is [public ](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/channels#public-channels)or [private](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/channels#private-channels).
 * Update your preferred [privacy and encryption settings](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/channels#channel-privacy-and-encryption) for the channel.&#x20;
-* Add members to the channel. Then, click **Create**.
+* Then, click **Create**.
 
 {% hint style="info" %}
 Channels have restrictions in their naming.  To update the regex responsible for channel name validation, navigate to **Administration** > **Settings** > **General** > **UTF8**.

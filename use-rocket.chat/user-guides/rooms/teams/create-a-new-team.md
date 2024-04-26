@@ -3,9 +3,10 @@
 To create a new team:
 
 * On the Rocket.Chat menu bar, click the **Create New** icon, then select **Team**.
-* Give the team a name.
+* Give the team a name and topic.
+* Add members to the team.
 * Update your preferred [privacy and encryption settings](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/teams#team-privacy-and-encryption) for the team.
-* Add members to the team. Then, click **Create.**
+* Then, click **Create.**
 
 {% hint style="info" %}
 A team name must not include space or any special character except dash (-) and underscore(\_).

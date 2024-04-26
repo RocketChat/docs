@@ -19,4 +19,3 @@ The room information screen gives detailed information about the current discuss
 * **Private**: When enabled, makes the discussion private.
 * **Read Only**: Tells whether a discussion is read-only and toggles the read-only status on the discussion. In read-only discussions, only people with admin permissions can post messages.
 * **Archived**: Enable to archive a discussion. Nobody can post messages in an archived discussion, and searching will not find the discussion.
-* **Password**: Tells whether a discussion is protected with a password. The password is required before joining the discussion.

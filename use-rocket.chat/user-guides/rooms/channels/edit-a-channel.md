@@ -2,8 +2,8 @@
 
 To edit a public or private channel:
 
-* Click the **Room Information** icon from the menu bar to view the [Channel information](./#channel-information).
-* Click **Edit** to edit the Channel information.&#x20;
+* Click the **Room Information** icon from the menu bar to view more details about the channel.
+* Click **Edit** to edit the [Channel information](./#channel-information).&#x20;
 * Update the Channel information.
 * Click **Save.**
 
@@ -18,6 +18,10 @@ Secure a channel by setting up password access. It means users can only join the
 #### Hide System Messages
 
 Select the Rocket.Chat action alerts to hide. For example—"Hide User Joined messages" will hide the alert that displays in the chat whenever a new user joins the channel.
+
+**Allow Reacting**
+
+Allow authorized members to react to messages in a broadcast channel.
 
 ## Hide or Leave a Channel
 

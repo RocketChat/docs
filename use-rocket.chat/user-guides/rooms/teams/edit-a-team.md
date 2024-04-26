@@ -2,8 +2,8 @@
 
 To edit a [public or private](./) team:
 
-* From the top-right menu, Click **Team Information** icon to view Team information.&#x20;
-* Click **Edit** to edit the Team information.&#x20;
+* From the top-right menu, Click **Team Info** to view more details about the team.
+* Click **Edit** to edit the [Team information](./#channel-information).&#x20;
 * Update the Team information.
 * Click **Save.**
 
@@ -21,7 +21,7 @@ Select the Rocket.Chat action alerts to hide. For example—"Hide User Joined me
 
 #### **Allow Reacting**
 
-Select the options to allow authorized team members to react to messages in the team.
+Allow authorized members to react to messages in a broadcast team.
 
 {% hint style="warning" %}
 The delete and reset option is also available when editing a Team.
@@ -34,7 +34,7 @@ The delete and reset option is also available when editing a Team.
 * To unhide a team, you may search for it in your Rocket.Chat workspace.
 
 {% hint style="info" %}
-When leaving a team, you have the option to decide if you want to continue in the **Team** channels or not.
+When leaving a team, you can decide if you want to continue in the **Team** channels or not.
 {% endhint %}
 
 ## Delete A Team <a href="#delete-a-team" id="delete-a-team"></a>

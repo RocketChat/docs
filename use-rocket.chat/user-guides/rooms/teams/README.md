@@ -25,6 +25,18 @@ However, it differs from read-only teams in the following ways:
 
 Encrypted teams have end-to-end encryption enabled across all messages exchanged by the Team members.
 
+## Team Information <a href="#channel-information" id="channel-information"></a>
+
+The team information screen gives detailed information about the selected team. These details include:
+
+* **Name**: The team's name, how users see the title and find the team via search.
+* **Topic**: The topic is next to the team header's title. It is a great way to provide more information about the team.
+* **Announcement**: Announcements are highlighted in a bar under the team header.
+* **Description**: The description of the team.
+* **Private**: Select if the team is private or public.
+* **Read Only**: Tells whether a team is read-only.
+* **Archived**: Tells if a team is archived. Nobody can post messages on an archived team. A directory search will not find that team.
+
 ## Mention Teams
 
 With Teams, you don’t need to remember everyone’s name to communicate with a team quickly. Just mention a Team — @engineers, for instance — and all members will get notified instantly.
