@@ -12,7 +12,7 @@ To set up the **Authentication**, **Timeouts**, and **Encryption** settings for 
 * **Login Fallback**: Allow regular password users to log in to Rocket.Chat. It will also let LDAP users continue using Rocket.Chat if the LDAP server is down.
 
 {% hint style="info" %}
-You can refer to [LDAP Setup](ldap-setup.md) for sample values of various settings.
+You can refer to [LDAP Setup](ldap-setup-example.md) for sample values of various settings.
 {% endhint %}
 
 ## Authentication

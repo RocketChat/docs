@@ -1,8 +1,16 @@
 # LDAP Setup Example
 
-After exploring the comprehensive LDAP settings in Rocket.Chat, it's beneficial to examine practical examples of these configurations. This requires an up-and-running LDAP server, which we'll guide you through how to set up (using [Osixia OpenLDAP](https://github.com/osixia/docker-openldap)) in order to build a clearer understanding of how Rocket.Chat's LDAP settings can be applied in real-world scenarios.
+After exploring the comprehensive LDAP settings in Rocket.Chat, it's beneficial to examine practical examples of these configurations. This requires an up-and-running LDAP server, which we'll guide you through how to set up (using [**Osixia OpenLDAP**](https://github.com/osixia/docker-openldap)) in order to build a clearer understanding of how Rocket.Chat's LDAP settings can be applied in real-world scenarios.
 
-## Running an LDAP Server
+## Prerequisites
+
+You must have the following installed on your machine:
+
+1. Docker  - This will be used to locally deploy an **Osixia OpenLDAP** server.
+2. For this example, we are using Apache Directory Studio (ADS). You can also use any other LDAP data management tool (such as **phpLDAPadmin**) of your choice.
+3. Local deployment of a Rocket.Chat workspace for testing purposes.&#x20;
+
+## Run an LDAP Server
 
 Rocket.Chat allows workspace owners to connect to OpenLDAP or Active Directory LDAP servers to authenticate or retrieve information. In this first step, we'll guide you through how to set up an LDAP server using Docker and OpenLDAP, which is an open-source implementation of the LDAP protocol. For starters, navigate to your preferred directory and create a `docker-compose.yml` file with the following content:
 
@@ -27,7 +35,7 @@ services:
 
 Then, use `docker compose up` to start the container. This will locally deploy an **Osixia OpenLDAP** server running on port 389 (or 636 if the default one is unavailable).
 
-Also, for the next steps, you'll need to download and install [Apache Directory Studio](https://directory.apache.org/studio/downloads.html) (ADS), but any LDAP data management tool (such as phpLDAPadmin) will do the job. After installing, open your LDAP management tool and create a new connection (in ADS, this can be achieved through the **Connections** section) using the following information:
+Now open your LDAP management tool and create a new connection (in ADS, this can be achieved through the **Connections** section) using the following information:
 
 * **Host name:** `localhost`
 * **Port:** `389`
@@ -35,7 +43,7 @@ Also, for the next steps, you'll need to download and install [Apache Directory 
 * **Admin user's Bind DN:** `cn=admin,dc=rcldap,dc=com,dc=br`
 * **Bind password:** `admin`
 
-Apache Directory Studio's authentication model should look as follows (click "Finish" to complete the connection's setup):
+Apache Directory Studio's authentication model should look as follows (click **Finish** to complete the connection's setup):
 
 ![ADS connection setup](../../../.gitbook/assets/ldap-apache-new-connection-auth.png)
 
