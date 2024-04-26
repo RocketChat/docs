@@ -6,8 +6,18 @@ As a workspace administrator, you can view and manage all the workspaces linked 
 
 1. Log into your cloud account.
 2. Click **Workspaces** from the sidebar menu.
-3. Click on the workspace from the list of workspaces displayed.
-4. You can view the workspace [plan](../../../readme/our-plans.md), push notification limit, total usage, and push notification usage of the workspace.
+3. The list of workspaces is displayed.
+
+The following information is displayed:
+
+* The names and domains of the workspaces.
+* The region and deployment of the workspaces.&#x20;
+  * **Self-hosted/self-managed workspaces**: This refers to the workspaces that you are hosting in servers of your choice. This option supports all the plans (Community and Premium).&#x20;
+  * **SaaS cloud workspaces**: This refers to workspaces hosted by Rocket.Chat. This option supports Pro and Enterprise plans.
+* The status of the workspace.
+* The actions that are taken for the workspace. For self-managed workspaces, you can only remove the workspace. For SaaS workspaces, see [#workspace-actions](workspaces.md#workspace-actions "mention").
+
+Click any workspace. You can view the workspace [plan](../../../readme/our-plans.md), push notification limit, total usage, and push notification usage of the workspace.
 
 {% hint style="info" %}
 If you want multiple [cloud-hosted workspaces](https://docs.rocket.chat/customer-center/cloud-services-center/rocket.chat-cloud-hosting-service-level-agreement-sla) under the same cloud account, please contact us at [support@rocket.chat](mailto:support@rocket.chat).
