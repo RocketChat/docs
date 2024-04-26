@@ -75,6 +75,7 @@
 * [Trials](setup-and-configure/trials/README.md)
   * [Pro Trial](setup-and-configure/trials/pro-trial.md)
   * [Enterprise Trial](setup-and-configure/trials/enterprise-trial.md)
+  * [SaaS Trial](setup-and-configure/trials/saas-trial.md)
 * [License Application](setup-and-configure/license-application.md)
 * [Accessing Your Workspace](setup-and-configure/accessing-your-workspace/README.md)
   * [Rocket.Chat Setup Wizard](setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard.md)
