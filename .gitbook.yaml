@@ -472,3 +472,4 @@ redirects:
     guides/app-guides/omnichannel-apps/instagram-direct: extend-rocket.chat-capabilities/rocket.chat-marketplace/rocket.chat-public-apps-guides/omnichannel-apps/instagram-direct/README.md
     use-rocket.chat/rocket.chat-federation/matrix-bridge: use-rocket.chat/rocket.chat-federation/federation-admin-guide/README.md
     use-rocket.chat/rocket.chat-federation/rocket.chat-federation/cross-server-federated-channels: use-rocket.chat/rocket.chat-federation/rocket.chat-federation.md
+    use-rocket.chat/rocket.chat-federation/federation-user-guide/communicate-with-a-federated-user: use-rocket.chat/rocket.chat-federation/federation-user-guide/README.md
