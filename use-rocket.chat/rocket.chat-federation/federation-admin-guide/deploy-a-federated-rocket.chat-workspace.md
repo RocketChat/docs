@@ -2,10 +2,10 @@
 
 To configure a Matrix bridge that allows Rocket.Chat users to engage in federated rooms and communicate with federated users, a homeserver is required. [Homeservers](https://matrix.org/docs/matrix-concepts/elements-of-matrix/#homeserver) are key components that host user accounts and other data related to communication. It also facilitates communication between users on different servers by relaying messages through a network of matrix servers until they reach the destination. Rocket.Chat listens to events happening in the homeserver and sends events relayed to other networks. For further details, explore the [Rocket.Chat and Matrix architecture](https://github.com/RocketChat/federation-docs/blob/cdd9c3823e4f4329c87402640543226f8423fbd1/DESIGN.md).
 
-This documentation details the deployment of a Federated Rocket.Chat workspace with Kubernetes using Helm.  You have the option to deploy it either as a monolithic setup or as microservices.
+This documentation details the deployment of a federated Rocket.Chat workspace with Kubernetes using Helm. You have the option to set it up either as a monolithic architecture or as microservices.
 
 {% hint style="info" %}
-Before you proceed, kindly consult the official guide for[ deploying a basic Rocket.Chat workspace on Kubernetes using Helm](https://docs.google.com/document/d/1I6FmYzIiK959Nyq-PQLzbR9v8yKiuP9OryUZGOwhrNw/edit?usp=sharing) to gain a foundational understanding of the Kubernetes procedure.
+Before you proceed, kindly consult the official guide for[ deploying a basic Rocket.Chat workspace on Kubernetes using Helm](../../../deploy/deploy-rocket.chat/additional-deployment-methods/deploy-with-kubernetes.md) to gain a foundational understanding of the Kubernetes procedure.
 {% endhint %}
 
 ## Prerequisites
@@ -82,7 +82,7 @@ postgresql:
 image:
  pullPolicy: IfNotPresent
  repository: registry.rocket.chat/rocketchat/rocket.chat
- tag: 6.6.6 #Replace it by your target release
+ tag: <release> #Replace it by your target release
  replicaCount: 1 #Number of replicas/pods for Rocket.Chat
 
 
@@ -130,14 +130,17 @@ postgresql:
  enabled: true
 ```
 
-* Replace the `<release`> with the [Rocket.Chat release](https://github.com/RocketChat/Rocket.Chat/releases) tag you want to deploy.
-* Update _domain.xyz_ with your domain name
+{% hint style="success" %}
+The _values.yaml_ file contents provided here serve as examples for your reference. Your implementation may vary according to your specific requirements.
+{% endhint %}
+
+* Replace the `<release>` with the [Rocket.Chat release](https://github.com/RocketChat/Rocket.Chat/releases) tag you want to deploy.
+* Update _domain.xyz_  with your domain name
 * Optionally, you can use a different `secretName` for `tls`.
 * Ensure that the appropriate `ingressclassName`,  `existingClaim`, and cluster issuer are specified.
-* You can also update the replicas for your microservices deployment.
 
 {% hint style="info" %}
-Kindly refer to the [official documentation](https://docs.rocket.chat/deploy/deploy-rocket.chat/additional-deployment-methods/deploy-with-kubernetes#define-the-configurations-in-a-file) to learn more about the various configurations you can set for Helm in Rocket.Chat. To use microservices, visit our [Microservices documentation](https://docs.rocket.chat/deploy/deploy-rocket.chat/scaling-rocket.chat/microservices) for more details.
+Kindly refer to the [official documentation](../../../deploy/deploy-rocket.chat/additional-deployment-methods/deploy-with-kubernetes.md#configuration) to learn more about the various configurations you can set for Helm in Rocket.Chat. To use microservices, visit our [Microservices documentation](https://docs.rocket.chat/deploy/deploy-rocket.chat/scaling-rocket.chat/microservices) for more details.
 {% endhint %}
 
 2. **Install Rocket.Chat & Synapse**
@@ -186,8 +189,7 @@ To test the federation, send a[ direct message](../../user-guides/rooms/direct-m
 
 * Deploy another federated workspace with the steps highlighted above.
 * Create a[ 1:1 Direct Message](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms/direct-messages/create-a-new-direct-message) on your Rocket.Chat workspace. Add a user from the second federated workspace as a member of the DM using this syntax: `@username:server`.  For example, `@test_user:your_workspace_domain`.
-* Then, send the message to the user.
-* The user receives the message and you can continue exchanging conversations.
+* Then, send a message to the user. The user receives the message, and you can continue exchanging conversations.
 
 {% hint style="info" %}
 Kindly refer to [create-federated-rooms.md](../federation-user-guide/create-federated-rooms.md "mention") to learn more about sending messages to federated users.
@@ -195,5 +197,5 @@ Kindly refer to [create-federated-rooms.md](../federation-user-guide/create-fede
 
 Now that your federated workspace is ready, you can:
 
-* Go to the[ Matrix User's Guide](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/federation/matrix-bridge/matrix-users-guide) to learn how to invite external users on the Matrix protocol to your workspace, join channels on the Matrix network, etc.
-* [Allow or block](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/federation/matrix-bridge/matrix-admin-guide/matrix-homeserver-setup/matrix-allow-block-list) specific IP addresses to communicate with your workspace.\
+* Go to the[ Matrix User's Guide](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/federation/matrix-bridge/matrix-users-guide) to learn how to invite external users on the matrix protocol to your workspace, join other channels on the Matrix network, etc.
+* [Allow or block](federation-access-control.md) specific IP addresses to communicate with your workspace.\

@@ -1,18 +1,12 @@
 # Search and join public channels on the Matrix network
 
-<figure><img src="../../../../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
-You can easily search for and join public channels on the Matrix network from your workspace. This feature expands your ability to collaborate and communicate securely with users from different nodes. Exploring and joining federated rooms connects you with a diverse network, encouraging meaningful engagement and knowledge sharing.
+You can easily search for and join public channels on the Matrix network from your workspace. This feature expands your ability to collaborate and communicate securely with users from different nodes, encouraging meaningful engagement and knowledge sharing.
 
 {% hint style="info" %}
-The global search for federated public channels is available to workspaces subscribed to any of Rocket.Chat's premium plans from version `6.3`.
+The global search for federated public channels is available to workspaces subscribed to any of Rocket.Chat's [premium plans](../../../readme/our-plans.md) from version `6.3`.
 {% endhint %}
-
-## Prerequisites
-
-* Ensure that federation is enabled in your workspace. Go to **Administration** > **Workspace** > **Settings** > **Federation > Matrix Bridge** and toggle on **Enable.**
-
-## Search for and join federated public channels
 
 To search for and join a federated channel,
 
@@ -33,7 +27,7 @@ To add a server,
 
 * Below the server option dropdown, click **Manage server list**.
 * Add a server (_**for example**_ — _**community.rs**_) and click **Add**.
-* Now, you can select channels from that server.
+* Now, you can search and join public federated channels from that server.
 
 To remove a server,
 

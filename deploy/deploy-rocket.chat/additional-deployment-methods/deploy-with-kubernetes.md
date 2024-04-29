@@ -4,41 +4,104 @@ description: Deploy on a kubernetes cluster using our official helm chart.
 
 # Deploy with Kubernetes
 
-Using the [Helm](https://helm.sh/) package manager, the [helm chart](https://github.com/RocketChat/helm-charts/tree/master/rocketchat) bootstraps a Rocket.Chat deployment on a [Kubernetes](https://kubernetes.io/) cluster. It provisions a fully featured Rocket.Chat installation. Additionally, this chart supports the [scaling of Rocket.Chat](../scaling-rocket.chat) for increased server capacity and high availability.
+This documentation guides you through deploying Rocket.Chat on [Kubernetes](https://kubernetes.io/) using the [Helm package manager](https://helm.sh/). The [official Rocket.Chat helm chart](https://github.com/RocketChat/helm-charts/tree/master/rocketchat) bootstraps the deployment process by provisioning a fully featured Rocket.Chat installation. It also provides strong support for [scaling Rocket.Chat](../scaling-rocket.chat/) to accommodate growing server capacity needs and ensure high availability.
 
-## Prerequisites Details
+**Prerequisites**&#x20;
 
-The chart has an optional dependency on the [MongoDB](https://github.com/bitnami/charts/tree/master/bitnami/mongodb) chart. By default, the MongoDB chart requires PV support on underlying infrastructure which may be disabled.
+* A domain name. Ensure your domain name is pointing to your server IP address.
+* A Kubernetes cluster up and running
+* Helm must be installed
+* Your firewall rules must allow HTTPS traffic
+* The following Kubernetes resources must be deployed on your server:
+  * [Storage Class](https://kubernetes.io/docs/concepts/storage/storage-classes/)
+  * [Ingress controller](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers)&#x20;
+  * Certificate controller&#x20;
+  * ClusterIssuer
+  * [Persistent Volume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
 
-## Installing the Chart
+{% hint style="success" %}
+The Rocket.Chat [chart](https://github.com/RocketChat/helm-charts/tree/master/rocketchat) has an optional dependency on the MongoDB chart. By default, the MongoDB chart requires persistent volume support on underlying infrastructure, which may be disabled.
+{% endhint %}
 
-Confirm that you have helm3 binary insalled, then add the chart repository with the following command:
+### Deploying Rocket.Chat with Kubernetes Using Helm
+
+Once you've confirmed that all prerequisites are met, continue with the following steps to deploy a Rocket.Chat workspace using Kubernetes,
+
+1. **Add the Chart Repository**
+
+Add the Rocket.Chat[ helm chart repository](https://github.com/RocketChat/helm-charts/tree/master/rocketchat) by running the following command:
 
 ```
 helm repo add rocketchat https://rocketchat.github.io/helm-charts
 ```
 
-To install the chart ,you can either define your configuration options in a values file or pass the configuration parameters via command line arguments.
+If successful, it returns a response that "rocketchat" has been added to your repositories.
 
-### Define the configurations in a file
+2. **Define the deployment configurations**
 
-We recommend defining the configuration parameters inside a `Values.yaml` file with at least the non-root user's password and the root password before passing it to helm. You must set at least the database and root password in the values file.
+To install the Rocket.Chat with the chart, you can either define your [configuration options](deploy-with-kubernetes.md#configuration) in a values file or pass the configuration parameters via command line arguments.
+
+{% hint style="info" %}
+We recommend defining the configuration parameters inside a _values.yaml_ file with at least the non-root user's password and the root password before passing it to Helm. You must set at least the database and root password in the values file.
+{% endhint %}
+
+Kindly refer to the [configuration section](deploy-with-kubernetes.md#configuration) to learn more about the deployment configurations you can set in your _values.yaml_ file. However, let’s create an example file to proceed with this guide:
+
+* Create _values.yaml_ file with the following content to define the configurations that Helm will use for your deployment:
 
 ```
+image:
+  pullPolicy: IfNotPresent
+  repository: registry.rocket.chat/rocketchat/rocket.chat
+  tag: <release>
+
 mongodb:
+  enabled: true  #For test purposes, a single mongodb pod is deployed, consider an external MongoDB cluster for production environments
   auth:
     passwords:
       - rocketchat
     rootPassword: rocketchatroot
+
+microservices:
+  enabled: false  #This must be set to false for a monolithic deployment
+host: domain.xyz 
+ingress:
+  enabled: true
+  ingressClassName: nginx  # State the ingress controller that is installed in the K8s cluster 
+  annotations:
+    cert-manager.io/cluster-issuer: production-cert-issuer # Replace with the name of your ClusterIssuer 
+  tls:
+    - secretName: rckube #This is the name of the secret - You can use a different name if needed 
+      hosts:
+        - domain.xyz #This is the domain for your Rocket.Chat server, Replace it with your own domain 
+
 ```
 
-Now, install with the following command:
+* Replace the \<release> with the [Rocket.Chat release](https://github.com/RocketChat/Rocket.Chat/releases) tag you want to deploy.
+* Update _domain.xyz_ with your domain name
+* Optionally, you can use a different `secretName` for `tls`.
+* Ensure that the appropriate `ingressclassName,` and cluster issuer are specified.
+
+{% hint style="warning" %}
+It’s important to note that microservices is disabled in this deployment. To use microservices, visit our [Microservices documentation](https://docs.rocket.chat/deploy/deploy-rocket.chat/scaling-rocket.chat/microservices) for more details.
+{% endhint %}
+
+3. **Install Rocket.Chat**
+
+Now that you’ve defined the configurations in values.yaml, install Rocket.Chat with the following command:
 
 ```
-helm install rocketchat -f Values.yaml rocketchat/rocketchat
+helm install rocketchat -f values.yaml rocketchat/rocketchat
 ```
 
-### Set the configurations parameters via command line arguments
+If your deployment is successful, you’ll get a response similar to the following:
+
+<figure><img src="../../../.gitbook/assets/kubernetes-succesful.png" alt=""><figcaption></figcaption></figure>
+
+You can now access your workspace via the URL where Rocket.Chat was deployed (your domain), and complete the [Setup Wizard](https://docs.rocket.chat/setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard).\
+
+
+**\[Alternative] Set the configuration parameters via command line arguments**
 
 Optionally, you can use the `--set` flag to pass the configuration parameters to helm.
 
@@ -47,6 +110,18 @@ helm install rocketchat rocketchat/rocketchat --set mongodb.auth.passwords={$(ec
 ```
 
 > Starting from chart version 5.4.3, username, password, and database entries must be arrays of the same length due to MongoDB dependency. Rocket.Chat will use the first entries of those arrays for its own use. `mongodb.auth.usernames` array defaults to `{rocketchat}` and `mongodb.auth.databases` array defaults to `{rocketchat}.`
+
+## Updating Rocket.Chat on Kubernetes
+
+To update your Rocket.Chat workspace, update the image tag in the _values.yaml_ file with the release tag of your desired version and execute the following command:
+
+```
+helm upgrade rocketchat -f values.yaml rocketchat/rocketchat
+```
+
+{% hint style="info" %}
+Kindly refer to [this issue](https://github.com/RocketChat/helm-charts/issues/124) for more details.
+{% endhint %}
 
 ## Uninstalling the Chart
 
