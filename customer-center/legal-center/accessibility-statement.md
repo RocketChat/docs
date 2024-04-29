@@ -1,6 +1,6 @@
 # Accessibility statement
 
-**Last Updated: October 19, 2023**
+**Last Updated: April 22, 2024**
 
 Rocket.Chat is committed to ensuring digital accessibility for people with disabilities. We aim to continually improve the user experience for everyone and strive to make our digital services as accessible as possible under the BITV 2.0 (Barrierefreie-Informationstechnik-Verordnung 2.0) guidelines.
 
@@ -61,7 +61,7 @@ Any known barriers to accessibility will be listed in this document.
 
 #### Monitoring and ongoing compliance
 
-We continually monitor and assess our digital services to maintain compliance with relevant legal requirements and accessibility standards. Our accessibility team conducts regular audits and evaluations to identify and address any areas where our product may fall short of the legal standards.
+We continually monitor and assess our digital services to maintain compliance with relevant legal requirements and accessibility standards. Our accessibility team conducts regular audits and evaluations to identify and address any areas where our product may fall short of legal standards.
 
 #### Feedback and reporting
 
@@ -79,6 +79,14 @@ As part of our commitment to accessibility, we engaged CCNET to conduct an indep
 
 The barrier, its description, and the target date for resolution.
 
+{% hint style="info" %}
+Please note that the dates mentioned here indicate when Rocket.Chat intends to complete the required implementation, and these improvements will be rolled out according to the regular release schedule.
+{% endhint %}
+
+{% hint style="success" %}
+Rocket.Chat holds a BITV 2.0 certification which is granted by the auditor when it's determined that the accessibility program meets their evaluation criteria, as established by a legally authorized body. Identified barriers are addressed through Rocket.Chat's accessibility program in accordance with this certification process.
+{% endhint %}
+
 #### Screen reader and read-aloud compatibility&#x20;
 
 Screen reader users frequently encounter challenges at some points within Rocket.Chat because the platform continually adjusts its content to enhance accessibility for JAWS/NVDA and VoiceOver users.&#x20;
@@ -93,7 +101,7 @@ Mar 31, 2024
 
 #### Input assistance
 
-Not all areas of the product were originally designed to help users to avoid and correct mistakes. Error identification, label instructions, and error suggestions will be reviewed and improved by our accessibility team.&#x20;
+Not all areas of the product were originally designed to help users avoid and correct mistakes. Our accessibility team will review and improve error identification, label instructions, and error suggestions.&#x20;
 
 Mar 31, 2024
 
@@ -129,7 +137,7 @@ Aug 31, 2024
 
 ### Barrier-free information technology oversight and monitoring agency
 
-If, following your feedback to the aforementioned contact, no satisfactory solution is found, you may reach out to the Barrier-Free Information Technology Oversight and Monitoring Agency. After a six-week period, you have the right to contact the oversight and monitoring agency directly. With the involvement of all parties concerned, the ombudsman endeavors to investigate the circumstances of the accessibility issue, allowing the service provider to address it.
+If no satisfactory solution is found following your feedback to the aforementioned contact, you may reach out to the Barrier-Free Information Technology Oversight and Monitoring Agency. After a six-week period, you have the right to contact the oversight and monitoring agency directly. With the involvement of all parties concerned, the ombudsman endeavors to investigate the circumstances of the accessibility issue, allowing the service provider to address it.
 
 #### Monitoring body
 
@@ -150,3 +158,31 @@ Landgraf-Philipp-Platz 1-7
 Phone: 0641-303-2901
 
 Email: Durchsetzungsstelle-LBIT@rpgi.hessen.de
+
+## Questions and answers&#x20;
+
+### Is Rocket.Chat WCAG certified?&#x20;
+
+Rocket.Chat has opted for a BITV 2.0 certification, which is awarded by an authorized auditor from the German government. This certification encompasses all WCAG requirements. There isn't a specific WCAG certification offered by an official certification body. The Web Content Accessibility Guidelines (WCAG) themselves are a set of standards developed by the World Wide Web Consortium (W3C) to ensure that web content is accessible to people with disabilities.&#x20;
+
+We chose the BITV 2.0 certification, which is awarded by an authorized body from the German government, because it ensures comprehensive coverage of all WCAG requirements. This certification offers a recognized standard for accessibility that aligns with our commitment to meeting the needs of all users, including those with disabilities. Additionally, the authority and oversight provided by the German government offer credibility and assurance that our accessibility efforts adhere to rigorous standards and guidelines.&#x20;
+
+### What is WCAG?&#x20;
+
+WCAG stands for Web Content Accessibility Guidelines. It is a set of international standards developed by the World Wide Web Consortium (W3C) to ensure that digital content is accessible to all users, including those with disabilities. WCAG provides guidelines and success criteria for making web content perceivable, operable, understandable, and robust for all users, regardless of their abilities or limitations. These guidelines are essential for creating inclusive and accessible digital experiences for everyone.&#x20;
+
+### What is BITV 2.0?&#x20;
+
+BITV 2.0 stands for Barrierefreie Informationstechnik-Verordnung 2.0, which translates to "Accessible Information Technology Regulation 2.0" in English. It is a set of accessibility standards established by the German government to ensure that digital information and services are accessible to people with disabilities. BITV 2.0 covers a range of requirements similar to those outlined in the Web Content Accessibility Guidelines (WCAG), making it a recognized standard for accessibility compliance in Germany.&#x20;
+
+### Does BITV 2.0 cover all WCAG requirements?&#x20;
+
+Yes, BITV 2.0 covers all requirements from the Web Content Accessibility Guidelines (WCAG). It is designed to align with WCAG standards and ensure that digital information and services are accessible to people with disabilities. Therefore, achieving compliance with BITV 2.0 effectively means meeting the accessibility requirements outlined in WCAG.&#x20;
+
+### How does the chat platform address accessibility concerns in highly regulated environments?&#x20;
+
+Rocket is engineered and designed to meet the specific accessibility needs of highly regulated environments. Recognizing the stringent requirements in these settings, the platform ensures that accessibility features align with regulatory standards. Our commitment is underscored by the ongoing investment in a dedicated accessibility program. With a specialized team at the helm, we actively develop and implement features tailored to address the unique accessibility challenges of highly regulated industries. The platform's dedication to accessibility is further strengthened by our continuous investment in resources and expertise, ensuring organizations in highly regulated environments benefit from a secure, accessible, and regulatory-compliant communication solution.&#x20;
+
+### Can the chat platform be customized to accommodate different accessibility needs?&#x20;
+
+Yes, the chat platform offers customization options to meet diverse accessibility requirements. Users can adjust settings related to font size, regular contrast (AA) or high contrast (AAA), time format, and show/hide elements for a personalized experience that suits their needs.
