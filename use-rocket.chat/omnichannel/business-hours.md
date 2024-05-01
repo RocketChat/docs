@@ -32,7 +32,7 @@ To create a new business hour,
   * **Enabled**: Enables the working hour.
   * **Name**: Name of the working hour.
   * **Departments**: Select the departments the working hours apply to.
-  * **Timezone**: Select the timezone.
+  * **Timezone**: Select the timezone. Timezones observe daylight savings time, and the agent's availability is updated automatically.
   * **Open Days of the Week**: Pick open days of the week. Each selected day lets you set an open and close time.
 * Click **Save**.
 
