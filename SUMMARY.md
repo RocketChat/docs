@@ -348,7 +348,6 @@
   * [Federation User Guide](use-rocket.chat/rocket.chat-federation/federation-user-guide/README.md)
     * [Create federated rooms](use-rocket.chat/rocket.chat-federation/federation-user-guide/create-federated-rooms.md)
     * [Invite external users to your Rocket.Chat server](use-rocket.chat/rocket.chat-federation/federation-user-guide/invite-external-users-to-your-rocket.chat-server.md)
-    * [Communicate with a federated user](use-rocket.chat/rocket.chat-federation/federation-user-guide/communicate-with-a-federated-user.md)
     * [Search and join public channels on the Matrix network](use-rocket.chat/rocket.chat-federation/federation-user-guide/search-and-join-public-channels-on-the-matrix-network.md)
     * [Assign roles for users in federated rooms](use-rocket.chat/rocket.chat-federation/federation-user-guide/assign-roles-for-users-in-federated-rooms.md)
   * [Rocket.Chat Basic Federation](use-rocket.chat/rocket.chat-federation/rocket.chat-federation.md)

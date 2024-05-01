@@ -80,10 +80,10 @@ ingress:
 * Replace the \<release> with the [Rocket.Chat release](https://github.com/RocketChat/Rocket.Chat/releases) tag you want to deploy.
 * Update _domain.xyz_ with your domain name
 * Optionally, you can use a different `secretName` for `tls`.
-* Ensure that the appropriate `ingressclassName,` and cluster issuer are specified.
+* Ensure that the appropriate `ingressclassName` and cluster issuer are specified.
 
 {% hint style="warning" %}
-It’s important to note that microservices is disabled in this deployment. To use microservices, visit our [Microservices documentation](https://docs.rocket.chat/deploy/deploy-rocket.chat/scaling-rocket.chat/microservices) for more details.
+It’s important to note that microservices is disabled in this deployment. To use microservices, visit our [Microservices documentation](https://docs.rocket.chat/deploy/deploy-rocket.chat/scaling-rocket.chat/microservices) for more details. Additionally, you can refer to [this recording](https://drive.google.com/file/d/1RfPzG84pxazzUsnjpM42\_1XMe1jHCUP0/view) that explains how to deploy Rocket.Chat with microservices in a test environment.
 {% endhint %}
 
 3. **Install Rocket.Chat**
@@ -211,6 +211,10 @@ The following table lists the configurable parameters of the Rocket.Chat chart a
 | `podAnnotations`                       | Additional pod annotations for the Rocket.Chat pods                                                                                                                                                                                                                                                                                                                                                                                                            | `{}`                                          |
 
 Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. Alternatively, you can update the YAML file that specifies the values for the parameters to be provided while installing the chart.
+
+{% hint style="info" %}
+You can also refer to the [GitHub repository](https://github.com/RocketChat/helm-charts/blob/master/rocketchat/values.yaml) to explore all the available configuration options.
+{% endhint %}
 
 ## Database Setup
 

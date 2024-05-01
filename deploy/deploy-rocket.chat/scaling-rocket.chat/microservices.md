@@ -2,6 +2,10 @@
 
 <figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+Before you proceed, kindly visit [deploy-with-kubernetes.md](../additional-deployment-methods/deploy-with-kubernetes.md "mention") guide to gain a foundational understanding of the deployment process.
+{% endhint %}
+
 ## Components Overview
 
 This deployment architecture consists of several "_micro_" services or smaller components, each focusing on one feature of Rocket.Chat. Imagine that each component provides a _service_, and they are all combined to form your fully operational Rocket.Chat workspace.
@@ -59,14 +63,14 @@ To deploy Rocket.Chat and archive microservices using [Kubernetes](https://kuber
 helm repo add rocketchat https://rocketchat.github.io/helm-charts
 ```
 
-* Configure the Rocket.Chat deployment. By default, the Rocket.Chat Helm chart deploys a single monolith with a single instance. To enable microservices, edit your `Values.yaml` file and include these commands:
+* Configure the Rocket.Chat deployment. By default, the Rocket.Chat Helm chart deploys a single monolith with a single instance. To enable microservices, edit your  `values.yaml` file and include these commands:
 
 ```yaml
 microservices:
   enabled: true
 ```
 
-Each component has its section inside the `Values.yml` file. The top level is for the monolith configuration.
+Each component has its section inside the `values.yml` file. The top level is for the monolith configuration.
 
 ```yaml
 presence: {}
@@ -119,11 +123,13 @@ Nginx controller is used as an example and not an official recommendation. Any i
 * Apply the changes and install. Once you have made the necessary changes to the values file, run the following command to upgrade the deployment:
 
 ```bash
-helm install rocketchat -f Values.yaml rocketchat/rocketchat
+helm install rocketchat -f values.yaml rocketchat/rocketchat
 ```
 
 * Once deployed, you should be able to access the Rocket.Chat using the configured host. You can convert your existing monolith deployment to using microservices by making the same changes mentioned in this document and running `helm upgrade` with the values file and the current deployment name instead of `helm install`.
 
 {% hint style="info" %}
 A complete guide on how to deploy with helm can be found in [deploy-with-kubernetes.md](../additional-deployment-methods/deploy-with-kubernetes.md "mention"). For multi-workspace deployment, please [contact support](../../../customer-center/support-center/).
+
+Additionally, you can refer to [this recording](https://drive.google.com/file/d/1RfPzG84pxazzUsnjpM42\_1XMe1jHCUP0/view) that explains how to deploy Rocket.Chat with microservices in a test environment.
 {% endhint %}
