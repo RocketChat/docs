@@ -16,7 +16,7 @@ Remember always to hit **Save Changes** to apply any changes made.
 * **Site URL**: This sets the URL of the workspace. Example: `https://chat.domain.com/`
 * **Site Name**: This sets the name of the workspace. Example `My Rocket.Chat Server`
 * **Document Domain**: Lets you set the document domain.
-* **Language**: This sets the default language for the workspace. This setting is overridden if the user has changed his language preference.
+* **Language**: This sets the default language for the workspace. This setting is overridden if the user has changed his language preference. Kindly refer to [#preference](../../../user-guides/user-panel/account.md#preference "mention") guide for language preference priority in Rocket.Chat.
 * **Allow Invalid Self-Signed Certs**: Enable to allow invalid and self-signed SSL certificates for link validation and previews.
 * **Enable Content-Security-Policy**: Do not disable this option unless you have a custom build and are having problems due to inline-scripts.
 * **Extra CSP Domains**: Extra domains to add to the Content-Security-Policy.

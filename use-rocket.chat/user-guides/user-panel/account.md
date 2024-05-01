@@ -35,6 +35,12 @@ To access this menu, Navigate to **Avatar Menu >  Account** > **Preferences.** U
 
 * **Language**: Set the language to use for the Rocket.Chat user interface.
 
+Rocket.Chat determines the language displayed in your workspace based on the following priority:
+
+1. **User Preference:** This is the language you choose for your account under the [user preferences](account.md#preference). It takes priority over all other options.
+2. **Browser Language:** If you haven't selected a language under [user preferences](account.md#preference), Rocket.Chat will use the language configured in your web browser.
+3. [**Server Language**](../../workspace-administration/settings/general/#general-settings)**:** This is the default language set by the Rocket.Chat workspace administrator. It's only used as a last resort if neither your user preference nor browser language is available.
+
 **User Presence**
 
 * **Enable Auto-Away**: Enable the auto-away functionality, which changes the status to _away_ after an idle period.
