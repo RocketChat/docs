@@ -114,7 +114,7 @@ sudo systemctl enable mongod && sudo systemctl start mongod
 ```
 
 ```
-mongo --eval "printjson(rs.initiate())"
+mongosh --eval "printjson(rs.initiate())"
 ```
 
 * Enable and start Rocket.Chat using this command:

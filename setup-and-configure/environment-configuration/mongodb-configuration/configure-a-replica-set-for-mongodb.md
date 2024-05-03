@@ -32,7 +32,7 @@ sudo systemctl restart mongod
 2. Start the MongoDB shell and initiate the replica set:
 
 ```bash
-mongo
+mongosh
 > rs.initiate()
 ```
 

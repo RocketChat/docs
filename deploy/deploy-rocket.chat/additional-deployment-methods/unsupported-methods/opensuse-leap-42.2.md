@@ -104,7 +104,7 @@ systemctl start mongodb
 Now start a MongoDB shell and add the admin user:
 
 ```
-> mongo
+> mongosh
 use admin
 
 db.createUser({

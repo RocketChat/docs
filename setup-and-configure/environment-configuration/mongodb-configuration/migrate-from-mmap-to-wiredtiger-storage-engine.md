@@ -61,7 +61,7 @@ Here are the detailed steps of the migration process:
 7.  If running with a Replica-Set in your mongo.conf initialize replica set
 
     ```bash
-    mongo --eval 'rs.initiate()'
+    mongosh --eval 'rs.initiate()'
     ```
 8.  Import dump back into (_wiredTiger_) MongoDB:
 
@@ -71,7 +71,7 @@ Here are the detailed steps of the migration process:
 9.  Repair databases and rebuild indices:
 
     ```bash
-    mongo --eval 'db.repairDatabase()'
+    mongosh --eval 'db.repairDatabase()'
     ```
 10. Start Rocket.Chat service:
 

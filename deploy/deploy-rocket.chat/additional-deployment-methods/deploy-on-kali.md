@@ -133,7 +133,7 @@ sudo systemctl enable mongod && sudo systemctl start mongod
 * Then, initiate replica set with this command:
 
 ```bash
-mongo --eval "printjson(rs.initiate())"
+mongosh --eval "printjson(rs.initiate())"
 ```
 
 * Enable and start your Rocket.Chat workspace now using this command:

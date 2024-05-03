@@ -40,7 +40,7 @@ oc new-app rocket-chat -p MONGODB_DATABASE=rocketchat,MONGODB_USER=rocketchat-ad
 
 ```bash
 oc port-forward <mongodb_pod> 27017
-mongo localhost:27017
+mongosh localhost:27017
 ```
 
 Inside the mongo client, run these commands:
