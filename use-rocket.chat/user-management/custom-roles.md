@@ -16,6 +16,7 @@ To **create a new role**,
   * **Role**: Name of the role.
   * **Description**: Set a description of the role.
   * **Scope**: Select the scope of the role.
+  * **Users must use Two Factor Authentication**: Users assigned to this role are prompted for 2FA code.
 * Click **Save**.
 
 To assign permissions to a role, select the corresponding permission checkbox under the role.
