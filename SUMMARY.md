@@ -334,7 +334,7 @@
   * [Voice Channel FAQs](use-rocket.chat/rocket.chat-voice-channel/voice-channel-faqs.md)
 * [Rocket.Chat Conference Call](use-rocket.chat/rocket.chat-conference-call/README.md)
   * [Conference Call Admin Guide](use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/README.md)
-    * [Pexip app](use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)
+    * [Pexip App](use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/pexip-app.md)
     * [Jitsi app](use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/jitsi-app.md)
     * [BigBlueButton (BBB) app](use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/bigbluebutton-bbb-app.md)
     * [Google Meet app](use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide/google-meet-app.md)

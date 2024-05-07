@@ -118,14 +118,14 @@ To end a conversation:
 Communication with omnichannel contacts on Rocket.Chat can also be done using audio/video calls. Your workspace must have at least one call app installed to make these calls.
 
 {% hint style="info" %}
-To enable Rocket.Chat video call feature, please get in touch with your administrator or follow the [instructions](../rocket.chat-conference-call/omnichannel-video-audio-call-configuration.md).
+To enable Rocket.Chat video call feature, contact your administrator, or follow the [configuration guide](https://docs.rocket.chat/use-rocket.chat/rocket.chat-conference-call/conference-call-admin-guide).
 {% endhint %}
 
 To make a call,
 
-* Click <img src="../../.gitbook/assets/phone-icon.png" alt="" data-size="line">icon from quick actions on the right side
-* Click **Join Call** button in the conversation.
-* Enter your name in the new browser window and hit **Join meeting**
+* Click the call icon <img src="../../.gitbook/assets/phone-icon.png" alt="" data-size="line">on the top menu.
+* Click **Start call**.
+* You can join the meeting in a new window. The customer has the option to accept or decline the call.
 
 ## Room information
 
