@@ -1,49 +1,45 @@
 # Rocket.Chat
 
-In a world where collaboration is the backbone of productivity, Rocket.Chat stands out as a secure and customizable open-source platform for all your communication needs. Whether you're a small team or a large enterprise, Rocket.Chat ensures you have full control over your data and conversations with robust privacy and seamless integration across devices and platforms.
+Rocket.Chat is a secure and highly customizable open-source communication platform for organizations with sophisticated security and privacy concerns. Rocket.Chat provides full control over user data and conversations. The platform supports native apps, seamless integration with third-party applications, cross-channel collaboration, and configuration control via APIs.
 
-{% hint style="info" %}
-As of December 15, 2023, Rocket.Chat has ceased support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
-{% endhint %}
+As a broad overview, with Rocket.Chat you can:
 
-### **Why Rocket.Chat?**
-
-* **Ownership**: Your data stays yours. With Rocket.Chat, you enjoy complete data sovereignty whether you choose our self-hosted or SaaS solution.
-* **Customization**: Tailor your workspace to fit your team's needs with extensive customization options and a wide range of apps and integrations.
-* **Compliance**: Meet stringent data protection standards with a platform that supports GDPR, HIPAA, FINRA, FedRAMP, and more.
-* **Collaboration**: Unify your communication with features that connect colleagues, businesses, and customers across various channels in real-time.
-
-### **Product and Security Offerings**
-
-* [**Team collaboration**](use-rocket.chat/workspace-administration/) - A single point for secure internal and cross-company collaboration.
-* [**Omnichannel customer service**](use-rocket.chat/omnichannel/) - Engage in seamless interactions with customers regardless of how they connect with you.
-* [**Chat engine**](https://developer.rocket.chat/chat-engine/overview-of-chat-engine) - Create customized messaging experiences within your apps with our flexible chat engine.
-* [**Marketplace** ](extend-rocket.chat-capabilities/rocket.chat-marketplace/)- Enhance your communication with a plethora of apps and native integrations.
-* **Data Privacy and Security**: Admins can configure workspaces to align with company policies backed by top-tier security measures.
+* [**Collaborate with your teams**](https://docs.rocket.chat/use-rocket.chat/user-guides): A single point for secure internal and cross-company communication. This includes group and direct messages with various message actions, attachment options, integrations, and conference calls.
+* [**Communicate across platforms**](https://docs.rocket.chat/use-rocket.chat/omnichannel): Engage in seamless interactions with your customers regardless of the platform they choose to connect with you. Through the Rocket.Chat [**Marketplace**](https://docs.rocket.chat/extend-rocket.chat-capabilities/rocket.chat-marketplace), you can interact across multiple platforms, such as WhatsApp, Telegram, Instagram Direct, and more.
+* [**Developer tools**](https://developer.rocket.chat/): With the Rocket.Chat **Apps Engine** feature, build internal and public apps with reduced development time and launch time. Furthermore, using the **Chat Engine** solution, you can create customized messaging experiences within your existing apps.
 
 ### **Choose Your Deployment**
 
-* **On-Premise**: Full ownership with secure, self-managed installations tailored to your security needs.
-* [**Cloud**](use-rocket.chat/rocket.chat-cloud/): Benefit from our scalable cloud infrastructure, ensuring optimal performance and compliance.
+To create a workspace, Rocket.Chat offers the following workspace deployment options:
 
-### **Getting Started**
+* [**Self-hosted/self-managed**](https://docs.rocket.chat/deploy/deploy-rocket.chat): Full ownership with secure, self-managed installations tailored to your security needs.
+* [**SaaS**](https://docs.rocket.chat/setup-and-configure/trials/saas-trial): Benefit from our scalable cloud infrastructure, ensuring optimal performance and compliance.
+* [**Air-gapped**](https://docs.rocket.chat/setup-and-configure/rocket.chat-air-gapped-deployment): Isolate your workspace from external or unsecured networks.
 
-* [**Deployment**](deploy/deploy-rocket.chat/): Choose your deployment method and follow the step-by-step guide to get Rocket.Chat up and running.
-* [**System Requirements**](deploy/deploy-rocket.chat/system-requirements.md): Make informed decisions around your workspace
-* **Set Up Your Account**: Begin by [creating your admin account](setup-and-configure/accessing-your-workspace/admin-account-creation.md) and [accessing your workspace.](setup-and-configure/accessing-your-workspace/)
-* [**Workspace Administration**](use-rocket.chat/workspace-administration/): Manage your workspace with advanced controls and user management features.
+Choose your deployment method and follow the step-by-step guide to get Rocket.Chat up and running. Additionally, make informed decisions around your workspace with options for [scaling](https://docs.rocket.chat/deploy/deploy-rocket.chat/scaling-rocket.chat) and [environment configuration](https://docs.rocket.chat/setup-and-configure/environment-configuration).
 
-### **Resources at Your Fingertips**
+### Getting Started
 
-* [**User Guides**](use-rocket.chat/user-guides/): From basic navigation to advanced features, find everything you need to make the most of Rocket.Chat.
-* **Features**: Benefit from the extensive array of features offered by Rocket.Chat, including,  [rocket.chat-conference-call](use-rocket.chat/rocket.chat-conference-call/ "mention"),[rocket.chat-federation.md](use-rocket.chat/rocket.chat-federation.md "mention"), [rocket.chat-voice-channel](use-rocket.chat/rocket.chat-voice-channel/ "mention"), [analytics.md](use-rocket.chat/workspace-administration/settings/analytics.md "mention"), [authentication-across-plans.md](use-rocket.chat/authentication/authentication-across-plans.md "mention").
-* [**Developer Documentation**](resources/developer-documentation.md): Dive into our developer resources for custom integrations and extensions.
-* [**Support**](customer-center/support-center/): Our dedicated support structure is here to assist you every step of the way.
+Once your workspace is deployed, follow these steps to explore the various offerings:
+
+1. [**Set up your account**](https://docs.rocket.chat/setup-and-configure/accessing-your-workspace): Create your admin account and access your workspace.
+2. [**Workspace administration**](https://docs.rocket.chat/use-rocket.chat/workspace-administration): Manage your workspace with advanced controls and user management features.
+3. [**Collaborate**](https://docs.rocket.chat/use-rocket.chat/user-guides): You are ready to engage with your users and take advantage of the various features.
+
+Rocket.Chat offers commercial and community plans to suit your needs, providing flexibility in the workspace features. See [Plans](https://docs.rocket.chat/readme/our-plans) for further information. You also have access to the Rocket.Chat [Trials](https://docs.rocket.chat/setup-and-configure/trials) so that you can experience and evaluate all the functionalities before selecting a plan.
 
 ### **Stay Updated**
 
-* [**Latest Releases**](https://github.com/RocketChat/Rocket.Chat/releases): Discover the newest features and stay informed about the latest changes and how they may impact your setup.
+Discover the newest features from the [latest releases](https://github.com/RocketChat/Rocket.Chat/releases). Stay informed about the changes and how they may impact your setup.
 
 ### **Join the Community**
 
-[Engage with other Rocket.Chat users](customer-center/support-center/community-resources.md), contribute to the conversation, and help shape the future of communication.
+[Engage with other Rocket.Chat users](customer-center/support-center/community-resources.md), contribute to the conversation, and help shape the future of communication. Refer to the [Code of Conduct](https://developer.rocket.chat/contribute-to-rocket.chat/code\_of\_conduct) and the [Support Center](https://docs.rocket.chat/customer-center/support-center) to learn more about the process.
+
+Rocket.Chat strives to ensure digital accessibility and to continually improve the user experience for all. See the [Accessibility statement](https://docs.rocket.chat/customer-center/legal-center/accessibility-statement) for more information. To know about the use of the service, see [Customer Terms of Service](https://docs.rocket.chat/applicable-terms/customer-terms-of-service).
+
+{% hint style="info" %}
+As of December 15, 2023, Rocket.Chat has ceased support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications.&#x20;
+
+**Each Rocket.Chat version is supported for six months post-release.** For more details, see [Support Prerequisites and Version Durability](https://docs.rocket.chat/customer-center/support-center/premium-support-plans/support-prerequisites-and-version-durability).
+{% endhint %}
