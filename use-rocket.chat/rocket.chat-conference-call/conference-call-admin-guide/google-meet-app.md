@@ -32,7 +32,8 @@ To configure the **Google Meet** app on your workspace, follow these steps:
 
 1. Go to **Administration > Settings > Conference Call**.
 2. Select **Google Meet** as your **Default Provider**.
-3. Select the options that meet your needs and click **Save changes.**
+3. Enable or disable the call option in DMs, public channels, private channels, and teams as per your needs.
+4. Click **Save changes.**
 
 The Google Meet app is successfully configured on your server.&#x20;
 

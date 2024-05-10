@@ -36,8 +36,8 @@ To set up the **BBB** app on your workspace, follow these steps:
 1. Confirm that the app is enabled.
 2. Run `sudo bbb-conf --secret` on the BBB server. It gives you a **URL** and a **Secret**. See [BBB's `bbb-conf tool` documentation](https://docs.bigbluebutton.org/administration/bbb-conf/).
 3. Use this **URL** and **Shared Secret** in the **Settings** tab of the app to connect to BBB.
-4. **Register Hook**: Register a kook on BBB to close conference calls automatically when they end. Requires the `bbb-webhook` package.
-5. **Custom parameter for bbb-client**: Add additional parameters if required.
+4. **Register Hook**: Enable this option to register a webhook on BBB to close conference calls automatically when they end. It requires the [`bbb-webhook`](https://docs.bigbluebutton.org/development/webhooks/) package.&#x20;
+5. **Custom parameter for bbb-client**: Add additional parameters to the BBB call URL. Enter the keys and values in the JSON format. The parameter names must start with `userdata-bbb`. See [Application parameters](https://docs.bigbluebutton.org/administration/customize/#application-parameters) for details.
 6. Click **Save changes**.
 
 ## Configure conference calls using the BBB **app**&#x20;
@@ -46,7 +46,8 @@ To configure the **BBB** video conference on your workspace, follow these steps:
 
 1. Go to **Administration > Settings > Conference Call**.
 2. Select **BigBlueButton** as your **Default Provider**.
-3. Select the options that meet your needs and click **Save changes.**
+3. Enable or disable the call option in DMs, public channels, private channels, and teams as per your needs.
+4. Click **Save changes.**
 
 ## Initiate calls using the BBB app
 
