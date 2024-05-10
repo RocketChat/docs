@@ -12,7 +12,7 @@ Deploying Rocket.Chat with Docker and Docker Compose is a straightforward and hi
 * [Deploy Rocket.Chat on Docker](deploy-with-docker-and-docker-compose.md#deploy-rocket.chat-on-docker)
 * [Update Rocket.Chat on Docker](deploy-with-docker-and-docker-compose.md#updating-rocket.chat-on-docker)
 * [Enable HTTPs with Docker deployment](deploy-with-docker-and-docker-compose.md#enable-https)
-* [Backup and Restore Docker Mongo ](deploy-with-docker-and-docker-compose.md#docker-mongo-backup-and-restore)
+* [Backup and Restore Docker Mongo](deploy-with-docker-and-docker-compose.md#docker-mongo-backup-and-restore)
 
 ## Preparation Steps
 
@@ -35,7 +35,7 @@ sudo reboot
 
 **Fetching Compose file**
 
-* Navigate to your preferred directory and create a `compose.yml` file following [our example](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml).  Alternatively, you can use the `curl` command to download the example `compose.yml` file by executing this command:
+* Navigate to your preferred directory and create a `compose.yml` file following [our example](https://github.com/RocketChat/Docker.Official.Image/blob/master/compose.yml). Alternatively, you can use the `curl` command to download the example `compose.yml` file by executing this command:
 
 ```bash
 curl -L https://raw.githubusercontent.com/RocketChat/Docker.Official.Image/master/compose.yml -O
@@ -49,27 +49,27 @@ Modifying the configurations in the compose file directly is strongly discourage
 Remember to uncomment the variables you are updating in the `.env` file.
 {% endhint %}
 
-* In your project directory, create a  `.env` file  with this command and paste the contents of  [this example file](https://github.com/RocketChat/Docker.Official.Image/blob/master/env.example)&#x20;
+* In your project directory, create a `.env` file with this command and paste the contents of [this example file](https://github.com/RocketChat/Docker.Official.Image/blob/master/env.example)
 
 ```
-sudo nano .env
+nano .env
 ```
 
 {% hint style="info" %}
-If you cloned the [GitHub repository](https://github.com/RocketChat/Docker.Official.Image/tree/master), you can copy the `.env.example` to  `.env` with this command:
+If you cloned the [GitHub repository](https://github.com/RocketChat/Docker.Official.Image/tree/master), you can copy the `.env.example` to `.env` with this command:
 
 ```
 cp env.example .env
 ```
 {% endhint %}
 
-* Set the `RELEASE` variable in the `.env`to your desired Rocket.Chat version.&#x20;
+* Set the `RELEASE` variable in the `.env`to your desired Rocket.Chat version.
 
 {% hint style="info" %}
-See our [releases page](https://github.com/RocketChat/Rocket.Chat/releases) and [available docker images.](deploy-with-docker-and-docker-compose.md#rocket.chat-docker-images) Keeping the default release as`latest` is **not recommended.**&#x20;
+See our [releases page](https://github.com/RocketChat/Rocket.Chat/releases) and [available docker images.](deploy-with-docker-and-docker-compose.md#rocket.chat-docker-images) Keeping the default release as`latest` is **not recommended.**
 {% endhint %}
 
-* Edit `ROOT_URL` from the default `http://localhost:3000` to match your domain name or IP address.
+* Edit `ROOT_URL` from the default `http://localhost:3000` to match your domain name or IP address if you're deploying a production workspace.
 * If you have a registration token to register the workspace automatically, you can add it to the `.env` file like this:
 
 ```
@@ -82,7 +82,7 @@ REG_TOKEN={your token here}
 MONGO_URL=mongodb://<user>:<pass>@host1:27017,host2:27017,host3:27017/<databaseName>?replicaSet=<replicaSet>&ssl=true&authSource=admin
 ```
 
-* Save the `.env` file and  start up the container by executing this command:
+* Save the `.env` file and start up the container by executing this command:
 
 ```shell
 docker compose up -d
@@ -97,7 +97,7 @@ This command will:
 MongoDB ensures continuous 24 x 7 operations and live backup, reducing the need for frequent restarts. Refer to the [MongoDB documentation](https://www.mongodb.com/docs/manual/) for proper server operation and management. Optionally, manage messages and configurations by uncommenting the volume mounts, and ensuring a data subdirectory is available for data storage and mounting.
 {% endhint %}
 
-Once the container is running, visit _http://localhost:3000_ on your browser. You can now explore your Rocket.Chat workspace and [invite other users](https://docs.rocket.chat/setup-and-configure/accessing-your-workspace).
+Once the container is running, visit _http://localhost:3000_ or your domain on the browser. You can now explore your Rocket.Chat workspace and [invite other users](https://docs.rocket.chat/setup-and-configure/accessing-your-workspace).
 
 **Start & Stop Docker Compose**
 
@@ -145,7 +145,7 @@ The Rocket.Chat preview image deploys a container with a database inside. It's u
 
 **Specific Release Image**
 
-You can set up your Rocket.Chat workspace with a specific [release](https://github.com/RocketChat/Rocket.Chat/releases) image. Select the release you need from the [docker hub tags](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) and  use it to run the following command:&#x20;
+You can set up your Rocket.Chat workspace with a specific [release](https://github.com/RocketChat/Rocket.Chat/releases) image. Select the release you need from the [docker hub tags](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) and use it to run the following command:
 
 ```bash
 docker pull registry.rocket.chat/rocketchat/rocket.chat:<release-tag>
@@ -169,11 +169,11 @@ Before you proceed, see the [general guidelines for updating Rocket.Chat](updati
 Updating the Rocket.Chat image doesn't affect your data since it exists in the Mongo image. Ensure that the version of your MongoDB is compatible with the intended [release](https://github.com/RocketChat/Rocket.Chat/releases) before proceeding with the update.
 {% endhint %}
 
-Using Docker & Docker compose, you can update your `rocketchat`  docker image to the latest or preferred version of Rocket.Chat.
+Using Docker & Docker compose, you can update your `rocketchat` docker image to the latest or preferred version of Rocket.Chat.
 
 To update your Rocket.Chat version,
 
-* For a specific version, modify the `RELEASE` variable in the `.env` file to point to the [docker image tag](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) of that version. Alternatively, you can edit the  `compose.yml` file to point to the desired Rocket.Chat version.
+* For a specific version, modify the `RELEASE` variable in the `.env` file to point to the [docker image tag](https://hub.docker.com/r/rocketchat/rocket.chat/tags/) of that version. Alternatively, you can edit the `compose.yml` file to point to the desired Rocket.Chat version.
 
 <details>
 
@@ -223,7 +223,7 @@ See [#rocket.chat-docker-images](deploy-with-docker-and-docker-compose.md#rocket
 
 You can secure your Rocket.Chat docker instance with TLS certificates from Let's Encrypt. Using Traefik as a reverse proxy, the certificates are automatically generated, enabling safe access to your Rocket.Chat instance via HTTPS on your specified domain.
 
-To get HTTPS, ensure the correct A record (optionally CNAME) is set for your domain going to your server IP.&#x20;
+To get HTTPS, ensure the correct A record (optionally CNAME) is set for your domain going to your server IP.
 
 * Update the following variables in your `.env` file. If you don't have one, create a .env file following [our example](https://github.com/RocketChat/Docker.Official.Image/blob/master/env.example).
   * `LETSENCRYPT_EMAIL`: Your required email for the TLS certificates.
@@ -261,7 +261,7 @@ docker compose up -d rocketchat --force-recreate
 docker compose -f traefik.yml up -d
 ```
 
-Wait for the TLS certificates to generate and Rocket.Chat to restart. Then,  access your Rocket.Chat instance securely at _https://your-domain.com,_ using the actual domain name you configured.
+Wait for the TLS certificates to generate and Rocket.Chat to restart. Then, access your Rocket.Chat instance securely at _https://your-domain.com,_ using the actual domain name you configured.
 
 ## Docker Mongo Backup and Restore
 

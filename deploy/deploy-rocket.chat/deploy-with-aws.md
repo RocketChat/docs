@@ -4,17 +4,17 @@ description: Deploying Rocket.Chat on Amazon Web Services
 
 # Deploy with AWS
 
-By leveraging Amazon Web Services (AWS) to deploy. Rocket.Chat on an EC2 instance, organizations can unlock a host of benefits, from scalability and reliability to cost-effectiveness and simplified management
+By leveraging Amazon Web Services (AWS) to deploy Rocket.Chat on an EC2 instance, organizations can unlock a host of benefits, from scalability and reliability to cost-effectiveness and simplified management.
 
 ## Preparation Steps
 
 The minimum requirement to run Rocket.Chat successfully is 2Gb 2 cores. You need an active AWS account to proceed with the deployment.
 
 {% hint style="warning" %}
-&#x20;It is not recommended to use this method for large production. Instead, see how to deploy on [Kubernetes with Helm](https://docs.rocket.chat/deploy/prepare-for-your-deployment/rapid-deployment-methods/helm).
+For deployments approaching 700 concurrent users and above,  [deploy-with-kubernetes.md](additional-deployment-methods/deploy-with-kubernetes.md "mention") is recommended.
 {% endhint %}
 
-In this guide, you'll learn how to:
+In this guide, you'll learn how to: is&#x20;
 
 * Host Rocket.Chat on an EC2 instance with a domain name.
 * Secure your  Rocket.Chat server with a free SSL certificate from [Let's Encrypt](https://letsencrypt.org/).
@@ -28,13 +28,14 @@ To create a new EC2 instance:
 * Log into your [AWS Console](https://console.aws.amazon.com/), and open the **EC2 Service.**
 * From the sidebar, click **Instances.** Then, click **Launch Instances** to set up a new EC2 instance.
 * Set the instance name and select at least _**Ubuntu Server 18.04 LTS**_**" with "**_**64-bit (x86)**_ architecture as the OS image.
-* Select an instance type of your choice according to the Cores recommendation above.
-* Choose an existing key pair or create a new one for SSH connections.
-* Adjust the instance details as needed or keep the defaults.
+* Select an instance type of your choice according to the Cores recommendation above. For example, _t3.large_.
+* Choose an existing key pair or create a new one for SSH connections
+* Allow **SSH, HTTP,** and **HTTPS** traffic in the security group configuration
 * Adjust the storage size and configuration as required.
+* Adjust the instance details as needed or keep the defaults.
 * Make sure to add a tag called **Name** and assign a value.
-* Allow **SSH, HTTP,** and **HTTPS** in the security group configuration, and proceed with **Review and Launch**.
-* After confirming your instance configuration, **Launch Instance**.
+* Proceed to **Summary** to review your instance configurations.
+* Then, click  **Launch Instance**.
 
 **Allocate an Elastic IP**
 
@@ -47,6 +48,10 @@ Next, allocate an IP address to the EC2 instance. To allocate an elastic IP,
 * Select your instance and click **Associate.**
 * In the details below, copy the **Public DNS**. You will need it to configure the DNS. The format looks like this: `ec2-18-XXX-XXX-XXX.eu-central-1.compute.amazonaws.com`
 
+{% hint style="warning" %}
+Allocating an elastic IP address to your instance is optional. You can proceed with using the **Public IPv4 address** of your instance for configuring your DNS.
+{% endhint %}
+
 **Configure DNS with AWS Route 53**
 
 To make your workspace accessible on the internet, you will require a domain name that people can use to access it.
@@ -57,9 +62,13 @@ To make your workspace accessible on the internet, you will require a domain nam
 * Select your newly created zone and click **Create Record Set.**
 * Enter "_www_" as a subdomain (if desired), select Type _CNAME_, enter the Public DNS name you copied from the elastic IP to the value field, and click "**Create.**"
 
+{% hint style="warning" %}
+If you already have a hosted zone, create a record by adding the _subdomain_ as the _record name_ and the _Public IPv4 address_ of your instance as the _value_.
+{% endhint %}
+
 **Get an SSL Certificate from Let's Encrypt**
 
-Use Let's Encrypt to get a free & open-source SSL certificate:
+Use Let's Encrypt to get a free & open-source SSL certificate by following these steps:
 
 * SSH to your instance.
 
@@ -68,7 +77,7 @@ ssh -i <path_to_key_file.pem> ubuntu@<public_ip_address>
 ```
 
 {% hint style="info" %}
-If your DNS has resolved, you may replace the Ip address with your domain name.
+If your DNS has resolved, you may replace the IP  address with your domain name.
 {% endhint %}
 
 * Install `certbot` using `apt`:
@@ -88,13 +97,13 @@ sudo certbot certonly --standalone --email <emailaddress@email.com> -d <domain.c
 A second (or more) domain is optional.
 {% endhint %}
 
-**Restrict access using security groups.**
+**\[Optional] Restrict access using security groups**
 
-If you want to restrict traffic to your AWS instance, you may adjust the security groups again. Make sure you allow "_TCP/22_" from your current location for the SSH connection, as well as "_TCP/443_" from the location you wish to use to access from.
+Adjust the security groups again if you want to restrict traffic to your AWS instance. Make sure you allow "_TCP/22_" from your current location for the SSH connection, as well as "_TCP/443_" from the location you wish to use to access from.
 
 **Configure Nginx Web Server with TLS/SSL**
 
-Rocket.Chat is set to run on port _3000_ by default. However, you can use Nginx as a reverse proxy to link your domain name to the Rocket.Chat server running on that port. This way, your users can access your workspace through your domain name(_example.com)_, instead of directly using the port in the URL(_example.com:3000_).
+Rocket.Chat is usually set to run on port 3000 by default. However, you can make it more accessible to your users by using Nginx as a reverse proxy. This will link your domain name to the Rocket.Chat server running on that port. By doing this, your users can access your workspace through your domain name (example.com) instead of directly using the port in the URL (example.com:3000).
 
 * Install Nginx web server:
 
@@ -166,14 +175,14 @@ Ensure to update `ABC.DOMAIN.COM` with your domain name. Update it in the path t
 sudo nginx -t
 ```
 
-* If the syntax test went successful, restart Nginx:
+* If the syntax test is successful, restart Nginx:
 
 ```bash
 sudo systemctl restart nginx
 ```
 
-Confirm it is running correctly by opening a web browser and entering your domain name. A "_502 Bad Gateway_" page is expected since the Rocket.Chat backend is not yet running. Ensure the SSL connection works appropriately by clicking the lock icon next to the address bar. Confirm it's valid and issued by "_Let's Encrypt Authority X3_".
+Confirm it is running correctly by opening a web browser and entering your domain name. A "_502 Bad Gateway_" page is expected since the Rocket.Chat backend is not yet running. Ensure the SSL connection works appropriately by clicking the lock icon next to the address bar. Confirm the connection is valid and secure using HTTPS.
 
 **Install Rocket.Chat**
 
-Now that your EC2 instance and domain are ready, SSH into your instance and follow our [Deploy with Docker & Docker Compose](deploy-with-docker-and-docker-compose.md) guide to set up your Rocket.Chat workspace. Once your workspace is running, log in to your site at `https://ABC.DOMAIN.COM.`The first user to log in will be the workspace administrator.
+Now that your EC2 instance and domain are ready, SSH into your instance and follow our [Deploy with Docker & Docker Compose](deploy-with-docker-and-docker-compose.md) guide to set up your Rocket.Chat workspace. Once your workspace is running, log in to your site at `https://ABC.DOMAIN.COM.` The first user to log in will be the workspace administrator.
