@@ -5,46 +5,41 @@ As of December 15, 2023, Rocket.Chat has ceased support for connections from clo
 {% endhint %}
 
 {% hint style="info" %}
-Snaps are a convenient way to rapidly deploy a Rocket.Chat instance for development or discovery purposes. We do not recommend snaps for managing production environment.
+Snaps are a convenient way to rapidly deploy a Rocket.Chat instance for development or discovery purposes. We do not recommend snaps for managing a production environment.
 {% endhint %}
 
-Installing software on Linux can now be done easily with the use of Snaps. They are self-contained packages with all necessary files and dependencies, ensuring easy installation and updates. Deploying Rocket.Chat with Snaps offers seamless deployment on any Linux distribution, providing a secure and isolated workspace. It also auto-updates when a new version of Rocket.Chat is released.
+Installing software on Linux can be done easily with the use of Snaps. They are self-contained packages with all necessary files and dependencies, ensuring easy installation and updates. Deploying Rocket.Chat with Snaps offers seamless deployment on any Linux distribution, providing a secure and isolated workspace. It also auto-updates when a new version of Rocket.Chat is released.
 
 In this guide, you'll learn how to:&#x20;
 
 * [Deploy Rocket.Chat using Snap](deploy-with-snaps.md#deploy-rocket.chat-with-snaps)
-* [Backup & Restore Rocket.Chat Snap data](deploy-with-snaps.md#snap-backup-and-restore)
+* [Backup and restore Rocket.Chat Snap data](deploy-with-snaps.md#snap-backup-and-restore)
 * [Auto SSL with Snaps](deploy-with-snaps.md#auto-ssl-with-snaps)
 * [Update Rocket.Chat Snap](deploy-with-snaps.md#updating-rocket.chat-snap)
 
-## Preparation Steps
+## **Prerequisites**
 
-**Prerequisites**
-
-* A Linux-based system (Ubuntu, Debian, Fedora, etc.)
+* A Linux-based system (Ubuntu, Debian, Fedora, etc.).
 * AVX/AVX2 supported CPU to run _Mongo 5.0_ for Rocket.Chat workspaces on version 6.0 & above.
-
-**Install Snaps**
-
-Snap is pre-installed in most modern Linux distributions. If it's not, see the[ Snaps installation guide](https://snapcraft.io/docs/installing-snapd).
+* Snap is pre-installed in most modern Linux distributions. If it's not, see the[ Snaps installation guide](https://snapcraft.io/docs/installing-snapd).
 
 ## Deploy Rocket.Chat with Snaps
 
-* To install Rocket.Chat with snap on Ubuntu, run the following command:
+To install Rocket.Chat with snap on Ubuntu, run the following command:
 
-```
+```bash
 sudo snap install rocketchat-server
 ```
 
-{% hint style="info" %}
 This command installs the latest available version on Rocket.Chat. You can also specify the installation by track.
-{% endhint %}
 
-* To access your Rocket.Chat workspace, open a web browser and navigate to the specified ROOT URL (_`http://localhost:3000`_). Follow the configuration prompts to [configure your workspace.](https://docs.rocket.chat/setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard#setup-wizard)
+To access your Rocket.Chat workspace, open a web browser, and navigate to the specified ROOT URL (`http://localhost:3000`). Follow the configuration prompts to [configure your workspace.](https://docs.rocket.chat/setup-and-configure/accessing-your-workspace/rocket.chat-setup-wizard#setup-wizard)
 
-**Moving Between Major Releases**
+### **Move between major releases**
 
-With Snap tracks, you can smoothly transition between major releases of Rocket.Chat (_from 2.x to 3.x or from 3.x to 4.x_). These tracks enable you to remain on a specific release while receiving updates exclusively for that particular track. For instance, you can confidently switch to a new major release with the following command:
+With Snap tracks, you can smoothly transition between major releases of Rocket.Chat (_from 2.x to 3.x or from 3.x to 4.x_). These tracks enable you to remain on a specific release while receiving updates exclusively for that particular track.&#x20;
+
+For instance, you can confidently switch to a new major release with the following command:
 
 ```bash
 sudo snap switch rocketchat-server --channel=4.x/stable
@@ -52,11 +47,11 @@ sudo snap switch rocketchat-server --channel=4.x/stable
 
 Snap tracks allow you to keep your Rocket.Chat server up-to-date with the latest features while choosing your preferred release version.
 
-**Configuring  Rocket.Chat with Snaps**
+### **Configure Rocket.Chat with Snaps**
 
-* To see the list of snap variables to configure for your Rocket.Chat server, run the following command:
+To see the list of snap variables to configure for your Rocket.Chat server, run the following command:
 
-```shell
+```bash
 snap get rocketchat-server
 ```
 
@@ -72,182 +67,178 @@ port               3000
 siteurl            http://localhost:3000
 ```
 
-* To set any of the variables, run this command:
+To set any of the above configuration parameters, run this command:
 
 ```bash
 sudo snap set rocketchat-server <variable-name>=<value>
 ```
 
-#### **Configuring MongoDB**
+### **Configure MongoDB**
 
-From track _4.x_, you can configure your MongoDB. The configuration file is located in `/var/snap/rocketchat-server/current/mongod.conf`.
+From track _4.x_, you can configure your MongoDB. The configuration file is located in `/var/snap/rocketchat-server/current/mongod.conf`.&#x20;
 
-{% hint style="info" %}
 For all the configuration options, see [MongoDB's official documentation.](https://www.mongodb.com/docs/)
-{% endhint %}
 
-### Snap Backup and Restore
+## Snap backup and restore
 
 Snap Backup and Restore is a handy tool that allows you to create backups of your Rocket.Chat instance and restore them as needed.
 
-**Backup Rocket.Chat Snap Data**
+### **Backup Rocket.Chat Snap data** <a href="#backup-rocket.chat-snap-data" id="backup-rocket.chat-snap-data"></a>
 
-You can enable automatic backup on each snap refresh by executing this command:
+Run the following command to enable automatic backup on each snap refresh:
 
-```
+```bash
 sudo snap set rocketchat-server backup-on-refresh=enable
 ```
 
-To backup the data on your snap installation,
+To backup the data on your snap installation, follow these steps:
 
-* Stop your rocketchat-server by running
+1. Stop your `rocketchat-server` by running the command:
 
-```
+```bash
 sudo service snap.rocketchat-server.rocketchat-server stop
 ```
 
-{% hint style="warning" %}
-While the `rocketchat-server service` should be stopped, the `rocketchat-mongo service` should be kept running.
-{% endhint %}
+While the `rocketchat-server service` should be stopped, the `rocketchat-mongo service` should be kept running. To verify this, run the following command:
 
-```
+```bash
 sudo service snap.rocketchat-server.rocketchat-mongo status | grep Active
    Active: active (running) (...)
 ```
 
-* Execute the backup command:
+2. Execute the backup command:
 
-```
+```bash
 sudo snap run rocketchat-server.backupdb
 ```
 
-* A successful backup will return this:
+A successful backup will return this:
 
-```
+{% code overflow="wrap" %}
+```bash
 [+] A backup of your data can be found at /var/snap/rocketchat-server/common/backup/rocketchat_backup_<timestamp>.tar.gz
 ```
+{% endcode %}
 
-* Start your rocketchat-server
+3. Start your rocketchat-server
 
-```
+```bash
 sudo service snap.rocketchat-server.rocketchat-server start
 ```
 
-* Copy your backup to a different system for safekeeping.
+4. Copy your backup to a different system for safekeeping.
 
-**Restore Rocket.Chat Snap Data**
+### **Restore Rocket.Chat Snap data** <a href="#restore-rocket.chat-snap-data" id="restore-rocket.chat-snap-data"></a>
 
-To restore your backed-up snap data,
+To restore your backed-up snap data, follow these steps:
 
-* Stop your rocketchat-server by running this command:
+1. Stop your `rocketchat-server` by running this command:
 
-```
+```bash
 sudo service snap.rocketchat-server.rocketchat-server stop
 ```
 
-{% hint style="warning" %}
-While the `rocketchat-server service` should be stopped, the `rocketchat-mongo service` should be kept running.
-{% endhint %}
+While the `rocketchat-server service` should be stopped, the `rocketchat-mongo service` should be kept running. To verify this, run the following command:
 
-```
+```bash
 sudo service snap.rocketchat-server.rocketchat-mongo status | grep Active
    Active: active (running) (...)
 ```
 
-* Copy your backup file to the snap's common folder:
+2. Copy your backup file to the snap's common folder:
 
-```
+```bash
 sudo cp rocketchat_backup.tgz /var/snap/rocketchat-server/common/
 ```
 
-* Run the restore command:
+3. Run the restore command:
 
-```
+{% code overflow="wrap" %}
+```bash
 sudo snap run rocketchat-server.restoredb /var/snap/rocketchat-server/common/rocketchat_backup.tgz
 ```
+{% endcode %}
 
-If you are replacing an existing database, you get a warning message.
+If you are replacing an existing database, you get the following warning message:
 
-{% hint style="danger" %}
-**ATTENTION**
-
-* Your current database WILL BE DROPPED prior to the restore!
-* Do you want to restore?
-  * 1\) Yes
-  * 2\) No
-{% endhint %}
-
-* Choose your restore option.
-* If it is successfully done, you will see an output similar to:
-
+```bash
+ATTENTION
+Your current database WILL BE DROPPED prior to the restore!
+Do you want to restore?
+1) Yes
+2) No
 ```
+
+Choose your restore option. If it is successfully done, you will see an output similar to the following:
+
+```bash
 [*] Extracting backup file...
 [*] Restoring data...
 [*] Preparing database...
 [+] Restore completed! Please restart the snap.rocketchat services to verify.
 ```
 
-* Start your rocketchat-server
+4. Start your `rocketchat-server`:
 
-```
+```bash
 sudo service snap.rocketchat-server.rocketchat-server start
 ```
 
-### **Auto SSL with Snaps**
+## **Auto SSL with Snaps**
 
-Starting from release 0.73, the snap includes Caddy, which utilizes Let's Encrypt to enable TLS protection for your communications. Snap hooks ensure easy configuration of Caddy, including proper DNS setup, before starting Caddy with Let's Encrypt support.&#x20;
+Starting from release 0.73, the snap includes **Caddy**, which utilizes **Let's Encrypt** to enable TLS protection for your communications. Snap hooks ensure easy configuration of Caddy, including proper DNS setup, before starting Caddy with Let's Encrypt support.&#x20;
 
-To set up Auto SSL with Snaps for _4.x latest AMD64 snaps_ or 3_.x latest ARM64 snaps_,
+To set up Auto SSL with Snaps for _4.x latest AMD64 snaps_ or 3_.x latest ARM64 snaps_, follow these steps:
 
-* Set the `SiteUrl` to your domain using the following command, esure it is prefixed with `https`:
+1. Set the `SiteUrl` to your domain using the following command, ensure it is prefixed with `https`:
 
-```
+```bash
 sudo snap set rocketchat-server siteurl=https://<your domain>
 ```
 
-* Start Caddy and restart the snap services.
+2. Start Caddy and restart the snap services:
 
-```
+```bash
 sudo systemctl enable --now snap.rocketchat-server.rocketchat-caddy 
 sudo snap restart rocketchat-server
 ```
 
-**Configure Caddy yourself or use another HTTP Proxy**
+You can configure Caddy yourself or use another HTTP Proxy.&#x20;
 
-For 4.x latest AMD64 snaps or 3.x latest ARM64 snaps,
+For 4.x latest AMD64 snaps or 3.x latest ARM64 snaps, follow these steps:
 
 {% hint style="info" %}
 Both caddy v2 and caddy v1 (EOL) is delivered in the snap, v2 is prioritized over v1.
 {% endhint %}
 
-* To configure Caddy yourself, place the Caddyfile in the `/var/snap/rocketchat-server/current/` directory and restart rocketchat-server.
+* **To configure Caddy yourself**, place the Caddyfile in the `/var/snap/rocketchat-server/current/` directory and restart rocketchat-server:
 
-```
+```bash
 sudo snap restart rocketchat-server
 ```
 
-* To use another reverse proxy, disable Caddy by running this command:
+* **To use another reverse proxy**, disable Caddy by running this command:
 
-```
+```bash
 sudo systemctl disable snap.rocketchat-server.rocketchat-caddy
 ```
 
-For older snap versions,
+#### **For older snap versions**
 
-* If you would like to use a different https proxy or prefer other options in your Caddy configuration, you can choose to disable Caddy by running this command:
+If you would like to use a different HTTPS proxy or prefer other options in your Caddy configuration, you can choose to disable Caddy by running this command:
 
 ```bash
 sudo snap set rocketchat-server caddy=disable
 ```
 
-* Edit the Caddyfile found at `/var/snap/rocketchat-server/current/Caddyfile` and write your configuration.
-* Replace `_caddy-url_` and `_port_` with your site information. For example, suppose I have example-domain.com directed towards my server.
+1. Edit the Caddyfile found at `/var/snap/rocketchat-server/current/Caddyfile` and write your configuration.
+2. Replace `_caddy-url_` and `_port_` with your site information. For example, suppose that you have `example-domain.com` directed toward your server.
 
 {% hint style="warning" %}
-&#x20;If your DNS is not working, you could be instantly [throttled by Let's Encrypt](https://caddyserver.com/docs/automatic-https#testing) for _up to a week_.&#x20;
+&#x20;If your DNS is not working, you could be instantly [throttled by Let's Encrypt](https://caddyserver.com/docs/automatic-https#testing) for up to a week.&#x20;
 {% endhint %}
 
-* Be sure that your DNS has finished resolving **before** attempting to enable TLS. To test your DNS you can use http:
+3. Be sure that your DNS has finished resolving **before** attempting to enable TLS. To test your DNS, you can use `http`:
 
 ```bash
 http://example-domain.com
@@ -255,19 +246,19 @@ http://example-domain.com
 reverse_proxy localhost:3000
 ```
 
-* Restart Caddy:
+4. Restart Caddy:
 
 ```bash
 sudo systemctl reload snap.rocketchat-server.rocketchat-caddy
 ```
 
-* You can check that the Caddy service started correctly by running:
+5. You can check that the Caddy service started correctly by running:
 
 ```bash
 sudo systemctl status snap.rocketchat-server.rocketchat-caddy
 ```
 
-* Once that is tested and resolved, to get secured communications, you can remove the `http://`:
+6. Once that is tested and resolved, to get secured communications, you can remove the `http://`:
 
 ```bash
 example-domain.com
@@ -275,29 +266,27 @@ example-domain.com
 reverse_proxy localhost:3000
 ```
 
-
-
 {% hint style="info" %}
 Using an IP address will not work for automatically enabling TLS with a publicly-trusted certificate. You must use a valid hostname for a trusted certificate. See the[ official guide](https://caddyserver.com/docs/automatic-https) for more information.&#x20;
 
 If you use an IP address, Caddy will still serve your site over TLS, but using a self-signed certificate.
 {% endhint %}
 
-* Restart the Caddy service by running:
+7. Restart the Caddy service by running:
 
 ```bash
 sudo systemctl reload snap.rocketchat-server.rocketchat-caddy
 ```
 
-* You can check that the Caddy service started correctly by running:
+8. You can check that the Caddy service started correctly by running:
 
 ```bash
 sudo systemctl status snap.rocketchat-server.rocketchat-caddy
 ```
 
-If the configuration is succesfull, the website should now be easily accessible at `https://example-domain.com`.
+If the configuration is successful, the website should now be accessible at `https://example-domain.com`.
 
-### Updating Rocket.Chat Snap
+## Update Rocket.Chat Snap
 
 {% hint style="info" %}
 Before you proceed, see the [general guidelines for updating Rocket.Chat](updating-rocket.chat.md).
@@ -311,19 +300,19 @@ It is highly advised to [back up your data](deploy-with-snaps.md#snap-backup-and
 Before a major version update, check the [forum's announcement section](https://forums.rocket.chat/c/announcements/10). Major releases are often delayed by a couple of weeks to gather feedback and apply minor patches before the final release.
 {% endhint %}
 
-* To force an update, run this command**:**
+To force an update, run this command**:**
 
 ```
 sudo snap refresh rocketchat-server
 ```
 
-* To update to a major version, switch to a specific track by executing this command:
+To update to a major version, switch to a specific track by executing this command:
 
 ```
 sudo snap switch rocketchat-server --channel=x.x/stable
 ```
 
-You'll then receive updates related to that track..
+You'll then receive updates related to that track.
 
 {% hint style="info" %}
 &#x20;Learn more about track changes in this [discussion](https://forums.rocket.chat/t/introducing-snap-tracks/5890).
