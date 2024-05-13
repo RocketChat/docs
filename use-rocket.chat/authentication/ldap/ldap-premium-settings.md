@@ -8,7 +8,12 @@ On this page, we describe LDAP premium settings, available exclusively to worksp
 
 Set the following advanced sync settings:
 
-* **Sync User Active State**: Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status.&#x20;
+* **Sync User Active State**: Determine if users should be enabled or disabled on Rocket.Chat based on the LDAP status. The options are as follows:
+  * **Do nothing**: No changes are made to the user status.
+  * **Disable Users**: Disable users not found on sync.
+  * **Enable Users**: Re-enable users found on LDAP background sync.
+  * **Enable and Disable Users**: Enable and disable users according to the LDAP user status.\
+    To verify the user status, search for the user from **Administration** > **Workspace** > **Users**. The status will be displayed accordingly.
 
 {% hint style="info" %}
 * The `pwdAccountLockedTime` attribute will be used to determine if the user is disabled. This setting is not yet compatible with all LDAP Servers, so if you don't use the `pwdAccountLockedTime` attribute, you may want to disable it completely.
@@ -33,6 +38,7 @@ Configure the background sync behavior:
 * **Background Sync Import New Users**: Import all users (based on your filter criteria) that exist in LDAP and that do not exist in Rocket.Chat.
 * **Background Sync Update Existing Users**: This will sync the avatar, fields, username, etc (based on your configuration) of all users already imported from LDAP on every **Sync Interval**.
 * **Background Sync Merge Existing Users**: Merge all users (based on your filter criteria) that exist in LDAP and also exist in Rocket.Chat. To enable this, activate the **Merge Existing Users** setting in the **Data Sync** tab.
+* **Automatically disable users that are no longer found on LDAP**: This option will deactivate users on Rocket.Chat when their data is not found on LDAP. Any rooms owned by those users will be automatically assigned to new owners, or removed if no other user has access to them. You can verify this by searching for the user from **Administration** > **Workspace** > **Users**. The status will be displayed as `Disabled`.
 * **Avatar Background Sync**: Enable a separate background process to sync user avatars.
 * **Avatar Background Sync Interval**: The interval between avatar sync, using the [Cron Text](https://bunkat.github.io/later/parsers.html#text) format.
 
