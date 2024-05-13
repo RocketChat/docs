@@ -8,30 +8,45 @@ description: >-
 
 To access and manage your Rocket.Chat account on a workspace,
 
-* Log in to your Rocket.Chat server with a valid username and password.&#x20;
-* Click your avatar and select **Account**.
-* You can update your **Profile**, **Preference**, **Security** and **Personal Access Tokens**.
+* Login to your Rocket.Chat server with a valid username and password.&#x20;
+* Click your avatar.&#x20;
+* Under **Account**, select any of the settings to access the account settings — **Profile**, **Preferences**, **Accessibility and appearance**.
+* On the left-hand pane, you can find the following tabs:
+  * **Profile**
+  * **Preferences**
+  * **Security**
+  * **Integrations**
+  * **Personal Access Tokens**
+  * **Omnichannel**
+  * **Accessibility and appearance**
+  * **Manage devices**
 
-{% hint style="success" %}
 Updating account settings is unique to your workspace and does not affect your account on other workspaces.
+
+Let's look at the settings for each tab in detail.
+
+{% hint style="info" %}
+The settings displayed depend on your workspace account settings configured by the administrator. See [Accounts](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/accounts) to learn about the settings.
 {% endhint %}
 
 ## Profile
 
-To update your account profile in a workspace,&#x20;
+You can update the following settings for your **Profile**:
 
-* Navigate to **Avatar Menu >  Account** > **Profile.**
-* You can update your **avatar, name, username, nickname, bio, and status message.** Click **Save Changes**.
-* Click **Logout from other LoggedIn Locations** to log out of your account from other clients.
-* Click **Delete My Account** to delete your account from this workspace.
+* **Profile Picture**: You can also upload a picture or enter a URL.
+* **Name** and **Username**
+* **Status Message**
+* **Nickname**
+* **Bio**
+* **Email**
+* Click **Logout from other Logged In Locations** to log out of your account from other clients.
+* Click **Delete my account** to delete your account from this workspace.
 
-## Preference
+## Preferences
 
-In the **Preferences**, you can configure and set your preferences for your account on the workspace.
+In the **Preferences**, you can configure and set your preferences for your account on the workspace. These preferences include the following:
 
-To access this menu, Navigate to **Avatar Menu >  Account** > **Preferences.** Update your preferences and click **Save Changes.** These preferences include the following:
-
-**Localization**
+### **Localization**
 
 * **Language**: Set the language to use for the Rocket.Chat user interface.
 
@@ -41,12 +56,14 @@ Rocket.Chat determines the language displayed in your workspace based on the fol
 2. **Browser Language:** If you haven't selected a language under [user preferences](account.md#preference), Rocket.Chat will use the language configured in your web browser.
 3. [**Server Language**](../../workspace-administration/settings/general/#general-settings)**:** This is the default language set by the Rocket.Chat workspace administrator. It's only used as a last resort if neither your user preference nor browser language is available.
 
-**User Presence**
+### **User Presence**
 
-* **Enable Auto-Away**: Enable the auto-away functionality, which changes the status to _away_ after an idle period.
-* **Idle time limit**: Set the time in seconds it waits before the status changes to away.
+* **Enable Auto-Away**: Enable the auto-away functionality, which changes the status to `away` after an idle period.
+* **Idle time limit**: Set the time in seconds to wait before the status changes to away.
 
-**Notifications**
+### **Notifications**
+
+Make sure to update your browser preferences to allow notifications.
 
 * **Desktop Notifications**: Click the **Test Desktop Notification** to see how notifications will be displayed on the desktop.
 * **Require Interaction to Dismiss Desktop Notification**: When enabled, notifications must be attended to before they can be dismissed. i.e., they will remain in the notification panel until they are visited.
@@ -56,13 +73,13 @@ Rocket.Chat determines the language displayed in your workspace based on the fol
 * **Receive login detection emails**: Get an email notification whenever a login is made to your account.
 
 {% hint style="danger" %}
-For email notifications, you must verify your email address.
+To receive email notifications, you must verify your email address.
 {% endhint %}
 
-**Messages**
+### **Messages**
 
 * **Unread Tray Icon Alert**: Toggles if the tray icon highlights when you have unread messages.
-* **Always show thread replies in the main channel**: When enabled, all replies under a [thread](../rooms/threads/) will also be displayed directly in the main      [room](../rooms/). When disabled, they're displayed based on the sender's choice.
+* **Always show thread replies in the main channel**: When enabled, all replies under a [thread](../rooms/threads/) will also be displayed directly in the main [room](../rooms/). When disabled, they're displayed based on the sender's choice.
 * **Also send thread messages to channel behavior:** When replying to a [thread](../rooms/threads/), select how your replies should be sent to the [room](../rooms/).
   * **Selected for the first reply, unselected for the remaining**: The first reply to the [thread](../rooms/threads/) is displayed in the main [room](../rooms/), while subsequent replies are not.
   * **Selected by default**: The **Also send to channel** checkbox is always selected when replying to a [thread](../rooms/threads/). When the reply is sent, it's also displayed in the main [room](../rooms/).
@@ -79,46 +96,48 @@ When replying to a thread, you can select or unselect the **Also send to channel
 * **Collapse embedded media by default**: Toggles if messages with&#x20;
 * **Hide Contextual Bar by clicking outside of it**: Automatically closes the right sidebar in rooms when you click outside them.
 * **Display Avatars**: Hides avatars on the channels, showing only the users' usernames.
-* **Enter key behavior**: Configure what the **enter** key does.
-  * Normal mode (send with Enter)
-  * Alternative mode (send with Enter + Ctrl/Alt/Shift/CMD)
-  * Desktop mode (only sends with Enter on desktop)
+* **Enter key behavior**: Configure what the `Enter` key does.
+  * Normal mode (send with `Enter`)
+  * Alternative mode (send with `Enter + Ctrl/Alt/Shift/CMD`)
+  * Desktop mode (only sends with `Enter` on desktop)
 
-**Highlights**
+### **Highlights**
 
 * **Highlight words**: Specify a comma-separated list of words or phrases to trigger notifications when mentioned by anyone in public or private channels of which you are a member.&#x20;
 
-**Sound**
+### **Sound**
 
 * **New Room Notification**: When added to a new room, select the sound to play.
 * **New Message Notification**: Select the sound to play for every new message.
 * **Mute Focused Conversations**: When enabled, open and active rooms will not create notifications.
 * **Notifications sound volume**: Set the volume of the notification sound.
 
-**My Data**
+### **My Data**
 
-Download your data as HTML or export it as JSON. Whichever option you choose, the request is processed in a queue, and a link to the exported file sent to your email.
+Download your data as HTML or export it as JSON. Whichever option you choose, the request is processed in a queue, and a link to the exported file is sent to your email.
 
 ## Security
 
-You can update your password or enable  Two Factor Authentication (2FA) for your account to enhance your account security.&#x20;
+You can update the following account security settings depending on your workspace settings.
 
-To access security settings,&#x20;
+### **Password**
 
-* Navigate to **Avatar Menu > Account** > **Security**.
-
-**Password**
+This tab is displayed if the setting to change passwords in [Accounts](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/accounts) is enabled.
 
 * Update your **password** and **confirm the new password**.
 * Then, click **Save Changes**.
 
-**Two-factor authentication**
+### **Two Factor Authentication**
 
-Kindly consult the [two-factor-authentication-user-guide.md](../security-bundle/two-factor-authentication-user-guide.md "mention") to gain a comprehensive understanding of two-factor authentication in Rocket.Chat.
+This tab is displayed if 2FA is enabled in the workspace settings.
+
+Refer to the [two-factor-authentication-user-guide.md](../security-bundle/two-factor-authentication-user-guide.md "mention") to gain a comprehensive understanding of two-factor authentication in Rocket.Chat.
 
 ### **E2E Encryption**
 
-You can now create encrypted private groups and direct messages. You may also update existing private groups or DMs to encrypted. It is end-to-end encryption, so the key to encode/decode your messages isn't saved on the server. For that reason, you need to store your password somewhere safe. You are required to enter it on other devices you wish to use e2e encryption.
+This tab is displayed if [E2E encryption](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/e2e-encryption) is enabled in the workspace settings.
+
+You can create encrypted private groups and direct messages. You may also update existing private groups or DMs to encrypted. It is end-to-end encryption, so the key to encode/decode your messages isn't saved on the server. For that reason, you need to store your password somewhere safe. You are required to enter it on other devices you wish to use E2E encryption.
 
 **Change Encryption Password**
 
@@ -132,7 +151,7 @@ To create an encryption password,
 This option will remove your current E2E key and log you out. When you log in again, Rocket.Chat will generate a new key and restore your access to any encrypted room that has one or more members online. Due to the nature of the E2E encryption, Rocket.Chat can't restore access to any encrypted room with no members online.
 
 {% hint style="info" %}
-Visit the [E2E Encryption user guide ](../security-bundle/end-to-end-encryption-user-guide.md)for more details.
+Refer to the [E2E Encryption user guide ](../security-bundle/end-to-end-encryption-user-guide.md)for more details.
 {% endhint %}
 
 ## Integrations
@@ -143,21 +162,17 @@ Visit the [E2E Encryption user guide ](../security-bundle/end-to-end-encryption-
 
 To make API calls easily, you have the option to create personalized access tokens.
 
-To access **Personal Access Tokens**,&#x20;
-
-* Navigate to **Avatar Menu > Account** > **Personal Access Tokens**.
-
-**Creating a Personal Access Token**
+**Create a Personal Access Token**
 
 To create a personal access token,&#x20;
 
-* From the Access Token dashboard, enter the token name and hit **Add**.
-* You can configure whether or not to require 2FA when using this token by selecting between the **Ignore Two Factor Authentication** and **Require Two Factor Authentication** dropdown option.
+* Enter the token name and click **Add**.
+* You can configure whether or not to require 2FA when using this token by selecting between the **Ignore Two Factor Authentication** and **Require Two Factor Authentication** drop-down options.
 * Enter your password or 2FA code to **Verify**.
 * Your access token is generated successfully. It displays Your **User Id** and an **Access Token.**
 
 {% hint style="info" %}
-Remember to store the user Id and access token in a safe place as you can only view it once.
+Remember to store the user ID and access token in a safe place as you can only view it once.
 {% endhint %}
 
 **Delete Personal Access Token**
@@ -174,7 +189,7 @@ To regenerate an existing access token,&#x20;
 * From the Personal Access Token list, click the refresh icon against the token you choose to regenerate.
 * &#x20;Then, click **Regenerate**.
 
-### Omnichannel
+## Omnichannel
 
 **Hide conversation after closing:** Redirect agents to the home page after closing a conversation.
 
@@ -182,3 +197,5 @@ To regenerate an existing access token,&#x20;
 
 * **Export chat transcript as PDF**: Always export the transcript as PDF at the end of conversations.
 * **Send chat transcript via email**: Always send the transcript to contacts at the end of the conversations.
+
+To learn about the accessibility, appearance, and device management settings, see the next topics.
