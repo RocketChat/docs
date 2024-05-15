@@ -33,8 +33,8 @@ In your workspace, set the following fields as per your requirements.
 * **Enable**: Set to true to enable this OAuth integration
 * **URL**: `https://login.microsoftonline.com/<tenant ID>`
 * **Token Path**:  `/oauth2/token`
-* **Token Sent Via**: Select whether you want to send the token via `Payload` or `Header`.
-* **Identity Token Sent Via**: Select whether you want to send the identify token via `Payload`, `Header`, or keep it **Same as "Token Sent Via"** field value.
+* **Token Sent Via**: Select `Payload`.
+* **Identity Token Sent Via**: Select `Header`.
 * **Identity Path**: `/openid/userinfo`
 * **Authorize Path**: `/oauth2/authorize`
 * **Scope**: `openid profile email`
@@ -43,6 +43,7 @@ In your workspace, set the following fields as per your requirements.
 * **Secret**: `<Your Azure AD client secret value>`
 * **Login style**: Select the login style as `Popup`, `Redirect`, or `Default`.
 * **Button Text**: Enter some text to display on the button. For example, `Login via Microsoft`.
+* **Key Field**: Select `Email`.
 * **Merge Users**: True
 * **Merge Users From Distinct Services**: True
 * Click **Save changes**.
