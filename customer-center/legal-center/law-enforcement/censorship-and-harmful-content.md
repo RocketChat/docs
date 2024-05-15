@@ -8,8 +8,6 @@ Our position:
 
 Rocket.Chat is built to be an open and free communication platform. We want everyone to be able to run it and use our platform freely, and to improve people's lives. Today, our platform is used for myriads of different purposes, according to how our users deem it fit for their purposes.
 
-We also do not want to be the judges on what constitutes the “right” way to use Rocket.Chat. Moral values differ from person to person, and laws often collide over highly debated issues such as free speech. We believe the users of Rocket.Chat know best how to use our platform to their and everyone else's benefit.
-
 ### How does Rocket.Chat deal with reports of illegal content?
 
 Sometimes, our organization receives a request from a law enforcement body with the aim to produce a certain set of user data to aid in a criminal investigation. Or there might be a request to take down content that has been deemed illegal. We treat these requests very carefully and - where we are able and obliged to help - bring this to the attention of the administrator of the instance. Oftentimes, we cannot do anything, though.
