@@ -131,15 +131,19 @@ docker pull registry.rocket.chat/rocketchat/rocket.chat
 
 **Latest Release Image**
 
-This is an image that holds the latest stable Rocket.Chat updates on the docker repository. The release may be from the `develop` or `master` branch.
+This image holds the latest stable Rocket.Chat updates on the docker repository. The release may be from the `develop` or `master` branch.
 
 ```bash
 docker pull registry.rocket.chat/rocketchat/rocket.chat:latest
 ```
 
+{% hint style="warning" %}
+Using the `latest` image tag in your projects is highly unrecommended.
+{% endhint %}
+
 **Preview Image**
 
-The Rocket.Chat preview image deploys a container with a database inside. It's useful for quickly trying or running tests, not requiring a dedicated database installation.
+The Rocket.Chat preview image deploys a container with a database inside. It's useful for quickly trying or running tests, and it does not require a dedicated database installation.
 
 {% embed url="https://hub.docker.com/r/rocketchat/rocket.chat.preview" %}
 
@@ -153,7 +157,7 @@ docker pull registry.rocket.chat/rocketchat/rocket.chat:<release-tag>
 
 **Bleeding-edge untested develop build image**
 
-This is an image maintained at Rocket.Chat's docker repository was updated from the `develop` (untested) branch, containing the latest updates for those who want to work with the newest features.
+Rocket.Chat offers an image on the docker repository built from the [develop branch](https://github.com/RocketChat/Rocket.Chat/tree/develop). This image contains the newest features for users interested in trying them out.
 
 ```bash
 docker pull registry.rocket.chat/rocketchat/rocket.chat:develop
@@ -166,7 +170,7 @@ Before you proceed, see the [general guidelines for updating Rocket.Chat](updati
 {% endhint %}
 
 {% hint style="warning" %}
-Updating the Rocket.Chat image doesn't affect your data since it exists in the Mongo image. Ensure that the version of your MongoDB is compatible with the intended [release](https://github.com/RocketChat/Rocket.Chat/releases) before proceeding with the update.
+Updating the Rocket.Chat image doesn't affect your data since it exists in the Mongo image. Before proceeding with the update, ensure that the version of your MongoDB is compatible with the intended [release](https://github.com/RocketChat/Rocket.Chat/releases).
 {% endhint %}
 
 Using Docker & Docker compose, you can update your `rocketchat` docker image to the latest or preferred version of Rocket.Chat.
@@ -255,7 +259,7 @@ curl -LO \
 docker compose up -d rocketchat --force-recreate
 ```
 
-* Star traefik
+* Start traefik
 
 ```
 docker compose -f traefik.yml up -d
