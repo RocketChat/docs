@@ -3,7 +3,7 @@
 <figure><img src="../../../.gitbook/assets/2021-06-10_22-31-38 (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (3) (1) (1) (1) (1) (2) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (1) (1) (1) (34).jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Before you proceed, kindly visit [deploy-with-kubernetes.md](../additional-deployment-methods/deploy-with-kubernetes.md "mention") guide to gain a foundational understanding of the deployment process.
+Before you proceed, kindly visit [deploy-with-kubernetes.md](../deploy-with-kubernetes.md "mention") guide to gain a foundational understanding of the deployment process.
 {% endhint %}
 
 ## Components Overview
@@ -40,7 +40,7 @@ See [the official documentation](https://docs.nats.io/) to learn how to start NA
 Bare minimum, each container must be started with `MONGO_URL` and `TRANSPORTER` environment variables set, pointing to the MongoDB database (using full connection string) and the nats gateway address, respectively. At the very least, each container must be started with `MONGO_URL` and `TRANSPORTER` environment variables set, pointing to the MongoDB database (using full connection string) and the NATS gateway address, respectively. All `/sockjs` and `/websocket` connections must be routed through a reverse proxy or load balancer (LB), with the remainder going to the monolith.
 
 {% hint style="warning" %}
-Again, it is essential to note that we do not support direct docker/compose microservices deployment. The only supported method currently is using [Kubernetes with our official helm chart](../additional-deployment-methods/deploy-with-kubernetes.md).
+Again, it is essential to note that we do not support direct docker/compose microservices deployment. The only supported method currently is using [Kubernetes with our official helm chart](../deploy-with-kubernetes.md).
 {% endhint %}
 
 ## Microservices Deployment
@@ -102,7 +102,7 @@ replicaCount: 2
 {% endhint %}
 
 {% hint style="info" %}
-You can find other deployment variables in [deploy-with-kubernetes.md](../additional-deployment-methods/deploy-with-kubernetes.md "mention").
+You can find other deployment variables in [deploy-with-kubernetes.md](../deploy-with-kubernetes.md "mention").
 {% endhint %}
 
 * Set up ingress. This architecture requires an ingress controller. All WebSocket connections needs to be sent directly to the `ddp-streamer`service as mentioned earlier. For example, install an nginx controller in your cluster following [this guide](https://kubernetes.github.io/ingress-nginx/deploy/#quick-start), then edit the `values.yml` file and add the following values:
@@ -129,7 +129,7 @@ helm install rocketchat -f values.yaml rocketchat/rocketchat
 * Once deployed, you should be able to access the Rocket.Chat using the configured host. You can convert your existing monolith deployment to using microservices by making the same changes mentioned in this document and running `helm upgrade` with the values file and the current deployment name instead of `helm install`.
 
 {% hint style="info" %}
-A complete guide on how to deploy with helm can be found in [deploy-with-kubernetes.md](../additional-deployment-methods/deploy-with-kubernetes.md "mention"). For multi-workspace deployment, please [contact support](../../../customer-center/support-center/).
+A complete guide on how to deploy with helm can be found in [deploy-with-kubernetes.md](../deploy-with-kubernetes.md "mention"). For multi-workspace deployment, please [contact support](../../../customer-center/support-center/).
 
 Additionally, you can refer to [this recording](https://drive.google.com/file/d/1RfPzG84pxazzUsnjpM42\_1XMe1jHCUP0/view) that explains how to deploy Rocket.Chat with microservices in a test environment.
 {% endhint %}

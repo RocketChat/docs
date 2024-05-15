@@ -5,7 +5,7 @@ To configure a Matrix bridge that allows Rocket.Chat users to engage in federate
 This documentation details the deployment of a federated Rocket.Chat workspace with Kubernetes using Helm. You have the option to set it up either as a monolithic architecture or as microservices.
 
 {% hint style="info" %}
-Before you proceed, kindly consult the official guide for[ deploying a basic Rocket.Chat workspace on Kubernetes using Helm](../../../deploy/deploy-rocket.chat/additional-deployment-methods/deploy-with-kubernetes.md) to gain a foundational understanding of the Kubernetes procedure.
+Before you proceed, kindly consult the official guide for[ deploying a basic Rocket.Chat workspace on Kubernetes using Helm](../../../deploy/deploy-rocket.chat/deploy-with-kubernetes.md) to gain a foundational understanding of the Kubernetes procedure.
 {% endhint %}
 
 ## Prerequisites
@@ -140,7 +140,7 @@ The _values.yaml_ file contents provided here serve as examples for your referen
 * Ensure that the appropriate `ingressclassName`,  `existingClaim`, and cluster issuer are specified.
 
 {% hint style="info" %}
-Kindly refer to the [official documentation](../../../deploy/deploy-rocket.chat/additional-deployment-methods/deploy-with-kubernetes.md#configuration) to learn more about the various configurations you can set for Helm in Rocket.Chat. To use microservices, visit our [Microservices documentation](https://docs.rocket.chat/deploy/deploy-rocket.chat/scaling-rocket.chat/microservices) for more details.
+Kindly refer to the [official documentation](../../../deploy/deploy-rocket.chat/deploy-with-kubernetes.md#configuration) to learn more about the various configurations you can set for Helm in Rocket.Chat. To use microservices, visit our [Microservices documentation](https://docs.rocket.chat/deploy/deploy-rocket.chat/scaling-rocket.chat/microservices) for more details.
 {% endhint %}
 
 2. **Install Rocket.Chat & Synapse**

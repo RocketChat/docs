@@ -11,7 +11,7 @@ By leveraging Amazon Web Services (AWS) to deploy Rocket.Chat on an EC2 instance
 The minimum requirement to run Rocket.Chat successfully is 2Gb 2 cores. You need an active AWS account to proceed with the deployment.
 
 {% hint style="warning" %}
-For deployments approaching 700 concurrent users and above,  [deploy-with-kubernetes.md](additional-deployment-methods/deploy-with-kubernetes.md "mention") is recommended.
+For deployments approaching 700 concurrent users and above,  [deploy-with-kubernetes.md](deploy-with-kubernetes.md "mention") is recommended.
 {% endhint %}
 
 In this guide, you'll learn how to: is&#x20;
