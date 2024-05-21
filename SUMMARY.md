@@ -166,7 +166,6 @@
     * [EasyRedmine](use-rocket.chat/workspace-administration/integrations/easyredmine.md)
     * [Giphy Integrations](use-rocket.chat/workspace-administration/integrations/giphy-integrations.md)
     * [GitLab](use-rocket.chat/workspace-administration/integrations/gitlab.md)
-    * [Google Calendar](use-rocket.chat/workspace-administration/integrations/google-calendar.md)
     * [GitHub](use-rocket.chat/workspace-administration/integrations/github.md)
     * [Graylog](use-rocket.chat/workspace-administration/integrations/graylog.md)
     * [Jenkins notifications via Rocket.Chat Marketplace](use-rocket.chat/workspace-administration/integrations/jenkins-notifications-via-rocket.chat-marketplace.md)
