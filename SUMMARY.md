@@ -193,7 +193,7 @@
   * [Emoji](use-rocket.chat/workspace-administration/emoji.md)
   * [Settings](use-rocket.chat/workspace-administration/settings/README.md)
     * [Accounts](use-rocket.chat/workspace-administration/settings/accounts/README.md)
-      * [Custom Fields](use-rocket.chat/workspace-administration/settings/accounts/custom-fields.md)
+      * [Configure Custom Fields for Users](use-rocket.chat/workspace-administration/settings/accounts/configure-custom-fields-for-users.md)
     * [Analytics](use-rocket.chat/workspace-administration/settings/analytics.md)
     * [Assets](use-rocket.chat/workspace-administration/settings/assets.md)
     * [Bots](use-rocket.chat/workspace-administration/settings/bots.md)
