@@ -20,14 +20,9 @@ Below are the basic account configuration settings. Most of the options can be s
 * **Allow User Password Change**: Setting this to false blocks users from changing their password.
 * **Allow Password Change for OAuth Users:** Setting this to false blocks OAuth users from changing their password.
 * **Allow Email Notifications:** Setting this to true enables the users to receive email notifications.
-* **Custom Fields to Show in User Info**: Other fields to be displayed in the user info.&#x20;
-
-{% hint style="info" %}
-To learn more, see [custom-fields.md](../../../omnichannel/custom-fields.md "mention").
-{% endhint %}
-
+* **Custom Fields to Show in User Info**: Other fields to be displayed in the user info. Refer to [Configure Custom Fields for Users](https://docs.rocket.chat/use-rocket.chat/workspace-administration/settings/accounts/configure-custom-fields-for-users).
 * **Login Expiration in Days**: The number of days after which a user is logged out if they are inactive.
-* **Show Default Login Form**: Setting this to false removes the login form from the login screen. It is useful when you are using a third-party login system.
+* **Show Default Login Form**: Setting this to false removes the login form from the login screen. This is useful when you are using a third-party login system.
 * **Placeholder for email or username login field**: This changes the placeholder for the _email or username_ field on the login screen.
 * **Placeholder for password login field**: This changes the placeholder for the _password_ field on the login screen.
 * **Confirm Placeholder for Password Login Field:** This confirms the placeholder for the password field on the login screen.
