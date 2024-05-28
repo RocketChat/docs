@@ -18,9 +18,6 @@ Remember to hit **Save Changes** in order to apply any changes made.
 **Custom Domain Whitelist for Auto Link** is available on workspaces running version 6.2 and above.
 {% endhint %}
 
-* **Allow Message Pinning**: When enabled, allow messages to be pinned to any channel.
-* **Allow Message Starring**: When enabled, users are able to star messages.
-* **Video Recorder Enabled**: Requires `video/webm` files to be an accepted media type within [File Upload](file-upload/) settings.
 * **Allow message Editing**: When enabled, users have the ability to edit messages.
 * **Block Message Editing After (n) Minutes**: Takes in time in minutes in which users are allowed to edit messages. After that they are unable. Enter 0 to disable blocking.
 * **Allow message-deleting**: Toggle on to allow users to be able to delete messages.
@@ -50,6 +47,26 @@ Remember to hit **Save Changes** in order to apply any changes made.
 * **DirectMesssage\_maxUsers**: Specifies the maximum uses for direct messages.
 * **Message Erasure Type**: Select from the drop-down what to do with messages of users who removed their accounts.
 * **Code highlighting languages list**: Comma-separated list of languages (all supported languages at [https://github.com/highlightjs/highlight.js/tree/9.18.5#supported-languages](https://github.com/highlightjs/highlight.js/tree/9.18.5#supported-languages) ) that are used to highlight code blocks.
+* **Video Recorder Enabled**: Requires `video/webm` files to be an accepted media type within [File Upload](file-upload/) settings.
+* **Allow Message Pinning**: When enabled, allow messages to be pinned to any channel.
+* **Allow Message Starring**: When enabled, users are able to star messages.
+* **Allow Custom Fields in Messages**: Enable this option to use custom fields for messages. For example, set priorities for messages. Note that you can only add custom fields via any of these API endpoints: [Update Message](https://developer.rocket.chat/reference/api/rest-api/endpoints/messaging/chat-endpoints/message-update), [Post Message](https://developer.rocket.chat/reference/api/rest-api/endpoints/messaging/chat-endpoints/postmessage), [Send Message](https://developer.rocket.chat/reference/api/rest-api/endpoints/messaging/chat-endpoints/send-message), and [Upload File to a Room](https://developer.rocket.chat/reference/api/rest-api/endpoints/rooms/rooms-endpoints/upload-file-to-a-room).
+* **Custom Fields Validation**: The custom field values will be validated according to the rules defined in this setting. Check [ajv.js.org](https://ajv.js.org/json-schema.html) for more information regarding validation options. Properties `type` and `additionalProperties` will be forced to `object` and `false` respectively. \
+  \
+  For example:
+
+```json
+{
+	"properties": {
+		"priority": {
+			"type": "string",
+			"nullable": false,
+			"enum": ["low", "medium", "high"]
+		}
+	},
+	"required": ["priority"]
+}
+```
 
 ## Hex Color Preview
 
