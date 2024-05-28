@@ -47,42 +47,8 @@ Need some help? Join our community forums https://forums.rocket.chat and https:/
 
 ```
 
-* Create a registered domain name to access Rocket.Chat. Set up an A record from your domain _(e.g. chat.mycompany.com)_ to the droplet's IP address. You'll need the domain for [#enabling-https](deploy-with-digital-ocean.md#enabling-https "mention").
+* Create a registered domain name to access Rocket.Chat. Set up an A record from your domain _(e.g. chat.mycompany.com)_ to the droplet's IP address. You'll need the domain for enabling HTTPs on your workspace.
 
 {% hint style="success" %}
-Behind the scenes, the image uses Docker to handle the deployment. See [deploy-with-docker-and-docker-compose.md](../deploy-with-docker-and-docker-compose.md "mention") to learn how to manage docker deployments.
+Behind the scenes, Digital Ocean uses Docker to handle the deployment. See [deploy-with-docker-and-docker-compose.md](../deploy-with-docker-and-docker-compose.md "mention") to learn how to manage docker deployments.
 {% endhint %}
-
-#### Enabling HTTPS
-
-It's important to note that Rocket.Chat doesn't have HTTPS enabled by default, as SSL certificates are unique to each installation. However, activating HTTPS with Let's Encrypt certificates can easily be done following the next steps.
-
-To enable HTTPS,
-
-* Ensure the correct A record (optionally CNAME) is set for your domain going to your droplet IP.
-* Create a user account without root access using this command:
-
-```bash
-username= #put your username here
-```
-
-```bash
-# you can omit docker group, if you do, run the docker commands with sudo
-sudo useradd -mG sudo,docker $username
-sudo passwd $username # give it a strong password
-# copy over the authorized_keys file so that you can ssh into that account directly
-sudo cp -r /root/.ssh /home/$username
-sudo chown -R $(id $username -u):$(id -g $username) /home/$username/.ssh
-sudo su - $username
-```
-
-* Once you can confirm the records update\[s] have propagated, copy the `rocketchat` project directory from the root, and change ownership.
-
-```bash
-cd ~
-sudo cp -r /root/rocketchat .
-sudo chown -R $UID:$GID rocketchat
-cd rocketchat
-```
-
-* Follow the steps highlighted in the [#enable-https](../deploy-with-docker-and-docker-compose.md#enable-https "mention") section of our docker deployment guide.​
