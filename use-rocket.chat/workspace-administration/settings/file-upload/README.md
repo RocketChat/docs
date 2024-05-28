@@ -37,7 +37,7 @@ Remember always to hit **Save Changes** to apply any changes made.
 
 ## Amazon S3
 
-You can find a more detailed guide on how to set up your Amazon S3 server [here](broken-reference).
+You can find a more detailed guide on how to set up your Amazon S3 server [here](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html).
 
 * **Bucket name**: The bucket name you've created on Amazon S3
 * **Acl**(Optional): A _Canned ACL_ configuration (see a complete list [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl))
@@ -55,6 +55,7 @@ You can find a more detailed guide on how to set up your Amazon S3 server [here]
     > If you run into issues with files not loading consistently for some users located further from server location. Increasing this time might help.
 * **Proxy Avatars**: Proxy avatar file transmissions through your server instead of direct access to the asset's URL
 * **Proxy Uploads**: Proxy upload file transmissions through your server instead of direct access to the asset's URL
+* **Proxy User Data Files**: Proxy user data file transmissions through your server instead of direct access to the asset's URL. For example, [exporting a room as file](../../../user-guides/rooms/direct-messages/direct-message-actions.md#exporting-messages-as-file).
 
 <details>
 
@@ -64,7 +65,9 @@ Set the following _CORS Configuration_ to your bucket.
 
 XML format (if using the old AWS console Interface):
 
-```markup
+Copy
+
+```
 [
     {
         "AllowedHeaders": [
@@ -87,7 +90,9 @@ XML format (if using the old AWS console Interface):
 
 JSON format (if using the new AWS console Interface):
 
-```javascript
+Copy
+
+```
 [
   {
     "AllowedHeaders": [
@@ -108,7 +113,7 @@ JSON format (if using the new AWS console Interface):
 ]
 ```
 
-**Note**: Replace `*ROCKET_CHAT_DOMAIN*` with the domain of your Rocket.Chat installation, e.g. `https://chat.example.com`.  Setting CORS to `*` posses a security risk because it allows for requests from any host on the Internet.
+**Note**: Replace `*ROCKET_CHAT_DOMAIN*` with the domain of your Rocket.Chat installation, e.g. `https://chat.example.com`. Setting CORS to `*` posses a security risk because it allows for requests from any host on the Internet.
 
 </details>
 
@@ -118,7 +123,7 @@ JSON format (if using the new AWS console Interface):
 
 ## Google Cloud Storage
 
-The settings used when configuring a Google Cloud Storage server. You can find more details [here](broken-reference).
+The settings used when configuring a Google Cloud Storage server. You can find more details [here](https://cloud.google.com/storage/docs/creating-buckets).
 
 * **Google Storage Bucket Name**: The bucket name to which the files should be uploaded.
 *   **Google Storage Access Id**: The access ID (or username) of the service account which has access to your Cloud Storage bucket.
@@ -129,6 +134,7 @@ The settings used when configuring a Google Cloud Storage server. You can find m
     > You can find a guide [here](https://github.com/CulturalMe/meteor-slingshot#google-cloud) on how to get your keys.
 * **Proxy Avatars**: Proxy avatar file transmissions through your server instead of direct access to the asset's URL
 * **Proxy Uploads**: Proxy upload file transmissions through your server instead of direct access to the asset's URL
+* **Proxy User Data Files**: Proxy user data file transmissions through your server instead of direct access to the asset's URL. For example, [exporting a room as file](../../../user-guides/rooms/direct-messages/direct-message-actions.md#exporting-messages-as-file).
 
 ### More Information
 
@@ -163,3 +169,4 @@ The settings used for WebDAV as a storage server.
 * **WebDAV Password**: Password for the remote WebDAV server.
 * **Proxy Avatars**: Proxy avatar file transmissions through your server instead of direct access to the asset's URL.
 * **Proxy Uploads**: Proxy uploads file transmissions through your server instead of directly accessing the asset's URL.
+* **Proxy User Data Files**: Proxy user data file transmissions through your server instead of direct access to the asset's URL. For example, [exporting a room as file](../../../user-guides/rooms/direct-messages/direct-message-actions.md#exporting-messages-as-file).
