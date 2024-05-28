@@ -66,11 +66,11 @@ To report a user, click the user icon and see the user's full profile. A **User 
 
 Workspace admins, moderators, and users with appropriate permissions can access the [**Moderation**](../../workspace-administration/moderation.md) tab to review the details of the reported messages and users.
 
-### Message Info
+### Read Receipts
 
 <figure><img src="../../../.gitbook/assets/Premium.svg" alt=""><figcaption></figcaption></figure>
 
-The message info shows a list of users that have read the message with a timestamp. The message info option is displayed when the  [**read receipts** setting](../../workspace-administration/settings/message.md#read-receipts) is enabled in the workspace. Click the **Info** option from the message actions menu to view the message info.
+Read receipts shows a list of users that have read the message with a timestamp. It is displayed when the [**read receipts** setting](../../workspace-administration/settings/message.md#read-receipts) is enabled in the workspace. Click the **Read receipts** option from the message actions menu to view this information.
 
 {% hint style="info" %}
 The message **Info** feature is available to workspaces subscribed to any of Rocket.Chat's [premium plans](../../../readme/our-plans.md).&#x20;

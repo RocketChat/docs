@@ -78,15 +78,11 @@ To preview a color you should write in this format: color:#000000 and it will be
 * **Show Read Receipts**: Whether to show read receipts.
 * **Detailed Read Receipts**: This shows each user's read receipts.
 
+When both options are enabled, the [read receipts action](../../user-guides/messages/message-actions.md#read-receipts) shows a list of users who have read the message.
+
 {% hint style="info" %}
-Delivered messages have a checkmark on the right.
-
-The checkmark turns blue when the message is read.
+Delivered messages are indicated by a grey checkmark on the right. Once the message is read, the checkmark turns into a blue double checkmark.
 {% endhint %}
-
-<figure><img src="../../../.gitbook/assets/image (842).png" alt=""><figcaption><p>Read receipt indicator</p></figcaption></figure>
-
-With read receipt enabled, the [message info action](../../user-guides/messages/message-actions.md#message-info) shows a list of users that have read the message.
 
 ## Auto-Translate <a href="#ibh8nd40he" id="ibh8nd40he"></a>
 
