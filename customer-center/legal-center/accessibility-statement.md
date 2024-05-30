@@ -93,11 +93,15 @@ Screen reader users frequently encounter challenges at some points within Rocket
 
 Mar 31, 2024
 
+Available in Rocket.Chat 6.9+
+
 #### Keyboard accessibility and navigability
 
 Not all functionalities of team collaboration are accessible via keyboard. Bypass blocks, page titles, focus order, keyboard traps, link purpose, multiple ways, headings, and labels will be reviewed and improved by our accessibility team.&#x20;
 
 Mar 31, 2024
+
+Available in Rocket.Chat 6.9+
 
 #### Input assistance
 
@@ -105,11 +109,15 @@ Not all areas of the product were originally designed to help users avoid and co
 
 Mar 31, 2024
 
+Available in Rocket.Chat 6.9+
+
 #### Easy language
 
 Rocket.Chat uses its unique terminology within the product and is in the process of creating a glossary to assist individuals in understanding any specific terminology or concepts.
 
 Mar 31, 2024
+
+Available in Rocket.Chat 6.9+
 
 #### Usable without reliance on sensory attributes
 
@@ -117,11 +125,15 @@ Mentions of content in the application should not rely solely on sensory element
 
 Jul 31, 2024
 
+Partially available in Rocket.Chat 6.9+
+
 #### Documentation of accessibility features and accessible documentation
 
 Our accessibility features are not comprehensively documented.
 
 Dec 31, 2023
+
+Available in [accessibility features](https://docs.rocket.chat/customer-center/legal-center/accessibility-statement#accessibility-features) section
 
 #### Accessible documentation
 
@@ -134,6 +146,18 @@ Aug 31, 2024
 Once we have accessibility features documented and accessible to everyone, we will train our support team.
 
 Aug 31, 2024
+
+#### Tables
+
+Rocket.Chat will identify the relationship for row and column headers. This helps users who rely on screen readers understand the table's structure and content.
+
+Mar 31, 2025
+
+#### Association of data cells and headers
+
+Ensure that data cells are properly associated with their corresponding headers in complex tables.
+
+June 30, 2025
 
 ### Barrier-free information technology oversight and monitoring agency
 
