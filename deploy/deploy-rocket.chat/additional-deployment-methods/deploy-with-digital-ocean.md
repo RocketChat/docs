@@ -1,18 +1,13 @@
 # Deploy with Digital Ocean
 
-Rocket.Chat offers a seamless and user-friendly solution for setting up your own chat platform on Digital Ocean with just a single click. With the [1-Click install](https://marketplace.digitalocean.com/apps/rocket-chat?action=deploy\&refcode=1940fe28bd31) from the Digital Ocean marketplace, you can effortlessly launch and configure Rocket.Chat, empowering your team to communicate and collaborate efficiently.
+Rocket.Chat offers a seamless and user-friendly solution for setting up your own chat platform on Digital Ocean with just a single click. With the [1-Click install](https://marketplace.digitalocean.com/apps/rocket-chat?action=deploy\&refcode=1940fe28bd31) from the Digital Ocean marketplace, you can effortlessly launch and configure Rocket.Chat, empowering your team to communicate and collaborate efficiently. In this guide, you'll learn how to Deploy Rocket.Chat on Digital Ocean.
 
 ## Preparation Steps
 
 Before you begin, make sure you have the following:
 
 * An active [Digital Ocean](https://www.digitalocean.com/) account
-* A domain name (optional). You can use Digital Ocean's provided IP address, but having a domain name is recommended for a more professional setup to enable HTTPs.
-
-In this guide, you'll learn how to:
-
-* [Deploy Rocket.Chat on Digital Ocean](deploy-with-digital-ocean.md#deploy-rocket.chat-on-digital-ocean)
-* [Enable HTTPs for your workspace](deploy-with-digital-ocean.md#enabling-https).
+* A domain name (optional). You can use Digital Ocean's provided IP address, but having a domain name is recommended for a more professional setup to enable HTTPS.
 
 ## Deploy Rocket.Chat on Digital Ocean
 
