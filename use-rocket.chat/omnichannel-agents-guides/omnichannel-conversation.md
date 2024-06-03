@@ -182,6 +182,8 @@ To search for files that have been attached to the conversation,
 * Enter the search query.
 * Optionally, choose the file type you are interested in. By default, all the file types are displayed.
 
+Visitors can access the uploaded files after a livechat conversation is closed. To do so, visitors must note the file upload link from the conversation.
+
 ## View contact chat history
 
 To get the chat history of the contact:
