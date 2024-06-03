@@ -8,7 +8,7 @@ description: >-
 
 Visit this section to get insight, statistics, and information on the various aspects of your server. This can help you to evaluate better and monitor the various activities.
 
-To access this menu, go to **Administration** > **Workspace** > **Workspace.**
+To access this menu, go to **Administration** > **Workspace**.
 
 ## Deployment&#x20;
 
@@ -16,6 +16,7 @@ The deployment info card shows information related to your server deployment.
 
 * **Version**: The current version of your Rocket.Chat server. This can be different from the latest version if not updated.
 * **Deployment ID**: Your server's deployment ID.
+* **Cloud Workspace ID**: Your workspace ID.
 * **Apps Engine Version**: The version of Apps engine. It can be different from the latest if not updated.
 * **Node Version**: The Node.js version your server is running on.
 * **Database Migration**: The date of database migration.
