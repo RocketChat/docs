@@ -2,9 +2,9 @@
 
 Welcome to the comprehensive guide on Rocket.Chat's security and compliance features. This documentation serves as a centralized resource for all security-related information about Rocket.Chat, offering detailed insights into the various security aspects of our product. Whether you're looking to understand specific features or seeking compliance-related information, this guide is designed to efficiently navigate you through Rocket.Chat's security landscape.
 
-## Available Resources:&#x20;
+## Available Resources:
 
-### 1. Product Security&#x20;
+### 1. Product Security
 
 * Rocket.Chat integrates security into numerous features of its platform. For detailed information on each security feature, utilize the search function in our Docs section with relevant keywords like OAuth, LDAP, and Encryption.
 * Explore summaries of critical security aspects in the following sections:
@@ -17,7 +17,7 @@ Welcome to the comprehensive guide on Rocket.Chat's security and compliance feat
 * [Security Features Overview:](https://www.rocket.chat/enterprise/security-compliance) A comprehensive look at Rocket.Chat's security solutions, including features, testimonials, and use cases.
 * [Privacy Policy](https://docs.rocket.chat/customer-center/privacy-center/rocket.chat-privacy-policy): Information on how personal data is processed.
 * [Terms of Use](../../applicable-terms/additional-terms/terms-of-use.md): Legal documentation outlining the provision of use like push notifications.
-* [GDPR Compliance](https://chat.openai.com/c/8eb9da7d-8b7e-4ac9-b5ce-00b13fd6cc3b): Documentation on the GDPR requirements implemented in 2018.
+* [GDPR Compliance](../legal-center/gdpr.md): Documentation on the GDPR requirements implemented in 2018.
 
 ### **3. Community Engagement**:
 
