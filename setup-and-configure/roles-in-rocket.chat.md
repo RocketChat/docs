@@ -30,7 +30,7 @@ To create and manage custom roles with specified permissions tailored to your ne
 
 [Omnichannel](../use-rocket.chat/omnichannel/) roles allow users to interact with or manage various Omnichannel features.
 
-<table><thead><tr><th width="253">Role</th><th>Description</th></tr></thead><tbody><tr><td><code>Livechat Agent</code></td><td>LiveChat <a href="../use-rocket.chat/omnichannel/agents.md">Agents</a> handle visitors' inquiries and support requests through <a href="../use-rocket.chat/omnichannel/livechat-widget-installation.md">Omnichannel Live Chat</a>.</td></tr><tr><td><code>Livechat Manager</code></td><td>LiveChat <a href="../use-rocket.chat/omnichannel/managers.md">Managers </a>can manage Livechat <a href="../use-rocket.chat/omnichannel/agents.md">Agents</a> and all other <a href="../use-rocket.chat/omnichannel/">Omnichannel </a>features.</td></tr><tr><td><code>livechat-monitor</code></td><td>Users with the <code>livechat-monitor</code> role can view and <a href="../use-rocket.chat/omnichannel/monitors.md">monitor </a>Live Chat interactions and analytics.</td></tr></tbody></table>
+<table><thead><tr><th width="253">Role</th><th>Description</th></tr></thead><tbody><tr><td><code>Livechat Agent</code></td><td>LiveChat <a href="../use-rocket.chat/omnichannel/agents.md">Agents</a> handle visitors' inquiries and support requests through <a href="../use-rocket.chat/omnichannel/livechat-widget-installation.md">Omnichannel Livechat</a>.</td></tr><tr><td><code>Livechat Manager</code></td><td>LiveChat <a href="../use-rocket.chat/omnichannel/managers.md">Managers </a>can manage Livechat <a href="../use-rocket.chat/omnichannel/agents.md">Agents</a> and all other <a href="../use-rocket.chat/omnichannel/">Omnichannel </a>features.</td></tr><tr><td><code>livechat-monitor</code></td><td>Users with the <code>livechat-monitor</code> role can view and <a href="../use-rocket.chat/omnichannel/monitors.md">monitor </a>livechat interactions and analytics.</td></tr></tbody></table>
 
 ### Rocket.Chat Marketplace Roles
 
@@ -68,26 +68,30 @@ While you can globally assign some room roles to a user when creating or editing
 
 Every Rocket.chat workspace has some default roles, which include the following:
 
-* **admin** (Global scope) - Have access to all settings and workspace administrator tools.
-* **moderator** (Room scope) - Have moderation permissions for a channel. It must be assigned by the [room](https://docs.rocket.chat/use-rocket.chat/user-guides/rooms) owner.
-* **owner** (Room scope) - Have owner permissions for a room. Users who create a room become the owner of that room. They can also assign more owners for that room.
-* **user** (Global scope) - Normal user rights. Most users receive this role when registering in the workspace.
-* **bot** (Global scope) - Special Role for bot users, with some permissions related to bot functionality.
-* **leader** (Room scope) - It is used when setting a `leader` in a [room](https://docs.rocket.chat/use-rocket.chat/workspace-administration/rooms). Leaders appear on the header of a channel.
-* **anonymous** (Global scope) - Unauthenticated users that access the workspace when the `Allow Anonymous Read` setting is activated.
-* **guest** (Global scope) - Anonymous users that want to write and participate in rooms when the `Allow Anonymous Read` and `Allow Anonymous Write` settings are activated.
-* **livechat-agent** (Global scope) - Omnichannel [agents](https://docs.rocket.chat/use-rocket.chat/omnichannel/agents). They can answer to Live Chat requests.
-* **livechat-manager** (Global scope) - Omnichannel [managers](https://docs.rocket.chat/use-rocket.chat/omnichannel/managers), can manage agents and guests.
-* **livechat-guest** (Global scope) - Users coming from a Live Chat room.
+<table><thead><tr><th width="176">Role</th><th width="160">Scope</th><th>Description</th></tr></thead><tbody><tr><td><strong>admin</strong></td><td>Global</td><td>Access to all settings and workspace administrator tools.</td></tr><tr><td><strong>moderator</strong> </td><td>Room</td><td>Moderation permissions for a channel. It must be assigned by the room owner.</td></tr><tr><td><strong>owner</strong> </td><td>Room</td><td>Owner permissions for a room. Users who create a room become the owner of that room. They can also assign more owners for that room.</td></tr><tr><td><strong>user</strong> </td><td>Global</td><td>Normal user rights. Most users receive this role when registering in the workspace.</td></tr><tr><td><strong>bot</strong> </td><td>Global</td><td>Role for bot users, with some permissions related to bot functionality.</td></tr><tr><td><strong>leader</strong> </td><td>Room</td><td>It is used when setting a <code>leader</code> in a room. Leaders appear on the header of a channel.</td></tr><tr><td><strong>anonymous</strong> </td><td>Global</td><td>Unauthenticated users that access the workspace when the <code>Allow Anonymous Read</code> setting is activated.</td></tr><tr><td><strong>guest</strong> </td><td>Global</td><td>Anonymous users that want to participate in rooms when the <code>Allow Anonymous Read</code> and <code>Allow Anonymous Write</code> settings are activated.</td></tr><tr><td><strong>livechat-agent</strong></td><td>Global</td><td>Omnichannel <a href="https://docs.rocket.chat/use-rocket.chat/omnichannel/agents">agents</a>. They can answer livechat requests.</td></tr><tr><td><strong>livechat-manager</strong></td><td>Global</td><td>Omnichannel <a href="https://docs.rocket.chat/use-rocket.chat/omnichannel/managers">managers</a>, can manage agents and guests.</td></tr><tr><td><strong>livechat-guest</strong></td><td>Global</td><td>Users coming from a livechat room.</td></tr></tbody></table>
 
 ## Edit and delete roles
 
-Go to **Administration** > **Permissions**.
+Go to **Administration** > **Permissions**. You can edit the details of custom roles only.
 
-* Click the role from the **Name** row.
-* Update the required details and click **Save** to edit the role**.**
+* Click the custom role from the **Name** row.
+* Update the details - **Description** and **Scope**. You cannot edit the custom role name from the workspace. To edit the role name, use the endpoint [Update Role](https://developer.rocket.chat/reference/api/rest-api/endpoints/user-management/roles-endpoints/update-role).
+* Click **Save**.
 * Click **Delete** to delete the role.
-* Click **Users in Role** to see the users who have been assigned to that particular role.
+
+### View and edit users in roles
+
+On the **Role Editing** pane, click **Users in Role** to see the users who have been assigned to that particular role. You can add more users to the role and delete users from here.
+
+The following screenshot shows an example of the **user** role:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+For the roles with the **Room** scope, you need to first select a room. The users with that role in the room are displayed. The following screenshot shows an example of the **Moderator** role in a room called **random**:
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+In this example, to give other users the **Moderator** role in the **random** room, search for the user and click **Add**.
 
 {% hint style="info" %}
 * For information on creating custom roles, see [Custom Roles](https://docs.rocket.chat/use-rocket.chat/user-management/custom-roles).
