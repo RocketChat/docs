@@ -39,7 +39,7 @@ If you encounter any accessibility barriers or have suggestions for improvement,
 
 ### Compatibility and browser support
 
-Rocket.Chat aims to provide a consistent and accessible experience across various web browsers and platforms. However, there may be occasional variations due to factors beyond our control.
+Rocket.Chat aims to provide a consistent and accessible experience across various web browsers. However, there may be occasional variations due to factors beyond our control.
 
 ### Scope of application
 
