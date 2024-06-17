@@ -13,11 +13,15 @@ Some additional edit actions for a discussions include:
 
 **Password Access**
 
-Secure a discussion by setting up password access. It means users can only join the discussion with a valid password.
+Set up password access to secure a discussion. This means users can only join the discussion with a valid password.
 
 **Hide System Messages**
 
 Select the Rocket.Chat action alerts to hide. For example—"Hide User Joined messages" will hide the alert that displays in the chat whenever a new user joins the discussion.
+
+**Prune**
+
+Kindly refer to [#per-room-policies](../../../workspace-administration/settings/retention-policy.md#per-room-policies "mention") to define retention policy in a discussion.
 
 ## Star Messages in Discussion
 

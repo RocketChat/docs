@@ -23,6 +23,10 @@ Select the Rocket.Chat action alerts to hide. For example—"Hide User Joined me
 
 Allow authorized members to react to messages in a broadcast channel.
 
+**Prune**
+
+Kindly refer to [#per-room-policies](../../../workspace-administration/settings/retention-policy.md#per-room-policies "mention") to define retention policy in a channel.
+
 ## Hide or Leave a Channel
 
 * To **Hide** or **Leave** a channel, click the **kebab** icon next to the delete button on the **Channel Information** page.

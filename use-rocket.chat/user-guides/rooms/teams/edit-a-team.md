@@ -27,6 +27,10 @@ Allow authorized members to react to messages in a broadcast team.
 The delete and reset option is also available when editing a Team.
 {% endhint %}
 
+**Prune**
+
+Kindly refer to [#per-room-policies](../../../workspace-administration/settings/retention-policy.md#per-room-policies "mention") to define retention policy in a team.
+
 ## Hide or Leave a Team <a href="#hide-or-leave-a-team" id="hide-or-leave-a-team"></a>
 
 * To **Hide** or **Leave** a team, click the **three dots** icon next to the delete button in the Team Information page.
