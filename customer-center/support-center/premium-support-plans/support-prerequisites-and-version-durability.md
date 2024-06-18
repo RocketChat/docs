@@ -39,8 +39,8 @@ Please note that **end-of-life** for any version signifies the last day of the m
 
 | Rocket.Chat Release                                                            | Released At | End of Life |
 | ------------------------------------------------------------------------------ | ----------: | ----------: |
-| 6.9 ((6.9.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.9.1)     |    Jun 2024 |    Dec 2024 |
-| 6.8 ((6.8.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.8.1)     |    May 2024 |    Nov 2024 |
+| 6.9 ([6.9.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.9.1)     |    Jun 2024 |    Dec 2024 |
+| 6.8 ([6.8.1](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.8.1)     |    May 2024 |    Nov 2024 |
 | 6.7 ([6.7.2](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.7.2))    |    Apr 2024 |    Oct 2024 |
 | 6.6 ([6.6.7](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.6.7))    |    Feb 2024 |    Aug 2024 |
 | 6.5 ([6.5.6](https://github.com/RocketChat/Rocket.Chat/releases/tag/6.5.6))    |    Dec 2023 |    Jun 2024 |
